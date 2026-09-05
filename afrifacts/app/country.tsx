@@ -4,7 +4,7 @@ import { useMemo, useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
-import { getCountries } from '@/src/data';
+import { getCountries, setCountry, useCountry } from '@/src/data';
 import {
   brandGreen,
   categoryColors,
@@ -27,7 +27,10 @@ import {
 export default function CountryPickerScreen() {
   const { colors } = useTheme();
   const [query, setQuery] = useState('');
-  const [selected, setSelected] = useState('NG');
+  // The live choice, not a copy of it. The sheet used to hold its own
+  // `useState('NG')`, so picking a country set a variable that was thrown
+  // away the moment this screen unmounted.
+  const selected = useCountry();
 
   const countries = useMemo(() => getCountries(), []);
   const pinned = countries.filter((c) => c.code === 'AFR');
@@ -39,7 +42,7 @@ export default function CountryPickerScreen() {
   }, [countries, query]);
 
   function choose(code: string) {
-    setSelected(code);
+    setCountry(code);
     router.back();
   }
 
@@ -94,7 +97,13 @@ export default function CountryPickerScreen() {
                     opacity: c.hasContent ? 1 : 0.5,
                   },
                 ]}>
-                <Text style={[typeScale.option, { color: colors.text }]}>{c.name}</Text>
+                {/* §4.6 asks for flags. The field existed and was never
+                    rendered; it is derived from the code now, so every
+                    country added later arrives with one. */}
+                <Text style={styles.flag}>{c.flag}</Text>
+                <Text style={[typeScale.option, styles.countryName, { color: colors.text }]}>
+                  {c.name}
+                </Text>
 
                 {isSelected ? (
                   <View style={[styles.check, { backgroundColor: brandGreen }]}>
@@ -140,5 +149,8 @@ const styles = StyleSheet.create({
     paddingHorizontal: spacing.lg,
     paddingVertical: spacing.lg,
   },
+  flag: { fontSize: 20, marginRight: spacing.md },
+  // Takes the middle so the check or "Coming soon" stays pinned right.
+  countryName: { flex: 1 },
   check: { width: 22, height: 22, borderRadius: 11, alignItems: 'center', justifyContent: 'center' },
 });

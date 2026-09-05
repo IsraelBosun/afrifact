@@ -16,7 +16,7 @@
     "promote": "node scripts/promote.js",
     "images": "node scripts/images.js",
     "quizzes": "node scripts/quizzes.js",
-    "export": "node scripts/export.js",
+    "push": "node scripts/push.js",
     "backfill": "node scripts/backfill.js"
   },
   "dependencies": {

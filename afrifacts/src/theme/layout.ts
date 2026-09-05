@@ -42,6 +42,15 @@ export const metrics = {
    */
   photoMinHeight: 150,
   /**
+   * Floor for a tile in the Saved grid.
+   *
+   * Sized so a 390x844 screen shows six rather than eight: two columns and
+   * a shade under three rows, once the header and the tab bar are out.
+   * Bigger tiles are also more useful ones — at 150 a tile held a fragment
+   * of its fact and every one of them had to be opened to be identified.
+   */
+  savedTileMinHeight: 210,
+  /**
    * Content height of the tab bar, before the device's bottom inset is
    * added. Set explicitly because the default leaves the labels sitting on
    * the very edge of the screen on phones that report no bottom inset.
@@ -75,6 +84,15 @@ export const shareCard = {
   },
   /** Inner padding, in layout units. */
   padding: 28,
+  /**
+   * Side margin for the fact and the footer on a fact share card.
+   *
+   * Tighter than `padding`, which the score card keeps — a score card
+   * holds one numeral and wants the air, while a fact card holds up to
+   * 296 characters and is read at thumbnail size in someone's feed. The
+   * fact wants the width more than the card wants the margin.
+   */
+  textPadding: 20,
   /** Photo takes the top of the card, panel carries the text below. */
   photoRatio: 0.58,
   /** Floor for the photo, since the text block is now content-sized. */

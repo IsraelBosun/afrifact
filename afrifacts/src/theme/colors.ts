@@ -32,7 +32,13 @@ export const categoryColors: Record<Category, ColorFamily> = {
 /** Streak flames, daily-goal moments, and the amber accent generally. */
 export const amber: ColorFamily = { light: '#FAC775', mid: '#854F0B', dark: '#633806' };
 
-/** The logo mark and the active tab. The one colour that never changes with category. */
+/**
+ * The active tab, the retry button, and correct quiz answers. The one
+ * colour that never changes with category.
+ *
+ * No longer the logo: the mark is the patterned Africa drawing, which
+ * carries its own palette and its own cream ground.
+ */
 export const brandGreen = '#1D9E75';
 
 /** Quiz answer feedback. Correct and wrong, nothing else. */

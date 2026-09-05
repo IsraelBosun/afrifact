@@ -1,0 +1,32 @@
+{
+  "at": "2026-09-05T21:45:14.823Z",
+  "url": "https://dzlksgbtbotugazhdmez.supabase.co",
+  "schema": "afrifacts",
+  "facts": 114,
+  "published": 111,
+  "sent": {
+    "facts": 114,
+    "image_candidates": 868,
+    "quiz_questions": 336,
+    "fact_sources": 115,
+    "provenance": 114,
+    "reviews": 114,
+    "images": 114,
+    "sources": 40,
+    "ledger": 54
+  },
+  "deleted": {
+    "facts": 1
+  },
+  "live": {
+    "facts": 114,
+    "image_candidates": 868,
+    "quiz_questions": 336,
+    "fact_sources": 115,
+    "provenance": 114,
+    "reviews": 150,
+    "images": 114,
+    "sources": 40,
+    "ledger": 54
+  }
+}

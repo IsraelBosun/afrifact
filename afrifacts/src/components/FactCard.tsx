@@ -24,6 +24,7 @@ import { hasImage, type Fact } from '@/src/types';
  */
 export function FactCard({
   fact,
+  number,
   saved,
   onSave,
   onShare,
@@ -31,6 +32,11 @@ export function FactCard({
   onAdvance,
 }: {
   fact: Fact;
+  /**
+   * The canonical "Fact #N" — the same on every device, and independent of
+   * the shuffle this card happens to be sitting in.
+   */
+  number: number;
   saved: boolean;
   onSave: () => void;
   onShare: () => void;
@@ -38,13 +44,20 @@ export function FactCard({
   onAdvance: () => void;
 }) {
   const family = familyFor(fact.category);
+  const counter = `Fact #${number}`;
 
   if (hasImage(fact)) {
     const panel = fact.image.panelColor;
     return (
       <Pressable style={[styles.card, { backgroundColor: panel }]} onPress={onAdvance}>
         <View style={styles.photoWrap}>
-          <Image source={{ uri: fact.image.url }} style={styles.photo} contentFit="cover" />
+          {/* Top-anchored: a centre crop was cutting the subject's head off. */}
+          <Image
+            source={{ uri: fact.image.url }}
+            style={styles.photo}
+            contentFit="cover"
+            contentPosition="top"
+          />
           <View style={[styles.categoryPill, styles.pillOnPhoto]}>
             <Text style={[typeScale.eyebrow, { color: family.light }]}>
               {fact.category.toUpperCase()}
@@ -79,6 +92,11 @@ export function FactCard({
               onSparkle={onSparkle}
             />
           </View>
+
+          {/* Its own line at the foot of the panel, out of the row above. */}
+          <Text style={[typeScale.caption, styles.counter, { color: family.light }]}>
+            {counter}
+          </Text>
         </View>
       </Pressable>
     );
@@ -99,6 +117,18 @@ export function FactCard({
 
         <VerifiedLine compact source={fact.source.name} url={fact.source.url} color={family.mid} />
       </View>
+
+      {/*
+        The number, on its own at the bottom edge.
+
+        Deliberately outside `typoBody` and out of the verified line's row:
+        sharing a row with the source and the rail made it a fourth item
+        competing for that space, and it is a footnote about the card
+        rather than one of its controls.
+      */}
+      <Text style={[typeScale.caption, styles.counter, styles.counterTypo, { color: family.mid }]}>
+        {counter}
+      </Text>
 
       <View style={styles.typoRail}>
         <ActionRail
@@ -156,7 +186,10 @@ const styles = StyleSheet.create({
     // steps down at 70 and 150 characters, so every dp of width taken by
     // padding is paid for in font size. Vertical stays at 24 — that gap
     // is what separates the panel from the photograph above it.
-    paddingVertical: spacing.xl,
+    paddingTop: spacing.xl,
+    // Small at the foot, because the counter sits there and wants to be
+    // near the border rather than floating above a band of colour.
+    paddingBottom: spacing.md,
     paddingHorizontal: spacing.lg,
     gap: spacing.md,
   },
@@ -173,12 +206,31 @@ const styles = StyleSheet.create({
     gap: spacing.md,
   },
   panelSource: { flex: 1 },
+  /*
+    Its own line, hard against the bottom of the card.
+
+    Not in the row with the source and the rail: there it was a fourth
+    thing competing for one line, and the source name is already the part
+    that has to yield.
+  */
+  counter: { opacity: 0.65, fontVariant: ['tabular-nums'] },
+  // Outside `typoBody`, so it carries its own side padding and just enough
+  // bottom space to sit near the border without touching it.
+  counterTypo: { paddingHorizontal: spacing.xl, paddingBottom: spacing.md },
   // --- typographic variant ---
   // A column: pill, then the fact taking whatever is left, then the source
   // line. The fact was previously absolute-positioned against a pinned
   // footer, which meant a long fact ran underneath both the source line and
   // the rail. In flow, it cannot.
-  typoBody: { flex: 1, padding: spacing.xl, gap: spacing.lg },
+  // Bottom padding is small because the counter sits below this, outside
+  // it, and supplies the rest of the gap to the card's edge.
+  typoBody: {
+    flex: 1,
+    paddingTop: spacing.xl,
+    paddingHorizontal: spacing.xl,
+    paddingBottom: spacing.sm,
+    gap: spacing.lg,
+  },
   // The rail is a floating column on the right, so the fact reserves its
   // width. Without this gutter the buttons sit on top of the words.
   //

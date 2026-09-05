@@ -60,11 +60,27 @@ export const type = {
     lineHeight: 23,
     letterSpacing: 0,
   },
-  /** Deep dive headline, quiz question. */
+  /** Quiz question, quiz card prompt, empty states. */
   headline: {
     fontFamily: fonts.serif,
     fontSize: 25,
     lineHeight: 33,
+    letterSpacing: -0.2,
+  },
+  /**
+   * The fact as the deep dive's title, on the coloured panel.
+   *
+   * A step under `headline`, which it used to share. A quiz question is
+   * the only thing on its screen and §4.3 wants it large; a deep dive
+   * title is a cover for the article under it, and at 25 a median fact ran
+   * to four lines of serif before the reader reached a paragraph. The
+   * ladder the feed card uses is not needed here — the panel scrolls, so a
+   * long fact costs height rather than getting clipped.
+   */
+  factTitle: {
+    fontFamily: fonts.serif,
+    fontSize: 21,
+    lineHeight: 29,
     letterSpacing: -0.2,
   },
   /** Score numerals and profile stat figures. */
@@ -86,11 +102,25 @@ export const type = {
     fontSize: 22,
     lineHeight: 28,
   },
-  /** Article paragraphs on the light reading surface. */
+  /** Short prose: quiz explanations, the premium card, empty states. */
   body: {
     fontFamily: fonts.sans,
     fontSize: 14,
     lineHeight: 23,
+  },
+  /**
+   * Deep dive paragraphs and the "why it matters" callout.
+   *
+   * A step up from `body`, which is where these used to sit. `body` is
+   * sized for a sentence or two inside something else — a card, a
+   * feedback block — and a deep dive is the one screen in the app that
+   * asks for sustained reading, where 14 is small enough to be work. The
+   * 1.6 line height is doing as much of that as the size is.
+   */
+  article: {
+    fontFamily: fonts.sans,
+    fontSize: 16,
+    lineHeight: 26,
   },
   /** Quiz answer options, country rows, list items. */
   option: {

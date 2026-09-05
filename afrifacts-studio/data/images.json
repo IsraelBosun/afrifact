@@ -125,15 +125,6 @@
     "at": "",
     "refused": []
   },
-  "nf_1073": {
-    "status": "accepted",
-    "file": "File:Kanem–Bornu, 1259.png",
-    "reasoning": "Bulk accepted without individual review.",
-    "decidedBy": "Israel Bosun",
-    "decidedAt": "2026-09-01",
-    "at": "",
-    "refused": []
-  },
   "nf_1075": {
     "status": "accepted",
     "file": "File:Outside Nike Art Gallery (4202980259).jpg",
@@ -146,24 +137,6 @@
   "nf_1076": {
     "status": "accepted",
     "file": "File:Lekki link bridge.jpg",
-    "reasoning": "Bulk accepted without individual review.",
-    "decidedBy": "Israel Bosun",
-    "decidedAt": "2026-09-01",
-    "at": "",
-    "refused": []
-  },
-  "nf_1082": {
-    "status": "accepted",
-    "file": "File:Nok sculpture Louvre 70-1998-11-1.jpg",
-    "reasoning": "Bulk accepted without individual review.",
-    "decidedBy": "Israel Bosun",
-    "decidedAt": "2026-09-01",
-    "at": "",
-    "refused": []
-  },
-  "nf_1081": {
-    "status": "accepted",
-    "file": "File:Sculpture nok-Nigeria (1).jpg",
     "reasoning": "Bulk accepted without individual review.",
     "decidedBy": "Israel Bosun",
     "decidedAt": "2026-09-01",
@@ -242,27 +215,9 @@
     "at": "",
     "refused": []
   },
-  "nf_1020": {
-    "status": "accepted",
-    "file": "File:Tobi Amusan (2024).jpg",
-    "reasoning": "Bulk accepted without individual review.",
-    "decidedBy": "Israel Bosun",
-    "decidedAt": "2026-09-01",
-    "at": "",
-    "refused": []
-  },
   "nf_1038": {
     "status": "accepted",
     "file": "File:Ondervoede kinderen, Bestanddeelnr 921-5788 (cropped).jpg",
-    "reasoning": "Bulk accepted without individual review.",
-    "decidedBy": "Israel Bosun",
-    "decidedAt": "2026-09-01",
-    "at": "",
-    "refused": []
-  },
-  "nf_1066": {
-    "status": "accepted",
-    "file": "File:Twins mother statue.jpg",
     "reasoning": "Bulk accepted without individual review.",
     "decidedBy": "Israel Bosun",
     "decidedAt": "2026-09-01",
@@ -290,15 +245,6 @@
   "nf_1001": {
     "status": "accepted",
     "file": "File:Mkobulgaria (2).jpg",
-    "reasoning": "Chosen by the reviewer.",
-    "decidedBy": "Israel",
-    "decidedAt": "2026-09-02",
-    "at": "",
-    "refused": []
-  },
-  "nf_1008": {
-    "status": "accepted",
-    "file": "File:Chimamanda Ngozi Adichie at a signing in Berlin, Germany on 16 May 2014 (cropped).jpg",
     "reasoning": "Chosen by the reviewer.",
     "decidedBy": "Israel",
     "decidedAt": "2026-09-02",
@@ -377,45 +323,9 @@
     "at": "",
     "refused": []
   },
-  "nf_1061": {
-    "status": "accepted",
-    "file": "File:James Brown Live Hamburg 1973 1702730029.jpg",
-    "reasoning": "Chosen by the reviewer.",
-    "decidedBy": "Israel",
-    "decidedAt": "2026-09-02",
-    "at": "",
-    "refused": []
-  },
   "nf_1064": {
     "status": "accepted",
     "file": "File:Twins mother statue.jpg",
-    "reasoning": "Chosen by the reviewer.",
-    "decidedBy": "Israel",
-    "decidedAt": "2026-09-02",
-    "at": "",
-    "refused": []
-  },
-  "nf_1067": {
-    "status": "accepted",
-    "file": "File:Bronze head and ram's head.jpg",
-    "reasoning": "Chosen by the reviewer.",
-    "decidedBy": "Israel",
-    "decidedAt": "2026-09-02",
-    "at": "",
-    "refused": []
-  },
-  "nf_1069": {
-    "status": "accepted",
-    "file": "File:Jollof Rice with Stew.jpg",
-    "reasoning": "Chosen by the reviewer.",
-    "decidedBy": "Israel",
-    "decidedAt": "2026-09-02",
-    "at": "",
-    "refused": []
-  },
-  "nf_1083": {
-    "status": "accepted",
-    "file": "File:Brooklyn Museum 1989.51.39 Nommo Figure with Raised Arms.jpg",
     "reasoning": "Chosen by the reviewer.",
     "decidedBy": "Israel",
     "decidedAt": "2026-09-02",
@@ -476,15 +386,6 @@
     "at": "",
     "refused": []
   },
-  "nf_1131": {
-    "status": "accepted",
-    "file": "File:Zuma Rock - Village.jpg",
-    "reasoning": "Chosen by the reviewer.",
-    "decidedBy": "Israel",
-    "decidedAt": "2026-09-02",
-    "at": "",
-    "refused": []
-  },
   "nf_1002": {
     "status": "accepted",
     "file": "web:b447c32c632b",
@@ -492,15 +393,6 @@
     "decidedBy": "Israel",
     "decidedAt": "2026-09-03",
     "at": "",
-    "refused": []
-  },
-  "nf_1003": {
-    "status": "accepted",
-    "file": "web:a3cebdbb1f52",
-    "reasoning": "Top web image result for \"Abiola ITT Nigeria\". Licence not checked.",
-    "decidedBy": "pipeline",
-    "decidedAt": "2026-09-05",
-    "at": "2026-09-05T08:51:27.236Z",
     "refused": []
   },
   "nf_1005": {
@@ -537,15 +429,6 @@
     "decidedBy": "Israel",
     "decidedAt": "2026-09-02",
     "at": "",
-    "refused": []
-  },
-  "nf_1018": {
-    "status": "accepted",
-    "file": "web:3a59673828e5",
-    "reasoning": "Top web image result for \"Robert Norris Whydah\". Licence not checked.",
-    "decidedBy": "pipeline",
-    "decidedAt": "2026-09-05",
-    "at": "2026-09-05T08:51:39.930Z",
     "refused": []
   },
   "nf_1024": {
@@ -593,15 +476,6 @@
     "at": "",
     "refused": []
   },
-  "nf_1090": {
-    "status": "accepted",
-    "file": "File:Nigerian Public Domain 831.jpg",
-    "reasoning": "Chosen by the reviewer.",
-    "decidedBy": "Israel",
-    "decidedAt": "2026-09-02",
-    "at": "",
-    "refused": []
-  },
   "nf_1106": {
     "status": "accepted",
     "file": "File:IMG-20180922-WA0007 cropped.jpg",
@@ -627,15 +501,6 @@
     "decidedBy": "pipeline",
     "decidedAt": "2026-09-05",
     "at": "2026-09-05T08:51:45.639Z",
-    "refused": []
-  },
-  "nf_1028": {
-    "status": "accepted",
-    "file": "web:f18db2163ed3",
-    "reasoning": "Top web image result for \"Emmanuel Babayaro goalkeeper\". Licence not checked.",
-    "decidedBy": "pipeline",
-    "decidedAt": "2026-09-05",
-    "at": "2026-09-05T08:51:49.506Z",
     "refused": []
   },
   "nf_1033": {
@@ -710,15 +575,6 @@
     "at": "2026-09-05T08:52:46.677Z",
     "refused": []
   },
-  "nf_1045": {
-    "status": "accepted",
-    "file": "web:eecf4689bc80",
-    "reasoning": "Top web image result for \"Burna Boy Headies 2023\". Licence not checked.",
-    "decidedBy": "pipeline",
-    "decidedAt": "2026-09-05",
-    "at": "2026-09-05T08:52:53.086Z",
-    "refused": []
-  },
   "nf_1050": {
     "status": "accepted",
     "file": "web:bc85abf3cfff",
@@ -746,24 +602,6 @@
     "at": "2026-09-05T08:53:04.146Z",
     "refused": []
   },
-  "nf_1060": {
-    "status": "accepted",
-    "file": "web:82362a465597",
-    "reasoning": "Top web image result for \"Fela Kuti band saxophones\". Licence not checked.",
-    "decidedBy": "pipeline",
-    "decidedAt": "2026-09-05",
-    "at": "2026-09-05T08:53:05.953Z",
-    "refused": []
-  },
-  "nf_1065": {
-    "status": "accepted",
-    "file": "web:9b15c1773215",
-    "reasoning": "Top web image result for \"Igbo-Ora Obe Alade\". Licence not checked.",
-    "decidedBy": "pipeline",
-    "decidedAt": "2026-09-05",
-    "at": "2026-09-05T08:53:08.419Z",
-    "refused": []
-  },
   "nf_1074": {
     "status": "accepted",
     "file": "web:38fbc09aa759",
@@ -780,24 +618,6 @@
     "decidedBy": "pipeline",
     "decidedAt": "2026-09-05",
     "at": "2026-09-05T08:54:14.672Z",
-    "refused": []
-  },
-  "nf_1091": {
-    "status": "accepted",
-    "file": "web:1c479d2dcd0a",
-    "reasoning": "Top web image result for \"Nigerian Railway Corporation wagon 1948\". Licence not checked.",
-    "decidedBy": "pipeline",
-    "decidedAt": "2026-09-05",
-    "at": "2026-09-05T08:54:23.543Z",
-    "refused": []
-  },
-  "nf_1092": {
-    "status": "accepted",
-    "file": "web:8d3261cf5453",
-    "reasoning": "Top web image result for \"Eze Nri palace\". Licence not checked.",
-    "decidedBy": "pipeline",
-    "decidedAt": "2026-09-05",
-    "at": "2026-09-05T08:54:28.014Z",
     "refused": []
   },
   "nf_1097": {
@@ -881,24 +701,6 @@
     "at": "2026-09-05T08:55:01.682Z",
     "refused": []
   },
-  "nf_1118": {
-    "status": "accepted",
-    "file": "web:aec40210ac06",
-    "reasoning": "Top web image result for \"Waziri Gidado Sokoto\". Licence not checked.",
-    "decidedBy": "pipeline",
-    "decidedAt": "2026-09-05",
-    "at": "2026-09-05T08:55:12.465Z",
-    "refused": []
-  },
-  "nf_1119": {
-    "status": "accepted",
-    "file": "File:View of Sokoto (1890).jpg",
-    "reasoning": "The image shows a view of Sokoto, but the fact is about a dungeon in Kano, so this is not a match.",
-    "decidedBy": "pipeline",
-    "decidedAt": "2026-09-05",
-    "at": "2026-09-05T08:51:13.609Z",
-    "refused": []
-  },
   "nf_1121": {
     "status": "accepted",
     "file": "web:b557f48306ad",
@@ -908,24 +710,6 @@
     "at": "2026-09-05T08:55:17.249Z",
     "refused": []
   },
-  "nf_1122": {
-    "status": "accepted",
-    "file": "web:9a18af2d736e",
-    "reasoning": "Top web image result for \"Wole Soyinka Gbenga Daniel\". Licence not checked.",
-    "decidedBy": "pipeline",
-    "decidedAt": "2026-09-05",
-    "at": "2026-09-05T08:55:26.769Z",
-    "refused": []
-  },
-  "nf_1123": {
-    "status": "accepted",
-    "file": "web:829149d1043e",
-    "reasoning": "Top web image result for \"Marine A.F.C. Liverpool\". Licence not checked.",
-    "decidedBy": "pipeline",
-    "decidedAt": "2026-09-05",
-    "at": "2026-09-05T08:55:31.352Z",
-    "refused": []
-  },
   "nf_1124": {
     "status": "accepted",
     "file": "web:6c80cad15da6",
@@ -933,15 +717,6 @@
     "decidedBy": "pipeline",
     "decidedAt": "2026-09-05",
     "at": "2026-09-05T08:55:34.349Z",
-    "refused": []
-  },
-  "nf_1125": {
-    "status": "accepted",
-    "file": "web:83bcd4875819",
-    "reasoning": "Top web image result for \"Victor Oduah Nigeria football\". Licence not checked.",
-    "decidedBy": "pipeline",
-    "decidedAt": "2026-09-05",
-    "at": "2026-09-05T08:55:44.020Z",
     "refused": []
   },
   "nf_1126": {
@@ -1124,15 +899,6 @@
     "at": "2026-09-05T08:53:46.201Z",
     "refused": []
   },
-  "nf_1079": {
-    "status": "accepted",
-    "file": "web:90d1bc065eb9",
-    "reasoning": "Top web image result for \"Ebola-chan meme\". Licence not checked.",
-    "decidedBy": "pipeline",
-    "decidedAt": "2026-09-05",
-    "at": "2026-09-05T08:53:55.689Z",
-    "refused": []
-  },
   "nf_1080": {
     "status": "accepted",
     "file": "web:8c10a1b8d776",
@@ -1169,15 +935,6 @@
     "at": "2026-09-05T08:54:10.875Z",
     "refused": []
   },
-  "nf_1098": {
-    "status": "accepted",
-    "file": "web:922b1af44f97",
-    "reasoning": "Top web image result for \"Emmanuel Nwude\". Licence not checked.",
-    "decidedBy": "pipeline",
-    "decidedAt": "2026-09-05",
-    "at": "2026-09-05T08:54:41.313Z",
-    "refused": []
-  },
   "nf_1099": {
     "status": "accepted",
     "file": "web:87333ee15d05",
@@ -1185,15 +942,6 @@
     "decidedBy": "pipeline",
     "decidedAt": "2026-09-05",
     "at": "2026-09-05T08:54:41.347Z",
-    "refused": []
-  },
-  "nf_1100": {
-    "status": "accepted",
-    "file": "web:ecb342f1ed37",
-    "reasoning": "Top web image result for \"Emmanuel Nwude\". Licence not checked.",
-    "decidedBy": "pipeline",
-    "decidedAt": "2026-09-05",
-    "at": "2026-09-05T08:54:41.381Z",
     "refused": []
   },
   "nf_1132": {
@@ -1223,15 +971,6 @@
     "at": "2026-09-05T08:56:11.456Z",
     "refused": []
   },
-  "nf_1136": {
-    "status": "accepted",
-    "file": "web:facde6325fdf",
-    "reasoning": "Top web image result for \"Aro diaspora Bight of Biafra\". Licence not checked.",
-    "decidedBy": "pipeline",
-    "decidedAt": "2026-09-05",
-    "at": "2026-09-05T08:56:13.959Z",
-    "refused": []
-  },
   "nf_1147": {
     "status": "accepted",
     "file": "web:db12dd9caa23",
@@ -1259,15 +998,6 @@
     "at": "2026-09-05T08:56:22.375Z",
     "refused": []
   },
-  "nf_1152": {
-    "status": "accepted",
-    "file": "web:d2ac8b6fddc9",
-    "reasoning": "Top web image result for \"Lawal Daura SSS\". Licence not checked.",
-    "decidedBy": "pipeline",
-    "decidedAt": "2026-09-05",
-    "at": "2026-09-05T08:56:29.180Z",
-    "refused": []
-  },
   "nf_1153": {
     "status": "accepted",
     "file": "web:5c633165cb6a",
@@ -1286,42 +1016,6 @@
     "at": "2026-09-05T09:33:01.060Z",
     "refused": []
   },
-  "nf_1155": {
-    "status": "accepted",
-    "file": "web:4c1e53654717",
-    "reasoning": "Top web image result for \"Oladipo Diya\". Licence not checked.",
-    "decidedBy": "pipeline",
-    "decidedAt": "2026-09-05",
-    "at": "2026-09-05T09:33:05.801Z",
-    "refused": []
-  },
-  "nf_1156": {
-    "status": "accepted",
-    "file": "web:47968d04e1be",
-    "reasoning": "Top web image result for \"Tribune on Saturday newspaper\". Licence not checked.",
-    "decidedBy": "pipeline",
-    "decidedAt": "2026-09-05",
-    "at": "2026-09-05T09:33:08.267Z",
-    "refused": []
-  },
-  "nf_1157": {
-    "status": "accepted",
-    "file": "web:cdacbce6646e",
-    "reasoning": "Top web image result for \"Segun Awolowo\". Licence not checked.",
-    "decidedBy": "pipeline",
-    "decidedAt": "2026-09-05",
-    "at": "2026-09-05T10:12:21.050Z",
-    "refused": []
-  },
-  "nf_1158": {
-    "status": "accepted",
-    "file": "web:966368993507",
-    "reasoning": "Top web image result for \"Yemi Osinbajo young student\". Licence not checked.",
-    "decidedBy": "pipeline",
-    "decidedAt": "2026-09-05",
-    "at": "2026-09-05T10:30:22.674Z",
-    "refused": []
-  },
   "nf_1159": {
     "status": "accepted",
     "file": "web:ae2076817763",
@@ -1329,24 +1023,6 @@
     "decidedBy": "pipeline",
     "decidedAt": "2026-09-05",
     "at": "2026-09-05T10:30:24.852Z",
-    "refused": []
-  },
-  "nf_1160": {
-    "status": "accepted",
-    "file": "web:f8635508a0d6",
-    "reasoning": "Top web image result for \"Yemi Osinbajo pastor\". Licence not checked.",
-    "decidedBy": "pipeline",
-    "decidedAt": "2026-09-05",
-    "at": "2026-09-05T10:42:06.298Z",
-    "refused": []
-  },
-  "nf_1161": {
-    "status": "accepted",
-    "file": "web:481871f985be",
-    "reasoning": "Top web image result for \"Yemi Osinbajo green energy\". Licence not checked.",
-    "decidedBy": "pipeline",
-    "decidedAt": "2026-09-05",
-    "at": "2026-09-05T10:42:10.168Z",
     "refused": []
   }
 }

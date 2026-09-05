@@ -32,7 +32,7 @@ import { readFile, stat } from 'node:fs/promises';
 
 import { loadCorpus } from '../corpus/index.js';
 import {
-  APP_DATA_PATH,
+  PUSHED_PATH,
   CANDIDATES_PATH,
   CULLED_PATH,
   ENRICHED_PATH,
@@ -121,7 +121,7 @@ async function modifiedMs(path) {
  */
 async function exportIsStale() {
   const [app, ...decisions] = await Promise.all([
-    modifiedMs(APP_DATA_PATH),
+    modifiedMs(PUSHED_PATH),
     modifiedMs(REVIEWS_PATH),
     modifiedMs(IMAGES_PATH),
     modifiedMs(FACTS_PATH),
@@ -234,7 +234,7 @@ export async function pipelineStatus() {
       blocked: blockedFacts,
       queued,
       stale: exportStale,
-      at: await modifiedAt(APP_DATA_PATH),
+      at: await modifiedAt(PUSHED_PATH),
     },
     stages: [
       {

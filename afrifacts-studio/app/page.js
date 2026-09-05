@@ -240,7 +240,7 @@ function AppLine({ app, busy, onRun }) {
     <div className="spread appline">
       <span className="small muted">
         <strong>{app.live}</strong> {app.live === 1 ? 'fact' : 'facts'} in the app
-        {app.at ? ` · written ${new Date(app.at).toLocaleString()}` : ' · never written'}
+        {app.at ? ` · pushed ${new Date(app.at).toLocaleString()}` : ' · never pushed'}
         {app.queued > 0 ? ` · ${app.queued} held back` : ''}
         {app.blocked > 0 ? (
           <>
@@ -254,15 +254,26 @@ function AppLine({ app, busy, onRun }) {
         )}
       </span>
       <div className="row">
-        {app.stale && (
-          <button
-            className="primary"
-            disabled={busy}
-            title="A decision has changed since the app file was written."
-            onClick={() => void onRun('export')}>
-            Publish now
-          </button>
-        )}
+        {/*
+          Always offered, not only when stale.
+
+          Every review decision pushes behind itself, so `stale` is
+          normally false and the button was normally absent — which left
+          no way to push after the one case that matters, a push that
+          failed because the network was down. A free, idempotent action
+          does not need to be hidden to stop people pressing it.
+        */}
+        <button
+          className={app.stale ? 'primary' : ''}
+          disabled={busy}
+          title={
+            app.stale
+              ? 'A decision has changed since the last push.'
+              : 'Send the corpus to Supabase again. Free, and safe to repeat.'
+          }
+          onClick={() => void onRun('push')}>
+          {app.stale ? 'Push now' : 'Push to Supabase'}
+        </button>
         <button disabled={busy} onClick={() => void onRun('check')}>
           Run check
         </button>

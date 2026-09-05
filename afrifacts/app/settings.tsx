@@ -1,0 +1,243 @@
+import Ionicons from '@expo/vector-icons/Ionicons';
+import Constants from 'expo-constants';
+import { router } from 'expo-router';
+import * as WebBrowser from 'expo-web-browser';
+import { useCallback, useState } from 'react';
+import { Pressable, ScrollView, StyleSheet, Switch, Text, View } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
+
+import { getFactPool } from '@/src/data';
+import {
+  EVENING_HOUR,
+  MORNING_HOUR,
+  setNotificationsEnabled,
+  useNotificationsEnabled,
+} from '@/src/notifications';
+import {
+  brandGreen,
+  metrics,
+  radius,
+  spacing,
+  THEME_PREFERENCES,
+  type as typeScale,
+  useTheme,
+  type ThemePreference,
+} from '@/src/theme';
+
+/**
+ * Settings. Appearance, and for now nothing else.
+ *
+ * Deliberately its own screen rather than a block on the profile: the
+ * profile is a record of what someone has done — streak, facts, accuracy —
+ * and a control that repaints the app is a different kind of thing. It
+ * also gives later settings somewhere to land instead of growing the
+ * profile a tail.
+ */
+
+const OPTIONS: Record<
+  ThemePreference,
+  { label: string; hint: string; icon: keyof typeof Ionicons.glyphMap }
+> = {
+  system: {
+    label: 'Match my phone',
+    hint: 'Follows your device setting',
+    icon: 'phone-portrait-outline',
+  },
+  light: { label: 'Light', hint: 'Always the warm paper', icon: 'sunny-outline' },
+  dark: { label: 'Dark', hint: 'Always the near-black', icon: 'moon-outline' },
+};
+
+const DEVELOPER_NAME = 'Blue Hydra Labs';
+const DEVELOPER_URL = 'http://bluehydralabs.com/';
+
+/** 7 and 18 as "7am" and "6pm", without pulling in a date library. */
+function clockLabel(hour: number): string {
+  const suffix = hour < 12 ? 'am' : 'pm';
+  const twelve = hour % 12 === 0 ? 12 : hour % 12;
+  return `${twelve}${suffix}`;
+}
+
+export default function SettingsScreen() {
+  const { colors, preference, setPreference } = useTheme();
+  const version = Constants.expoConfig?.version ?? '1.0.0';
+
+  const notify = useNotificationsEnabled();
+  const [busy, setBusy] = useState(false);
+  /*
+    Set only when a request comes back refused.
+
+    The switch cannot just slide to on and hope: Android grants one prompt
+    and remembers a denial, so the honest response to a refusal is to leave
+    the switch off and say where the decision now lives.
+  */
+  const [denied, setDenied] = useState(false);
+
+  const notifyLabel = notify
+    ? `A fact at ${clockLabel(MORNING_HOUR)} and ${clockLabel(EVENING_HOUR)}`
+    : 'Off';
+
+  const toggleNotify = useCallback(async (next: boolean) => {
+    setBusy(true);
+    setDenied(false);
+    try {
+      const landed = await setNotificationsEnabled(next, getFactPool());
+      if (next && !landed) setDenied(true);
+    } finally {
+      setBusy(false);
+    }
+  }, []);
+
+  return (
+    <SafeAreaView style={[styles.root, { backgroundColor: colors.background }]} edges={['top']}>
+      <View style={styles.header}>
+        <Pressable
+          onPress={() => router.back()}
+          hitSlop={8}
+          accessibilityRole="button"
+          accessibilityLabel="Back"
+          style={({ pressed }) => [styles.back, { opacity: pressed ? 0.6 : 1 }]}>
+          <Ionicons name="chevron-back" size={22} color={colors.text} />
+        </Pressable>
+        <Text style={[typeScale.screenTitle, { color: colors.text }]}>Settings</Text>
+      </View>
+
+      <ScrollView contentContainerStyle={styles.scroll} showsVerticalScrollIndicator={false}>
+        <View style={styles.section}>
+          <Text style={[typeScale.eyebrow, { color: colors.textMuted }]}>APPEARANCE</Text>
+
+          {THEME_PREFERENCES.map((option) => {
+            const { label, hint, icon } = OPTIONS[option];
+            const isSelected = option === preference;
+            return (
+              <Pressable
+                key={option}
+                onPress={() => setPreference(option)}
+                accessibilityRole="radio"
+                accessibilityState={{ selected: isSelected }}
+                accessibilityLabel={label}
+                style={({ pressed }) => [
+                  styles.row,
+                  {
+                    backgroundColor: colors.surface,
+                    borderColor: isSelected ? brandGreen : colors.border,
+                    borderWidth: isSelected ? 2 : 1,
+                    opacity: pressed ? 0.75 : 1,
+                  },
+                ]}>
+                <Ionicons name={icon} size={19} color={colors.textMuted} />
+                <View style={styles.rowText}>
+                  <Text style={[typeScale.option, { color: colors.text }]}>{label}</Text>
+                  <Text style={[typeScale.caption, { color: colors.textMuted }]}>{hint}</Text>
+                </View>
+
+                {isSelected && (
+                  <View style={[styles.check, { backgroundColor: brandGreen }]}>
+                    <Ionicons name="checkmark" size={13} color="#FFFFFF" />
+                  </View>
+                )}
+              </Pressable>
+            );
+          })}
+
+          {/*
+            No preview, and no confirm. The screen the switch is on is
+            itself the preview — every surface behind the sheet repaints on
+            the tap, which is the fastest possible way to find out whether
+            you like it.
+          */}
+        </View>
+
+        <View style={styles.section}>
+          <Text style={[typeScale.eyebrow, { color: colors.textMuted }]}>DAILY FACTS</Text>
+
+          <View style={[styles.row, { backgroundColor: colors.surface, borderColor: colors.border }]}>
+            <Ionicons name="notifications-outline" size={19} color={colors.textMuted} />
+            <View style={styles.rowText}>
+              <Text style={[typeScale.option, { color: colors.text }]}>Morning and evening</Text>
+              <Text style={[typeScale.caption, { color: colors.textMuted }]}>
+                {notifyLabel}
+              </Text>
+            </View>
+            <Switch
+              value={notify}
+              onValueChange={(next) => void toggleNotify(next)}
+              disabled={busy}
+              trackColor={{ false: colors.border, true: brandGreen }}
+              thumbColor="#FFFFFF"
+            />
+          </View>
+
+          {denied && (
+            <Text style={[typeScale.caption, styles.note, { color: colors.textMuted }]}>
+              Notifications are switched off for AfriFacts in your phone&apos;s settings. Turn them
+              back on there and this switch will work.
+            </Text>
+          )}
+        </View>
+
+        <View style={styles.section}>
+          <Text style={[typeScale.eyebrow, { color: colors.textMuted }]}>ABOUT</Text>
+          <View style={[styles.row, { backgroundColor: colors.surface, borderColor: colors.border }]}>
+            <View style={styles.rowText}>
+              <Text style={[typeScale.option, { color: colors.text }]}>AfriFacts</Text>
+              <Text style={[typeScale.caption, { color: colors.textMuted }]}>Version {version}</Text>
+            </View>
+          </View>
+
+          {/* Opens in the system browser, the same way a fact's source does. */}
+          <Pressable
+            onPress={() => void WebBrowser.openBrowserAsync(DEVELOPER_URL)}
+            accessibilityRole="link"
+            accessibilityLabel={`Open ${DEVELOPER_NAME}`}
+            style={({ pressed }) => [
+              styles.row,
+              {
+                backgroundColor: colors.surface,
+                borderColor: colors.border,
+                opacity: pressed ? 0.75 : 1,
+              },
+            ]}>
+            <Ionicons name="code-slash-outline" size={19} color={colors.textMuted} />
+            <View style={styles.rowText}>
+              <Text style={[typeScale.option, { color: colors.text }]}>Built by {DEVELOPER_NAME}</Text>
+              <Text style={[typeScale.caption, { color: colors.textMuted }]}>
+                {DEVELOPER_URL.replace(/^https?:\/\//, '').replace(/\/$/, '')}
+              </Text>
+            </View>
+            <Ionicons name="open-outline" size={16} color={colors.textFaint} />
+          </Pressable>
+        </View>
+      </ScrollView>
+    </SafeAreaView>
+  );
+}
+
+const styles = StyleSheet.create({
+  root: { flex: 1 },
+  header: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.sm,
+    paddingHorizontal: metrics.screenPadding,
+    paddingBottom: spacing.lg,
+  },
+  back: { marginLeft: -spacing.xs },
+  scroll: {
+    paddingHorizontal: metrics.screenPadding,
+    paddingBottom: spacing.xxl,
+    gap: spacing.xl,
+  },
+  section: { gap: spacing.md },
+  row: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.lg,
+    borderRadius: radius.tile,
+    borderWidth: 1,
+    paddingHorizontal: spacing.lg,
+    paddingVertical: spacing.lg,
+  },
+  rowText: { flex: 1, gap: 2 },
+  note: { paddingHorizontal: spacing.xs },
+  check: { width: 22, height: 22, borderRadius: 11, alignItems: 'center', justifyContent: 'center' },
+});

@@ -1,8 +1,16 @@
 import * as Haptics from 'expo-haptics';
 import { Image } from 'expo-image';
 import { router } from 'expo-router';
-import { useCallback, useMemo, useRef, useState } from 'react';
-import { FlatList, Platform, StyleSheet, useWindowDimensions, View } from 'react-native';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import {
+  FlatList,
+  Platform,
+  StyleSheet,
+  useWindowDimensions,
+  View,
+  type NativeScrollEvent,
+  type NativeSyntheticEvent,
+} from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { CategoryChips } from '@/src/components/CategoryChips';
@@ -10,7 +18,31 @@ import { FactCard } from '@/src/components/FactCard';
 import { QuizCard } from '@/src/components/QuizCard';
 import { ShareCard } from '@/src/components/ShareCard';
 import { TopBar } from '@/src/components/TopBar';
-import { getCategoryLanes, getFeed, getUserStats, type FeedItem } from '@/src/data';
+import { FeedEndCard } from '@/src/components/FeedEndCard';
+import { NotifyPrompt } from '@/src/components/NotifyPrompt';
+import {
+  dealPosition,
+  getCategoryLanes,
+  getFactNumber,
+  getFactPool,
+  getFeed,
+  getUserStats,
+  QUIZ_LENGTH,
+  refreshCorpus,
+  reshuffleFeed,
+  setDealPosition,
+  toggleSaved,
+  useCorpusVersion,
+  useCountry,
+  useDeal,
+  useSavedIds,
+  type FeedItem,
+} from '@/src/data';
+import {
+  ASK_DELAY_MS,
+  setNotificationsEnabled,
+  shouldOfferNotifications,
+} from '@/src/notifications';
 import { useShareCard } from '@/src/share/useShareCard';
 import { metrics, spacing, useTheme } from '@/src/theme';
 import type { Fact } from '@/src/types';
@@ -25,13 +57,116 @@ export default function HomeScreen() {
   const { colors } = useTheme();
 
   const [lane, setLane] = useState('For You');
-  const [country] = useState('NG');
-  const [saved, setSaved] = useState<Record<string, boolean>>({});
+  // From the store, so the picker's choice actually lands here and the
+  // launch market is not written into a screen. §10.
+  const country = useCountry();
   const listRef = useRef<FlatList<FeedItem>>(null);
 
-  const lanes = useMemo(() => getCategoryLanes(), []);
-  const stats = useMemo(() => getUserStats(), []);
-  const items = useMemo(() => getFeed({ country, category: lane }), [country, lane]);
+  /*
+    The saved ids, from the store rather than this screen.
+
+    Subscribing here means the bookmark on a card reflects a save made
+    anywhere — including one made on a previous launch, which the old local
+    `Record<string, boolean>` could not.
+  */
+  const saved = useSavedIds();
+  const savedSet = useMemo(() => new Set(saved), [saved]);
+
+  const [refreshing, setRefreshing] = useState(false);
+
+  /*
+    The daily-facts offer.
+
+    Deliberately on a timer rather than on mount: §10 says the app opens
+    into a fact, so the card has to be read before anything is asked of the
+    reader. This is our own prompt, not the system one — see
+    `notifications/prompt.ts` for why that distinction is what makes
+    asking again on the fifth open possible at all.
+  */
+  const [offer, setOffer] = useState(false);
+  const [offerBusy, setOfferBusy] = useState(false);
+
+  useEffect(() => {
+    let live = true;
+    let timer: ReturnType<typeof setTimeout> | undefined;
+    void shouldOfferNotifications().then((should) => {
+      if (!live || !should) return;
+      timer = setTimeout(() => {
+        if (live) setOffer(true);
+      }, ASK_DELAY_MS);
+    });
+    return () => {
+      live = false;
+      if (timer !== undefined) clearTimeout(timer);
+    };
+  }, []);
+
+  const acceptOffer = useCallback(async () => {
+    setOfferBusy(true);
+    try {
+      // This is where the one system prompt is finally spent.
+      await setNotificationsEnabled(true, getFactPool());
+    } finally {
+      setOfferBusy(false);
+      setOffer(false);
+    }
+  }, []);
+
+  // Not memoised: it reads module state that `useSavedIds` above is what
+  // actually invalidates, so any dependency array here would be a claim
+  // the linter is right to disbelieve. It is a field read over 148 facts.
+  const stats = getUserStats();
+
+  /*
+    Bumped when a refresh replaces the corpus, which is the other way this
+    list's contents can change without any prop moving.
+
+    The rule is switched off for one line rather than obeyed. `getFeed`
+    reads module state, so the linter sees a call with no inputs and calls
+    the version unnecessary — it is in fact the only thing that invalidates
+    it. Dropping the memo instead is not an option here: a fresh array
+    every render remounts every row of a paged list.
+  */
+  const corpusVersion = useCorpusVersion();
+  // The dealt order. Changes when the shuffle button re-deals, and when a
+  // refresh adds or removes facts.
+  const deal = useDeal();
+
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  const lanes = useMemo(() => getCategoryLanes(country), [country, corpusVersion]);
+
+  /*
+    Derived rather than corrected in an effect.
+
+    Lanes are scoped to the country, so switching countries can strip the
+    lane you were reading out from under you. Falling back here means the
+    chips and the feed can never disagree, and there is no frame where the
+    screen is asking for a category this country does not have.
+  */
+  const activeLane = lanes.includes(lane) ? lane : 'For You';
+
+  const items = useMemo(
+    () => getFeed({ country, category: activeLane }),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [country, activeLane, deal, corpusVersion],
+  );
+
+  /*
+    Where to open.
+
+    Resumed by fact id, not by index. The deal now survives a relaunch, so
+    without this the app would reopen on card 1 every morning and the
+    numbering would be a countdown nobody ever finished. Reading the stored
+    id once per mount is deliberate: it is a starting point, not a binding,
+    and re-reading it would fight the reader's own scrolling.
+  */
+  const initialIndex = useMemo(() => {
+    const at = dealPosition();
+    if (at === null) return 0;
+    const found = items.findIndex((item) => item.kind === 'fact' && item.fact.id === at);
+    return found > 0 ? found : 0;
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [items.length]);
 
   // Chips, top bar and tab bar sit outside the card, so a page is what is left.
   const [pageHeight, setPageHeight] = useState(0);
@@ -48,6 +183,19 @@ export default function HomeScreen() {
   const cardHeight = Math.min(
     pageHeight - spacing.md,
     (width - metrics.screenPadding * 2) / metrics.feedCardMaxAspect,
+  );
+
+  // Which card settled under the reader, recorded so the next launch can
+  // resume there. A paged list, so this is one call per card rather than
+  // per frame. Declared here because it needs `pageHeight`.
+  const onSettled = useCallback(
+    (event: NativeSyntheticEvent<NativeScrollEvent>) => {
+      if (pageHeight <= 0) return;
+      const index = Math.round(event.nativeEvent.contentOffset.y / pageHeight);
+      const item = items[index];
+      if (item?.kind === 'fact') setDealPosition(item.fact.id);
+    },
+    [items, pageHeight],
   );
 
   // One offscreen share card, retargeted at whichever fact is being shared,
@@ -90,16 +238,54 @@ export default function HomeScreen() {
     [items.length],
   );
 
-  const toggleSave = useCallback((id: string) => {
+  const onToggleSave = useCallback((id: string) => {
     if (Platform.OS !== 'web') {
       Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
     }
-    setSaved((prev) => ({ ...prev, [id]: !prev[id] }));
+    toggleSaved(id);
   }, []);
 
   const selectLane = useCallback((next: string) => {
     setLane(next);
     listRef.current?.scrollToOffset({ offset: 0, animated: false });
+  }, []);
+
+  /*
+    Deal again.
+
+    Back to the top, always: a new order with the reader left on page 40
+    would look like the app had lost their place rather than reshuffled.
+    The seed is time-based so pressing it twice never gives the same hand.
+  */
+  const reshuffle = useCallback(() => {
+    if (Platform.OS !== 'web') {
+      Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
+    }
+    reshuffleFeed();
+    listRef.current?.scrollToOffset({ offset: 0, animated: false });
+  }, []);
+
+  /*
+    Pull to refresh: go back to the database, not to the cache.
+
+    The cached corpus is normally good for six hours and refreshes behind
+    you for the next launch, which is right when nobody asked. When someone
+    pulls, they are asking, so this one lands in the session they are in.
+  */
+  const refresh = useCallback(() => {
+    setRefreshing(true);
+    refreshCorpus()
+      .then(() => {
+        // The refresh puts the run back to Fact #1, so the list has to go
+        // with it — landing on card 40 of an order that just changed is
+        // how a reader loses their place without being told.
+        listRef.current?.scrollToOffset({ offset: 0, animated: false });
+      })
+      .catch(() => {
+        // Offline, most likely. The cached corpus is still on screen and
+        // still correct, so there is nothing to say and nothing to undo.
+      })
+      .finally(() => setRefreshing(false));
   }, []);
 
   return (
@@ -108,8 +294,9 @@ export default function HomeScreen() {
         countryCode={country}
         streak={stats.dayStreak}
         onPressCountry={() => router.push('/country')}
+        onShuffle={reshuffle}
       />
-      <CategoryChips lanes={lanes} active={lane} onSelect={selectLane} />
+      <CategoryChips lanes={lanes} active={activeLane} onSelect={selectLane} />
 
       {/*
         The page height is measured rather than derived, because the chips
@@ -126,9 +313,17 @@ export default function HomeScreen() {
           <FlatList
             ref={listRef}
             data={items}
+            refreshing={refreshing}
+            onRefresh={refresh}
             keyExtractor={(item, i) =>
-              item.kind === 'fact' ? item.fact.id : `quiz-${item.seenCount}-${i}`
+              item.kind === 'fact'
+                ? item.fact.id
+                : item.kind === 'quiz'
+                  ? `quiz-${item.seenCount}-${i}`
+                  : 'end'
             }
+            initialScrollIndex={initialIndex}
+            onMomentumScrollEnd={onSettled}
             style={styles.list}
             pagingEnabled
             snapToInterval={pageHeight}
@@ -146,16 +341,23 @@ export default function HomeScreen() {
                   {item.kind === 'fact' ? (
                     <FactCard
                       fact={item.fact}
-                      saved={!!saved[item.fact.id]}
-                      onSave={() => toggleSave(item.fact.id)}
+                      number={item.number}
+                      saved={savedSet.has(item.fact.id)}
+                      onSave={() => onToggleSave(item.fact.id)}
                       onShare={() => shareFact(item.fact)}
                       onSparkle={() =>
                         router.push({ pathname: '/fact/[id]', params: { id: item.fact.id } })
                       }
                       onAdvance={() => advance(index)}
                     />
+                  ) : item.kind === 'quiz' ? (
+                    <QuizCard
+                      seenCount={item.seenCount}
+                      questionCount={QUIZ_LENGTH}
+                      onPlay={() => router.push('/quiz/play')}
+                    />
                   ) : (
-                    <QuizCard seenCount={item.seenCount} onPlay={() => router.push('/quiz/play')} />
+                    <FeedEndCard total={item.total} onShuffle={reshuffle} />
                   )}
                 </View>
               </View>
@@ -164,7 +366,22 @@ export default function HomeScreen() {
         )}
       </View>
 
-      {shareTarget && shareView(<ShareCard fact={shareTarget} onReady={markReady} />)}
+      {offer && (
+        <NotifyPrompt
+          busy={offerBusy}
+          onAccept={() => void acceptOffer()}
+          onDismiss={() => setOffer(false)}
+        />
+      )}
+
+      {shareTarget &&
+        shareView(
+          <ShareCard
+            fact={shareTarget}
+            number={getFactNumber(shareTarget.id)}
+            onReady={markReady}
+          />,
+        )}
     </SafeAreaView>
   );
 }

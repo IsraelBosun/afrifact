@@ -1,9 +1,10 @@
 import Ionicons from '@expo/vector-icons/Ionicons';
+import { router } from 'expo-router';
 import { useMemo } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
-import { getUserProfile, getUserStats } from '@/src/data';
+import { getUserProfile, getUserStats, useSavedIds } from '@/src/data';
 import {
   amber,
   categoryColors,
@@ -25,7 +26,11 @@ function joinedLabel(iso: string): string {
 export default function ProfileScreen() {
   const { colors } = useTheme();
   const profile = useMemo(() => getUserProfile(), []);
-  const stats = useMemo(() => getUserStats(), []);
+  // Subscribed for the re-render, not for the value: `stats.savedCount` is
+  // real now, and without this the SAVED card would disagree with the
+  // Saved tab until the screen happened to remount.
+  useSavedIds();
+  const stats = getUserStats();
 
   const initials = profile.name.slice(0, 2).toUpperCase();
 
@@ -44,6 +49,19 @@ export default function ProfileScreen() {
               Learning Nigeria · joined {joinedLabel(profile.joinedAt)}
             </Text>
           </View>
+
+          {/* The only way into settings. The profile is where people look. */}
+          <Pressable
+            onPress={() => router.push('/settings')}
+            hitSlop={10}
+            accessibilityRole="button"
+            accessibilityLabel="Settings"
+            style={({ pressed }) => [
+              styles.gear,
+              { backgroundColor: colors.surfaceAlt, opacity: pressed ? 0.7 : 1 },
+            ]}>
+            <Ionicons name="settings-outline" size={19} color={colors.text} />
+          </Pressable>
         </View>
 
         {/* Four stat cards, each in a different category colour family. */}
@@ -130,6 +148,7 @@ const styles = StyleSheet.create({
   identity: { flexDirection: 'row', alignItems: 'center', gap: spacing.lg },
   avatar: { width: 58, height: 58, borderRadius: 29, alignItems: 'center', justifyContent: 'center' },
   identityText: { flex: 1, gap: 2 },
+  gear: { width: 38, height: 38, borderRadius: 19, alignItems: 'center', justifyContent: 'center' },
   statGrid: { flexDirection: 'row', flexWrap: 'wrap', gap: spacing.md },
   stat: {
     flexBasis: '47%',

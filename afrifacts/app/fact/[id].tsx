@@ -1,26 +1,32 @@
 import Ionicons from '@expo/vector-icons/Ionicons';
 import { Image } from 'expo-image';
 import { router, useLocalSearchParams } from 'expo-router';
+import { StatusBar } from 'expo-status-bar';
 import { useCallback, useMemo, useRef, useState } from 'react';
 import {
+  Animated,
   KeyboardAvoidingView,
   Platform,
   Pressable,
-  ScrollView,
   StyleSheet,
   Text,
   TextInput,
   View,
+  type NativeScrollEvent,
+  type NativeSyntheticEvent,
 } from 'react-native';
-import { SafeAreaView } from 'react-native-safe-area-context';
+import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { ShareCard } from '@/src/components/ShareCard';
 import { SourceLink } from '@/src/components/SourceLink';
 import { VerifiedLine } from '@/src/components/VerifiedLine';
-import { getFactById, getRelatedFacts } from '@/src/data';
+import { getFactById, getFactNumber, getRelatedFacts } from '@/src/data';
 import { useShareCard } from '@/src/share/useShareCard';
 import { familyFor, metrics, radius, spacing, type as typeScale, useTheme } from '@/src/theme';
 import { hasImage } from '@/src/types';
+
+/** The hero image, and the distance the header bar floats over before it lands. */
+const HERO_HEIGHT = 200;
 
 /**
  * The fact expanded into a short article.
@@ -31,8 +37,59 @@ import { hasImage } from '@/src/types';
  */
 export default function DeepDiveScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
-  const { colors } = useTheme();
+  const { colors, isDark } = useTheme();
+  const insets = useSafeAreaInsets();
   const [question, setQuestion] = useState('');
+
+  /*
+    Whether the hero has left the top of the screen.
+
+    Only the status bar cares. Over the hero the top of the screen is a
+    photograph or a mid-tone colour block and the icons have to be light
+    whatever the theme is; past it the top is the page again and they
+    follow the theme like everywhere else. This is the one thing on this
+    screen that cannot be interpolated, because a status bar style is a
+    native mode rather than a value.
+  */
+  const [pastHero, setPastHero] = useState(false);
+
+  /*
+    How far down the article we are, for the header bar.
+
+    Back and share sit above the scroll rather than inside it — an article
+    is the one screen where the way out should not require scrolling back
+    to the top to find it. Over the hero they are white on the photo's own
+    scrim; past it they would be two dark discs floating on cream, so the
+    bar fades in a solid ground underneath them as the hero leaves.
+
+    Native driver: this is opacity only, so the fade runs on the UI thread
+    and does not stutter behind a fast flick.
+  */
+  const scrollY = useRef(new Animated.Value(0)).current;
+  const barOpacity = scrollY.interpolate({
+    inputRange: [HERO_HEIGHT - 80, HERO_HEIGHT - 20],
+    outputRange: [0, 1],
+    extrapolate: 'clamp',
+  });
+
+  /*
+    One handler feeding both. The animated value goes native for the fade;
+    the `listener` is how JS still sees the offset without a second
+    onScroll. It sets state only on the crossing — React bails out of the
+    render when the boolean is unchanged — so a flick costs one re-render,
+    not sixty.
+  */
+  const onScroll = useMemo(
+    () =>
+      Animated.event([{ nativeEvent: { contentOffset: { y: scrollY } } }], {
+        useNativeDriver: true,
+        listener: (event: NativeSyntheticEvent<NativeScrollEvent>) => {
+          const past = event.nativeEvent.contentOffset.y > HERO_HEIGHT - 50;
+          setPastHero((prev) => (prev === past ? prev : past));
+        },
+      }),
+    [scrollY],
+  );
 
   const fact = useMemo(() => getFactById(id), [id]);
   const related = useMemo(() => (id ? getRelatedFacts(id) : []), [id]);
@@ -75,39 +132,37 @@ export default function DeepDiveScreen() {
 
   return (
     <View style={[styles.root, { backgroundColor: colors.surface }]}>
-      <ScrollView contentContainerStyle={styles.scroll} showsVerticalScrollIndicator={false}>
+      {/* Overrides the root bar for as long as this screen is mounted. */}
+      <StatusBar style={pastHero ? (isDark ? 'light' : 'dark') : 'light'} />
+
+      <Animated.ScrollView
+        contentContainerStyle={styles.scroll}
+        showsVerticalScrollIndicator={false}
+        scrollEventThrottle={16}
+        onScroll={onScroll}>
         {/* Hero: the image when there is one, otherwise the category colour block. */}
         <View style={[styles.hero, { backgroundColor: hasImage(fact) ? panelColor : family.mid }]}>
           {hasImage(fact) && (
             <>
-              <Image source={{ uri: fact.image.url }} style={styles.heroImage} contentFit="cover" />
+              <Image
+                source={{ uri: fact.image.url }}
+                style={styles.heroImage}
+                contentFit="cover"
+                contentPosition="top"
+              />
               {/* A photo credit never leaves the image. It is a licence requirement. */}
               <View style={styles.credit}>
                 <Text style={styles.creditText}>{fact.image.credit}</Text>
               </View>
             </>
           )}
-          <SafeAreaView edges={['top']} style={styles.heroBar}>
-            <Pressable onPress={() => router.back()} style={styles.heroBtn} hitSlop={8}>
-              <Ionicons name="chevron-back" size={20} color="#FFFFFF" />
-            </Pressable>
-            <Pressable
-              onPress={() => void shareThis()}
-              disabled={sharing}
-              accessibilityRole="button"
-              accessibilityLabel="Share this fact"
-              style={styles.heroBtn}
-              hitSlop={8}>
-              <Ionicons name="share-social" size={18} color="#FFFFFF" />
-            </Pressable>
-          </SafeAreaView>
         </View>
 
         <View style={[styles.titlePanel, { backgroundColor: panelColor }]}>
           <Text style={[typeScale.eyebrow, { color: family.light }]}>
             {fact.category.toUpperCase()} · DEEP DIVE
           </Text>
-          <Text style={[typeScale.headline, styles.title, { color: '#FFFFFF' }]}>{fact.fact}</Text>
+          <Text style={[typeScale.factTitle, styles.title, { color: '#FFFFFF' }]}>{fact.fact}</Text>
           <VerifiedLine
             source={fact.source.name}
             url={fact.source.url}
@@ -118,7 +173,7 @@ export default function DeepDiveScreen() {
 
         <View style={styles.body}>
           {fact.deepDive.body.map((para, i) => (
-            <Text key={i} style={[typeScale.body, { color: colors.text }]}>
+            <Text key={i} style={[typeScale.article, { color: colors.text }]}>
               {para}
             </Text>
           ))}
@@ -126,7 +181,9 @@ export default function DeepDiveScreen() {
           {/* The signature block of every deep dive. */}
           <View style={[styles.callout, { backgroundColor: colors.surfaceAlt }]}>
             <Text style={[typeScale.eyebrow, { color: colors.textMuted }]}>WHY IT MATTERS</Text>
-            <Text style={[typeScale.body, { color: colors.text }]}>{fact.deepDive.whyItMatters}</Text>
+            <Text style={[typeScale.article, { color: colors.text }]}>
+              {fact.deepDive.whyItMatters}
+            </Text>
           </View>
 
           {/*
@@ -151,13 +208,54 @@ export default function DeepDiveScreen() {
             </Pressable>
           ))}
         </View>
-      </ScrollView>
+      </Animated.ScrollView>
+
+      {/*
+        Back and share, pinned. `box-none` so the gap between them is still
+        the article: only the two buttons take touches, and a flick that
+        starts up here scrolls as it would anywhere else.
+      */}
+      <View style={styles.headerBar} pointerEvents="box-none">
+        <Animated.View
+          style={[
+            StyleSheet.absoluteFill,
+            styles.headerFill,
+            { backgroundColor: colors.surface, borderBottomColor: colors.border, opacity: barOpacity },
+          ]}
+        />
+        <SafeAreaView edges={['top']} style={styles.heroBar}>
+          <Pressable onPress={() => router.back()} style={styles.heroBtn} hitSlop={8}>
+            <Ionicons name="chevron-back" size={20} color="#FFFFFF" />
+          </Pressable>
+          <Pressable
+            onPress={() => void shareThis()}
+            disabled={sharing}
+            accessibilityRole="button"
+            accessibilityLabel="Share this fact"
+            style={styles.heroBtn}
+            hitSlop={8}>
+            <Ionicons name="share-social" size={18} color="#FFFFFF" />
+          </Pressable>
+        </SafeAreaView>
+      </View>
 
       {/* Ask about this. Phase 1 is UI only: send does nothing yet. */}
       <KeyboardAvoidingView behavior={Platform.OS === 'ios' ? 'padding' : undefined}>
-        <SafeAreaView
-          edges={['bottom']}
-          style={[styles.ask, { backgroundColor: colors.background, borderTopColor: colors.border }]}>
+        {/*
+          Plain View with the inset applied by hand rather than a bottom
+          SafeAreaView, so the gap under the input is one readable number
+          instead of a device inset and a padding that may or may not add
+          up. The input used to sit on the very edge of the screen.
+        */}
+        <View
+          style={[
+            styles.ask,
+            {
+              backgroundColor: colors.background,
+              borderTopColor: colors.border,
+              paddingBottom: insets.bottom + spacing.lg,
+            },
+          ]}>
           <View style={styles.askHead}>
             <View style={styles.askLabel}>
               <Ionicons name="sparkles" size={14} color={colors.text} />
@@ -180,14 +278,22 @@ export default function DeepDiveScreen() {
                 { backgroundColor: colors.surface, borderColor: colors.border, color: colors.text },
               ]}
             />
-            <Pressable style={[styles.send, { backgroundColor: panelColor }]}>
+            <Pressable
+              accessibilityRole="button"
+              accessibilityLabel="Send question"
+              style={({ pressed }) => [
+                styles.send,
+                { backgroundColor: panelColor, opacity: pressed ? 0.7 : 1 },
+              ]}>
               <Ionicons name="arrow-up" size={18} color="#FFFFFF" />
             </Pressable>
           </View>
-        </SafeAreaView>
+        </View>
       </KeyboardAvoidingView>
 
-      {shareView(<ShareCard fact={fact} onReady={onCardReady} />)}
+      {shareView(
+        <ShareCard fact={fact} number={getFactNumber(fact.id)} onReady={onCardReady} />,
+      )}
     </View>
   );
 }
@@ -196,12 +302,15 @@ const styles = StyleSheet.create({
   root: { flex: 1 },
   scroll: { paddingBottom: spacing.xl },
   missing: { padding: metrics.screenPadding },
-  hero: { height: 200 },
+  hero: { height: HERO_HEIGHT },
   heroImage: { ...StyleSheet.absoluteFillObject },
+  headerBar: { position: 'absolute', top: 0, left: 0, right: 0 },
+  headerFill: { borderBottomWidth: StyleSheet.hairlineWidth },
   heroBar: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     paddingHorizontal: metrics.screenPadding,
+    paddingBottom: spacing.sm,
   },
   heroBtn: {
     width: 34,

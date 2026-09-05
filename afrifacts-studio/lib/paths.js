@@ -136,6 +136,18 @@ export const FOUND_PATH = join(DATA_DIR, 'found-images.json');
 */
 export const QUIZ_PATH = join(DATA_DIR, 'quiz.json');
 
+/*
+  What the last push put in the database, and when.
+
+  The board's question is "is the app holding what I decided", and until
+  now that was answered by comparing file timestamps: the generated app
+  file's mtime against the decision files'. There is no app file any
+  more — the app reads Supabase — so the push writes this instead. Same
+  question, and a better answer, because it records what actually landed
+  rather than when a file was touched.
+*/
+export const PUSHED_PATH = join(DATA_DIR, 'pushed.json');
+
 /**
  * Every web search that has been paid for, keyed by query.
  *
@@ -156,9 +168,6 @@ export const SEARCH_CACHE_PATH = join(DATA_DIR, 'search-cache.json');
  * how a picture ends up offered as a source.
  */
 export const SOURCE_SEARCH_CACHE_PATH = join(DATA_DIR, 'source-search-cache.json');
-
-/** Where `npm run export` writes the app's phase-1 data file. */
-export const APP_DATA_PATH = join(ROOT, '..', 'afrifacts', 'src', 'data', 'dummyFacts.ts');
 
 /**
  * Make sure the writable directories exist.

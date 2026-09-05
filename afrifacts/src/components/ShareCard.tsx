@@ -34,7 +34,16 @@ import { hasImage, type Fact } from '@/src/types';
  * retargeted at a new fact, the old bitmap was still on screen, and the
  * export went out with one fact's words over another fact's photograph.
  */
-export function ShareCard({ fact, onReady }: { fact: Fact; onReady?: () => void }) {
+export function ShareCard({
+  fact,
+  number,
+  onReady,
+}: {
+  fact: Fact;
+  /** The canonical "Fact #N", the same on every device. */
+  number: number;
+  onReady?: () => void;
+}) {
   const family = familyFor(fact.category);
   const withImage = hasImage(fact);
   const panel = withImage ? fact.image.panelColor : family.dark;
@@ -63,6 +72,11 @@ export function ShareCard({ fact, onReady }: { fact: Fact; onReady?: () => void 
             source={{ uri: fact.image.url }}
             style={styles.photo}
             contentFit="cover"
+            // Anchored to the top, matching the in-app card. Commons
+            // photographs are mostly portrait and mostly of a thing at the
+            // top of the frame; a centre crop was cutting the heads off
+            // statues and the roofs off buildings.
+            contentPosition="top"
             // Fires on success and on failure alike. A card that cannot
             // load its photo must still be shareable, not hung.
             onLoadEnd={onReady}
@@ -88,16 +102,18 @@ export function ShareCard({ fact, onReady }: { fact: Fact; onReady?: () => void 
           </View>
         )}
 
+        {/*
+          The fact, and nothing under it.
+
+          The verified source line used to sit here and was cut: on an
+          exported PNG it is a link nobody can follow, so it spent a line
+          of the card offering something the medium cannot deliver. The
+          provenance is still one tap away — the footer carries the fact
+          number and the app, and in the app the source opens.
+        */}
         <Text style={[factTypeFor(fact.fact, withImage ? 'panel' : 'card'), { color: textColor }]}>
           {fact.fact}
         </Text>
-
-        <View style={styles.sourceRow}>
-          <Ionicons name="checkmark-circle-outline" size={15} color={mutedColor} />
-          <Text style={[typeScale.caption, { color: mutedColor }]}>
-            Verified · {fact.source.name}
-          </Text>
-        </View>
       </View>
 
       {/* Footer. Every share carries the mark, the name, and the store line. */}
@@ -106,8 +122,18 @@ export function ShareCard({ fact, onReady }: { fact: Fact; onReady?: () => void 
           <Logo size={30} />
           <View>
             <Text style={[styles.wordmark, { color: textColor }]}>AfriFacts</Text>
+            {/*
+              The same number the card showed in the app, which is the
+              point: the export is meant to be what the reader just saw.
+
+              Canonical, so two people sharing the same fact share the same
+              number. It is not `fact.factNumber` — that one is the digits
+              out of the id, starts at 1001, and 46 numbers in its range
+              point at nothing, so it announced a corpus ten times the real
+              size to a stranger, on the asset built to earn their trust.
+            */}
             <Text style={[typeScale.caption, { color: mutedColor, fontSize: 10 }]}>
-              Fact #{fact.factNumber}
+              Fact #{number}
             </Text>
           </View>
         </View>
@@ -157,19 +183,19 @@ const styles = StyleSheet.create({
   },
   creditText: { fontFamily: fonts.sansMedium, fontSize: 10, color: '#FFFFFF' },
   body: {
-    paddingHorizontal: shareCard.padding,
+    paddingHorizontal: shareCard.textPadding,
     justifyContent: 'center',
     gap: spacing.lg,
   },
   // No flex: exactly as tall as the fact needs.
   bodyWithPhoto: { paddingVertical: spacing.lg },
   bodyAlone: { flex: 1 },
-  sourceRow: { flexDirection: 'row', alignItems: 'center', gap: spacing.xs },
   footer: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
-    paddingHorizontal: shareCard.padding,
+    // Same margin as the fact above it, so the two share a left edge.
+    paddingHorizontal: shareCard.textPadding,
     paddingVertical: spacing.lg,
     borderTopWidth: 1,
   },

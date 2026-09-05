@@ -1,6 +1,6 @@
 import { startJob } from '@/lib/jobs.js';
 import { runEnrich } from '@/lib/pipeline/enrich.js';
-import { runExport } from '@/lib/pipeline/export-to-app.js';
+import { runPush } from '@/lib/pipeline/push-to-supabase.js';
 import { runExtract } from '@/lib/pipeline/extract.js';
 import { runFetch } from '@/lib/pipeline/fetch.js';
 import { runImages } from '@/lib/pipeline/harvest-images.js';
@@ -25,13 +25,17 @@ export const dynamic = 'force-dynamic';
   with a wait between each — a board that made you the scheduler for a
   decision that has one answer.
 
-  Export is the last link and not an optional one. Enrich and images write
+  Push is the last link and not an optional one. Enrich and images write
   facts and pictures but neither publishes, so a run that stopped at
-  images left the app file behind the corpus, which is the whole reason
-  Export was a card demanding attention. Running it here means the chain
-  ends with the app actually holding what the run produced.
+  images left the database behind the corpus. Running it here means the
+  chain ends with the app actually holding what the run produced.
+
+  This used to be `export`, which wrote a generated file into the app
+  project. The app reads Supabase now, so that stage is gone rather than
+  adapted — a stage that keeps writing a file nobody reads is worse than
+  no stage, because someone eventually trusts it.
 */
-const CHAIN = ['fetch', 'extract', 'enrich', 'images', 'export'];
+const CHAIN = ['fetch', 'extract', 'enrich', 'images', 'push'];
 
 const STAGES = {
   /*
@@ -71,7 +75,12 @@ const STAGES = {
     should fire on every Run it through.
   */
   quizzes: { costs: true, run: (opts, say) => runQuizzes(opts, say) },
-  export: { costs: false, run: (_opts, say) => runExport(say) },
+  /*
+    Free — no model calls, one round trip. It upserts by primary key and
+    removes what the corpus no longer has, so running it twice does the
+    same as running it once.
+  */
+  push: { costs: false, run: (opts, say) => runPush(opts, say) },
   check: {
     costs: false,
     run: async (_opts, say) => {

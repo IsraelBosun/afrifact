@@ -10,12 +10,6 @@
     "reviewedAt": "2026-09-01",
     "notes": "Bulk approved without individual review."
   },
-  "nf_1003": {
-    "status": "approved",
-    "reviewer": "Israel Bosun",
-    "reviewedAt": "2026-09-01",
-    "notes": "Bulk approved without individual review."
-  },
   "nf_1004": {
     "status": "approved",
     "reviewer": "Israel Bosun",
@@ -35,12 +29,6 @@
     "notes": "Bulk approved without individual review."
   },
   "nf_1007": {
-    "status": "approved",
-    "reviewer": "Israel Bosun",
-    "reviewedAt": "2026-09-01",
-    "notes": "Bulk approved without individual review."
-  },
-  "nf_1008": {
     "status": "approved",
     "reviewer": "Israel Bosun",
     "reviewedAt": "2026-09-01",
@@ -100,19 +88,7 @@
     "reviewedAt": "2026-09-01",
     "notes": "Bulk approved without individual review."
   },
-  "nf_1018": {
-    "status": "approved",
-    "reviewer": "Israel Bosun",
-    "reviewedAt": "2026-09-01",
-    "notes": "Bulk approved without individual review."
-  },
   "nf_1019": {
-    "status": "approved",
-    "reviewer": "Israel Bosun",
-    "reviewedAt": "2026-09-01",
-    "notes": "Bulk approved without individual review."
-  },
-  "nf_1020": {
     "status": "approved",
     "reviewer": "Israel Bosun",
     "reviewedAt": "2026-09-01",
@@ -155,12 +131,6 @@
     "notes": "Bulk approved without individual review."
   },
   "nf_1027": {
-    "status": "approved",
-    "reviewer": "Israel Bosun",
-    "reviewedAt": "2026-09-01",
-    "notes": "Bulk approved without individual review."
-  },
-  "nf_1028": {
     "status": "approved",
     "reviewer": "Israel Bosun",
     "reviewedAt": "2026-09-01",
@@ -262,12 +232,6 @@
     "reviewedAt": "2026-09-01",
     "notes": "Bulk approved without individual review."
   },
-  "nf_1045": {
-    "status": "approved",
-    "reviewer": "Israel Bosun",
-    "reviewedAt": "2026-09-01",
-    "notes": "Bulk approved without individual review."
-  },
   "nf_1046": {
     "status": "approved",
     "reviewer": "Israel Bosun",
@@ -352,18 +316,6 @@
     "reviewedAt": "2026-09-01",
     "notes": "Bulk approved without individual review."
   },
-  "nf_1060": {
-    "status": "approved",
-    "reviewer": "Israel Bosun",
-    "reviewedAt": "2026-09-01",
-    "notes": "Bulk approved without individual review."
-  },
-  "nf_1061": {
-    "status": "approved",
-    "reviewer": "Israel Bosun",
-    "reviewedAt": "2026-09-01",
-    "notes": "Bulk approved without individual review."
-  },
   "nf_1062": {
     "status": "approved",
     "reviewer": "Israel Bosun",
@@ -382,43 +334,13 @@
     "reviewedAt": "2026-09-01",
     "notes": "Bulk approved without individual review."
   },
-  "nf_1065": {
-    "status": "approved",
-    "reviewer": "Israel Bosun",
-    "reviewedAt": "2026-09-01",
-    "notes": "Bulk approved without individual review."
-  },
-  "nf_1066": {
-    "status": "approved",
-    "reviewer": "Israel Bosun",
-    "reviewedAt": "2026-09-01",
-    "notes": "Bulk approved without individual review."
-  },
-  "nf_1067": {
-    "status": "approved",
-    "reviewer": "Israel Bosun",
-    "reviewedAt": "2026-09-01",
-    "notes": "Bulk approved without individual review."
-  },
   "nf_1068": {
     "status": "approved",
     "reviewer": "Israel Bosun",
     "reviewedAt": "2026-09-01",
     "notes": "Bulk approved without individual review."
   },
-  "nf_1069": {
-    "status": "approved",
-    "reviewer": "Israel Bosun",
-    "reviewedAt": "2026-09-01",
-    "notes": "Bulk approved without individual review."
-  },
   "nf_1072": {
-    "status": "approved",
-    "reviewer": "Israel Bosun",
-    "reviewedAt": "2026-09-01",
-    "notes": "Bulk approved without individual review."
-  },
-  "nf_1073": {
     "status": "approved",
     "reviewer": "Israel Bosun",
     "reviewedAt": "2026-09-01",
@@ -437,10 +359,10 @@
     "notes": "Bulk approved without individual review."
   },
   "nf_1076": {
-    "status": "approved",
-    "reviewer": "Israel Bosun",
-    "reviewedAt": "2026-09-01",
-    "notes": "Bulk approved without individual review."
+    "status": "draft",
+    "reviewer": "",
+    "reviewedAt": "",
+    "notes": "Approval cleared on 2026-09-05: the edited fact no longer stands up. Fact states '2016', which the passage does not."
   },
   "nf_1077": {
     "status": "approved",
@@ -454,31 +376,7 @@
     "reviewedAt": "2026-09-01",
     "notes": "Bulk approved without individual review."
   },
-  "nf_1079": {
-    "status": "approved",
-    "reviewer": "Israel Bosun",
-    "reviewedAt": "2026-09-01",
-    "notes": "Bulk approved without individual review."
-  },
   "nf_1080": {
-    "status": "approved",
-    "reviewer": "Israel Bosun",
-    "reviewedAt": "2026-09-01",
-    "notes": "Bulk approved without individual review."
-  },
-  "nf_1081": {
-    "status": "approved",
-    "reviewer": "Israel Bosun",
-    "reviewedAt": "2026-09-01",
-    "notes": "Bulk approved without individual review."
-  },
-  "nf_1082": {
-    "status": "approved",
-    "reviewer": "Israel Bosun",
-    "reviewedAt": "2026-09-01",
-    "notes": "Bulk approved without individual review."
-  },
-  "nf_1083": {
     "status": "approved",
     "reviewer": "Israel Bosun",
     "reviewedAt": "2026-09-01",
@@ -520,24 +418,6 @@
     "reviewedAt": "2026-09-01",
     "notes": "Bulk approved without individual review."
   },
-  "nf_1090": {
-    "status": "approved",
-    "reviewer": "Israel Bosun",
-    "reviewedAt": "2026-09-01",
-    "notes": "Bulk approved without individual review."
-  },
-  "nf_1091": {
-    "status": "approved",
-    "reviewer": "Israel Bosun",
-    "reviewedAt": "2026-09-01",
-    "notes": "Bulk approved without individual review."
-  },
-  "nf_1092": {
-    "status": "approved",
-    "reviewer": "Israel Bosun",
-    "reviewedAt": "2026-09-01",
-    "notes": "Bulk approved without individual review."
-  },
   "nf_1093": {
     "status": "approved",
     "reviewer": "Israel Bosun",
@@ -562,19 +442,7 @@
     "reviewedAt": "2026-09-01",
     "notes": "Bulk approved without individual review."
   },
-  "nf_1098": {
-    "status": "approved",
-    "reviewer": "Israel Bosun",
-    "reviewedAt": "2026-09-01",
-    "notes": "Bulk approved without individual review."
-  },
   "nf_1099": {
-    "status": "approved",
-    "reviewer": "Israel Bosun",
-    "reviewedAt": "2026-09-01",
-    "notes": "Bulk approved without individual review."
-  },
-  "nf_1100": {
     "status": "approved",
     "reviewer": "Israel Bosun",
     "reviewedAt": "2026-09-01",
@@ -682,18 +550,6 @@
     "reviewedAt": "2026-09-01",
     "notes": "Bulk approved without individual review."
   },
-  "nf_1118": {
-    "status": "approved",
-    "reviewer": "Israel Bosun",
-    "reviewedAt": "2026-09-01",
-    "notes": "Bulk approved without individual review."
-  },
-  "nf_1119": {
-    "status": "approved",
-    "reviewer": "Israel Bosun",
-    "reviewedAt": "2026-09-01",
-    "notes": "Bulk approved without individual review."
-  },
   "nf_1120": {
     "status": "approved",
     "reviewer": "Israel Bosun",
@@ -706,25 +562,7 @@
     "reviewedAt": "2026-09-01",
     "notes": "Bulk approved without individual review."
   },
-  "nf_1122": {
-    "status": "approved",
-    "reviewer": "Israel Bosun",
-    "reviewedAt": "2026-09-01",
-    "notes": "Bulk approved without individual review."
-  },
-  "nf_1123": {
-    "status": "approved",
-    "reviewer": "Israel Bosun",
-    "reviewedAt": "2026-09-01",
-    "notes": "Bulk approved without individual review."
-  },
   "nf_1124": {
-    "status": "approved",
-    "reviewer": "Israel Bosun",
-    "reviewedAt": "2026-09-01",
-    "notes": "Bulk approved without individual review."
-  },
-  "nf_1125": {
     "status": "approved",
     "reviewer": "Israel Bosun",
     "reviewedAt": "2026-09-01",
@@ -760,12 +598,6 @@
     "reviewedAt": "2026-09-01",
     "notes": "Bulk approved without individual review."
   },
-  "nf_1131": {
-    "status": "approved",
-    "reviewer": "Israel Bosun",
-    "reviewedAt": "2026-09-01",
-    "notes": "Bulk approved without individual review."
-  },
   "nf_0087": {
     "status": "draft",
     "reviewer": "",
@@ -791,12 +623,6 @@
     "status": "approved",
     "reviewer": "Israel",
     "reviewedAt": "2026-09-02"
-  },
-  "nf_1136": {
-    "status": "approved",
-    "reviewer": "pipeline",
-    "reviewedAt": "2026-09-04",
-    "notes": "Approved on arrival from the pipeline."
   },
   "nf_1142": {
     "status": "approved",
@@ -834,12 +660,6 @@
     "reviewedAt": "2026-09-05",
     "notes": "Approved on arrival from the pipeline."
   },
-  "nf_1152": {
-    "status": "approved",
-    "reviewer": "pipeline",
-    "reviewedAt": "2026-09-05",
-    "notes": "Approved on arrival from the pipeline."
-  },
   "nf_1153": {
     "status": "approved",
     "reviewer": "pipeline",
@@ -852,43 +672,7 @@
     "reviewedAt": "2026-09-05",
     "notes": "Approved on arrival from the pipeline."
   },
-  "nf_1155": {
-    "status": "approved",
-    "reviewer": "pipeline",
-    "reviewedAt": "2026-09-05",
-    "notes": "Approved on arrival from the pipeline."
-  },
-  "nf_1156": {
-    "status": "approved",
-    "reviewer": "pipeline",
-    "reviewedAt": "2026-09-05",
-    "notes": "Approved on arrival from the pipeline."
-  },
-  "nf_1157": {
-    "status": "approved",
-    "reviewer": "pipeline",
-    "reviewedAt": "2026-09-05",
-    "notes": "Approved on arrival from the pipeline."
-  },
-  "nf_1158": {
-    "status": "approved",
-    "reviewer": "pipeline",
-    "reviewedAt": "2026-09-05",
-    "notes": "Approved on arrival from the pipeline."
-  },
   "nf_1159": {
-    "status": "approved",
-    "reviewer": "pipeline",
-    "reviewedAt": "2026-09-05",
-    "notes": "Approved on arrival from the pipeline."
-  },
-  "nf_1160": {
-    "status": "approved",
-    "reviewer": "pipeline",
-    "reviewedAt": "2026-09-05",
-    "notes": "Approved on arrival from the pipeline."
-  },
-  "nf_1161": {
     "status": "approved",
     "reviewer": "pipeline",
     "reviewedAt": "2026-09-05",
