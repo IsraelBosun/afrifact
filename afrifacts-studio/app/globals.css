@@ -1,0 +1,701 @@
+/*
+ * The studio's one stylesheet.
+ *
+ * The old studio carried this palette three times, once per HTML file,
+ * and they had already started to drift. Defining it once is the plainest
+ * benefit of the move.
+ *
+ * The look is the app's, not a dashboard's: paper ground, editorial
+ * serif for the facts themselves, sans for everything structural. A fact
+ * should read here the way it will read on a phone, because that is what
+ * the reviewer is judging.
+ */
+
+:root {
+  --paper: #f7f4ee;
+  --card: #ffffff;
+  --ink: #1b1815;
+  --ink-soft: #6a625a;
+  --ink-faint: #9a9086;
+  --rule: #e2dcd1;
+  --rule-firm: #cfc7b9;
+
+  --brand: #1d9e75;
+  --error: #a32b1c;
+  --error-bg: #fbeae7;
+  --warn: #855207;
+  --warn-bg: #fbf0dc;
+  --ok: #0f6e56;
+  --ok-bg: #e3f4ee;
+
+  --history: #993c1d;
+  --culture: #0f6e56;
+  --business: #534ab7;
+  --food: #993556;
+  --sports: #185fa5;
+
+  --serif: 'Fraunces', Georgia, 'Times New Roman', serif;
+  --sans: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  --mono: 'IBM Plex Mono', ui-monospace, 'Cascadia Code', Consolas, monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --paper: #14120f;
+    --card: #1d1a16;
+    --ink: #f0ebe3;
+    --ink-soft: #a79e92;
+    --ink-faint: #6f675c;
+    --rule: #2e2a24;
+    --rule-firm: #454037;
+
+    --error: #f0917f;
+    --error-bg: #3a1a14;
+    --warn: #e5b463;
+    --warn-bg: #362513;
+    --ok: #6fd6b4;
+    --ok-bg: #10322a;
+
+    --history: #e09a7c;
+    --culture: #6fd6b4;
+    --business: #a8a1ee;
+    --food: #e79bb4;
+    --sports: #8fbeec;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 15px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+}
+
+.shell {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 24px 96px;
+}
+
+/* ---- masthead ------------------------------------------------------ */
+
+/*
+  The header follows you down the page.
+
+  It bleeds out to the shell's own padding and paints `--paper`, because
+  a transparent sticky element shows the rows sliding underneath it. The
+  z-index puts it over the review page's control bar, which sits at 6 and
+  is offset below it by `--masthead-h` — a height Nav measures and
+  publishes, since this wraps to two lines on a narrow window and no
+  constant would be right at both widths.
+*/
+.masthead {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: var(--paper);
+  display: flex;
+  align-items: baseline;
+  gap: 18px;
+  flex-wrap: wrap;
+  padding: 28px 24px 18px;
+  margin: 0 -24px 28px;
+  border-bottom: 1px solid var(--rule);
+}
+
+.wordmark {
+  font-family: var(--serif);
+  font-size: 26px;
+  font-weight: 600;
+  margin: 0;
+  letter-spacing: -0.4px;
+}
+
+.wordmark span {
+  color: var(--brand);
+}
+
+.masthead nav {
+  display: flex;
+  gap: 4px;
+  margin-left: auto;
+}
+
+.masthead nav a {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 6px 12px;
+  border-radius: 999px;
+  color: var(--ink-soft);
+}
+
+.masthead nav a:hover {
+  background: var(--rule);
+  color: var(--ink);
+}
+
+.masthead nav a[data-active='true'] {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.lede {
+  color: var(--ink-soft);
+  font-size: 14px;
+  margin: 0 0 24px;
+  max-width: 64ch;
+}
+
+/* ---- generic surfaces ---------------------------------------------- */
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-radius: 12px;
+  padding: 18px 20px;
+  margin-bottom: 14px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.spread {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.muted {
+  color: var(--ink-soft);
+}
+
+.faint {
+  color: var(--ink-faint);
+}
+
+.small {
+  font-size: 13px;
+}
+
+.tiny {
+  font-size: 12px;
+}
+
+.mono {
+  font-family: var(--mono);
+  font-size: 12px;
+}
+
+.serif {
+  font-family: var(--serif);
+}
+
+.factText {
+  font-family: var(--serif);
+  font-size: 19px;
+  line-height: 1.45;
+  margin: 0 0 10px;
+  letter-spacing: -0.2px;
+}
+
+.passage {
+  font-family: var(--mono);
+  font-size: 12px;
+  line-height: 1.6;
+  background: var(--paper);
+  border-left: 2px solid var(--rule-firm);
+  padding: 10px 12px;
+  margin: 10px 0;
+  white-space: pre-wrap;
+  color: var(--ink-soft);
+}
+
+/* ---- pills and badges ---------------------------------------------- */
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  padding: 3px 9px;
+  border-radius: 999px;
+  border: 1px solid var(--rule-firm);
+  color: var(--ink-soft);
+  white-space: nowrap;
+}
+
+.pill.ok {
+  background: var(--ok-bg);
+  color: var(--ok);
+  border-color: transparent;
+}
+
+.pill.error {
+  background: var(--error-bg);
+  color: var(--error);
+  border-color: transparent;
+}
+
+.pill.warn {
+  background: var(--warn-bg);
+  color: var(--warn);
+  border-color: transparent;
+}
+
+.cat-History { color: var(--history); }
+.cat-Culture { color: var(--culture); }
+.cat-Business { color: var(--business); }
+.cat-Food { color: var(--food); }
+.cat-Sports { color: var(--sports); }
+
+/* ---- buttons -------------------------------------------------------- */
+
+button {
+  font: inherit;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 7px 14px;
+  border-radius: 8px;
+  border: 1px solid var(--rule-firm);
+  background: var(--card);
+  color: var(--ink);
+  cursor: pointer;
+}
+
+button:hover:not(:disabled) {
+  border-color: var(--ink-faint);
+}
+
+button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+button.primary {
+  background: var(--ink);
+  color: var(--paper);
+  border-color: var(--ink);
+}
+
+button.good {
+  background: var(--ok-bg);
+  color: var(--ok);
+  border-color: transparent;
+}
+
+button.bad {
+  background: var(--error-bg);
+  color: var(--error);
+  border-color: transparent;
+}
+
+button[data-on='true'] {
+  background: var(--ink);
+  color: var(--paper);
+  border-color: var(--ink);
+}
+
+/* A button that reads as part of a sentence, for when the label already
+   on screen is the control — a count that opens what it counts. */
+button.asText,
+button.asText[data-on='true'] {
+  font-size: inherit;
+  font-weight: inherit;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: var(--rule-firm);
+}
+
+button.asText:hover:not(:disabled) {
+  color: var(--ink);
+  text-decoration-color: currentColor;
+}
+
+input[type='text'],
+input[type='search'],
+textarea,
+select {
+  font: inherit;
+  font-size: 13px;
+  padding: 7px 10px;
+  border-radius: 8px;
+  border: 1px solid var(--rule-firm);
+  background: var(--card);
+  color: var(--ink);
+}
+
+/* ---- problems ------------------------------------------------------- */
+
+.problem {
+  font-size: 12.5px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  margin-bottom: 4px;
+}
+
+.problem.error {
+  background: var(--error-bg);
+  color: var(--error);
+}
+
+.problem.warning {
+  background: var(--warn-bg);
+  color: var(--warn);
+}
+
+/* ---- pipeline board -------------------------------------------------- */
+
+/* The one button, and what it will do. It leads the page, so the stage
+   cards below it can read as a report rather than a row of choices. */
+.runbar {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-bottom: 18px;
+}
+
+.runbar p {
+  flex: 1;
+  min-width: 240px;
+}
+
+button.big {
+  font-size: 14px;
+  padding: 10px 20px;
+}
+
+/* What the app is holding. Two stage cards used to say this. */
+.appline {
+  margin-top: 22px;
+  padding-top: 14px;
+  border-top: 1px solid var(--rule);
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.board {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  margin-bottom: 28px;
+}
+
+.stage {
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-radius: 12px;
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-height: 148px;
+}
+
+.stage[data-blocked='true'] {
+  opacity: 0.55;
+}
+
+.stage[data-kind='human'] {
+  border-style: dashed;
+  border-color: var(--rule-firm);
+}
+
+.stage h3 {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+.stage .count {
+  font-family: var(--serif);
+  font-size: 30px;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.stage .unit {
+  font-size: 12px;
+  color: var(--ink-faint);
+}
+
+.stage .detail {
+  font-size: 12px;
+  color: var(--ink-soft);
+  flex: 1;
+}
+
+.stage .actions {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* ---- log ------------------------------------------------------------- */
+
+.log {
+  background: var(--ink);
+  color: #e9e4db;
+  font-family: var(--mono);
+  font-size: 12px;
+  line-height: 1.6;
+  border-radius: 12px;
+  padding: 14px 16px;
+  max-height: 340px;
+  overflow: auto;
+  white-space: pre-wrap;
+  margin-bottom: 24px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) .log {
+    background: #0c0b09;
+  }
+}
+
+.log .fail {
+  color: #f0917f;
+}
+
+/* ---- image grid ------------------------------------------------------ */
+
+.thumbs {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  margin-top: 12px;
+}
+
+.thumb {
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--paper);
+  cursor: pointer;
+  padding: 0;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.thumb img {
+  width: 100%;
+  height: 96px;
+  object-fit: cover;
+  display: block;
+  background: var(--rule);
+}
+
+.thumb figcaption {
+  padding: 6px 8px;
+  font-size: 11px;
+  line-height: 1.35;
+  color: var(--ink-soft);
+}
+
+.thumb[data-taken='true'] {
+  opacity: 0.45;
+}
+
+.chosen img {
+  width: 100%;
+  max-width: 320px;
+  border-radius: 10px;
+  display: block;
+  background: var(--rule);
+}
+
+/* ---- filters --------------------------------------------------------- */
+
+/*
+  The controls that follow you down the list.
+
+  One sticky block holding the filter row and the selection bar, because
+  two separately-sticky elements at top:0 land on top of each other and
+  the height of the first is not knowable — it wraps.
+
+  It bleeds to the shell's padding so rows scroll behind the page ground
+  rather than beside it, and it needs an opaque background for the same
+  reason: `--paper`, not transparency, or the text underneath shows
+  through the moment anything scrolls under it.
+*/
+.stickyTop {
+  position: sticky;
+  /* Below the masthead, whose height Nav measures onto the root. The
+     fallback is the height at desktop width, used for the one frame
+     before the observer has run and if the property never arrives. */
+  top: var(--masthead-h, 74px);
+  z-index: 6;
+  background: var(--paper);
+  margin: 0 -24px 14px;
+  padding: 12px 24px 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+/* Already sticky on its own elsewhere; inside the block it just sits. */
+.stickyTop .selectionBar {
+  position: static;
+  margin-bottom: 12px;
+}
+
+.stickyTop .filters {
+  margin-bottom: 10px;
+}
+
+.filters {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.empty {
+  text-align: center;
+  color: var(--ink-faint);
+  padding: 48px 0;
+  font-size: 14px;
+}
+
+/* ---- the seed list -------------------------------------------------- */
+
+.sourceFields {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.sourceFields input {
+  width: 100%;
+  margin-top: 4px;
+}
+
+.sourceRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 14px 18px;
+  margin-bottom: 8px;
+}
+
+/* ---- a stage with nothing left --------------------------------------- */
+
+/* Zero is not a number worth setting in 30px serif. A settled stage says
+   so in words, keeps its totals in small type, and recedes so the one
+   stage that does want something is the thing the eye finds. */
+.stage[data-settled='true'] {
+  opacity: 0.72;
+}
+
+.stage[data-settled='true']:hover {
+  opacity: 1;
+}
+
+.stage .settled {
+  font-size: 13px;
+  color: var(--ink-faint);
+  padding: 6px 0 2px;
+}
+
+.stage .doneLine {
+  margin: -4px 0 0;
+}
+
+/* ---- selecting several rows ------------------------------------------ */
+
+/* Sticks to the top of the list, not the bottom of the window: the
+   selection belongs to the list, and a bar pinned over the last row
+   hides the row you are about to judge. */
+.selectionBar {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding: 10px 14px;
+  margin-bottom: 12px;
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  background: var(--card);
+  backdrop-filter: blur(6px);
+}
+
+.selectionBar[data-live='true'] {
+  border-color: var(--ink-faint);
+}
+
+.pick {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.pick input[type='checkbox'] {
+  width: 15px;
+  height: 15px;
+  accent-color: var(--brand);
+  cursor: pointer;
+  margin: 0;
+}
+
+/* A picked row is marked on its edge rather than by a fill, so the
+   category colour and the status pills stay the loudest things on it. */
+.card[data-picked='true'] {
+  border-color: var(--ink-faint);
+  box-shadow: inset 3px 0 0 var(--brand);
+}
+
+.searchBox {
+  min-width: 180px;
+}
+
+/*
+  The chosen picture, on the review row.
+
+  Small and fixed so a row of 135 stays scannable: this is here to answer
+  "is that the right picture" at a glance, not to be looked at properly.
+  The full-size copy is one click away in the picture panel.
+*/
+.rowThumb {
+  width: 104px;
+  height: 78px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid var(--rule);
+  background: var(--rule);
+  flex: 0 0 auto;
+}

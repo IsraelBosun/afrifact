@@ -1,0 +1,509 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>AfriFacts Images</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" />
+<style>
+  :root {
+    --paper:      #F7F4EE;
+    --card:       #FFFFFF;
+    --ink:        #1B1815;
+    --ink-soft:   #6A625A;
+    --ink-faint:  #9A9086;
+    --rule:       #E2DCD1;
+    --rule-firm:  #CFC7B9;
+
+    --brand:      #1D9E75;
+    --error:      #A32B1C;
+    --error-bg:   #FBEAE7;
+    --warn:       #855207;
+    --warn-bg:    #FBF0DC;
+    --ok:         #0F6E56;
+    --ok-bg:      #E3F4EE;
+
+    --history:  #993C1D;
+    --culture:  #0F6E56;
+    --business: #534AB7;
+    --food:     #993556;
+    --sports:   #185FA5;
+
+    --serif: 'Fraunces', Georgia, 'Times New Roman', serif;
+    --sans:  'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    --mono:  'IBM Plex Mono', ui-monospace, 'Cascadia Code', Consolas, monospace;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper:      #14120F;
+      --card:       #1D1A16;
+      --ink:        #F2EDE4;
+      --ink-soft:   #A79D90;
+      --ink-faint:  #756B60;
+      --rule:       #2E2A24;
+      --rule-firm:  #433D34;
+
+      --error:      #E8837A;
+      --error-bg:   #33191A;
+      --warn:       #E0AC5A;
+      --warn-bg:    #2E2313;
+      --ok:         #6FCFAE;
+      --ok-bg:      #122E26;
+
+      --history:  #E0A188;
+      --culture:  #7FD6BA;
+      --business: #A9A2ED;
+      --food:     #E39CB4;
+      --sports:   #8FBEEA;
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --paper:      #14120F;
+    --card:       #1D1A16;
+    --ink:        #F2EDE4;
+    --ink-soft:   #A79D90;
+    --ink-faint:  #756B60;
+    --rule:       #2E2A24;
+    --rule-firm:  #433D34;
+
+    --error:      #E8837A;
+    --error-bg:   #33191A;
+    --warn:       #E0AC5A;
+    --warn-bg:    #2E2313;
+    --ok:         #6FCFAE;
+    --ok-bg:      #122E26;
+
+    --history:  #E0A188;
+    --culture:  #7FD6BA;
+    --business: #A9A2ED;
+    --food:     #E39CB4;
+    --sports:   #8FBEEA;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 15px;
+    line-height: 1.55;
+  }
+
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    background: var(--paper);
+    border-bottom: 1px solid var(--rule);
+    padding: 18px 28px 14px;
+  }
+
+  .bar { display: flex; align-items: baseline; gap: 16px; flex-wrap: wrap; }
+  h1 { font-family: var(--serif); font-size: 25px; font-weight: 500; margin: 0; letter-spacing: -0.3px; }
+  .nav { margin-left: auto; display: flex; gap: 14px; align-items: center; }
+  .nav a { color: var(--ink-soft); text-decoration: none; font-size: 13px; border-bottom: 1px solid transparent; }
+  .nav a:hover { color: var(--ink); border-bottom-color: var(--rule-firm); }
+  .nav a.here { color: var(--ink); border-bottom-color: var(--brand); }
+
+  .lede {
+    margin: 10px 0 0;
+    max-width: 76ch;
+    font-size: 13px;
+    color: var(--ink-soft);
+  }
+
+  .controls { display: flex; gap: 10px; align-items: center; margin-top: 14px; flex-wrap: wrap; }
+
+  input[type="text"], select {
+    font-family: var(--sans);
+    font-size: 13px;
+    padding: 7px 10px;
+    border: 1px solid var(--rule-firm);
+    border-radius: 7px;
+    background: var(--card);
+    color: var(--ink);
+  }
+  input[type="text"]:focus, select:focus { outline: 2px solid var(--brand); outline-offset: -1px; }
+
+  .counts { display: flex; gap: 14px; font-size: 12px; color: var(--ink-soft); font-family: var(--mono); }
+  .counts b { color: var(--ink); font-weight: 500; }
+
+  main { padding: 22px 28px 90px; max-width: 1180px; }
+
+  .row {
+    background: var(--card);
+    border: 1px solid var(--rule);
+    border-radius: 12px;
+    margin-bottom: 18px;
+    overflow: hidden;
+  }
+  .row.accepted { border-color: color-mix(in srgb, var(--ok) 45%, var(--rule)); }
+  .row.rejected { opacity: 0.62; }
+
+  .row-top { display: grid; grid-template-columns: 300px 1fr; gap: 0; }
+  @media (max-width: 820px) { .row-top { grid-template-columns: 1fr; } }
+
+  .shot {
+    position: relative;
+    background: #0d0b09;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .shot img { width: 100%; height: 100%; max-height: 260px; object-fit: cover; display: block; }
+  .shot .none {
+    font-size: 12px;
+    color: var(--ink-faint);
+    font-family: var(--mono);
+    padding: 20px;
+    text-align: center;
+  }
+  .credit {
+    position: absolute;
+    left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.62);
+    color: #fff;
+    font-size: 10.5px;
+    font-family: var(--mono);
+    padding: 5px 8px;
+    line-height: 1.35;
+  }
+
+  .body { padding: 16px 18px; display: flex; flex-direction: column; gap: 12px; }
+
+  .meta { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; font-size: 11px; font-family: var(--mono); color: var(--ink-faint); }
+  .cat { font-weight: 600; letter-spacing: 0.4px; text-transform: uppercase; }
+  .cat.History { color: var(--history); }
+  .cat.Culture { color: var(--culture); }
+  .cat.Business { color: var(--business); }
+  .cat.Food { color: var(--food); }
+  .cat.Sports { color: var(--sports); }
+
+  .pill { border-radius: 999px; padding: 2px 9px; font-size: 10.5px; font-family: var(--mono); }
+  .pill.proposed { background: var(--warn-bg); color: var(--warn); }
+  .pill.accepted { background: var(--ok-bg); color: var(--ok); }
+  .pill.rejected { background: var(--error-bg); color: var(--error); }
+  .pill.none     { background: var(--paper); color: var(--ink-faint); border: 1px solid var(--rule); }
+
+  .fact { font-family: var(--serif); font-size: 18px; line-height: 1.42; margin: 0; letter-spacing: -0.2px; }
+
+  .why {
+    font-size: 12.5px;
+    color: var(--ink-soft);
+    border-left: 2px solid var(--rule-firm);
+    padding-left: 10px;
+    margin: 0;
+  }
+  .why b { color: var(--ink); font-weight: 500; }
+
+  .licence { font-family: var(--mono); font-size: 11px; color: var(--ink-soft); }
+  .licence a { color: var(--ink-soft); }
+
+  .actions { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 2px; }
+
+  button {
+    font-family: var(--sans);
+    font-size: 12.5px;
+    padding: 6px 13px;
+    border-radius: 7px;
+    border: 1px solid var(--rule-firm);
+    background: var(--card);
+    color: var(--ink);
+    cursor: pointer;
+  }
+  button:hover:not(:disabled) { border-color: var(--ink-faint); }
+  button:disabled { opacity: 0.4; cursor: not-allowed; }
+  button.accept { background: var(--ok); border-color: var(--ok); color: #fff; }
+  button.accept:hover:not(:disabled) { filter: brightness(1.07); }
+  button.reject { color: var(--error); }
+  button.ghost { color: var(--ink-soft); }
+
+  .swap { border-top: 1px solid var(--rule); padding: 12px 18px 14px; display: none; }
+  .row.open .swap { display: block; }
+  .swap h4 { margin: 0 0 9px; font-size: 11px; font-family: var(--mono); text-transform: uppercase; letter-spacing: 0.6px; color: var(--ink-faint); font-weight: 500; }
+
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(132px, 1fr)); gap: 10px; }
+  .opt { border: 1px solid var(--rule); border-radius: 8px; overflow: hidden; cursor: pointer; background: var(--paper); text-align: left; padding: 0; }
+  .opt:hover { border-color: var(--brand); }
+  .opt img { width: 100%; height: 88px; object-fit: cover; display: block; }
+  .opt .cap { padding: 5px 7px; font-size: 10px; font-family: var(--mono); color: var(--ink-soft); line-height: 1.3; word-break: break-word; }
+  .opt.taken { opacity: 0.38; }
+  .opt.current { border-color: var(--brand); border-width: 2px; }
+
+  .empty { color: var(--ink-faint); font-size: 13px; font-family: var(--mono); padding: 40px 0; }
+
+  footer { padding: 0 28px 40px; font-size: 11.5px; color: var(--ink-faint); font-family: var(--mono); max-width: 1180px; }
+
+  .toast {
+    position: fixed; left: 50%; bottom: 26px; transform: translateX(-50%);
+    background: var(--ink); color: var(--paper);
+    padding: 9px 16px; border-radius: 8px; font-size: 13px;
+    opacity: 0; pointer-events: none; transition: opacity 0.18s;
+    z-index: 60;
+  }
+  .toast.show { opacity: 1; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="bar">
+    <h1>Images</h1>
+    <div class="counts" id="counts"></div>
+    <nav class="nav">
+      <a href="/">Review</a>
+      <a href="/triage">Triage</a>
+      <a href="/images" class="here">Images</a>
+    </nav>
+  </div>
+
+  <p class="lede">
+    Every image here is hosted on Wikimedia Commons and passed a licence check in code —
+    non-free, NonCommercial and NoDerivatives files cannot reach this page. What is left is
+    a judgement only you can make: <b>does this picture actually show what the fact is about?</b>
+    If it does not, reject it. A fact with no image renders as a typographic card, which is a
+    designed variant and not a failure.
+  </p>
+
+  <div class="controls">
+    <input type="text" id="who" placeholder="Your name — required to accept" />
+    <select id="filter">
+      <option value="proposed">Waiting on you</option>
+      <option value="all">All</option>
+      <option value="accepted">Accepted</option>
+      <option value="rejected">Rejected</option>
+      <option value="none">No proposal</option>
+    </select>
+    <input type="text" id="search" placeholder="Search facts…" />
+  </div>
+</header>
+
+<main id="list"></main>
+<footer id="foot"></footer>
+<div class="toast" id="toast"></div>
+
+<script>
+'use strict';
+
+var STATE = { rows: [], taken: {}, imagesPath: '' };
+var OPEN = {};
+
+var WHO_KEY = 'afrifacts.reviewer';
+var who = document.getElementById('who');
+try { who.value = localStorage.getItem(WHO_KEY) || ''; } catch (e) {}
+who.addEventListener('input', function () {
+  try { localStorage.setItem(WHO_KEY, who.value); } catch (e) {}
+  render();
+});
+
+document.getElementById('filter').addEventListener('change', render);
+document.getElementById('search').addEventListener('input', render);
+
+function esc(s) {
+  return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+    return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+  });
+}
+
+var toastTimer = null;
+function toast(msg) {
+  var el = document.getElementById('toast');
+  el.textContent = msg;
+  el.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(function () { el.classList.remove('show'); }, 2200);
+}
+
+function load() {
+  fetch('/api/images')
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      STATE = data;
+      render();
+    })
+    .catch(function (err) {
+      document.getElementById('list').innerHTML =
+        '<p class="empty">Could not load: ' + esc(String(err)) + '</p>';
+    });
+}
+
+function decide(factId, status, file, reasoning) {
+  var name = who.value.trim();
+  if (status === 'accepted' && name.length === 0) {
+    toast('Add your name first — an accepted image is attributable.');
+    who.focus();
+    return;
+  }
+  fetch('/api/image', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      factId: factId,
+      status: status,
+      file: file || '',
+      reasoning: reasoning || '',
+      decidedBy: name
+    })
+  })
+    .then(function (r) { return r.json().then(function (b) { return { ok: r.ok, body: b }; }); })
+    .then(function (res) {
+      if (!res.ok) { toast(res.body.error || 'Refused.'); return; }
+      STATE = res.body;
+      render();
+      toast(status === 'accepted' ? 'Accepted.' : status === 'rejected' ? 'Rejected — this fact stays typographic.' : 'Saved.');
+    })
+    .catch(function (err) { toast(String(err)); });
+}
+
+function visible() {
+  var mode = document.getElementById('filter').value;
+  var q = document.getElementById('search').value.trim().toLowerCase();
+
+  return STATE.rows.filter(function (row) {
+    if (mode !== 'all' && row.status !== mode) return false;
+    if (q.length > 0 && row.fact.toLowerCase().indexOf(q) === -1 && row.factId.indexOf(q) === -1) return false;
+    return true;
+  });
+}
+
+function counts() {
+  var by = { proposed: 0, accepted: 0, rejected: 0, none: 0 };
+  STATE.rows.forEach(function (r) { by[r.status] = (by[r.status] || 0) + 1; });
+  document.getElementById('counts').innerHTML =
+    '<span><b>' + by.proposed + '</b> waiting</span>' +
+    '<span><b>' + by.accepted + '</b> accepted</span>' +
+    '<span><b>' + by.rejected + '</b> rejected</span>' +
+    '<span><b>' + by.none + '</b> no proposal</span>';
+}
+
+function shotHtml(row) {
+  if (!row.chosen) {
+    return '<div class="shot"><div class="none">no image proposed<br />renders as a typographic card</div></div>';
+  }
+  return '' +
+    '<div class="shot">' +
+      '<img loading="lazy" src="' + esc(row.chosen.url) + '" alt="" />' +
+      '<div class="credit">' + esc(row.chosen.credit) + ' · ' + esc(row.chosen.license) + '</div>' +
+    '</div>';
+}
+
+function optionsHtml(row) {
+  if (row.pool.length === 0) {
+    return '<p class="empty" style="padding:6px 0">No licence-clean images on this article.</p>';
+  }
+  return '<div class="grid">' + row.pool.map(function (c) {
+    var takenBy = STATE.taken[c.file];
+    var isCurrent = row.chosen && row.chosen.file === c.file;
+    var cls = 'opt' + (isCurrent ? ' current' : '') + (takenBy && takenBy !== row.factId ? ' taken' : '');
+    var label = c.file.replace(/^File:/, '').replace(/_/g, ' ');
+    var note = takenBy && takenBy !== row.factId ? ' · on ' + takenBy : '';
+    return '' +
+      '<button class="' + cls + '" data-pick="' + esc(row.factId) + '" data-file="' + esc(c.file) + '">' +
+        '<img loading="lazy" src="' + esc(c.url) + '" alt="" />' +
+        '<span class="cap">' + esc(label.slice(0, 70)) + esc(note) + '</span>' +
+      '</button>';
+  }).join('') + '</div>';
+}
+
+function rowHtml(row) {
+  var open = OPEN[row.factId] ? ' open' : '';
+  var canAccept = !!row.chosen;
+
+  var why = row.reasoning
+    ? '<p class="why"><b>Model:</b> ' + esc(row.reasoning) + '</p>'
+    : '';
+
+  var licence = row.chosen
+    ? '<div class="licence">' + esc(row.chosen.license) +
+      ' · <a href="' + esc(row.chosen.descriptionUrl) + '" target="_blank" rel="noreferrer">Commons file</a>' +
+      ' · ' + row.chosen.width + '×' + row.chosen.height + '</div>'
+    : '';
+
+  var decided = row.decidedBy
+    ? '<span>' + esc(row.decidedBy) + ' · ' + esc(row.decidedAt) + '</span>'
+    : '';
+
+  return '' +
+  '<article class="row ' + esc(row.status) + open + '" id="row-' + esc(row.factId) + '">' +
+    '<div class="row-top">' +
+      shotHtml(row) +
+      '<div class="body">' +
+        '<div class="meta">' +
+          '<span class="cat ' + esc(row.category) + '">' + esc(row.category) + '</span>' +
+          '<span>' + esc(row.factId) + '</span>' +
+          '<span class="pill ' + esc(row.status) + '">' + esc(row.status) + '</span>' +
+          '<span>' + esc(row.article) + '</span>' +
+          decided +
+        '</div>' +
+        '<p class="fact">' + esc(row.fact) + '</p>' +
+        why +
+        licence +
+        '<div class="actions">' +
+          '<button class="accept" data-act="accepted" data-id="' + esc(row.factId) + '"' + (canAccept ? '' : ' disabled') + '>Accept</button>' +
+          '<button class="reject" data-act="rejected" data-id="' + esc(row.factId) + '">Reject</button>' +
+          '<button class="ghost" data-toggle="' + esc(row.factId) + '">' +
+            (OPEN[row.factId] ? 'Hide' : 'Choose another') + ' (' + row.pool.length + ')' +
+          '</button>' +
+        '</div>' +
+      '</div>' +
+    '</div>' +
+    '<div class="swap">' +
+      '<h4>Every licence-clean image on ' + esc(row.article) + '</h4>' +
+      optionsHtml(row) +
+    '</div>' +
+  '</article>';
+}
+
+function render() {
+  counts();
+  var rows = visible();
+  var list = document.getElementById('list');
+
+  if (rows.length === 0) {
+    list.innerHTML = '<p class="empty">Nothing here. Run <b>npm run images</b> to propose matches, ' +
+      'or switch the filter.</p>';
+  } else {
+    list.innerHTML = rows.map(rowHtml).join('');
+  }
+
+  document.getElementById('foot').textContent =
+    STATE.rows.length + ' fact(s) with images to decide · decisions saved to ' + STATE.imagesPath;
+}
+
+document.addEventListener('click', function (e) {
+  var act = e.target.closest('[data-act]');
+  if (act) {
+    var id = act.getAttribute('data-id');
+    var row = STATE.rows.filter(function (r) { return r.factId === id; })[0];
+    decide(id, act.getAttribute('data-act'), row && row.chosen ? row.chosen.file : '', row ? row.reasoning : '');
+    return;
+  }
+
+  var toggle = e.target.closest('[data-toggle]');
+  if (toggle) {
+    var tid = toggle.getAttribute('data-toggle');
+    OPEN[tid] = !OPEN[tid];
+    render();
+    return;
+  }
+
+  var pick = e.target.closest('[data-pick]');
+  if (pick) {
+    // Choosing a different image is a proposal, not an approval: it still
+    // has to be accepted, so a swap can never publish by itself.
+    decide(pick.getAttribute('data-pick'), 'proposed', pick.getAttribute('data-file'), 'Chosen by the reviewer.');
+    return;
+  }
+});
+
+load();
+</script>
+</body>
+</html>

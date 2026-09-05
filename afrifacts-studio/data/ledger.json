@@ -1,0 +1,382 @@
+{
+  "extract": {
+    "abiola": {
+      "revisionId": "1370251701",
+      "model": "deepseek-chat",
+      "candidates": 7,
+      "rejected": 1,
+      "at": "2026-09-02T17:21:38.607Z"
+    },
+    "adichie": {
+      "revisionId": "1371390887",
+      "model": "deepseek-chat",
+      "candidates": 7,
+      "rejected": 1,
+      "at": "2026-09-02T17:21:38.630Z"
+    },
+    "afrobeats": {
+      "revisionId": "1370911181",
+      "model": "deepseek-chat",
+      "candidates": 5,
+      "rejected": 3,
+      "at": "2026-09-02T17:21:38.642Z"
+    },
+    "agbada": {
+      "revisionId": "1367194955",
+      "model": "deepseek-chat",
+      "candidates": 1,
+      "rejected": 0,
+      "at": "2026-09-02T17:21:38.650Z"
+    },
+    "aliyu": {
+      "revisionId": "1356066994",
+      "model": "deepseek-chat",
+      "candidates": 0,
+      "rejected": 1,
+      "at": "2026-09-02T17:21:38.661Z"
+    },
+    "amusan": {
+      "revisionId": "1372141187",
+      "model": "deepseek-chat",
+      "candidates": 2,
+      "rejected": 1,
+      "at": "2026-09-02T17:21:38.669Z"
+    },
+    "anini": {
+      "revisionId": "1363111836",
+      "model": "deepseek-chat",
+      "candidates": 1,
+      "rejected": 0,
+      "at": "2026-09-02T17:21:38.681Z"
+    },
+    "apollo-77": {
+      "revisionId": "1365222003",
+      "model": "deepseek-chat",
+      "candidates": 1,
+      "rejected": 5,
+      "at": "2026-09-02T17:21:38.693Z"
+    },
+    "aro": {
+      "revisionId": "1371984835",
+      "model": "deepseek-chat",
+      "candidates": 2,
+      "rejected": 1,
+      "at": "2026-09-02T17:21:38.708Z"
+    },
+    "awolowo": {
+      "revisionId": "1372096080",
+      "model": "deepseek-chat",
+      "candidates": 3,
+      "rejected": 0,
+      "at": "2026-09-02T17:21:38.718Z"
+    },
+    "babayaro": {
+      "revisionId": "1361824001",
+      "model": "deepseek-chat",
+      "candidates": 2,
+      "rejected": 0,
+      "at": "2026-09-02T17:21:38.728Z"
+    },
+    "bar-beach": {
+      "revisionId": "1367976559",
+      "model": "deepseek-chat",
+      "candidates": 4,
+      "rejected": 0,
+      "at": "2026-09-02T17:21:38.740Z"
+    },
+    "benin-empire": {
+      "revisionId": "1372130908",
+      "model": "deepseek-chat",
+      "candidates": 4,
+      "rejected": 4,
+      "at": "2026-09-02T17:21:38.753Z"
+    },
+    "biafra": {
+      "revisionId": "1372088590",
+      "model": "deepseek-chat",
+      "candidates": 5,
+      "rejected": 1,
+      "at": "2026-09-02T17:21:38.761Z"
+    },
+    "burna": {
+      "revisionId": "1371491652",
+      "model": "deepseek-chat",
+      "candidates": 7,
+      "rejected": 1,
+      "at": "2026-09-02T17:21:38.774Z"
+    },
+    "calabar": {
+      "revisionId": "1365925315",
+      "model": "deepseek-chat",
+      "candidates": 6,
+      "rejected": 0,
+      "at": "2026-09-02T17:21:38.783Z"
+    },
+    "danfo": {
+      "revisionId": "1368578407",
+      "model": "deepseek-chat",
+      "candidates": 1,
+      "rejected": 0,
+      "at": "2026-09-02T17:21:38.794Z"
+    },
+    "dikko-affair": {
+      "revisionId": "1331203173",
+      "model": "deepseek-chat",
+      "candidates": 0,
+      "rejected": 1,
+      "at": "2026-09-02T17:21:38.810Z"
+    },
+    "dikko": {
+      "revisionId": "1360420449",
+      "model": "deepseek-chat",
+      "candidates": 1,
+      "rejected": 0,
+      "at": "2026-09-02T17:21:38.821Z"
+    },
+    "ekpo": {
+      "revisionId": "1371985406",
+      "model": "deepseek-chat",
+      "candidates": 2,
+      "rejected": 2,
+      "at": "2026-09-02T17:21:38.833Z"
+    },
+    "equiano": {
+      "revisionId": "1370520174",
+      "model": "deepseek-chat",
+      "candidates": 2,
+      "rejected": 6,
+      "at": "2026-09-02T17:21:38.840Z"
+    },
+    "eredo": {
+      "revisionId": "1364719707",
+      "model": "deepseek-chat",
+      "candidates": 0,
+      "rejected": 1,
+      "at": "2026-09-02T17:21:38.850Z"
+    },
+    "fela": {
+      "revisionId": "1371857977",
+      "model": "deepseek-chat",
+      "candidates": 4,
+      "rejected": 4,
+      "at": "2026-09-02T17:21:38.862Z"
+    },
+    "igbo-landing": {
+      "revisionId": "1367564018",
+      "model": "deepseek-chat",
+      "candidates": 2,
+      "rejected": 1,
+      "at": "2026-09-02T17:21:38.872Z"
+    },
+    "igbo-ora": {
+      "revisionId": "1372181753",
+      "model": "deepseek-chat",
+      "candidates": 3,
+      "rejected": 1,
+      "at": "2026-09-02T17:21:38.883Z"
+    },
+    "igbo-ukwu": {
+      "revisionId": "1371984780",
+      "model": "deepseek-chat",
+      "candidates": 1,
+      "rejected": 2,
+      "at": "2026-09-02T17:21:38.894Z"
+    },
+    "jollof": {
+      "revisionId": "1362534995",
+      "model": "deepseek-chat",
+      "candidates": 4,
+      "rejected": 0,
+      "at": "2026-09-02T17:21:38.904Z"
+    },
+    "kanem-bornu": {
+      "revisionId": "1370808580",
+      "model": "deepseek-chat",
+      "candidates": 2,
+      "rejected": 4,
+      "at": "2026-09-02T17:21:38.918Z"
+    },
+    "lagos": {
+      "revisionId": "1371813862",
+      "model": "deepseek-chat",
+      "candidates": 0,
+      "rejected": 1,
+      "at": "2026-09-02T17:21:38.930Z"
+    },
+    "lekki": {
+      "revisionId": "1371093431",
+      "model": "deepseek-chat",
+      "candidates": 8,
+      "rejected": 0,
+      "at": "2026-09-02T17:21:38.942Z"
+    },
+    "nairaland": {
+      "revisionId": "1370912503",
+      "model": "deepseek-chat",
+      "candidates": 4,
+      "rejected": 0,
+      "at": "2026-09-02T17:21:38.952Z"
+    },
+    "nok": {
+      "revisionId": "1368847651",
+      "model": "deepseek-chat",
+      "candidates": 4,
+      "rejected": 2,
+      "at": "2026-09-02T17:21:38.971Z"
+    },
+    "nollywood": {
+      "revisionId": "1370678774",
+      "model": "deepseek-chat",
+      "candidates": 3,
+      "rejected": 0,
+      "at": "2026-09-02T17:21:38.982Z"
+    },
+    "nrc": {
+      "revisionId": "1366123510",
+      "model": "deepseek-chat",
+      "candidates": 4,
+      "rejected": 1,
+      "at": "2026-09-02T17:21:38.994Z"
+    },
+    "nri": {
+      "revisionId": "1371990413",
+      "model": "deepseek-chat",
+      "candidates": 6,
+      "rejected": 2,
+      "at": "2026-09-02T17:21:39.005Z"
+    },
+    "nwude": {
+      "revisionId": "1368064761",
+      "model": "deepseek-chat",
+      "candidates": 3,
+      "rejected": 1,
+      "at": "2026-09-02T17:21:39.016Z"
+    },
+    "ogunlesi": {
+      "revisionId": "1368954379",
+      "model": "deepseek-chat",
+      "candidates": 1,
+      "rejected": 2,
+      "at": "2026-09-02T17:21:39.027Z"
+    },
+    "okoye": {
+      "revisionId": "1371317145",
+      "model": "deepseek-chat",
+      "candidates": 1,
+      "rejected": 2,
+      "at": "2026-09-02T17:21:39.038Z"
+    },
+    "oyo-empire": {
+      "revisionId": "1371892901",
+      "model": "deepseek-chat",
+      "candidates": 6,
+      "rejected": 0,
+      "at": "2026-09-02T17:21:39.047Z"
+    },
+    "port-harcourt": {
+      "revisionId": "1372164320",
+      "model": "deepseek-chat",
+      "candidates": 3,
+      "rejected": 2,
+      "at": "2026-09-02T17:21:39.058Z"
+    },
+    "ransome-kuti": {
+      "revisionId": "1370884036",
+      "model": "deepseek-chat",
+      "candidates": 5,
+      "rejected": 1,
+      "at": "2026-09-02T17:21:39.074Z"
+    },
+    "sickle-cell": {
+      "revisionId": "1370166966",
+      "model": "deepseek-chat",
+      "candidates": 0,
+      "rejected": 8,
+      "at": "2026-09-02T17:21:39.089Z"
+    },
+    "sokoto": {
+      "revisionId": "1371716628",
+      "model": "deepseek-chat",
+      "candidates": 8,
+      "rejected": 0,
+      "at": "2026-09-02T17:21:39.104Z"
+    },
+    "soyinka": {
+      "revisionId": "1371599095",
+      "model": "deepseek-chat",
+      "candidates": 3,
+      "rejected": 2,
+      "at": "2026-09-02T17:21:39.118Z"
+    },
+    "super-eagles": {
+      "revisionId": "1371856843",
+      "model": "deepseek-chat",
+      "candidates": 7,
+      "rejected": 1,
+      "at": "2026-09-02T17:21:39.132Z"
+    },
+    "zuma-rock": {
+      "revisionId": "1369749399",
+      "model": "deepseek-chat",
+      "candidates": 3,
+      "rejected": 1,
+      "at": "2026-09-02T17:21:39.145Z"
+    },
+    "nigeria": {
+      "revisionId": "1372696829",
+      "model": "deepseek-chat",
+      "candidates": 8,
+      "rejected": 0,
+      "at": "2026-09-02T18:03:42.235Z"
+    },
+    "list-of-tallest-buildings": {
+      "revisionId": "1371098491",
+      "model": "deepseek-chat",
+      "candidates": 1,
+      "rejected": 0,
+      "at": "2026-09-02T18:53:26.666Z"
+    },
+    "history-of-science-and": {
+      "revisionId": "1372032399",
+      "model": "deepseek-chat",
+      "candidates": 8,
+      "rejected": 0,
+      "at": "2026-09-04T17:38:08.635Z"
+    },
+    "yemi-osinbajo": {
+      "revisionId": "1370870160",
+      "model": "deepseek-chat",
+      "candidates": 4,
+      "rejected": 0,
+      "at": "2026-09-05T08:50:13.488Z"
+    },
+    "laolu-akande": {
+      "revisionId": "1368037176",
+      "model": "deepseek-chat",
+      "candidates": 3,
+      "rejected": 0,
+      "at": "2026-09-05T09:32:32.776Z"
+    },
+    "yemi-osinbajos-wife-dolapo": {
+      "revisionId": "",
+      "model": "deepseek-chat",
+      "candidates": 1,
+      "rejected": 0,
+      "at": "2026-09-05T10:12:02.031Z"
+    },
+    "yemi-and-dolapo-osinbajo": {
+      "revisionId": "",
+      "model": "deepseek-chat",
+      "candidates": 3,
+      "rejected": 0,
+      "at": "2026-09-05T10:29:51.929Z"
+    },
+    "yemi-osinbajo-africaconfidential": {
+      "revisionId": "",
+      "model": "deepseek-chat",
+      "candidates": 3,
+      "rejected": 0,
+      "at": "2026-09-05T10:41:53.720Z"
+    }
+  }
+}

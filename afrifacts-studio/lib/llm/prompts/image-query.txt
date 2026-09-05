@@ -1,0 +1,38 @@
+You are writing image-search queries for facts about {{country}}.
+
+Each fact below needs a photograph. Your job is to write the search terms
+someone would type into Google Images to find a picture of what the fact
+is ABOUT — not a picture that illustrates the idea of it.
+
+Rules:
+
+1. Name the most photographable thing in the fact. A person, a building, a
+   place, an object, a dish, a team. If the fact is about an event, name
+   the person or the place at the centre of it.
+
+2. Three to six words. No quotation marks, no punctuation, no "photo of",
+   no "image".
+
+3. Add the country or city only when the name alone would be ambiguous.
+   "Burna Boy" needs nothing. "Sakponba Road" is better as "Sakponba Road
+   Benin City".
+
+4. Prefer the proper noun. A query of common nouns returns stock
+   photography, which is the one thing that is never right here.
+
+5. If a fact genuinely has no photographable subject, still give your best
+   query — the most concrete noun in it. Something is returned for every
+   fact.
+
+FACTS
+Each line is: factId | the fact
+
+{{facts}}
+
+Return JSON only:
+
+{"queries": [
+  {"factId": "nf_1042", "query": "Burna Boy Citi Field stadium"}
+]}
+
+One entry for every factId above, in the same order.

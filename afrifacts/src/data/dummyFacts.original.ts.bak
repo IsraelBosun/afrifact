@@ -1,0 +1,192 @@
+/**
+ * Phase 1 dummy content. Typed as Fact[], so a shape mistake is a compile
+ * error rather than a runtime surprise.
+ *
+ * The first facts match the design PDF exactly.
+ *
+ * Images are PLACEHOLDERS from picsum.photos, present only so the photo-card
+ * variant renders during phase 1. They are unrelated stock photographs, not
+ * pictures of the things described, and every one must be replaced with a
+ * real open-licence image before launch. We never ship AI imagery of real
+ * artifacts, people or places, so these stay generic rather than illustrative.
+ *
+ * The photo credit and licence still travel with each one, because a card
+ * that can drop a credit in phase 1 will drop one in phase 2.
+ */
+
+import type { Fact, QuizQuestion } from '@/src/types';
+
+export const facts: Fact[] = [
+  {
+    id: 'nf_0087',
+    country: 'NG',
+    category: 'History',
+    fact: "Benin City's walls were once among the largest earthworks ever built on the planet.",
+    deepDive: {
+      body: [
+        'The walls and moats stretched an estimated 16,000 kilometres through the rainforest, enclosing the capital and hundreds of settlements. Dug by hand, over centuries, without a single machine.',
+        'Earthworks on this scale required sustained planning and labour across generations, coordinated by a state that most outside accounts of the period never described.',
+      ],
+      whyItMatters:
+        'Much of it was destroyed after 1897 and the story vanished from most textbooks.',
+      readTime: 3,
+      suggestedQuestion: 'Who built the walls?',
+    },
+    source: { name: 'Guinness archive', url: 'https://www.guinnessworldrecords.com', verified: true },
+    image: {
+      url: 'https://picsum.photos/seed/afrifacts-benin/1080/1200',
+      credit: 'Placeholder · picsum.photos',
+      license: 'Placeholder, replace before launch',
+      panelColor: '#1C1008',
+    },
+    factNumber: 87,
+    relatedIds: ['nf_0091', 'nf_0214'],
+  },
+  {
+    id: 'nf_0102',
+    country: 'NG',
+    category: 'Business',
+    fact: 'Lagos generates a bigger GDP than most entire African countries.',
+    deepDive: {
+      body: [
+        'The city alone out-produces the national economies of most of its neighbours, driven by ports, banking, entertainment and a population still climbing.',
+        'That concentration cuts both ways: it makes Lagos the commercial centre of the region, and it makes the country dependent on a single coastal city.',
+      ],
+      whyItMatters:
+        'One city carrying that much output shapes where a whole country invests, builds and hires.',
+      readTime: 3,
+      suggestedQuestion: 'How does Lagos compare to Nairobi?',
+    },
+    source: { name: 'World Bank', url: 'https://data.worldbank.org', verified: true },
+    image: {
+      url: 'https://picsum.photos/seed/afrifacts-lagos/1080/1200',
+      credit: 'Placeholder · picsum.photos',
+      license: 'Placeholder, replace before launch',
+      panelColor: '#171238',
+    },
+    factNumber: 102,
+    relatedIds: ['nf_0087', 'nf_0214'],
+  },
+  {
+    id: 'nf_0214',
+    country: 'NG',
+    category: 'Culture',
+    fact: 'Nigeria is home to over 500 spoken languages, one of the most linguistically diverse countries on Earth.',
+    deepDive: {
+      body: [
+        'Estimates put the count above 500 living languages, spread across several unrelated families rather than dialects of one root.',
+        'Hausa, Yoruba and Igbo carry the largest numbers of speakers, but hundreds of smaller languages persist alongside them, many with fewer than ten thousand speakers.',
+      ],
+      whyItMatters:
+        'Every language that goes quiet takes an oral archive with it, and dozens here are close to that point.',
+      readTime: 2,
+      suggestedQuestion: 'Which Nigerian languages are most at risk?',
+    },
+    source: { name: 'Ethnologue', url: 'https://www.ethnologue.com', verified: true },
+    image: null,
+    factNumber: 214,
+    relatedIds: ['nf_0091', 'nf_0087'],
+  },
+  {
+    id: 'nf_0091',
+    country: 'NG',
+    category: 'Culture',
+    fact: 'The talking drum mimics the tones of Yoruba speech closely enough to carry sentences.',
+    deepDive: {
+      body: [
+        'Yoruba is a tonal language, so pitch carries meaning. Squeezing the cords of a dundun drum bends its pitch the same way a voice bends, letting a skilled player reproduce the shape of actual phrases.',
+        'Messages travelled between villages this way long before radio, and the drum still opens ceremonies where the words matter as much as the rhythm.',
+      ],
+      whyItMatters:
+        'It is a reminder that instruments here were built to speak, not only to keep time.',
+      readTime: 2,
+      suggestedQuestion: 'Can a drummer really send a full sentence?',
+    },
+    source: { name: 'Smithsonian Folkways', url: 'https://folkways.si.edu', verified: true },
+    image: {
+      url: 'https://picsum.photos/seed/afrifacts-drum/1080/1200',
+      credit: 'Placeholder · picsum.photos',
+      license: 'Placeholder, replace before launch',
+      panelColor: '#04342C',
+    },
+    factNumber: 91,
+    relatedIds: ['nf_0214', 'nf_0087'],
+  },
+  {
+    id: 'nf_0133',
+    country: 'NG',
+    category: 'Food',
+    fact: 'Yaji, the suya spice, is built on ground kuli-kuli rather than chilli alone.',
+    deepDive: {
+      body: [
+        'Kuli-kuli, a dried peanut cake, is milled into the blend and gives yaji its body. Chilli, ginger and other spices sit on top of that base.',
+        'The peanut is why suya spice clings to meat the way it does, and why the flavour reads as savoury rather than purely hot.',
+      ],
+      whyItMatters:
+        'Recipes that travel usually get simplified. Yaji kept the ingredient that makes it work.',
+      readTime: 2,
+      suggestedQuestion: 'What else goes into yaji?',
+    },
+    source: { name: 'Betumi food archive', url: 'https://www.betumi.com', verified: true },
+    image: null,
+    factNumber: 133,
+    relatedIds: ['nf_0214', 'nf_0091'],
+  },
+  {
+    id: 'nf_0178',
+    country: 'NG',
+    category: 'Sports',
+    fact: 'Nigeria was the first African team to win Olympic gold in football.',
+    deepDive: {
+      body: [
+        'At Atlanta in 1996 the team beat Brazil in the semi-final after trailing by three, then came from behind again to beat Argentina in the final.',
+        'It was the first Olympic football gold for any African nation, won by a squad most of whose players were under 23.',
+      ],
+      whyItMatters:
+        'It reset what African teams were assumed capable of at that level, two years before the World Cup circuit caught up.',
+      readTime: 2,
+      suggestedQuestion: 'Who scored in the final?',
+    },
+    source: { name: 'Olympics.com', url: 'https://olympics.com', verified: true },
+    image: {
+      url: 'https://picsum.photos/seed/afrifacts-olympic/1080/1200',
+      credit: 'Placeholder · picsum.photos',
+      license: 'Placeholder, replace before launch',
+      panelColor: '#042C53',
+    },
+    factNumber: 178,
+    relatedIds: ['nf_0102', 'nf_0087'],
+  },
+];
+
+export const quizQuestions: QuizQuestion[] = [
+  {
+    id: 'q_0210',
+    factId: 'nf_0214',
+    question: 'Roughly how many languages are spoken across Nigeria?',
+    options: ['Around 50', 'About 120', 'Over 500', 'Exactly 36'],
+    correctIndex: 2,
+    explanation: 'Over 500, one of the highest counts of any country in the world.',
+  },
+  {
+    id: 'q_0211',
+    factId: 'nf_0091',
+    question: 'What makes the talking drum able to imitate speech?',
+    options: [
+      'Its cords bend the pitch',
+      'It has tuned metal keys',
+      'It is played with two sticks',
+      'It uses a hollow gourd',
+    ],
+    correctIndex: 0,
+    explanation: 'Squeezing the cords changes the pitch, following the tones of Yoruba.',
+  },
+  {
+    id: 'q_0212',
+    factId: 'nf_0133',
+    question: 'Which ingredient gives yaji its body?',
+    options: ['Ground kuli-kuli', 'Palm oil', 'Dried shrimp', 'Cassava flour'],
+    correctIndex: 0,
+    explanation: 'Ground peanut cake is the base the chilli and ginger sit on.',
+  },
+];

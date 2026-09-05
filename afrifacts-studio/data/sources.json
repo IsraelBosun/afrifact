@@ -1,0 +1,402 @@
+[
+  {
+    "slug": "equiano",
+    "title": "Olaudah Equiano",
+    "country": "NG",
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Olaudah_Equiano",
+    "tier": "reference",
+    "group": "People",
+    "wanted": ""
+  },
+  {
+    "slug": "anini",
+    "title": "Lawrence Anini",
+    "country": "NG",
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Lawrence_Anini",
+    "tier": "reference",
+    "group": "People",
+    "wanted": ""
+  },
+  {
+    "slug": "nwude",
+    "title": "Emmanuel Nwude",
+    "country": "NG",
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Emmanuel_Nwude",
+    "tier": "reference",
+    "group": "People",
+    "wanted": ""
+  },
+  {
+    "slug": "dikko",
+    "title": "Umaru Dikko",
+    "country": "NG",
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Umaru_Dikko",
+    "tier": "reference",
+    "group": "People",
+    "wanted": ""
+  },
+  {
+    "slug": "ogunlesi",
+    "title": "Adebayo Ogunlesi",
+    "country": "NG",
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Adebayo_Ogunlesi",
+    "tier": "reference",
+    "group": "People",
+    "wanted": ""
+  },
+  {
+    "slug": "babayaro",
+    "title": "Celestine Babayaro",
+    "country": "NG",
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Celestine_Babayaro",
+    "tier": "reference",
+    "group": "People",
+    "wanted": ""
+  },
+  {
+    "slug": "soyinka",
+    "title": "Wole Soyinka",
+    "country": "NG",
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Wole_Soyinka",
+    "tier": "reference",
+    "group": "People",
+    "wanted": ""
+  },
+  {
+    "slug": "fela",
+    "title": "Fela Kuti",
+    "country": "NG",
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Fela_Kuti",
+    "tier": "reference",
+    "group": "People",
+    "wanted": ""
+  },
+  {
+    "slug": "ransome-kuti",
+    "title": "Funmilayo Ransome-Kuti",
+    "country": "NG",
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Funmilayo_Ransome-Kuti",
+    "tier": "reference",
+    "group": "People",
+    "wanted": ""
+  },
+  {
+    "slug": "aliyu",
+    "title": "Jelani Aliyu",
+    "country": "NG",
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Jelani_Aliyu",
+    "tier": "reference",
+    "group": "People",
+    "wanted": ""
+  },
+  {
+    "slug": "abiola",
+    "title": "Moshood Abiola",
+    "country": "NG",
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Moshood_Abiola",
+    "tier": "reference",
+    "group": "People",
+    "wanted": ""
+  },
+  {
+    "slug": "awolowo",
+    "title": "Obafemi Awolowo",
+    "country": "NG",
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Obafemi_Awolowo",
+    "tier": "reference",
+    "group": "People",
+    "wanted": ""
+  },
+  {
+    "slug": "okoye",
+    "title": "Christian Okoye",
+    "country": "NG",
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Christian_Okoye",
+    "tier": "reference",
+    "group": "People",
+    "wanted": ""
+  },
+  {
+    "slug": "amusan",
+    "title": "Tobi Amusan",
+    "country": "NG",
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Tobi_Amusan",
+    "tier": "reference",
+    "group": "People",
+    "wanted": ""
+  },
+  {
+    "slug": "adichie",
+    "title": "Chimamanda Ngozi Adichie",
+    "country": "NG",
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Chimamanda_Ngozi_Adichie",
+    "tier": "reference",
+    "group": "People",
+    "wanted": ""
+  },
+  {
+    "slug": "burna",
+    "title": "Burna Boy",
+    "country": "NG",
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Burna_Boy",
+    "tier": "reference",
+    "group": "People",
+    "wanted": ""
+  },
+  {
+    "slug": "igbo-landing",
+    "title": "Igbo Landing",
+    "country": "NG",
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Igbo_Landing",
+    "tier": "reference",
+    "group": "Events that read like fiction",
+    "wanted": ""
+  },
+  {
+    "slug": "biafra",
+    "title": "Nigerian Civil War",
+    "country": "NG",
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Nigerian_Civil_War",
+    "tier": "reference",
+    "group": "Events that read like fiction",
+    "wanted": ""
+  },
+  {
+    "slug": "bar-beach",
+    "title": "Bar Beach, Lagos",
+    "country": "NG",
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Bar_Beach%2C_Lagos",
+    "tier": "reference",
+    "group": "Events that read like fiction",
+    "wanted": ""
+  },
+  {
+    "slug": "apollo-77",
+    "title": "FESTAC 77",
+    "country": "NG",
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/FESTAC_77",
+    "tier": "reference",
+    "group": "Events that read like fiction",
+    "wanted": ""
+  },
+  {
+    "slug": "lekki",
+    "title": "Lekki",
+    "country": "NG",
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Lekki",
+    "tier": "reference",
+    "group": "Places people live in and never wonder about",
+    "wanted": ""
+  },
+  {
+    "slug": "port-harcourt",
+    "title": "Port Harcourt",
+    "country": "NG",
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Port_Harcourt",
+    "tier": "reference",
+    "group": "Places people live in and never wonder about",
+    "wanted": ""
+  },
+  {
+    "slug": "igbo-ora",
+    "title": "Igbo-Ora",
+    "country": "NG",
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Igbo-Ora",
+    "tier": "reference",
+    "group": "Places people live in and never wonder about",
+    "wanted": ""
+  },
+  {
+    "slug": "lagos",
+    "title": "Lagos",
+    "country": "NG",
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Lagos",
+    "tier": "reference",
+    "group": "Places people live in and never wonder about",
+    "wanted": ""
+  },
+  {
+    "slug": "calabar",
+    "title": "Calabar",
+    "country": "NG",
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Calabar",
+    "tier": "reference",
+    "group": "Places people live in and never wonder about",
+    "wanted": ""
+  },
+  {
+    "slug": "zuma-rock",
+    "title": "Zuma Rock",
+    "country": "NG",
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Zuma_Rock",
+    "tier": "reference",
+    "group": "Places people live in and never wonder about",
+    "wanted": ""
+  },
+  {
+    "slug": "jollof",
+    "title": "Jollof rice",
+    "country": "NG",
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Jollof_rice",
+    "tier": "reference",
+    "group": "Things in daily life with a story behind them",
+    "wanted": ""
+  },
+  {
+    "slug": "nollywood",
+    "title": "Nollywood",
+    "country": "NG",
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Nollywood",
+    "tier": "reference",
+    "group": "Things in daily life with a story behind them",
+    "wanted": ""
+  },
+  {
+    "slug": "afrobeats",
+    "title": "Afrobeats",
+    "country": "NG",
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Afrobeats",
+    "tier": "reference",
+    "group": "Things in daily life with a story behind them",
+    "wanted": ""
+  },
+  {
+    "slug": "agbada",
+    "title": "Agbada",
+    "country": "NG",
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Agbada",
+    "tier": "reference",
+    "group": "Things in daily life with a story behind them",
+    "wanted": ""
+  },
+  {
+    "slug": "sickle-cell",
+    "title": "Sickle cell disease",
+    "country": "NG",
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Sickle_cell_disease",
+    "tier": "reference",
+    "group": "Things in daily life with a story behind them",
+    "wanted": ""
+  },
+  {
+    "slug": "nairaland",
+    "title": "Nairaland",
+    "country": "NG",
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Nairaland",
+    "tier": "reference",
+    "group": "Things in daily life with a story behind them",
+    "wanted": ""
+  },
+  {
+    "slug": "danfo",
+    "title": "Danfo",
+    "country": "NG",
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Danfo",
+    "tier": "reference",
+    "group": "Things in daily life with a story behind them",
+    "wanted": ""
+  },
+  {
+    "slug": "super-eagles",
+    "title": "Nigeria national football team",
+    "country": "NG",
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Nigeria_national_football_team",
+    "tier": "reference",
+    "group": "Things in daily life with a story behind them",
+    "wanted": ""
+  },
+  {
+    "slug": "nigeria",
+    "title": "Nigeria",
+    "country": "NG",
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Nigeria",
+    "tier": "reference",
+    "group": "",
+    "wanted": ""
+  },
+  {
+    "slug": "list-of-tallest-buildings",
+    "title": "List of tallest buildings in Nigeria",
+    "country": "NG",
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/List_of_tallest_buildings_in_Nigeria",
+    "tier": "reference",
+    "group": "",
+    "wanted": ""
+  },
+  {
+    "slug": "history-of-science-and",
+    "title": "History of science and technology in Africa",
+    "country": "NG",
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/History_of_science_and_technology_in_Africa",
+    "tier": "reference",
+    "group": "",
+    "wanted": ""
+  },
+  {
+    "slug": "yemi-osinbajo",
+    "title": "Yemi Osinbajo",
+    "country": "NG",
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Yemi_Osinbajo",
+    "tier": "reference",
+    "group": "",
+    "wanted": ""
+  },
+  {
+    "slug": "laolu-akande",
+    "title": "Laolu Akande",
+    "country": "NG",
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Laolu_Akande",
+    "tier": "reference",
+    "group": "",
+    "wanted": ""
+  },
+  {
+    "slug": "yemi-osinbajo-africaconfidential",
+    "title": "yemi osinbajo",
+    "country": "NG",
+    "kind": "web",
+    "url": "https://www.africa-confidential.com/profile/id/3479/yemi-osinbajo",
+    "tier": "reference",
+    "group": "",
+    "wanted": "yemi osibanjo and his wife are cousins"
+  }
+]

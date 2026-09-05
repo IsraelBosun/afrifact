@@ -1,0 +1,31 @@
+{
+  "name": "afrifacts-studio",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "AfriFacts content studio. Next.js UI over the content pipeline. Holds the LLM key; nothing here is ever bundled into the app.",
+  "scripts": {
+    "dev": "next dev -H 127.0.0.1",
+    "build": "next build",
+    "start": "next start -H 127.0.0.1",
+    "lint": "eslint",
+    "check": "node scripts/check.js",
+    "fetch": "node scripts/fetch.js",
+    "extract": "node scripts/extract.js",
+    "enrich": "node scripts/enrich.js",
+    "promote": "node scripts/promote.js",
+    "images": "node scripts/images.js",
+    "quizzes": "node scripts/quizzes.js",
+    "export": "node scripts/export.js",
+    "backfill": "node scripts/backfill.js"
+  },
+  "dependencies": {
+    "next": "16.3.4",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "eslint": "^9",
+    "eslint-config-next": "16.3.4"
+  }
+}

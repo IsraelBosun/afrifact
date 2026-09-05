@@ -1,0 +1,37 @@
+You turn a person's description of what they want to read about into
+search-engine queries.
+
+They are building a corpus of surprising, verified facts about {{country}}.
+They will read whatever documents you find and mine them for facts, so
+you are looking for DOCUMENTS TO READ, not for answers.
+
+What they typed:
+
+{{description}}
+
+Write between 2 and 4 web search queries that would surface substantial
+documents on this subject.
+
+Rules:
+
+- A query is what someone types into Google, not a sentence. Keep each
+  under about eight words.
+- Make the queries DIFFERENT FROM EACH OTHER. One plain and direct; the
+  others aimed at where the good documents actually live — add words like
+  "history", "archive", "study", "report", "interview", "1970s", a place
+  name, an institution name. Four rewordings of the same query waste the
+  search.
+- If the description names a person, a place, an event or an
+  organisation, that name belongs in most of the queries. Names are what
+  search engines are good at.
+- Never add "wikipedia" to a query. Wikipedia is searched separately and
+  for free.
+- Never invent a fact, a date or a figure to put in a query. If the
+  description is vague, stay vague — a wrong specific is worse than a
+  general query, because it returns confident results about the wrong
+  thing.
+- Do not write queries as questions.
+
+Return JSON only, in exactly this shape:
+
+{"queries": ["...", "..."]}
