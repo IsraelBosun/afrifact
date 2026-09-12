@@ -32,6 +32,8 @@ const PANEL = {
   Business: '#26215C',
   Food: '#4B1528',
   Sports: '#042C53',
+  Records: '#28350B',
+  Health: '#04313A',
 };
 
 /**

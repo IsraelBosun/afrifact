@@ -16,6 +16,7 @@ import { useEffect, useRef } from 'react';
 const LINKS = [
   { href: '/', label: 'Pipeline' },
   { href: '/sources', label: 'Sources' },
+  { href: '/rejects', label: 'Rejects' },
   { href: '/review', label: 'Review' },
 ];
 

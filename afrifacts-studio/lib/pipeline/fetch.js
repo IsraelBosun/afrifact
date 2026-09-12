@@ -187,6 +187,74 @@ async function waybackFor(url) {
   }
 }
 
+/*
+  A record page is not an article, and the article gates say so.
+
+  Measured on a real Guinness World Records page: 647 characters, of
+  which two lines form sentences. `fetchWebPage` refuses it as a link
+  list. That refusal is correct for what it was written to catch (a
+  homepage of headlines cleared 600 characters once), so the fix is not
+  to loosen it. A record page is a different shape of document and gets
+  its own cleaning and its own gate.
+
+  What is actually on the page, once `readable` has run:
+
+    23 total number
+    Mfon Udoh (Nigeria) scored 23 goals for Enyimba in the Nigerian
+    Premier League in 2013-14, breaking the previous best of 20 set by
+    Jude Aneke (Nigeria) in 2010-11. ...
+    Records change on a daily basis and are not immediately published...
+    Comments below may relate to previous holders of this record.
+    Registered in England No: 541295
+    Registered Office: Ground Floor, The Rookery, 2 Dyott Street...
+
+  One real claim and five lines of furniture. The furniture matters more
+  than its length suggests: CLAUDE.md §11 records that the model scores
+  page furniture 4 to 5 on prior probability, so a registered-office
+  address left in the document comes back as a candidate fact.
+*/
+const RECORD_FURNITURE = [
+  /^Records change on a daily basis\b/i,
+  /^Comments below may relate\b/i,
+  /^Registered in England No\b/i,
+  /^Registered Office\b/i,
+  /^\(?You will need to register\b/i,
+  /^For a full list of record titles\b/i,
+];
+
+/**
+ * Everything a record page states, and nothing it merely displays.
+ *
+ * Two rules, because the page has two kinds of noise.
+ *
+ * The first is the data widgets above the claim, which `readable` cannot
+ * see as tables and flattens into prose: '23 total number', the holder
+ * list '53:28:47 hour(s):minute(s):second(s)', a bare row of names. None
+ * of them is ever new information, because the claim sentence below
+ * restates the value in context, and all of them share one property: no
+ * full stop. So the profile keeps complete sentences only. That is a
+ * safe rule here in a way it would not be in an article, since a record
+ * page's real content is always a sentence, never a heading or a list.
+ *
+ * The second is the site footer, which is made of real sentences and so
+ * survives the first rule. It has to be named. Left in, it is worse than
+ * clutter: CLAUDE.md §11 records that the model scores page furniture 4
+ * to 5 on prior probability, so a registered-office address becomes a
+ * candidate fact.
+ *
+ * @param {string} text
+ * @returns {string}
+ */
+function stripRecordFurniture(text) {
+  return text
+    .split('\n')
+    .map((line) => line.trim())
+    .filter((line) => /[.!?]["')\]]?$/.test(line))
+    .filter((line) => !RECORD_FURNITURE.some((re) => re.test(line)))
+    .join('\n')
+    .trim();
+}
+
 /**
  * Any other page on the web, reduced to the prose inside it.
  *
@@ -244,8 +312,32 @@ export async function fetchWebPage(doc) {
 
   const landed = res.url || doc.url;
   const page = readable(await res.text(), landed);
+  const isRecord = doc.profile === 'record';
+  const text = isRecord ? stripRecordFurniture(page.text) : page.text;
 
-  if (page.text.length < 600) {
+  if (isRecord) {
+    /*
+      One adjudicated claim is the whole document, so that is what is
+      checked for rather than bulk: a full sentence carrying a number.
+
+      This is the same test the article gate makes, asking the question
+      the shorter document can actually answer. A GWR page that renders
+      its body in JavaScript, or that has been redirected to a category
+      listing, has no such sentence and still fails. What it no longer
+      fails for is being brief, which is the one thing a record page is
+      always going to be.
+    */
+    const claim = text
+      .split('\n')
+      .map((line) => line.trim())
+      .find((line) => line.length >= 60 && /\d/.test(line) && /[.!?]["')\]]?$/.test(line));
+    if (!claim) {
+      throw new Error(
+        `${text.length} characters came back with no record statement among them. ` +
+          'A record page must state its record in a sentence carrying a number.',
+      );
+    }
+  } else if (page.text.length < 600) {
     throw new Error(
       `Only ${page.text.length} characters of prose came back. ` +
         'The page probably renders its body in JavaScript, or is behind a paywall.',
@@ -269,7 +361,7 @@ export async function fetchWebPage(doc) {
   const sentences = page.text
     .split('\n')
     .filter((line) => line.length >= 80 && /[.!?]["')\]]?$/.test(line)).length;
-  if (sentences < 3) {
+  if (!isRecord && sentences < 3) {
     throw new Error(
       `${page.text.length} characters came back but only ${sentences} of them form sentences. ` +
         'This looks like a homepage or a link list, not an article.',
@@ -288,13 +380,16 @@ export async function fetchWebPage(doc) {
     kind: 'web',
     url: landed,
     revisionId: '',
-    contentHash: hashOf(page.text),
+    // Hashed after the furniture is cut, because the hash has to identify
+    // the exact words the model was shown and the verifier matches
+    // against. Hashing the raw page would answer a question nobody asks.
+    contentHash: hashOf(text),
     siteName: page.siteName,
     doi: page.doi,
     publishedAt: page.publishedAt,
     wayback,
     fetchedAt: new Date().toISOString().slice(0, 10),
-    text: page.text,
+    text,
   };
 }
 
@@ -324,10 +419,18 @@ export function fetchDoc(doc) {
  * @returns {Promise<FetchSummary>}
  */
 export async function runFetch(options = {}, onProgress) {
-  const { force = false } = options;
+  const { force = false, slugs = [] } = options;
   await ensureDirs();
 
-  const sources = await loadSources();
+  /*
+    Scoped to the slugs asked for, when any are.
+
+    This is what lets one article be taken through the pipeline on its
+    own. Without it the only unit of work was "every source on the
+    list", so adding one article meant re-walking all 41 to reach it.
+  */
+  const everything = await loadSources();
+  const sources = slugs.length ? everything.filter((d) => slugs.includes(d.slug)) : everything;
   const say = onProgress ?? (() => {});
 
   /** @type {FetchSummary} */

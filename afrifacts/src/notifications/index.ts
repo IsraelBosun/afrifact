@@ -4,9 +4,11 @@ export {
   cancelDailyFacts,
   EVENING_HOUR,
   MORNING_HOUR,
+  nextBooking,
   requestPermission,
   scheduledCount,
   scheduleDailyFacts,
+  type Booking,
 } from './daily';
 export { ASK_DELAY_MS, noteAppOpen, shouldOfferNotifications } from './prompt';
 export {

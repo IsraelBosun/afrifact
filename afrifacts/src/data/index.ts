@@ -43,12 +43,34 @@ import {
   resetDeal,
   reshuffleDeal,
 } from './deal';
+import { factForDay } from './daily';
 import { fetchFacts, fetchQuizQuestions } from './remote';
+import { buildRelatedIndex, relatedTo, type RelatedFact, type RelatedIndex } from './related';
+import {
+  accuracyOf,
+  daysSetOf,
+  progress,
+  resetAnsweredQuestions,
+  streakOf,
+  wasAnswered,
+  weekOf,
+} from './progress';
+import { matchFacts, type SearchHit } from './search';
 
 export { isSaved, toggleSaved, useSavedIds } from './bookmarks';
 export { getCountry, setCountry, useCountry } from './country';
 export { flagFor, nameFor } from './countries';
 export { dealPosition, setDealPosition, useDeal } from './deal';
+export { factForDay } from './daily';
+export {
+  loadProgress,
+  noteFactSeen,
+  recordQuizRun,
+  setDisplayName,
+  useProgress,
+} from './progress';
+export type { RelatedFact } from './related';
+export type { SearchHit } from './search';
 
 /** Deal the feed again, renumbering from 1. What the shuffle button does. */
 export function reshuffleFeed(): void {
@@ -263,11 +285,20 @@ export type FeedItem =
 */
 let canonicalNumbers = new Map<string, number>();
 
+/*
+  Related facts are derived from the corpus too, so the index they need is
+  invalidated in exactly the same breath as the numbering. Cleared rather
+  than rebuilt: it costs a pass over every fact, and a session that never
+  opens a deep dive should never pay for it.
+*/
+let relatedIndex: RelatedIndex | null = null;
+
 function renumber(): void {
   const ordered = [...facts].sort(
     (a, b) => a.factNumber - b.factNumber || a.id.localeCompare(b.id),
   );
   canonicalNumbers = new Map(ordered.map((fact, index) => [fact.id, index + 1]));
+  relatedIndex = null;
 }
 
 /**
@@ -349,12 +380,56 @@ export function getFactNumber(id: string): number {
   return canonicalNumbers.get(id) ?? 0;
 }
 
-export function getRelatedFacts(id: string): Fact[] {
+/**
+ * Today's fact, for the Today button and the morning notification.
+ *
+ * Drawn from the country pool rather than the whole corpus, so a reader on
+ * Ghana gets a Ghanaian fact of the day rather than whatever the global
+ * hash happened to land on.
+ */
+export function getTodaysFact(): Fact | null {
+  return factForDay(new Date(), getFactPool());
+}
+
+/**
+ * Search the whole corpus, not the country pool.
+ *
+ * Deliberately wider than the feed. Someone typing a name is looking for
+ * one particular fact, and hiding it because their country selector is set
+ * elsewhere would be the app refusing to answer a question it can answer.
+ * Numbering is corpus-wide too, so a hit's "#57" means the same thing here
+ * as it does on the card.
+ */
+export function searchFacts(query: string): SearchHit[] {
+  return matchFacts(query, facts, getFactNumber);
+}
+
+/**
+ * Facts about the same subject, for the row under a deep dive.
+ *
+ * Curated `relatedIds` come first when a fact has any, because a link
+ * someone chose beats a link something inferred. None of the 109 facts in
+ * the corpus has one today, so in practice this is the derived list; the
+ * branch is here so that hand-authored links keep working the day the
+ * pipeline starts writing them.
+ *
+ * The index is built on the first deep dive of a session and reused after
+ * that, which is what keeps this from re-reading the corpus per fact.
+ */
+export function getRelatedFacts(id: string): RelatedFact[] {
   const fact = getFactById(id);
   if (!fact) return [];
-  return fact.relatedIds
+
+  const curated = fact.relatedIds
     .map(getFactById)
-    .filter((f): f is Fact => f !== undefined);
+    .filter((f): f is Fact => f !== undefined)
+    .map((f) => ({ fact: f, shared: '', score: Infinity }));
+
+  relatedIndex ??= buildRelatedIndex(facts);
+  const seen = new Set([id, ...curated.map((c) => c.fact.id)]);
+  const derived = relatedTo(relatedIndex, id).filter((r) => !seen.has(r.fact.id));
+
+  return [...curated, ...derived];
 }
 
 /** A quiz run is three questions. §4.3: under thirty seconds. */
@@ -364,7 +439,7 @@ export const QUIZ_LENGTH = 3;
  * Three questions for one run.
  *
  * This used to return the whole array. That was survivable while the
- * corpus held six questions and became a bug the moment it held 444 —
+ * corpus held six questions and became a bug the moment it held 444 -
  * the quiz screen renders one question per entry, so a run would have
  * been 444 questions long with a progress bar reading 'Question 2 of
  * 444'.
@@ -373,20 +448,121 @@ export const QUIZ_LENGTH = 3;
  * flat list puts all three questions about one fact in the same run
  * often enough to notice, and a run that asks the same thing three ways
  * is one question wearing a disguise.
+ *
+ * NOTHING IS ASKED TWICE WHILE SOMETHING IS UNASKED
+ *
+ * Random with no memory was fine at six questions and wrong at 480: a
+ * reader who plays daily starts meeting repeats within the first week,
+ * and a repeat is not a quiz, it is a recall test. So facts holding a
+ * question the reader has never seen are drawn from first, and an
+ * already-answered question is only served to keep a run from coming up
+ * short. When the whole corpus has been answered the record is cleared
+ * and the cycle starts again, which is the honest end of a finite set.
  */
-export function getQuiz(): QuizQuestion[] {
+export function getQuiz(length: number = QUIZ_LENGTH): QuizQuestion[] {
+  return deal(quizQuestions, length);
+}
+
+/**
+ * The same deal, restricted to named questions.
+ *
+ * A challenge carries exact ids, because the whole point is that two
+ * people answer the same three things. Unknown ids are dropped rather
+ * than faked: the corpus moves, and a challenge sent last month may name
+ * a question that has since been retired.
+ */
+export function getQuizByIds(ids: string[]): QuizQuestion[] {
+  const byId = new Map(quizQuestions.map((q) => [q.id, q]));
+  return ids.map((id) => byId.get(id)).filter((q): q is QuizQuestion => q !== undefined);
+}
+
+/**
+ * How many questions the reader has never been asked.
+ *
+ * Takes the answered ids rather than reading the store, so a caller that
+ * renders this can depend on the same value React re-renders it for.
+ * Reading module state here instead would make the number correct and
+ * the dependency imaginary.
+ */
+export function unansweredCount(answered: string[]): number {
+  const seen = new Set(answered);
+  return quizQuestions.reduce((n, q) => (seen.has(q.id) ? n : n + 1), 0);
+}
+
+function groupByFact(questions: QuizQuestion[]): Map<string, QuizQuestion[]> {
   const byFact = new Map<string, QuizQuestion[]>();
-  for (const question of quizQuestions) {
+  for (const question of questions) {
     byFact.set(question.factId, [...(byFact.get(question.factId) ?? []), question]);
   }
+  return byFact;
+}
 
-  const factIds = [...byFact.keys()];
+function takeRandom<T>(pool: T[]): T | undefined {
+  if (pool.length === 0) return undefined;
+  return pool.splice(Math.floor(Math.random() * pool.length), 1)[0];
+}
+
+/**
+ * `length` questions from `length` different facts, freshest first.
+ *
+ * The count is a parameter rather than the constant it used to be, because
+ * §4.3's three is now the shortest of three run lengths rather than the
+ * only one. Everything below is unchanged by that: the tiers care about
+ * how many are left to pick, not about how many were asked for.
+ */
+function deal(pool: QuizQuestion[], length: number): QuizQuestion[] {
+  if (pool.length === 0 || length <= 0) return [];
+
+  // Everything answered means the reader has finished the corpus. Clear
+  // the record here rather than in the UI, so every caller of getQuiz
+  // gets the same behaviour without having to know about it.
+  if (pool.every((q) => wasAnswered(q.id))) resetAnsweredQuestions();
+
+  const byFact = groupByFact(pool);
+  const fresh: string[] = [];
+  const stale: string[] = [];
+  for (const [factId, questions] of byFact) {
+    (questions.some((q) => !wasAnswered(q.id)) ? fresh : stale).push(factId);
+  }
+
   const picked: QuizQuestion[] = [];
 
-  while (picked.length < QUIZ_LENGTH && factIds.length > 0) {
-    const [factId] = factIds.splice(Math.floor(Math.random() * factIds.length), 1);
-    const group = byFact.get(factId) ?? [];
-    if (group.length > 0) picked.push(group[Math.floor(Math.random() * group.length)]);
+  // 1. The normal run: three different facts, each handing over a
+  //    question the reader has never been asked.
+  while (picked.length < length) {
+    const factId = takeRandom(fresh);
+    if (factId === undefined) break;
+
+    const unseen = (byFact.get(factId) ?? []).filter((q) => !wasAnswered(q.id));
+    const question = takeRandom(unseen);
+    if (question !== undefined) picked.push(question);
+  }
+
+  // 2. Fewer than three facts still hold something unseen, but unseen
+  //    questions remain. The two rules collide here and never-repeat
+  //    wins: one fact contributing twice is a smaller compromise than
+  //    asking something already answered, and the count on the quiz tab
+  //    promises the second, not the first. Reachable only on the last
+  //    run or two of a cycle.
+  if (picked.length < length) {
+    const chosen = new Set(picked.map((q) => q.id));
+    const remaining = pool.filter((q) => !wasAnswered(q.id) && !chosen.has(q.id));
+    while (picked.length < length) {
+      const question = takeRandom(remaining);
+      if (question === undefined) break;
+      picked.push(question);
+    }
+  }
+
+  // 3. Nothing unseen is left anywhere, so the run is padded with
+  //    repeats. Only a corpus of fewer than three facts gets here: a
+  //    full one is reset at the top instead.
+  while (picked.length < length) {
+    const factId = takeRandom(stale);
+    if (factId === undefined) break;
+
+    const question = takeRandom([...(byFact.get(factId) ?? [])]);
+    if (question !== undefined) picked.push(question);
   }
 
   return picked;
@@ -418,22 +594,42 @@ export function getSavedFacts(): Fact[] {
  * visible contradiction rather than a placeholder. The streak, facts
  * learned and quiz accuracy are next: nothing records a quiz result yet.
  */
+/**
+ * The profile's four cards and the streak flame, from what actually happened.
+ *
+ * Every number here was a constant until now, which meant a first-time
+ * reader was shown a seven-day streak and 124 facts learned. Components
+ * calling this need `useProgress()` alongside it to re-render, the same
+ * arrangement `savedCount` already has with `useSavedIds()`.
+ */
 export function getUserStats(): UserStats {
+  const record = progress();
+  const days = daysSetOf(record);
   return {
-    dayStreak: 7,
-    factsLearned: 124,
+    dayStreak: streakOf(days),
+    factsLearned: record.seen.length,
     savedCount: savedIds().length,
-    quizAccuracy: 86,
-    week: [true, true, true, true, true, false, false],
+    quizAccuracy: accuracyOf(record),
+    quizAnswered: record.quizAnswered,
+    week: weekOf(days),
   };
 }
 
+/**
+ * Who the reader is, as far as the device knows.
+ *
+ * No account, so there is no name to fetch: it is empty until they type
+ * one, and the profile asks rather than inventing. `joinedAt` is the first
+ * day anything was recorded, not the install date, because that is the
+ * day the app has evidence for.
+ */
 export function getUserProfile(): UserProfile {
+  const record = progress();
   return {
-    name: 'Israel',
-    joinedAt: '2026-08-01',
+    name: record.name,
+    joinedAt: record.joinedAt,
     avatarUrl: null,
-    country: 'NG',
+    country: getCountry(),
   };
 }
 

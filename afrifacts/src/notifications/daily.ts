@@ -26,6 +26,7 @@
 import * as Notifications from 'expo-notifications';
 import { Platform } from 'react-native';
 
+import { factForDay } from '@/src/data';
 import type { Fact } from '@/src/types';
 
 /** 7am and 6pm, local device time. */
@@ -141,18 +142,37 @@ function pickFacts(pool: Fact[], count: number): Fact[] {
  * booked, and the reader would get two facts a slot, then three.
  */
 export async function scheduleDailyFacts(pool: Fact[]): Promise<number> {
-  await Notifications.cancelAllScheduledNotificationsAsync();
-  if (pool.length === 0) return 0;
+  /*
+    The empty pool is checked BEFORE anything is cancelled.
 
+    It used to be checked after, which made a launch that could not read
+    the corpus destructive: it wiped the fortnight already booked and then
+    returned without putting anything back. The reader had done nothing,
+    the toggle still said on, and the facts simply stopped arriving until
+    some later launch happened to load the corpus and rebook. A stage that
+    cannot do its work should leave the work already done alone.
+  */
+  if (pool.length === 0) return scheduledCount();
+
+  await Notifications.cancelAllScheduledNotificationsAsync();
   await ensureChannel();
 
   const slots = upcomingSlots(new Date());
-  const facts = pickFacts(pool, slots.length);
+  const drawn = pickFacts(pool, slots.length);
 
   await Promise.all(
     slots.map((when, i) => {
-      const fact = facts[i];
       const morning = when.getHours() === MORNING_HOUR;
+      /*
+        The morning carries the day's fact — the same one the Today button
+        opens, derived from the date rather than drawn.
+
+        These used to disagree, because this drew at random. A reader who
+        used both would have had two different "today's fact"es and no way
+        to tell which the app meant. The evening keeps the random draw: it
+        is the second fact of the day, not a competing first.
+      */
+      const fact = (morning ? factForDay(when, pool) : null) ?? drawn[i];
       return Notifications.scheduleNotificationAsync({
         content: {
           title: morning ? 'Your fact for today' : 'One for this evening',
@@ -183,4 +203,36 @@ export async function cancelDailyFacts(): Promise<void> {
 export async function scheduledCount(): Promise<number> {
   const scheduled = await Notifications.getAllScheduledNotificationsAsync();
   return scheduled.length;
+}
+
+/** What is booked, and when the first of it lands. */
+export interface Booking {
+  count: number;
+  next: Date | null;
+}
+
+/**
+ * Read the OS back, rather than trusting what we think we scheduled.
+ *
+ * The whole feature is invisible until it fires, which is a bad property
+ * for something that can fail in four different places: the setting off,
+ * permission revoked, an empty pool, or the phone dropping the alarms.
+ * Every one of those looks identical from the outside — no notification —
+ * so Settings asks the system what it is actually holding and says so.
+ */
+export async function nextBooking(): Promise<Booking> {
+  const scheduled = await Notifications.getAllScheduledNotificationsAsync();
+
+  let soonest: number | null = null;
+  for (const item of scheduled) {
+    // A DATE trigger comes back carrying the date it was given, as a
+    // number on Android and occasionally a Date. Anything else is not one
+    // of ours and is skipped rather than guessed at.
+    const trigger = item.trigger as { date?: Date | number } | null;
+    const raw = trigger?.date;
+    const at = raw instanceof Date ? raw.getTime() : typeof raw === 'number' ? raw : null;
+    if (at !== null && (soonest === null || at < soonest)) soonest = at;
+  }
+
+  return { count: scheduled.length, next: soonest === null ? null : new Date(soonest) };
 }

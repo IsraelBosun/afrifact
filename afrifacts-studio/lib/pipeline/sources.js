@@ -50,6 +50,19 @@ import { SOURCE_TIERS } from '../types/provenance.js';
  *   warns on any fact resting only on it. A journal or a statistics
  *   bureau clears that warning honestly, which is the point of letting
  *   the search off Wikipedia at all.
+ * @property {'article' | 'record'} [profile] How the fetched page should be
+ *   cleaned and gated. `article` is the default and is what every source
+ *   before this one was: prose long enough that a length and sentence
+ *   count can tell an article from a navigation menu. `record` is for a
+ *   page that states one adjudicated record and nothing else, such as a
+ *   Guinness World Records entry. Those are short by nature: the real
+ *   claim is two sentences and the rest is a registered-office footer, so
+ *   the article gates reject them outright (measured: 647 characters, 2
+ *   sentences). It is a property of the page's shape, not of how the
+ *   source is cited, so it lives beside `kind` rather than inside it.
+ *   Stored rather than sniffed from the hostname, for the same reason
+ *   `kind` is: a source must not silently change how it will be read
+ *   after it has been added.
  * @property {string} [group] Why this block of pages was picked.
  * @property {string} [wanted] What was typed into the search box when this
  *   document was chosen from the results. Carried all the way to the
@@ -130,6 +143,8 @@ function normalise(entry) {
     kind,
     url,
     tier: SOURCE_TIERS.includes(entry.tier) ? entry.tier : 'reference',
+    // Absent means 'article', which is what all 38 pre-existing rows are.
+    profile: entry.profile === 'record' ? 'record' : 'article',
     group: typeof entry.group === 'string' ? entry.group : '',
     wanted: typeof entry.wanted === 'string' ? entry.wanted.slice(0, 400) : '',
   };

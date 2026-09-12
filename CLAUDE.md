@@ -55,7 +55,7 @@ Six screens. All designed and validated already. Build them as specified.
 The home screen IS the feed. The app opens directly into a full screen fact, zero clicks to value. No dashboard, no welcome screen.
 
 - **Top bar:** logo mark and "AfriFacts" on the left, a country selector button and a streak flame pill on the right.
-- **Category chips:** a horizontal scrolling row. "For You" is default and active. Then History, Business, Culture, Food, Sports. These are topic lanes, not countries.
+- **Category chips:** a horizontal scrolling row. "For You" is default and active. Then History, Business, Culture, Food, Sports, Records. These are topic lanes, not countries. The row is derived from the categories the corpus actually holds, so a lane with no facts grows no chip.
 - **The card:** fills the screen between chips and the tab bar. Two variants, mixed in the feed, roughly one third photo cards:
   - **Typographic card.** Solid pastel background in the category colour family, category pill, the fact in large serif, verified source line at the bottom.
   - **Photo card.** Image fills the top two thirds, a solid dark panel below it carries the fact text and actions. The panel colour comes from the image's dominant tones. Photo credit sits on the image.
@@ -111,7 +111,8 @@ Three questions, under 30 seconds. Long packs come later.
 **These types are the contract.** They live in `src/types/fact.ts` and are the single definition the app, the dummy data, and phase 2's database rows all answer to. Widening one of them is a deliberate decision, not a convenience.
 
 ```ts
-export type Category = 'History' | 'Business' | 'Culture' | 'Food' | 'Sports';
+export type Category =
+  | 'History' | 'Business' | 'Culture' | 'Food' | 'Sports' | 'Records' | 'Health';
 
 /** ISO 3166-1 alpha-2, or 'AFR' for pan-African. Never narrowed to 'NG'. */
 export type CountryCode = string;
@@ -185,6 +186,8 @@ The look is editorial, colourful, and deliberately not templated Material Design
 | Business | `#CECBF6` | `#534AB7` | `#26215C` |
 | Food | `#F4C0D1` | `#993556` | `#4B1528` |
 | Sports | `#B5D4F4` | `#185FA5` | `#042C53` |
+| Records | `#D8E4A4` | `#4F6A11` | `#28350B` |
+| Health | `#A7DCE3` | `#0E6273` | `#04313A` |
 | Streak / amber accent | `#FAC775` | `#854F0B` | `#633806` |
 
 Brand green for the logo mark and active tab: `#1D9E75`.
@@ -232,6 +235,47 @@ Non-negotiable rules, enforced by `validate()` in the factory:
 - The surprise filter is the point. Facts an educated Nigerian already knows get rejected. The corpus is the moat, and it is made of things people did not know.
 - Manually written facts enter the same table, meet the same required fields, and pass the same review gate. Same standard, different door.
 - The LLM provider is **not fixed**. All model calls go through one wrapper module so the provider can be swapped by changing a single file. Prompts are stored as plain text, not tied to any SDK.
+
+## 7.1 How a fact is written
+
+The fact line is the product. It is what fills the card, what gets screenshotted, and what a friend reads in WhatsApp with no other context. Everything else in an entry supports it.
+
+It took three rewrites of the Records set to get this written down, and both failures are worth keeping because each looked like a fix for the other.
+
+**Failure one: the certificate.** Facts were written from Guinness record pages, which are 230 to 514 characters of one templated sentence. Every fact came out as that template rearranged, and the whole category read like a record book.
+
+**Failure two: the clipping.** The fix for the first was to pull narrative from the news write-up, but the narrative was pasted in as the claim. The lines came out as paragraphs lifted mid-flow out of an article: "The rules gave Samson Ajao five minutes of rest after each hour...", "The lights went out three or four times during Symply Tacha's...". Each opens on a rule or an anecdote, and not one of them ever says what the record is. A fact that has to be inferred is not a fact.
+
+### The rules
+
+**1. State the thing. Do not allude to it.** The subject of the sentence is the claim, not the context around it. For a record, name the record.
+
+> No: Symply Tacha did 144 makeovers in 24 hours.
+> Yes: Symply Tacha holds the record for the most cosmetic makeovers in 24 hours, 144 of them.
+
+**2. One claim, one tail.** The house corpus is short: "Adichie was the first woman to receive a chieftaincy title in her hometown of Abba." That is a whole fact. Stack a second and a third idea into the line and it stops being quotable. If a detail is fighting for room, it belongs in the deep dive.
+
+**3. The number is the spine, the image hangs off it.** A figure alone is a certificate. A figure with one thing you can picture is a fact: 215 hours and never sleeping, 15.37 m and taller than the Hollywood sign is wide, 8,780 kg shared out as 16,600 portions.
+
+**4. Vary the opening.** Person first ("Hilda Baci cooked the largest...") and claim first ("The longest handmade wig in the world runs 351.28 m...") both work. A whole category opening the same way reads like a database dump. Roughly a third opening on the claim is about right.
+
+**5. Never lift a sentence from the source.** The `passage` field is verbatim and that is its job. The `fact` field is composed. The verifier permits a stray content-word ratio up to two thirds precisely so a fact can be written rather than copied, and a good rewrite shares fewer words with its source than a lazy one.
+
+**6. Write inside the gate, not around it.** Every digit in the fact must appear in a passage the fact cites, so a figure is quoted exactly as the source states it. "12,381.02 m2" rather than "over 12,000 m2", because the second is a number the source never says.
+
+### The deep dive
+
+Three paragraphs, narrative, in the same order every time. Not an essay, and not commentary on the fact.
+
+- **Set the scene.** Who, where, when, and the number. Give the reader the situation before the significance.
+- **Develop it.** The rules, the difficulty, the things that went wrong, the detail the fact line had no room for.
+- **Widen it.** What came before, what it connects to, what the person did next.
+
+`whyItMatters` is two or three plain sentences on why the fact is more than trivia. It connects outward: to a history, a pattern, a person's reason. It does not restate the fact and it does not admire it.
+
+The tell of a bad deep dive is a sentence that analyses rather than tells. "That the total carries seconds as well as hours is the tell of an adjudicated record" is writing about the fact. "He told NTA News he did not sleep in them at all" is the fact. The second is what people read.
+
+Numbers above 100 in the deep dive must appear in the cached source document, so the prose is grounded by the same standard as the claim.
 
 ## 8. Tech stack
 
@@ -312,6 +356,60 @@ All six screens built against the design PDF and rendering from dummy data.
 - Share works end to end: `ShareCard` and `ScoreShareCard` render at 1080x1350, captured with `react-native-view-shot`, handed to the native sheet by `expo-sharing`. Needs a dev build — `npx expo run:android` — since Expo Go has no native module.
 - Verified: `tsc --noEmit` and eslint clean, Android and web bundles compile.
 
+**The quiz is the part testers actually liked, so it was built out.** Two changes, both behind the same finding: friends who tried the app kept going back to the quiz and not to the feed.
+
+**Nothing is asked twice while something is unasked.** `getQuiz()` drew three at random from a flat list with no memory of what had been served. That was fine at six questions and wrong at 480: a daily player starts meeting repeats inside a week, and a repeat is not a quiz, it is a recall test. `Progress` now carries `answeredQuestions`, and the dealer works in three tiers. Three different facts each handing over an unseen question is the normal run. When fewer than three facts still hold something unseen, the distinct-fact rule yields and one fact contributes twice, because never-repeat is the stronger promise and it is the one the quiz tab prints. Only a corpus of under three facts reaches the third tier and gets a genuine repeat. When everything has been answered the record clears and the cycle restarts, which is the honest end of a finite set.
+
+Measured against the real 480 questions over 160 facts, ten playthroughs: every question asked exactly once, zero repeats before the corpus ran out, no short runs, at most one run taking two questions from one fact, and the cycle resetting exactly once. The first version of the dealer scored one repeat per playthrough, which is what put tier two in.
+
+**A challenge is three question ids and a score, packed into eleven characters.** The score screen already asked "Think you can beat me?" and could not deliver on it: a fresh run draws at random and would never be the same three questions, so the friend who read the taunt had no way to take it. A challenge fixes the run, so both people answer the same thing and the comparison means something. The score screen shows the head to head on the way back, and losing is never rubbed in.
+
+It travels twice in one message, as a link and as a code, and that is not redundancy. A custom scheme is not tappable everywhere: WhatsApp and X linkify http(s) and leave `afrifacts://` as plain text, so a share carrying only a deep link would be dead text in the app it was written for. The code is the fallback, and `decode` scans rather than anchors so it accepts a whole pasted message, which is what people actually paste. When AfriFacts has a domain and Android App Links, the link becomes the only path that matters and the code can go.
+
+`src/quiz/challenge.ts` is pure string arithmetic with no imports, and `link.ts` holds the two values that need the environment. That split is the whole reason the codec could be round-tripped against all 480 real question ids in a bare Node process, 640 encode-decode pairs with zero failures: one `expo-constants` import would have made it exercisable only inside a running app. The packing leans on the studio emitting exactly one id shape, `q_nf_0101_2`, and `encode` returns null rather than guessing when it meets anything else, so the button hides instead of producing a code that resolves to the wrong questions.
+
+**Divergence from section 4.4, deliberate:** the score screen now has two share actions, and the hero is "Challenge a friend" rather than "Share your score". §4.4 named one hero and picked the card, written when a card was the only thing a run could produce. A card is an advert; a challenge is an invitation with a reply. The card keeps its place directly underneath as an outlined secondary, so nothing was removed to make room. The two cannot be merged: `expo-sharing` sends a file and `Share.share` sends text, and Android's share intent carries one or the other.
+
+**The feed no longer shows two facts in a row about the same thing.** Two separate problems wearing one symptom.
+
+The first: `spreadByCategory` existed and worked, but only the shuffle button called it. The default deal, and the one a pull-to-refresh returned to, was chronological. Facts mined from one article are numbered consecutively, so that is the most clustered order there is and it was what every reader met on first open.
+
+The second: category was the only thing being spaced, and it is too coarse. Six Abiola facts are split across Culture and History, so category spacing would happily put "Abiola edited the school magazine" next to "Abiola was detained for four years" and score it a success. To a reader that is the same card twice. `source.name` is the fix and it costs nothing, because it is the article a fact was mined from, so everything sharing a subject already shares it. The related ids catch the remainder.
+
+Measured on the live 126-fact corpus, share of neighbours that match:
+
+```
+corpus order    category 59.2%   subject 60.8%   longest run 12
+plain shuffle   category 29.6%   subject  1.6%   longest run 4
+now             category  0.0%   subject  0.0%   longest run 1
+```
+
+Three in five neighbours were the same article, which is the number that says corpus order was wrong twice over rather than once.
+
+Subject spacing rides on top of the category rule and never overrides it, which is what keeps the category result intact. It gets exactly two free choices: which of the top two categories to take when neither is forced, and which fact to take out of the chosen bucket. Both prefer a fact unlike the last one and both fall back rather than fail.
+
+The default deal is now that spread on a **fixed seed**, not the clock. A refresh has to return to the same order or "Fact #1" would mean a different card on every pull; the shuffle button is where a reader gets a different arrangement, and only it seeds from the clock. Card numbering is untouched: it was always derived from the canonical sort in `index.ts`, never from the deal.
+
+**The notification offer was redesigned.** It was a white box with a hairline border, a grey circle and two small lines of text, which read as a system alert rather than as part of the app. It now uses the amber family, which section 6 already reserves for streaks and daily-goal moments and which is the one family that cannot collide with the category card behind it. A solid fill also means it reads correctly in dark mode without a second palette, since the sheet brings its own ground instead of borrowing the screen's. The two times are pills with a sun and a moon rather than a clause in a sentence, because they are the entire substance of what is being agreed to. It springs up on entry, and the wrapper is still `box-none` with no scrim: section 10 forbids a wall in front of the first fact, and this stays an offer rather than a door.
+
+**A quiz run can be 3, 10 or 20, and right and wrong now sound different.**
+
+Length was hard-coded at three in `QUIZ_LENGTH` and read straight out of the constant by the dealer. It is a parameter now, persisted in `src/quiz/length.ts` because it is a preference rather than a property of a run, and re-asking on every visit to the tab is the kind of friction that makes a feature feel unfinished. The chips sit on the quiz card; three stays the default. The feed's injected quiz card still runs three and is deliberately not wired to the setting: it is an interruption in a feed rather than a session anybody chose to start.
+
+Measured over a full pass of the 492 questions:
+
+```
+length  3   164 runs   492/492 seen   0 repeats   0 runs reusing a fact
+length 10    50 runs   492/492 seen   8 repeats   0 runs reusing a fact
+length 20    25 runs   492/492 seen   8 repeats   1 run reusing a fact
+```
+
+The eights are arithmetic rather than a regression: 50 runs of 10 is 500 slots against 492 questions, so the final run is eight short of fresh material either way. Nothing avoidable repeats.
+
+Three things had a hard-coded three in them and would have broken at twenty. The segmented progress bar becomes a single continuous bar past eight questions, because twenty segments four pixels wide read as a dotted line rather than as progress. The check marks on the score screen and on the share card now shrink and wrap with the run length; at a fixed size, twenty of them ran off both edges of a phone and off the edge of the 1080-wide export. A challenge is the one thing that stays at three and cannot follow, since its code packs exactly three question ids; the score screen already hid that button when `encode` returned null, so a long run simply has no challenge to send.
+
+**Sound.** The quiz had distinct haptics already, Success against Warning, and in the hand that is not enough: people read the colour before they read the buzz, which makes the haptic decoration rather than information. The two tones are synthesised sine waves generated into `assets/sounds/`, so nothing shipped in the APK carries a licence or a credit to lose. Correct rises, E5 into A5, over in a quarter second. Wrong is one low note easing downward, because §10 forbids the quiz shaming a low score and a buzzer is exactly that in audio. `expo-audio` plays them with `interruptionMode: 'mixWithOthers'`, the documented mode for short UI effects, so somebody listening to music while they answer keeps their music. Silent mode is respected: a quiz sound is not important enough to override a switch somebody deliberately flipped. Players are created imperatively rather than through `useAudioPlayer` because the clip has to seek to zero before each replay, or the second correct answer in a row is silent.
+
 **Divergence from section 6, deliberate:** the design PDF uses **Poppins**, not Sora, and leans on Bold where section 6 says "two weights only". The screens were treated as the source of truth. Section 6 has not been rewritten — decide which wins before more type work.
 
 **Known bug:** images do not appear on the exported share card. Almost certainly the remote image has not decoded by capture time; the fix is to gate capture on `onLoadEnd` rather than a frame count.
@@ -353,7 +451,7 @@ The pattern they encode, which ten kingdom-and-archaeology pages could never hav
 
 **One story, one fact.** A famous fraud is one story, not eight — the sum, the impersonation, the arrest and the bribe are angles on it. The prompt now asks the model to list the genuinely separate stories first and write each once, two variants at most. Measured on the same page: Nwude went 8 facts to 3, Babayaro 8 to 1, and the quality rose rather than fell. Dedupe still runs behind it (similarity 0.45, cap 6/document) but now culls almost nothing, which is the right order — fix it at the prompt, not the filter.
 
-**Corpus: 132 entries, 131 publishable.** The pipeline's 131 enriched facts are approved and in the app; `nf_0087` (Benin earthworks) is a hand-authored worked template with its two sources identified and its passages still to be transcribed, and it fails `check` until they are, which is correct.
+**Corpus: 122 entries, 119 publishable, all 119 pushed to Supabase.** `nf_0087` (Benin earthworks) is a hand-authored worked template with its two sources identified and its passages still to be transcribed, and it fails `check` until they are, which is correct. Two more are queued. Everything else is live in `afrifacts` on Supabase, with 360 quiz questions and 114 image decisions beside it.
 
 Pipeline ids start at `nf_1001` and hand-authored ids below it, because they once collided: the corpus held 132 entries under 131 ids, and a bulk approval marked the blocked hand-written fact approved because the pipeline fact sharing its id validated clean. `approve-all.ts` now refuses a duplicate id rather than guessing which fact was meant.
 
@@ -364,6 +462,50 @@ Pipeline ids start at `nf_1001` and hand-authored ids below it, because they onc
 - Decisions live in `images.json` keyed by fact id, and pools in the regenerable `_image-pool.json`. Same split as `reviews.json`: `_enriched.ts` is overwritten on every enrich run, so nothing precious may live there.
 - Nothing is published unreviewed. Every match is `proposed` and waits at `localhost:4321/images`, where the reviewer can accept, reject, or swap in any other image from that article's pool. Accepting needs a name, and a file outside the licence-checked pool is refused.
 - `panelColor` uses the category's dark stop rather than a tone sampled from the photo. §4.1 asks for the image's dominant tones and §6 asks for one colour family per screen; the category wins because a muddy sampled brown breaks the colour identity, and because sampling means decoding JPEGs in the project that holds the LLM keys. Swappable in `src/theme.ts` if the cards look detached.
+
+**A sixth category, Records, and adjudicated sources.** `Category` gained `Records` in both contracts, its colour family in both themes, and its lane in the extraction prompt. The lane is defined narrowly on purpose: a superlative somebody official keeps score of. If nobody adjudicates it, the fact belongs in its subject's own lane, and a fact about a footballer is `Records` only when the record itself is the point. The chip is derived from the corpus, so it appears the day the first Records fact lands and not before.
+
+Guinness World Records needed no new fetcher. It is a `web` source like any other: cited by URL, located by content hash. What it needed was a different way of being cleaned and gated, because a record page is not an article. Measured: 647 characters, two sentences, and `fetchWebPage` refused it as a link list. That refusal is correct for what it was written to catch, so the gates were left alone and a stored `profile` field selects between them. `article` is the default and every one of the 41 existing sources normalises to it.
+
+The `record` profile keeps complete sentences only, which drops the data widgets `readable` flattens into prose ('23 total number', a bare row of holder names), then names the site footer explicitly because it is made of real sentences and survives that rule. Leaving the footer in is worse than clutter: the model scores page furniture 4 to 5 on prior probability, so a registered-office address comes back as a candidate fact. The gate then asks for the one thing a record page must have, a sentence carrying a number. A GWR page that renders in JavaScript, or that has redirected to a listing, still fails.
+
+GWR is tier `institutional`, not `reference`. On 'who holds this record' it is not relaying a figure from elsewhere, it is the body that issued it, which is the standing `nigerianstat.gov.ng` has on a population count. The limit is worth knowing: the same page also carries history and colour around the record, and on that material it is a reference work like any other. The tier is per host and cannot express the distinction. A reviewer can.
+
+**Twelve Records facts, written from memory and then verified.** The working method is the reverse of the pipeline's: recall a record, find its page, quote it. That is not a weaker standard, because the gate is the same gate. What protects a fact is the passage matching the fetched bytes, not the order in which the fact and the passage were found. Where memory produced a record whose page would not fetch, or whose numbers did not match what came back, the candidate died. Two guessed slugs were refused by the record gate rather than quietly accepted, and the longest-drawing title turned out to be China's and was dropped.
+
+They live in `corpus/records.js` as `origin: 'manual'`, the same door §7 gives any hand-written fact, and all twelve pass `passageInDocument`, `factGroundedInPassage` and `proseGroundedInDocument` against `_cache/`. `validate()` reports zero errors and zero warnings on them: `institutional` clears the corroboration warning honestly, which is the whole reason the tier judgment was made. They are approved, carry 36 quiz questions, and are live in Supabase.
+
+**No free-licence photograph of a Nigerian record holder exists, and that is a measurement.** Commons returned zero licence-clean images for Hilda Baci, Tunde Onakoya and Natacha Akide. The reason is structural rather than incidental: a photo of a living person is normally fair-use and hosted on en-wiki rather than Commons, so `imagerepository: 'shared'` filters exactly the tempting ones out. The web-search path would return their faces and no licence at all, and §10 plus the licence make that unusable for publication, so it was not used. Four facts carry context images instead, all CC BY-SA 4.0 off Commons and all credited: Nigerian jollof on the rice record, Times Square on the chess record, an Abuja road on the walking record, and Lagos on the dance relay. That was 4 of 12.
+
+**All twelve now carry an image, and the licence chain is intact.** On the instruction to find images anywhere, the search was widened rather than loosened: nine new Commons pools (Osogbo, Osun State, Rivers State, Abeokuta, Hollywood Sign, Sunderland, Cosmetics, Magic, Autism rights movement), 105 more licence-clean candidates, pools now 59. Every one of the eight new images is CC BY or CC BY-SA off Commons and carries its credit.
+
+What was not done, and why: the web-search path returns the record holders' actual faces with no licence at all, and publishing those would be someone else's copyright on a commercial app that plans ads. `nf_0103` is the sharpest case, because the holder is 14, so it carries the neurodiversity infinity symbol that sits at the heart of his painting rather than any photograph of him.
+
+**The matches were bad because the harvester searches by article, not by subject.** `fetchPool` pulls the images that happen to sit on a Wikipedia article, so harvesting for a wig record meant harvesting the Abeokuta article and getting a road. The fix was not a wider licence, it was a different query: Commons has a file search (`generator=search&gsrnamespace=6`) that finds images by what is in them, and it returns jollof rice for jollof rice, hairpieces for a wig record, a pencil portrait for a portrait marathon, Nigerian dancers for a dance relay, and a Chicken Republic in Abuja for the record that started at one. Same licence gate, same `licenceVerdict` and `Restrictions` checks, 240 more candidates, pools now 72. Six of the twelve were replaced on that basis.
+
+Three rules came out of picking them. Prefer the subject over the place, because a road near where a thing was measured is not a picture of the thing. Never use a photograph of a different named person doing the same activity: a FIDE tournament photo under a chess record reads as a photo of Onakoya, which is why `nf_0106` carries an 1899 magic poster rather than a photograph of a magician. And keep the place shot where the fact names the place, which is why Times Square, the Hollywood sign and jollof rice stayed exactly where they were.
+
+`nf_0107` is the one honest miss. A record for counting out loud on YouTube has no subject to photograph, and the obvious search terms return recording studios, which would imply a professional setup she did not have, or worse. It keeps a Rivers State market as place context.
+
+Every one of the twelve is context rather than the record itself, and each decision says so in its own `reasoning` field.
+
+**The record page is the wrong page to mine, and the first twelve facts proved it.** A GWR record page is 230 to 514 characters and the load-bearing part is one templated sentence: "The longest X is N and was achieved by Y in Z on DATE." Any fact written from it is that template rearranged, so all twelve read like a record book rather than like AfriFacts. This was not the verifier being strict. §11's exemplars work because a Wikipedia article carries narrative; a certificate carries none.
+
+The story is on the same site, on the news write-up. Same record, 2,957 characters instead of 230, and it holds the things worth knowing: that Samson Ajao asked doctors beforehand which foods would minimise his toilet breaks, that the fast food record bans private transport so Nwana walked 25 km across Abuja, that the longest handmade wig is built on a bicycle helmet, and that there is a record for largest serving of Ghanaian style jollof rice which currently has no holder at all.
+
+Seven facts were rewritten against news passages, with the record page kept as a second source for the certified number. That makes the provenance stronger rather than weaker: two independent institutional sources per fact, 19 source records across the twelve.
+
+**Then all twelve were rewritten again, and that pass produced section 7.1.** Pulling in the narrative fixed the flatness and introduced a worse problem: the news sentences were pasted in as the claim, so the lines read as paragraphs clipped out of an article and none of them ever said what the record was. Section 7.1 is the rule set that came out of it, and the twelve are now written to it, fact line and deep dive both. The deep dives were rewritten from analysis into narrative to match the rest of the corpus.
+
+The five that had no news write-up (`nf_0102`, `nf_0106`, `nf_0107`, `nf_0110`, `nf_0112`) are no longer the weak ones. Naming the record in the fact line is exactly what a certificate page is good for, so the thin sources stopped being a problem the moment the voice was right. That is worth remembering: it was a writing problem wearing the costume of a sourcing problem, and the first two attempts to fix it went after the sources.
+
+Passages, sources and figures were not touched. All twelve re-verified against `_cache/`: 19 source records, zero failing on `passageInDocument`, `factGroundedInPassage` and `proseGroundedInDocument`. A fact citing two sources is checked against both passages joined, which is the same standard as a one-source fact rather than a softer one. The twelve approvals were re-recorded against the rewritten text rather than left standing from before it, and the 36 quiz questions were cleared and regenerated so only those twelve were re-billed.
+
+**A hole worth knowing: editing a hand-authored corpus fact does not reset its approval.** `editFact` in the store drops a fact out of `approved` and re-runs the verifier when the claim or passage changes, which is what stops edit-after-approve being a hole through the review gate. Facts in `corpus/*.js` never pass through it, so their `reviews.json` entry survived a complete rewrite of every claim in this file. The rewritten text was re-verified by hand, but nothing forced that.
+
+Two rules did visible work. Guinness scores below 3 on prior probability are errors rather than warnings, so the famous records could not be waved through: the jollof and chess entries are angled onto the 80% composition rule and the 473 games, which is §7's "name widely known, detail not" applied to a record instead of a monograph. One-story-one-fact cost two entries, since Helen Williams holds three wig titles and Symply Tacha's 8-hour record is the same attempt as her 24-hour one.
+
+Two things follow from their `robots.txt`. `/_search/` and `/search-content/` are disallowed, so records cannot be discovered automatically, which is what §7 asks for anyway. And `/images/` and `/assets/` are disallowed, so stage 6 harvests nothing from GWR: these facts are typographic cards.
 
 **Runs are incremental, and stoppable.** Every paid stage used to redo everything on disk each time it was clicked. Extract sent all 46 cached documents to the model on every Run, rediscovering candidates already sitting in triage, then overwrote `candidates.json` with them — losing every earlier run's findings in the same act. Enrich was worse: it mints a new fact id per run, so re-enriching a promoted candidate did not update its fact, it created a second fact saying the same thing.
 
@@ -376,13 +518,39 @@ Pipeline ids start at `nf_1001` and hand-authored ids below it, because they onc
 
 `npm run backfill` reconstructs both records for work done before they existed — the ledger from the pipeline's own output, the lineage by exact passage match. Idempotent.
 
+**A seventh category, Health, and four facts loaded from a shortlist.** Eight candidates came off `/triage` with the founder judging them good. They were all typed in by hand rather than extracted, which the rejects file shows plainly: in every one the `passage` was character-for-character the `fact`. That is why five of them read "Passage is not in the source document". The verifier was not wrong, there was no source.
+
+What each of them actually needed was different, and the split is worth keeping:
+
+- Two were fine on evidence and blocked only on the category. The sickle-cell passages really are in the cached Wikipedia article, one of them verbatim. `Health` was the missing lane, so it was added to both contracts, both themes, and the extraction prompt, the same path `Records` took. Its colour family is cyan-teal, which is the closest pair in the set to Culture's green-teal; one line in each theme if it reads too near.
+- Two were true but pointed at the wrong document, and the right one was already in `_cache/`. "One in every six Africans is Nigerian" became a claim about the 17% the `Nigeria` article states, because 17% is what the source says and "54 countries" is not in it. Port Harcourt got better rather than worse: "a British colonial secretary who never set foot in it" is unsourceable, but Lugard's 1913 letter is on the Lewis Harcourt page, asking permission "in the absence of any convenient local name". The sourced version is the sharper one.
+- One was a duplicate. `nf_1053` already carried the Dikko affair, so rather than add a second the existing claim was replaced with the Israeli-operative angle, which is the detail the story is actually remembered for, sourced to the `Dikko affair` article added as a second source.
+- Two could not ship. The 1977 Lagos odd-and-even plate ban is not in the `Lagos` article, not in `Road space rationing`, and not in any Wikipedia search. The Lekki-from-Mr-Lecqi etymology is not in the `Lekki` article and a search returns nothing at all. Both are probably true and neither has a source, so neither ships.
+- One was excluded on instruction: the Bamba people of Uganda, which is not a Nigerian fact.
+
+The four that shipped are in `data/facts.json` rather than `corpus/*.js`, which is the first time a hand-written fact has gone into the store. That was the point: the store gives them `editFact`, and the corpus files do not.
+
+**`editFact` does not have the hole section 11 previously recorded.** Editing `nf_1053` reported `resetApproval: false`, which looked like the bug and is not. The function consults `data/reviews.json` through `effectiveReview`, so it sees the real decision, and its rule is narrower than "any edit clears approval": an edit that keeps the fact verified and error-free re-stamps the approval in the editor's name instead. Only an edit that breaks verification clears it. The hole that remains is the one already written down, that `corpus/*.js` facts never pass through this function at all.
+
 ### Next
 
+- The quiz tab prints a "never asked yet" count that falls to zero over about 160 runs. Nothing yet marks the moment it resets, and a reader who has been through the whole corpus deserves to be told rather than quietly started again.
+- A challenge link only opens the app on a device that has it. The store link in the message is the fallback, and it stays a dead end until the listing is published and Android App Links replace the custom scheme.
+- Still unbuilt from the same session's shortlist, in the order they were ranked: a real daily quiz, the same three questions for everyone, resetting at midnight, which is the item that gives a reason to open the app daily; a "play again" action on the score screen; lanes so a run can be Records only or Food only; and an answer streak with a per-question timer.
 - Review the 32 proposed images at `/images`. They are all still `proposed`, so the app currently ships 131 typographic cards and no photo cards. Some proposals are deliberately loose — a map for a fact about territory, a newspaper page for a televised event — and rejecting those is the point of the gate.
 - Fix the share-card image capture before accepting many images. It is currently latent because no fact has an image, but a dropped photo credit on an export is a licence breach rather than a cosmetic bug. Gate capture on `expo-image`'s `onLoad` with a timeout fallback, not the two `requestAnimationFrame`s in `app/(tabs)/index.tsx`.
 - The photo-card variant of `FactCard` still sets fact text at a fixed size. The typographic variant now steps 29 → 23 → 19 by length, because real facts run to a median of 124 characters against the design PDF's much shorter samples. The photo panel is shorter than the card and needs the same treatment before photo cards ship.
 - Images are hotlinked to Commons thumbnails. That is fine for phase 1 and wrong for launch: re-host in Supabase Storage at 1080px wide, which serves both the in-app card and the 1080×1350 share card.
 - Wikipedia is tier `reference`, which the validator warns on alone. Corroboration comes from each article's own footnotes; that stage is not built.
+- The twelve Records facts were approved under the founder's name on his instruction to ship them, not after he read each one. Re-read them on `/review`. All twelve images are context rather than the record itself, so they are the likeliest thing to want changing.
+- Section 7.1 is written from the Records rewrite only. Read the 110 pipeline facts against it: they set the house voice, but nothing has checked whether they all actually hold to it.
+- Every Records fact is volatile and carries `reviewBy: 2027-03-10`. The assistant's knowledge cutoff is May 2026 and the pages were fetched on 10 September 2026, so the fetch is the authority on who holds each title and the assistant is not. `nf_0112` (dance relay, 2019) is the likeliest of the twelve to be stale already.
+- Make an edit to a `corpus/*.js` fact reset its approval the way `editFact` does for the store, or move hand-authored facts into the store so they get that behaviour for free.
+- `gwr-widest-wig` is on the seed list and cached with no fact written from it, held back by one-story-one-fact. That is a normal outcome, not a gap to fill.
+- Commons subject search is not wired into the studio. `npm run images` harvests by article and `/images` offers a SerpApi web search that carries no licence, so the middle option, a licence-clean search by what is in the picture, exists only as the ad-hoc query that produced these twelve. It belongs behind the same button.
+- Nothing exposes `profile` on `/sources` yet. It is detected at add time and stored, so the only case that needs a human is a record page on a host the detector does not know.
+- Two facts from the shortlist have no source and are not loaded: the 1977 Lagos odd-and-even number plate ban, and Lekki being named for a Portuguese trader called Lecqi. Both want a Nigerian newspaper archive or a book, which is the kind of source the seed list has none of yet.
+- `Health` has two facts, so its chip is live in the app. Nothing has read the new colour family on a real device against Culture's.
 - Write the ten calibration facts: five History, five Culture, fully sourced with real passages. This sets the bar everything later is measured against.
 - Some facts are sourced to a disambiguation page (`Darling`), which means the seed list picked up a redirect. Worth a pass over `data/sources.json`.
 - Decide the Poppins/Sora divergence.

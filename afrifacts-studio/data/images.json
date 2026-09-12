@@ -620,24 +620,6 @@
     "at": "2026-09-05T08:54:14.672Z",
     "refused": []
   },
-  "nf_1097": {
-    "status": "accepted",
-    "file": "web:296b72af5168",
-    "reasoning": "Top web image result for \"Igbo-Ukwu ceramics\". Licence not checked.",
-    "decidedBy": "pipeline",
-    "decidedAt": "2026-09-05",
-    "at": "2026-09-05T08:54:41.280Z",
-    "refused": []
-  },
-  "nf_1105": {
-    "status": "accepted",
-    "file": "web:5fb724d7ed8f",
-    "reasoning": "Top web image result for \"Dahomey kingdom\". Licence not checked.",
-    "decidedBy": "pipeline",
-    "decidedAt": "2026-09-05",
-    "at": "2026-09-05T08:54:45.461Z",
-    "refused": []
-  },
   "nf_1108": {
     "status": "accepted",
     "file": "web:e80f0e697ac1",
@@ -708,24 +690,6 @@
     "decidedBy": "pipeline",
     "decidedAt": "2026-09-05",
     "at": "2026-09-05T08:55:17.249Z",
-    "refused": []
-  },
-  "nf_1124": {
-    "status": "accepted",
-    "file": "web:6c80cad15da6",
-    "reasoning": "Top web image result for \"Nigeria Sierra Leone football 1949\". Licence not checked.",
-    "decidedBy": "pipeline",
-    "decidedAt": "2026-09-05",
-    "at": "2026-09-05T08:55:34.349Z",
-    "refused": []
-  },
-  "nf_1126": {
-    "status": "accepted",
-    "file": "web:8a04c40b26d2",
-    "reasoning": "Top web image result for \"Nigeria Olympic football team 1996\". Licence not checked.",
-    "decidedBy": "pipeline",
-    "decidedAt": "2026-09-05",
-    "at": "2026-09-05T08:55:48.688Z",
     "refused": []
   },
   "nf_1127": {
@@ -1023,6 +987,150 @@
     "decidedBy": "pipeline",
     "decidedAt": "2026-09-05",
     "at": "2026-09-05T10:30:24.852Z",
+    "refused": []
+  },
+  "nf_0105": {
+    "status": "accepted",
+    "file": "web:005863c9bd9f",
+    "reasoning": "Found by web search.",
+    "decidedBy": "Israel",
+    "decidedAt": "2026-09-12",
+    "at": "2026-09-12T10:20:34.241Z",
+    "refused": []
+  },
+  "nf_0102": {
+    "status": "accepted",
+    "file": "File:1 times square night 2013.jpg",
+    "reasoning": "Times Square, where the marathon was played. Context, not the attempt itself.",
+    "decidedBy": "Israel Posi Olatunbosun",
+    "decidedAt": "2026-09-10T09:56:34.609Z",
+    "at": "2026-09-10T09:56:34.609Z",
+    "refused": []
+  },
+  "nf_0104": {
+    "status": "accepted",
+    "file": "File:Chicken Republic Restaurant in Abuja.jpg",
+    "reasoning": "A Chicken Republic in Abuja. The record run started at a Chicken Republic in Gwarinpa, so this is the chain and the city the fact names.",
+    "decidedBy": "Israel Posi Olatunbosun",
+    "decidedAt": "2026-09-12T10:12:16.239Z",
+    "at": "2026-09-12T10:12:16.239Z",
+    "refused": []
+  },
+  "nf_0112": {
+    "status": "accepted",
+    "file": "File:Nigerian dancer.jpg",
+    "reasoning": "A Nigerian dancer, for a dance marathon relay danced by a Nigerian team.",
+    "decidedBy": "Israel Posi Olatunbosun",
+    "decidedAt": "2026-09-12T10:12:16.287Z",
+    "at": "2026-09-12T10:12:16.287Z",
+    "refused": []
+  },
+  "nf_0101": {
+    "status": "accepted",
+    "file": "File:Summer Reading (Unsplash).jpg",
+    "reasoning": "A stack of books. The record is reading aloud from published works, and he got through around 100 of them.",
+    "decidedBy": "Israel Posi Olatunbosun",
+    "decidedAt": "2026-09-12T10:12:16.216Z",
+    "at": "2026-09-12T10:12:16.216Z",
+    "refused": []
+  },
+  "nf_0103": {
+    "status": "accepted",
+    "file": "File:Neurodiversity Crowd 2.png",
+    "reasoning": "The neurodiversity infinity symbol, which sits at the heart of Kanye's painting. Chosen over any photograph because he is 14.",
+    "decidedBy": "Israel Posi Olatunbosun",
+    "decidedAt": "2026-09-12T09:59:05.280Z",
+    "at": "2026-09-12T09:59:05.280Z",
+    "refused": []
+  },
+  "nf_0106": {
+    "status": "accepted",
+    "file": "File:Zan Zig performing with rabbit and roses, magician poster, 1899.jpg",
+    "reasoning": "A stage magic poster. Chosen over a photograph of a named magician, which would read as a picture of Ibitoye Kingfahd.",
+    "decidedBy": "Israel Posi Olatunbosun",
+    "decidedAt": "2026-09-12T10:12:16.249Z",
+    "at": "2026-09-12T10:12:16.249Z",
+    "refused": []
+  },
+  "nf_0107": {
+    "status": "accepted",
+    "file": "web:02a2479f0ce3",
+    "reasoning": "Found by web search.",
+    "decidedBy": "Israel",
+    "decidedAt": "2026-09-12",
+    "at": "2026-09-12T10:21:46.691Z",
+    "refused": []
+  },
+  "nf_0108": {
+    "status": "accepted",
+    "file": "File:Hairpieces (8107407777).jpg",
+    "reasoning": "Hairpieces. The record is the longest handmade wig, and this shows the material rather than a road near where it was measured.",
+    "decidedBy": "Israel Posi Olatunbosun",
+    "decidedAt": "2026-09-12T10:12:16.257Z",
+    "at": "2026-09-12T10:12:16.257Z",
+    "refused": []
+  },
+  "nf_0109": {
+    "status": "accepted",
+    "file": "web:73f22f025ce7",
+    "reasoning": "Found by web search.",
+    "decidedBy": "Israel",
+    "decidedAt": "2026-09-12",
+    "at": "2026-09-12T10:22:59.329Z",
+    "refused": []
+  },
+  "nf_0110": {
+    "status": "accepted",
+    "file": "web:071e4117abdd",
+    "reasoning": "Found by web search.",
+    "decidedBy": "Israel",
+    "decidedAt": "2026-09-12",
+    "at": "2026-09-12T10:23:50.832Z",
+    "refused": []
+  },
+  "nf_0111": {
+    "status": "accepted",
+    "file": "web:b070bea40da9",
+    "reasoning": "Found by web search.",
+    "decidedBy": "Israel",
+    "decidedAt": "2026-09-12",
+    "at": "2026-09-12T10:25:00.781Z",
+    "refused": []
+  },
+  "nf_0113": {
+    "status": "accepted",
+    "file": "File:Aerial-shot-of-makoko-community-in-lagos-3-third-mainland-bridge-aview2.jpg",
+    "reasoning": "Makoko from the air. A fact about how much of Africa lives in Nigeria wants density, not a map.",
+    "decidedBy": "Israel Posi Olatunbosun",
+    "decidedAt": "2026-09-12T10:26:22.733Z",
+    "at": "2026-09-12T10:26:22.733Z",
+    "refused": []
+  },
+  "nf_0114": {
+    "status": "accepted",
+    "file": "File:Red Blood Cell abnormalities.png",
+    "reasoning": "Malaria distribution set against sickle-cell trait distribution, which is the argument of the fact in one picture.",
+    "decidedBy": "Israel Posi Olatunbosun",
+    "decidedAt": "2026-09-12T10:26:22.774Z",
+    "at": "2026-09-12T10:26:22.774Z",
+    "refused": []
+  },
+  "nf_0115": {
+    "status": "accepted",
+    "file": "File:Red Blood Cells in Sickle Cell Disease.jpg",
+    "reasoning": "Photomicrograph of normal and sickle-shaped red blood cells. The disease itself rather than a place.",
+    "decidedBy": "Israel Posi Olatunbosun",
+    "decidedAt": "2026-09-12T10:26:22.791Z",
+    "at": "2026-09-12T10:26:22.791Z",
+    "refused": []
+  },
+  "nf_0116": {
+    "status": "accepted",
+    "file": "File:Leslie Ward - Politicians - Vanity Fair - ^Lulu^ Lewis Vernon Harcourt September 26, 1895 - B1979.14.765 - Yale Center for British Art.jpg",
+    "reasoning": "Lewis Vernon Harcourt, the colonial secretary the city was named after. The point of the fact is the man, not the skyline.",
+    "decidedBy": "Israel Posi Olatunbosun",
+    "decidedAt": "2026-09-12T10:26:22.810Z",
+    "at": "2026-09-12T10:26:22.810Z",
     "refused": []
   }
 }

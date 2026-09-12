@@ -1,32 +1,30 @@
 {
-  "at": "2026-09-05T21:45:14.823Z",
+  "at": "2026-09-12T10:27:54.086Z",
   "url": "https://dzlksgbtbotugazhdmez.supabase.co",
   "schema": "afrifacts",
-  "facts": 114,
-  "published": 111,
+  "facts": 126,
+  "published": 123,
   "sent": {
-    "facts": 114,
-    "image_candidates": 868,
-    "quiz_questions": 336,
-    "fact_sources": 115,
-    "provenance": 114,
-    "reviews": 114,
-    "images": 114,
-    "sources": 40,
+    "facts": 126,
+    "image_candidates": 1590,
+    "quiz_questions": 372,
+    "fact_sources": 136,
+    "provenance": 126,
+    "reviews": 126,
+    "images": 126,
+    "sources": 63,
     "ledger": 54
   },
-  "deleted": {
-    "facts": 1
-  },
+  "deleted": {},
   "live": {
-    "facts": 114,
-    "image_candidates": 868,
-    "quiz_questions": 336,
-    "fact_sources": 115,
-    "provenance": 114,
-    "reviews": 150,
-    "images": 114,
-    "sources": 40,
+    "facts": 126,
+    "image_candidates": 1590,
+    "quiz_questions": 372,
+    "fact_sources": 136,
+    "provenance": 126,
+    "reviews": 166,
+    "images": 126,
+    "sources": 63,
     "ledger": 54
   }
 }

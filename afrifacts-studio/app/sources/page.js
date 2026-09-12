@@ -218,12 +218,21 @@ export default function SourcesPage() {
     more buttons to press in the only order they go in. The whole chain
     is the same one click, and what comes out of it is live.
   */
-  const runThrough = useCallback(async () => {
+  const runThrough = useCallback(async (slugs) => {
     setError('');
     const res = await fetch('/api/run', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ stage: 'all' }),
+      /*
+        One article, when one was named.
+
+        Fetch, extract and enrich all narrow to the slugs they are given,
+        so this is the same chain the whole-list button runs, over a list
+        of one. It is the unit the work actually arrives in: you find an
+        article, you want to know what is in it, and you should not have
+        to re-walk the other forty to find out.
+      */
+      body: JSON.stringify(slugs?.length ? { stage: 'all', slugs } : { stage: 'all' }),
     });
     if (!res.ok) {
       const body = await res.json().catch(() => ({}));
@@ -433,6 +442,7 @@ export default function SourcesPage() {
           picked={picked.has(entry.slug)}
           onPick={() => picked.toggle(entry.slug)}
           onRemove={remove}
+          onRun={() => void runThrough([entry.slug])}
         />
       ))}
 
@@ -447,7 +457,7 @@ export default function SourcesPage() {
   );
 }
 
-function SourceRow({ entry, picked, onPick, onRemove }) {
+function SourceRow({ entry, picked, onPick, onRemove, onRun }) {
   return (
     <div className="card sourceRow" data-picked={picked}>
       <div>
@@ -526,9 +536,20 @@ function SourceRow({ entry, picked, onPick, onRemove }) {
         )}
         {entry.group && <p className="tiny faint" style={{ margin: '6px 0 0' }}>{entry.group}</p>}
       </div>
-      <button className="bad" onClick={() => void onRemove(entry)}>
-        Remove
-      </button>
+      <div className="row" style={{ gap: 8 }}>
+        {/*
+          The whole chain for this one article. Named for what it gives
+          you rather than for the stages it runs: which of fetch, extract
+          and enrich still have work is the board's business, not a
+          decision to put on the person who just added a link.
+        */}
+        <button onClick={onRun} title="Fetch, extract, enrich and publish just this article.">
+          {entry.extracted ? 'Run again' : 'Run this one'}
+        </button>
+        <button className="bad" onClick={() => void onRemove(entry)}>
+          Remove
+        </button>
+      </div>
     </div>
   );
 }

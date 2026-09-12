@@ -172,7 +172,7 @@ Return JSON only, matching this shape exactly:
     {
       "fact": "One sentence, self-contained, nothing added beyond the passage.",
       "passage": "The verbatim words from the document, copied exactly.",
-      "category": "History | Business | Culture | Food | Sports",
+      "category": "History | Business | Culture | Food | Sports | Records | Health",
       "surprise": { "priorProbability": 4, "specificity": 5, "explicability": 4 },
       "reasoning": "One line: why an educated Nigerian would not already know this.",
       "volatile": false
@@ -180,7 +180,18 @@ Return JSON only, matching this shape exactly:
   ]
 }
 
-`category` must be exactly one of the five listed words.
+`category` must be exactly one of the six listed words.
+
+`Health` is for medicine, disease and the body: how something spreads, what
+it does to a population, why a trait persists. A fact about a hospital or a
+minister of health is not `Health` unless the medicine is the point.
+
+`Records` is for superlatives that somebody official keeps score of: a world
+record, a first, a highest or longest that a named body has certified. If
+nobody adjudicates it, the fact belongs in its subject's own lane instead.
+A fact about a footballer is `Records` only when the record itself is the
+point; when the person is the point, it is `Sports`.
+
 `volatile` is true when the fact rests on current economic, demographic or
 record-holding data that could stop being true. Settled history is false.
 

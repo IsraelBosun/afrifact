@@ -32,7 +32,7 @@ import {
   saveImages,
 } from './images.js';
 import { SLUG_SHAPE, loadSources, saveSources, slugFrom, titleFrom } from '../pipeline/sources.js';
-import { trustOf } from '../pipeline/source-trust.js';
+import { isRecordPage, trustOf } from '../pipeline/source-trust.js';
 import { loadCached } from '../pipeline/fetch.js';
 import { cachedSlugs } from '../pipeline/extract.js';
 import { keyOf } from '../pipeline/candidate-key.js';
@@ -478,6 +478,22 @@ export async function addSource(body) {
     kind,
     url,
     tier,
+    /*
+      Decided here, at the moment the person adds the link, and stored.
+
+      This reads the hostname, which `kind` deliberately does not do at
+      fetch time. The rule there is that a source must not silently
+      change how it will be read after it was added. Choosing a default
+      when it IS being added is the opposite situation: the value is
+      written down once, is visible on /sources, and the fetch obeys the
+      stored field and never looks at the URL again. `kind` already works
+      exactly this way a few lines above.
+
+      Without it a pasted GWR link comes in as a normal article and the
+      fetch refuses it for being 647 characters long, which tells the
+      person nothing about what to do next.
+    */
+    profile: isRecordPage(url) ? 'record' : 'article',
     group: typeof body?.group === 'string' ? body.group.trim() : '',
     // What was in the search box when this result was chosen. Reaches the
     // extraction prompt so the model looks for the thing that was being

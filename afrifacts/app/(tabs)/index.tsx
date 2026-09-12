@@ -15,6 +15,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { CategoryChips } from '@/src/components/CategoryChips';
 import { FactCard } from '@/src/components/FactCard';
+import { FeedActions } from '@/src/components/FeedActions';
 import { QuizCard } from '@/src/components/QuizCard';
 import { ShareCard } from '@/src/components/ShareCard';
 import { TopBar } from '@/src/components/TopBar';
@@ -26,7 +27,10 @@ import {
   getFactNumber,
   getFactPool,
   getFeed,
+  getTodaysFact,
   getUserStats,
+  noteFactSeen,
+  useProgress,
   QUIZ_LENGTH,
   refreshCorpus,
   reshuffleFeed,
@@ -112,9 +116,19 @@ export default function HomeScreen() {
     }
   }, []);
 
-  // Not memoised: it reads module state that `useSavedIds` above is what
-  // actually invalidates, so any dependency array here would be a claim
-  // the linter is right to disbelieve. It is a field read over 148 facts.
+  /*
+    Subscribed for the re-render, not for the value.
+
+    The streak flame in the top bar is real now, and it goes up the moment
+    the first card of a new day settles — which happens on this screen.
+    Without the subscription the flame would show yesterday's number until
+    something else happened to re-render the feed.
+
+    Not memoised: it reads module state that these subscriptions are what
+    actually invalidate, so any dependency array here would be a claim the
+    linter is right to disbelieve.
+  */
+  useProgress();
   const stats = getUserStats();
 
   /*
@@ -193,7 +207,12 @@ export default function HomeScreen() {
       if (pageHeight <= 0) return;
       const index = Math.round(event.nativeEvent.contentOffset.y / pageHeight);
       const item = items[index];
-      if (item?.kind === 'fact') setDealPosition(item.fact.id);
+      if (item?.kind === 'fact') {
+        setDealPosition(item.fact.id);
+        // Settled under the thumb, not merely scrolled past: this is what
+        // "facts learned" counts, and what marks the day for the streak.
+        noteFactSeen(item.fact.id);
+      }
     },
     [items, pageHeight],
   );
@@ -250,6 +269,18 @@ export default function HomeScreen() {
     listRef.current?.scrollToOffset({ offset: 0, animated: false });
   }, []);
 
+  /** The two on the action row that leave the feed rather than rearrange it. */
+  const openSearch = useCallback(() => router.push('/search'), []);
+
+  const openToday = useCallback(() => {
+    const fact = getTodaysFact();
+    if (!fact) return;
+    if (Platform.OS !== 'web') {
+      Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+    }
+    router.push({ pathname: '/fact/[id]', params: { id: fact.id } });
+  }, []);
+
   /*
     Deal again.
 
@@ -294,9 +325,21 @@ export default function HomeScreen() {
         countryCode={country}
         streak={stats.dayStreak}
         onPressCountry={() => router.push('/country')}
-        onShuffle={reshuffle}
       />
       <CategoryChips lanes={lanes} active={activeLane} onSelect={selectLane} />
+
+      {/*
+        The gap between the chips and the card was doing nothing. The card
+        is capped by aspect ratio and centred in its page, so this row eats
+        slack rather than the fact.
+      */}
+      <FeedActions
+        onShuffle={reshuffle}
+        onToday={openToday}
+        onRefresh={refresh}
+        onSearch={openSearch}
+        refreshing={refreshing}
+      />
 
       {/*
         The page height is measured rather than derived, because the chips

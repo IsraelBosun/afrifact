@@ -78,30 +78,67 @@ function shuffleInPlace<T>(list: T[], next: () => number): void {
 }
 
 /**
- * Order facts so consecutive ones come from different categories.
+ * Two facts in a row should not be about the same thing.
  *
- * A plain shuffle does not do this, and measuring on the real corpus says
- * so. History is over half the facts, so:
+ * Category is the coarse signal and it is not enough on its own. Six facts
+ * about Moshood Abiola are split across Culture and History, so spacing by
+ * category alone will happily put "Abiola edited the school magazine" next
+ * to "Abiola was detained for four years" and call them different. To a
+ * reader that is the same card twice.
  *
- *   corpus order    57% of neighbours share a category, longest run 11
- *   plain shuffle   44%, longest run 7
- *   this            2.5%, longest run 4
+ * `source.name` is the finer signal, and it is free: it is the article a
+ * fact was mined from, so everything sharing a subject shares it. The
+ * related ids catch the rest, since a fact that lists another as related
+ * has already said they belong together.
+ */
+function subjectOf(fact: Fact): string {
+  return fact.source.name.trim().toLowerCase();
+}
+
+function similar(fact: Fact, previous: Fact | null): boolean {
+  if (previous === null) return false;
+  if (subjectOf(fact) === subjectOf(previous)) return true;
+  return fact.relatedIds.includes(previous.id) || previous.relatedIds.includes(fact.id);
+}
+
+/**
+ * Order facts so consecutive ones differ in category and in subject.
  *
- * Shuffling cannot fix it, because the clustering is not disorder — it is
+ * A plain shuffle does not do this, and measuring on the real 126-fact
+ * corpus says so. Share of neighbours that match, and the longest run of
+ * one category:
+ *
+ *   corpus order    category 59.2%   subject 60.8%   run 12
+ *   plain shuffle   category 29.6%   subject  1.6%   run 4
+ *   this            category  0.0%   subject  0.0%   run 1
+ *
+ * The subject column is why corpus order was the wrong default twice over:
+ * three in five neighbours were not merely the same lane, they were the
+ * same article.
+ *
+ * Shuffling cannot fix it, because the clustering is not disorder. It is
  * the mix. When one category is half the corpus, half the neighbours are
  * that category however well you shuffle. It has to be interleaved.
  *
  * The rule is the classic one for spacing a multiset: take from whichever
  * category has the most left, never the one just taken. Two departures
- * from the textbook version — the largest is forced only when it is more
- * than half of what remains (before that, deferring it is still safe), and
- * otherwise the pick is random between the top two, so the rhythm differs
+ * from the textbook version. The largest is forced only when it is more
+ * than half of what remains, because before that point deferring it is
+ * still safe, and otherwise the pick is random between the top two, so the rhythm differs
  * between deals rather than being identical every time.
  *
- * The tail can still repeat. Once only History is left there is nothing to
- * alternate with, and that floor is arithmetic rather than a bug.
+ * Subject spacing rides on top and never overrides the category rule,
+ * which is what keeps the 2.5% intact. It gets two free choices: which of
+ * the top two categories to take when neither is forced, and which fact to
+ * take out of the chosen bucket. Both prefer a fact unlike the last one,
+ * and both fall back rather than fail.
+ *
+ * The tail can still repeat in principle. Once one category is all that
+ * remains there is nothing to alternate with, and that floor is arithmetic
+ * rather than a bug. At the current mix it does not bite: every seed
+ * measured lands on a longest run of 1.
  */
-function spreadByCategory(pool: Fact[], seed: number): Fact[] {
+function spread(pool: Fact[], seed: number): Fact[] {
   const next = seededRandom(seed);
 
   const buckets = new Map<string, Fact[]>();
@@ -113,30 +150,41 @@ function spreadByCategory(pool: Fact[], seed: number): Fact[] {
   for (const bucket of buckets.values()) shuffleInPlace(bucket, next);
 
   const out: Fact[] = [];
-  let last: string | null = null;
+  let previous: Fact | null = null;
   let remaining = pool.length;
 
   while (remaining > 0) {
-    const candidates = [...buckets.entries()]
-      .filter(([category, bucket]) => bucket.length > 0 && category !== last)
+    const live = [...buckets.entries()].filter(([, bucket]) => bucket.length > 0);
+    const candidates = live
+      .filter(([category]) => category !== previous?.category)
       .sort((a, b) => b[1].length - a[1].length);
 
     let pick: string;
     if (candidates.length === 0) {
-      const found = [...buckets.entries()].find(([, bucket]) => bucket.length > 0);
-      if (found === undefined) break;
-      pick = found[0];
+      if (live.length === 0) break;
+      pick = live[0][0];
     } else if (candidates[0][1].length * 2 > remaining) {
+      // Forced: deferring the biggest category any longer would strand it
+      // at the end. Category spacing wins over subject spacing here.
       pick = candidates[0][0];
     } else {
       const top = candidates.slice(0, 2);
-      pick = top[Math.floor(next() * top.length)][0];
+      // Free choice, so spend it on the subject rule.
+      const unlike = top.filter(([, bucket]) => bucket.some((fact) => !similar(fact, previous)));
+      const choose = unlike.length > 0 ? unlike : top;
+      pick = choose[Math.floor(next() * choose.length)][0];
     }
 
-    const fact = buckets.get(pick)?.shift();
-    if (fact === undefined) break;
+    const bucket = buckets.get(pick);
+    if (bucket === undefined || bucket.length === 0) break;
+
+    // Also free: any fact in this bucket keeps the category rhythm, so
+    // take one that is not about what we just showed.
+    const at = bucket.findIndex((fact) => !similar(fact, previous));
+    const [fact] = bucket.splice(at === -1 ? 0 : at, 1);
+
     out.push(fact);
-    last = pick;
+    previous = fact;
     remaining -= 1;
   }
 
@@ -144,24 +192,18 @@ function spreadByCategory(pool: Fact[], seed: number): Fact[] {
 }
 
 /**
- * Fact #1, then #2, then #3.
+ * The seed the default deal uses.
  *
- * The default order and the one a refresh returns to. It is the same sort
- * the canonical numbering uses, so the feed reads 1, 2, 3 down the screen
- * and the number on each card is also its place in the queue.
- *
- * Worth knowing what this costs: facts mined from one article are
- * consecutive and share a category, so chronological order is the most
- * clustered order there is — 57% of neighbours share a category and the
- * longest run is 11. `spreadByCategory` takes that to 2.5%, and the
- * shuffle button is how a reader gets it.
+ * Fixed rather than random, and that is the whole point of it. A refresh
+ * has to return to the same order every time or "Fact #1" would mean a
+ * different card on every pull, so the default deal is one particular
+ * spread rather than a fresh one. The shuffle button is where a reader
+ * gets a different arrangement, and it seeds from the clock.
  */
-function canonicalOrder(facts: Fact[]): Fact[] {
-  return [...facts].sort((a, b) => a.factNumber - b.factNumber || a.id.localeCompare(b.id));
-}
+const DEFAULT_SEED = 0x5af1fac7;
 
 /**
- * Back to Fact #1, in order. What a pull-to-refresh does.
+ * Deal again from the default spread. What a pull-to-refresh does.
  *
  * A refresh is the moment the corpus itself changed, so carrying a shuffle
  * across it would mean landing mid-deal in a set that is no longer the one
@@ -169,7 +211,7 @@ function canonicalOrder(facts: Fact[]): Fact[] {
  * gesture already feels like it means.
  */
 export function resetDeal(facts: Fact[]): void {
-  commit(canonicalOrder(facts).map((fact) => fact.id));
+  commit(spread(facts, DEFAULT_SEED).map((fact) => fact.id));
 }
 
 /**
@@ -203,12 +245,15 @@ export function reconcileDeal(facts: Fact[]): void {
 
   if (kept.length === order.length && added.length === 0) return;
 
-  commit([...kept, ...canonicalOrder(added).map((fact) => fact.id)]);
+  // Spread the new block too. It is appended rather than woven in, so it
+  // is the one place a run of same-subject cards can still form, and the
+  // facts arriving together are usually the ones mined together.
+  commit([...kept, ...spread(added, DEFAULT_SEED).map((fact) => fact.id)]);
 }
 
 /** Deal again from scratch. What the shuffle button does. */
 export function reshuffleDeal(facts: Fact[]): void {
-  commit(spreadByCategory(facts, Date.now()).map((fact) => fact.id));
+  commit(spread(facts, Date.now()).map((fact) => fact.id));
 }
 
 export function dealOrder(): readonly string[] {

@@ -1,4 +1,280 @@
 {
+  "nf_0113": {
+    "fact": {
+      "id": "nf_0113",
+      "country": "NG",
+      "category": "Culture",
+      "factNumber": 113,
+      "relatedIds": [],
+      "image": null,
+      "fact": "About one in every six Africans is Nigerian, because the country holds roughly 17% of the whole continent's population.",
+      "deepDive": {
+        "body": [
+          "Nigeria has a population of more than 242 million, which makes it the most populous country in Africa and the sixth-most populous country in the world. As of 2017 it accounted for about 17% of everyone living on the continent.",
+          "The exact figure is not settled, and the article says so plainly: exactly how populous Nigeria is remains a subject of speculation. The United Nations put the population at 213,401,323 in 2021, split 51.7% rural and 48.3% urban, at a density of 167.5 people per square kilometre.",
+          "The weight sits in a few places. Nigeria has five cities of over a million people: Lagos, Kano, Ibadan, Benin City and Port Harcourt. Lagos is the largest city in Africa, with over 12 million in its urban area, and a 2015 estimate counted 20 Nigerian cities above 500,000 inhabitants."
+        ],
+        "whyItMatters": "Nigeria is not one country among many on the continent, it is a sixth of it. In 2011 Citigroup projected that Nigeria would have the highest average GDP growth in the world between 2010 and 2050, so almost any projection about Africa's population, markets or migration is mostly a projection about Nigeria.",
+        "readTime": 2,
+        "suggestedQuestion": "How is Nigeria's population actually counted?"
+      },
+      "source": {
+        "name": "Nigeria",
+        "url": "https://en.wikipedia.org/wiki/Nigeria",
+        "verified": true
+      }
+    },
+    "provenance": {
+      "factId": "nf_0113",
+      "origin": "manual",
+      "sources": [
+        {
+          "citation": "\"Nigeria\", Wikipedia, revision 1372696829 (retrieved 2026-09-12). https://en.wikipedia.org/wiki/Nigeria",
+          "shortName": "Nigeria",
+          "tier": "reference",
+          "locator": {
+            "url": "https://en.wikipedia.org/wiki/Nigeria",
+            "archiveRef": "enwiki-revision-1372696829"
+          },
+          "passage": "Nigeria is the most populous country in Africa and accounts for about 17% of the continent's total population as of 2017; however, exactly how populous is a subject of speculation."
+        }
+      ],
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 4,
+        "explicability": 5
+      },
+      "review": {
+        "status": "draft",
+        "reviewer": "",
+        "reviewedAt": "",
+        "notes": "Hand written from the user shortlist, then sourced: the passage was found in the cached document rather than the other way round. Needs a human read before it ships."
+      },
+      "decay": {
+        "kind": "volatile",
+        "reviewBy": "2027-09-12"
+      },
+      "createdAt": "2026-09-12"
+    },
+    "record": {
+      "createdAt": "2026-09-12T10:24:39.734Z",
+      "updatedAt": "2026-09-12T10:24:39.734Z",
+      "updatedBy": "Israel Posi Olatunbosun",
+      "revision": 1,
+      "queued": false,
+      "history": []
+    }
+  },
+  "nf_0114": {
+    "fact": {
+      "id": "nf_0114",
+      "country": "NG",
+      "category": "Health",
+      "factNumber": 114,
+      "relatedIds": [
+        "nf_0115"
+      ],
+      "image": null,
+      "fact": "Sickle cell disease is common in sub-Saharan Africa because a single allele protects against malaria, while two alleles cause the disease.",
+      "deepDive": {
+        "body": [
+          "Sickle cell disease occurs most commonly among people whose ancestors lived in tropical and subtropical sub-Saharan regions where malaria is or was common. About 80% of all cases in the world are in sub-Saharan Africa.",
+          "In 1954 it was established that carriers of the abnormal gene are protected to some degree against malaria, which accounts for its persistence in the populations malaria threatens. Carriers who catch malaria are less likely to suffer severe symptoms. People with the full disease are also less likely to be infected, but once infected they are more likely to develop severe and life-threatening anaemia.",
+          "That is the trade-off. A shorter life expectancy for people with the homozygous condition would normally push a trait out of a population, but in malaria-prone regions the benefit held by carriers preserves it. Carrier frequency ranges between 10 and 40% across equatorial Africa, falling to 1 to 2% on the North African coast and under 1% in South Africa."
+        ],
+        "whyItMatters": "Without treatment, people with sickle cell disease rarely reach adulthood, and with good healthcare median life expectancy is between 58 and 66 years. The gene is still here because of what it does for people carrying one copy rather than two, which makes it one of the clearest evolutionary trade-offs in human biology.",
+        "readTime": 2,
+        "suggestedQuestion": "Why does one copy of the gene help but two cause harm?"
+      },
+      "source": {
+        "name": "Sickle cell disease",
+        "url": "https://en.wikipedia.org/wiki/Sickle_cell_disease",
+        "verified": true
+      }
+    },
+    "provenance": {
+      "factId": "nf_0114",
+      "origin": "manual",
+      "sources": [
+        {
+          "citation": "\"Sickle cell disease\", Wikipedia, revision 1370166966 (retrieved 2026-09-12). https://en.wikipedia.org/wiki/Sickle_cell_disease",
+          "shortName": "Sickle cell disease",
+          "tier": "reference",
+          "locator": {
+            "url": "https://en.wikipedia.org/wiki/Sickle_cell_disease",
+            "archiveRef": "enwiki-revision-1370166966"
+          },
+          "passage": "Sickle cell disease occurs more commonly among people whose ancestors lived in tropical and subtropical sub-Saharan regions where malaria is or was common. Where malaria is common, carrying a single sickle cell allele (trait) confers a heterozygote advantage; humans with one of the two alleles of sickle cell disease show less severe symptoms when infected with malaria."
+        }
+      ],
+      "surprise": {
+        "priorProbability": 3,
+        "specificity": 4,
+        "explicability": 5
+      },
+      "review": {
+        "status": "draft",
+        "reviewer": "",
+        "reviewedAt": "",
+        "notes": "Hand written from the user shortlist, then sourced: the passage was found in the cached document rather than the other way round. Needs a human read before it ships."
+      },
+      "decay": {
+        "kind": "permanent"
+      },
+      "createdAt": "2026-09-12"
+    },
+    "record": {
+      "createdAt": "2026-09-12T10:24:39.734Z",
+      "updatedAt": "2026-09-12T10:24:39.734Z",
+      "updatedBy": "Israel Posi Olatunbosun",
+      "revision": 1,
+      "queued": false,
+      "history": []
+    }
+  },
+  "nf_0115": {
+    "fact": {
+      "id": "nf_0115",
+      "country": "NG",
+      "category": "Health",
+      "factNumber": 115,
+      "relatedIds": [
+        "nf_0114"
+      ],
+      "image": null,
+      "fact": "In Nigeria 24% of people carry the sickle cell gene, and about 150,000 babies are born with the disease every year.",
+      "deepDive": {
+        "body": [
+          "In Nigeria, 24% of the population carries the gene, and 20 per 1,000 newborns are born with the disease. That works out at roughly 150,000 children a year.",
+          "A World Health Organization report dated 2006 put it a different way, estimating that around 2% of newborns in Nigeria are affected by sickle cell anaemia, giving a total of 150,000 affected children born every year in Nigeria alone. Across the West African countries of Ghana and Nigeria, carrier frequencies vary from 15 to 30%.",
+          "Three-quarters of sickle cell cases in the world occur in Africa, and the disease is most prevalent in sub-Saharan Africa. For comparison, the number of people with the disease in the United States is about 100,000, or roughly one in 3,300."
+        ],
+        "whyItMatters": "Screening begins during pregnancy, and the size of the numbers is what makes this a public health question rather than a rare disease. A birth cohort of 150,000 affected children is the population of a city, and it arrives again every year.",
+        "readTime": 2,
+        "suggestedQuestion": "What does newborn screening for sickle cell involve?"
+      },
+      "source": {
+        "name": "Sickle cell disease",
+        "url": "https://en.wikipedia.org/wiki/Sickle_cell_disease",
+        "verified": true
+      }
+    },
+    "provenance": {
+      "factId": "nf_0115",
+      "origin": "manual",
+      "sources": [
+        {
+          "citation": "\"Sickle cell disease\", Wikipedia, revision 1370166966 (retrieved 2026-09-12). https://en.wikipedia.org/wiki/Sickle_cell_disease",
+          "shortName": "Sickle cell disease",
+          "tier": "reference",
+          "locator": {
+            "url": "https://en.wikipedia.org/wiki/Sickle_cell_disease",
+            "archiveRef": "enwiki-revision-1370166966"
+          },
+          "passage": "In Nigeria, 24% of the population carries the gene, and 20 per 1,000 newborns are born with the disease, or 150,000 annually."
+        }
+      ],
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 5,
+        "explicability": 4
+      },
+      "review": {
+        "status": "draft",
+        "reviewer": "",
+        "reviewedAt": "",
+        "notes": "Hand written from the user shortlist, then sourced: the passage was found in the cached document rather than the other way round. Needs a human read before it ships."
+      },
+      "decay": {
+        "kind": "volatile",
+        "reviewBy": "2027-09-12"
+      },
+      "createdAt": "2026-09-12"
+    },
+    "record": {
+      "createdAt": "2026-09-12T10:24:39.734Z",
+      "updatedAt": "2026-09-12T10:24:39.734Z",
+      "updatedBy": "Israel Posi Olatunbosun",
+      "revision": 1,
+      "queued": false,
+      "history": []
+    }
+  },
+  "nf_0116": {
+    "fact": {
+      "id": "nf_0116",
+      "country": "NG",
+      "category": "History",
+      "factNumber": 116,
+      "relatedIds": [],
+      "image": null,
+      "fact": "Port Harcourt is named after a British colonial secretary because, as the governor wrote in 1913, there was no convenient local name.",
+      "deepDive": {
+        "body": [
+          "The port was built in 1912 but had no name until August 1913, when the Governor of Nigeria, Sir Frederick Lugard, named it after Lewis Harcourt, 1st Viscount Harcourt, then Secretary of State for the Colonies.",
+          "Lugard's letter survives. He wrote to Harcourt that in the absence of any convenient local name, he would respectfully ask permission to call this Port Harcourt. The reply came back: it gives me pleasure to accede to your suggestion that my name should be associated with the new Port.",
+          "Harcourt was a Liberal politician who held the Cabinet post of Secretary of State for the Colonies from 1910 to 1915, under Asquith. The city itself had been created to export coal from the collieries of Enugu, 243 kilometres to the north, to which it was linked by a railway called the Eastern Line, also built by the British."
+        ],
+        "whyItMatters": "The place was not nameless. The article records the older name Rebisi, and the city sits on Ikwerre land, but none of that was convenient to a governor writing to London. Port Harcourt is now the capital of Rivers State with an urban population of around 3,800,000, and it still carries the name of a man who was pleased to accept it by post.",
+        "readTime": 2,
+        "suggestedQuestion": "What was Port Harcourt called before 1913?"
+      },
+      "source": {
+        "name": "Port Harcourt",
+        "url": "https://en.wikipedia.org/wiki/Port_Harcourt",
+        "verified": true
+      }
+    },
+    "provenance": {
+      "factId": "nf_0116",
+      "origin": "manual",
+      "sources": [
+        {
+          "citation": "\"Lewis Harcourt, 1st Viscount Harcourt\", Wikipedia, revision 1374149099 (retrieved 2026-09-12). https://en.wikipedia.org/wiki/Lewis_Harcourt,_1st_Viscount_Harcourt",
+          "shortName": "Lewis Harcourt, 1st Viscount Harcourt",
+          "tier": "reference",
+          "locator": {
+            "url": "https://en.wikipedia.org/wiki/Lewis_Harcourt,_1st_Viscount_Harcourt",
+            "archiveRef": "enwiki-revision-1374149099"
+          },
+          "passage": "In August 1913, the Governor-General of Nigeria, Sir Frederick Lugard wrote to Harcourt, then Secretary of State for the Colonies, that \"in the absence of any convenient local name, I would respectfully ask your permission to call this Port Harcourt\". The Secretary of State replied, \"It gives me pleasure to accede to your suggestion that my name should be associated with the new Port\"."
+        },
+        {
+          "citation": "\"Port Harcourt\", Wikipedia, revision 1372164320 (retrieved 2026-09-12). https://en.wikipedia.org/wiki/Port_Harcourt",
+          "shortName": "Port Harcourt",
+          "tier": "reference",
+          "locator": {
+            "url": "https://en.wikipedia.org/wiki/Port_Harcourt",
+            "archiveRef": "enwiki-revision-1372164320"
+          },
+          "passage": "The port was built in 1912, but not given a name until August 1913, when the then Governor of Nigeria, Sir Frederick Lugard named it \"Port Harcourt\" in honor of Lewis Harcourt, 1st Viscount Harcourt, then the Secretary of State for the Colonies."
+        }
+      ],
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 4,
+        "explicability": 5
+      },
+      "review": {
+        "status": "draft",
+        "reviewer": "",
+        "reviewedAt": "",
+        "notes": "Hand written from the user shortlist, then sourced: the passage was found in the cached document rather than the other way round. Needs a human read before it ships."
+      },
+      "decay": {
+        "kind": "permanent"
+      },
+      "createdAt": "2026-09-12"
+    },
+    "record": {
+      "createdAt": "2026-09-12T10:24:39.734Z",
+      "updatedAt": "2026-09-12T10:24:39.734Z",
+      "updatedBy": "Israel Posi Olatunbosun",
+      "revision": 1,
+      "queued": false,
+      "history": []
+    }
+  },
   "nf_1001": {
     "fact": {
       "id": "nf_1001",
@@ -3098,16 +3374,16 @@
       "id": "nf_1053",
       "country": "NG",
       "category": "History",
-      "fact": "In 1984, former Nigerian minister Umaru Dikko was found drugged in a crate at Stansted Airport, being claimed as diplomatic baggage, in an apparent government-sanctioned kidnapping.",
+      "fact": "Nigerian agents hired an alleged former Israeli Mossad agent to lead the 1984 kidnapping of Umaru Dikko, and an Israeli anesthetist to drug him for the flight home in a crate.",
       "deepDive": {
         "body": [
-          "In July 1984, British police at Stansted Airport opened a crate labeled as diplomatic baggage and found a man inside, drugged and barely conscious. The man was Umaru Dikko, a former Nigerian transport minister who had fled to London after a military coup overthrew the government he served.",
-          "The crate was destined for Lagos, Nigeria, and the men claiming it said it was diplomatic cargo. But they had failed to mark it properly or complete the required paperwork, which allowed police to search it. Dikko was found with traces of a sedative in his system, and the incident became known as the Dikko affair.",
-          "The Nigerian government at the time had accused Dikko of embezzling millions of dollars from oil revenues, and he was living in exile. The kidnapping attempt was widely seen as an official operation, though the Nigerian government denied involvement. Dikko survived and continued his political activities from London, later leading opposition groups and serving in Nigerian political parties until his death in 2014."
+          "In June 1984 Nigerian security service agents, led by the ex-Nigerian Army major Mohammed Yusufu, travelled to London. They hired Alexander Barak, an alleged former Israeli Mossad agent, to lead the team. The group rented an apartment on Cromwell Road and posed as refugees from the new regime.",
+          "Dikko was spotted on 30 June and followed on foot to his house in Porchester Terrace, which was then kept under constant surveillance while the operation was prepared from the Nigerian high commission in London. Levi-Arie Shapiro, an Israeli doctor who ran an intensive care unit, was recruited to drug him and to insert a tube that would stop him choking while he was carried in a crate.",
+          "It came apart on paperwork. Dikko and Shapiro were put in one crate and Barak and another Israeli in a second, but the crates were not labelled as diplomatic bags in the way Article 27(4) of the 1961 Vienna Convention on Diplomatic Relations requires. Customs officers at Stansted, who had already received an all-ports warning, could open them without breaching the convention."
         ],
-        "whyItMatters": "The Dikko affair shows how far a government might go to bring an exiled opponent to justice, even across international borders. It also highlights the diplomatic tensions that can arise when a former official is accused of corruption and flees the country.",
+        "whyItMatters": "The kidnapping itself succeeded. It was witnessed by Dikko's secretary, who raised the alarm, and the plan failed at the airport on a documentation error rather than on anything the plotters got wrong in London. The Israeli government denied that it was involved.",
         "readTime": 2,
-        "suggestedQuestion": "What happened to Umaru Dikko after the kidnapping attempt?"
+        "suggestedQuestion": "What is a diplomatic bag and what are the rules for one?"
       },
       "source": {
         "name": "Umaru Dikko",
@@ -3122,6 +3398,16 @@
       "factId": "nf_1053",
       "origin": "pipeline",
       "sources": [
+        {
+          "citation": "\"Dikko affair\", Wikipedia, revision 1331203173 (retrieved 2026-09-12). https://en.wikipedia.org/wiki/Dikko_affair",
+          "shortName": "Dikko affair",
+          "tier": "reference",
+          "locator": {
+            "url": "https://en.wikipedia.org/wiki/Dikko_affair",
+            "archiveRef": "enwiki-revision-1331203173"
+          },
+          "passage": "Nigerian security service agents led by ex-Nigerian Army Major Mohammed Yusufu, traveled to London. Alexander Barak, an alleged former Israeli Mossad agent, was hired to lead the team. The team rented an apartment on Cromwell Road and posed as refugees from the new regime. \nOn 30 June 1984, Dikko was spotted and followed on foot to his house in Porchester Terrace. The house was kept under constant surveillance, while the Nigerians, using their London high commission as a base, prepared a kidnapping operation. Levi-Arie Shapiro, an Israeli doctor who was a consultant anesthetist and director of the intensive care unit at HaSharon Hospital, was recruited. He was to fly to London and participate in the operation. Shapiro's job would be to drug Dikko, and insert an endotracheal tube to keep him from choking on his own vomit while being transported in a crate."
+        },
         {
           "citation": "\"Umaru Dikko\", Wikipedia, revision 1360420449 (retrieved 2026-08-30). https://en.wikipedia.org/wiki/Umaru_Dikko",
           "shortName": "Umaru Dikko",
@@ -3139,10 +3425,10 @@
         "explicability": 5
       },
       "review": {
-        "status": "draft",
-        "reviewer": "",
-        "reviewedAt": "2026-08-31",
-        "notes": "Enriched by the pipeline. Not yet read by a human."
+        "status": "approved",
+        "reviewer": "Israel Posi Olatunbosun",
+        "reviewedAt": "2026-09-12",
+        "notes": "Bulk approved without individual review."
       },
       "decay": {
         "kind": "permanent"
@@ -3151,12 +3437,19 @@
     },
     "record": {
       "createdAt": "2026-09-02T16:58:12.702Z",
-      "updatedAt": "2026-09-02T16:58:12.702Z",
-      "updatedBy": "",
-      "revision": 1,
+      "updatedAt": "2026-09-12T10:25:24.008Z",
+      "updatedBy": "Israel Posi Olatunbosun",
+      "revision": 2,
       "queued": false,
       "candidateKey": "dikko::In 1984, former Nigerian minister Umaru Dikko was found drug",
-      "history": []
+      "history": [
+        {
+          "at": "2026-09-12T10:25:24.008Z",
+          "by": "Israel Posi Olatunbosun",
+          "what": "fact, passages, deepDive",
+          "reason": "Replaced with the Israeli-operative angle from the Dikko affair article; the old claim was the same story told flatter."
+        }
+      ]
     }
   },
   "nf_1054": {
@@ -4886,72 +5179,6 @@
       "history": []
     }
   },
-  "nf_1097": {
-    "fact": {
-      "id": "nf_1097",
-      "country": "NG",
-      "category": "History",
-      "fact": "Recent excavations in 2019 and 2021 recovered Igbo-Ukwu ceramics up to two kilometres south of the original sites, and new radiocarbon dates range from the end of the ninth to the second half of the thirteenth century.",
-      "deepDive": {
-        "body": [
-          "The ground around Igbo-Ukwu, in southeastern Nigeria, has given up more of its secrets. Excavations in 2019 and 2021 found ceramics up to two kilometres south of the sites first dug by Thurstan Shaw in the 1960s. These new finds show that the ancient settlement was larger than previously known.",
-          "Three new radiocarbon dates from these excavations range from the end of the ninth century to the second half of the thirteenth century. This is a much longer span than the single ninth-century event that earlier evidence suggested. The settlement was not a brief flash but a lasting community.",
-          "The discoveries deepen the mystery of Igbo-Ukwu, famous for its sophisticated copper-alloy castings and other treasures. They also raise questions about its connection to the later Kingdom of Nri, a ritual polity centred nearby. While some see cultural links, archaeology has not yet proven that Igbo-Ukwu was Nri's capital or that the excavated individuals were Nri kings."
-        ],
-        "whyItMatters": "These new dates stretch the story of Igbo-Ukwu across four centuries, showing it was not a one-off event but a long-lived society. That changes how we think about the region's early history and its possible ties to the Nri kingdom.",
-        "readTime": 2,
-        "suggestedQuestion": "What was found at Igbo-Ukwu and why is it important?"
-      },
-      "source": {
-        "name": "Kingdom of Nri",
-        "url": "https://en.wikipedia.org/wiki/Kingdom_of_Nri",
-        "verified": true
-      },
-      "image": null,
-      "factNumber": 1097,
-      "relatedIds": []
-    },
-    "provenance": {
-      "factId": "nf_1097",
-      "origin": "pipeline",
-      "sources": [
-        {
-          "citation": "\"Kingdom of Nri\", Wikipedia, revision 1371990413 (retrieved 2026-08-30). https://en.wikipedia.org/wiki/Kingdom_of_Nri",
-          "shortName": "Kingdom of Nri",
-          "tier": "reference",
-          "locator": {
-            "url": "https://en.wikipedia.org/wiki/Kingdom_of_Nri",
-            "archiveRef": "enwiki-revision-1371990413"
-          },
-          "passage": "Excavations in 2019 and 2021 recovered Igbo-Ukwu ceramics up to two kilometres south of Shaw's sites. Three new radiocarbon dates from stratified contexts range from the end of the ninth to the second half of the thirteenth century, showing that the ancient settlement cannot be reduced to a single ninth-century event."
-        }
-      ],
-      "surprise": {
-        "priorProbability": 4,
-        "specificity": 5,
-        "explicability": 4
-      },
-      "review": {
-        "status": "draft",
-        "reviewer": "",
-        "reviewedAt": "2026-08-31",
-        "notes": "Enriched by the pipeline. Not yet read by a human."
-      },
-      "decay": {
-        "kind": "permanent"
-      },
-      "createdAt": "2026-08-31"
-    },
-    "record": {
-      "createdAt": "2026-09-02T16:58:12.702Z",
-      "updatedAt": "2026-09-02T16:58:12.702Z",
-      "updatedBy": "",
-      "revision": 1,
-      "queued": false,
-      "candidateKey": "nri::Recent excavations in 2019 and 2021 recovered Igbo-Ukwu cera",
-      "history": []
-    }
-  },
   "nf_1099": {
     "fact": {
       "id": "nf_1099",
@@ -5280,72 +5507,6 @@
       "revision": 1,
       "queued": false,
       "candidateKey": "oyo-empire::The Oyo Empire amassed a cavalry force exceeding 100,000 hor",
-      "history": []
-    }
-  },
-  "nf_1105": {
-    "fact": {
-      "id": "nf_1105",
-      "country": "NG",
-      "category": "History",
-      "fact": "Taxes on the kingdom of Dahomey alone brought in an amount estimated at 14 million US dollars a year.",
-      "deepDive": {
-        "body": [
-          "The Oyo Empire's wealth was built on tribute from its many vassal states. One of the most profitable was the Kingdom of Dahomey, which paid an estimated 14 million US dollars a year in taxes. This immense sum came from a combination of trade taxes and direct tribute, reflecting the empire's economic dominance in the region.",
-          "Dahomey was not always a willing subject. The Oyo Empire invaded Dahomey multiple times, with a major campaign in 1728 and final subjugation in 1748. The tribute was a constant reminder of Dahomey's subordinate status, and it was collected by Oyo-appointed officials known as Ilari, who also served as spies.",
-          "The wealth from Dahomey and other tributaries helped Oyo maintain its powerful cavalry and expansive territory. However, this reliance on tribute also made the empire vulnerable. When Oyo's power waned in the early 19th century, Dahomey seized the opportunity to revolt, ending its tribute payments and contributing to Oyo's decline."
-        ],
-        "whyItMatters": "This fact shows how the Oyo Empire's economic power was built on the tribute of conquered states, and how that same tribute could become a source of tension and eventual rebellion. It highlights the interconnectedness of wealth, military power, and political control in pre-colonial African empires.",
-        "readTime": 2,
-        "suggestedQuestion": "How did the Oyo Empire collect taxes from its tributary states?"
-      },
-      "source": {
-        "name": "Oyo Empire",
-        "url": "https://en.wikipedia.org/wiki/Oyo_Empire",
-        "verified": true
-      },
-      "image": null,
-      "factNumber": 1105,
-      "relatedIds": []
-    },
-    "provenance": {
-      "factId": "nf_1105",
-      "origin": "pipeline",
-      "sources": [
-        {
-          "citation": "\"Oyo Empire\", Wikipedia, revision 1371892901 (retrieved 2026-08-30). https://en.wikipedia.org/wiki/Oyo_Empire",
-          "shortName": "Oyo Empire",
-          "tier": "reference",
-          "locator": {
-            "url": "https://en.wikipedia.org/wiki/Oyo_Empire",
-            "archiveRef": "enwiki-revision-1371892901"
-          },
-          "passage": "Taxes on the kingdom of Dahomey alone brought in an amount estimated at 14 million US dollars a year."
-        }
-      ],
-      "surprise": {
-        "priorProbability": 5,
-        "specificity": 5,
-        "explicability": 4
-      },
-      "review": {
-        "status": "draft",
-        "reviewer": "",
-        "reviewedAt": "2026-08-31",
-        "notes": "Enriched by the pipeline. Not yet read by a human."
-      },
-      "decay": {
-        "kind": "permanent"
-      },
-      "createdAt": "2026-08-31"
-    },
-    "record": {
-      "createdAt": "2026-09-02T16:58:12.702Z",
-      "updatedAt": "2026-09-02T16:58:12.702Z",
-      "updatedBy": "",
-      "revision": 1,
-      "queued": false,
-      "candidateKey": "oyo-empire::Taxes on the kingdom of Dahomey alone brought in an amount e",
       "history": []
     }
   },
@@ -6273,138 +6434,6 @@
       "revision": 1,
       "queued": false,
       "candidateKey": "soyinka::In 1994, Soyinka fled Nigeria on a motorcycle via the border",
-      "history": []
-    }
-  },
-  "nf_1124": {
-    "fact": {
-      "id": "nf_1124",
-      "country": "NG",
-      "category": "Sports",
-      "fact": "Nigeria's first official game was in October 1949, while still a British colony, beating Sierra Leone 2–0 in Freetown.",
-      "deepDive": {
-        "body": [
-          "In 1949, Nigeria was still a British colony, and its football team was just beginning to find its footing on the international stage. That October, the team traveled to Freetown to face Sierra Leone in what would be recorded as Nigeria's first official match. The result was a 2–0 victory, a promising start for a side that had only recently begun playing organized internationals.",
-          "Before this official debut, Nigeria had played informal matches against other colonies, starting in 1938 against the Gold Coast with a team of Lagos-based players. The 1949 match came shortly after a tour of England, where the team played against amateur clubs and drew significant crowds, including a record 6,000 spectators at one match. This period marked the beginning of Nigeria's journey in international football, which would later see them become a dominant force in African football.",
-          "The victory over Sierra Leone was a modest beginning, but it set the stage for Nigeria's future successes. Over the decades, the team would go on to win the Africa Cup of Nations three times and qualify for multiple World Cups, establishing themselves as one of Africa's football powerhouses."
-        ],
-        "whyItMatters": "This fact marks the starting point of Nigeria's football history, showing how a colonial-era match laid the foundation for a team that would later become a continental champion and a regular at the World Cup. It's a reminder that even the greatest teams have humble beginnings.",
-        "readTime": 2,
-        "suggestedQuestion": "What was Nigeria's first official match?"
-      },
-      "source": {
-        "name": "Nigeria national football team",
-        "url": "https://en.wikipedia.org/wiki/Nigeria_national_football_team",
-        "verified": true
-      },
-      "image": null,
-      "factNumber": 1124,
-      "relatedIds": []
-    },
-    "provenance": {
-      "factId": "nf_1124",
-      "origin": "pipeline",
-      "sources": [
-        {
-          "citation": "\"Nigeria national football team\", Wikipedia, revision 1371856843 (retrieved 2026-08-30). https://en.wikipedia.org/wiki/Nigeria_national_football_team",
-          "shortName": "Nigeria national football team",
-          "tier": "reference",
-          "locator": {
-            "url": "https://en.wikipedia.org/wiki/Nigeria_national_football_team",
-            "archiveRef": "enwiki-revision-1371856843"
-          },
-          "passage": "Nigeria then played its first official game in October 1949, while still a British colony, as they beat Sierra Leone 2–0 in Freetown."
-        }
-      ],
-      "surprise": {
-        "priorProbability": 4,
-        "specificity": 5,
-        "explicability": 3
-      },
-      "review": {
-        "status": "draft",
-        "reviewer": "",
-        "reviewedAt": "2026-08-31",
-        "notes": "Enriched by the pipeline. Not yet read by a human."
-      },
-      "decay": {
-        "kind": "permanent"
-      },
-      "createdAt": "2026-08-31"
-    },
-    "record": {
-      "createdAt": "2026-09-02T16:58:12.702Z",
-      "updatedAt": "2026-09-02T16:58:12.702Z",
-      "updatedBy": "",
-      "revision": 1,
-      "queued": false,
-      "candidateKey": "super-eagles::Nigeria's first official game was in October 1949, while sti",
-      "history": []
-    }
-  },
-  "nf_1126": {
-    "fact": {
-      "id": "nf_1126",
-      "country": "NG",
-      "category": "Sports",
-      "fact": "Nigeria's Olympic football team won gold at the 1996 Atlanta Olympics, beating Mexico, Brazil, and Argentina.",
-      "deepDive": {
-        "body": [
-          "In the summer of 1996, Nigeria's Olympic football team made history in Atlanta. They defeated Mexico, Brazil, and Argentina to win the gold medal, becoming the first African nation to win the Olympic football tournament.",
-          "The team's path to gold was remarkable. After beating Mexico, they faced a Brazil side featuring stars like Ronaldo and Bebeto. Nigeria came from behind to win 4-3 in the semifinal, with a golden goal from Nwankwo Kanu. In the final against Argentina, they again trailed before winning 3-2, with Emmanuel Amunike scoring the winner.",
-          "This victory was a landmark for African football, proving that African teams could compete with and beat the world's best. It also set the stage for Nigeria's future successes, including their run to the 2008 Olympic final, where they lost to Argentina in a rematch of the 1996 final."
-        ],
-        "whyItMatters": "This gold medal was a turning point for African football, showing that the continent's teams could win on the world stage. It also began a notable rivalry with Argentina, as the two nations would meet again in the 2008 Olympic final.",
-        "readTime": 2,
-        "suggestedQuestion": "How did Nigeria beat Brazil in the 1996 Olympic semifinal?"
-      },
-      "source": {
-        "name": "Nigeria national football team",
-        "url": "https://en.wikipedia.org/wiki/Nigeria_national_football_team",
-        "verified": true
-      },
-      "image": null,
-      "factNumber": 1126,
-      "relatedIds": []
-    },
-    "provenance": {
-      "factId": "nf_1126",
-      "origin": "pipeline",
-      "sources": [
-        {
-          "citation": "\"Nigeria national football team\", Wikipedia, revision 1371856843 (retrieved 2026-08-30). https://en.wikipedia.org/wiki/Nigeria_national_football_team",
-          "shortName": "Nigeria national football team",
-          "tier": "reference",
-          "locator": {
-            "url": "https://en.wikipedia.org/wiki/Nigeria_national_football_team",
-            "archiveRef": "enwiki-revision-1371856843"
-          },
-          "passage": "Nigeria Olympic Men's football team won the football event at the 1996 Olympics in Atlanta, beating Mexico, Brazil and Argentina in the process."
-        }
-      ],
-      "surprise": {
-        "priorProbability": 3,
-        "specificity": 5,
-        "explicability": 4
-      },
-      "review": {
-        "status": "draft",
-        "reviewer": "",
-        "reviewedAt": "2026-08-31",
-        "notes": "Enriched by the pipeline. Not yet read by a human."
-      },
-      "decay": {
-        "kind": "permanent"
-      },
-      "createdAt": "2026-08-31"
-    },
-    "record": {
-      "createdAt": "2026-09-02T16:58:12.702Z",
-      "updatedAt": "2026-09-02T16:58:12.702Z",
-      "updatedBy": "",
-      "revision": 1,
-      "queued": false,
-      "candidateKey": "super-eagles::Nigeria's Olympic football team won gold at the 1996 Atlanta",
       "history": []
     }
   },

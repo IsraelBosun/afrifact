@@ -17,10 +17,10 @@
  * true lives in `provenance.js`, which the app never sees.
  */
 
-/** @typedef {'History' | 'Business' | 'Culture' | 'Food' | 'Sports'} Category */
+/** @typedef {'History' | 'Business' | 'Culture' | 'Food' | 'Sports' | 'Records' | 'Health'} Category */
 
 /** @type {readonly Category[]} */
-export const CATEGORIES = ['History', 'Business', 'Culture', 'Food', 'Sports'];
+export const CATEGORIES = ['History', 'Business', 'Culture', 'Food', 'Sports', 'Records', 'Health'];
 
 /**
  * ISO 3166-1 alpha-2, or 'AFR' for pan-African. Never narrowed to 'NG'.

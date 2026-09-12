@@ -6,7 +6,14 @@
  * decision, not a convenience.
  */
 
-export type Category = 'History' | 'Business' | 'Culture' | 'Food' | 'Sports';
+export type Category =
+  | 'History'
+  | 'Business'
+  | 'Culture'
+  | 'Food'
+  | 'Sports'
+  | 'Records'
+  | 'Health';
 
 export const CATEGORIES: readonly Category[] = [
   'History',
@@ -14,6 +21,8 @@ export const CATEGORIES: readonly Category[] = [
   'Culture',
   'Food',
   'Sports',
+  'Records',
+  'Health',
 ] as const;
 
 /**

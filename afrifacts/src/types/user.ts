@@ -4,13 +4,16 @@ export interface UserStats {
   dayStreak: number;
   factsLearned: number;
   savedCount: number;
-  /** Percentage, 0-100. */
+  /** Percentage, 0-100. Meaningless until `quizAnswered` is above zero. */
   quizAccuracy: number;
+  /** Questions answered ever, so the UI can tell 0% from "no quizzes yet". */
+  quizAnswered: number;
   /** Seven booleans, Monday first: was the streak kept that day. */
   week: boolean[];
 }
 
 export interface UserProfile {
+  /** Empty until the reader sets one. There is no account to take it from. */
   name: string;
   /** ISO date string. Rendered as e.g. 'Joined March 2026'. */
   joinedAt: string;

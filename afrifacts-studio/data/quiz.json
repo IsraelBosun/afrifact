@@ -1,4 +1,660 @@
 {
+  "nf_0101": [
+    {
+      "id": "q_nf_0101_1",
+      "factId": "nf_0101",
+      "question": "How long did Samson Ajao read aloud to set the world record?",
+      "options": [
+        "124 hours",
+        "110 hours 46 minutes",
+        "215 hours 2 seconds",
+        "9 days exactly"
+      ],
+      "correctIndex": 2,
+      "explanation": "Samson Ajao's record-setting reading marathon lasted 215 hours and 2 seconds."
+    },
+    {
+      "id": "q_nf_0101_2",
+      "factId": "nf_0101",
+      "question": "Who held the previous record for the longest marathon reading aloud before Samson Ajao?",
+      "options": [
+        "An Englishman who recited Shakespeare",
+        "Rysbai Isakov of Kyrgyzstan",
+        "The Speaker of the Osun State House of Assembly",
+        "The state Education Commissioner"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rysbai Isakov of Kyrgyzstan set the previous record of 124 hours in 2022."
+    },
+    {
+      "id": "q_nf_0101_3",
+      "factId": "nf_0101",
+      "question": "According to the rules, how much rest time did Samson Ajao bank for every hour he read?",
+      "options": [
+        "30 seconds",
+        "2 hours",
+        "5 minutes",
+        "10 minutes"
+      ],
+      "correctIndex": 2,
+      "explanation": "The rules allowed him to bank five minutes of rest for every hour read, totaling two hours a day."
+    }
+  ],
+  "nf_0102": [
+    {
+      "id": "q_nf_0102_1",
+      "factId": "nf_0102",
+      "question": "How long did Tunde Onakoya and Shawn Martinez play chess to set the longest chess marathon record?",
+      "options": [
+        "48 hours",
+        "64 hours",
+        "72 hours",
+        "80 hours"
+      ],
+      "correctIndex": 1,
+      "explanation": "The certified time for the longest chess marathon was 64 hours."
+    },
+    {
+      "id": "q_nf_0102_2",
+      "factId": "nf_0102",
+      "question": "Where was the record-breaking chess marathon held?",
+      "options": [
+        "Lagos, Nigeria",
+        "New York City",
+        "London, UK",
+        "Paris, France"
+      ],
+      "correctIndex": 1,
+      "explanation": "The marathon took place in Times Square, New York City."
+    },
+    {
+      "id": "q_nf_0102_3",
+      "factId": "nf_0102",
+      "question": "How many games of chess did Onakoya and Martinez complete during their marathon?",
+      "options": [
+        "373",
+        "473",
+        "573",
+        "673"
+      ],
+      "correctIndex": 1,
+      "explanation": "They completed 473 games during the 64-hour marathon."
+    }
+  ],
+  "nf_0103": [
+    {
+      "id": "q_nf_0103_1",
+      "factId": "nf_0103",
+      "question": "What is the title of Kanyeyachukwu Tagbo-Okeke's record-breaking painting?",
+      "options": [
+        "Impossibility is a Myth",
+        "The Infinity Symbol",
+        "Flame of Peace",
+        "Art Vancouver Catalogue"
+      ],
+      "correctIndex": 0,
+      "explanation": "The painting is titled 'Impossibility is a Myth', and at its heart is the infinity symbol representing the potential of people on the spectrum."
+    },
+    {
+      "id": "q_nf_0103_2",
+      "factId": "nf_0103",
+      "question": "When was the painting publicly revealed?",
+      "options": [
+        "24 November 2024",
+        "2 April 2025",
+        "8 years old",
+        "2019"
+      ],
+      "correctIndex": 1,
+      "explanation": "The public reveal was held on 2 April 2025, World Autism Day, to ensure the painting carried its message."
+    },
+    {
+      "id": "q_nf_0103_3",
+      "factId": "nf_0103",
+      "question": "Which organisation did the record attempt raise funds for?",
+      "options": [
+        "Terra Kulture Art Gallery",
+        "The Zeebah Foundation",
+        "Art Vancouver",
+        "Flame of Peace"
+      ],
+      "correctIndex": 1,
+      "explanation": "The attempt doubled as a fundraiser for The Zeebah Foundation, an Abuja group supporting people on the spectrum and their families."
+    }
+  ],
+  "nf_0104": [
+    {
+      "id": "q_nf_0104_1",
+      "factId": "nf_0104",
+      "question": "What was the previous record for the most fast food restaurants visited in 24 hours, which Nwana beat?",
+      "options": [
+        "100",
+        "150",
+        "75",
+        "50"
+      ],
+      "correctIndex": 0,
+      "explanation": "The previous record was 100, set by American YouTuber Airrack."
+    },
+    {
+      "id": "q_nf_0104_2",
+      "factId": "nf_0104",
+      "question": "Where did Nwana start his record-breaking route?",
+      "options": [
+        "A Chicken Republic in Gwarinpa",
+        "A Kilimanjaro in the city centre",
+        "A McDonald's in Abuja",
+        "A local eatery in New York City"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nwana started at a Chicken Republic in the residential district of Gwarinpa."
+    },
+    {
+      "id": "q_nf_0104_3",
+      "factId": "nf_0104",
+      "question": "What were Nwana's favourite foods during the attempt?",
+      "options": [
+        "Burgers and pizza",
+        "Moin moin and àmàlà",
+        "Chicken and chips",
+        "Jollof rice and plantain"
+      ],
+      "correctIndex": 1,
+      "explanation": "His favourites were not the burgers and pizza but moin moin and àmàlà."
+    }
+  ],
+  "nf_0105": [
+    {
+      "id": "q_nf_0105_1",
+      "factId": "nf_0105",
+      "question": "How much jollof rice did Hilda Baci and the brand Gino cook in a single gigantic pot?",
+      "options": [
+        "4,000 kg",
+        "8,780 kg",
+        "1,200 kg",
+        "16,600 kg"
+      ],
+      "correctIndex": 1,
+      "explanation": "The event produced 8,780 kg of jollof rice, which was shared out as more than 16,600 portions."
+    },
+    {
+      "id": "q_nf_0105_2",
+      "factId": "nf_0105",
+      "question": "According to the rules, what minimum percentage of the total weight had to be rice?",
+      "options": [
+        "50%",
+        "60%",
+        "80%",
+        "100%"
+      ],
+      "correctIndex": 2,
+      "explanation": "The rules specified that rice had to make up at least 80% of the total weight of the dish."
+    },
+    {
+      "id": "q_nf_0105_3",
+      "factId": "nf_0105",
+      "question": "What did Hilda Baci achieve in May 2023 that caused the Guinness website to crash?",
+      "options": [
+        "Cooking 8,780 kg of jollof rice",
+        "Cooking for 93 hours and 11 minutes",
+        "Serving over 16,600 portions",
+        "Using 1,200 kg of gas"
+      ],
+      "correctIndex": 1,
+      "explanation": "In May 2023, Baci cooked for 93 hours and 11 minutes, and so many people rushed to the Guinness website that it crashed."
+    }
+  ],
+  "nf_0106": [
+    {
+      "id": "q_nf_0106_1",
+      "factId": "nf_0106",
+      "question": "What name does Ibitoye Kingfahd perform under?",
+      "options": [
+        "Faddothegreat",
+        "Kingfahd the Great",
+        "Ibitoye Magic",
+        "Lagos Illusionist"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ibitoye Kingfahd performs as Faddothegreat."
+    },
+    {
+      "id": "q_nf_0106_2",
+      "factId": "nf_0106",
+      "question": "How long did the magic show in Lagos last?",
+      "options": [
+        "24 hours",
+        "50 hours",
+        "72 hours",
+        "100 hours"
+      ],
+      "correctIndex": 1,
+      "explanation": "The show ran for 50 hours, from 27 to 29 November 2025."
+    },
+    {
+      "id": "q_nf_0106_3",
+      "factId": "nf_0106",
+      "question": "According to the article, what was Ibitoye Kingfahd's stated reason for the marathon magic show?",
+      "options": [
+        "To set an endurance record",
+        "To raise money for charity",
+        "To challenge a misconception about magic",
+        "To promote tourism in Lagos"
+      ],
+      "correctIndex": 2,
+      "explanation": "He aimed to challenge the widespread misconception about magic in Nigeria and across Africa."
+    }
+  ],
+  "nf_0107": [
+    {
+      "id": "q_nf_0107_1",
+      "factId": "nf_0107",
+      "question": "What record does Favour Ogechi Ani hold?",
+      "options": [
+        "The highest number counted out loud",
+        "The longest live YouTube broadcast",
+        "The fastest time to count to one million",
+        "The most consecutive days spent counting"
+      ],
+      "correctIndex": 0,
+      "explanation": "Favour Ogechi Ani holds the record for the highest number counted out loud, reaching 1,070,000."
+    },
+    {
+      "id": "q_nf_0107_2",
+      "factId": "nf_0107",
+      "question": "How many days did Favour Ogechi Ani's count take?",
+      "options": [
+        "70 days",
+        "16 days",
+        "8 days",
+        "1,070,000 days"
+      ],
+      "correctIndex": 0,
+      "explanation": "Her count ran over 70 consecutive days as a series of live broadcasts."
+    },
+    {
+      "id": "q_nf_0107_3",
+      "factId": "nf_0107",
+      "question": "Why was the count broadcast live on YouTube?",
+      "options": [
+        "To make the feat checkable and certifiable as a record",
+        "To earn money from advertising during the broadcasts",
+        "To allow viewers to count along in real time",
+        "To set a second record for the longest live stream"
+      ],
+      "correctIndex": 0,
+      "explanation": "A public stream can be reviewed afterwards, which turns a feat nobody could watch into a record somebody can certify."
+    }
+  ],
+  "nf_0108": [
+    {
+      "id": "q_nf_0108_1",
+      "factId": "nf_0108",
+      "question": "What did Helen Williams use as the base for the wig's underlay?",
+      "options": [
+        "A bicycle helmet",
+        "A mannequin head",
+        "A wooden frame",
+        "A metal stand"
+      ],
+      "correctIndex": 0,
+      "explanation": "The underlay was built from wig-cap netting and black fabric attached to a bicycle helmet."
+    },
+    {
+      "id": "q_nf_0108_2",
+      "factId": "nf_0108",
+      "question": "How many hair clips were used to hold the wig together?",
+      "options": [
+        "1,000",
+        "6,250",
+        "12",
+        "35"
+      ],
+      "correctIndex": 1,
+      "explanation": "The wig was finished with 6,250 hair clips, along with 1,000 bundles of hair, 12 cans of hair spray, and 35 tubes of hair glue."
+    },
+    {
+      "id": "q_nf_0108_3",
+      "factId": "nf_0108",
+      "question": "Where did Helen Williams measure the wig?",
+      "options": [
+        "On a running track",
+        "In her office",
+        "Beside the Lagos to Abeokuta Expressway",
+        "At a local stadium"
+      ],
+      "correctIndex": 2,
+      "explanation": "After finding that no venue, including several running tracks, was long enough, she measured the wig beside the Lagos to Abeokuta Expressway."
+    }
+  ],
+  "nf_0109": [
+    {
+      "id": "q_nf_0109_1",
+      "factId": "nf_0109",
+      "question": "How tall was the wig Helen Williams wore in Lagos on 27 September 2025?",
+      "options": [
+        "3.65 m",
+        "15.37 m",
+        "351.28 m",
+        "250 m"
+      ],
+      "correctIndex": 1,
+      "explanation": "The wig stood 15.37 m off the top of her head, making it taller than a three-storey building."
+    },
+    {
+      "id": "q_nf_0109_2",
+      "factId": "nf_0109",
+      "question": "What did Helen Williams say was the real problem when her first attempt at the tallest wig failed?",
+      "options": [
+        "The hair was too short",
+        "The internal structure did not hold",
+        "She ran out of string hair",
+        "The cost was too high"
+      ],
+      "correctIndex": 1,
+      "explanation": "Williams explained that even with years of wig-making experience, the record fails if the internal structure does not hold."
+    },
+    {
+      "id": "q_nf_0109_3",
+      "factId": "nf_0109",
+      "question": "How long did the finished tallest wig take to make?",
+      "options": [
+        "Two days",
+        "Two weeks",
+        "Two months",
+        "Two years"
+      ],
+      "correctIndex": 1,
+      "explanation": "The finished wig took two weeks, used 250 bundles of string hair, and cost over 3 million naira."
+    }
+  ],
+  "nf_0110": [
+    {
+      "id": "q_nf_0110_1",
+      "factId": "nf_0110",
+      "question": "Where did Abidemi Praise Omopariola set the record for the longest marathon drawing portraits?",
+      "options": [
+        "Sunderland",
+        "Lagos",
+        "Abuja",
+        "London"
+      ],
+      "correctIndex": 0,
+      "explanation": "She set the record in Sunderland, in the United Kingdom."
+    },
+    {
+      "id": "q_nf_0110_2",
+      "factId": "nf_0110",
+      "question": "How long did Abidemi Praise Omopariola draw portraits without stopping?",
+      "options": [
+        "72 hours",
+        "90 hours",
+        "100 hours",
+        "80 hours"
+      ],
+      "correctIndex": 1,
+      "explanation": "She drew portraits for 90 hours without stopping."
+    },
+    {
+      "id": "q_nf_0110_3",
+      "factId": "nf_0110",
+      "question": "Why did Abidemi Praise Omopariola attempt the record?",
+      "options": [
+        "To challenge herself",
+        "To raise money for charity",
+        "To promote Nigerian art",
+        "To break a friend's record"
+      ],
+      "correctIndex": 0,
+      "explanation": "She wanted the record in order to challenge herself."
+    }
+  ],
+  "nf_0111": [
+    {
+      "id": "q_nf_0111_1",
+      "factId": "nf_0111",
+      "question": "Where did Symply Tacha set up her makeup station for the record attempt?",
+      "options": [
+        "Abuja",
+        "Lagos",
+        "Accra",
+        "Nairobi"
+      ],
+      "correctIndex": 1,
+      "explanation": "Symply Tacha set up her makeup station in Lagos on 11 October 2025, behind a glass wall so passers-by could watch."
+    },
+    {
+      "id": "q_nf_0111_2",
+      "factId": "nf_0111",
+      "question": "How many makeovers had Symply Tacha completed in the first 8 hours?",
+      "options": [
+        "62",
+        "72",
+        "82",
+        "92"
+      ],
+      "correctIndex": 2,
+      "explanation": "She did 82 makeovers in the first 8 hours before continuing for the rest of the day to reach 144."
+    },
+    {
+      "id": "q_nf_0111_3",
+      "factId": "nf_0111",
+      "question": "Who held the previous record for the most cosmetic makeovers in 24 hours that Symply Tacha beat?",
+      "options": [
+        "Mary Yongai",
+        "Anita Akide",
+        "Symply Tacha",
+        "A Lagos model"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mary Yongai of Sierra Leone held the previous record, which Symply Tacha beat by more than 30 makeovers."
+    }
+  ],
+  "nf_0112": [
+    {
+      "id": "q_nf_0112_1",
+      "factId": "nf_0112",
+      "question": "Where did the longest dance marathon relay take place?",
+      "options": [
+        "Abuja",
+        "Lagos",
+        "Kano",
+        "Ibadan"
+      ],
+      "correctIndex": 1,
+      "explanation": "The record was set in Lagos on 6 April 2019."
+    },
+    {
+      "id": "q_nf_0112_2",
+      "factId": "nf_0112",
+      "question": "How many dancers were on the team that set the record?",
+      "options": [
+        "Fifteen",
+        "Sixteen",
+        "Seventeen",
+        "Eighteen"
+      ],
+      "correctIndex": 2,
+      "explanation": "The team consisted of seventeen dancers, all named by Guinness."
+    },
+    {
+      "id": "q_nf_0112_3",
+      "factId": "nf_0112",
+      "question": "Why does Guinness name every member of the team instead of a single holder?",
+      "options": [
+        "Because the team danced in turns, so the record belongs to the team",
+        "Because the team members all danced simultaneously",
+        "Because the record was set by a single dancer",
+        "Because Guinness requires all participants to be listed"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a relay, the record belongs to the team rather than to any one dancer."
+    }
+  ],
+  "nf_0113": [
+    {
+      "id": "q_nf_0113_1",
+      "factId": "nf_0113",
+      "question": "According to the article, what share of Africa's population did Nigeria account for as of 2017?",
+      "options": [
+        "About 17%",
+        "About 25%",
+        "About 10%",
+        "About 33%"
+      ],
+      "correctIndex": 0,
+      "explanation": "As of 2017, Nigeria accounted for about 17% of everyone living on the African continent."
+    },
+    {
+      "id": "q_nf_0113_2",
+      "factId": "nf_0113",
+      "question": "Which city does the article identify as the largest in Africa?",
+      "options": [
+        "Kano",
+        "Ibadan",
+        "Lagos",
+        "Port Harcourt"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lagos is described as the largest city in Africa, with over 12 million people in its urban area."
+    },
+    {
+      "id": "q_nf_0113_3",
+      "factId": "nf_0113",
+      "question": "What did Citigroup project in 2011 about Nigeria's economy between 2010 and 2050?",
+      "options": [
+        "It would have the highest average GDP growth in the world",
+        "It would have the lowest average GDP growth in Africa",
+        "It would overtake South Africa in total GDP",
+        "It would double its population"
+      ],
+      "correctIndex": 0,
+      "explanation": "In 2011 Citigroup projected that Nigeria would have the highest average GDP growth in the world between 2010 and 2050."
+    }
+  ],
+  "nf_0114": [
+    {
+      "id": "q_nf_0114_1",
+      "factId": "nf_0114",
+      "question": "What percentage of all sickle cell disease cases in the world occur in sub-Saharan Africa?",
+      "options": [
+        "About 40%",
+        "About 60%",
+        "About 80%",
+        "About 95%"
+      ],
+      "correctIndex": 2,
+      "explanation": "The article states that about 80% of all cases in the world are in sub-Saharan Africa."
+    },
+    {
+      "id": "q_nf_0114_2",
+      "factId": "nf_0114",
+      "question": "In what year was it established that carriers of the abnormal gene are protected to some degree against malaria?",
+      "options": [
+        "1924",
+        "1954",
+        "1974",
+        "1994"
+      ],
+      "correctIndex": 1,
+      "explanation": "The article says that in 1954 it was established that carriers of the abnormal gene are protected to some degree against malaria."
+    },
+    {
+      "id": "q_nf_0114_3",
+      "factId": "nf_0114",
+      "question": "What is the carrier frequency of the sickle cell gene across equatorial Africa?",
+      "options": [
+        "1 to 2%",
+        "Under 1%",
+        "10 to 40%",
+        "50 to 60%"
+      ],
+      "correctIndex": 2,
+      "explanation": "The article states that carrier frequency ranges between 10 and 40% across equatorial Africa."
+    }
+  ],
+  "nf_0115": [
+    {
+      "id": "q_nf_0115_1",
+      "factId": "nf_0115",
+      "question": "What percentage of people in Nigeria carry the sickle cell gene?",
+      "options": [
+        "15%",
+        "24%",
+        "30%",
+        "2%"
+      ],
+      "correctIndex": 1,
+      "explanation": "In Nigeria, 24% of the population carries the sickle cell gene."
+    },
+    {
+      "id": "q_nf_0115_2",
+      "factId": "nf_0115",
+      "question": "Approximately how many babies are born with sickle cell disease in Nigeria each year?",
+      "options": [
+        "100,000",
+        "150,000",
+        "20,000",
+        "50,000"
+      ],
+      "correctIndex": 1,
+      "explanation": "About 150,000 babies are born with sickle cell disease in Nigeria every year."
+    },
+    {
+      "id": "q_nf_0115_3",
+      "factId": "nf_0115",
+      "question": "According to the article, what share of the world's sickle cell cases occur in Africa?",
+      "options": [
+        "One-quarter",
+        "One-half",
+        "Three-quarters",
+        "Two-thirds"
+      ],
+      "correctIndex": 2,
+      "explanation": "Three-quarters of sickle cell cases in the world occur in Africa."
+    }
+  ],
+  "nf_0116": [
+    {
+      "id": "q_nf_0116_1",
+      "factId": "nf_0116",
+      "question": "Who named Port Harcourt in August 1913?",
+      "options": [
+        "Sir Frederick Lugard",
+        "Lewis Harcourt",
+        "Asquith",
+        "A local Ikwerre chief"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sir Frederick Lugard, the Governor of Nigeria, named the port in August 1913."
+    },
+    {
+      "id": "q_nf_0116_2",
+      "factId": "nf_0116",
+      "question": "Why did Lugard ask to name the port after Harcourt?",
+      "options": [
+        "Because Harcourt had visited the site",
+        "Because there was no convenient local name",
+        "Because Harcourt had funded the railway",
+        "Because the local people requested it"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lugard wrote that in the absence of any convenient local name, he would ask permission to call it Port Harcourt."
+    },
+    {
+      "id": "q_nf_0116_3",
+      "factId": "nf_0116",
+      "question": "What was the older name of the place where Port Harcourt stands?",
+      "options": [
+        "Enugu",
+        "Rivers",
+        "Rebisi",
+        "Eastern Line"
+      ],
+      "correctIndex": 2,
+      "explanation": "The article records that the place was not nameless and had the older name Rebisi."
+    }
+  ],
   "nf_1001": [
     {
       "id": "q_nf_1001_1",
@@ -2094,41 +2750,41 @@
     {
       "id": "q_nf_1053_1",
       "factId": "nf_1053",
-      "question": "Where was Umaru Dikko found in July 1984?",
+      "question": "Who led the Nigerian security service agents who travelled to London in June 1984?",
       "options": [
-        "Lagos Airport",
-        "Stansted Airport",
-        "Heathrow Airport",
-        "London City Airport"
+        "Mohammed Yusufu",
+        "Alexander Barak",
+        "Levi-Arie Shapiro",
+        "Umaru Dikko"
       ],
-      "correctIndex": 1,
-      "explanation": "The article states that British police at Stansted Airport opened a crate and found Dikko inside."
+      "correctIndex": 0,
+      "explanation": "The article states that the agents were led by the ex-Nigerian Army major Mohammed Yusufu."
     },
     {
       "id": "q_nf_1053_2",
       "factId": "nf_1053",
-      "question": "What was the crate containing Dikko labeled as?",
+      "question": "What was Levi-Arie Shapiro's role in the kidnapping plot?",
       "options": [
-        "Medical supplies",
-        "Diplomatic baggage",
-        "Personal effects",
-        "Commercial goods"
+        "He drove the getaway car.",
+        "He was recruited to drug Dikko and insert a tube to stop him choking.",
+        "He posed as a refugee from the new regime.",
+        "He labelled the crates as diplomatic bags."
       ],
       "correctIndex": 1,
-      "explanation": "The crate was labeled as diplomatic baggage, but it was not marked properly or accompanied by required paperwork."
+      "explanation": "Shapiro, an Israeli doctor who ran an intensive care unit, was recruited to drug Dikko and insert a tube that would stop him choking while he was carried in a crate."
     },
     {
       "id": "q_nf_1053_3",
       "factId": "nf_1053",
-      "question": "What had the Nigerian government accused Dikko of?",
+      "question": "Why were customs officers at Stansted able to open the crates without breaching the Vienna Convention?",
       "options": [
-        "Espionage",
-        "Embezzling millions of dollars from oil revenues",
-        "Treason",
-        "Drug trafficking"
+        "The crates were not labelled as diplomatic bags as Article 27(4) requires.",
+        "The crates were labelled as diplomatic bags but the officers ignored the convention.",
+        "The crates were opened because Dikko's secretary raised the alarm.",
+        "The crates were opened because the Israeli government denied involvement."
       ],
-      "correctIndex": 1,
-      "explanation": "The article says the Nigerian government accused Dikko of embezzling millions of dollars from oil revenues."
+      "correctIndex": 0,
+      "explanation": "The crates were not labelled as diplomatic bags in the way Article 27(4) of the 1961 Vienna Convention on Diplomatic Relations requires, so customs officers could open them without breaching the convention."
     }
   ],
   "nf_1054": [

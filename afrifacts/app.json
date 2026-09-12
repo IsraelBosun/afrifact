@@ -28,6 +28,7 @@
     },
     "plugins": [
       "expo-router",
+      "expo-audio",
       [
         "expo-notifications",
         {
@@ -46,7 +47,8 @@
             "backgroundColor": "#0E100F"
           }
         }
-      ]
+      ],
+      "expo-audio"
     ],
     "experiments": {
       "typedRoutes": true,

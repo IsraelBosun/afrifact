@@ -127,6 +127,20 @@ const NAMED = [
       'cbn.gov.ng', 'nigerianstat.gov.ng', 'nnpcgroup.com', 'nbs.gov.ng',
       'archive.org', 'openlibrary.org', 'gutenberg.org', 'hathitrust.org',
       'worldhistory.org', 'britannica.com',
+      /*
+        Guinness World Records is institutional for the thing it
+        adjudicates and nothing else. On 'who holds this record' it is
+        not relaying a figure from elsewhere, it is the body that issued
+        it, which is the same standing nigerianstat.gov.ng has on a
+        population count. That is what lifts it above 'reference' and
+        clears the corroboration warning honestly.
+
+        The limit is worth knowing: a GWR page also carries history and
+        colour around the record, and on that material it is a reference
+        work like any other. The tier is per host, so it cannot express
+        the distinction. A reviewer can.
+      */
+      'guinnessworldrecords.com',
     ],
   },
   {
@@ -162,6 +176,31 @@ export function hostOf(value) {
 /** @param {string} host @param {string} name */
 function isHost(host, name) {
   return host === name || host.endsWith(`.${name}`);
+}
+
+/**
+ * Is this URL one adjudicated record rather than an article?
+ *
+ * Deliberately narrow. It matches the record pages of a record keeper,
+ * not the whole host. guinnessworldrecords.com also publishes ordinary
+ * news and feature articles, and those are articles in every sense that
+ * matters here: long enough for the article gates, and full of the page
+ * furniture the record profile is built to cut.
+ *
+ * The answer is stored on the source at the moment it is added, never
+ * consulted again at fetch time. See the note in `addSource`.
+ *
+ * @param {string} url
+ * @returns {boolean}
+ */
+export function isRecordPage(url) {
+  const host = hostOf(url);
+  if (host !== 'guinnessworldrecords.com') return false;
+  try {
+    return new URL(url).pathname.toLowerCase().startsWith('/world-records/');
+  } catch {
+    return false;
+  }
 }
 
 /**

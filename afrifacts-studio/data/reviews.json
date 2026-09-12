@@ -276,9 +276,9 @@
   },
   "nf_1053": {
     "status": "approved",
-    "reviewer": "Israel Bosun",
-    "reviewedAt": "2026-09-01",
-    "notes": "Bulk approved without individual review."
+    "reviewer": "Israel Posi Olatunbosun",
+    "reviewedAt": "2026-09-12",
+    "notes": "Claim replaced on 12 Sep with the Israeli-operative angle from the Dikko affair article, re-verified clean, and re-stamped by editFact. The old note said bulk approved without individual review; this one still wants a read on /review."
   },
   "nf_1054": {
     "status": "approved",
@@ -436,12 +436,6 @@
     "reviewedAt": "2026-09-01",
     "notes": "Bulk approved without individual review."
   },
-  "nf_1097": {
-    "status": "approved",
-    "reviewer": "Israel Bosun",
-    "reviewedAt": "2026-09-01",
-    "notes": "Bulk approved without individual review."
-  },
   "nf_1099": {
     "status": "approved",
     "reviewer": "Israel Bosun",
@@ -467,12 +461,6 @@
     "notes": "Bulk approved without individual review."
   },
   "nf_1104": {
-    "status": "approved",
-    "reviewer": "Israel Bosun",
-    "reviewedAt": "2026-09-01",
-    "notes": "Bulk approved without individual review."
-  },
-  "nf_1105": {
     "status": "approved",
     "reviewer": "Israel Bosun",
     "reviewedAt": "2026-09-01",
@@ -557,18 +545,6 @@
     "notes": "Bulk approved without individual review."
   },
   "nf_1121": {
-    "status": "approved",
-    "reviewer": "Israel Bosun",
-    "reviewedAt": "2026-09-01",
-    "notes": "Bulk approved without individual review."
-  },
-  "nf_1124": {
-    "status": "approved",
-    "reviewer": "Israel Bosun",
-    "reviewedAt": "2026-09-01",
-    "notes": "Bulk approved without individual review."
-  },
-  "nf_1126": {
     "status": "approved",
     "reviewer": "Israel Bosun",
     "reviewedAt": "2026-09-01",
@@ -677,5 +653,101 @@
     "reviewer": "pipeline",
     "reviewedAt": "2026-09-05",
     "notes": "Approved on arrival from the pipeline."
+  },
+  "nf_0101": {
+    "status": "approved",
+    "reviewer": "Israel Posi Olatunbosun",
+    "reviewedAt": "2026-09-12",
+    "notes": "Re-approved after the 12 Sep rewrite: every fact line and deep dive was rewritten in the Records house voice. Passages, sources and figures unchanged and re-verified against the cache. Volatile, recheck by 2027-03-10."
+  },
+  "nf_0102": {
+    "status": "approved",
+    "reviewer": "Israel Posi Olatunbosun",
+    "reviewedAt": "2026-09-12",
+    "notes": "Re-approved after the 12 Sep rewrite: every fact line and deep dive was rewritten in the Records house voice. Passages, sources and figures unchanged and re-verified against the cache. Volatile, recheck by 2027-03-10."
+  },
+  "nf_0103": {
+    "status": "approved",
+    "reviewer": "Israel Posi Olatunbosun",
+    "reviewedAt": "2026-09-12",
+    "notes": "Re-approved after the 12 Sep rewrite: every fact line and deep dive was rewritten in the Records house voice. Passages, sources and figures unchanged and re-verified against the cache. Volatile, recheck by 2027-03-10."
+  },
+  "nf_0104": {
+    "status": "approved",
+    "reviewer": "Israel Posi Olatunbosun",
+    "reviewedAt": "2026-09-12",
+    "notes": "Re-approved after the 12 Sep rewrite: every fact line and deep dive was rewritten in the Records house voice. Passages, sources and figures unchanged and re-verified against the cache. Volatile, recheck by 2027-03-10."
+  },
+  "nf_0105": {
+    "status": "approved",
+    "reviewer": "Israel Posi Olatunbosun",
+    "reviewedAt": "2026-09-12",
+    "notes": "Re-approved after the 12 Sep rewrite: every fact line and deep dive was rewritten in the Records house voice. Passages, sources and figures unchanged and re-verified against the cache. Volatile, recheck by 2027-03-10."
+  },
+  "nf_0106": {
+    "status": "approved",
+    "reviewer": "Israel Posi Olatunbosun",
+    "reviewedAt": "2026-09-12",
+    "notes": "Re-approved after the 12 Sep rewrite: every fact line and deep dive was rewritten in the Records house voice. Passages, sources and figures unchanged and re-verified against the cache. Volatile, recheck by 2027-03-10."
+  },
+  "nf_0107": {
+    "status": "approved",
+    "reviewer": "Israel Posi Olatunbosun",
+    "reviewedAt": "2026-09-12",
+    "notes": "Re-approved after the 12 Sep rewrite: every fact line and deep dive was rewritten in the Records house voice. Passages, sources and figures unchanged and re-verified against the cache. Volatile, recheck by 2027-03-10."
+  },
+  "nf_0108": {
+    "status": "approved",
+    "reviewer": "Israel Posi Olatunbosun",
+    "reviewedAt": "2026-09-12",
+    "notes": "Re-approved after the 12 Sep rewrite: every fact line and deep dive was rewritten in the Records house voice. Passages, sources and figures unchanged and re-verified against the cache. Volatile, recheck by 2027-03-10."
+  },
+  "nf_0109": {
+    "status": "approved",
+    "reviewer": "Israel Posi Olatunbosun",
+    "reviewedAt": "2026-09-12",
+    "notes": "Re-approved after the 12 Sep rewrite: every fact line and deep dive was rewritten in the Records house voice. Passages, sources and figures unchanged and re-verified against the cache. Volatile, recheck by 2027-03-10."
+  },
+  "nf_0110": {
+    "status": "approved",
+    "reviewer": "Israel Posi Olatunbosun",
+    "reviewedAt": "2026-09-12",
+    "notes": "Re-approved after the 12 Sep rewrite: every fact line and deep dive was rewritten in the Records house voice. Passages, sources and figures unchanged and re-verified against the cache. Volatile, recheck by 2027-03-10."
+  },
+  "nf_0111": {
+    "status": "approved",
+    "reviewer": "Israel Posi Olatunbosun",
+    "reviewedAt": "2026-09-12",
+    "notes": "Re-approved after the 12 Sep rewrite: every fact line and deep dive was rewritten in the Records house voice. Passages, sources and figures unchanged and re-verified against the cache. Volatile, recheck by 2027-03-10."
+  },
+  "nf_0112": {
+    "status": "approved",
+    "reviewer": "Israel Posi Olatunbosun",
+    "reviewedAt": "2026-09-12",
+    "notes": "Re-approved after the 12 Sep rewrite: every fact line and deep dive was rewritten in the Records house voice. Passages, sources and figures unchanged and re-verified against the cache. Volatile, recheck by 2027-03-10."
+  },
+  "nf_0113": {
+    "status": "approved",
+    "reviewer": "Israel Posi Olatunbosun",
+    "reviewedAt": "2026-09-12",
+    "notes": "Approved on the instruction to load the shortlist. Written by hand, then sourced: passage located in the cached document and re-verified. Needs a read on /review."
+  },
+  "nf_0114": {
+    "status": "approved",
+    "reviewer": "Israel Posi Olatunbosun",
+    "reviewedAt": "2026-09-12",
+    "notes": "Approved on the instruction to load the shortlist. Written by hand, then sourced: passage located in the cached document and re-verified. Needs a read on /review."
+  },
+  "nf_0115": {
+    "status": "approved",
+    "reviewer": "Israel Posi Olatunbosun",
+    "reviewedAt": "2026-09-12",
+    "notes": "Approved on the instruction to load the shortlist. Written by hand, then sourced: passage located in the cached document and re-verified. Needs a read on /review."
+  },
+  "nf_0116": {
+    "status": "approved",
+    "reviewer": "Israel Posi Olatunbosun",
+    "reviewedAt": "2026-09-12",
+    "notes": "Approved on the instruction to load the shortlist. Written by hand, then sourced: passage located in the cached document and re-verified. Needs a read on /review."
   }
 }

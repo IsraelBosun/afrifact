@@ -23,8 +23,9 @@ import { useCallback, useEffect, useState } from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import 'react-native-reanimated';
 
-import { getFactPool, loadCorpus } from '@/src/data';
+import { getFactPool, loadCorpus, loadProgress } from '@/src/data';
 import { loadNotificationSetting, noteAppOpen, syncNotifications } from '@/src/notifications';
+import { loadQuizLength } from '@/src/quiz/length';
 import {
   AppThemeProvider,
   brandGreen,
@@ -144,7 +145,12 @@ function RootLayoutNav() {
           Deliberately not awaited by the splash: 28 scheduling calls
           should never stand between someone and their first fact.
         */
-        await Promise.all([loadNotificationSetting(), noteAppOpen()]);
+        await Promise.all([
+        loadNotificationSetting(),
+        noteAppOpen(),
+        loadProgress(),
+        loadQuizLength(),
+      ]);
         void syncNotifications(getFactPool()).catch(() => {
           // Permission revoked, or the OS refused. `syncNotifications`
           // has already switched the setting off to match.
@@ -235,9 +241,16 @@ function RootLayoutNav() {
       <Stack screenOptions={{ headerShown: false }}>
         <Stack.Screen name="(tabs)" />
         <Stack.Screen name="fact/[id]" />
+        <Stack.Screen name="quiz/challenge" />
         <Stack.Screen name="quiz/play" />
         <Stack.Screen name="quiz/score" />
         <Stack.Screen name="settings" />
+        {/* Drops from the top over the feed, so the keyboard it opens with
+            covers the scrim rather than the results. */}
+        <Stack.Screen
+          name="search"
+          options={{ presentation: 'transparentModal', animation: 'fade' }}
+        />
         {/* The picker is a bottom sheet over the feed, never a gate in front of it. */}
         <Stack.Screen
           name="country"

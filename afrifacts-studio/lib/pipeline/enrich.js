@@ -341,7 +341,14 @@ export async function runEnrich(options = {}, onProgress) {
   const say = onProgress ?? (() => {});
   const { signal } = options;
 
-  const candidates = JSON.parse(await readFile(CANDIDATES_PATH, 'utf8'));
+  const everything = JSON.parse(await readFile(CANDIDATES_PATH, 'utf8'));
+
+  // Narrowed to one article when the caller named it, for the same
+  // reason fetch and extract are. A one-article run must not enrich
+  // every candidate sitting in the file from every previous run.
+  const slugs = options.slugs ?? [];
+  const candidates = slugs.length ? everything.filter((c) => slugs.includes(c.slug)) : everything;
+
   const keeps = options.all ? null : await loadKeeps();
 
   const wanted = keeps ? candidates.filter((c) => keeps.has(keyOf(c))) : candidates;

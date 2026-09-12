@@ -33,6 +33,11 @@ export function ScoreShareCard({
   results: boolean[];
   streak: number;
 }) {
+  // The card is a fixed 1080 wide, so twenty marks in a fixed-size row
+  // would run past its edge. They shrink and wrap instead, which keeps the
+  // export identical in shape to the score screen it mirrors.
+  const markSize = results.length <= 5 ? 38 : results.length <= 10 ? 30 : 22;
+
   const family = categoryColors.Culture;
 
   return (
@@ -64,11 +69,16 @@ export function ScoreShareCard({
               key={i}
               style={[
                 styles.mark,
-                { backgroundColor: correct ? family.mid : 'rgba(255,255,255,0.12)' },
+                {
+                  width: markSize,
+                  height: markSize,
+                  borderRadius: markSize / 2,
+                  backgroundColor: correct ? family.mid : 'rgba(255,255,255,0.12)',
+                },
               ]}>
               <Ionicons
                 name={correct ? 'checkmark' : 'close'}
-                size={17}
+                size={Math.round(markSize * 0.45)}
                 color={correct ? '#FFFFFF' : family.light}
               />
             </View>
@@ -112,8 +122,14 @@ const styles = StyleSheet.create({
   middle: { alignItems: 'center', gap: spacing.md },
   score: { fontFamily: fonts.serifMedium, fontSize: 96, lineHeight: 106, letterSpacing: -3 },
   title: { fontFamily: fonts.serif, fontSize: 24, lineHeight: 32, textAlign: 'center' },
-  marks: { flexDirection: 'row', gap: spacing.sm, marginTop: spacing.md },
-  mark: { width: 38, height: 38, borderRadius: 19, alignItems: 'center', justifyContent: 'center' },
+  marks: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'center',
+    gap: spacing.sm,
+    marginTop: spacing.md,
+  },
+  mark: { alignItems: 'center', justifyContent: 'center' },
   bottom: { alignItems: 'center', gap: spacing.md },
   challenge: { fontFamily: fonts.serif, fontSize: 21, lineHeight: 28 },
   store: { flexDirection: 'row', alignItems: 'center', gap: 5 },

@@ -6,6 +6,7 @@
     "kind": "wikipedia",
     "url": "https://en.wikipedia.org/wiki/Olaudah_Equiano",
     "tier": "reference",
+    "profile": "article",
     "group": "People",
     "wanted": ""
   },
@@ -16,6 +17,7 @@
     "kind": "wikipedia",
     "url": "https://en.wikipedia.org/wiki/Lawrence_Anini",
     "tier": "reference",
+    "profile": "article",
     "group": "People",
     "wanted": ""
   },
@@ -26,6 +28,7 @@
     "kind": "wikipedia",
     "url": "https://en.wikipedia.org/wiki/Emmanuel_Nwude",
     "tier": "reference",
+    "profile": "article",
     "group": "People",
     "wanted": ""
   },
@@ -36,6 +39,7 @@
     "kind": "wikipedia",
     "url": "https://en.wikipedia.org/wiki/Umaru_Dikko",
     "tier": "reference",
+    "profile": "article",
     "group": "People",
     "wanted": ""
   },
@@ -46,6 +50,7 @@
     "kind": "wikipedia",
     "url": "https://en.wikipedia.org/wiki/Adebayo_Ogunlesi",
     "tier": "reference",
+    "profile": "article",
     "group": "People",
     "wanted": ""
   },
@@ -56,6 +61,7 @@
     "kind": "wikipedia",
     "url": "https://en.wikipedia.org/wiki/Celestine_Babayaro",
     "tier": "reference",
+    "profile": "article",
     "group": "People",
     "wanted": ""
   },
@@ -66,6 +72,7 @@
     "kind": "wikipedia",
     "url": "https://en.wikipedia.org/wiki/Wole_Soyinka",
     "tier": "reference",
+    "profile": "article",
     "group": "People",
     "wanted": ""
   },
@@ -76,6 +83,7 @@
     "kind": "wikipedia",
     "url": "https://en.wikipedia.org/wiki/Fela_Kuti",
     "tier": "reference",
+    "profile": "article",
     "group": "People",
     "wanted": ""
   },
@@ -86,6 +94,7 @@
     "kind": "wikipedia",
     "url": "https://en.wikipedia.org/wiki/Funmilayo_Ransome-Kuti",
     "tier": "reference",
+    "profile": "article",
     "group": "People",
     "wanted": ""
   },
@@ -96,6 +105,7 @@
     "kind": "wikipedia",
     "url": "https://en.wikipedia.org/wiki/Jelani_Aliyu",
     "tier": "reference",
+    "profile": "article",
     "group": "People",
     "wanted": ""
   },
@@ -106,6 +116,7 @@
     "kind": "wikipedia",
     "url": "https://en.wikipedia.org/wiki/Moshood_Abiola",
     "tier": "reference",
+    "profile": "article",
     "group": "People",
     "wanted": ""
   },
@@ -116,6 +127,7 @@
     "kind": "wikipedia",
     "url": "https://en.wikipedia.org/wiki/Obafemi_Awolowo",
     "tier": "reference",
+    "profile": "article",
     "group": "People",
     "wanted": ""
   },
@@ -126,6 +138,7 @@
     "kind": "wikipedia",
     "url": "https://en.wikipedia.org/wiki/Christian_Okoye",
     "tier": "reference",
+    "profile": "article",
     "group": "People",
     "wanted": ""
   },
@@ -136,6 +149,7 @@
     "kind": "wikipedia",
     "url": "https://en.wikipedia.org/wiki/Tobi_Amusan",
     "tier": "reference",
+    "profile": "article",
     "group": "People",
     "wanted": ""
   },
@@ -146,6 +160,7 @@
     "kind": "wikipedia",
     "url": "https://en.wikipedia.org/wiki/Chimamanda_Ngozi_Adichie",
     "tier": "reference",
+    "profile": "article",
     "group": "People",
     "wanted": ""
   },
@@ -156,6 +171,7 @@
     "kind": "wikipedia",
     "url": "https://en.wikipedia.org/wiki/Burna_Boy",
     "tier": "reference",
+    "profile": "article",
     "group": "People",
     "wanted": ""
   },
@@ -166,6 +182,7 @@
     "kind": "wikipedia",
     "url": "https://en.wikipedia.org/wiki/Igbo_Landing",
     "tier": "reference",
+    "profile": "article",
     "group": "Events that read like fiction",
     "wanted": ""
   },
@@ -176,6 +193,7 @@
     "kind": "wikipedia",
     "url": "https://en.wikipedia.org/wiki/Nigerian_Civil_War",
     "tier": "reference",
+    "profile": "article",
     "group": "Events that read like fiction",
     "wanted": ""
   },
@@ -186,6 +204,7 @@
     "kind": "wikipedia",
     "url": "https://en.wikipedia.org/wiki/Bar_Beach%2C_Lagos",
     "tier": "reference",
+    "profile": "article",
     "group": "Events that read like fiction",
     "wanted": ""
   },
@@ -196,6 +215,7 @@
     "kind": "wikipedia",
     "url": "https://en.wikipedia.org/wiki/FESTAC_77",
     "tier": "reference",
+    "profile": "article",
     "group": "Events that read like fiction",
     "wanted": ""
   },
@@ -206,6 +226,7 @@
     "kind": "wikipedia",
     "url": "https://en.wikipedia.org/wiki/Lekki",
     "tier": "reference",
+    "profile": "article",
     "group": "Places people live in and never wonder about",
     "wanted": ""
   },
@@ -216,6 +237,7 @@
     "kind": "wikipedia",
     "url": "https://en.wikipedia.org/wiki/Port_Harcourt",
     "tier": "reference",
+    "profile": "article",
     "group": "Places people live in and never wonder about",
     "wanted": ""
   },
@@ -226,6 +248,7 @@
     "kind": "wikipedia",
     "url": "https://en.wikipedia.org/wiki/Igbo-Ora",
     "tier": "reference",
+    "profile": "article",
     "group": "Places people live in and never wonder about",
     "wanted": ""
   },
@@ -236,6 +259,7 @@
     "kind": "wikipedia",
     "url": "https://en.wikipedia.org/wiki/Lagos",
     "tier": "reference",
+    "profile": "article",
     "group": "Places people live in and never wonder about",
     "wanted": ""
   },
@@ -246,6 +270,7 @@
     "kind": "wikipedia",
     "url": "https://en.wikipedia.org/wiki/Calabar",
     "tier": "reference",
+    "profile": "article",
     "group": "Places people live in and never wonder about",
     "wanted": ""
   },
@@ -256,6 +281,7 @@
     "kind": "wikipedia",
     "url": "https://en.wikipedia.org/wiki/Zuma_Rock",
     "tier": "reference",
+    "profile": "article",
     "group": "Places people live in and never wonder about",
     "wanted": ""
   },
@@ -266,6 +292,7 @@
     "kind": "wikipedia",
     "url": "https://en.wikipedia.org/wiki/Jollof_rice",
     "tier": "reference",
+    "profile": "article",
     "group": "Things in daily life with a story behind them",
     "wanted": ""
   },
@@ -276,6 +303,7 @@
     "kind": "wikipedia",
     "url": "https://en.wikipedia.org/wiki/Nollywood",
     "tier": "reference",
+    "profile": "article",
     "group": "Things in daily life with a story behind them",
     "wanted": ""
   },
@@ -286,6 +314,7 @@
     "kind": "wikipedia",
     "url": "https://en.wikipedia.org/wiki/Afrobeats",
     "tier": "reference",
+    "profile": "article",
     "group": "Things in daily life with a story behind them",
     "wanted": ""
   },
@@ -296,6 +325,7 @@
     "kind": "wikipedia",
     "url": "https://en.wikipedia.org/wiki/Agbada",
     "tier": "reference",
+    "profile": "article",
     "group": "Things in daily life with a story behind them",
     "wanted": ""
   },
@@ -306,6 +336,7 @@
     "kind": "wikipedia",
     "url": "https://en.wikipedia.org/wiki/Sickle_cell_disease",
     "tier": "reference",
+    "profile": "article",
     "group": "Things in daily life with a story behind them",
     "wanted": ""
   },
@@ -316,6 +347,7 @@
     "kind": "wikipedia",
     "url": "https://en.wikipedia.org/wiki/Nairaland",
     "tier": "reference",
+    "profile": "article",
     "group": "Things in daily life with a story behind them",
     "wanted": ""
   },
@@ -326,6 +358,7 @@
     "kind": "wikipedia",
     "url": "https://en.wikipedia.org/wiki/Danfo",
     "tier": "reference",
+    "profile": "article",
     "group": "Things in daily life with a story behind them",
     "wanted": ""
   },
@@ -336,6 +369,7 @@
     "kind": "wikipedia",
     "url": "https://en.wikipedia.org/wiki/Nigeria_national_football_team",
     "tier": "reference",
+    "profile": "article",
     "group": "Things in daily life with a story behind them",
     "wanted": ""
   },
@@ -346,6 +380,7 @@
     "kind": "wikipedia",
     "url": "https://en.wikipedia.org/wiki/Nigeria",
     "tier": "reference",
+    "profile": "article",
     "group": "",
     "wanted": ""
   },
@@ -356,6 +391,7 @@
     "kind": "wikipedia",
     "url": "https://en.wikipedia.org/wiki/List_of_tallest_buildings_in_Nigeria",
     "tier": "reference",
+    "profile": "article",
     "group": "",
     "wanted": ""
   },
@@ -366,6 +402,7 @@
     "kind": "wikipedia",
     "url": "https://en.wikipedia.org/wiki/History_of_science_and_technology_in_Africa",
     "tier": "reference",
+    "profile": "article",
     "group": "",
     "wanted": ""
   },
@@ -376,6 +413,7 @@
     "kind": "wikipedia",
     "url": "https://en.wikipedia.org/wiki/Yemi_Osinbajo",
     "tier": "reference",
+    "profile": "article",
     "group": "",
     "wanted": ""
   },
@@ -386,6 +424,7 @@
     "kind": "wikipedia",
     "url": "https://en.wikipedia.org/wiki/Laolu_Akande",
     "tier": "reference",
+    "profile": "article",
     "group": "",
     "wanted": ""
   },
@@ -396,7 +435,261 @@
     "kind": "web",
     "url": "https://www.africa-confidential.com/profile/id/3479/yemi-osinbajo",
     "tier": "reference",
+    "profile": "article",
     "group": "",
     "wanted": "yemi osibanjo and his wife are cousins"
+  },
+  {
+    "slug": "archive-publications-library-columbia",
+    "title": "archive publications.library.columbia.edu",
+    "country": "NG",
+    "kind": "web",
+    "url": "https://archive-publications.library.columbia.edu/?a\\u003dd\\u0026d\\u003dcs19690603-01.2.8",
+    "tier": "peer-reviewed",
+    "profile": "article",
+    "group": "",
+    "wanted": "bruce mayrock sets himself on fire"
+  },
+  {
+    "slug": "gwr-reading-aloud",
+    "title": "Longest marathon reading aloud",
+    "country": "NG",
+    "kind": "web",
+    "url": "https://www.guinnessworldrecords.com/world-records/longest-marathon-reading-aloud",
+    "tier": "institutional",
+    "profile": "record",
+    "group": "Guinness World Records: superlatives an adjudicating body certified. Chosen because the record itself is the fact, which is what the Records lane is for.",
+    "wanted": "A Guinness World Records title currently held by Nigeria."
+  },
+  {
+    "slug": "gwr-chess-marathon",
+    "title": "Longest chess marathon",
+    "country": "NG",
+    "kind": "web",
+    "url": "https://www.guinnessworldrecords.com/world-records/longest-chess-marathon",
+    "tier": "institutional",
+    "profile": "record",
+    "group": "Guinness World Records: superlatives an adjudicating body certified. Chosen because the record itself is the fact, which is what the Records lane is for.",
+    "wanted": "A Guinness World Records title currently held by Nigeria."
+  },
+  {
+    "slug": "gwr-art-canvas",
+    "title": "Largest art canvas",
+    "country": "NG",
+    "kind": "web",
+    "url": "https://www.guinnessworldrecords.com/world-records/621504-largest-art-canvas",
+    "tier": "institutional",
+    "profile": "record",
+    "group": "Guinness World Records: superlatives an adjudicating body certified. Chosen because the record itself is the fact, which is what the Records lane is for.",
+    "wanted": "A Guinness World Records title currently held by Nigeria."
+  },
+  {
+    "slug": "gwr-fast-food",
+    "title": "Most fast food restaurants visited in 24 hours",
+    "country": "NG",
+    "kind": "web",
+    "url": "https://www.guinnessworldrecords.com/world-records/79203-most-fast-food-restaurants-visited-in-24-hours",
+    "tier": "institutional",
+    "profile": "record",
+    "group": "Guinness World Records: superlatives an adjudicating body certified. Chosen because the record itself is the fact, which is what the Records lane is for.",
+    "wanted": "A Guinness World Records title currently held by Nigeria."
+  },
+  {
+    "slug": "gwr-serving-of-rice",
+    "title": "Largest serving of rice",
+    "country": "NG",
+    "kind": "web",
+    "url": "https://www.guinnessworldrecords.com/world-records/72805-largest-bowl-of-rice",
+    "tier": "institutional",
+    "profile": "record",
+    "group": "Guinness World Records: superlatives an adjudicating body certified. Chosen because the record itself is the fact, which is what the Records lane is for.",
+    "wanted": "A Guinness World Records title currently held by Nigeria."
+  },
+  {
+    "slug": "gwr-magic-show",
+    "title": "Longest magic show by an individual",
+    "country": "NG",
+    "kind": "web",
+    "url": "https://www.guinnessworldrecords.com/world-records/209713-longest-magic-show-individual",
+    "tier": "institutional",
+    "profile": "record",
+    "group": "Guinness World Records: superlatives an adjudicating body certified. Chosen because the record itself is the fact, which is what the Records lane is for.",
+    "wanted": "A Guinness World Records title currently held by Nigeria."
+  },
+  {
+    "slug": "gwr-counted-out-loud",
+    "title": "Highest number counted out loud",
+    "country": "NG",
+    "kind": "web",
+    "url": "https://www.guinnessworldrecords.com/world-records/100483-highest-number-counted-out-loud",
+    "tier": "institutional",
+    "profile": "record",
+    "group": "Guinness World Records: superlatives an adjudicating body certified. Chosen because the record itself is the fact, which is what the Records lane is for.",
+    "wanted": "A Guinness World Records title currently held by Nigeria."
+  },
+  {
+    "slug": "gwr-handmade-wig",
+    "title": "Longest handmade wig",
+    "country": "NG",
+    "kind": "web",
+    "url": "https://www.guinnessworldrecords.com/world-records/721597-longest-handmade-wig",
+    "tier": "institutional",
+    "profile": "record",
+    "group": "Guinness World Records: superlatives an adjudicating body certified. Chosen because the record itself is the fact, which is what the Records lane is for.",
+    "wanted": "A Guinness World Records title currently held by Nigeria."
+  },
+  {
+    "slug": "gwr-tallest-wig",
+    "title": "Tallest wig",
+    "country": "NG",
+    "kind": "web",
+    "url": "https://www.guinnessworldrecords.com/world-records/tallest-wig",
+    "tier": "institutional",
+    "profile": "record",
+    "group": "Guinness World Records: superlatives an adjudicating body certified. Chosen because the record itself is the fact, which is what the Records lane is for.",
+    "wanted": "A Guinness World Records title currently held by Nigeria."
+  },
+  {
+    "slug": "gwr-widest-wig",
+    "title": "Widest wig",
+    "country": "NG",
+    "kind": "web",
+    "url": "https://www.guinnessworldrecords.com/world-records/106114-widest-wig",
+    "tier": "institutional",
+    "profile": "record",
+    "group": "Guinness World Records: superlatives an adjudicating body certified. Chosen because the record itself is the fact, which is what the Records lane is for.",
+    "wanted": "A Guinness World Records title currently held by Nigeria."
+  },
+  {
+    "slug": "gwr-drawing-portraits",
+    "title": "Longest marathon drawing portraits (Individual)",
+    "country": "NG",
+    "kind": "web",
+    "url": "https://www.guinnessworldrecords.com/world-records/758645-longest-marathon-drawing-portraits-individual",
+    "tier": "institutional",
+    "profile": "record",
+    "group": "Guinness World Records: superlatives an adjudicating body certified. Chosen because the record itself is the fact, which is what the Records lane is for.",
+    "wanted": "A Guinness World Records title currently held by Nigeria."
+  },
+  {
+    "slug": "gwr-cosmetic-makeovers",
+    "title": "Most cosmetic makeovers in 24 hours (individual)",
+    "country": "NG",
+    "kind": "web",
+    "url": "https://www.guinnessworldrecords.com/world-records/most-cosmetic-makeovers-in-24-hours-(one-artist)",
+    "tier": "institutional",
+    "profile": "record",
+    "group": "Guinness World Records: superlatives an adjudicating body certified. Chosen because the record itself is the fact, which is what the Records lane is for.",
+    "wanted": "A Guinness World Records title currently held by Nigeria."
+  },
+  {
+    "slug": "gwr-dance-marathon",
+    "title": "Longest dance marathon relay",
+    "country": "NG",
+    "kind": "web",
+    "url": "https://www.guinnessworldrecords.com/world-records/118359-longest-dance-marathon-relay",
+    "tier": "institutional",
+    "profile": "record",
+    "group": "Guinness World Records: superlatives an adjudicating body certified. Chosen because the record itself is the fact, which is what the Records lane is for.",
+    "wanted": "A Guinness World Records title currently held by Nigeria."
+  },
+  {
+    "slug": "gwr-news-reading",
+    "title": "Nigerian mans nine-day read-a-thon smashes world record",
+    "country": "NG",
+    "kind": "web",
+    "url": "https://www.guinnessworldrecords.com/news/2024/8/nigerian-mans-nine-day-read-a-thon-smashes-world-record",
+    "tier": "institutional",
+    "profile": "article",
+    "group": "Guinness World Records news write-ups. The record page certifies the number; this is where the story is. Added after the record pages alone produced twelve facts that read like a record book.",
+    "wanted": "The narrative behind a record Nigeria holds, since the record page carries only the certificate."
+  },
+  {
+    "slug": "gwr-news-canvas",
+    "title": "Nigerian teen with autism praised by president as he breaks massive art record",
+    "country": "NG",
+    "kind": "web",
+    "url": "https://www.guinnessworldrecords.com/news/2025/4/nigerian-teen-with-autism-praised-by-president-as-he-breaks-massive-art-record",
+    "tier": "institutional",
+    "profile": "article",
+    "group": "Guinness World Records news write-ups. The record page certifies the number; this is where the story is. Added after the record pages alone produced twelve facts that read like a record book.",
+    "wanted": "The narrative behind a record Nigeria holds, since the record page carries only the certificate."
+  },
+  {
+    "slug": "gwr-news-fast-food",
+    "title": "Nigerian foodie visits 150 fast food restaurants in 24 hours to smash record",
+    "country": "NG",
+    "kind": "web",
+    "url": "https://www.guinnessworldrecords.com/news/2024/8/nigerian-foodie-visits-150-fast-food-restaurants-24-hours-to-smash-record",
+    "tier": "institutional",
+    "profile": "article",
+    "group": "Guinness World Records news write-ups. The record page certifies the number; this is where the story is. Added after the record pages alone produced twelve facts that read like a record book.",
+    "wanted": "The narrative behind a record Nigeria holds, since the record page carries only the certificate."
+  },
+  {
+    "slug": "gwr-news-jollof",
+    "title": "Did Hilda Baci just win the Jollof Wars for Nigeria",
+    "country": "NG",
+    "kind": "web",
+    "url": "https://www.guinnessworldrecords.com/news/2025/9/did-hilda-baci-just-win-the-jollof-wars-for-nigeria-chef-cooks-up-largest-ever-serving",
+    "tier": "institutional",
+    "profile": "article",
+    "group": "Guinness World Records news write-ups. The record page certifies the number; this is where the story is. Added after the record pages alone produced twelve facts that read like a record book.",
+    "wanted": "The narrative behind a record Nigeria holds, since the record page carries only the certificate."
+  },
+  {
+    "slug": "gwr-news-wig",
+    "title": "Nigerian woman creates worlds longest wig measuring over 350 metres",
+    "country": "NG",
+    "kind": "web",
+    "url": "https://www.guinnessworldrecords.com/news/2023/11/nigerian-woman-creates-worlds-longest-wig-measuring-over-350-metres-761072",
+    "tier": "institutional",
+    "profile": "article",
+    "group": "Guinness World Records news write-ups. The record page certifies the number; this is where the story is. Added after the record pages alone produced twelve facts that read like a record book.",
+    "wanted": "The narrative behind a record Nigeria holds, since the record page carries only the certificate."
+  },
+  {
+    "slug": "gwr-news-tall-wig",
+    "title": "Nigerian woman makes third record-breaking wig thats so tall it towers over buildings",
+    "country": "NG",
+    "kind": "web",
+    "url": "https://www.guinnessworldrecords.com/news/2025/12/nigerian-woman-makes-third-record-breaking-wig-thats-so-tall-it-towers-over-buildings",
+    "tier": "institutional",
+    "profile": "article",
+    "group": "Guinness World Records news write-ups. The record page certifies the number; this is where the story is. Added after the record pages alone produced twelve facts that read like a record book.",
+    "wanted": "The narrative behind a record Nigeria holds, since the record page carries only the certificate."
+  },
+  {
+    "slug": "gwr-news-makeovers",
+    "title": "Nigerian star Symply Tacha smashes two world records",
+    "country": "NG",
+    "kind": "web",
+    "url": "https://www.guinnessworldrecords.com/news/2025/11/nigerian-star-symply-tacha-smashes-two-world-records-by-making-other-women-feel-beautiful",
+    "tier": "institutional",
+    "profile": "article",
+    "group": "Guinness World Records news write-ups. The record page certifies the number; this is where the story is. Added after the record pages alone produced twelve facts that read like a record book.",
+    "wanted": "The narrative behind a record Nigeria holds, since the record page carries only the certificate."
+  },
+  {
+    "slug": "road-space-rationing",
+    "title": "Road space rationing",
+    "country": "NG",
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Road_space_rationing",
+    "tier": "reference",
+    "profile": "article",
+    "group": "Things in daily life with a story behind them",
+    "wanted": ""
+  },
+  {
+    "slug": "lewis-harcourt",
+    "title": "Lewis Harcourt, 1st Viscount Harcourt",
+    "country": "NG",
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Lewis_Harcourt,_1st_Viscount_Harcourt",
+    "tier": "reference",
+    "profile": "article",
+    "group": "Things in daily life with a story behind them",
+    "wanted": ""
   }
 ]

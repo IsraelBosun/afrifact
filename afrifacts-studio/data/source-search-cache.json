@@ -1005,5 +1005,230 @@
         "why": "Profile mentioning his wife's mother is his first cousin, directly relevant"
       }
     ]
+  },
+  "bruce mayrock sets himself on fire": {
+    "at": "2026-09-07T16:11:17.897Z",
+    "queries": [
+      "Bruce Mayrock self-immolation",
+      "Bruce Mayrock 1970s protest archive",
+      "Bruce Mayrock report Nigeria",
+      "Bruce Mayrock interview history"
+    ],
+    "results": [
+      {
+        "title": "Nigerian Civil War",
+        "summary": "The Nigerian Civil War (6 July 1967 – 15 January 1970), also known as the Biafran War, Nigeria–Biafra War, or Biafra War, was an armed conflict fought between Nigeria and the Republic of Biafra, a secessionist state that had declared its independence from Nigeria in 1967. During the war years, Gener",
+        "words": 37745,
+        "disambiguation": false,
+        "url": "https://en.wikipedia.org/wiki/Nigerian_Civil_War",
+        "kind": "wikipedia",
+        "host": "en.wikipedia.org",
+        "trust": {
+          "tier": "reference",
+          "rank": 0,
+          "label": "Wikipedia",
+          "usable": true,
+          "why": "Re-readable at a fixed revision. Weakest tier; wants corroboration."
+        }
+      },
+      {
+        "title": "Introduction | Springer Nature Link",
+        "summary": "On May 30, 1969, a 20‐year‐old Columbian University student, Bruce Mayrock of Old Westbury, while protesting the “genocide” in Biafra burnt ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://link.springer.com/chapter/10.1007/978-3-031-92789-8_1",
+        "kind": "web",
+        "host": "link.springer.com",
+        "trust": {
+          "tier": "peer-reviewed",
+          "rank": 1,
+          "label": "journal",
+          "usable": true
+        },
+        "why": "scholarly introduction recounting the event"
+      },
+      {
+        "title": "GS Student, 20, Immolates Himself In Front of U.N.",
+        "summary": "GS Student, 20, Immolates Himself In Front of U.N.. Bruce Mayrock, a twenty-year 1 old student at the School of General Studies and a sports photographer ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://archive-publications.library.columbia.edu/?a\\u003dd\\u0026d\\u003dcs19690603-01.2.8",
+        "kind": "web",
+        "host": "archive-publications.library.columbia.edu",
+        "trust": {
+          "tier": "peer-reviewed",
+          "rank": 1,
+          "label": "university",
+          "usable": true
+        },
+        "why": "Columbia University student newspaper article"
+      },
+      {
+        "title": "ANALYZING THE LOGIC OF LAW AND SOCIAL CHANGE IN ...",
+        "summary": "Bruce Mayrock, a twenty-year old student of set himself on fire outside the United Nations Head Quarters to protest against the war in Biafra.",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://academiccommons.columbia.edu/doi/10.7916/D8794GQ1/download",
+        "kind": "web",
+        "host": "academiccommons.columbia.edu",
+        "trust": {
+          "tier": "peer-reviewed",
+          "rank": 1,
+          "label": "university",
+          "usable": true
+        },
+        "why": "academic thesis discussing his protest"
+      },
+      {
+        "title": "Youth Sets Himself Afire at U.N. And Dies After Nigeria ...",
+        "summary": "Mayrock, Bruce: Burns to death after setting self afire outside UN hq, NYC, to protest Nigerian situation.",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://www.nytimes.com/1969/05/30/archives/youth-sets-himself-afire-at-un-and-dies-after-nigeria-protest.html",
+        "kind": "web",
+        "host": "nytimes.com",
+        "trust": {
+          "tier": "press",
+          "rank": 3,
+          "label": "press",
+          "usable": true
+        },
+        "why": "contemporary news report of the self-immolation"
+      },
+      {
+        "title": "10-kilometre walk in rememberance of Bruce Mayrock (1949",
+        "summary": "Within moments, in the full glare of hundreds of onlookers, Bruce set himself on fire and was reported to have died later the same day. The ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://www.vanguardngr.com/2020/06/10-kilometre-walk-in-rememberance-of-bruce-mayrock-1949-1969/",
+        "kind": "web",
+        "host": "vanguardngr.com",
+        "trust": {
+          "tier": "press",
+          "rank": 3,
+          "label": "press",
+          "usable": true
+        },
+        "why": "news article about memorial walk for him"
+      },
+      {
+        "title": "Bianca, bruce, and the burden of Biafra",
+        "summary": "In setting himself aflame, Bruce Mayrock lit a fire that no ocean could drown. He became a living contradiction to the logic of geopolitics ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://guardian.ng/opinion/columnists/bianca-bruce-and-the-burden-of-biafra/",
+        "kind": "web",
+        "host": "guardian.ng",
+        "trust": {
+          "tier": "press",
+          "rank": 3,
+          "label": "press",
+          "usable": true
+        },
+        "why": "opinion piece reflecting on his legacy"
+      },
+      {
+        "title": "This is not Bruce Mayrock",
+        "summary": "On the 29th of May 1969 a young student called Bruce Baruch Mayrock set himself on fire on the lawn of the United Nations headquarters in ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://fakehistoryhunter.net/2024/05/25/this-is-not-bruce-mayrock/",
+        "kind": "web",
+        "host": "fakehistoryhunter.net",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "fakehistoryhunter.net",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "article correcting misidentification of Mayrock"
+      },
+      {
+        "title": "It was headed for a terrible tragedy",
+        "summary": "Bruce Mayrock, a twenty-year old Columbia University student who set himself on fire in front of the United Nations building in New York to protest the ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://biafranwarmemories.com/2019/01/29/i-identified-with-the-igbo-as-sort-of-the-jews-of-nigeria/",
+        "kind": "web",
+        "host": "biafranwarmemories.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "biafranwarmemories.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "memoir or historical account mentioning his protest"
+      },
+      {
+        "title": "BIAFRAN HERO BRUCE MAYROCK, 5/6/1949 to 5/30/1969",
+        "summary": "BRUCE MAYROCK, 5/6/1949. Self-immolation is the ultimate form of human protest. to protest the war in Biafra. from 1967 to 1970.The … get ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://africastallestman.com/2018/05/13/bruce-mayrock-5-6-1949-to-5-30-1969/",
+        "kind": "web",
+        "host": "africastallestman.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "africastallestman.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "tribute page with biographical dates"
+      },
+      {
+        "title": "No Victors The Biafran war. - Ifeoma Chukwuogo - Medium",
+        "summary": "Bruce Mayrock, the Jewish American student at Columbia who set himself on fire in front of the UN in protest for Biafra, was formed in 1971 … ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://ifeoma-chukwuogo.medium.com/no-victors-245b4572d871",
+        "kind": "web",
+        "host": "ifeoma-chukwuogo.medium.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "ifeoma-chukwuogo.medium.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "essay on Biafran war referencing his act"
+      },
+      {
+        "title": "Chasing Ghosts Along the Niger - Consequence",
+        "summary": "I remember some moments—John Lennon returning his MBE to the Queen in protest; Joan Baez and Jimi Hendrix performing at a relief concert; Bruce Mayrock, a ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://consequenceforum.substack.com/p/chasing-ghosts-along-the-niger",
+        "kind": "web",
+        "host": "consequenceforum.substack.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "consequenceforum.substack.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "personal essay recalling his protest"
+      },
+      {
+        "title": "Cultural Heritage & Anthropology - Nnewi City",
+        "summary": "THE STORY OF BRUCE MAYROCK (1947- 1969) – A Jewish Student who Set himself Ablaze because of Biafran Genocide during the Civil War. Nnewi News. Richest Men ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://nnewicity.com/category/cultural-heritage-anthropology/",
+        "kind": "web",
+        "host": "nnewicity.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "nnewicity.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "local history article about his story"
+      }
+    ]
   }
 }

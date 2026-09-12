@@ -28,8 +28,9 @@ import { ENRICHED_PATH } from '../lib/paths.js';
 import { storedFacts } from '../lib/studio/facts.js';
 import { cultureFacts } from './culture.js';
 import { historyFacts } from './history.js';
+import { recordFacts } from './records.js';
 
-export { cultureFacts, historyFacts };
+export { cultureFacts, historyFacts, recordFacts };
 
 /**
  * Facts written by the pipeline, awaiting or holding a review decision.
@@ -82,5 +83,5 @@ export async function loadCorpus() {
   const promoted = new Set(stored.map((entry) => entry.fact.id));
   const unpromoted = enriched.filter((entry) => !promoted.has(entry?.fact?.id));
 
-  return [...historyFacts, ...cultureFacts, ...stored, ...unpromoted];
+  return [...historyFacts, ...cultureFacts, ...recordFacts, ...stored, ...unpromoted];
 }

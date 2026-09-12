@@ -7,17 +7,24 @@ import { Logo } from './Logo';
 import { ALL_AFRICA, flagFor, nameFor } from '@/src/data/countries';
 import { amber, metrics, radius, spacing, type as typeScale, useTheme } from '@/src/theme';
 
-/** Wordmark on the left, shuffle, country selector and streak flame on the right. */
+/**
+ * Wordmark on the left, country selector and streak flame on the right.
+ *
+ * Shuffle used to sit here and now lives on the action row above the card,
+ * beside search, today and listen. It was the odd one out: the country
+ * pill and the streak say what the feed IS, and shuffle was the only
+ * control here that changed it. Moving it also let the four things that
+ * act on the feed become one legible row instead of one icon up here and
+ * three nowhere.
+ */
 export function TopBar({
   countryCode,
   streak,
   onPressCountry,
-  onShuffle,
 }: {
   countryCode: string;
   streak: number;
   onPressCountry: () => void;
-  onShuffle: () => void;
 }) {
   const { colors } = useTheme();
 
@@ -29,28 +36,6 @@ export function TopBar({
       </View>
 
       <View style={styles.actions}>
-        {/*
-          Deals the feed again.
-
-          It belongs beside the country pill because it is the same kind of
-          control: both change which facts arrive and in what order, and
-          neither belongs on the card. Icon only — a label would make three
-          worded pills in a row and the wordmark would stop being the thing
-          you read first.
-        */}
-        <Pressable
-          onPress={onShuffle}
-          accessibilityRole="button"
-          accessibilityLabel="Shuffle the feed"
-          hitSlop={6}
-          style={({ pressed }) => [
-            styles.pill,
-            styles.icon,
-            { backgroundColor: colors.surfaceAlt, opacity: pressed ? 0.6 : 1 },
-          ]}>
-          <Ionicons name="shuffle" size={16} color={colors.textMuted} />
-        </Pressable>
-
         {/*
           The country, as its flag rather than its code.
 

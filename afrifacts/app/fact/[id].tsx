@@ -2,7 +2,7 @@ import Ionicons from '@expo/vector-icons/Ionicons';
 import { Image } from 'expo-image';
 import { router, useLocalSearchParams } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
-import { useCallback, useMemo, useRef, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import {
   Animated,
   KeyboardAvoidingView,
@@ -20,7 +20,8 @@ import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context'
 import { ShareCard } from '@/src/components/ShareCard';
 import { SourceLink } from '@/src/components/SourceLink';
 import { VerifiedLine } from '@/src/components/VerifiedLine';
-import { getFactById, getFactNumber, getRelatedFacts } from '@/src/data';
+import { RelatedFacts } from '@/src/components/RelatedFacts';
+import { getFactById, getFactNumber, getRelatedFacts, noteFactSeen } from '@/src/data';
 import { useShareCard } from '@/src/share/useShareCard';
 import { familyFor, metrics, radius, spacing, type as typeScale, useTheme } from '@/src/theme';
 import { hasImage } from '@/src/types';
@@ -93,6 +94,18 @@ export default function DeepDiveScreen() {
 
   const fact = useMemo(() => getFactById(id), [id]);
   const related = useMemo(() => (id ? getRelatedFacts(id) : []), [id]);
+
+  /*
+    Reading the article counts as reading the fact.
+
+    Reached from a notification, from Today, from search and from a related
+    card, none of which pass through the feed — so without this, a reader
+    who came in from the morning notification would have read a fact and
+    kept no streak for it.
+  */
+  useEffect(() => {
+    if (fact) noteFactSeen(fact.id);
+  }, [fact]);
 
   // Called before the missing-fact return, so the hook order stays stable.
   const { shareView, share, sharing, prepare, markReady } = useShareCard();
@@ -193,20 +206,17 @@ export default function DeepDiveScreen() {
           */}
           <SourceLink source={fact.source} />
 
-          {related.map((r) => (
-            <Pressable
-              key={r.id}
-              onPress={() => router.push({ pathname: '/fact/[id]', params: { id: r.id } })}
-              style={[
-                styles.related,
-                { backgroundColor: colors.background, borderColor: colors.border },
-              ]}>
-              <View style={[styles.dot, { backgroundColor: familyFor(r.category).mid }]} />
-              <Text style={[typeScale.option, styles.relatedText, { color: colors.text }]}>
-                {r.fact}
-              </Text>
-            </Pressable>
-          ))}
+          {/*
+            Sideways, and derived rather than curated: no fact in the corpus
+            has a `relatedIds` entry, so the stacked rows that used to live
+            here rendered nothing at all on every deep dive.
+          */}
+          <RelatedFacts
+            items={related}
+            onOpen={(nextId) =>
+              router.push({ pathname: '/fact/[id]', params: { id: nextId } })
+            }
+          />
         </View>
       </Animated.ScrollView>
 
@@ -334,16 +344,6 @@ const styles = StyleSheet.create({
   title: { marginTop: spacing.xs },
   body: { padding: metrics.screenPadding, gap: spacing.lg },
   callout: { borderRadius: radius.tile, padding: spacing.lg, gap: spacing.sm },
-  related: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: spacing.md,
-    borderRadius: radius.tile,
-    borderWidth: 1,
-    padding: spacing.lg,
-  },
-  dot: { width: 8, height: 8, borderRadius: 4 },
-  relatedText: { flex: 1 },
   ask: {
     borderTopWidth: 1,
     paddingHorizontal: metrics.screenPadding,

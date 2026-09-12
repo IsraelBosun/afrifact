@@ -27,6 +27,11 @@ export const categoryColors: Record<Category, ColorFamily> = {
   Business: { light: '#CECBF6', mid: '#534AB7', dark: '#26215C' },
   Food: { light: '#F4C0D1', mid: '#993556', dark: '#4B1528' },
   Sports: { light: '#B5D4F4', mid: '#185FA5', dark: '#042C53' },
+  Records: { light: '#D8E4A4', mid: '#4F6A11', dark: '#28350B' },
+  // Cyan-teal. Culture is green-teal and Sports is periwinkle, so this
+  // sits between them on the wheel and is the closest pair in the set.
+  // One line to change here and in the studio if it reads too near Culture.
+  Health: { light: '#A7DCE3', mid: '#0E6273', dark: '#04313A' },
 };
 
 /** Streak flames, daily-goal moments, and the amber accent generally. */
@@ -91,12 +96,42 @@ export const categoryTint: Record<Category, string> = {
   Business: '#EEEDFE',
   Food: '#FBEAF0',
   Sports: '#E6F1FB',
+  Records: '#F1F6DF',
+  Health: '#E6F4F7',
 };
 
 /** Deep green used for "For You" chip text and score screens. */
 export const deepGreen = '#085041';
 
 export type ColorScheme = keyof typeof neutrals;
+
+/** #RRGGBB to its three channels. Nothing else is a valid stop in this file. */
+function channels(hex: string): [number, number, number] {
+  const n = parseInt(hex.slice(1), 16);
+  return [(n >> 16) & 255, (n >> 8) & 255, n & 255];
+}
+
+/**
+ * A stop between `light` and `mid`, for surfaces that want more weight
+ * than a card fill without becoming an accent.
+ *
+ * The three stops are a scale, not a palette, so the space between two of
+ * them is still the family. Blending stays inside it: nothing here can
+ * invent a colour the design system does not already contain, which is
+ * what a hand-picked "slightly darker green" would do.
+ *
+ * `amount` is how far to travel: 0 returns `light` unchanged, 1 returns
+ * `mid`. Text on the result still uses the family's dark stop (§6).
+ */
+export function deepen(family: ColorFamily, amount: number): string {
+  const [lr, lg, lb] = channels(family.light);
+  const [mr, mg, mb] = channels(family.mid);
+  const step = (from: number, to: number) =>
+    Math.round(from + (to - from) * amount)
+      .toString(16)
+      .padStart(2, '0');
+  return `#${step(lr, mr)}${step(lg, mg)}${step(lb, mb)}`;
+}
 
 /** Resolve a category to its family. Falls back to Culture for unknown values. */
 export function familyFor(category: Category): ColorFamily {

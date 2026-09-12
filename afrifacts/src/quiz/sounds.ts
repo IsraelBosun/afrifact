@@ -1,0 +1,75 @@
+/**
+ * Two notes for right, one falling note for wrong.
+ *
+ * The quiz already had distinct haptics, Success against Warning, and on a
+ * phone in a pocket that is the whole of the feedback. It is not enough in
+ * the hand: the two taps are close enough that people read the colour
+ * before they read the buzz, which makes the haptic decoration rather than
+ * information.
+ *
+ * The sounds are synthesised sine tones rather than sourced files, so
+ * there is no licence attached to anything shipped in the APK and no
+ * credit to lose. Correct rises, E5 into A5, and is over in a quarter
+ * second. Wrong is a single low note easing downward: §10 forbids the quiz
+ * shaming a low score, and a buzzer is exactly that in audio. It should
+ * read as a soft landing, not a klaxon.
+ *
+ * `mixWithOthers` is the documented mode for short UI effects. Somebody
+ * playing music while they answer three questions should keep their music.
+ * Silent mode is respected on purpose: a quiz sound is not important
+ * enough to override a switch the person deliberately flipped.
+ */
+
+import { createAudioPlayer, setAudioModeAsync, type AudioPlayer } from 'expo-audio';
+import { useEffect, useRef } from 'react';
+
+let modeSet = false;
+
+async function ensureAudioMode(): Promise<void> {
+  if (modeSet) return;
+  modeSet = true;
+  try {
+    await setAudioModeAsync({ interruptionMode: 'mixWithOthers', playsInSilentMode: false });
+  } catch {
+    // A device that will not take the mode still plays the sound; the
+    // only cost is that it may pause somebody's music.
+  }
+}
+
+/**
+ * Players for the two answer sounds, released when the screen goes.
+ *
+ * Created imperatively rather than through `useAudioPlayer` because the
+ * sound has to restart on every answer. Replaying the same player means
+ * seeking to zero first, otherwise the second correct answer in a row is
+ * silent: the clip has already run to its end and `play()` on a finished
+ * player does nothing.
+ */
+export function useAnswerSounds() {
+  const correct = useRef<AudioPlayer | null>(null);
+  const wrong = useRef<AudioPlayer | null>(null);
+
+  useEffect(() => {
+    void ensureAudioMode();
+    correct.current = createAudioPlayer(require('@/assets/sounds/correct.wav'));
+    wrong.current = createAudioPlayer(require('@/assets/sounds/wrong.wav'));
+
+    return () => {
+      correct.current?.remove();
+      wrong.current?.remove();
+      correct.current = null;
+      wrong.current = null;
+    };
+  }, []);
+
+  return (isCorrect: boolean) => {
+    const player = isCorrect ? correct.current : wrong.current;
+    if (player === null) return;
+    try {
+      void player.seekTo(0);
+      player.play();
+    } catch {
+      // Feedback, not function. A quiz that cannot make a noise still works.
+    }
+  };
+}

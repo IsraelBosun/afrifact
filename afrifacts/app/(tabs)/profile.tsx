@@ -1,10 +1,17 @@
 import Ionicons from '@expo/vector-icons/Ionicons';
 import { router } from 'expo-router';
-import { useMemo } from 'react';
-import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { useState } from 'react';
+import { Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
-import { getUserProfile, getUserStats, useSavedIds } from '@/src/data';
+import {
+  getUserProfile,
+  getUserStats,
+  nameFor,
+  setDisplayName,
+  useProgress,
+  useSavedIds,
+} from '@/src/data';
 import {
   amber,
   categoryColors,
@@ -18,6 +25,7 @@ import {
 const DAY_LABELS = ['M', 'T', 'W', 'T', 'F', 'S', 'S'];
 
 function joinedLabel(iso: string): string {
+  if (iso.length === 0) return '';
   const date = new Date(iso);
   if (Number.isNaN(date.getTime())) return '';
   return date.toLocaleDateString(undefined, { month: 'long' });
@@ -25,28 +33,89 @@ function joinedLabel(iso: string): string {
 
 export default function ProfileScreen() {
   const { colors } = useTheme();
-  const profile = useMemo(() => getUserProfile(), []);
-  // Subscribed for the re-render, not for the value: `stats.savedCount` is
-  // real now, and without this the SAVED card would disagree with the
-  // Saved tab until the screen happened to remount.
+
+  /*
+    Subscribed for the re-render, not for the values.
+
+    Every number on this screen is now read from module state at render
+    time, so these are what make the screen agree with the rest of the app:
+    `useSavedIds` for the SAVED card, `useProgress` for the other three and
+    the week row. Without them the profile would show whatever was true the
+    last time it happened to remount.
+  */
   useSavedIds();
+  useProgress();
+  const profile = getUserProfile();
   const stats = getUserStats();
 
-  const initials = profile.name.slice(0, 2).toUpperCase();
+  // There is no account to take a name from, so the profile asks instead
+  // of inventing one. Tapping the name (or the prompt) opens the field.
+  const [editing, setEditing] = useState(false);
+  const [draft, setDraft] = useState('');
+
+  function beginEdit() {
+    setDraft(profile.name);
+    setEditing(true);
+  }
+
+  function commitEdit() {
+    setDisplayName(draft);
+    setEditing(false);
+  }
+
+  const named = profile.name.length > 0;
+  const initials = named ? profile.name.slice(0, 2).toUpperCase() : '';
+  const joined = joinedLabel(profile.joinedAt);
 
   return (
     <SafeAreaView style={[styles.root, { backgroundColor: colors.background }]} edges={['top']}>
       <ScrollView contentContainerStyle={styles.scroll} showsVerticalScrollIndicator={false}>
         <View style={styles.identity}>
           <View style={[styles.avatar, { backgroundColor: categoryColors.Business.light }]}>
-            <Text style={[typeScale.screenTitle, { color: categoryColors.Business.mid }]}>
-              {initials}
-            </Text>
+            {named ? (
+              <Text style={[typeScale.screenTitle, { color: categoryColors.Business.mid }]}>
+                {initials}
+              </Text>
+            ) : (
+              <Ionicons name="person" size={22} color={categoryColors.Business.mid} />
+            )}
           </View>
+
           <View style={styles.identityText}>
-            <Text style={[typeScale.screenTitle, { color: colors.text }]}>{profile.name}</Text>
+            {editing ? (
+              <TextInput
+                value={draft}
+                onChangeText={setDraft}
+                onSubmitEditing={commitEdit}
+                onBlur={commitEdit}
+                autoFocus
+                maxLength={40}
+                returnKeyType="done"
+                placeholder="Your name"
+                placeholderTextColor={colors.textFaint}
+                style={[
+                  typeScale.screenTitle,
+                  styles.nameInput,
+                  { color: colors.text, borderBottomColor: colors.border },
+                ]}
+              />
+            ) : (
+              <Pressable onPress={beginEdit} accessibilityRole="button" hitSlop={4}>
+                <Text
+                  style={[typeScale.screenTitle, { color: named ? colors.text : colors.textMuted }]}>
+                  {named ? profile.name : 'Add your name'}
+                </Text>
+              </Pressable>
+            )}
+
+            {/*
+              The country comes from the picker, never from a literal. §10:
+              country is a data value, and "Learning Nigeria" hardcoded here
+              was the launch market written into a screen.
+            */}
             <Text style={[typeScale.caption, { color: colors.textMuted }]}>
-              Learning Nigeria · joined {joinedLabel(profile.joinedAt)}
+              Learning {nameFor(profile.country)}
+              {joined.length > 0 ? ` · joined ${joined}` : ''}
             </Text>
           </View>
 
@@ -77,9 +146,14 @@ export default function ProfileScreen() {
             value={String(stats.savedCount)}
             family={categoryColors.Food}
           />
+          {/*
+            A dash, not 0%, until a question has been answered. Zero is a
+            score; "not played yet" is not, and showing 0% to someone who
+            has never opened the quiz reads as a failure they did not earn.
+          */}
           <StatCard
             label="QUIZ ACCURACY"
-            value={`${stats.quizAccuracy}%`}
+            value={stats.quizAnswered === 0 ? '—' : `${stats.quizAccuracy}%`}
             family={categoryColors.Sports}
           />
         </View>
@@ -147,6 +221,9 @@ const styles = StyleSheet.create({
   scroll: { padding: metrics.screenPadding, gap: spacing.xl, paddingBottom: spacing.xxl },
   identity: { flexDirection: 'row', alignItems: 'center', gap: spacing.lg },
   avatar: { width: 58, height: 58, borderRadius: 29, alignItems: 'center', justifyContent: 'center' },
+  // Underlined while editing so the tap clearly landed in a field, without
+  // the name changing size between the two states.
+  nameInput: { borderBottomWidth: 1, paddingVertical: 0, paddingBottom: 2 },
   identityText: { flex: 1, gap: 2 },
   gear: { width: 38, height: 38, borderRadius: 19, alignItems: 'center', justifyContent: 'center' },
   statGrid: { flexDirection: 'row', flexWrap: 'wrap', gap: spacing.md },
