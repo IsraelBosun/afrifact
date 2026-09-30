@@ -1,0 +1,59 @@
+{
+  "runId": "agent-2026-09-29T19-59-59",
+  "kind": "paste",
+  "status": "done",
+  "brief": "1 pasted fact",
+  "country": "TZ",
+  "target": 1,
+  "createdAt": "2026-09-29T19:59:59.082Z",
+  "stopReason": "1 checked: 0 verified, 1 corrected, 0 not usable.",
+  "docsRead": 4,
+  "webQueriesSpent": 0,
+  "shortlist": [],
+  "alternates": [
+    {
+      "key": "a1",
+      "fact": "Lake Manyara's tree-climbing lions have a reputation for a unique behavior not seen in many other places in the world.",
+      "category": "Records",
+      "votes": "0/3",
+      "why": "I've been to Manyara and heard the tree-climbing lion thing my whole life, so it's not news to me, and the fact doesn't even say why they do it or how weird it really is — it just says they have a 'reputation', which is nothing.",
+      "title": "Tree-climbing lions in Lake Manyara National Park",
+      "url": "https://www.africaultimatetours.com/2023/12/19/tree-climbing-lions-in-lake-manyara-national-park/",
+      "claim": "Tanzania is one of only two places in the world where lions are known to regularly climb and rest in trees, particularly in Lake Manyara National Park.",
+      "candidate": {
+        "fact": "Lake Manyara's tree-climbing lions have a reputation for a unique behavior not seen in many other places in the world.",
+        "passage": "The tree-climbing lions of Lake Manyara have gained quite a reputation for this unique behavior, which is not seen in many other places in the world.",
+        "category": "Records",
+        "surprise": {
+          "priorProbability": 3,
+          "specificity": 2,
+          "explicability": 3
+        },
+        "reasoning": "Pasted by the owner: \"Tanzania is one of only two places in the world where lions are known to regularly climb and rest in trees, particularly in Lake Manyara National Park.\"",
+        "volatile": false,
+        "slug": "tree-climbing-lions-in",
+        "country": "TZ",
+        "source": {
+          "title": "Tree-climbing lions in Lake Manyara National Park",
+          "url": "https://www.africaultimatetours.com/2023/12/19/tree-climbing-lions-in-lake-manyara-national-park/",
+          "revisionId": "",
+          "contentHash": "5fc791da01c2e105",
+          "kind": "web",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "Africa Ultimate Tours",
+          "doi": "",
+          "publishedAt": "2023-12-19",
+          "wayback": "http://web.archive.org/web/20260510001251/https://www.africaultimatetours.com/2023/12/19/tree-climbing-lions-in-lake-manyara-national-park/"
+        }
+      },
+      "aside": "Corrected. You pasted: \"Tanzania is one of only two places in the world where lions are known to regularly climb and rest in trees, particularly in Lake Manyara National Park\". The document says the behavior is not seen in many other places, but does not state Tanzania is one of only two places where lions regularly climb trees."
+    }
+  ],
+  "unverified": [],
+  "trace": [],
+  "decidedAt": "2026-09-29T20:00:32.127Z",
+  "developed": [
+    "nf_1192"
+  ]
+}

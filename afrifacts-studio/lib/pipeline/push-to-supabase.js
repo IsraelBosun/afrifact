@@ -32,7 +32,7 @@ import { dirname } from 'node:path';
 import { loadReviewedCorpus } from '../check.js';
 import { PUSHED_PATH } from '../paths.js';
 import { isPublishable, validateQuizQuestion } from '../validate.js';
-import { loadImages, loadPool, findCandidate } from '../studio/images.js';
+import { loadImages, loadPool } from '../studio/images.js';
 import { allQuizQuestions } from '../studio/quiz.js';
 import { loadLedger } from '../studio/ledger.js';
 import { loadSources } from './sources.js';

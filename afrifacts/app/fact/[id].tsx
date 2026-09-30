@@ -18,6 +18,7 @@ import {
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { ShareCard } from '@/src/components/ShareCard';
+import { FurtherReading } from '@/src/components/FurtherReading';
 import { SourceLink } from '@/src/components/SourceLink';
 import { VerifiedLine } from '@/src/components/VerifiedLine';
 import { RelatedFacts } from '@/src/components/RelatedFacts';
@@ -205,6 +206,8 @@ export default function DeepDiveScreen() {
             evidence at all.
           */}
           <SourceLink source={fact.source} />
+
+          <FurtherReading links={fact.deepDive.furtherReading} />
 
           {/*
             Sideways, and derived rather than curated: no fact in the corpus

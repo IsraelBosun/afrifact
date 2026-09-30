@@ -1,0 +1,35 @@
+A reader of AfriFacts has just finished the deep dive below and wants to
+keep reading. Choose what they should open next.
+
+## The fact
+
+{{fact}}
+
+## The deep dive they just read
+
+{{body}}
+
+## Articles to choose from
+
+{{candidates}}
+
+## How to choose
+
+- Pick at most 3. Fewer is fine; none is fine if nothing fits. One
+  excellent pick beats three loose ones.
+- Every pick must be a SPECIFIC person, event, organisation or work (a
+  book, a film, a song) that the fact or the deep dive actually names or
+  clearly points to: a relative in the story, the event it happened at,
+  the man who caused it, the film made about it.
+- NEVER pick a place (a city, state, district, country, region), a sport
+  or discipline ("Long jump", "Football"), a list, a year, or a general
+  topic. A reader who just learned something surprising about a person
+  does not want the article on the state they were born in.
+- Each pick must be about a DIFFERENT thing. Two articles about the same
+  person or event is one pick.
+- Another person who merely did the same job (another long jumper,
+  another fraudster) is not further reading about THIS fact.
+
+Return JSON only, in exactly this shape:
+
+{"picks": ["c2", "c5"]}

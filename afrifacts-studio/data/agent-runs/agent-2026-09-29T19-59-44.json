@@ -1,0 +1,23 @@
+{
+  "runId": "agent-2026-09-29T19-59-44",
+  "kind": "paste",
+  "status": "empty",
+  "brief": "1 pasted fact",
+  "country": "NG",
+  "target": 1,
+  "createdAt": "2026-09-29T19:59:44.791Z",
+  "stopReason": "Stopped by you.",
+  "docsRead": 0,
+  "webQueriesSpent": 4,
+  "shortlist": [],
+  "alternates": [],
+  "unverified": [
+    {
+      "n": 1,
+      "claim": "Tanzania is one of only two places in the world where lions are known to regularly climb and rest in trees, particularly in Lake Manyara National Park.",
+      "status": "unconfirmed",
+      "why": "No source found."
+    }
+  ],
+  "trace": []
+}

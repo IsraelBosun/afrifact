@@ -73,8 +73,3 @@ export const CATEGORIES = ['History', 'Business', 'Culture', 'Food', 'Sports', '
  * @property {0 | 1 | 2 | 3} correctIndex
  * @property {string} explanation
  */
-
-/** True if `value` is one of the five categories. */
-export function isCategory(value) {
-  return typeof value === 'string' && CATEGORIES.includes(value);
-}

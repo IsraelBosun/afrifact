@@ -32,7 +32,6 @@ export const ROOT = join(here, '..');
 export const DATA_DIR = join(ROOT, 'data');
 export const GENERATED_DIR = join(ROOT, '_generated');
 export const CACHE_DIR = join(ROOT, '_cache');
-export const CORPUS_DIR = join(ROOT, 'corpus');
 export const PROMPTS_DIR = join(here, 'llm', 'prompts');
 
 /** The LLM key. Read from here, never copied into afrifacts/. */

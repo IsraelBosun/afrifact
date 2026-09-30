@@ -1,6 +1,5 @@
 /**
- * `npm run enrich`            candidates triage kept that are not yet facts
- * `npm run enrich -- --all`   ignore the keep list
+ * `npm run enrich`            candidates that are not yet facts
  * `npm run enrich -- --force` re-enrich candidates that are already facts
  *
  * Costs money. Writes _generated/enriched.json, overwriting it whole —
@@ -15,7 +14,6 @@
 import { runEnrich } from '../lib/pipeline/enrich.js';
 
 const args = process.argv.slice(2);
-const all = args.includes('--all');
 const force = args.includes('--force');
 
 const controller = new AbortController();
@@ -28,7 +26,7 @@ process.on('SIGINT', () => {
 });
 
 console.log('');
-const summary = await runEnrich({ all, force, signal: controller.signal }, (line) =>
+const summary = await runEnrich({ force, signal: controller.signal }, (line) =>
   console.log(`  ${line}`),
 );
 console.log('');

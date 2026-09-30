@@ -1,0 +1,105 @@
+{
+  "runId": "agent-2026-09-29T19-51-24",
+  "kind": "paste",
+  "status": "done",
+  "brief": "3 pasted facts",
+  "country": "NG",
+  "target": 3,
+  "createdAt": "2026-09-29T19:51:24.464Z",
+  "stopReason": "3 checked: 1 verified, 1 corrected, 1 not usable.",
+  "docsRead": 5,
+  "webQueriesSpent": 0,
+  "shortlist": [
+    {
+      "key": "s1",
+      "fact": "Nnamdi Azikiwe, a future Nigerian president, advised Kwame Nkrumah, a Ghanaian politician and revolutionary, to enroll at Lincoln University in Pennsylvania.",
+      "category": "History",
+      "votes": "3/3",
+      "why": "Two independence giants I grew up hearing about, and it turns out Zik personally sent Nkrumah to the school that shaped him — that link is not something I ever heard in class.",
+      "title": "Kwame Nkrumah",
+      "url": "https://en.wikipedia.org/wiki/Kwame_Nkrumah",
+      "claim": "Ghanaian politician and revolutionary Kwame Nkrumah enrolled at Lincoln University in Pennsylvania on the advice of Nnamdi Azikiwe, a future Nigerian president.",
+      "candidate": {
+        "fact": "Nnamdi Azikiwe, a future Nigerian president, advised Kwame Nkrumah, a Ghanaian politician and revolutionary, to enroll at Lincoln University in Pennsylvania.",
+        "passage": "Azikiwe had attended Lincoln University, a historically black college in Chester County, Pennsylvania, west of Philadelphia, and he advised Nkrumah to enroll there.",
+        "category": "History",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "Pasted by the owner: \"Ghanaian politician and revolutionary Kwame Nkrumah enrolled at Lincoln University in Pennsylvania on the advice of Nnamdi Azikiwe, a future Nigerian president.\"",
+        "volatile": false,
+        "slug": "kwame-nkrumah",
+        "country": "GH",
+        "source": {
+          "title": "Kwame Nkrumah",
+          "url": "https://en.wikipedia.org/wiki/Kwame_Nkrumah",
+          "revisionId": "1376001288",
+          "contentHash": "93f0b7742ace7afc",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    }
+  ],
+  "alternates": [
+    {
+      "key": "a1",
+      "fact": "In 1979, Nigerian musician Fela Kuti formed a political party called Movement of the People, to \"clean up society like a mop\".",
+      "category": "History",
+      "votes": "3/3",
+      "why": "I know Fela as the guy who beefed with soldiers and made Afrobeat, not as a man registering a party and campaigning with a mop line — that's a whole new side of him and the quote is funny enough to screenshot.",
+      "title": "Fela Kuti",
+      "url": "https://en.wikipedia.org/wiki/Fela_Kuti",
+      "claim": "In 1079, Fela Kuti formed a political party called Movement of the People, to \"clean up society like a mop\".",
+      "candidate": {
+        "fact": "In 1979, Nigerian musician Fela Kuti formed a political party called Movement of the People, to \"clean up society like a mop\".",
+        "passage": "In 1979, Kuti formed his political party, which he called Movement of the People (MOP), to \"clean up society like a mop\", but it quickly became inactive due to his confrontations with the government of the day.",
+        "category": "History",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "Pasted by the owner: \"In 1079, Fela Kuti formed a political party called Movement of the People, to \"clean up society like a mop\".\"",
+        "volatile": false,
+        "slug": "fela",
+        "country": "NG",
+        "source": {
+          "title": "Fela Kuti",
+          "url": "https://en.wikipedia.org/wiki/Fela_Kuti",
+          "revisionId": "1371857977",
+          "contentHash": "",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-08-30",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      },
+      "aside": "Corrected. You pasted: \"In 1079, Fela Kuti formed a political party called Movement of the People, to \"clean up society like a mop\"\". The document says Kuti formed the Movement of the People party in 1979, not 1079."
+    }
+  ],
+  "unverified": [
+    {
+      "n": 3,
+      "claim": "Fela Kuti formed his own political party, Movement of the People, in 1578.",
+      "status": "repeat",
+      "why": "Same source sentence as \"In 1979, Nigerian musician Fela Kuti formed a political party called Movement of\", pasted earlier."
+    }
+  ],
+  "trace": [],
+  "decidedAt": "2026-09-29T19:52:30.082Z",
+  "developed": [
+    "nf_1190",
+    "nf_1191"
+  ]
+}

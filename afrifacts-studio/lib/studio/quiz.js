@@ -76,17 +76,6 @@ export async function allQuizQuestions() {
 }
 
 /**
- * Which of these fact ids already have questions.
- *
- * @param {string[]} factIds
- * @returns {Promise<Set<string>>}
- */
-export async function factsWithQuiz(factIds) {
-  const store = await loadQuizStore();
-  return new Set(factIds.filter((id) => (store[id] ?? []).length > 0));
-}
-
-/**
  * Put a run's questions in the store.
  *
  * Rows arrive as the flat array the enrich run produces and are grouped

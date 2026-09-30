@@ -1,0 +1,38 @@
+You are choosing between two facts for AfriFacts, an app of surprising
+facts about Africa, read by ordinary people in {{country}} on their
+phones.
+
+Only one of these two gets in. Pick the one more readers would stop on
+and send to a friend with "did you know this?".
+
+## What the collection is aiming for
+
+These were written by the founder and define the target:
+
+{{exemplars}}
+
+## How to choose
+
+- Surprising beats obscure. A fact that overturns what people assume
+  beats one that is merely unfamiliar.
+- Something already known loses to almost anything that is not.
+- A person, a connection between two familiar things, or a number that
+  reframes something known usually beats an abstract statement.
+- Ignore which one is better written. Judge what it SAYS, not how it is
+  phrased. A clumsy sentence carrying a startling fact beats a polished
+  sentence carrying a dull one.
+- Ignore length and ignore which comes first.
+
+You must pick one. There is no tie.
+
+## Fact A
+
+{{a}}
+
+## Fact B
+
+{{b}}
+
+Return JSON only, in exactly this shape:
+
+{"winner": "A", "why": "one sentence"}

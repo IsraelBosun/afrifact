@@ -40,16 +40,6 @@ import { editFact, loadFactStore, saveFactStore, setQueued } from './facts.js';
 import { deleteReview, saveReview } from './reviews.js';
 import { validate } from '../validate.js';
 
-/** @param {string} path */
-async function readJsonArray(path) {
-  try {
-    const parsed = JSON.parse(await readFile(path, 'utf8'));
-    return Array.isArray(parsed) ? parsed : [];
-  } catch {
-    return [];
-  }
-}
-
 /**
  * @param {string} factId
  * @returns {Promise<import('../types/provenance.js').SourcedFact | null>}
@@ -512,45 +502,6 @@ export async function addSource(body) {
   return { ok: true, source: entry, note: adopted || renamed };
 }
 
-/**
- * Take an article off the seed list.
- *
- * Removal is only ever removal from the list. The cached text stays,
- * because the verifier needs the exact bytes the model saw and facts
- * already published point at them; the candidates stay, because a triage
- * verdict is a decision; the facts obviously stay. What this changes is
- * one thing — fetch will not pull it again, and extract will not offer
- * it. The counts come back so that is visible rather than assumed.
- *
- * @param {{ slug?: unknown }} body
- */
-export async function removeSource(body) {
-  const slug = typeof body?.slug === 'string' ? body.slug.trim() : '';
-  const sources = await loadSources();
-  if (!sources.some((s) => s.slug === slug)) {
-    return { ok: false, error: `'${slug}' is not on the list.` };
-  }
-
-  await saveSources(sources.filter((s) => s.slug !== slug));
-
-  const [cached, candidates, store] = await Promise.all([
-    loadCached(slug),
-    readJsonArray(CANDIDATES_PATH),
-    loadFactStore(),
-  ]);
-  const prefix = `${slug}::`;
-
-  return {
-    ok: true,
-    kept: {
-      cached: cached !== null,
-      candidates: candidates.filter((c) => c?.slug === slug).length,
-      facts: Object.values(store).filter((r) => String(r?.record?.candidateKey ?? '').startsWith(prefix))
-        .length,
-    },
-  };
-}
-
 /* ---- editing a fact that is already in the corpus ---- */
 
 /**
@@ -871,33 +822,4 @@ export async function recordImageDecisions(body) {
       decidedBy: body?.decidedBy,
     }),
   );
-}
-
-/**
- * Take several articles off the seed list.
- *
- * @param {{ slugs?: unknown }} body
- */
-export async function removeSources(body) {
-  const slugs = body?.slugs;
-  if (!Array.isArray(slugs) || slugs.length === 0) {
-    return { ok: false, error: 'Nothing selected.' };
-  }
-
-  let done = 0;
-  /** @type {{ slug: string, error: string }[]} */
-  const failed = [];
-  const kept = { cached: 0, candidates: 0, facts: 0 };
-  for (const slug of slugs) {
-    const result = await removeSource({ slug });
-    if (!result.ok) {
-      failed.push({ slug: String(slug), error: result.error });
-      continue;
-    }
-    done += 1;
-    kept.cached += result.kept.cached ? 1 : 0;
-    kept.candidates += result.kept.candidates;
-    kept.facts += result.kept.facts;
-  }
-  return { ok: true, done, failed, kept };
 }

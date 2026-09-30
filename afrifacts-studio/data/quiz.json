@@ -6722,5 +6722,1522 @@
       "correctIndex": 2,
       "explanation": "Osinbajo was serving as Vice-President under Muhammadu Buhari."
     }
+  ],
+  "nf_1162": [
+    {
+      "id": "q_nf_1162_1",
+      "factId": "nf_1162",
+      "question": "What did Dantata deposit when the Bank of British West Africa opened in Kano in 1929?",
+      "options": [
+        "Twenty camel-loads of silver coins",
+        "A chest of gold sovereigns",
+        "A caravan of cattle",
+        "Sacks of groundnuts"
+      ],
+      "correctIndex": 0,
+      "explanation": "He deposited twenty camel-loads of silver coins, becoming the first Kano businessman to use a bank."
+    },
+    {
+      "id": "q_nf_1162_2",
+      "factId": "nf_1162",
+      "question": "Which crop did Dantata buy through a large network of agents for the Niger Company?",
+      "options": [
+        "Cocoa",
+        "Groundnuts",
+        "Cotton",
+        "Palm oil"
+      ],
+      "correctIndex": 1,
+      "explanation": "By 1918 he had established a large network of agents and sub-agents to purchase groundnuts."
+    },
+    {
+      "id": "q_nf_1162_3",
+      "factId": "nf_1162",
+      "question": "What did Dantata's only safe contain after his death in 1955?",
+      "options": [
+        "Gold bars and jewellery",
+        "A checkbook for each of the two Kano banks, with balances under £30",
+        "Deeds to his Kano properties",
+        "A ledger of his groundnut sales"
+      ],
+      "correctIndex": 1,
+      "explanation": "Because he scarcely kept records and only used a bank when needed, his safe held checkbooks with balances totaling less than £30."
+    }
+  ],
+  "nf_1163": [
+    {
+      "id": "q_nf_1163_1",
+      "factId": "nf_1163",
+      "question": "What does the nickname 'ɗan Tata' mean?",
+      "options": [
+        "Tata's son",
+        "Tata's trader",
+        "Tata's brother",
+        "Tata's servant"
+      ],
+      "correctIndex": 0,
+      "explanation": "'ɗan Tata' translates to 'Tata's son', referring to the old slave woman who raised Dantata."
+    },
+    {
+      "id": "q_nf_1163_2",
+      "factId": "nf_1163",
+      "question": "Why did Dantata's mother leave her children in the care of Tata?",
+      "options": [
+        "She was forced into slavery.",
+        "She moved to Accra to trade.",
+        "She died shortly after childbirth.",
+        "She was exiled from Bebeji."
+      ],
+      "correctIndex": 1,
+      "explanation": "Dantata's mother moved to Accra, an important trading center, leaving her children with Tata."
+    },
+    {
+      "id": "q_nf_1163_3",
+      "factId": "nf_1163",
+      "question": "What did Tata buy for Dantata to encourage him to save?",
+      "options": [
+        "A ceramic moneybox",
+        "A leather pouch",
+        "A set of scales",
+        "A wooden chest"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tata bought him an asusu, a ceramic moneybox, which the Dantata family still possesses."
+    }
+  ],
+  "nf_1164": [
+    {
+      "id": "q_nf_1164_1",
+      "factId": "nf_1164",
+      "question": "Which party did Dantata's sons Aminu and Mahmudu originally belong to?",
+      "options": [
+        "Northern People's Congress",
+        "Northern Elements Progressive Union",
+        "Action Group",
+        "Amalgamated Northern Merchants' Union"
+      ],
+      "correctIndex": 1,
+      "explanation": "NEPU was the socialist opposition party that was the NPC's biggest rival in the North."
+    },
+    {
+      "id": "q_nf_1164_2",
+      "factId": "nf_1164",
+      "question": "What position did Dantata hold on the Kano Emirate Council?",
+      "options": [
+        "Adviser on commercial matters",
+        "Secretary of the council",
+        "Chief of the Sarari ward",
+        "Representative of the Fulani nobles"
+      ],
+      "correctIndex": 0,
+      "explanation": "In 1950 the Emir of Kano appointed Dantata to represent the merchant class and advise on commercial matters."
+    },
+    {
+      "id": "q_nf_1164_3",
+      "factId": "nf_1164",
+      "question": "Who did Mahmud Dantata defeat in the 1964 Federal Parliament election?",
+      "options": [
+        "Ahmadu Dantata",
+        "Alhassan Dantata",
+        "Aminu Kano",
+        "Abdullahi Bayero"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mahmud defeated NEPU's leader Aminu Kano, the same opponent his brother Ahmadu had beaten in 1956."
+    }
+  ],
+  "nf_1165": [
+    {
+      "id": "q_nf_1165_1",
+      "factId": "nf_1165",
+      "question": "Why did Dantata go to Accra as a teenager?",
+      "options": [
+        "To trade kolanuts on the coast",
+        "To visit his mother and rely on her wealth",
+        "To escape the Kano Civil War",
+        "To study under a famous Mallam"
+      ],
+      "correctIndex": 1,
+      "explanation": "He joined a Gonja-bound caravan hoping to live off his mother's wealth, but she sent him to a Mallam instead."
+    },
+    {
+      "id": "q_nf_1165_2",
+      "factId": "nf_1165",
+      "question": "What did Dantata's mother do a day after he arrived in Accra?",
+      "options": [
+        "Sent him back to Kano with a caravan",
+        "Bought him an asusu to save money",
+        "Took him to a Mallam and told him to stay",
+        "Arranged for him to work in her trade"
+      ],
+      "correctIndex": 2,
+      "explanation": "She took him to a Mallam and asked him to stay there until he was ready to return to Kano, which is how he came to live as an almajiri."
+    },
+    {
+      "id": "q_nf_1165_3",
+      "factId": "nf_1165",
+      "question": "How many people did Dantata sponsor for the pilgrimage to Mecca in 1927?",
+      "options": [
+        "Six",
+        "Ten",
+        "Sixteen",
+        "Twenty"
+      ],
+      "correctIndex": 2,
+      "explanation": "He sponsored 16 persons in 1927, one of whom was the Mallam he had lived under in Accra."
+    }
+  ],
+  "nf_1166": [
+    {
+      "id": "q_nf_1166_1",
+      "factId": "nf_1166",
+      "question": "What was the code name of the Dubai Police operation that led to Hushpuppi's arrest?",
+      "options": [
+        "Fox Hunt 2",
+        "Operation Eagle Claw",
+        "Desert Storm",
+        "Night Watch"
+      ],
+      "correctIndex": 0,
+      "explanation": "The raid on Abbas's apartment was part of an operation code-named Fox Hunt 2, which involved simultaneous raids on multiple suspects."
+    },
+    {
+      "id": "q_nf_1166_2",
+      "factId": "nf_1166",
+      "question": "How many smartphones were seized from Hushpuppi's apartment?",
+      "options": [
+        "21",
+        "47",
+        "15",
+        "5"
+      ],
+      "correctIndex": 1,
+      "explanation": "Detectives seized 47 smartphones, along with 21 laptops and other devices, from the apartment."
+    },
+    {
+      "id": "q_nf_1166_3",
+      "factId": "nf_1166",
+      "question": "Which agency's investigation was the arrest part of?",
+      "options": [
+        "Interpol",
+        "MI6",
+        "The FBI",
+        "Europol"
+      ],
+      "correctIndex": 2,
+      "explanation": "The arrest was part of an FBI investigation that indicted Abbas as a key player in a transnational cybercrime network."
+    }
+  ],
+  "nf_1167": [
+    {
+      "id": "q_nf_1167_1",
+      "factId": "nf_1167",
+      "question": "What did Okwaraji study in Rome before his football career took off?",
+      "options": [
+        "International law",
+        "Sports medicine",
+        "Business administration",
+        "Civil engineering"
+      ],
+      "correctIndex": 0,
+      "explanation": "He left Nigeria in 1982 to study international law in Rome and later earned a master's from the Pontifical Lateran University."
+    },
+    {
+      "id": "q_nf_1167_2",
+      "factId": "nf_1167",
+      "question": "How many international appearances did Okwaraji make for Nigeria?",
+      "options": [
+        "Eight",
+        "Fifteen",
+        "Twenty-three",
+        "Thirty-one"
+      ],
+      "correctIndex": 0,
+      "explanation": "He played for the national team for only about a year, making eight appearances, yet became known for his energetic and disciplined style."
+    },
+    {
+      "id": "q_nf_1167_3",
+      "factId": "nf_1167",
+      "question": "What did the Nigerian government do 20 years after Okwaraji's death?",
+      "options": [
+        "Named a stadium after him",
+        "Set up a statue of him in front of the stadium where he died",
+        "Launched a national football tournament in his name",
+        "Retired his shirt number"
+      ],
+      "correctIndex": 1,
+      "explanation": "The statue stands in front of the Lagos National Stadium, and a memorial football competition in his name was announced separately, for 2024."
+    }
+  ],
+  "nf_1168": [
+    {
+      "id": "q_nf_1168_1",
+      "factId": "nf_1168",
+      "question": "Which of these was Ameyo Adadevoh's great-grandfather?",
+      "options": [
+        "Nnamdi Azikiwe",
+        "Herbert Macaulay",
+        "Ajayi Crowther",
+        "Babatunde Kwaku Adadevoh"
+      ],
+      "correctIndex": 1,
+      "explanation": "Herbert Macaulay, one of the founders of modern Nigeria, was her great-grandfather, and a statue of him stands at First Consultant Hospital."
+    },
+    {
+      "id": "q_nf_1168_2",
+      "factId": "nf_1168",
+      "question": "Where did Adadevoh work when she diagnosed Nigeria's first Ebola case?",
+      "options": [
+        "Lagos University Teaching Hospital",
+        "Hammersmith Hospital",
+        "First Consultant Hospital",
+        "Aminu Kano Teaching Hospital"
+      ],
+      "correctIndex": 2,
+      "explanation": "She spent 21 years at First Consultant Hospital in Lagos, and it was there in July 2014 that she identified Patrick Sawyer as Nigeria's index case."
+    },
+    {
+      "id": "q_nf_1168_3",
+      "factId": "nf_1168",
+      "question": "When did the WHO declare Nigeria Ebola-free?",
+      "options": [
+        "20 October 2014",
+        "19 August 2014",
+        "4 August 2014",
+        "12 September 2014"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nigeria was declared Ebola-free on 20 October 2014, about two months after Adadevoh died of the disease."
+    }
+  ],
+  "nf_1169": [
+    {
+      "id": "q_nf_1169_1",
+      "factId": "nf_1169",
+      "question": "Why was Ajunwa unable to register at university at 18?",
+      "options": [
+        "She failed the entrance examination",
+        "Her mother could not pay the tuition",
+        "She had already turned professional in football",
+        "She was serving a competition ban"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ajunwa gained admission but could not register because her mother was unable to pay the tuition."
+    },
+    {
+      "id": "q_nf_1169_2",
+      "factId": "nf_1169",
+      "question": "What trade did Ajunwa begin training in after missing university?",
+      "options": [
+        "Automobile mechanic",
+        "Tailor",
+        "Electrician",
+        "Welder"
+      ],
+      "correctIndex": 0,
+      "explanation": "She opted to train as an automobile mechanic, though she abandoned the idea after her mother's disapproval."
+    },
+    {
+      "id": "q_nf_1169_3",
+      "factId": "nf_1169",
+      "question": "What distance did Ajunwa jump to win gold at the 1996 Atlanta Olympics?",
+      "options": [
+        "6.72 metres",
+        "7.12 metres",
+        "7.52 metres",
+        "6.92 metres"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ajunwa won the women's long jump final with a first-attempt jump of 7.12 metres."
+    }
+  ],
+  "nf_1170": [
+    {
+      "id": "q_nf_1170_1",
+      "factId": "nf_1170",
+      "question": "According to the source, beske or awara is the Yoruba name for which food?",
+      "options": [
+        "Tofu",
+        "Cottage cheese",
+        "Bean fritter",
+        "Steamed bean pudding"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source states plainly that beske or awara is the local name for tofu among Yoruba-speaking people."
+    },
+    {
+      "id": "q_nf_1170_2",
+      "factId": "nf_1170",
+      "question": "Which of these is described in the source as a Yoruba soft cottage cheese made from fresh cow milk?",
+      "options": [
+        "Wara",
+        "Awara",
+        "Beske",
+        "Akara"
+      ],
+      "correctIndex": 0,
+      "explanation": "Wara is the Yoruba soft cottage cheese made from fresh cow milk, while awara and beske are names for tofu."
+    },
+    {
+      "id": "q_nf_1170_3",
+      "factId": "nf_1170",
+      "question": "In the source, beske or awara appears in which section of Nigerian cuisine?",
+      "options": [
+        "Snacks",
+        "Soups and stews",
+        "Breakfast",
+        "Beverages"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source lists beske or awara under Snacks, alongside items such as puff-puff, chin chin and kuli-kuli."
+    }
+  ],
+  "nf_1171": [
+    {
+      "id": "q_nf_1171_1",
+      "factId": "nf_1171",
+      "question": "What did Michael Ibru do to popularise frozen fish?",
+      "options": [
+        "He gave it away free in markets",
+        "He ran a nationwide advertising campaign and taught people how to smoke it",
+        "He lobbied the government to ban fresh fish sales",
+        "He sold it only to restaurants and hotels"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ibru used slogans like \"Sokoyokoto, Eja Ibru\" and showed people how to smoke frozen fish, since the product was initially met with resistance."
+    },
+    {
+      "id": "q_nf_1171_2",
+      "factId": "nf_1171",
+      "question": "Which company did Ibru found in partnership with the Japanese conglomerate Taiyo Gyogo?",
+      "options": [
+        "Ibru Sea Foods",
+        "Emsee Shipping Lines",
+        "Osadjere Fishing Company",
+        "Nigeria Hardwood Company"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Osadjere Fishing Company was founded in 1965, two years after Ibru chartered his first vessel from Taiyo Gyogo, and grew to over 25 trawlers."
+    },
+    {
+      "id": "q_nf_1171_3",
+      "factId": "nf_1171",
+      "question": "Roughly how many people did the Ibru Organisation employ by 1990?",
+      "options": [
+        "Between 900 and 1,100",
+        "Between 3,000 and 5,000",
+        "Between 9,000 and 11,000",
+        "Between 25,000 and 30,000"
+      ],
+      "correctIndex": 2,
+      "explanation": "By 1990 the conglomerate had between 9,000 and 11,000 employees and had grown into a multi-billion dollar business by the early 2000s."
+    }
+  ],
+  "nf_1172": [
+    {
+      "id": "q_nf_1172_1",
+      "factId": "nf_1172",
+      "question": "When did Cute Abiola enlist in the Nigerian Navy?",
+      "options": [
+        "2015",
+        "2018",
+        "2021",
+        "2022"
+      ],
+      "correctIndex": 1,
+      "explanation": "He enlisted on 7 March 2018 and trained at the Nigerian Navy Training School as a cadet naval officer."
+    },
+    {
+      "id": "q_nf_1172_2",
+      "factId": "nf_1172",
+      "question": "What corrective measure did he receive after his 2021 detention?",
+      "options": [
+        "A formal dismissal from the Navy",
+        "One month of extra duty",
+        "A reduction in rank",
+        "A suspension of his social media accounts"
+      ],
+      "correctIndex": 1,
+      "explanation": "After the military disciplinary process he was released and assigned one month of extra duty."
+    },
+    {
+      "id": "q_nf_1172_3",
+      "factId": "nf_1172",
+      "question": "How long had he lived in Ilorin, where he developed the accent used in his skits?",
+      "options": [
+        "8 years",
+        "12 years",
+        "18 years",
+        "28 years"
+      ],
+      "correctIndex": 2,
+      "explanation": "He lived in Ilorin for 18 years, and the accent he picked up there shaped his comedy performances."
+    }
+  ],
+  "nf_1173": [
+    {
+      "id": "q_nf_1173_1",
+      "factId": "nf_1173",
+      "question": "Which newspaper published the article that led to Orobosa Omo-Ojo's arrest?",
+      "options": [
+        "The Lagos Daily Times",
+        "The Nigerian Midwest Herald",
+        "The Akure Gazette",
+        "The Nigerian Tribune"
+      ],
+      "correctIndex": 1,
+      "explanation": "Omo-Ojo was the publisher of the Lagos-based Nigerian Midwest Herald, the paper that ran \"Greedy Stella.\""
+    },
+    {
+      "id": "q_nf_1173_2",
+      "factId": "nf_1173",
+      "question": "Where was Omo-Ojo taken after his arrest?",
+      "options": [
+        "Lagos prison",
+        "Akure prison",
+        "Abuja prison",
+        "Ibadan prison"
+      ],
+      "correctIndex": 1,
+      "explanation": "Reporters Without Borders reported that he was taken to Akure prison after his arrest on 2 May 2005."
+    },
+    {
+      "id": "q_nf_1173_3",
+      "factId": "nf_1173",
+      "question": "What was the surgeon who operated on Stella Obasanjo sentenced to in September 2009?",
+      "options": [
+        "Two years in prison and a five-year disqualification",
+        "One year in prison and a three-year disqualification",
+        "A fine only, with no prison term",
+        "Three years in prison and a lifetime ban"
+      ],
+      "correctIndex": 1,
+      "explanation": "He received one year in prison, a three-year disqualification from medicine, and an order to pay €120,000 to her son, while prosecutors had asked for two years and five years."
+    }
+  ],
+  "nf_1175": [
+    {
+      "id": "q_nf_1175_1",
+      "factId": "nf_1175",
+      "question": "Where did the first Chicken Republic restaurant open?",
+      "options": [
+        "Apapa, Lagos",
+        "Abuja",
+        "Accra, Ghana",
+        "Port Harcourt"
+      ],
+      "correctIndex": 0,
+      "explanation": "The first outlet opened in Apapa, Lagos, in 2004, before the chain spread to other Nigerian cities and Ghana."
+    },
+    {
+      "id": "q_nf_1175_2",
+      "factId": "nf_1175",
+      "question": "What was Food Concepts incorporated as in December 1999?",
+      "options": [
+        "Food Concepts Plc",
+        "Food Concepts & Entertainment Limited",
+        "Chicken Republic Limited",
+        "Ganic Foods Limited"
+      ],
+      "correctIndex": 1,
+      "explanation": "It was incorporated as Food Concepts & Entertainment Limited and only converted to Food Concepts Plc by special resolution in 2009."
+    },
+    {
+      "id": "q_nf_1175_3",
+      "factId": "nf_1175",
+      "question": "Which of these is one of the proprietary brands Food Concepts consolidated around?",
+      "options": [
+        "Chicken Licken",
+        "Butterfield Bakery",
+        "PieXpress",
+        "St. Elmo's Pizza"
+      ],
+      "correctIndex": 2,
+      "explanation": "Food Concepts kept Chicken Republic, PieXpress, and The Chop Box as brands it owns outright, while divesting from franchised South African brands."
+    }
+  ],
+  "nf_1176": [
+    {
+      "id": "q_nf_1176_1",
+      "factId": "nf_1176",
+      "question": "What was Olojede covering in April 1994 when the Rwandan genocide broke out?",
+      "options": [
+        "The war in Rwanda itself",
+        "South Africa's first free elections",
+        "The release of Nelson Mandela",
+        "A famine in Ethiopia"
+      ],
+      "correctIndex": 1,
+      "explanation": "He was in South Africa for the vote that ended apartheid, and has said he wondered whether he could have helped in Rwanda had he gone there instead."
+    },
+    {
+      "id": "q_nf_1176_2",
+      "factId": "nf_1176",
+      "question": "How many journalists did Olojede hire when he launched NEXT?",
+      "options": [
+        "20",
+        "40",
+        "80",
+        "150"
+      ],
+      "correctIndex": 2,
+      "explanation": "NEXT hired 80 new journalists fresh out of college, working out of a diesel-powered 24-hour newsroom."
+    },
+    {
+      "id": "q_nf_1176_3",
+      "factId": "nf_1176",
+      "question": "What did NEXT publish about President Umaru Yar'Adua?",
+      "options": [
+        "That he had resigned",
+        "That he was brain dead",
+        "That he had been arrested",
+        "That he had left Nigeria permanently"
+      ],
+      "correctIndex": 1,
+      "explanation": "NEXT published the story that Yar'Adua was brain dead and not \"returning soon from a Saudi hospital\" as promised."
+    }
+  ],
+  "nf_1177": [
+    {
+      "id": "q_nf_1177_1",
+      "factId": "nf_1177",
+      "question": "Where did Olusola's parents meet?",
+      "options": [
+        "Loma Linda University",
+        "Albert Einstein Medical Center",
+        "Yale University",
+        "Phillips Academy Andover"
+      ],
+      "correctIndex": 0,
+      "explanation": "His father came to Loma Linda University from Nigeria, and met his wife there while she was doing her MPH."
+    },
+    {
+      "id": "q_nf_1177_2",
+      "factId": "nf_1177",
+      "question": "Which instrument did Olusola start first?",
+      "options": [
+        "Cello",
+        "Alto saxophone",
+        "Piano",
+        "Drums"
+      ],
+      "correctIndex": 2,
+      "explanation": "He started piano at age four, then cello at six and alto saxophone at ten."
+    },
+    {
+      "id": "q_nf_1177_3",
+      "factId": "nf_1177",
+      "question": "What did Olusola study at Yale after switching from an academic music major?",
+      "options": [
+        "Medicine",
+        "East Asian Studies",
+        "Classical performance",
+        "Chinese literature"
+      ],
+      "correctIndex": 1,
+      "explanation": "He switched to East Asian Studies after a short Chinese government sponsored trip introduced him to China."
+    }
+  ],
+  "nf_1178": [
+    {
+      "id": "q_nf_1178_1",
+      "factId": "nf_1178",
+      "question": "How many portraits of Adetutu Ademiluyi did Enwonwu paint?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Five"
+      ],
+      "correctIndex": 2,
+      "explanation": "Enwonwu painted a series of three Tutu portraits in 1973, and only one has been rediscovered."
+    },
+    {
+      "id": "q_nf_1178_2",
+      "factId": "nf_1178",
+      "question": "Where was the rediscovered Tutu portrait found in 2017?",
+      "options": [
+        "A Lagos gallery",
+        "A London flat",
+        "A New York warehouse",
+        "A Paris museum"
+      ],
+      "correctIndex": 1,
+      "explanation": "The painting surfaced in a London flat before being sold at Bonhams."
+    },
+    {
+      "id": "q_nf_1178_3",
+      "factId": "nf_1178",
+      "question": "What position did Enwonwu hold at the University of Ife from 1971 to 1975?",
+      "options": [
+        "Professor of Fine Arts",
+        "Director of Antiquities",
+        "Art adviser to the government",
+        "Fellow of Lagos University"
+      ],
+      "correctIndex": 0,
+      "explanation": "Enwonwu was appointed the first professor of fine arts at the University of Ife, the town connected to his Tutu subject."
+    }
+  ],
+  "nf_1179": [
+    {
+      "id": "q_nf_1179_1",
+      "factId": "nf_1179",
+      "question": "What does the EAT-SET use to draw blood from body cavities?",
+      "options": [
+        "A handheld vacuum pump",
+        "An electric suction device",
+        "A gravity-fed drainage tube",
+        "A motorized centrifuge"
+      ],
+      "correctIndex": 0,
+      "explanation": "The EAT-SET is a fully closed system that draws blood from body cavities using a handheld vacuum pump, which is why it needs no electricity."
+    },
+    {
+      "id": "q_nf_1179_2",
+      "factId": "nf_1179",
+      "question": "According to the source, what problem with blood banks does the EAT-SET help address in many African countries?",
+      "options": [
+        "Their blood is too expensive",
+        "They may be unreliable",
+        "They refuse to accept autologous blood",
+        "They cannot store blood for long"
+      ],
+      "correctIndex": 1,
+      "explanation": "The source states that the EAT-SET reduces dependency on blood banks, which may be unreliable in many African countries."
+    },
+    {
+      "id": "q_nf_1179_3",
+      "factId": "nf_1179",
+      "question": "When was the first documented use of self-donated blood?",
+      "options": [
+        "1818",
+        "1886",
+        "1914",
+        "1968"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source says the first documented use of self-donated blood was in 1818, when an Englishman salvaged vaginal blood from patients with postpartum hemorrhage."
+    }
+  ],
+  "nf_1180": [
+    {
+      "id": "q_nf_1180_1",
+      "factId": "nf_1180",
+      "question": "Which US body seized the $145 million in assets in 2017?",
+      "options": [
+        "The Federal Bureau of Investigation",
+        "The Department of Justice's kleptocracy team",
+        "The Securities and Exchange Commission",
+        "The Department of the Treasury"
+      ],
+      "correctIndex": 1,
+      "explanation": "The seizure was carried out by the US Justice Department's kleptocracy team, a unit focused on assets bought with allegedly stolen public funds."
+    },
+    {
+      "id": "q_nf_1180_2",
+      "factId": "nf_1180",
+      "question": "How much was the New York apartment said to be worth?",
+      "options": [
+        "$21 million",
+        "$50 million",
+        "$80 million",
+        "$145 million"
+      ],
+      "correctIndex": 1,
+      "explanation": "The apartment was valued at $50 million, while the yacht Galactica Star was valued at $80 million."
+    },
+    {
+      "id": "q_nf_1180_3",
+      "factId": "nf_1180",
+      "question": "What happened to Alison-Madueke's Abuja home in October 2015?",
+      "options": [
+        "It was sold at auction",
+        "It was raided and sealed by anti-corruption agents",
+        "It was returned to her family",
+        "It was seized by the US Justice Department"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nigerian Economic and Financial Crimes Commission agents raided and sealed the Asokoro home within hours of her alleged arrest in London."
+    }
+  ],
+  "nf_1181": [
+    {
+      "id": "q_nf_1181_1",
+      "factId": "nf_1181",
+      "question": "What was Hugo Weaving's father's profession?",
+      "options": [
+        "A seismologist",
+        "A tour guide",
+        "A schoolteacher",
+        "An actor"
+      ],
+      "correctIndex": 0,
+      "explanation": "Wallace Weaving was a seismologist, while Weaving's mother Anne Lennard was a tour guide and former teacher."
+    },
+    {
+      "id": "q_nf_1181_2",
+      "factId": "nf_1181",
+      "question": "Where did Weaving's parents meet?",
+      "options": [
+        "The University of Ibadan",
+        "The University of Bristol",
+        "The National Institute of Dramatic Art",
+        "Knox Grammar School"
+      ],
+      "correctIndex": 1,
+      "explanation": "His parents met as students at the University of Bristol, before work later took the family to Nigeria."
+    },
+    {
+      "id": "q_nf_1181_3",
+      "factId": "nf_1181",
+      "question": "When did Weaving's family move to Sydney intending to settle?",
+      "options": [
+        "1961",
+        "1968",
+        "1976",
+        "1981"
+      ],
+      "correctIndex": 2,
+      "explanation": "The family moved to Sydney in 1976 with the intention to settle, though his parents separated not long after."
+    }
+  ],
+  "nf_1182": [
+    {
+      "id": "q_nf_1182_1",
+      "factId": "nf_1182",
+      "question": "What did Inter Milan president Massimo Moratti do after Kanu failed his medical?",
+      "options": [
+        "He cancelled the contract and sold Kanu back to Ajax.",
+        "He kept Kanu and paid for his heart operation in Cleveland.",
+        "He loaned Kanu to another Serie A club until he recovered.",
+        "He asked Kanu to retire and join the coaching staff."
+      ],
+      "correctIndex": 1,
+      "explanation": "Moratti chose to keep Kanu and cover the cost of the surgery in Cleveland rather than void the contract."
+    },
+    {
+      "id": "q_nf_1182_2",
+      "factId": "nf_1182",
+      "question": "When did Kanu return to the Inter squad after his surgery?",
+      "options": [
+        "November 1996",
+        "January 1997",
+        "April 1997",
+        "August 1997"
+      ],
+      "correctIndex": 2,
+      "explanation": "Kanu had surgery in November 1996 and did not return to his club until April 1997."
+    },
+    {
+      "id": "q_nf_1182_3",
+      "factId": "nf_1182",
+      "question": "What organisation did Kanu found after his own heart experience?",
+      "options": [
+        "The Kanu Heart Foundation",
+        "The Nwankwo Kanu Trust",
+        "The African Heart Fund",
+        "The Kanu Children's Hospital"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kanu founded the Kanu Heart Foundation in 2000, which helps children with heart defects and has built five hospitals in Africa."
+    }
+  ],
+  "nf_1183": [
+    {
+      "id": "q_nf_1183_1",
+      "factId": "nf_1183",
+      "question": "Where was Freddie Mercury born?",
+      "options": [
+        "Stone Town, Zanzibar",
+        "Panchgani, India",
+        "Feltham, England",
+        "Bombay, India"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mercury was born Farrokh Bulsara in Stone Town in the British protectorate of Zanzibar, now part of Tanzania."
+    },
+    {
+      "id": "q_nf_1183_2",
+      "factId": "nf_1183",
+      "question": "What did Mercury study at Ealing Art College?",
+      "options": [
+        "Music",
+        "Graphic art and design",
+        "Law",
+        "Engineering"
+      ],
+      "correctIndex": 1,
+      "explanation": "He studied graphic art and design and later used those skills to design the heraldic arms for Queen."
+    },
+    {
+      "id": "q_nf_1183_3",
+      "factId": "nf_1183",
+      "question": "Which band did Mercury join in 1970 before it became Queen?",
+      "options": [
+        "Ibex",
+        "Sour Milk Sea",
+        "Smile",
+        "Wreckage"
+      ],
+      "correctIndex": 2,
+      "explanation": "In April 1970 Mercury teamed up with Taylor and May to become lead singer of their band Smile, which became Queen."
+    }
+  ],
+  "nf_1184": [
+    {
+      "id": "q_nf_1184_1",
+      "factId": "nf_1184",
+      "question": "Where was Mohammed Dewji born?",
+      "options": [
+        "Dar es Salaam",
+        "Arusha",
+        "Singida",
+        "Orlando"
+      ],
+      "correctIndex": 2,
+      "explanation": "Dewji was born in Singida, the town he later represented as a Member of Parliament."
+    },
+    {
+      "id": "q_nf_1184_2",
+      "factId": "nf_1184",
+      "question": "What condition did Dewji say almost killed him at birth?",
+      "options": [
+        "Nuchal cord",
+        "Malaria",
+        "Pneumonia",
+        "Dehydration"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nuchal cord is when the umbilical cord is wrapped around a baby's neck during birth."
+    },
+    {
+      "id": "q_nf_1184_3",
+      "factId": "nf_1184",
+      "question": "Who founded the business that became MeTL Group?",
+      "options": [
+        "Dewji's father",
+        "Dewji's grandmother",
+        "Dewji himself",
+        "Dewji's mother"
+      ],
+      "correctIndex": 1,
+      "explanation": "MeTL was founded by Dewji's grandmother and later developed by his father in the 1970s."
+    }
+  ],
+  "nf_1185": [
+    {
+      "id": "q_nf_1185_1",
+      "factId": "nf_1185",
+      "question": "What was the game called before it became Jenga?",
+      "options": [
+        "Takoradi Bricks",
+        "Jenga The Perpetual Challenge",
+        "Kujenga",
+        "The Great Game"
+      ],
+      "correctIndex": 0,
+      "explanation": "The family first called it Takoradi Bricks, after a port near their home in Ghana."
+    },
+    {
+      "id": "q_nf_1185_2",
+      "factId": "nf_1185",
+      "question": "Where did Scott exhibit the game in 1982?",
+      "options": [
+        "The London Toy & Hobby Fair",
+        "The Toronto Toy Fair",
+        "The Earls Court Toyfair",
+        "The National Toy Hall of Fame"
+      ],
+      "correctIndex": 2,
+      "explanation": "She showed it at the Earls Court Toyfair in 1982, and at the London Toy & Hobby Fair the following year."
+    },
+    {
+      "id": "q_nf_1185_3",
+      "factId": "nf_1185",
+      "question": "Which company licensed Jenga in 1986 and propelled it to worldwide success?",
+      "options": [
+        "Irwin Toy",
+        "Pokonobe Associates",
+        "Camphill",
+        "Hasbro"
+      ],
+      "correctIndex": 3,
+      "explanation": "Irwin Toy licensed Jenga to Hasbro in 1986, which drove the game's massive success."
+    }
+  ],
+  "nf_1186": [
+    {
+      "id": "q_nf_1186_1",
+      "factId": "nf_1186",
+      "question": "How many points did Samatta receive in the 2015 CAF African Player of the Year voting?",
+      "options": [
+        "88",
+        "127",
+        "63",
+        "110"
+      ],
+      "correctIndex": 1,
+      "explanation": "Samatta took 127 points, ahead of Robert Kidiaba on 88 and Baghdad Bounedjah on 63."
+    },
+    {
+      "id": "q_nf_1186_2",
+      "factId": "nf_1186",
+      "question": "Which club did Samatta join days after winning the award in January 2016?",
+      "options": [
+        "Aston Villa",
+        "Fenerbahçe",
+        "Genk",
+        "PAOK"
+      ],
+      "correctIndex": 2,
+      "explanation": "He signed a four-and-a-half-year contract with Belgian side Genk in January 2016."
+    },
+    {
+      "id": "q_nf_1186_3",
+      "factId": "nf_1186",
+      "question": "What did Samatta achieve in the 2015 CAF Champions League?",
+      "options": [
+        "He was the competition's top scorer with seven goals",
+        "He was named goalkeeper of the tournament",
+        "He scored the winning goal in the final only",
+        "He captained TP Mazembe to the title"
+      ],
+      "correctIndex": 0,
+      "explanation": "Samatta finished the 2015 Champions League as top scorer with seven goals and scored in both legs of the final."
+    }
+  ],
+  "nf_1187": [
+    {
+      "id": "q_nf_1187_1",
+      "factId": "nf_1187",
+      "question": "What was the immediate cause of the Anglo-Zanzibar War?",
+      "options": [
+        "A dispute over trade rights with Germany",
+        "The suspicious death of Sultan Hamad and Khalid's unauthorised succession",
+        "The sinking of a British gunboat in the harbour",
+        "A rebellion by Zanzibari askaris against British officers"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sultan Hamad bin Thuwaini died on 25 August 1896, and his nephew Khalid bin Barghash moved into the palace without the British consul's permission, which the 1890 protectorate agreement required."
+    },
+    {
+      "id": "q_nf_1187_2",
+      "factId": "nf_1187",
+      "question": "How many British casualties did the war produce?",
+      "options": [
+        "One sailor injured",
+        "Around 500 killed or wounded",
+        "Twenty soldiers killed",
+        "No casualties at all"
+      ],
+      "correctIndex": 0,
+      "explanation": "British casualties amounted to one petty officer severely wounded aboard Thrush, who later recovered, while Zanzibari forces sustained roughly 500 casualties."
+    },
+    {
+      "id": "q_nf_1187_3",
+      "factId": "nf_1187",
+      "question": "Where did Sultan Khalid go after fleeing the palace?",
+      "options": [
+        "He was captured and exiled to India",
+        "He escaped to German East Africa via the German consulate",
+        "He surrendered to the British and was imprisoned in Zanzibar",
+        "He fled to Oman to claim the throne there"
+      ],
+      "correctIndex": 1,
+      "explanation": "Khalid took refuge in the German consulate, and Germany refused extradition because its treaty with Britain excluded political prisoners, later smuggling him to Dar es Salaam in German East Africa."
+    }
+  ],
+  "nf_1188": [
+    {
+      "id": "q_nf_1188_1",
+      "factId": "nf_1188",
+      "question": "What happened to Neto after his arrest in Angola in 1960?",
+      "options": [
+        "He was exiled to Cape Verde, then jailed in Lisbon",
+        "He was sent directly to Morocco",
+        "He was held in Luanda until 1962",
+        "He was deported to Brazil"
+      ],
+      "correctIndex": 0,
+      "explanation": "Portugal first exiled Neto to Cape Verde, then sent him to jail in Lisbon before international protests secured his release."
+    },
+    {
+      "id": "q_nf_1188_2",
+      "factId": "nf_1188",
+      "question": "Why is an airport in Santo Antão, Cape Verde, named after Neto?",
+      "options": [
+        "He was born there",
+        "He led the MPLA from there",
+        "He worked there as a doctor",
+        "He signed a treaty there"
+      ],
+      "correctIndex": 2,
+      "explanation": "The source says the airport is named after him due to the beloved work he performed there as a doctor, the same reason the Praia hospital carries his name."
+    },
+    {
+      "id": "q_nf_1188_3",
+      "factId": "nf_1188",
+      "question": "What was the Massacre of Ícolo e Bengo?",
+      "options": [
+        "A battle between the MPLA and the FNLA",
+        "A Portuguese crackdown on a march for Neto's release",
+        "A protest against the Carnation Revolution",
+        "An attack on a hospital in Praia"
+      ],
+      "correctIndex": 1,
+      "explanation": "Supporters marching from Bengo to Catete to demand Neto's release were shot at by Portuguese soldiers, killing 30 and wounding 200."
+    }
+  ],
+  "nf_1189": [
+    {
+      "id": "q_nf_1189_1",
+      "factId": "nf_1189",
+      "question": "Where did Benfica hide Eusébio for twelve days in 1961?",
+      "options": [
+        "In a hotel in Lisbon",
+        "At a holiday home and hotel near Meia Praia beach in Lagos",
+        "At Benfica's training ground",
+        "In his mother's house in Lourenço Marques"
+      ],
+      "correctIndex": 1,
+      "explanation": "Benfica moved him to a holiday home owned by former president Domingos Claudino and a hotel near Meia Praia beach in the Algarve."
+    },
+    {
+      "id": "q_nf_1189_2",
+      "factId": "nf_1189",
+      "question": "What did Eusébio achieve while he was hidden in the Algarve?",
+      "options": [
+        "He signed his Benfica contract",
+        "He was awarded his 4th grade diploma",
+        "He made his Benfica debut",
+        "He was called up to the Portugal national team"
+      ],
+      "correctIndex": 1,
+      "explanation": "Eusébio studied until the 4th grade, and he concluded it through a final exam while he was hidden in the Algarve."
+    },
+    {
+      "id": "q_nf_1189_3",
+      "factId": "nf_1189",
+      "question": "What codename did Benfica give Eusébio after his meeting with Hilário?",
+      "options": [
+        "Ruth Malosso",
+        "Domingos Claudino",
+        "Rodrigues de Carvalho",
+        "Jaime Catarino Duarte"
+      ],
+      "correctIndex": 0,
+      "explanation": "Benfica found the meeting with Hilário suspicious and instructed Eusébio to be codenamed Ruth Malosso."
+    }
+  ],
+  "nf_1190": [
+    {
+      "id": "q_nf_1190_1",
+      "factId": "nf_1190",
+      "question": "Who advised Kwame Nkrumah to enroll at Lincoln University?",
+      "options": [
+        "Nnamdi Azikiwe",
+        "W. E. B. Du Bois",
+        "Marcus Garvey",
+        "Kwegyir Aggrey"
+      ],
+      "correctIndex": 0,
+      "explanation": "Azikiwe, a future Nigerian president, had attended Lincoln himself and told Nkrumah to go there."
+    },
+    {
+      "id": "q_nf_1190_2",
+      "factId": "nf_1190",
+      "question": "Where is Lincoln University located?",
+      "options": [
+        "Chester County, Pennsylvania",
+        "New York City, New York",
+        "Philadelphia, Pennsylvania",
+        "Accra, Gold Coast"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lincoln University is a historically black college in Chester County, Pennsylvania, west of Philadelphia."
+    },
+    {
+      "id": "q_nf_1190_3",
+      "factId": "nf_1190",
+      "question": "What did Nkrumah earn from Lincoln in 1942?",
+      "options": [
+        "A bachelor of theology degree",
+        "A master's degree in philosophy",
+        "A bachelor's degree in economics",
+        "A doctorate in anthropology"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nkrumah gained a bachelor of theology degree from Lincoln in 1942, as the top student in the course."
+    }
+  ],
+  "nf_1191": [
+    {
+      "id": "q_nf_1191_1",
+      "factId": "nf_1191",
+      "question": "What was the stated aim of Fela Kuti's Movement of the People?",
+      "options": [
+        "To clean up society like a mop",
+        "To unite Africa under one government",
+        "To abolish the Nigerian military",
+        "To promote Afrobeat across the continent"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kuti said MOP would \"clean up society like a mop,\" though the party quickly became inactive."
+    },
+    {
+      "id": "q_nf_1191_2",
+      "factId": "nf_1191",
+      "question": "According to the source, why did MOP become inactive?",
+      "options": [
+        "Kuti lost interest in politics",
+        "His confrontations with the government of the day",
+        "The party failed to attract any members",
+        "He was jailed for currency smuggling"
+      ],
+      "correctIndex": 1,
+      "explanation": "The source attributes MOP's inactivity to Kuti's confrontations with the government, not to a lack of support."
+    },
+    {
+      "id": "q_nf_1191_3",
+      "factId": "nf_1191",
+      "question": "What happened when Kuti nominated himself for president in 1983?",
+      "options": [
+        "He won but was barred from office",
+        "He withdrew before the vote",
+        "His candidature was refused",
+        "He was arrested at the nomination"
+      ],
+      "correctIndex": 2,
+      "explanation": "Kuti stood in Nigeria's first elections in decades, but his candidature was refused."
+    }
+  ],
+  "nf_1192": [
+    {
+      "id": "q_nf_1192_1",
+      "factId": "nf_1192",
+      "question": "In which country is Lake Manyara National Park located?",
+      "options": [
+        "Kenya",
+        "Tanzania",
+        "Uganda",
+        "Rwanda"
+      ],
+      "correctIndex": 1,
+      "explanation": "The park lies in northern Tanzania, near the town of Mto wa Mbu."
+    },
+    {
+      "id": "q_nf_1192_2",
+      "factId": "nf_1192",
+      "question": "Which tree do the lions of Lake Manyara particularly climb?",
+      "options": [
+        "Baobab",
+        "Mango",
+        "Acacia",
+        "Fig"
+      ],
+      "correctIndex": 2,
+      "explanation": "The lions are described as climbing the acacia trees found in the park."
+    },
+    {
+      "id": "q_nf_1192_3",
+      "factId": "nf_1192",
+      "question": "Roughly how many bird species have been recorded in Lake Manyara National Park?",
+      "options": [
+        "Over 100",
+        "Over 200",
+        "Over 400",
+        "Over 800"
+      ],
+      "correctIndex": 2,
+      "explanation": "More than 400 bird species have been recorded in the park, making it a draw for birdwatchers."
+    }
+  ],
+  "nf_1193": [
+    {
+      "id": "q_nf_1193_1",
+      "factId": "nf_1193",
+      "question": "Which explanation for Lake Manyara's tree-climbing lions has been definitively confirmed by researchers?",
+      "options": [
+        "Escaping biting insects",
+        "Seeking cooler temperatures",
+        "Better vantage points for spotting prey",
+        "None of them"
+      ],
+      "correctIndex": 3,
+      "explanation": "Researchers have proposed several theories, but no single explanation has been definitively confirmed."
+    },
+    {
+      "id": "q_nf_1193_2",
+      "factId": "nf_1193",
+      "question": "What kind of trees offer the best chance of spotting a tree-climbing lion at Manyara?",
+      "options": [
+        "Mature acacia trees sturdy enough to hold an adult lion",
+        "Young saplings in the groundwater forest",
+        "Palm trees along the lakeshore",
+        "Baobabs on the escarpment"
+      ],
+      "correctIndex": 0,
+      "explanation": "The park's acacia woodland, especially areas with mature trees capable of supporting an adult lion's weight, offers the best chances."
+    },
+    {
+      "id": "q_nf_1193_3",
+      "factId": "nf_1193",
+      "question": "How does tree-climbing behaviour among Manyara's lions compare with lions elsewhere in Africa?",
+      "options": [
+        "It never happens anywhere else",
+        "It happens occasionally elsewhere but with unusual regularity at Manyara",
+        "It happens more often elsewhere than at Manyara",
+        "It happens at exactly the same rate everywhere"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lions climb trees occasionally elsewhere in Africa, but Manyara's population displays the behaviour with genuinely unusual regularity."
+    }
+  ],
+  "nf_1194": [
+    {
+      "id": "q_nf_1194_1",
+      "factId": "nf_1194",
+      "question": "What was Botswana's rank among the world's poorest countries at independence in 1966?",
+      "options": [
+        "The poorest",
+        "Second-poorest",
+        "Third-poorest",
+        "Fifth-poorest"
+      ],
+      "correctIndex": 2,
+      "explanation": "At independence in 1966, Botswana was the world's third-poorest country, poorer than most other African countries."
+    },
+    {
+      "id": "q_nf_1194_2",
+      "factId": "nf_1194",
+      "question": "What discovery in 1967 aided Khama's economic programme?",
+      "options": [
+        "Copper deposits at Selebi-Phikwe",
+        "Diamond deposits at Orapa",
+        "Nickel deposits at Francistown",
+        "Coal deposits at Morupule"
+      ],
+      "correctIndex": 1,
+      "explanation": "The 1967 discovery of Orapa's diamond deposits aided Khama's programme to build an export-based economy."
+    },
+    {
+      "id": "q_nf_1194_3",
+      "factId": "nf_1194",
+      "question": "By what year had Botswana secured 50% of diamond mining revenues in a renegotiated agreement?",
+      "options": [
+        "1969",
+        "1972",
+        "1975",
+        "1979"
+      ],
+      "correctIndex": 2,
+      "explanation": "In 1975, after it became clear how productive the mines were, the government renegotiated the diamond mining agreement to guarantee itself 50% of the revenues."
+    }
+  ],
+  "nf_1195": [
+    {
+      "id": "q_nf_1195_1",
+      "factId": "nf_1195",
+      "question": "What time did Tebogo run to win the 200 m final in Paris?",
+      "options": [
+        "19.46 seconds",
+        "19.80 seconds",
+        "19.94 seconds",
+        "20.08 seconds"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tebogo's 19.46 in the Paris final was the run that delivered Botswana's first Olympic gold."
+    },
+    {
+      "id": "q_nf_1195_2",
+      "factId": "nf_1195",
+      "question": "When was the holiday in Botswana declared?",
+      "options": [
+        "The evening of 8 August",
+        "The afternoon of 9 August",
+        "The morning of 10 August",
+        "The afternoon of 11 August"
+      ],
+      "correctIndex": 1,
+      "explanation": "The holiday fell on the afternoon of 9 August, the day after Tebogo's win."
+    },
+    {
+      "id": "q_nf_1195_3",
+      "factId": "nf_1195",
+      "question": "What did the Botswana government give Tebogo in recognition of the victory?",
+      "options": [
+        "Two houses",
+        "A national stadium named after him",
+        "A cash prize and a car",
+        "A lifetime coaching post"
+      ],
+      "correctIndex": 0,
+      "explanation": "Alongside the holiday, the government awarded Tebogo two houses."
+    }
+  ],
+  "nf_1196": [
+    {
+      "id": "q_nf_1196_1",
+      "factId": "nf_1196",
+      "question": "Who did Shuttleworth speak to by video link as part of Freedom Day celebrations?",
+      "options": [
+        "Nelson Mandela",
+        "Thabo Mbeki",
+        "Michelle Foster",
+        "Dennis Tito"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mbeki was president of South Africa at the time and the video link was part of Freedom Day events marking the end of apartheid."
+    },
+    {
+      "id": "q_nf_1196_2",
+      "factId": "nf_1196",
+      "question": "What did Michelle Foster ask Shuttleworth during their radio conversation?",
+      "options": [
+        "To describe the view of Earth",
+        "To bring her back a rock from space",
+        "To marry her",
+        "To send a message to her school"
+      ],
+      "correctIndex": 2,
+      "explanation": "Foster, who was 14 and terminally ill, asked him to marry her, and he said he was very honoured before changing the subject."
+    },
+    {
+      "id": "q_nf_1196_3",
+      "factId": "nf_1196",
+      "question": "Which organisation arranged the call between Foster, Shuttleworth and Mandela?",
+      "options": [
+        "The Shuttleworth Foundation",
+        "Reach for a Dream",
+        "Space Adventures",
+        "The South African Scientific Institute"
+      ],
+      "correctIndex": 1,
+      "explanation": "Reach for a Dream, a foundation that grants wishes to seriously ill children, provided the opportunity for the conversation."
+    }
+  ],
+  "nf_1197": [
+    {
+      "id": "q_nf_1197_1",
+      "factId": "nf_1197",
+      "question": "What was Musk doing when he contracted malaria in 2000?",
+      "options": [
+        "On a business trip to Pretoria",
+        "On vacation in South Africa",
+        "Visiting family in Canada",
+        "Attending a conference in Moscow"
+      ],
+      "correctIndex": 1,
+      "explanation": "The source states he contracted a severe case of malaria while on vacation in South Africa in 2000."
+    },
+    {
+      "id": "q_nf_1197_2",
+      "factId": "nf_1197",
+      "question": "Which company had Musk been ousted from as CEO earlier in 2000?",
+      "options": [
+        "Zip2",
+        "SpaceX",
+        "The merged X.com and Confinity",
+        "Tesla"
+      ],
+      "correctIndex": 2,
+      "explanation": "The board ousted Musk and replaced him with Peter Thiel in 2000 after X.com merged with Confinity."
+    },
+    {
+      "id": "q_nf_1197_3",
+      "factId": "nf_1197",
+      "question": "Where was Musk born?",
+      "options": [
+        "Pretoria, South Africa",
+        "Kingston, Ontario",
+        "Saskatchewan, Canada",
+        "Palo Alto, California"
+      ],
+      "correctIndex": 0,
+      "explanation": "Musk was born on June 28, 1971, in Pretoria, South Africa's administrative capital."
+    }
+  ],
+  "nf_1198": [
+    {
+      "id": "q_nf_1198_1",
+      "factId": "nf_1198",
+      "question": "What process does Sasol use to turn coal into liquid fuels?",
+      "options": [
+        "The Fischer-Tropsch process",
+        "The Haber-Bosch process",
+        "The Bayer process",
+        "The Claus process"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sasol's Secunda plant uses coal gasification and the Fischer-Tropsch process to make synthetic fuels and chemicals."
+    },
+    {
+      "id": "q_nf_1198_2",
+      "factId": "nf_1198",
+      "question": "What emissions reduction target has Sasol set for 2030?",
+      "options": [
+        "A 10 per cent cut from a 2017 baseline",
+        "A 30 per cent cut from a 2017 baseline",
+        "A 50 per cent cut from a 2017 baseline",
+        "A 30 per cent cut from a 2020 baseline"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sasol aims to reduce CO2 emissions by 30 per cent from its FY17 baseline by 2030, though shareholders and environmentalists doubt the goal will be met."
+    },
+    {
+      "id": "q_nf_1198_3",
+      "factId": "nf_1198",
+      "question": "Where is Sasol producing green hydrogen with electrolysers powered by a solar farm?",
+      "options": [
+        "Secunda",
+        "Sasolburg",
+        "Lake Charles",
+        "Qatar"
+      ],
+      "correctIndex": 1,
+      "explanation": "The electrolysers at Sasol's Sasolburg plant are powered by renewable energy from a 3 MW solar farm."
+    }
+  ],
+  "nf_1199": [
+    {
+      "id": "q_nf_1199_1",
+      "factId": "nf_1199",
+      "question": "How many elephants did Tanzania's census record, down from more than 134,000 in 2005?",
+      "options": [
+        "66,714",
+        "100,000",
+        "130,000",
+        "134,000"
+      ],
+      "correctIndex": 0,
+      "explanation": "The 2024/2025 census put Tanzania's elephants at 66,714, while 130,000 and 100,000 are the figures given for Botswana and Zimbabwe."
+    },
+    {
+      "id": "q_nf_1199_2",
+      "factId": "nf_1199",
+      "question": "Which species did the census find at about 328,000, the highest number in Africa?",
+      "options": [
+        "Elephants",
+        "Buffalo",
+        "Lions",
+        "Black rhinos"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tawiri reported about 328,000 buffalo, the highest count on the continent, alongside 17,200 lions and around 302 black rhinos."
+    },
+    {
+      "id": "q_nf_1199_3",
+      "factId": "nf_1199",
+      "question": "Where does Tanzania rank in Africa for black rhinos, according to the census?",
+      "options": [
+        "First",
+        "Third",
+        "Fifth",
+        "Tenth"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tanzania hosts around 302 black rhinos, which ranks it fifth in Africa, while it ranks first for both lions and buffalo."
+    }
   ]
 }

@@ -282,49 +282,4 @@ export function creditFor(candidate) {
   return `Photo · ${via}`;
 }
 
-/**
- * What is actually left to do about images, and what never will be.
- *
- * An undecided fact is not automatically work. Three states hide behind
- * "no decision yet", and only two of them are askable:
- *
- *   pickable   its article has licence-clean images on disk. One click.
- *   needsRun   its article has never been harvested. A run would try it.
- *   stalled    its article was harvested and Commons had nothing free.
- *
- * `stalled` no longer means stuck. It means Commons has nothing free for
- * that article, and the run's second pass searches the web per fact for
- * exactly those — so they are still work a run can move, which is why
- * `actionable` counts all three. What it stops counting is a fact that
- * already has a picture.
- *
- * An absent pool key and an empty one mean different things on purpose —
- * `harvest-images` deliberately does not cache [] for an article whose
- * fetch failed, so absent means "not tried", never "nothing there".
- *
- * The test is HAS A PICTURE, not HAS A DECISION. A rejection is a
- * decision that leaves the fact blank, and counting it as settled is
- * what let 43 facts sit imageless through every run.
- *
- * @param {import('../../lib/types/provenance.js').SourcedFact[]} corpus
- * @param {import('./images.js').ImageStore} images
- * @param {ImagePool} pool
- */
-export function splitImageWork(corpus, images, pool) {
-  let pickable = 0;
-  let needsRun = 0;
-  let stalled = 0;
-
-  for (const entry of corpus) {
-    const decision = images[entry.fact.id];
-    if (decision && decision.status === 'accepted' && decision.file.length > 0) continue;
-    const article = entry.provenance.sources[0]?.shortName ?? '';
-    if (!(article in pool)) needsRun += 1;
-    else if (pool[article].length > 0) pickable += 1;
-    else stalled += 1;
-  }
-
-  return { pickable, needsRun, stalled, actionable: pickable + needsRun + stalled };
-}
-
 export { FOUND_PATH, IMAGES_PATH, POOL_PATH };

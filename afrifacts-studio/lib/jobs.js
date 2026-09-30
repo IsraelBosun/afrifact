@@ -51,17 +51,11 @@
 /** @type {Job | null} */
 let current = null;
 
-/** @type {Job[]} */
-const history = [];
-
 /** @type {Set<(event: { type: string, job: Job, line?: string }) => void>} */
 const listeners = new Set();
 
 /** How many lines to keep. A long run is chatty; a browser is not infinite. */
 const MAX_LOG = 2000;
-
-/** How many finished jobs to remember. */
-const MAX_HISTORY = 10;
 
 function emit(event) {
   for (const listener of listeners) {
@@ -86,11 +80,6 @@ export function subscribe(listener) {
 /** The job running right now, if any. */
 export function currentJob() {
   return current;
-}
-
-/** Finished jobs, newest first. */
-export function jobHistory() {
-  return history;
 }
 
 /** True while a stage is running. */
@@ -159,8 +148,6 @@ export function startJob(stage, run) {
     } finally {
       delete job.controller;
       job.finishedAt = new Date().toISOString();
-      history.unshift(job);
-      if (history.length > MAX_HISTORY) history.length = MAX_HISTORY;
       current = null;
       emit({ type: 'end', job });
     }

@@ -1,0 +1,39 @@
+Someone pasted a pile of facts they saw online, to be checked and added
+to AfriFacts, an app of surprising, verified facts about Africa. Your job
+is only to separate them: find every distinct fact in the text.
+
+## How to separate
+
+- A numbered or bulleted list: each item is one fact, unless one item
+  plainly makes two unrelated claims, in which case it is two.
+- Running prose: each separate claim is one fact. Setup and the claim it
+  sets up are ONE fact, not two.
+- The same fact said twice (reposted, reworded): list it once.
+- Leave out what is not a fact: headings, "did you know", hashtags,
+  emojis, usernames, "follow for more", opinions, jokes, questions,
+  advertising.
+- Keep each claim FAITHFUL to what was pasted. Tidy the wording into one
+  plain sentence, but do not correct it, soften it or add to it. It will
+  be checked against real sources, and a wrong claim is expected: that is
+  what the checking is for.
+
+## For each fact
+
+- "claim": the fact as one plain sentence.
+- "country": the ISO code of the African country it is about, from this
+  list: {{countries}}. If it is not clearly about one of them, use
+  {{fallback}}.
+- "look": one to three English Wikipedia article titles most likely to
+  state this fact: the person, company, event or place it is about, as
+  the article would be titled ("Hushpuppi", "Kwame Nkrumah", "Dangote
+  Group"). Most specific first.
+
+## The pasted text
+
+--- BEGIN PASTE ---
+{{text}}
+--- END PASTE ---
+
+Return JSON only:
+
+{"facts": [{"claim": "...", "country": "NG", "look": ["..."]}]}

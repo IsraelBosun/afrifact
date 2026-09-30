@@ -1230,5 +1230,1426 @@
         "why": "local history article about his story"
       }
     ]
+  },
+  "unlike lions elsewhere in africa, the lions in tarangire national park and lake manyara regularly climb trees to rest and escape daytime heat or biting flies.": {
+    "at": "2026-09-29T19:37:28.752Z",
+    "queries": [
+      "Tarangire lions tree climbing behavior",
+      "Lake Manyara tree-climbing lions study",
+      "Tarangire National Park lion research report",
+      "tree-climbing lions Tanzania history archive"
+    ],
+    "results": [
+      {
+        "title": "observations on lions in the lake manyara national park, ...",
+        "summary": "The lions of Lake Manyara National Park were observed for 1 1/4 years. About 0.4 lions/km2 inhabited the park, a density nearly double that found in Nairobi ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1365-2028.1969.tb01198.x",
+        "kind": "web",
+        "host": "onlinelibrary.wiley.com",
+        "trust": {
+          "tier": "peer-reviewed",
+          "rank": 1,
+          "label": "journal",
+          "usable": true
+        },
+        "why": "scientific paper reporting 1.25 years of field observations on Lake Manyara lions"
+      },
+      {
+        "title": "Resource Use and Conservation: Comparing the Effects of ...",
+        "summary": "Tarangire National Park, Tanzania. Oryx, 44(2) ... Conservation and Globalization: A Study of National ... Tarangire Lion Project (TLP) Report. Tarangire ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://ojs.stanford.edu/ojs/index.php/intersect/article/download/685/623/2763",
+        "kind": "web",
+        "host": "ojs.stanford.edu",
+        "trust": {
+          "tier": "peer-reviewed",
+          "rank": 1,
+          "label": "university",
+          "usable": true
+        },
+        "why": "academic paper referencing the Tarangire Lion Project and park conservation"
+      },
+      {
+        "title": "Lions of Lake Manyara National Park",
+        "summary": "Tree-climbing is genuinely rare among African lions, documented reliably in only a few populations continent-wide, and Manyara's prides are ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://www.allinafricasafaris.com/lions-of-lake-manyara-national-park/",
+        "kind": "web",
+        "host": "allinafricasafaris.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "allinafricasafaris.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "article on Lake Manyara's tree-climbing lion prides"
+      },
+      {
+        "title": "Tree-Climbing Lions in Lake Manyara National Park",
+        "summary": "Lions climb trees primarily to escape ground heat, avoid insects, and gain better vantage points for observing prey movements across the ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://www.tanzania-ugandasafaris.com/tree-climbing-lions-in-lake-manyara-national-park/",
+        "kind": "web",
+        "host": "tanzania-ugandasafaris.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "tanzania-ugandasafaris.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "article explaining why Lake Manyara lions climb trees"
+      },
+      {
+        "title": "Lake Manyara National Park | Tree-Climbing Lions",
+        "summary": "Despite decades of study, no single explanation for Manyara's tree-climbing lions has achieved full scientific consensus, and this genuine ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://eastafricagorillasafaris.com/lake-manyara-national-park-tree-climbing-lions/",
+        "kind": "web",
+        "host": "eastafricagorillasafaris.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "eastafricagorillasafaris.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "piece on the unresolved explanations for Manyara's tree-climbing lions"
+      },
+      {
+        "title": "Lake Manyara National Park Safari Guide",
+        "summary": "Lake Manyara is one of the very few places in Africa where lions are known to climb trees. Rest on acacia branches during the day",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://kilpathafricansafaris.com/lake-manyara-national-park-safari-guide/",
+        "kind": "web",
+        "host": "kilpathafricansafaris.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "kilpathafricansafaris.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "safari guide covering Lake Manyara's tree-climbing lions"
+      },
+      {
+        "title": "annual report 2015",
+        "summary": "In this report, we present details of our accomplishments from the year, Tarangire Lion Research Initiative … nearly two decades in Akagera National Park",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://lionguardians.org/wp-content/uploads/2016/04/Lion-Guardians-Annual-Report-2015.pdf",
+        "kind": "web",
+        "host": "lionguardians.org",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "lionguardians.org",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "annual report with details from the Tarangire Lion Research Initiative"
+      },
+      {
+        "title": "Wildlife and human safety in the Tarangire ecosystem, Tanzania",
+        "summary": "Coexistence of people and wildlife outside protected areas is of critical conservation importance. However, human-wildlife interactions on shared landscapes ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://opus.uleth.ca/server/api/core/bitstreams/c408daa6-932f-4fea-af9f-d0c1e849d303/content",
+        "kind": "web",
+        "host": "opus.uleth.ca",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "opus.uleth.ca",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "thesis on wildlife and human safety in the Tarangire ecosystem"
+      },
+      {
+        "title": "Visitor Satisfaction on Attractions and Attributes at Tarangire ...",
+        "summary": "attraction to visit the park. In Tarangire National Park lion was rated low by visitors visiting the park, although it was noted that visitors took more ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://article.sciencepublishinggroup.com/pdf/j.hss.20241203.12",
+        "kind": "web",
+        "host": "article.sciencepublishinggroup.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "article.sciencepublishinggroup.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "study of visitor satisfaction and attractions at Tarangire National Park"
+      },
+      {
+        "title": "Lake Manyara National Park Family Safari",
+        "summary": "The tree-climbing lions are Lake Manyara's most famous attraction, but they are wild animals, and sightings are never guaranteed. We didn't see ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://wanderingwagars.com/lake-manyara-national-park/",
+        "kind": "web",
+        "host": "wanderingwagars.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "wanderingwagars.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "firsthand family safari account of Lake Manyara's tree-climbing lions"
+      }
+    ]
+  },
+  "tanzanite is a striking blue-violet gemstone found exclusively in the merelani hills of northern tanzania, making it roughly 1,000 times rarer than a diamond.": {
+    "at": "2026-09-29T19:38:04.919Z",
+    "queries": [
+      "Tanzanite Merelani Hills mining history",
+      "Tanzanite gemstone geology study",
+      "Tanzanite Tanzania rarity diamond report",
+      "Merelani Hills tanzanite deposit archive"
+    ],
+    "results": [
+      {
+        "title": "Tanzanite History and Lore",
+        "summary": "As the most common story of the tanzanite mining boom goes, in 1967 a Masai tribesman stumbled upon a cluster of highly transparent, intense violet-to-blue ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://www.gia.edu/tanzanite-history-lore",
+        "kind": "web",
+        "host": "gia.edu",
+        "trust": {
+          "tier": "peer-reviewed",
+          "rank": 1,
+          "label": "university",
+          "usable": true
+        },
+        "why": "GIA history and lore article on tanzanite's discovery and mining boom"
+      },
+      {
+        "title": "02030528",
+        "summary": "Merelani Tanzanite Mine in northern Tanzania. the Merelani Tanzanite Mine in northern Tanzania. A comprehensive two year study of the deposit",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://www.sec.gov/Archives/edgar/vprr/0203/02030528.pdf",
+        "kind": "web",
+        "host": "sec.gov",
+        "trust": {
+          "tier": "institutional",
+          "rank": 2,
+          "label": "government",
+          "usable": true
+        },
+        "why": "SEC filing describing a two-year study of the Merelani tanzanite deposit"
+      },
+      {
+        "title": "Tanzanite Mines of Merelani — Working the Blueseam",
+        "summary": "In 1971, the tanzanite mines were nationalized, but production over the next 20 years was erratic, due to haphazard mining and theft. By 1989, an estimated 30, ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://www.lotusgemology.com/resources/articles/144-working-the-blueseam-the-tanzanite-mines-of-merelani",
+        "kind": "web",
+        "host": "lotusgemology.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "lotusgemology.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "article on working the Merelani tanzanite mines with production history and figures"
+      },
+      {
+        "title": "Tanzanite Mining – Large Scale or Small Scale and the “ ...",
+        "summary": "Tanzanite mining has had a colorful history since Ali Juuyawaatu stumbled upon the blue gemstone in the late 1960's. along the Merelani hills,",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://www.theraregemstonecompany.com/gemology-articles/tanzanite-mining-small-scale-vs-large-scale?srsltid=AU7gw4U-zwnzB9q5bYRuKlHTjJ70xKFFKOgZuJB5Jv0xmXqf9WQamfpn",
+        "kind": "web",
+        "host": "theraregemstonecompany.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "theraregemstonecompany.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "account of tanzanite mining history and the Merelani discovery"
+      },
+      {
+        "title": "Merelani Hills, Lelatema Mountains, Simanjiro District, ...",
+        "summary": "tanzanite was reportedly/allegedly first found in 1968. Subdivided into four mining blocks (A, B, C, D) and additional mines.",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://www.mindat.org/loc-5699.html",
+        "kind": "web",
+        "host": "mindat.org",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "mindat.org",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "mindat locality page with discovery date and mine block details"
+      },
+      {
+        "title": "Gem zoisite from Tanzania1 | American Mineralogist",
+        "summary": "KARELIANITE AND VANADIAN PHLOGOPITE FROM THE MERELANI HILLS GEM ZOISITE DEPOSITS, TANZANIA. The Canadian Mineralogist. Fission Track Dating of Tanzanite.",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://pubs.geoscienceworld.org/msa/ammin/article/54/5-6/702/540492/Gem-zoisite-from-Tanzania1",
+        "kind": "web",
+        "host": "pubs.geoscienceworld.org",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "pubs.geoscienceworld.org",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "American Mineralogist paper on gem zoisite from Tanzania"
+      },
+      {
+        "title": "Raman studies on zoisite and tanzanite for gemmological ...",
+        "summary": "C. Its colour makes it a highly appreciated gemstone, for this reason often imitated or ther- mally treated with the aim of enhancing its hue. Tanzanite ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://www.iris.unict.it/retrieve/dfe4d22e-ccd3-bb0a-e053-d805fe0a78d9/2021%20J%20Raman%20Spectroscopy%20-%20zoisite%20and%20tanzanite%20for%20gemmological%20applications.pdf",
+        "kind": "web",
+        "host": "iris.unict.it",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "iris.unict.it",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "Raman spectroscopy study on zoisite and tanzanite for gemmology"
+      },
+      {
+        "title": "Discussing the Relationship between Tsavorite and ...",
+        "summary": "Robert Gessner, a geologist from South Africa spent 5 years studying the geology of tanzanite. Very little research on this topic was done ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://www.gemologyonline.com/Forum/phpBB2/viewtopic.php?t=24455",
+        "kind": "web",
+        "host": "gemologyonline.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "gemologyonline.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "discussion of a geologist's five-year study of tanzanite geology"
+      },
+      {
+        "title": "TANZANITE A RARE AND REMARKABLE TRICHROIC GEM",
+        "summary": "The first discovery came in 1949 when massive green zoisite material embedded with bright red hexagonal ruby crystals came to light. This lovely material makes ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://pocketmags.com/us/rock-and-gem-magazine/october-2019/articles/tanzanite-a-rare-and-remarkable-trichroic-gem?srsltid=AU7gw4VjEHxJfjrAOUEJyE5K4xdrcpnHt4T7OSU3u3Z4bYyRTDG08VqI",
+        "kind": "web",
+        "host": "pocketmags.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "pocketmags.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "magazine feature on tanzanite as a rare trichroic gem"
+      },
+      {
+        "title": "Tanzanite Through Time: How Its Perception, Demand and ...",
+        "summary": "It is popular with collectors for its rarity, designers for its expressive color, and consumers for its personal and contemporary touch. The ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://www.toptanzanite.com/blogs/news/tanzanite-through-time-how-its-perception-demand-and-cultural-relevance-have-evolved?srsltid=AU7gw4WddJoacVMB6if_hOEIPFhlhm8bE9qhRN7Rj9AAq4SeurMDo2WZ",
+        "kind": "web",
+        "host": "toptanzanite.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "toptanzanite.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "article on how tanzanite's perception and demand evolved over time"
+      }
+    ]
+  },
+  "tanzania is home to the largest lion population in the world.": {
+    "at": "2026-09-29T19:38:50.762Z",
+    "queries": [
+      "Tanzania lion population largest in world",
+      "Tanzania lion census survey report",
+      "Serengeti lion population study Tanzania",
+      "Tanzania lion conservation status report"
+    ],
+    "results": [
+      {
+        "title": "Abstract - The Society for Conservation Biology - Wiley",
+        "summary": "When broken down by country, most studies focused on South African lions (n = 201, 15%), followed by lions in Tanzania (n = 136, 10%; Figure 1).",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://conbio.onlinelibrary.wiley.com/doi/10.1111/conl.12949",
+        "kind": "web",
+        "host": "conbio.onlinelibrary.wiley.com",
+        "trust": {
+          "tier": "peer-reviewed",
+          "rank": 1,
+          "label": "journal",
+          "usable": true
+        },
+        "why": "conservation biology abstract on lion research by country"
+      },
+      {
+        "title": "Serengeti National Park - UNESCO World Heritage Centre",
+        "summary": "Major predators include 4,000 lions ... The Park has the highest ostrich population in Tanzania and probably Africa, making the population globally important.",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://whc.unesco.org/en/list/156/",
+        "kind": "web",
+        "host": "whc.unesco.org",
+        "trust": {
+          "tier": "institutional",
+          "rank": 2,
+          "label": "institution",
+          "usable": true
+        },
+        "why": "UNESCO park profile with predator and lion population figures"
+      },
+      {
+        "title": "Review of Lion Conservation Strategies",
+        "summary": "For the overall conservation status of the species, the 2015 assessment represented a technical improvement compared to previous assessments.",
+        "words": 0,
+        "disambiguation": false,
+        "url": "http://www.cms.int/sites/default/files/document/CMS_Review_of_Lion_Conservation_Strategies_Final_0.pdf",
+        "kind": "web",
+        "host": "cms.int",
+        "trust": {
+          "tier": "institutional",
+          "rank": 2,
+          "label": "intergovernmental",
+          "usable": true
+        },
+        "why": "review of lion conservation strategies and status assessments"
+      },
+      {
+        "title": "Why Tanzania Has Africa's Largest Lion Population",
+        "summary": "Tanzania's 2026 lion census confirms ~17000 lions—the largest population in Africa. Discover why Tanzania is the best place to see wild ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://greatafricansafari.com/tanzania-lion-census-2026-largest-lion-population-africa/",
+        "kind": "web",
+        "host": "greatafricansafari.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "greatafricansafari.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "article on why Tanzania hosts Africa's largest lion population with census figures"
+      },
+      {
+        "title": "Lion Safari in Tanzania — The World's Premier Lion ...",
+        "summary": "Tanzania holds approximately 40% of Africa's remaining lions — the largest population of any country on the continent, estimated at around 17,000 to 20,000 ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://magicaltanzania.com/tanzania-lion-safari-guide/",
+        "kind": "web",
+        "host": "magicaltanzania.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "magicaltanzania.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "safari guide page with lion population estimates for Tanzania"
+      },
+      {
+        "title": "Tanzania rallies to protect World's largest population of lions",
+        "summary": "Tanzania is home to 40 per cent of the world's remaining wild lions, however, the lion's survival is threatened by a number of factors ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://www.thecitizen.co.tz/tanzania/news/national/tanzania-rallies-to-protect-world-s-largest-population-of-lions-2697480",
+        "kind": "web",
+        "host": "thecitizen.co.tz",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "thecitizen.co.tz",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "news article on protecting Tanzania's lion population and threats"
+      },
+      {
+        "title": "Tanzania launches another Wildlife Census",
+        "summary": "Tanzania was found to have four-times the number of buffaloes compared to South Africa. The country also has a total of 17,000 lions, which is ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://tanzaniatimes.net/tanzania-launches-another-wildlife-census/",
+        "kind": "web",
+        "host": "tanzaniatimes.net",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "tanzaniatimes.net",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "news report on Tanzania wildlife census with lion counts"
+      },
+      {
+        "title": "Wildlife population dynamics in Ruaha, Udzungwa, Mikumi ...",
+        "summary": "2010 – 2020 census period. Most of the mammal species were abundant. The study recommends long-term use of camera traps which is a method that enables an ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://www.tawiri.or.tz/wildlife-population-dynamics-in-ruaha-udzungwa-mikumi-and-nyerere-national-parks-in-eastern-and-southern-tanzania/",
+        "kind": "web",
+        "host": "tawiri.or.tz",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "tawiri.or.tz",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "wildlife census study of mammal populations in Tanzanian parks"
+      },
+      {
+        "title": "mammals in Tanzania",
+        "summary": "Here, we usc aerial censuses of 21 species collected in ten census zones across Tanzania. Aerial censuses Animal populations in wildlife areas of Tanzania have ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "http://www.tzonline.org/pdf/consequencesofdifferentformsofconservation.pdf",
+        "kind": "web",
+        "host": "tzonline.org",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "tzonline.org",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "aerial census study of mammal populations across Tanzania"
+      },
+      {
+        "title": "Biodiversity and Conservation in Tanzania",
+        "summary": "This report discusses Tanzania and its biodiversity and conservation profile. ... Tanzania, including elephants, black rhinoceros, and lions.44. • ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://www.everycrsreport.com/reports/R48146.html",
+        "kind": "web",
+        "host": "everycrsreport.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "everycrsreport.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "report on Tanzania biodiversity and conservation including lions"
+      },
+      {
+        "title": "No Silver Bullet Will Save the African Lion",
+        "summary": "Recent estimates report that lion populations in Africa have plummeted to between 32,000 and 20,000 individuals, a 43 percent decline over the ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://medium.com/african-people-wildlife/no-silver-bullet-will-save-the-african-lion-4ee43be48644",
+        "kind": "web",
+        "host": "medium.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "medium.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "essay on African lion population decline and conservation"
+      },
+      {
+        "title": "Review of Panthera leo from the United Republic of Tanzania ...",
+        "summary": "In March 2012, Lion Aid organised a meeting on the conservation needs and status of P. leo, which directed all range States that had not yet developed National ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://iwbond.org/wp-content/uploads/2016/10/Review-of-Panthera-leo-from-Tanzania-and-Zambia.pdf",
+        "kind": "web",
+        "host": "iwbond.org",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "iwbond.org",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "review of Panthera leo status and conservation needs in Tanzania"
+      }
+    ]
+  },
+  "the tree-climbing lions in tanzania are the only lions in the world that climb trees.": {
+    "at": "2026-09-29T19:49:00.406Z",
+    "queries": [
+      "tree-climbing lions Tanzania Lake Manyara",
+      "Manyara lions tree climbing behavior study",
+      "Tanzania tree-climbing lions research report",
+      "Lake Manyara lions climbing trees history"
+    ],
+    "results": [
+      {
+        "title": "Lion",
+        "summary": "The lion (Panthera leo) is a large cat of the genus Panthera, currently ranging only in Sub-Saharan Africa and India. It has a muscular, broad-chested body; a short, rounded head; round ears; and a dark, hairy tuft at the tip of its tail.",
+        "words": 25220,
+        "disambiguation": false,
+        "url": "https://en.wikipedia.org/wiki/Lion",
+        "kind": "wikipedia",
+        "host": "en.wikipedia.org",
+        "trust": {
+          "tier": "reference",
+          "rank": 0,
+          "label": "Wikipedia",
+          "usable": true,
+          "why": "Re-readable at a fixed revision. Weakest tier; wants corroboration."
+        }
+      },
+      {
+        "title": "Panthera leo melanochaita",
+        "summary": "Panthera leo melanochaita is a lion subspecies in Southern and East Africa. In this part of Africa, lion populations are regionally extinct in Lesotho, Djibouti and Eritrea, and are threatened by loss of habitat and prey base, killing by local people in retaliation for loss of livestock, and in seve",
+        "words": 15135,
+        "disambiguation": false,
+        "url": "https://en.wikipedia.org/wiki/Panthera_leo_melanochaita",
+        "kind": "wikipedia",
+        "host": "en.wikipedia.org",
+        "trust": {
+          "tier": "reference",
+          "rank": 0,
+          "label": "Wikipedia",
+          "usable": true,
+          "why": "Re-readable at a fixed revision. Weakest tier; wants corroboration."
+        }
+      },
+      {
+        "title": "Whipsnade Zoo",
+        "summary": "Whipsnade Zoo, formerly known as Whipsnade Wild Animal Park, is a zoo located in Whipsnade, near Dunstable, Bedfordshire, England. It is one of two zoos (the other being London Zoo in Regent's Park, London) that is looked-after by the Zoological Society of London, a charity devoted to the worldwide ",
+        "words": 3904,
+        "disambiguation": false,
+        "url": "https://en.wikipedia.org/wiki/Whipsnade_Zoo",
+        "kind": "wikipedia",
+        "host": "en.wikipedia.org",
+        "trust": {
+          "tier": "reference",
+          "rank": 0,
+          "label": "Wikipedia",
+          "usable": true,
+          "why": "Re-readable at a fixed revision. Weakest tier; wants corroboration."
+        }
+      },
+      {
+        "title": "Wildlife of Tanzania",
+        "summary": "Tanzania contains some 20 percent of the species of Africa's large mammal population, found across its reserves, conservation areas, marine parks, and 17 national parks, spread over an area of more than 42,000 square kilometres (16,000 sq mi) and forming approximately 38 percent of the country's ter",
+        "words": 6396,
+        "disambiguation": false,
+        "url": "https://en.wikipedia.org/wiki/Wildlife_of_Tanzania",
+        "kind": "wikipedia",
+        "host": "en.wikipedia.org",
+        "trust": {
+          "tier": "reference",
+          "rank": 0,
+          "label": "Wikipedia",
+          "usable": true,
+          "why": "Re-readable at a fixed revision. Weakest tier; wants corroboration."
+        }
+      },
+      {
+        "title": "Tourism in Uganda",
+        "summary": "Tourism in Uganda is focused on Uganda's landscape and wildlife. It is a major driver of employment, investment and foreign exchange, contributing USh 4.9 trillion (US$1.88 billion or €1.4 billion as of August 2013) to Uganda's GDP in the financial year 2012–2013.",
+        "words": 2516,
+        "disambiguation": false,
+        "url": "https://en.wikipedia.org/wiki/Tourism_in_Uganda",
+        "kind": "wikipedia",
+        "host": "en.wikipedia.org",
+        "trust": {
+          "tier": "reference",
+          "rank": 0,
+          "label": "Wikipedia",
+          "usable": true,
+          "why": "Re-readable at a fixed revision. Weakest tier; wants corroboration."
+        }
+      },
+      {
+        "title": "Mount Kilimanjaro",
+        "summary": "Mount Kilimanjaro () is a large dormant stratovolcano in Tanzania. It is the highest mountain in Africa and the highest free-standing mountain above sea level in the world, at 5,895 m (19,341 ft) above sea level and 4,900 m (16,100 ft) above its plateau base.",
+        "words": 18131,
+        "disambiguation": false,
+        "url": "https://en.wikipedia.org/wiki/Mount_Kilimanjaro",
+        "kind": "wikipedia",
+        "host": "en.wikipedia.org",
+        "trust": {
+          "tier": "reference",
+          "rank": 0,
+          "label": "Wikipedia",
+          "usable": true,
+          "why": "Re-readable at a fixed revision. Weakest tier; wants corroboration."
+        }
+      },
+      {
+        "title": "Roar (film)",
+        "summary": "Roar is a 1981 American adventure comedy film written and directed by Noel Marshall. Its plot follows Hank, a naturalist who lives on a nature preserve in Africa with lions, leopards, tigers, and other big cats.",
+        "words": 10448,
+        "disambiguation": false,
+        "url": "https://en.wikipedia.org/wiki/Roar_(film)",
+        "kind": "wikipedia",
+        "host": "en.wikipedia.org",
+        "trust": {
+          "tier": "reference",
+          "rank": 0,
+          "label": "Wikipedia",
+          "usable": true,
+          "why": "Re-readable at a fixed revision. Weakest tier; wants corroboration."
+        }
+      },
+      {
+        "title": "Wildlife of Uganda",
+        "summary": "The wildlife of Uganda is composed of its flora and fauna. Uganda has a wide variety of different habitats, including mountains, hills, tropical rainforest, woodland, freshwater lakes, swamps and savanna with scattered clumps of trees.",
+        "words": 2233,
+        "disambiguation": false,
+        "url": "https://en.wikipedia.org/wiki/Wildlife_of_Uganda",
+        "kind": "wikipedia",
+        "host": "en.wikipedia.org",
+        "trust": {
+          "tier": "reference",
+          "rank": 0,
+          "label": "Wikipedia",
+          "usable": true,
+          "why": "Re-readable at a fixed revision. Weakest tier; wants corroboration."
+        }
+      },
+      {
+        "title": "Lake Manyara National Park: Tree-Climbing Lions and ...",
+        "summary": "The Tree-Climbing Lions of Manyara Manyara's lions have puzzled naturalists since the 1960s, when researcher George Schaller first documented ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://eastafricagorillasafaris.com/lake-manyara-national-park-tree-climbing-lions-and-flamingos/",
+        "kind": "web",
+        "host": "eastafricagorillasafaris.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "eastafricagorillasafaris.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "article on Manyara's lions citing Schaller's 1960s research"
+      },
+      {
+        "title": "Lions of Lake Manyara National Park",
+        "summary": "Tree-climbing is genuinely rare among African lions, documented reliably in only a few populations continent-wide, and Manyara's prides are ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://www.allinafricasafaris.com/lions-of-lake-manyara-national-park/",
+        "kind": "web",
+        "host": "allinafricasafaris.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "allinafricasafaris.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "article on Manyara lion prides and how rare tree-climbing is"
+      },
+      {
+        "title": "Wildlife – Stories of East Africa by Dennis Herlocker",
+        "summary": "“Tree-climbing lions,” Henry stated, “Unique to this park; the only place in Africa where lions climb trees.” Ngorongoro, Tarangire, and the Serengeti in ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://storiesofeastafrica.com/tag/wildlife/",
+        "kind": "web",
+        "host": "storiesofeastafrica.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "storiesofeastafrica.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "firsthand East Africa wildlife story mentioning the lions"
+      },
+      {
+        "title": "Lion patrol: Learning to share the savannah with big animals",
+        "summary": "Within the boundaries of Tanzania's Tarangire National Park, lions sleep on open river banks and dangle from tree branches — they are, after all ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://apimagesblog.com/blog/2019/10/9/lion-patrol-learning-to-share-the-savannah-with-big-animals",
+        "kind": "web",
+        "host": "apimagesblog.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "apimagesblog.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "photojournalism piece on lions in Tarangire including tree-climbing"
+      },
+      {
+        "title": "Navigating Human-Lion Conflicts for Conservation",
+        "summary": "National Geographic, for example, highlighted the lions' unusual tree-climbing activities as a tourism attraction and said “humans encroach on ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://www.global-geneva.com/climate/biodiversity/navigating-human-lion-conflicts-for-conservation",
+        "kind": "web",
+        "host": "global-geneva.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "global-geneva.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "article on human-lion conflict citing Nat Geo on tree-climbing"
+      },
+      {
+        "title": "Filming the tree climbing lions in Tarangire National Park",
+        "summary": "it is thought that lions in Tarangire National Park climb trees as a behavioral adaptation to shield themselves from the constant annoyance of insect bites",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://africaadventurevacations.com/filming-the-tree-climbing-lions-in-tarangire-national-park/",
+        "kind": "web",
+        "host": "africaadventurevacations.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "africaadventurevacations.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "account of filming tree-climbing lions in Tarangire"
+      },
+      {
+        "title": "Why Do Lions Climb Trees? - - Seko Tours",
+        "summary": "Lake Manyara is one of the best places to see tree-climbing lions. This small but beautiful park is located in northern Tanzania. The lions here ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://sekotours.com/tanzania-safaris/where-to-see-lions-climbing-trees/",
+        "kind": "web",
+        "host": "sekotours.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "sekotours.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "explanatory article on why lions climb trees at Manyara"
+      },
+      {
+        "title": "Lake Manyara Safari & Tree-Climbing Lion | Adventures Seeker",
+        "summary": "The exact reason for tree-climbing behaviour in Manyara's lions ... Cultural transmission: Cubs learn the behaviour from their mothers and older pride members.",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://adventuresseeker.com/destinations/lake-manyara-national-park",
+        "kind": "web",
+        "host": "adventuresseeker.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "adventuresseeker.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "article discussing theories for Manyara lions' tree-climbing"
+      },
+      {
+        "title": "Tree Climbing Lions Tanzania Safari Guide",
+        "summary": "There is no single guaranteed reason why lions climb trees, but safari guides and wildlife experts often point to several likely explanations.",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://bushdoctorsafaris.com/tree-climbing-lions-tanzania/",
+        "kind": "web",
+        "host": "bushdoctorsafaris.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "bushdoctorsafaris.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "safari guide piece on explanations for tree-climbing behavior"
+      },
+      {
+        "title": "Lake Manyara National Park Guide",
+        "summary": "Although the exact reason is still debated, experts believe lions climb trees to escape biting insects, cool off during hot afternoons, and gain better views of ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://www.memphistours.com/african-safari/lake-manyara-national-park-exposition",
+        "kind": "web",
+        "host": "memphistours.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "memphistours.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "park guide covering Manyara and its tree-climbing lions"
+      }
+    ]
+  },
+  "tanzania is one of only two places in the world where lions are known to regularly climb and rest in trees, particularly in lake manyara national park.": {
+    "at": "2026-09-29T19:59:52.841Z",
+    "queries": [
+      "Lake Manyara tree climbing lions",
+      "tree climbing lions Tanzania study",
+      "Lake Manyara lions history archive",
+      "tree climbing lions behaviour research report"
+    ],
+    "results": [
+      {
+        "title": "The African lion | Springer Nature Link",
+        "summary": "The lion Panthera leo was one of the most fearsome beasts. Observations on lions in the Lake Manyara National Park, Tanzania. 1990. Liontide. Johannesburg: ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://link.springer.com/chapter/10.1007/978-3-662-03766-9_2",
+        "kind": "web",
+        "host": "link.springer.com",
+        "trust": {
+          "tier": "peer-reviewed",
+          "rank": 1,
+          "label": "journal",
+          "usable": true
+        },
+        "why": "Springer book chapter on the African lion citing Lake Manyara observations"
+      },
+      {
+        "title": "Tree-climbing lions in Lake Manyara National Park - Africa safari",
+        "summary": "Climbing trees allows the lions to get a better vantage point for scouting potential prey, escaping insects or parasites found on the ground, ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://www.africaultimatetours.com/2023/12/19/tree-climbing-lions-in-lake-manyara-national-park/",
+        "kind": "web",
+        "host": "africaultimatetours.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "africaultimatetours.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "safari article on tree-climbing lions in Lake Manyara with behavioral explanations"
+      },
+      {
+        "title": "Lake Manyara National Park | Tree-Climbing Lions",
+        "summary": "Despite decades of study, no single explanation for Manyara's tree-climbing lions has achieved full scientific consensus, and this genuine ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://eastafricagorillasafaris.com/lake-manyara-national-park-tree-climbing-lions/",
+        "kind": "web",
+        "host": "eastafricagorillasafaris.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "eastafricagorillasafaris.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "article on Lake Manyara's tree-climbing lions noting lack of scientific consensus"
+      },
+      {
+        "title": "Where to See Tree Climbing Lions in Tanzania: The Ultimate",
+        "summary": "Without question, the most famous destination for tree-climbing lions in Tanzania is: Lake Manyara National Park. Lake Manyara National Park ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://www.silverbackwildadventures.com/tree-climbing-lions-in-tanzania/",
+        "kind": "web",
+        "host": "silverbackwildadventures.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "silverbackwildadventures.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "guide article on where to see tree-climbing lions in Tanzania"
+      },
+      {
+        "title": "Where to See Tree-Climbing Lions in East Africa",
+        "summary": "In Queen Elizabeth national park, the tree-climbing lions are seen in Ishasha located in the southern sector of the park while the population in Tanzania lives ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://www.cycadssafaris.com/blog/where-to-see-tree-climbing-lions-in-east-africa.html",
+        "kind": "web",
+        "host": "cycadssafaris.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "cycadssafaris.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "comparative article on tree-climbing lion populations in East Africa"
+      },
+      {
+        "title": "Rare sights of tree-climbing lions",
+        "summary": "I visited this park sometime last year to do the research on lion tree climbing, This is the only park in East Africa which is famous for its lion tree ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://www.yourafricansafari.com/parks/lake-manyara/reviews/404/",
+        "kind": "web",
+        "host": "yourafricansafari.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "yourafricansafari.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "firsthand account of visiting the park to research lion tree climbing"
+      },
+      {
+        "title": "Tanzania: Drought Threatens Lake Manyara's Future",
+        "summary": "Lake Manyara has been an important tourist feature and home to over 600 species including the famous tree-climbing lions.",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://allafrica.com/stories/200602140408.html",
+        "kind": "web",
+        "host": "allafrica.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "allafrica.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "news article on drought threatening Lake Manyara and its tree-climbing lions"
+      },
+      {
+        "title": "Discover Lake Manyara: Home of Tanzania's Tree- ...",
+        "summary": "Lake Manyara is famous for its lions that are tree climbers. People studying lions have different views on this.",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://amazingmemoriessafaris.com/discover-lake-manyara/",
+        "kind": "web",
+        "host": "amazingmemoriessafaris.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "amazingmemoriessafaris.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "article on Lake Manyara's tree-climbing lions covering differing researcher views"
+      },
+      {
+        "title": "ON THE ROAD TO NGORONGORO: PART III (ELEPHANTS ...",
+        "summary": "The tree-climbing lions are an enigma. I agree with your general view that they climb to evade large herbivores. We now know that they very ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://storiesofeastafrica.com/2021/06/28/on-the-road-to-ngorongoro-part-iii-elephants-and-tree-climbing-lions/",
+        "kind": "web",
+        "host": "storiesofeastafrica.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "storiesofeastafrica.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "travel narrative discussing the tree-climbing lions enigma"
+      },
+      {
+        "title": "Tented Camp Archives | Hide & Seek Luxury Travel",
+        "summary": "These are one of the few known populations of habitual tree-climbing lions in Africa, with Lake Manyara in Tanzania the most commonly cited comparison. The ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://hideandseek.travel/property-tags/tented-camp/",
+        "kind": "web",
+        "host": "hideandseek.travel",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "hideandseek.travel",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "tented camp page comparing habitual tree-climbing lion populations to Lake Manyara"
+      }
+    ]
+  },
+  "tree-climbing lions lake manyara tanzania and ishasha uganda, the only places lions regularly climb trees": {
+    "at": "2026-09-29T20:07:46.015Z",
+    "queries": [
+      "tree-climbing lions Lake Manyara Tanzania",
+      "Lake Manyara tree climbing lions study",
+      "Ishasha Uganda tree climbing lions research",
+      "tree climbing lions behaviour report Tanzania Uganda"
+    ],
+    "results": [
+      {
+        "title": "Lions of Lake Manyara National Park",
+        "summary": "Tree-climbing is genuinely rare among African lions, documented reliably in only a few populations continent-wide, and Manyara's prides are ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://www.allinafricasafaris.com/lions-of-lake-manyara-national-park/",
+        "kind": "web",
+        "host": "allinafricasafaris.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "allinafricasafaris.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "article on Lake Manyara's lions and how rare tree-climbing is among African lions"
+      },
+      {
+        "title": "Lake Manyara National Park | Tree-Climbing Lions",
+        "summary": "Despite decades of study, no single explanation for Manyara's tree-climbing lions has achieved full scientific consensus, and this genuine ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://eastafricagorillasafaris.com/lake-manyara-national-park-tree-climbing-lions/",
+        "kind": "web",
+        "host": "eastafricagorillasafaris.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "eastafricagorillasafaris.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "piece on Manyara's tree-climbing lions and the lack of scientific consensus on the behavior"
+      },
+      {
+        "title": "Tree-Climbing Lions in Lake Manyara National Park",
+        "summary": "Lions climb trees primarily to escape ground heat, avoid insects, and gain better vantage points for observing prey movements across the ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://www.tanzania-ugandasafaris.com/tree-climbing-lions-in-lake-manyara-national-park/",
+        "kind": "web",
+        "host": "tanzania-ugandasafaris.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "tanzania-ugandasafaris.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "article on tree-climbing lions in Lake Manyara with proposed explanations for the behavior"
+      },
+      {
+        "title": "Discovering the Tree-Climbing Lions of Ishasha Sector [Uganda]",
+        "summary": "Research into the behavior of these lions has provided insights into their adaptability and resilience in response to environmental challenges.",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://www.gorillatrips.net/tree-climbing-lions-of-ishasha-sector/",
+        "kind": "web",
+        "host": "gorillatrips.net",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "gorillatrips.net",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "article on Ishasha's tree-climbing lions and research into their behavior"
+      },
+      {
+        "title": "Tree Climbing Lions in Uganda & Other African Parks",
+        "summary": "Take the case of the eleven dead lions that were found in Ishasha on April 10, 2018. By the time they were found, they were purportedly contaminated with ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://www.gorillastours.com/blog/tree-climbing-lions.html",
+        "kind": "web",
+        "host": "gorillastours.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "gorillastours.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "article covering tree-climbing lions in Uganda and other African parks, including Ishasha events"
+      },
+      {
+        "title": "The Tree Climbing Lions of Ishasha - Queen Elizabeth Park",
+        "summary": "Some experts suggest that these lions climb trees to escape the intense heat of the ground and to avoid biting insects, such as tsetse flies and ticks. Others ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://kabiza.com/the-tree-climbing-lions-of-ishasha-queen-elizabeth-park/",
+        "kind": "web",
+        "host": "kabiza.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "kabiza.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "article on Ishasha's tree-climbing lions with competing expert explanations"
+      },
+      {
+        "title": "Lake Manyara Safari | Tree-Climbing Lions, Tanzania",
+        "summary": "Tree-Climbing Lions. The behaviour is not fully explained, but Manyara's lions are regularly found draped in the branches of acacia and fig trees, a habit ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://ameeraafricasafaris.com/destinations-lake-manyara.html",
+        "kind": "web",
+        "host": "ameeraafricasafaris.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "ameeraafricasafaris.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "safari article on Manyara's lions regularly found in acacia and fig trees"
+      },
+      {
+        "title": "Lake Manyara National Park: Tree-Climbing Lions and ...",
+        "summary": "Lake Manyara is famous in safari circles for its lions, which regularly climb acacia and fig trees and rest in the branches — a behavior ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://www.kilimagotrekking.com/lake-manyara-national-park-guide.html",
+        "kind": "web",
+        "host": "kilimagotrekking.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "kilimagotrekking.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "park article on Manyara's lions climbing acacia and fig trees"
+      },
+      {
+        "title": "Tree-Climbing Lions of Ishasha: Where and When 2027",
+        "summary": "researchers generally attribute Ishasha's climbing lions to seeking relief from biting insects and the heat of the savannah floor",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://www.muhigasafaris.com/tree-climbing-lions-ishasha/",
+        "kind": "web",
+        "host": "muhigasafaris.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "muhigasafaris.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "guide to Ishasha's tree-climbing lions with where and when details"
+      },
+      {
+        "title": "Tree Climbing Lions in Uganda Ishasha Sector",
+        "summary": "Some lion researchers believe that the lions climb trees to avoid bites from pests and insects like Tse Tse flies and mosquitoes that live on lower ground.",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://www.chosenexpeditions.com/tree-climbing-lions-in-uganda-ishasha-sector/",
+        "kind": "web",
+        "host": "chosenexpeditions.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "chosenexpeditions.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "article on Ishasha's tree-climbing lions and researchers' explanations"
+      }
+    ]
+  },
+  "tanzania has the largest wild lion population in the world, with recent estimates and national census data putting the number at approximately 14,500 to 17,000 lions.": {
+    "at": "2026-09-30T07:10:00.482Z",
+    "queries": [
+      "Tanzania lion population estimate census",
+      "Tanzania lion census report wildlife authority",
+      "Tanzania lion population study Serengeti",
+      "Tanzania lion conservation status survey data"
+    ],
+    "results": [
+      {
+        "title": "Tanzania Census Highlights Sharp Decline in Elephant ...",
+        "summary": "Tawiri reports about 328,000 buffalo, the highest number in Africa, and an estimated 17,200 lions, also the largest population on the continent.",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://360mozambique.com/world/africa/tanzania-census-highlights-sharp-decline-in-elephant-numbers/",
+        "kind": "web",
+        "host": "360mozambique.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "360mozambique.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "news report on Tanzania wildlife census with lion population figures"
+      },
+      {
+        "title": "Tanzania Has Largest Number of Lions in Africa - Report",
+        "summary": "TANZANIA has the largest number of lions compared to other African countries, a new report says. Serengeti Lion Population Rises By Over 1,000 East African, ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://allafrica.com/view/group/main/main/id/00069421.html",
+        "kind": "web",
+        "host": "allafrica.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "allafrica.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "news report on Tanzania having Africa's largest lion population"
+      },
+      {
+        "title": "Tanzania Invests $1.5M in 2025/26 Wildlife Census to ...",
+        "summary": "The latest census data confirms that Tanzania remains home to Africa's largest buffalo and lion populations, solidifying its status as a key ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://africa.dailynewsegypt.com/tanzania-invests-1-5m-in-2025-26-wildlife-census-to-boost-conservation/",
+        "kind": "web",
+        "host": "africa.dailynewsegypt.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "africa.dailynewsegypt.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "news report on Tanzania's 2025/26 wildlife census and lion population data"
+      },
+      {
+        "title": "Estimates of Density and Population Size of African Lions ...",
+        "summary": "Lion populations are declining globally, including in Tanzania, and Africa. reliable data indicating density and population size. have ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://www.scirp.org/pdf/oje_2022092214202569.pdf",
+        "kind": "web",
+        "host": "scirp.org",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "scirp.org",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "scientific paper estimating lion density and population size in Tanzania"
+      },
+      {
+        "title": "Mosser, A., Fryxell, J.M., Eberly, L. and ...",
+        "summary": "The population size we calculated for the sampled area of 3137.2 km2 revealed 286 lions (95% CI, 236 - 335) during the wet season, and 196 lions (95% CI, 192 - ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://www.scirp.org/reference/referencespapers?referenceid=3297214",
+        "kind": "web",
+        "host": "scirp.org",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "scirp.org",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "study with lion population size calculations for a sampled area"
+      },
+      {
+        "title": "Methods for lion monitoring: a comparison from the Selous ...",
+        "summary": "a lack of recent data has raised concerns about the conservation status ・ we identified 112 individ- ual animals in an 800 km2 study area ・ giving a density ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://scispace.com/pdf/methods-for-lion-monitoring-a-comparison-from-the-selous-106fxhujtv.pdf",
+        "kind": "web",
+        "host": "scispace.com",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "scispace.com",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "paper comparing lion monitoring methods in the Selous with density estimates"
+      },
+      {
+        "title": "Beyond the Numbers What Tanzanias Wildlife Census ...",
+        "summary": "Have lion numbers increased? Which species are recovering, and which ones are facing greater pressure? These are all important questions. They tell us whether ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://www.wwf.or.tz/our_news_and_publications/blogs/beyond_the_numbers_what_tanzania_wildlife_census_made_me_think_about",
+        "kind": "web",
+        "host": "wwf.or.tz",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "wwf.or.tz",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "WWF article analyzing Tanzania's wildlife census results for lions"
+      },
+      {
+        "title": "Promotie Hans Bauer",
+        "summary": "Bauer joined the African Lion Working Group in compiling available census ... lions throughout Africa, leading to a conservative estimate of 23.000 lions.",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://web.universiteitleiden.nl/cml/bieb_internet/dissertations/2003_Bauer_prom.html",
+        "kind": "web",
+        "host": "web.universiteitleiden.nl",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "web.universiteitleiden.nl",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "PhD defense page on compiling lion census data across Africa"
+      },
+      {
+        "title": "Review Trophy hunting and lion conservation",
+        "summary": "Tanzania Tanzania holds four of the six remaining wild lion populations that exceed 1,000 breeding adults and are considered viable in the long ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://biblioteca.biofund.org.mz/wp-content/uploads/2019/01/1548855560-F0924.ORX1200035%20501..509.pdf",
+        "kind": "web",
+        "host": "biblioteca.biofund.org.mz",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "biblioteca.biofund.org.mz",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "review on trophy hunting and lion conservation with Tanzania population data"
+      },
+      {
+        "title": "Tanzania launches another Wildlife Census",
+        "summary": "Tanzania is embarking on a new wildlife census this time specifically targeting the Southern Highlands ecosystem. in November 2024. early as ...",
+        "words": 0,
+        "disambiguation": false,
+        "url": "https://tanzaniatimes.net/tanzania-launches-another-wildlife-census/",
+        "kind": "web",
+        "host": "tanzaniatimes.net",
+        "trust": {
+          "tier": "reference",
+          "rank": 5,
+          "label": "tanzaniatimes.net",
+          "usable": true,
+          "why": "Not a site the studio knows. Read it before you mine it."
+        },
+        "why": "news report on Tanzania launching a new wildlife census"
+      }
+    ]
   }
 }

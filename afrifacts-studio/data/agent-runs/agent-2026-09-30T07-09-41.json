@@ -1,0 +1,59 @@
+{
+  "runId": "agent-2026-09-30T07-09-41",
+  "kind": "paste",
+  "status": "done",
+  "brief": "1 pasted fact",
+  "country": "TZ",
+  "target": 1,
+  "createdAt": "2026-09-30T07:09:41.983Z",
+  "stopReason": "1 checked: 0 verified, 1 corrected, 0 not usable.",
+  "docsRead": 5,
+  "webQueriesSpent": 4,
+  "shortlist": [],
+  "alternates": [
+    {
+      "key": "a1",
+      "fact": "Tanzania has an estimated 17,200 lions, the largest population on the continent.",
+      "category": "Records",
+      "votes": "3/3",
+      "why": "I've literally been on safari in the Serengeti and nobody ever told me the lions were ours, not Kenya's.",
+      "title": "Tanzania Census Highlights Sharp Decline in Elephant Numbers • 360 Mozambique",
+      "url": "https://360mozambique.com/world/africa/tanzania-census-highlights-sharp-decline-in-elephant-numbers/",
+      "claim": "Tanzania has the largest wild lion population in the world, with recent estimates and national census data putting the number at approximately 14,500 to 17,000 lions.",
+      "candidate": {
+        "fact": "Tanzania has an estimated 17,200 lions, the largest population on the continent.",
+        "passage": "Tawiri reports about 328,000 buffalo, the highest number in Africa, and an estimated 17,200 lions, also the largest population on the continent.",
+        "category": "Records",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 3
+        },
+        "reasoning": "Pasted by the owner: \"Tanzania has the largest wild lion population in the world, with recent estimates and national census data putting the number at approximately 14,500 to 17,000 lions.\"",
+        "volatile": false,
+        "slug": "tanzania-census-highlights-sharp",
+        "country": "TZ",
+        "source": {
+          "title": "Tanzania Census Highlights Sharp Decline in Elephant Numbers • 360 Mozambique",
+          "url": "https://360mozambique.com/world/africa/tanzania-census-highlights-sharp-decline-in-elephant-numbers/",
+          "revisionId": "",
+          "contentHash": "6938230e42f9bb9d",
+          "kind": "web",
+          "tier": "reference",
+          "fetchedAt": "2026-09-30",
+          "siteName": "360 Mozambique",
+          "doi": "",
+          "publishedAt": "2026-06-19",
+          "wayback": ""
+        }
+      },
+      "aside": "Corrected. You pasted: \"Tanzania has the largest wild lion population in the world, with recent estimates and national census data putting the number at approximately 14,500 to 17,000 lions\". The document gives a single estimate of about 17,200 lions, not a range of 14,500 to 17,000."
+    }
+  ],
+  "unverified": [],
+  "trace": [],
+  "decidedAt": "2026-09-30T07:10:53.413Z",
+  "developed": [
+    "nf_1199"
+  ]
+}

@@ -1,0 +1,394 @@
+{
+  "runId": "agent-2026-09-29T18-58-18",
+  "status": "done",
+  "brief": "",
+  "country": "TZ",
+  "target": 3,
+  "createdAt": "2026-09-29T19:00:04.727Z",
+  "stopReason": "Target met: 3 strong facts.",
+  "docsRead": 3,
+  "webQueriesSpent": 0,
+  "shortlist": [
+    {
+      "key": "s1",
+      "fact": "Freddie Mercury, the lead vocalist of Queen, and his family fled Zanzibar in 1964 during a revolution in which thousands of ethnic Arabs and Indians were killed.",
+      "category": "History",
+      "votes": "3/3",
+      "why": "I knew he was born in Zanzibar but I had no idea his family fled a revolution where thousands died — that turns a trivia footnote into a real story.",
+      "title": "Freddie Mercury",
+      "url": "https://en.wikipedia.org/wiki/Freddie_Mercury",
+      "candidate": {
+        "fact": "Freddie Mercury, the lead vocalist of Queen, and his family fled Zanzibar in 1964 during a revolution in which thousands of ethnic Arabs and Indians were killed.",
+        "passage": "In the spring of 1964, Mercury and his family fled to England from Zanzibar to escape the violence of the revolution against the Sultan of Zanzibar and his mainly Arab government, in which thousands of ethnic Arabs and Indians were killed.",
+        "category": "History",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 4,
+          "explicability": 4
+        },
+        "reasoning": "The Zanzibar Revolution is rarely connected to Mercury's move to England.",
+        "volatile": false,
+        "slug": "freddie-mercury",
+        "country": "TZ",
+        "source": {
+          "title": "Freddie Mercury",
+          "url": "https://en.wikipedia.org/wiki/Freddie_Mercury",
+          "revisionId": "1375669390",
+          "contentHash": "73f2c3509e7833e8",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "s2",
+      "fact": "Mohammed Dewji, Tanzania's billionaire owner of MeTL Group, was born in a house built from sand and mud, delivered by a neighbouring midwife.",
+      "category": "Business",
+      "votes": "3/3",
+      "why": "Everyone here knows Mo is the richest man in Tanzania, so the mud house and the neighbour midwife is a real turn — I'd send this to the group chat immediately.",
+      "title": "Mohammed Dewji",
+      "url": "https://en.wikipedia.org/wiki/Mohammed_Dewji",
+      "candidate": {
+        "fact": "Mohammed Dewji, Tanzania's billionaire owner of MeTL Group, was born in a house built from sand and mud, delivered by a neighbouring midwife.",
+        "passage": "When Dewji was born, the family was still of modest means; Dewji was born with the help of a neighbouring midwife in a house built from sand and mud.",
+        "category": "Business",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "A reader knows Dewji as Africa's youngest billionaire but not that he was born in a mud-and-sand house delivered by a neighbour.",
+        "volatile": false,
+        "slug": "mohammed-dewji",
+        "country": "TZ",
+        "source": {
+          "title": "Mohammed Dewji",
+          "url": "https://en.wikipedia.org/wiki/Mohammed_Dewji",
+          "revisionId": "1377428697",
+          "contentHash": "d7182e9a87e98eb1",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "s3",
+      "fact": "Hasheem Thabeet, the first Tanzanian-born NBA player, was drafted second overall in 2009 — ahead of future MVPs James Harden and Stephen Curry.",
+      "category": "Sports",
+      "votes": "3/3",
+      "why": "I know Thabeet as the ultimate draft bust but I never clocked that he was picked before Curry and Harden, and that he's Tanzanian makes it hit home.",
+      "title": "Hasheem Thabeet",
+      "url": "https://en.wikipedia.org/wiki/Hasheem_Thabeet",
+      "candidate": {
+        "fact": "Hasheem Thabeet, the first Tanzanian-born NBA player, was drafted second overall in 2009 — ahead of future MVPs James Harden and Stephen Curry.",
+        "passage": "Thabeet was selected with the second overall pick in 2009 NBA draft by the Memphis Grizzlies, ahead of two future NBA MVPs James Harden and Stephen Curry, becoming the first Tanzanian-born NBA player.",
+        "category": "Sports",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "Tanzanians know Thabeet as a basketball name, but few know he was picked ahead of Curry and Harden, or that he was the first Tanzanian-born NBA player.",
+        "volatile": false,
+        "slug": "hasheem-thabeet",
+        "country": "TZ",
+        "source": {
+          "title": "Hasheem Thabeet",
+          "url": "https://en.wikipedia.org/wiki/Hasheem_Thabeet",
+          "revisionId": "1368784140",
+          "contentHash": "c641969d0652432a",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    }
+  ],
+  "alternates": [
+    {
+      "key": "a1",
+      "fact": "Freddie Mercury, the British singer and lead vocalist of Queen, was born Farrokh Bulsara in Stone Town, Zanzibar — now part of Tanzania — in 1946.",
+      "category": "History",
+      "votes": "3/3",
+      "why": "I've heard Bohemian Rhapsody a thousand times and never once knew the man was born in Stone Town — that's a fact I'm sending to the group chat immediately.",
+      "title": "Freddie Mercury",
+      "url": "https://en.wikipedia.org/wiki/Freddie_Mercury",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "Freddie Mercury, the British singer and lead vocalist of Queen, was born Farrokh Bulsara in Stone Town, Zanzibar — now part of Tanzania — in 1946.",
+        "passage": "Mercury was born Farrokh Bulsara in Stone Town in the British protectorate of Zanzibar (now part of Tanzania), in East Africa on 5 September 1946.",
+        "category": "History",
+        "surprise": {
+          "priorProbability": 3,
+          "specificity": 5,
+          "explicability": 3
+        },
+        "reasoning": "Many know Mercury was born in Zanzibar but not that it is now part of Tanzania, nor his birth name.",
+        "volatile": false,
+        "slug": "freddie-mercury",
+        "country": "TZ",
+        "source": {
+          "title": "Freddie Mercury",
+          "url": "https://en.wikipedia.org/wiki/Freddie_Mercury",
+          "revisionId": "1375669390",
+          "contentHash": "73f2c3509e7833e8",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a2",
+      "fact": "Freddie Mercury, the lead vocalist of Queen, died about 24 hours after publicly announcing he had AIDS, at 45, from bronchial pneumonia.",
+      "category": "Health",
+      "votes": "3/3",
+      "why": "I knew he had AIDS and I knew he died, but I never knew the announcement and the death were basically the same day — that gap is the whole thing.",
+      "title": "Freddie Mercury",
+      "url": "https://en.wikipedia.org/wiki/Freddie_Mercury",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "Freddie Mercury, the lead vocalist of Queen, died about 24 hours after publicly announcing he had AIDS, at 45, from bronchial pneumonia.",
+        "passage": "On the evening of 24 November 1991, about 24 hours after issuing the statement, Mercury died at the age of 45 at his home in Kensington. The cause of death was bronchial pneumonia resulting from AIDS.",
+        "category": "Health",
+        "surprise": {
+          "priorProbability": 3,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "The 24-hour gap between announcement and death is a precise, striking detail.",
+        "volatile": false,
+        "slug": "freddie-mercury",
+        "country": "TZ",
+        "source": {
+          "title": "Freddie Mercury",
+          "url": "https://en.wikipedia.org/wiki/Freddie_Mercury",
+          "revisionId": "1375669390",
+          "contentHash": "73f2c3509e7833e8",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a3",
+      "fact": "British singer and Queen's lead vocalist Freddie Mercury's stage prop was a broken microphone stand — he snapped it off its heavy base by accident and kept using it.",
+      "category": "Culture",
+      "votes": "5/6",
+      "why": "The most iconic stage prop in rock history was an accident he never bothered to fix — that's a 'no way' for the group chat.",
+      "title": "Freddie Mercury",
+      "url": "https://en.wikipedia.org/wiki/Freddie_Mercury",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "British singer and Queen's lead vocalist Freddie Mercury's stage prop was a broken microphone stand — he snapped it off its heavy base by accident and kept using it.",
+        "passage": "Mercury's main prop on stage was a broken microphone stand; after accidentally snapping it off the heavy base during an early performance, he realised it could be used in endless ways.",
+        "category": "Culture",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 4,
+          "explicability": 3
+        },
+        "reasoning": "The iconic half-stand was an accident, a detail most fans never hear.",
+        "volatile": false,
+        "slug": "freddie-mercury",
+        "country": "TZ",
+        "source": {
+          "title": "Freddie Mercury",
+          "url": "https://en.wikipedia.org/wiki/Freddie_Mercury",
+          "revisionId": "1375669390",
+          "contentHash": "73f2c3509e7833e8",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a4",
+      "fact": "In 2000 Tanzanian billionaire businessman Dewji won his party's primary for Singida Urban at 25, but was deemed too young to take the parliamentary seat.",
+      "category": "History",
+      "votes": "3/3",
+      "why": "I know Mo Dewji as the richest guy in Tanzania but I never knew he got blocked from parliament for being too young — that's a story nobody tells.",
+      "title": "Mohammed Dewji",
+      "url": "https://en.wikipedia.org/wiki/Mohammed_Dewji",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "In 2000 Tanzanian billionaire businessman Dewji won his party's primary for Singida Urban at 25, but was deemed too young to take the parliamentary seat.",
+        "passage": "In 2000, Tanzania hosted its second multiparty elections where Dewji, at the age of 25 competed to become the Member of Parliament (MP) for Singida Urban. Despite winning the preliminary votes for the ruling party, Chama Cha Mapinduzi (CCM) with an overwhelming majority, Dewji was deemed too young to hold the parliamentary seat.",
+        "category": "History",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "Winning a primary outright and then being barred for being too young is a strange, specific turn most readers would not know.",
+        "volatile": false,
+        "slug": "mohammed-dewji",
+        "country": "TZ",
+        "source": {
+          "title": "Mohammed Dewji",
+          "url": "https://en.wikipedia.org/wiki/Mohammed_Dewji",
+          "revisionId": "1377428697",
+          "contentHash": "d7182e9a87e98eb1",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a5",
+      "fact": "Tanzanian billionaire businessman Dewji grew MeTL's revenues from $30 million to over $1.5 billion between 1999 and 2018, and the group now contributes about 3.5% of Tanzania's GDP.",
+      "category": "Business",
+      "votes": "3/3",
+      "why": "I know Mo is rich but I never actually saw the numbers written down, and 3.5% of the whole country's GDP from one family business is mad.",
+      "title": "Mohammed Dewji",
+      "url": "https://en.wikipedia.org/wiki/Mohammed_Dewji",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "Tanzanian billionaire businessman Dewji grew MeTL's revenues from $30 million to over $1.5 billion between 1999 and 2018, and the group now contributes about 3.5% of Tanzania's GDP.",
+        "passage": "Dewji is responsible for increasing MeTL's revenues from $30 million to over $1.5 billion between 1999 and 2018. MeTL Group has investments in manufacturing, agriculture, trading, finance, mobile telephony, insurance, real estate, transport and logistics, and food and beverages. The group conducts business in 11 countries and employs over 28,000 people with the aim to target over 100,000 people by 2021. MeTL's operations contribute ~3.5% of Tanzania's GDP.",
+        "category": "Business",
+        "surprise": {
+          "priorProbability": 3,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "The 50-fold revenue growth and the 3.5% of national GDP figure are concrete and rarely cited.",
+        "volatile": true,
+        "slug": "mohammed-dewji",
+        "country": "TZ",
+        "source": {
+          "title": "Mohammed Dewji",
+          "url": "https://en.wikipedia.org/wiki/Mohammed_Dewji",
+          "revisionId": "1377428697",
+          "contentHash": "d7182e9a87e98eb1",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a6",
+      "fact": "Tanzanian professional basketball player Hasheem Thabeet didn't start playing until he was 15, after watching pick-up games in Tanzania.",
+      "category": "Sports",
+      "votes": "3/3",
+      "why": "I know the name but I never knew he picked up the game that late, and starting at 15 in Tanzania of all places and still reaching the NBA is genuinely mad.",
+      "title": "Hasheem Thabeet",
+      "url": "https://en.wikipedia.org/wiki/Hasheem_Thabeet",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "Tanzanian professional basketball player Hasheem Thabeet didn't start playing until he was 15, after watching pick-up games in Tanzania.",
+        "passage": "Thabeet did not begin to play basketball until the age of 15, when he began to watch pick-up games in Tanzania.",
+        "category": "Sports",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 4,
+          "explicability": 3
+        },
+        "reasoning": "A late start for a second overall NBA pick is counterintuitive and not widely known.",
+        "volatile": false,
+        "slug": "hasheem-thabeet",
+        "country": "TZ",
+        "source": {
+          "title": "Hasheem Thabeet",
+          "url": "https://en.wikipedia.org/wiki/Hasheem_Thabeet",
+          "revisionId": "1368784140",
+          "contentHash": "c641969d0652432a",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    }
+  ],
+  "trace": [
+    {
+      "step": 1,
+      "thought": "The app is empty on Tanzania facts, so I should aim at rich, dramatic Tanzanian biographies. A strong starting candidate is Freddie Mercury, born in Zanzibar — a person linking two worlds with a global product, likely a long rich article.",
+      "action": "search",
+      "detail": "\"Freddie Mercury\"",
+      "observation": "Search \"Freddie Mercury\" (Wikipedia):\nr1  Freddie Mercury  (wikipedia, 31964 words)\n     Freddie Mercury (born Farrokh Bulsara; 5 September 1946 – 24 November 1991) was a British singer and songwriter who achieved global fame as the lead vocalist and pianist of the roc\nr2  Freddie Mercury discography  (wikipedia, 5743 words)\n     As well as his work with Queen, Freddie Mercury released one solo album, one collaborative album, and several singles. Although his solo work was not as commercially successful as \nr3  Bohemian Rhapsody (film)  (wikipedia, 18807 words)\n     Bohemian Rhapsody is a 2018 musical biographical drama film that focuses on the life of Freddie Mercury, the lead singer of the British rock band Queen, from the formation of the b\nr4  Barcelona (Freddie Mercury and Montserrat Caballé song)  (wikipedia, 2694 words)\n     \"Barcelona\" is a single released by Queen vocalist Freddie Mercury and operatic soprano Montserrat Caballé. A part of their collaborative album Barcelona, it also appeared on Queen\nr5  The Freddie Mercury Tribute Concert  (wikipedia, 3689 words)\n     The Freddie Mercury Tribute Concert for AIDS Awareness, also known as A Concert for Life, was a benefit concert by British rock band Queen and a number of supporting artists. It to\nr6  The Freddie Mercury Album  (wikipedia, 2427 words)\n     The Freddie Mercury Album is a posthumous solo project with material from Queen frontman and vocalist Freddie Mercury released in 1992, to observe the anniversary of his death. The\nr7  Mary Austin (heiress)  (wikipedia, 2851 words)\n     Mary Austin (born 1951) is a British author and the principal heir of the singer Freddie Mercury. She was his partner, later his personal assistant, and remained his closest friend\nr8  Barcelona (Freddie Mercury and Montserrat Caballé album)  (wikipedia, 2996 words)\n     Barcelona is a collaborative studio album recorded by Freddie Mercury, lead singer of popular British rock band Queen, and operatic Soprano Montserrat Caballé. It was released in 1\nr9  Rami Malek  (wikipedia, 19329 words)\n     Rami Said Malek (English: ; Arabic: رامي سعيد مالك, Egyptian Arabic: [ˈɾɑːmi sæˈʕiːd ˈmæːlek]; born May 12, 1981) is an American actor. He gained recognition for portraying Queen l\nr10  Mercury Phoenix Trust  (wikipedia, 527 words)\n     The Mercury Phoenix Trust is a charity organisation that fights HIV/AIDS worldwide. After the death of Queen singer Freddie Mercury from AIDS-related causes in London in 1991, the \nr11  Freddie Mercury - The Final Act  (wikipedia, 498 words)\n     Freddie Mercury - The Final Act is a 2021 British documentary directed by James Rogan and produced by Rogan Productions for the BBC.\nr12  Paul Prenter  (wikipedia, 857 words)\n     Paul Prenter (19 March 1946 – 22 August 1991) was a Northern Irish music manager, known for being Freddie Mercury's manager from 1977 to 1986. He attracted criticism for the influe"
+    },
+    {
+      "step": 2,
+      "thought": "Freddie Mercury is a rich, dramatic Tanzanian-born biography linking Zanzibar to global fame — exactly the kind of document that yields strong facts. Read the main article.",
+      "action": "read",
+      "detail": "r1 \"Freddie Mercury\"",
+      "observation": "Read r1 \"Freddie Mercury\": 5 facts verified, 3 failed the verifier, 1 already in the app or this run.\nKEPT (1):\n  + [3/3, History] Freddie Mercury, the lead vocalist of Queen, and his family fled Zanzibar in 1964 during a revolution in which thousands of ethnic Arabs and Indians were killed.\nSTRONG BUT SET ASIDE FOR VARIETY (3):\n  ~ Freddie Mercury, the British singer and lead vocalist of Queen, was born Farrokh Bulsara in Stone Town, Zanzib  (one fact per document; ranked lower)\n  ~ Freddie Mercury, the lead vocalist of Queen, died about 24 hours after publicly announcing he had AIDS, at 45,  (one fact per document; ranked lower)\n  ~ British singer and Queen's lead vocalist Freddie Mercury's stage prop was a broken microphone stand — he snapp  (one fact per document; ranked lower)\nWEAK (0):\nThis subject is now covered. Move to something unrelated."
+    },
+    {
+      "step": 3,
+      "thought": "Freddie Mercury is done. The app is empty on Business, so I'll aim at a rich Tanzanian business figure with a dramatic life — Mohammed Dewji, one of Africa's youngest billionaires, who survived a kidnapping and signed the Giving Pledge.",
+      "action": "search",
+      "detail": "\"Mohammed Dewji\"",
+      "observation": "Search \"Mohammed Dewji\" (Wikipedia):\nr16  Mohammed Dewji  (wikipedia, 3557 words)\n     Mohammed \"Mo\" Gulamabbas Dewji (born 8 May 1975) is a Tanzanian billionaire businessman and former politician. He is the owner of MeTL Group, a Tanzanian conglomerate founded by hi\nr17  MeTL Group  (wikipedia, 2087 words)\n     The MeTL Group (Mohammed Enterprises Tanzania Limited) is a Tanzanian family-owned conglomerate and one of the country's largest companies. Headquartered in Dar es Salaam, it opera\nr18  Tanzania  (wikipedia, 33193 words)\n     Tanzania, officially the United Republic of Tanzania, is a country in East Africa within the African Great Lakes region. It is bordered by Uganda to the northwest, Kenya to the nor\nr19  Lamu Oil Refinery  (wikipedia, 1713 words)\n     The Lamu Oil Refinery is a planned crude oil refinery on Lamu Island, in Lamu County, on the shores of the Kenyan Indian Ocean coast. The refinery is planned to be fed by the oil-p\nr20  Indians in Tanzania  (wikipedia, 1222 words)\n     Indian Tanzanians constitute a significant demographic minority within Tanzania; more than 60,000 Tanzanian citizens of Indian descent reside in the country. Many among them are we\nr21  Simba S.C.  (wikipedia, 2746 words)\n     Simba Sports Club is a professional football club based in Kariakoo ward in Ilala District of Dar es Salaam in Tanzania. It was founded in 1936 as \"The Queens\" before being renamed\nr22  Barbara Gonzalez (business executive)  (wikipedia, 378 words)\n     Barbara Jaime Gonzalez (born 18 February 1990) Popularly known as Barbara Gonzalez is a Tanzanian sports business executive and former chief executive officer of a Tanzanian footba\nr23  Trinity Preparatory School  (wikipedia, 1668 words)\n     Trinity Preparatory School of Florida is an independent college preparatory day-school for students in grades 6 to 12, in Central Florida, United States. The school has a campus sp\nr24  Jokate Mwegelo  (wikipedia, 2880 words)\n     Jokate Mwegelo is a Tanzanian politician and Secretary General of the Chama cha Mapinduzi’s Youth Wing (UVCCM). Before being appointed, she was an entrepreneur and a media personal\nr25  Mussa Sima  (wikipedia, 421 words)\n     Mussa Ramadhani Sima (born June 6, 1976), is a Tanzanian politician presently serves as a Chama Cha Mapinduzi's Member of Parliament for Singida Town Constituency since November 20\nr26  2025–26 Simba SC season  (wikipedia, 6083 words)\n     The 2025–26 season will be the 89th season in the history of Simba and the 60th consecutive season in the Premier League of Tanzanian mens' football. In addition to the domese, CRD\nr27  Singida Region  (wikipedia, 8097 words)\n     Singida Region (Swahili: Mkoa wa Singida) is one of Tanzania's 31 administrative regions. It covers a land area of 49,340 km2 (19,050 sq mi), comparable in size to the nation of Sl"
+    },
+    {
+      "step": 4,
+      "thought": "Freddie Mercury is covered, so I need an unrelated, rich Tanzanian subject. The app is empty on Business, and Mohammed Dewji's article (3,557 words) is a dramatic billionaire biography — kidnapping, politics, conglomerate — likely to yield strong facts.",
+      "action": "read",
+      "detail": "r16 \"Mohammed Dewji\"",
+      "observation": "Read r16 \"Mohammed Dewji\": 7 facts verified, 1 failed the verifier, 1 already in the app or this run.\nKEPT (1):\n  + [3/3, Business] Mohammed Dewji, Tanzania's billionaire owner of MeTL Group, was born in a house built from sand and mud, delivered by a neighbouring midwife.\nSTRONG BUT SET ASIDE FOR VARIETY (2):\n  ~ In 2000 Tanzanian billionaire businessman Dewji won his party's primary for Singida Urban at 25, but was deeme  (one fact per document; ranked lower)\n  ~ Tanzanian billionaire businessman Dewji grew MeTL's revenues from $30 million to over $1.5 billion between 199  (one fact per document; ranked lower)\nWEAK (3):\n  - [0/3] Tanzanian billionaire businessman Dewji was released at the Gymkhana grounds nine days after his kidnapping, and says no ransom was paid.\n      why: known: This is the one fact on the list every Tanzanian already lived through — we watched the countdown, the Gymkhana grounds detail is exactly what was report\n  - [0/3] Dewji is the first Tanzanian and one of only three Africans to sign the Giving Pledge, committing at least half his wealth to philanthropy.\n      why: flat: It says 'Dewji' like I'm supposed to know who that is — no first name, no company, no reason to care, and 'one of only three Africans' is the only bit wit\n  - [0/3] Dewji was the first Tanzanian on the cover of Forbes magazine, in 2013.\n      why: known: Everyone in Dar knows Mo Dewji was on Forbes, and the fact doesn't even say who Dewji is or what he did to get there.\nThis subject is now covered. Move to something unrelated."
+    },
+    {
+      "step": 5,
+      "thought": "Two subjects covered (Freddie Mercury, Mohammed Dewji). The app is empty on Culture, Food, Sports, Records, Health. I want a rich, dramatic Tanzanian biography unrelated to those. A strong candidate: a Tanzanian who links two worlds — perhaps a famous athlete or cultural figure. Let me try a specific name: Hasheem Thabeet, the Tanzanian who became the highest NBA draft pick from Tanzania — a perso",
+      "action": "search",
+      "detail": "\"Hasheem Thabeet\"",
+      "observation": "Search \"Hasheem Thabeet\" (Wikipedia):\nr28  Hasheem Thabeet  (wikipedia, 4286 words)\n     Hasheem Thabeet (born Hashim Thabit Manka; 16 February 1987) is a Tanzanian professional basketball player for Dar City of the Basketball Africa League (BAL). He played college bas\nr29  2009 NBA draft  (wikipedia, 16950 words)\n     The 2009 NBA draft was held on June 25, 2009, at The Theater at Madison Square Garden at Madison Square Garden in New York City. In this draft, the National Basketball Association \nr30  Noblesville Boom  (wikipedia, 9175 words)\n     The Noblesville Boom are an American professional basketball team in the NBA G League based in Noblesville, Indiana. They are affiliated with the Indiana Pacers, and play their hom\nr31  UConn Huskies men's basketball  (wikipedia, 38826 words)\n     The UConn Huskies men's basketball program is the NCAA Division I men's college basketball team of the University of Connecticut in Storrs, Connecticut. They play in the Big East C\nr32  UConn Huskies men's basketball statistical leaders  (wikipedia, 6268 words)\n     The UConn Huskies men's basketball statistical leaders are individual statistical leaders of the UConn Huskies men's basketball program in various categories, including points, thr\nr33  2012–13 Oklahoma City Thunder season  (wikipedia, 9829 words)\n     The 2012–13 Oklahoma City Thunder season was the 5th season of the franchise in Oklahoma City and the 47th in the National Basketball Association (NBA). After their trip to the NBA\nr34  Ish Smith  (wikipedia, 6053 words)\n     Ishmael Larry “Ish” Smith (born July 5, 1988) is an American former professional basketball player who is a professional scout for the Washington Wizards of the National Basketball\nr35  Shane Battier  (wikipedia, 6352 words)\n     Shane Courtney Battier ( BAT-ee-ay; born September 9, 1978) is an American former professional basketball player. Battier is best known for his four years playing basketball at Duk\nr36  2008–09 Connecticut Huskies men's basketball team  (wikipedia, 4355 words)\n     The 2008–2009 Connecticut Huskies men's basketball team represented the University of Connecticut in the 2008–2009 NCAA Division I basketball season. Coached by Jim Calhoun, the Hu\nr37  Memphis Grizzlies  (wikipedia, 12888 words)\n     The Memphis Grizzlies (referred to locally as the Grizz) are an American professional basketball team based in Memphis, Tennessee. The Grizzlies compete in the National Basketball \nr38  Draft (sports)  (wikipedia, 17897 words)\n     A draft is a process used in some countries (especially in North America) and sports (especially in closed leagues) to allocate certain players to teams. In a draft, teams take tur\nr39  Thabet  (wikipedia, 128 words)\n     Thabet is both a surname and a given name."
+    },
+    {
+      "step": 6,
+      "thought": "Two subjects covered (Freddie Mercury, Mohammed Dewji). The app is empty on Culture, Food, Sports, Records, Health. Hasheem Thabeet is a rich 4,286-word biography of a Tanzanian who links two worlds — the highest NBA draft pick from Tanzania. Read it.",
+      "action": "read",
+      "detail": "r28 \"Hasheem Thabeet\"",
+      "observation": "Read r28 \"Hasheem Thabeet\": 4 facts verified, 4 failed the verifier, 0 already in the app or this run.\nKEPT (1):\n  + [3/3, Sports] Hasheem Thabeet, the first Tanzanian-born NBA player, was drafted second overall in 2009 — ahead of future MVPs James Harden and Stephen Curry.\nSTRONG BUT SET ASIDE FOR VARIETY (1):\n  ~ Tanzanian professional basketball player Hasheem Thabeet didn't start playing until he was 15, after watching   (one fact per document; ranked lower)\nWEAK (2):\n  - [0/3] Thabeet was sent to the D-League in 2010, making him the tallest and then-highest-drafted player ever assigned there.\n      why: obscure: Who is Thabeet? The fact never says why he matters, and being tall and drafted high then sent to the D-League is a stat about a stranger, not a story.\n  - [0/3] Tanzanian professional basketball player Thabeet recorded a triple-double for UConn on 31 January 2009 with 15 points, 11 rebounds and 10 bl\n      why: flat: It says 'Thabeet' like I'm supposed to know who that is, and a triple-double with blocks is just a stat line — nothing here makes me react.\nThis subject is now covered. Move to something unrelated."
+    }
+  ],
+  "decidedAt": "2026-09-29T19:02:07.316Z",
+  "developed": [
+    "nf_1183",
+    "nf_1184"
+  ]
+}

@@ -1,0 +1,414 @@
+{
+  "runId": "agent-2026-09-29T19-06-19",
+  "status": "done",
+  "brief": "Culture facts about Tanzania",
+  "country": "TZ",
+  "target": 5,
+  "createdAt": "2026-09-29T19:08:32.632Z",
+  "stopReason": "The agent model failed: fetch failed",
+  "docsRead": 4,
+  "webQueriesSpent": 0,
+  "shortlist": [
+    {
+      "key": "s1",
+      "fact": "Pioneering taarab musician Siti binti Saad's song about a corrupt Arab official led to a kanga cloth printed with his image carrying a rock on his head.",
+      "category": "Culture",
+      "votes": "3/3",
+      "why": "A taarab singer turning a song into a public humiliation printed on kanga cloth is a level of petty I did not know was possible back then.",
+      "title": "Siti binti Saad",
+      "url": "https://en.wikipedia.org/wiki/Siti_binti_Saad",
+      "candidate": {
+        "fact": "Pioneering taarab musician Siti binti Saad's song about a corrupt Arab official led to a kanga cloth printed with his image carrying a rock on his head.",
+        "passage": "The conviction of Mselem bin Mohamed el-Khalasi, a wealthy and influential Arab civil official headquartered in Zanzibar Town, was satirically \"honoured\" in one of Siti's songs, Wala Hapana Hasara. Mselem was well-known for abusing his position by tricking and taking advantage of the underprivileged. During a particularly turbulent time in the late 1920s, when Ng'ambo people organised a ground rent strike that led to multiple conflicts with the state, he was also despised for his role as a government informant.",
+        "category": "Culture",
+        "surprise": {
+          "priorProbability": 5,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "The specific story of Siti's song leading to a commemorative kanga cloth is a vivid detail that even many Tanzanians would not know.",
+        "volatile": false,
+        "lead": "Siti binti Saad (c.1880– August 1950) was a pioneering Tanzanian musician in the taarab musical style. Through her music she was also an anti-colonial activist, feminist and Swahili cultural icon of 20th century.",
+        "slug": "siti-binti-saad",
+        "country": "TZ",
+        "source": {
+          "title": "Siti binti Saad",
+          "url": "https://en.wikipedia.org/wiki/Siti_binti_Saad",
+          "revisionId": "1372457953",
+          "contentHash": "87d9ba900d54641f",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "s2",
+      "fact": "The young American graffiti artist Keith Haring said in an interview that he had been influenced by the Tanzanian artist George Lilanga.",
+      "category": "Culture",
+      "votes": "3/3",
+      "why": "A global name I actually know turning out to have pulled from a Tanzanian artist is exactly the kind of link that makes the group chat go 'no way'.",
+      "title": "George Lilanga",
+      "url": "https://en.wikipedia.org/wiki/George_Lilanga",
+      "candidate": {
+        "fact": "The young American graffiti artist Keith Haring said in an interview that he had been influenced by the Tanzanian artist George Lilanga.",
+        "passage": "Lilanga was considered to have had an influence on the young American graffiti artists (Keith Haring said in an interview that he had been influenced by Lilanga's art).",
+        "category": "Culture",
+        "surprise": {
+          "priorProbability": 5,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "A link between a globally famous American artist and a Makonde sculptor from Tanzania is a connection almost nobody in Tanzania would know.",
+        "volatile": false,
+        "slug": "george-lilanga",
+        "country": "TZ",
+        "source": {
+          "title": "George Lilanga",
+          "url": "https://en.wikipedia.org/wiki/George_Lilanga",
+          "revisionId": "1370641620",
+          "contentHash": "890f79743164a4ec",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    }
+  ],
+  "alternates": [
+    {
+      "key": "a1",
+      "fact": "Siti binti Saad, born into slavery in Zanzibar around 1880, became the first East African vocalist to release commercial recordings, in the 1920s and 1930s.",
+      "category": "Culture",
+      "votes": "3/3",
+      "why": "I know the name Siti binti Saad from taarab but nobody ever told me she was born a slave and still ended up the first East African on a commercial record — that flip is the whole thing.",
+      "title": "Siti binti Saad",
+      "url": "https://en.wikipedia.org/wiki/Siti_binti_Saad",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "Siti binti Saad, born into slavery in Zanzibar around 1880, became the first East African vocalist to release commercial recordings, in the 1920s and 1930s.",
+        "passage": "Siti binti Saad (c.1880– August 1950) was a pioneering Tanzanian musician in the taarab musical style. Through her music she was also an anti-colonial activist, feminist and Swahili cultural icon of 20th century. She produced over 250 phonograph records throughout her lifetime, becoming the first East African vocalist to release commercial recordings in the 1920s and 1930s.",
+        "category": "Culture",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "Most educated Tanzanians know Siti binti Saad as a taarab singer, but few know she was born into slavery or that she was the first East African to release commercial recordings.",
+        "volatile": false,
+        "slug": "siti-binti-saad",
+        "country": "TZ",
+        "source": {
+          "title": "Siti binti Saad",
+          "url": "https://en.wikipedia.org/wiki/Siti_binti_Saad",
+          "revisionId": "1372457953",
+          "contentHash": "87d9ba900d54641f",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a2",
+      "fact": "Pioneering Tanzanian taarab musician Siti binti Saad's first 56 songs sold over 23,000 copies by 1931, and her second tour's 98 songs sold 40,666 copies in two years.",
+      "category": "Records",
+      "votes": "3/3",
+      "why": "I know the name but had no idea the numbers were that big that early, and 40,666 is such a specific number it feels like a receipt.",
+      "title": "Siti binti Saad",
+      "url": "https://en.wikipedia.org/wiki/Siti_binti_Saad",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "Pioneering Tanzanian taarab musician Siti binti Saad's first 56 songs sold over 23,000 copies by 1931, and her second tour's 98 songs sold 40,666 copies in two years.",
+        "passage": "The 56 songs (28 records) from Siti's first session sold over 23,000 copies by 1931. The group recorded 98 more songs during this second tour, which went on to sell 40,666 copies over the following two years.",
+        "category": "Records",
+        "surprise": {
+          "priorProbability": 5,
+          "specificity": 5,
+          "explicability": 3
+        },
+        "reasoning": "The exact sales figures for Siti binti Saad's early recordings are obscure even to many Tanzanians familiar with her music.",
+        "volatile": false,
+        "slug": "siti-binti-saad",
+        "country": "TZ",
+        "source": {
+          "title": "Siti binti Saad",
+          "url": "https://en.wikipedia.org/wiki/Siti_binti_Saad",
+          "revisionId": "1372457953",
+          "contentHash": "87d9ba900d54641f",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a3",
+      "fact": "Pioneering taarab musician Siti binti Saad's music helped make the Zanzibari dialect of Kiswahili the 'standard' Swahili later promoted by the British across East Africa.",
+      "category": "Culture",
+      "votes": "3/3",
+      "why": "I know her name from taarab but I never once connected her to why the Swahili I write in school is the Zanzibari version, and that link is genuinely new to me.",
+      "title": "Siti binti Saad",
+      "url": "https://en.wikipedia.org/wiki/Siti_binti_Saad",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "Pioneering taarab musician Siti binti Saad's music helped make the Zanzibari dialect of Kiswahili the 'standard' Swahili later promoted by the British across East Africa.",
+        "passage": "The commercial selling of Siti's voice contributed to the development of the Zanzibari dialect of Kiswahili, which the British later promoted as \"standard\" Swahili throughout East Africa.",
+        "category": "Culture",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 4,
+          "explicability": 5
+        },
+        "reasoning": "The link between a taarab singer's commercial recordings and the standardization of Swahili is a surprising connection that most people would not make.",
+        "volatile": false,
+        "slug": "siti-binti-saad",
+        "country": "TZ",
+        "source": {
+          "title": "Siti binti Saad",
+          "url": "https://en.wikipedia.org/wiki/Siti_binti_Saad",
+          "revisionId": "1372457953",
+          "contentHash": "87d9ba900d54641f",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a4",
+      "fact": "Pioneering Tanzanian taarab musician Siti binti Saad's song 'The Police has Stopped' sharply criticized a judge who let a rich wife-murderer go free.",
+      "category": "Culture",
+      "votes": "3/3",
+      "why": "I know the name from school but nobody ever told me she was out here calling out a corrupt judge in a song, that's a whole different person than the textbook version.",
+      "title": "Siti binti Saad",
+      "url": "https://en.wikipedia.org/wiki/Siti_binti_Saad",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "Pioneering Tanzanian taarab musician Siti binti Saad's song 'The Police has Stopped' sharply criticized a judge who let a rich wife-murderer go free.",
+        "passage": "She protested against class oppression and men's abuse of women; her song \"The Police has Stopped\" sharply criticized a judge who let a rich wife-murderer go free.",
+        "category": "Culture",
+        "surprise": {
+          "priorProbability": 5,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "The specific target and message of this song are not widely known, even among those familiar with Siti binti Saad's activism.",
+        "volatile": false,
+        "slug": "siti-binti-saad",
+        "country": "TZ",
+        "source": {
+          "title": "Siti binti Saad",
+          "url": "https://en.wikipedia.org/wiki/Siti_binti_Saad",
+          "revisionId": "1372457953",
+          "contentHash": "87d9ba900d54641f",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a5",
+      "fact": "Tanzanian painter and sculptor George Lilanga started out as a night guard at the House of Art in Dar es Salaam, the cultural centre where he later created its wooden doors.",
+      "category": "Culture",
+      "votes": "3/3",
+      "why": "It's a local legend I thought I knew everything about, and the guard-to-doors turn is exactly the kind of thing my group chat will argue about whether it's true.",
+      "title": "George Lilanga",
+      "url": "https://en.wikipedia.org/wiki/George_Lilanga",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "Tanzanian painter and sculptor George Lilanga started out as a night guard at the House of Art in Dar es Salaam, the cultural centre where he later created its wooden doors.",
+        "passage": "He started as a night guard at the House of Art (Nyumba ya Sanaa), a cultural centre for the development of African art and craftsmanship in Dar es Salaam. In 1982, he created wooden doors with colourful bunk shetani figures for this cultural centre.",
+        "category": "Culture",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 4,
+          "explicability": 4
+        },
+        "reasoning": "That Tanzania's most famous modern artist began as a night watchman at the very centre he would later decorate is a turn most readers would not expect.",
+        "volatile": false,
+        "slug": "george-lilanga",
+        "country": "TZ",
+        "source": {
+          "title": "George Lilanga",
+          "url": "https://en.wikipedia.org/wiki/George_Lilanga",
+          "revisionId": "1370641620",
+          "contentHash": "890f79743164a4ec",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a6",
+      "fact": "Of the 280 works shown at a 1978 collective exhibition of African artists in Washington D.C., about 100 were by Tanzanian painter and sculptor George Lilanga.",
+      "category": "Culture",
+      "votes": "3/3",
+      "why": "I know Lilanga's work from Tingatinga stuff around Dar but I had no idea he basically carried an entire international exhibition like that.",
+      "title": "George Lilanga",
+      "url": "https://en.wikipedia.org/wiki/George_Lilanga",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "Of the 280 works shown at a 1978 collective exhibition of African artists in Washington D.C., about 100 were by Tanzanian painter and sculptor George Lilanga.",
+        "passage": "In 1978, he participated in a collective exhibition of African artists in Washington D.C. Of the 280 works presented, about 100 were by Lilanga.",
+        "category": "Culture",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 3
+        },
+        "reasoning": "The proportion of a Washington exhibition given over to one Tanzanian artist is a concrete figure few would have seen.",
+        "volatile": false,
+        "slug": "george-lilanga",
+        "country": "TZ",
+        "source": {
+          "title": "George Lilanga",
+          "url": "https://en.wikipedia.org/wiki/George_Lilanga",
+          "revisionId": "1370641620",
+          "contentHash": "890f79743164a4ec",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a7",
+      "fact": "Tanzanian taarab singer Bi Kidude took part in Unyago coming-of-age ceremonies where teenage girls receive social and sexual education, and singeli musicians today sample those rhythms.",
+      "category": "Culture",
+      "votes": "3/3",
+      "why": "It links a legend I've heard my whole life to singeli, which is what's actually playing in my headphones, and the unyago part is something nobody says out loud.",
+      "title": "Bi Kidude",
+      "url": "https://en.wikipedia.org/wiki/Bi_Kidude",
+      "aside": "Culture is full this run",
+      "candidate": {
+        "fact": "Tanzanian taarab singer Bi Kidude took part in Unyago coming-of-age ceremonies where teenage girls receive social and sexual education, and singeli musicians today sample those rhythms.",
+        "passage": "Having no children of her own, she took part in traditional Unyago coming-of-age ceremonies, where teenage girls receive social and sexual education.",
+        "category": "Culture",
+        "surprise": {
+          "priorProbability": 5,
+          "specificity": 4,
+          "explicability": 4
+        },
+        "reasoning": "Unyago is rarely described in mainstream sources, and the link to today's singeli scene is a hidden connection.",
+        "volatile": false,
+        "slug": "bi-kidude",
+        "country": "TZ",
+        "source": {
+          "title": "Bi Kidude",
+          "url": "https://en.wikipedia.org/wiki/Bi_Kidude",
+          "revisionId": "1370302705",
+          "contentHash": "f30f5e88154040d0",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    }
+  ],
+  "trace": [
+    {
+      "step": 1,
+      "thought": "Culture category is empty, so I'll start with a rich Tanzanian cultural figure. Freddie Mercury is already mined, so I'll look for another globally-linked Tanzanian cultural figure — musician or artist with a dramatic life. Let me search for a specific name: Tanzanian-born musician or the taarab legend Siti binti Saad, whose life story is dramatic (enslaved woman who became a famous singer).",
+      "action": "search",
+      "detail": "\"Siti binti Saad\"",
+      "observation": "Search \"Siti binti Saad\" (Wikipedia):\nr1  Siti binti Saad  (wikipedia, 4617 words)\n     Siti binti Saad (c.1880– August 1950) was a pioneering Tanzanian musician in the taarab musical style. Through her music she was also an anti-colonial activist, feminist and Swahil\nr2  Bi Kidude  (wikipedia, 1849 words)\n     Fatuma binti Baraka (c. 1910 – 17 April 2013), popularly known as Bi Kidude, was a Tanzanian taarab singer from Zanzibar. She has been called the \"queen of taarab and Unyago music\"\nr3  Saad (name)  (wikipedia, 1169 words)\n     Saad (Arabic: سعد, romanized: Saʿd) is a common male Arabic given name. The name stems from the Arabic verb sa‘ada (‏سَعَدَ‎ 'to be happy, fortunate or lucky').\nr4  Taarab  (wikipedia, 2050 words)\n     Taarab is a music genre popular in Tanzania and Kenya, and the wider Swahilisphere. It has been influenced by the musical traditions of the African Great Lakes, North Africa, the M\nr5  Siti (given name)  (wikipedia, 758 words)\n     Siti or Sitti is a feminine given name of Indonesian and Malay origin. It is derived from the Arabic honorific sayyidati, meaning \"lady\".\nr6  Siti Mastura Muhammad  (wikipedia, 1382 words)\n     Siti Mastura binti Muhammad (born 27 August 1989) is a Malaysian politician who has served as the Member of Parliament (MP) for Kepala Batas since November 2022. At the grassroots \nr7  Zanzibar  (wikipedia, 20123 words)\n     Zanzibar is a Tanzanian semi-autonomous region off the coast of East Africa. It is located in the Indian Ocean, and consists of many small islands and two large ones: Unguja Island\nr8  Mjini Magharibi Region  (wikipedia, 1267 words)\n     Mjini Magharibi Region, Zanzibar Urban West Region or West Zanzibar Region (Swahili: Mkoa wa Mjini Magharibi) is one of the 31 regions of Tanzania. The region covers an area of 230\nr9  Shaaban bin Robert  (wikipedia, 1431 words)\n     Shaaban bin Robert, also known as Shaaban Robert (1 January 1909 – 20 June 1962), was a Tanzanian poet, author, and essayist who supported the preservation of Tanzanian verse tradi\nr10  Kidumbaki  (wikipedia, 293 words)\n     Kidumbaki or kidumbak is a Zanzibari musical genre. It is closely related to taarab (with Arab- and Indian-influenced music and singing in Swahili) but it is played by smaller ense\nr11  Siti Zailah Mohd Yusoff  (wikipedia, 3351 words)\n     Siti Zailah binti Mohd Yusoff (Jawi: سيتي ظل ﷲ بنت محمد يوسف; born 12 October 1963) is a Malaysian politician who has served as the Member of Parliament (MP) for Rantau Panjang sin\nr12  Siti Berenee Yahaya  (wikipedia, 1091 words)\n     Siti Berenee binti Yahaya is a Malaysian politician who served as Member of the Perlis State Executive Council (EXCO) in the Barisan Nasional (BN) state administration under former"
+    },
+    {
+      "step": 2,
+      "thought": "Siti binti Saad is a rich 4,617-word article about a dramatic life (enslaved woman turned pioneering taarab star and anti-colonial activist) — exactly the kind of person-focused document that yields strong facts, and Culture is empty.",
+      "action": "read",
+      "detail": "r1 \"Siti binti Saad\"",
+      "observation": "Read r1 \"Siti binti Saad\": 6 facts verified, 0 failed the verifier, 0 already in the app or this run.\nKEPT (1):\n  + [3/3, Culture] Pioneering taarab musician Siti binti Saad's song about a corrupt Arab official led to a kanga cloth printed with his image carrying a rock on his head.\nSTRONG BUT SET ASIDE FOR VARIETY (4):\n  ~ Siti binti Saad, born into slavery in Zanzibar around 1880, became the first East African vocalist to release   (one fact per document; ranked lower)\n  ~ Pioneering Tanzanian taarab musician Siti binti Saad's first 56 songs sold over 23,000 copies by 1931, and her  (one fact per document; ranked lower)\n  ~ Pioneering taarab musician Siti binti Saad's music helped make the Zanzibari dialect of Kiswahili the 'standar  (one fact per document; ranked lower)\n  ~ Pioneering Tanzanian taarab musician Siti binti Saad's song 'The Police has Stopped' sharply criticized a judg  (one fact per document; ranked lower)\nWEAK (1):\n  - [0/3] Pioneering taarab musician Siti binti Saad's life story is taught in Tanzanian secondary schools through 'Wasifu wa Siti binti Saad', the bi\n      why: known: We literally study Wasifu wa Siti binti Saad in secondary school — this is not a fact, it's the syllabus.\nThis subject is now covered. Move to something unrelated."
+    },
+    {
+      "step": 3,
+      "thought": "Culture is the target category and Siti binti Saad is done. I need an unrelated rich Tanzanian cultural subject. A famous person with a dramatic life linking two worlds would be ideal — I'll search for a specific name: the Tanzanian-born British musician Freddie Mercury is already mined, so let me try another globally-linked Tanzanian cultural figure, the artist George Lilanga, known worldwide for",
+      "action": "search",
+      "detail": "\"George Lilanga\"",
+      "observation": "Search \"George Lilanga\" (Wikipedia):\nr15  George Lilanga  (wikipedia, 2661 words)\n     George Lilanga (1934 – 27 June 2005) was a Tanzanian painter and sculptor, active from the late 1970s and until the early 21st century. He belonged to the Makonde people and lived \nr16  Tingatinga (painting)  (wikipedia, 2130 words)\n     Tingatinga (also spelled Tinga-tinga or Tinga Tinga) is a painting style from East Africa. Tingatinga is one of the most widely represented forms of tourist-oriented painting in Ta\nr17  Shetani  (wikipedia, 1518 words)\n     Shetani (the word is both singular and plural in English, the plural in Swahili is mashetani) are spirits of East African mythology and popular belief. Mostly malevolent, and found\nr18  African art  (wikipedia, 18808 words)\n     African art refers to works of visual art, including works of sculpture, painting, metalwork, and pottery, originating from the various peoples of the African continent and influen\nr19  Makonde people  (wikipedia, 3650 words)\n     The Makonde are an ethnic group in southeast Tanzania, northern Mozambique, and Kenya. The Makonde developed their culture on the Mueda Plateau in Mozambique.\nr20  Dar es Salaam  (wikipedia, 13450 words)\n     Dar es Salaam (English: , Swahili: [ɗɑr‿ɛs‿sɑˈlɑːm] ; from Arabic: دَار السَّلَام, romanised: Dār as-Salām, lit. 'Abode of Peace') is the largest city and financial hub of Tanzania\nr21  Nyumba ya Sanaa  (wikipedia, 946 words)\n     Nyumba ya Sanaa (Swahili for 'House of Art'), also known as the Mwalimu Nyerere Cultural Centre or Julius Nyerere Cultural Centre, was a cultural centre, art workshop and art galle\nr22  Culture of Tanzania  (wikipedia, 6830 words)\n     Following Tanganyika's independence (1961) and unification with Zanzibar (1964), leading to the formation of the state of Tanzania, President Julius Nyerere emphasised a need to co\nr23  Contemporary African art  (wikipedia, 15092 words)\n     Contemporary African art is commonly understood to be art made by artists in Africa and the African diaspora in the post-independence era. However, there are about as many understa\nr24  Deaths in June 2005  (wikipedia, 12670 words)\n     \nr25  Makonde art  (wikipedia, 2517 words)\n     The name Makonde art refers to East African sculptures or, less frequently, modern paintings created by craftspeople or artists belonging to the Makonde people of northern Mozambiq\nr26  Jean Pruitt  (wikipedia, 779 words)\n     Jean Pruitt (17 October 1939 – 10 September 2017) was an American Maryknoll Sister operating in Dar es Salaam, Tanzania. She was best known for her activism in promoting Tanzanian "
+    },
+    {
+      "step": 4,
+      "thought": "Siti binti Saad is covered and Culture is the target. George Lilanga is a rich 2,661-word article about a globally-exhibited Tanzanian artist with a distinctive life — a strong candidate for a Culture fact. I'll read it.",
+      "action": "read",
+      "detail": "r15 \"George Lilanga\"",
+      "observation": "Read r15 \"George Lilanga\": 7 facts verified, 1 failed the verifier, 1 already in the app or this run.\nKEPT (1):\n  + [3/3, Culture] The young American graffiti artist Keith Haring said in an interview that he had been influenced by the Tanzanian artist George Lilanga.\nSTRONG BUT SET ASIDE FOR VARIETY (2):\n  ~ Tanzanian painter and sculptor George Lilanga started out as a night guard at the House of Art in Dar es Salaa  (one fact per document; ranked lower)\n  ~ Of the 280 works shown at a 1978 collective exhibition of African artists in Washington D.C., about 100 were b  (one fact per document; ranked lower)\nWEAK (3):\n  - [0/3] George Lilanga, Tanzania's most internationally renowned artist, was a Makonde painter and sculptor whose work was shown at Africa Remix 200\n      why: obscure: I know Makonde art and I know our artists get big abroad, so being shown in Africa Remix and African Art Now is just the expected résumé line — nothing\n  - [0/3] Tanzanian painter and sculptor George Lilanga had both legs amputated due to gangrene in 2000, and returned to work from a wheelchair in Jan\n      why: flat: I didn't know about the amputation, but it's just a sad medical fact about an artist I already rate — there's no turn, no number, no link, nothing that ma\n  - [0/3] Tanzanian painter and sculptor George Lilanga painted over wood in bright enamel, which traditional Makonde sculptors frowned upon because t\n      why: obscure: I know Lilanga's name and I've seen his work, but 'he painted on wood and the old carvers didn't like it' is just art-school trivia — there's no turn, \nThis subject is now covered. Move to something unrelated."
+    },
+    {
+      "step": 5,
+      "thought": "Culture is the target and both prior subjects are covered. I need an unrelated rich Tanzanian cultural subject — a person with a dramatic life or a strange institution. The Nyumba ya Sanaa (House of Art) cultural centre has a strange history and links to Nyerere's cultural project; let me search for a specific related name. Actually, a better bet for a dramatic personal story is a Tanzanian musici",
+      "action": "search",
+      "detail": "\"Euphrase Kezilahabi\"",
+      "observation": "Search \"Euphrase Kezilahabi\" (Wikipedia):\nr28  Euphrase Kezilahabi  (wikipedia, 513 words)\n     Euphrase Kezilahabi (13 April 1944 – 9 January 2020) was a Tanzanian novelist, poet, and scholar. Born in Ukerewe, Tanganyika (now in Ukerewe District of Mwanza Region in Tanzania)\nr29  Tanzania  (wikipedia, 33193 words)\n     Tanzania, officially the United Republic of Tanzania, is a country in East Africa within the African Great Lakes region. It is bordered by Uganda to the northwest, Kenya to the nor\nr9  Shaaban bin Robert  (wikipedia, 1431 words)\n     Shaaban bin Robert, also known as Shaaban Robert (1 January 1909 – 20 June 1962), was a Tanzanian poet, author, and essayist who supported the preservation of Tanzanian verse tradi\nr30  Swahili  (wikipedia, 16111 words)\n     Swahili, also known as Kiswahili, is a Bantu language of the Atlantic–Congo language family, originally spoken by the Swahili people, who are found primarily in Tanzania, Kenya, an\nr31  PEN/Heim Translation Fund Grants  (wikipedia, 10128 words)\n     The PEN/Heim Translation Fund Grants were established in 2003 by PEN America (formerly PEN American Center) following a gift of $730,000 by Michael Henry Heim, a noted literary tra\nr22  Culture of Tanzania  (wikipedia, 6830 words)\n     Following Tanganyika's independence (1961) and unification with Zanzibar (1964), leading to the formation of the state of Tanzania, President Julius Nyerere emphasised a need to co\nr32  Mwanza Region  (wikipedia, 5900 words)\n     Mwanza Region (Mkoa wa Mwanza in Swahili) is one of Tanzania's 31 administrative regions, covering a total land area of 25,233 km2 (9,743 sq mi). Mwanza Region is bordered to the n\nr33  Tanzanian literature  (wikipedia, 1504 words)\n     Up to the second half of the 20th century, Tanzanian literature was primarily oral. Major oral literary forms include folktales, poems, riddles, proverbs, and songs.\nr34  Afrophone philosophy  (wikipedia, 403 words)\n     Afrophone philosophy refers to the use of African languages to express and elaborate philosophical ideas, critiques and analysis, establishing a distinct dimension of African philo\nr35  Sabata-Mpho Mokae  (wikipedia, 1238 words)\n     Sabata-Mpho Mokae, born on 26 October 1976, is an academic, novelist and translator from South Africa who writes in Setswana and English. He is the author of a biography: The Story"
+    },
+    {
+      "step": 6,
+      "thought": "Culture is the target and both prior subjects are covered. I need an unrelated rich Tanzanian cultural subject with a dramatic life. A globally-linked Tanzanian cultural figure would be ideal — the musician Freddie Mercury is already mined, but a strong alternative is a Tanzanian-born person who links two worlds. Let me try a specific name: the Tanzanian-born British musician Freddie Mercury is do",
+      "action": "search",
+      "detail": "\"Bi Kidude\"",
+      "observation": "Search \"Bi Kidude\" (Wikipedia):\nr2  Bi Kidude  (wikipedia, 1849 words)\n     Fatuma binti Baraka (c. 1910 – 17 April 2013), popularly known as Bi Kidude, was a Tanzanian taarab singer from Zanzibar. She has been called the \"queen of taarab and Unyago music\"\nr36  Sauti za Busara  (wikipedia, 320 words)\n     Sauti za Busara (in Swahili: \"Sounds of Wisdom\") is an African music festival, held every year in February in Zanzibar, Tanzania. It is centred in the Old Fort (Ngome Kongwe), with\nr37  Kati District  (wikipedia, 765 words)\n     Kati District (Wilaya ya Kati in Swahili) is one of two administrative districts of Unguja South Region in Tanzania. The district covers an area of 505.8 km2 (195.3 sq mi).\nr38  Stone Town  (wikipedia, 5843 words)\n     The Stone Town of Zanzibar (Arabic: مدينة زنجبار الحجرية, romanized: madīnat Zanjibār al-ḥajariyya), also known as Mji Mkongwe (Swahili for 'old town'), is the old part of Zanzibar\nr39  Culture Musical Club  (wikipedia, 1416 words)\n     Culture Musical Club is an East African musical band based in Stone Town, Zanzibar. Regarded as one of the island's oldest and well-known musical ensembles, it has been known both \nr13  Music of Tanzania  (wikipedia, 10056 words)\n     As it is in other countries, the music in Tanzania is constantly undergoing changes, and varies by location, people, settings and occasion. The five music genres in Tanzania, as de\nr4  Taarab  (wikipedia, 2050 words)\n     Taarab is a music genre popular in Tanzania and Kenya, and the wider Swahilisphere. It has been influenced by the musical traditions of the African Great Lakes, North Africa, the M\nr40  Boubou (clothing)  (wikipedia, 1245 words)\n     The boubou, or grand boubou from Wolof mboubou, is a flowing, wide-sleeved robe worn across West Africa, and to a lesser extent in North Africa. The garment and its variations are \nr41  April 17  (wikipedia, 8701 words)\n     April 17 is the 107th day of the year (108th in leap years) in the Gregorian calendar; 258 days remain until the end of the year.\nr42  Werner Graebner  (wikipedia, 2267 words)\n     Werner Graebner (born 1953 in Radolfzell, West Germany) is a German Africanist, ethnomusicologist, music producer and author. Due to his recordings and publications on the music of\nr7  Zanzibar  (wikipedia, 20123 words)\n     Zanzibar is a Tanzanian semi-autonomous region off the coast of East Africa. It is located in the Indian Ocean, and consists of many small islands and two large ones: Unguja Island\nr43  Alsarah  (wikipedia, 1901 words)\n     Sarah Mohamed Abunama-Elgadi, known professionally as Alsarah (Arabic: السارة), is a Sudanese-American singer, songwriter, and ethnomusicologist. She is the leader of the group Als"
+    },
+    {
+      "step": 7,
+      "thought": "Culture is the target and both prior subjects (Siti binti Saad, George Lilanga) are covered. Bi Kidude is a rich 1,849-word article about a dramatic life — a Zanzibari taarab and Unyago singer who performed into her 100s — an unrelated cultural subject likely to yield strong facts.",
+      "action": "read",
+      "detail": "r2 \"Bi Kidude\"",
+      "observation": "Read r2 \"Bi Kidude\": 5 facts verified, 1 failed the verifier, 0 already in the app or this run.\nKEPT (0):\nSTRONG BUT SET ASIDE FOR VARIETY (1):\n  ~ Tanzanian taarab singer Bi Kidude took part in Unyago coming-of-age ceremonies where teenage girls receive soc  (Culture is full this run)\nWEAK (4):\n  - [0/3] Bi Kidude, Zanzibar's 'queen of taarab', is believed to have been the oldest touring singer in the world during her final active years.\n      why: flat: I know Bi Kidude, everyone here does, but 'believed to have been the oldest touring singer in the world' is a vague claim with no number, no age, no count\n  - [1/3] Bi Kidude was forced into marriage at thirteen, escaped to mainland Tanganyika, and became a taarab singer in Dar es Salaam.\n      why: obscure: I know the name and the voice, but this is just a hard-life biography — forced marriage, escape, singing — with no turn in it, and it doesn't tell me a\n  - [0/3] Bi Kidude was a healer knowledgeable about medicinal plants and a henna artist as well as a musician.\n      why: flat: I know Bi Kidude as the taarab legend, but this just lists other jobs she had with no turn, no number, no link — it reads like a bio line, not a fact, and\n  - [0/3] Bi Kidude was the subject of two documentaries by British filmmaker Andrew Jones, and in 2023 the BBC aired a podcast calling her Zanzibar's\n      why: obscure: I know who Bi Kidude is, but 'two documentaries by a British filmmaker and a BBC podcast' is just trivia about her coverage, not a fact about her — not\nThis subject is now covered. Move to something unrelated."
+    },
+    {
+      "step": 8,
+      "thought": "Culture is full this run (Siti binti Saad, George Lilanga), and Bi Kidude was set aside for variety. I should move to an unrelated category where the app is thin — Food, Sports, Records, Health, History, Business. A rich person-focused document with a dramatic life would be ideal. Let me try a Tanzanian sports figure with a dramatic story, or a business figure. Given the app has only 1 History and",
+      "action": "search",
+      "detail": "\"Filbert Bayi\"",
+      "observation": "Search \"Filbert Bayi\" (Wikipedia):\nr45  Filbert Bayi  (wikipedia, 1879 words)\n     Filbert Bayi Sanka (born June 23, 1953) is a Tanzanian former middle-distance runner who competed throughout the 1970s. He set the world records for 1500 metres in 1974 and the mil\nr46  John Walker (runner)  (wikipedia, 2631 words)\n     Sir John George Walker (born 12 January 1952) is a former middle-distance runner from New Zealand who won the gold medal in the men's 1500 m event at the 1976 Olympics. He was also\nr47  Sebastian Coe  (wikipedia, 11841 words)\n     Sebastian Newbold Coe, Baron Coe (born 29 September 1956), often referred to as Seb Coe, is a British sports administrator, former politician and retired track and field athlete. A\nr48  Athletics at the 1976 Summer Olympics – Men's 1500 metres  (wikipedia, 3037 words)\n     The men's 1,500m metres was an event at the 1976 Summer Olympics in Montreal, Quebec, Canada. The final was held on Saturday 31 July 1976 and was contested by 9 athletes.\nr49  1500 metres  (wikipedia, 13863 words)\n     The 1500 metres or 1500-metre run is the foremost middle-distance track event in athletics. The distance has been contested at the Summer Olympics since 1896 and the World Champion\nr50  Marty Liquori  (wikipedia, 1307 words)\n     Martin William Liquori (born September 11, 1949) is a retired American middle distance athlete. Liquori rose to fame when he became the third American high schooler to break the fo\nr51  Nathan Green (runner)  (wikipedia, 1622 words)\n     Nathan Green (born April 10, 2003) is an American middle-distance runner who specializes in the 1500 metres. He competed for the Washington Huskies.\nr52  Josh Kerr  (wikipedia, 9122 words)\n     Josh Kerr (born 8 October 1997) is a Scottish middle-distance runner who has held the world record in the mile since 2026, with a time of 3:42.66. In the 1500 metres, Kerr won gold\nr53  Jakob Ingebrigtsen  (wikipedia, 26163 words)\n     Jakob Asserson Ingebrigtsen (born 19 September 2000) is a Norwegian middle- and long-distance runner, a two-time Olympic champion, and the winner of seven senior global titles. He \nr54  Athletics at the 1974 British Commonwealth Games – Men's 1500 metres  (wikipedia, 1411 words)\n     The men's 1500 metres event at the 1974 British Commonwealth Games was held on 31 January and 2 February at the Queen Elizabeth II Park in Christchurch, New Zealand.\nr55  Ben Blankenship  (wikipedia, 1481 words)\n     Ben Blankenship (born December 15, 1988) is an American middle distance runner. He is a world record holder as a member of the 2015 USA Distance medley relay team, of which he ran \nr56  Mile run world record progression  (wikipedia, 7635 words)\n     The world record in the mile run is the fastest time set by a runner in the middle-distance track and field event. World Athletics is the official body which oversees the records."
+    },
+    {
+      "step": 9,
+      "thought": "Culture is full this run and Bi Kidude was set aside. I need an unrelated category where the app is thin — Sports has 0 facts. Filbert Bayi is a rich 1,879-word article about a dramatic Tanzanian athlete who set world records and won Olympic silver, a strong person-focused document. I'll read it.",
+      "action": "read",
+      "detail": "r45 \"Filbert Bayi\"",
+      "observation": "That failed: terminated"
+    }
+  ],
+  "decidedAt": "2026-09-29T19:09:43.242Z",
+  "developed": []
+}

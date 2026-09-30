@@ -1,0 +1,897 @@
+{
+  "runId": "agent-2026-09-29T21-21-18",
+  "status": "done",
+  "brief": "Inventors and firsts from South Africa",
+  "country": "ZA",
+  "target": 8,
+  "createdAt": "2026-09-29T21:26:51.023Z",
+  "stopReason": "Document budget used up.",
+  "docsRead": 8,
+  "webQueriesSpent": 0,
+  "shortlist": [
+    {
+      "key": "s1",
+      "fact": "South African entrepreneur Mark Shuttleworth, the first African in space, took a radio call from Nelson Mandela and a 14-year-old girl who asked him to marry her.",
+      "category": "History",
+      "votes": "3/3",
+      "why": "I knew he went to space but nobody ever told me Mandela phoned him and some teenager proposed to him from Earth in the same conversation — that's the bit I'm sending.",
+      "title": "Mark Shuttleworth",
+      "url": "https://en.wikipedia.org/wiki/Mark_Shuttleworth",
+      "candidate": {
+        "fact": "South African entrepreneur Mark Shuttleworth, the first African in space, took a radio call from Nelson Mandela and a 14-year-old girl who asked him to marry her.",
+        "passage": "From space, he spoke via video link to Thabo Mbeki, then president of South Africa, as part of the Freedom Day celebrations marking the end of apartheid.\nHe also had a radio conversation with Nelson Mandela and a 14-year-old South African girl, Michelle Foster, who asked him to marry her.",
+        "category": "History",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "The marriage proposal from a terminally ill 14-year-old during a Mandela radio call is a detail almost nobody knows.",
+        "volatile": false,
+        "slug": "mark-shuttleworth",
+        "country": "ZA",
+        "source": {
+          "title": "Mark Shuttleworth",
+          "url": "https://en.wikipedia.org/wiki/Mark_Shuttleworth",
+          "revisionId": "1376217482",
+          "contentHash": "db2b9a2e4ae82df8",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "s2",
+      "fact": "Cardiac surgeon Christiaan Barnard said of his lab assistant Hamilton Naki: \"technically, he is a better surgeon than I am.\"",
+      "category": "History",
+      "votes": "3/3",
+      "why": "A world-famous surgeon saying his Black lab assistant was better than him is a wild flex that flips everything you'd assume about who gets credit in that story.",
+      "title": "Hamilton Naki",
+      "url": "https://en.wikipedia.org/wiki/Hamilton_Naki",
+      "candidate": {
+        "fact": "Cardiac surgeon Christiaan Barnard said of his lab assistant Hamilton Naki: \"technically, he is a better surgeon than I am.\"",
+        "passage": "Barnard: \"A liver transplant is much more difficult than a heart transplant… [doctors who work with Naki] tell me that Hamilton can do all the various aspects of liver transplantation, which I can't do. So technically, he is a better surgeon than I am.\"",
+        "category": "History",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 4,
+          "explicability": 4
+        },
+        "reasoning": "The world's first heart transplant surgeon admitting an untrained black technician was technically better is a striking, quotable reversal.",
+        "volatile": false,
+        "slug": "hamilton-naki",
+        "country": "ZA",
+        "source": {
+          "title": "Hamilton Naki",
+          "url": "https://en.wikipedia.org/wiki/Hamilton_Naki",
+          "revisionId": "1368924255",
+          "contentHash": "d44607a82cfe1f4e",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "s3",
+      "fact": "Businessman Elon Musk contracted a severe case of malaria while on holiday in South Africa in 2000.",
+      "category": "Health",
+      "votes": "3/3",
+      "why": "I know he's South African but I've never once heard he nearly died of malaria here — that's a wild thing to drop about the world's richest man.",
+      "title": "Elon Musk",
+      "url": "https://en.wikipedia.org/wiki/Elon_Musk",
+      "candidate": {
+        "fact": "Businessman Elon Musk contracted a severe case of malaria while on holiday in South Africa in 2000.",
+        "passage": "In 2000, he contracted a severe case of malaria while on vacation in South Africa.",
+        "category": "Health",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 4,
+          "explicability": 3
+        },
+        "reasoning": "A near-fatal malaria infection in the world's richest man is not common knowledge.",
+        "volatile": false,
+        "slug": "elon-musk",
+        "country": "ZA",
+        "source": {
+          "title": "Elon Musk",
+          "url": "https://en.wikipedia.org/wiki/Elon_Musk",
+          "revisionId": "1377339214",
+          "contentHash": "0caf2a2a70a7d504",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "s4",
+      "fact": "Sasol's Secunda plant is the world's largest single point source of greenhouse gas, emitting 56.5 Mt of CO2 a year — more than the entire country of Portugal.",
+      "category": "Business",
+      "votes": "3/3",
+      "why": "I knew Sasol was big but I never knew one plant here out-pollutes an entire European country — that's the kind of thing that makes the group chat go quiet.",
+      "title": "Sasol",
+      "url": "https://en.wikipedia.org/wiki/Sasol",
+      "candidate": {
+        "fact": "Sasol's Secunda plant is the world's largest single point source of greenhouse gas, emitting 56.5 Mt of CO2 a year — more than the entire country of Portugal.",
+        "passage": "Sasol's Secunda CTL plant is, as of 2020, the world's largest point source of greenhouse gas, at 56.5 Mt/a CO2, a status which persists during the 2020s, with the complex producing more carbon dioxide than the country of Portugal at the close of 2023.",
+        "category": "Business",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 5
+        },
+        "reasoning": "Most South Africans know Sasol as a fuel company but not that a single Secunda plant out-emits an entire European country.",
+        "volatile": true,
+        "slug": "sasol",
+        "country": "ZA",
+        "source": {
+          "title": "Sasol",
+          "url": "https://en.wikipedia.org/wiki/Sasol",
+          "revisionId": "1374833277",
+          "contentHash": "f8bc66b96f8cfe9b",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "s5",
+      "fact": "Penny Heyns is the only woman in Olympic history to win both the 100 m and 200 m breaststroke, at Atlanta in 1996 — South Africa's first post-apartheid Olympic gold medallist.",
+      "category": "Sports",
+      "votes": "5/6",
+      "why": "I knew she won gold but I had no idea it was a record no other woman has ever matched, and the post-apartheid first makes it hit harder.",
+      "title": "Penelope Heyns",
+      "url": "https://en.wikipedia.org/wiki/Penelope_Heyns",
+      "candidate": {
+        "fact": "Penny Heyns is the only woman in Olympic history to win both the 100 m and 200 m breaststroke, at Atlanta in 1996 — South Africa's first post-apartheid Olympic gold medallist.",
+        "passage": "Penelope (\"Penny\") Heyns OIS (born 8 November 1974) is a South African former swimmer, who is best known for being the only woman in the history of the Olympic Games to have won both the 100 m and 200 m breaststroke events – at the 1996 Atlanta Olympic Games – making her South Africa's first post-apartheid Olympic gold medallist following South Africa's re-admission to the Games in 1992.",
+        "category": "Sports",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "Most South Africans know Heyns won gold in 1996, but not that she is the only woman ever to take both breaststroke titles, nor that she was the country's first post-apartheid champion.",
+        "volatile": false,
+        "slug": "penelope-heyns",
+        "country": "ZA",
+        "source": {
+          "title": "Penelope Heyns",
+          "url": "https://en.wikipedia.org/wiki/Penelope_Heyns",
+          "revisionId": "1363251294",
+          "contentHash": "f616d76256d87ee5",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "s6",
+      "fact": "At least 969 initiates have died from complications of Ulwaluko, the Xhosa initiation rite, since 1995 — and penile amputations are estimated at roughly twice that number.",
+      "category": "Health",
+      "votes": "3/3",
+      "why": "I've heard about initiation deaths my whole life but never seen an actual number, and the amputation figure being double is the part that made me stop scrolling.",
+      "title": "Ulwaluko",
+      "url": "https://en.wikipedia.org/wiki/Ulwaluko",
+      "candidate": {
+        "fact": "At least 969 initiates have died from complications of Ulwaluko, the Xhosa initiation rite, since 1995 — and penile amputations are estimated at roughly twice that number.",
+        "passage": "At least 969 initiates have died from complications resulting from the ritual since 1995. Accurate statistics are not available for the number of penile amputations, but it is estimated that their number is roughly twice the number of deaths.",
+        "category": "Health",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "Most South Africans know initiates die each season, but almost nobody has seen the cumulative figure of 969 since 1995, or the estimate that amputations run at twice the death toll.",
+        "volatile": false,
+        "slug": "ulwaluko",
+        "country": "ZA",
+        "source": {
+          "title": "Ulwaluko",
+          "url": "https://en.wikipedia.org/wiki/Ulwaluko",
+          "revisionId": "1368626017",
+          "contentHash": "0cc21b3b4e646b4d",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    }
+  ],
+  "alternates": [
+    {
+      "key": "a1",
+      "fact": "Entrepreneur and first African in space Shuttleworth took six months of Debian mailing list archives to Antarctica in 2004 to compile a list of potential hires.",
+      "category": "Business",
+      "votes": "3/3",
+      "why": "The space tourist turns out to be the Ubuntu guy who went full nerd in Antarctica to poach devs off mailing lists — that's a link I never would've guessed.",
+      "title": "Mark Shuttleworth",
+      "url": "https://en.wikipedia.org/wiki/Mark_Shuttleworth",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "Entrepreneur and first African in space Shuttleworth took six months of Debian mailing list archives to Antarctica in 2004 to compile a list of potential hires.",
+        "passage": "While travelling to Antarctica aboard the icebreaker Kapitan Khlebnikov in early 2004, Shuttleworth took six months of Debian mailing list archives with him to compile a list of potential hires for the project.",
+        "category": "Business",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "Recruiting for a Linux project by reading mailing-list archives on an Antarctic icebreaker is an odd, specific image.",
+        "volatile": false,
+        "slug": "mark-shuttleworth",
+        "country": "ZA",
+        "source": {
+          "title": "Mark Shuttleworth",
+          "url": "https://en.wikipedia.org/wiki/Mark_Shuttleworth",
+          "revisionId": "1376217482",
+          "contentHash": "db2b9a2e4ae82df8",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a2",
+      "fact": "In 2002 Mark Shuttleworth became the first African to travel to space, flying as a self-funded space tourist.",
+      "category": "Records",
+      "votes": "3/3",
+      "why": "I vaguely know Shuttleworth as some crypto guy but I had no idea he was the first African in space, and the fact that he just paid his own way there is wild.",
+      "title": "Mark Shuttleworth",
+      "url": "https://en.wikipedia.org/wiki/Mark_Shuttleworth",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "In 2002 Mark Shuttleworth became the first African to travel to space, flying as a self-funded space tourist.",
+        "passage": "In 2002, Shuttleworth became the first African to travel to space, doing so as a space tourist.",
+        "category": "Records",
+        "surprise": {
+          "priorProbability": 3,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "Most South Africans know Shuttleworth as a rich tech entrepreneur, not as the continent's first space traveller.",
+        "volatile": false,
+        "slug": "mark-shuttleworth",
+        "country": "ZA",
+        "source": {
+          "title": "Mark Shuttleworth",
+          "url": "https://en.wikipedia.org/wiki/Mark_Shuttleworth",
+          "revisionId": "1376217482",
+          "contentHash": "db2b9a2e4ae82df8",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a3",
+      "fact": "Entrepreneur and founder and CEO of Canonical Mark Shuttleworth sold his digital certificate company Thawte to VeriSign in December 1999 for R3.5 billion.",
+      "category": "Business",
+      "votes": "4/6",
+      "why": "I knew Shuttleworth as the first African in space and the Ubuntu funder, but I had no idea he was already a billionaire from selling Thawte, and R3.5 billion in 1999 rands is a number that makes the group chat sit up.",
+      "title": "Mark Shuttleworth",
+      "url": "https://en.wikipedia.org/wiki/Mark_Shuttleworth",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "Entrepreneur and founder and CEO of Canonical Mark Shuttleworth sold his digital certificate company Thawte to VeriSign in December 1999 for R3.5 billion.",
+        "passage": "Shuttleworth sold Thawte to VeriSign in December 1999, earning him R3.5 billion (US$575 million, equivalent to $1015 million in 2024).",
+        "category": "Business",
+        "surprise": {
+          "priorProbability": 3,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "The size of the Thawte sale, and that a South African built the world's number two certificate authority, is not widely known.",
+        "volatile": false,
+        "slug": "mark-shuttleworth",
+        "country": "ZA",
+        "source": {
+          "title": "Mark Shuttleworth",
+          "url": "https://en.wikipedia.org/wiki/Mark_Shuttleworth",
+          "revisionId": "1376217482",
+          "contentHash": "db2b9a2e4ae82df8",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a4",
+      "fact": "Hamilton Naki, a gardener who became a surgical assistant, was asked to operate on a giraffe to work out why giraffes don't faint when bending to drink.",
+      "category": "History",
+      "votes": "3/3",
+      "why": "A gardener doing surgery on a giraffe to solve a fainting mystery is the most random sentence I've read all week and I need my group chat to see it.",
+      "title": "Hamilton Naki",
+      "url": "https://en.wikipedia.org/wiki/Hamilton_Naki",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "Hamilton Naki, a gardener who became a surgical assistant, was asked to operate on a giraffe to work out why giraffes don't faint when bending to drink.",
+        "passage": "Most of Naki's work under Goetz involved anaesthetising dogs, but Naki also assisted in operating on a giraffe \"to dissect the jugular venous valves to determine why giraffes do not faint when bending to drink.\"",
+        "category": "History",
+        "surprise": {
+          "priorProbability": 5,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "A giraffe dissection to solve the fainting-on-bending puzzle is an unusual, concrete detail almost nobody knows.",
+        "volatile": false,
+        "slug": "hamilton-naki",
+        "country": "ZA",
+        "source": {
+          "title": "Hamilton Naki",
+          "url": "https://en.wikipedia.org/wiki/Hamilton_Naki",
+          "revisionId": "1368924255",
+          "contentHash": "d44607a82cfe1f4e",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a5",
+      "fact": "Obituaries wrongly claimed South African laboratory assistant Hamilton Naki helped remove the donor heart in the world's first heart transplant.",
+      "category": "History",
+      "votes": "5/6",
+      "why": "I've taught the Naki story for years as the injustice underneath the triumph, and now I find out the injustice part was invented by newspapers after he died.",
+      "title": "Hamilton Naki",
+      "url": "https://en.wikipedia.org/wiki/Hamilton_Naki",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "Obituaries wrongly claimed South African laboratory assistant Hamilton Naki helped remove the donor heart in the world's first heart transplant.",
+        "passage": "After Naki's death, obituaries published 9 June 2005 to 2 July 2005 in at least two medical journals (The BMJ and The Lancet), one magazine (The Economist), two newspapers (The Independent and The New York Times), and an unknown number of newspapers publishing Associated Press stories, printed obituaries that made the following claims about Naki's participation in the world's first human-to-human heart transplantation:",
+        "category": "History",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "The list of major outlets that published and later retracted the false claim is a specific, little-known media failure.",
+        "volatile": false,
+        "slug": "hamilton-naki",
+        "country": "ZA",
+        "source": {
+          "title": "Hamilton Naki",
+          "url": "https://en.wikipedia.org/wiki/Hamilton_Naki",
+          "revisionId": "1368924255",
+          "contentHash": "d44607a82cfe1f4e",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a6",
+      "fact": "Hamilton Naki, a South African lab assistant with no medical degree, was paid a gardener's pension of 760 rand a month — about $275 — after retiring in 1991.",
+      "category": "History",
+      "votes": "5/6",
+      "why": "The gardener's pension is the gut punch — a man who worked on the first heart transplant paid like he mowed the lawn.",
+      "title": "Hamilton Naki",
+      "url": "https://en.wikipedia.org/wiki/Hamilton_Naki",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "Hamilton Naki, a South African lab assistant with no medical degree, was paid a gardener's pension of 760 rand a month — about $275 — after retiring in 1991.",
+        "passage": "Naki assisted Hickman until his retirement in 1991, after which he received \"a gardener's pension: 760 rand, or about $275, a month.\"",
+        "category": "History",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "The exact rand figure and the fact that a man who taught surgeons was pensioned as a gardener is a concrete, little-known detail.",
+        "volatile": false,
+        "slug": "hamilton-naki",
+        "country": "ZA",
+        "source": {
+          "title": "Hamilton Naki",
+          "url": "https://en.wikipedia.org/wiki/Hamilton_Naki",
+          "revisionId": "1368924255",
+          "contentHash": "d44607a82cfe1f4e",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a7",
+      "fact": "Businessman Elon Musk was thrown down concrete steps and beaten so badly by a fellow pupil that he was hospitalised.",
+      "category": "History",
+      "votes": "3/3",
+      "why": "It's Elon Musk, everyone here knows he's from Pretoria, but nobody knows he got beaten half to death at school — that's a group chat 'no way'.",
+      "title": "Elon Musk",
+      "url": "https://en.wikipedia.org/wiki/Elon_Musk",
+      "aside": "History is full this run",
+      "candidate": {
+        "fact": "Businessman Elon Musk was thrown down concrete steps and beaten so badly by a fellow pupil that he was hospitalised.",
+        "passage": "In one incident, after an altercation with a fellow pupil, Musk was thrown down concrete steps and beaten severely, leading to him being hospitalized for his injuries.",
+        "category": "History",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 4,
+          "explicability": 4
+        },
+        "reasoning": "The scale of the school violence Musk endured in Pretoria is not widely known.",
+        "volatile": false,
+        "slug": "elon-musk",
+        "country": "ZA",
+        "source": {
+          "title": "Elon Musk",
+          "url": "https://en.wikipedia.org/wiki/Elon_Musk",
+          "revisionId": "1377339214",
+          "contentHash": "0caf2a2a70a7d504",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a8",
+      "fact": "Businessman Elon Musk made two unsuccessful trips to Moscow to buy intercontinental ballistic missiles before founding SpaceX.",
+      "category": "History",
+      "votes": "3/3",
+      "why": "I knew Musk founded SpaceX but I had no idea he was literally shopping for ICBMs in Russia first, that's a wild origin story.",
+      "title": "Elon Musk",
+      "url": "https://en.wikipedia.org/wiki/Elon_Musk",
+      "aside": "History is full this run",
+      "candidate": {
+        "fact": "Businessman Elon Musk made two unsuccessful trips to Moscow to buy intercontinental ballistic missiles before founding SpaceX.",
+        "passage": "Seeking a way to launch the greenhouse payloads into space, Musk made two unsuccessful trips to Moscow to purchase intercontinental ballistic missiles (ICBMs) from Russian companies NPO Lavochkin and Kosmotras.",
+        "category": "History",
+        "surprise": {
+          "priorProbability": 5,
+          "specificity": 4,
+          "explicability": 4
+        },
+        "reasoning": "That SpaceX began with Musk trying to buy Russian ICBMs is an absurd, rarely told origin story.",
+        "volatile": false,
+        "slug": "elon-musk",
+        "country": "ZA",
+        "source": {
+          "title": "Elon Musk",
+          "url": "https://en.wikipedia.org/wiki/Elon_Musk",
+          "revisionId": "1377339214",
+          "contentHash": "0caf2a2a70a7d504",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a9",
+      "fact": "Businessman Elon Musk built a large plastic structure around a standard computer to make investors think Zip2 ran on a supercomputer.",
+      "category": "Business",
+      "votes": "4/6",
+      "why": "I know Musk as the world's richest man, but I had no idea his career literally started with a plastic prop built to con investors — that's a detail that reframes everything I thought I knew about him.",
+      "title": "Elon Musk",
+      "url": "https://en.wikipedia.org/wiki/Elon_Musk",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "Businessman Elon Musk built a large plastic structure around a standard computer to make investors think Zip2 ran on a supercomputer.",
+        "passage": "To impress investors, Musk built a large plastic structure around a standard computer to create the impression that Zip2 was powered by a small supercomputer.",
+        "category": "Business",
+        "surprise": {
+          "priorProbability": 5,
+          "specificity": 4,
+          "explicability": 4
+        },
+        "reasoning": "The theatrical deception behind Zip2's early fundraising is a striking, little-known detail.",
+        "volatile": false,
+        "slug": "elon-musk",
+        "country": "ZA",
+        "source": {
+          "title": "Elon Musk",
+          "url": "https://en.wikipedia.org/wiki/Elon_Musk",
+          "revisionId": "1377339214",
+          "contentHash": "0caf2a2a70a7d504",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a10",
+      "fact": "Sasol's Natref refinery once piped oil 800 km from Durban via Richards Bay, and by 1979 got 70% of its oil from Iran.",
+      "category": "History",
+      "votes": "3/3",
+      "why": "I knew Sasol existed but had no clue about the 800km pipeline or that we were that deep in Iranian oil right before everything went sideways.",
+      "title": "Sasol",
+      "url": "https://en.wikipedia.org/wiki/Sasol",
+      "aside": "History is full this run",
+      "candidate": {
+        "fact": "Sasol's Natref refinery once piped oil 800 km from Durban via Richards Bay, and by 1979 got 70% of its oil from Iran.",
+        "passage": "By 1979, prior to the Iranian Revolution, the refinery was receiving 70% of its oil from Iran, with the National Iranian Oil Company owning 17.5% of the facility. Oil was piped 800 km from Durban via Richards Bay to the refinery.",
+        "category": "History",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "The Iranian ownership and 800 km pipeline are concrete details most readers would not know.",
+        "volatile": false,
+        "slug": "sasol",
+        "country": "ZA",
+        "source": {
+          "title": "Sasol",
+          "url": "https://en.wikipedia.org/wiki/Sasol",
+          "revisionId": "1374833277",
+          "contentHash": "f8bc66b96f8cfe9b",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a11",
+      "fact": "Sasol paid a €318 million fine to the European Commission in 2008 for a paraffin wax cartel — about R3.7 billion.",
+      "category": "Business",
+      "votes": "3/3",
+      "why": "A company everyone here knows got caught in a massive overseas cartel fine and nobody ever mentions it — the R3.7 billion and the word 'paraffin wax' are what make it land.",
+      "title": "Sasol",
+      "url": "https://en.wikipedia.org/wiki/Sasol",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "Sasol paid a €318 million fine to the European Commission in 2008 for a paraffin wax cartel — about R3.7 billion.",
+        "passage": "Sasol also had to pay a €318 million fine to the European Commission (EC) in 2008, which is about R3.7 billion, for participating in a paraffin wax cartel.",
+        "category": "Business",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "The size and cause of the EU fine are specific and not commonly remembered.",
+        "volatile": false,
+        "slug": "sasol",
+        "country": "ZA",
+        "source": {
+          "title": "Sasol",
+          "url": "https://en.wikipedia.org/wiki/Sasol",
+          "revisionId": "1374833277",
+          "contentHash": "f8bc66b96f8cfe9b",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a12",
+      "fact": "South African former swimmer Penny Heyns set eleven world records in three months in 1999, holding five of the six possible breaststroke world records at once.",
+      "category": "Records",
+      "votes": "3/3",
+      "why": "I knew the name from school swimming trivia but had no idea the scale was that insane — eleven records in three months is a stat nobody ever says out loud.",
+      "title": "Penelope Heyns",
+      "url": "https://en.wikipedia.org/wiki/Penelope_Heyns",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "South African former swimmer Penny Heyns set eleven world records in three months in 1999, holding five of the six possible breaststroke world records at once.",
+        "passage": "In 1999, Heyns set a spate of eleven world records in three months, swimming at events on three different continents. This made her the simultaneous holder of five out of the possible six breaststroke world records, a feat that had never been achieved before in the history of swimming.",
+        "category": "Records",
+        "surprise": {
+          "priorProbability": 5,
+          "specificity": 5,
+          "explicability": 3
+        },
+        "reasoning": "The sheer scale — eleven records in three months across three continents, and five of six breaststroke records at once — is a number almost nobody carries around.",
+        "volatile": false,
+        "slug": "penelope-heyns",
+        "country": "ZA",
+        "source": {
+          "title": "Penelope Heyns",
+          "url": "https://en.wikipedia.org/wiki/Penelope_Heyns",
+          "revisionId": "1363251294",
+          "contentHash": "f616d76256d87ee5",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a13",
+      "fact": "The Mpondo stopped practising initiation circumcision in the 1820s, when King Faku banned it after losing several of his own sons to complications.",
+      "category": "History",
+      "votes": "3/3",
+      "why": "I had no idea a king straight-up banned initiation that early, and the reason being his own sons dying makes it hit hard.",
+      "title": "Ulwaluko",
+      "url": "https://en.wikipedia.org/wiki/Ulwaluko",
+      "aside": "History is full this run",
+      "candidate": {
+        "fact": "The Mpondo stopped practising initiation circumcision in the 1820s, when King Faku banned it after losing several of his own sons to complications.",
+        "passage": "The Mpondo practised the ritual until King Faku prohibited it in the 1820s after he had lost several of his sons from complications.",
+        "category": "History",
+        "surprise": {
+          "priorProbability": 5,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "A king banning his own people's rite because it killed his sons is a specific, named, dated event that almost no South African has heard.",
+        "volatile": false,
+        "slug": "ulwaluko",
+        "country": "ZA",
+        "source": {
+          "title": "Ulwaluko",
+          "url": "https://en.wikipedia.org/wiki/Ulwaluko",
+          "revisionId": "1368626017",
+          "contentHash": "0cc21b3b4e646b4d",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a14",
+      "fact": "A Dutch doctor's website of over 150 photographs of penises injured by botched ritual circumcisions was ruled by the Film and Publication Board \"scientific with great educative value.\"",
+      "category": "Culture",
+      "votes": "5/6",
+      "why": "The setup makes you expect a ban and instead a ratings board calls it educational — that flip is the whole fact.",
+      "title": "Ulwaluko",
+      "url": "https://en.wikipedia.org/wiki/Ulwaluko",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "A Dutch doctor's website of over 150 photographs of penises injured by botched ritual circumcisions was ruled by the Film and Publication Board \"scientific with great educative value.\"",
+        "passage": "It also features a gallery of over 150 photographs of penises injured through botched ritual circumcisions, with complications including infection, gangrene, and autoamputation. The photos, taken by Dr. Rijken and other medical providers, were published with patient consent. The publication of these photographs sparked outrage among many traditional leaders in the Eastern Cape. They demanded that the South African Film and Publication Board (FSB) shut down the website, even though the FSB was not the responsible authority. The Board however ruled that the website was \"scientific with great educative value,\" addressing a \"societal problem needing urgent intervention.\"",
+        "category": "Culture",
+        "surprise": {
+          "priorProbability": 5,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "The specific number of photographs, the regulator's refusal to act, and the ruling's wording are all details a reader would never guess.",
+        "volatile": false,
+        "slug": "ulwaluko",
+        "country": "ZA",
+        "source": {
+          "title": "Ulwaluko",
+          "url": "https://en.wikipedia.org/wiki/Ulwaluko",
+          "revisionId": "1368626017",
+          "contentHash": "0cc21b3b4e646b4d",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    }
+  ],
+  "trace": [
+    {
+      "step": 1,
+      "thought": "Starting fresh on 'Inventors and firsts from South Africa'. I'll search for a specific, well-documented South African inventor with a dramatic life story — Mark Shuttleworth (first African in space, founded Thawte, sold to VeriSign) is a strong candidate for a rich Wikipedia article.",
+      "action": "search",
+      "detail": "\"Mark Shuttleworth\"",
+      "observation": "Search \"Mark Shuttleworth\" (Wikipedia):\nr1  Mark Shuttleworth  (wikipedia, 4089 words)\n     Mark Richard Shuttleworth (born 18 September 1973) is a South African and British entrepreneur, founder and CEO of Canonical, the company behind the Linux operating system variant \nr2  Canonical (company)  (wikipedia, 4282 words)\n     Canonical Ltd. is a privately held company supporting computer software, based in London, England.\nr3  Shuttleworth Foundation  (wikipedia, 1057 words)\n     The Shuttleworth Foundation was established in January 2001 by South African entrepreneur Mark Shuttleworth as an experiment with the purpose of providing funding for people engage\nr4  Space Adventures  (wikipedia, 4682 words)\n     Space Adventures, Inc. is an American space tourism company founded in 1998 by Eric C. Anderson.\nr5  Ubuntu Kylin  (wikipedia, 3122 words)\n     Ubuntu Kylin (Chinese: 优麒麟; pinyin: Yōu Qílín) is the official Chinese version of the Ubuntu computer operating system. It is intended for desktop and laptop computers, and has bee\nr6  Ubuntu version history  (wikipedia, 32518 words)\n     Releases of Ubuntu—a Linux operating system mostly composed of free and open-source software—are made semiannually by Canonical Ltd using the year and month of the release as a ver\nr7  Unity (user interface)  (wikipedia, 10467 words)\n     Unity is a graphical shell originally developed by Canonical Ltd. for its Ubuntu operating system.\nr8  Launchpad (website)  (wikipedia, 1901 words)\n     Launchpad is a web application and website that allows users to develop and maintain software, particularly open-source software. It is developed and maintained by Canonical Ltd.\nr9  Shuttleworth (surname)  (wikipedia, 350 words)\n     Shuttleworth is an English surname that originated from the place name Shuttleworth, either in Lancashire, in Yorkshire, or in Derbyshire.\nr10  Ubuntu Touch  (wikipedia, 9167 words)\n     Ubuntu Touch is a mobile version of the Ubuntu operating system, developed by the UBports community. Its user interface is written in Qt, and is designed primarily for touchscreen \nr11  Inktank Storage  (wikipedia, 841 words)\n     Inktank Storage was the lead development contributor and financial sponsor company behind the open source Ceph distributed file system. Inktank was founded by Sage Weil and Bryan B\nr12  Soyuz TM-34  (wikipedia, 942 words)\n     Soyuz TM-34 was the fourth Soyuz mission to the International Space Station (ISS). Soyuz TM-34 was launched by a Soyuz-U launch vehicle."
+    },
+    {
+      "step": 2,
+      "thought": "Mark Shuttleworth's article is rich but I should first check the most promising result. However, to maximize variety and richness, I'll read the main Shuttleworth article since it's a dramatic personal story (first African in space, sold Thawte for millions).",
+      "action": "read",
+      "detail": "r1 \"Mark Shuttleworth\"",
+      "observation": "Read r1 \"Mark Shuttleworth\": 6 facts verified, 2 failed the verifier, 0 already in the app or this run.\nKEPT (1):\n  + [3/3, History] South African entrepreneur Mark Shuttleworth, the first African in space, took a radio call from Nelson Mandela and a 14-year-old girl who asked him to marry her.\nSTRONG BUT SET ASIDE FOR VARIETY (3):\n  ~ Entrepreneur and first African in space Shuttleworth took six months of Debian mailing list archives to Antarc  (one fact per document; ranked lower)\n  ~ In 2002 Mark Shuttleworth became the first African to travel to space, flying as a self-funded space tourist.  (one fact per document; ranked lower)\n  ~ Entrepreneur and founder and CEO of Canonical Mark Shuttleworth sold his digital certificate company Thawte to  (one fact per document; ranked lower)\nWEAK (2):\n  - [1/3] Entrepreneur and space tourist Mark Shuttleworth was the first person to upload the Apache HTTP Server into the Debian project's archives.\n      why: obscure: I know he's the Ubuntu man and the space tourist, but 'first person to upload Apache into Debian's archives' is a piece of open-source housekeeping tri\n  - [1/3] Entrepreneur and first African in space Mark Shuttleworth lost his R250 million Reserve Bank levy case in the Constitutional Court in 2015.\n      why: known: Every South African who was online in 2015 saw this headline — the space tourist losing to the Reserve Bank is old news here, not a fact worth sending.\nThis subject is now covered. Move to something unrelated."
+    },
+    {
+      "step": 3,
+      "thought": "Shuttleworth is covered. For 'inventors and firsts from South Africa', a strong rich candidate is the first heart transplant — Christiaan Barnard's dramatic story at Groote Schuur. That's a different category (Health) and a famous first. Let me search for it.",
+      "action": "search",
+      "detail": "\"Christiaan Barnard\"",
+      "observation": "Search \"Christiaan Barnard\" (Wikipedia):\nr16  Christiaan Barnard  (wikipedia, 8840 words)\n     Christiaan Neethling Barnard (8 November 1922 – 2 September 2001) was a South African cardiac surgeon who performed the world's first human-to-human heart transplant operation. On \nr17  Marius Barnard (surgeon)  (wikipedia, 1333 words)\n     Marius Stephanus Barnard (3 November 1927 – 14 November 2014) was a South African cardiac surgeon and inventor of critical illness insurance. Barnard was a member of the team heade\nr18  Boyd Rush  (wikipedia, 2033 words)\n     Boyd Rusia Rush (July 4, 1895 – January 24, 1964) was an American upholsterer who was the recipient of the world's first heart transplant on January 24, 1964, at University of Miss\nr19  Denise Darvall  (wikipedia, 1156 words)\n     Denise Darvall (27 February 1942 – 3 December 1967) was the donor in the world's first successful human heart transplant, performed at Groote Schuur Hospital, South Africa, by a te\nr20  Hamilton Naki  (wikipedia, 5618 words)\n     Hamilton Naki (26 June 1926 – 29 May 2005) was a South African laboratory assistant known for his contributions to surgical research and medical training despite having no formal m\nr21  Philip Blaiberg  (wikipedia, 1597 words)\n     Philip Blaiberg (24 May 1909 – 17 August 1969) was a South African dentist and the third person to receive a heart transplant. On 2 January 1968, in Cape Town, Dr.\nr22  Heart of Cape Town Museum  (wikipedia, 982 words)\n     The Heart of Cape Town Museum is a museum complex in the Observatory suburb of Cape Town, South Africa. It is in the Groote Schuur Hospital on Main Road.\nr23  Christiaan  (wikipedia, 1083 words)\n     Christiaan is a Dutch, Flemish, and Afrikaans male given name. An archaic spelling of the name was Christiaen with \"ae\" to indicate the long sound \"a\".\nr24  Great South Africans  (wikipedia, 2665 words)\n     Great South Africans is a South African television series that aired on SABC3. It was hosted by Noeleen Maholwana-Sangqu and Denis Beckett.\nr25  Barnard  (wikipedia, 1125 words)\n     Barnard is a surname of Old English origin, derived from the Anglo-Saxon given name \"Beornheard\". It is composed of two elements: \"Beorn,\" meaning \"young warrior\" or \"bear,\" and \"h\nr26  Rupert Graves  (wikipedia, 3299 words)\n     Rupert Graves is an English film, television, and theatre actor. He is known for his roles in A Room with a View, Maurice, The Madness of King George, and The Forsyte Saga.\nr27  Johan Naude  (wikipedia, 421 words)\n     Johan Naude is a South African surgeon and urologist. Naude was former president of the South African Urological Association and a pioneering transplant surgeon who worked closely "
+    },
+    {
+      "step": 4,
+      "thought": "Shuttleworth is covered and Barnard's search results are promising but the main Barnard article is the obvious rich one. However, I should pick a fresh, unrelated subject to maximize variety. Hamilton Naki (r20, 5618 words) is a dramatic, surprising story — a black lab assistant with no formal medical training who contributed to the world's first heart transplant. That's a strong 'firsts' fact and",
+      "action": "read",
+      "detail": "r20 \"Hamilton Naki\"",
+      "observation": "Read r20 \"Hamilton Naki\": 7 facts verified, 1 failed the verifier, 1 already in the app or this run.\nKEPT (1):\n  + [3/3, History] Cardiac surgeon Christiaan Barnard said of his lab assistant Hamilton Naki: \"technically, he is a better surgeon than I am.\"\nSTRONG BUT SET ASIDE FOR VARIETY (3):\n  ~ Hamilton Naki, a gardener who became a surgical assistant, was asked to operate on a giraffe to work out why g  (one fact per document; ranked lower)\n  ~ Obituaries wrongly claimed South African laboratory assistant Hamilton Naki helped remove the donor heart in t  (one fact per document; ranked lower)\n  ~ Hamilton Naki, a South African lab assistant with no medical degree, was paid a gardener's pension of 760 rand  (one fact per document; ranked lower)\nWEAK (2):\n  - [0/3] Hamilton Naki, a laboratory assistant with no medical training, was awarded the Bronze Order of Mapungubwe in 2002 by President Thabo Mbeki.\n      why: flat: It tells me a guy with no training got a medal but never says what he actually did to earn it, so there's nothing to react to.\n  - [1/3] Hamilton Naki, who helped develop the \"piggyback\" heart transplant technique, lived in a one-room house without electricity or running water\n      why: flat: Who is Hamilton Naki? The fact never tells me why he matters, so it's just a sad detail about a stranger — and the piggyback technique means nothing to me\nThis subject is now covered. Move to something unrelated."
+    },
+    {
+      "step": 5,
+      "thought": "Two subjects covered (Shuttleworth, Naki), both History. I need variety across categories. For 'inventors and firsts from South Africa', a rich, dramatic person is Elon Musk — born in Pretoria, links South Africa to global products (PayPal, Tesla, SpaceX). That's a Business/History crossover with a dramatic life. Let me search for his article.",
+      "action": "search",
+      "detail": "\"Elon Musk\"",
+      "observation": "Search \"Elon Musk\" (Wikipedia):\nr30  Elon Musk  (wikipedia, 58707 words)\n     Elon Reeve Musk ( EE-lon; born June 28, 1971) is a businessman, industrialist and former public official who is the chief executive officer (CEO) and largest shareholder of Tesla a\nr31  Wealth of Elon Musk  (wikipedia, 7657 words)\n     Elon Musk is the wealthiest person in the world in terms of financial assets, with an estimated net worth of US$942 billion according to the Bloomberg Billionaires Index and $955 b\nr32  Views of Elon Musk  (wikipedia, 45733 words)\n     Elon Musk is a businessman and entrepreneur known for his leadership of Tesla, SpaceX, X (formerly Twitter), and xAI. He is the wealthiest individual in the world, and a former U.S\nr33  Acquisition of Twitter by Elon Musk  (wikipedia, 47423 words)\n     Elon Musk initiated an acquisition of the American social media company Twitter, Inc. (now X Corp.) on April 14, 2022, and concluded it on October 27, 2022.\nr34  Elon Musk salute controversy  (wikipedia, 16449 words)\n     On January 20, 2025, while speaking at a rally celebrating U.S. president Donald Trump's second inauguration, businessman and political figure Elon Musk twice made a salute interpr\nr35  Musk (film)  (wikipedia, 2313 words)\n     Musk is a 2026 documentary film directed by Alex Gibney. It follows the billionaire businessman Elon Musk, and his enormous influence in right-wing contemporary politics.\nr36  Trump–Musk feud  (wikipedia, 11641 words)\n     From June to September 2025, businessman and former presidential advisor Elon Musk and U.S. president Donald Trump engaged in a series of social media attacks, primarily across X (\nr37  Errol Musk  (wikipedia, 4211 words)\n     Errol Graham Musk (born 25 May 1946) is a South African businessman and politician who is the patriarch of the Musk family. He was a member of Pretoria City Council from 1972 to 19\nr38  Elon Musk (Isaacson book)  (wikipedia, 4140 words)\n     Elon Musk is an authorized biography of Elon Musk. The book was written by Walter Isaacson, a former executive at CNN, TIME and the Aspen Institute who had previously written best-\nr39  Political activities of Elon Musk  (wikipedia, 25445 words)\n     Elon Musk has been actively involved in politics, particularly in the United States and Europe, throughout the majority of his business career. Despite historically donating to and\nr40  Twitter under Elon Musk  (wikipedia, 55773 words)\n     Elon Musk completed an acquisition of Twitter in October 2022; Musk acted as CEO of Twitter until June 2023 when he was succeeded by Linda Yaccarino. Twitter was rebranded to X on \nr41  Protests against Elon Musk  (wikipedia, 6783 words)\n     Beginning in 2019, protests against Elon Musk emerged in response to a series of controversies, with the latest wave in 2025 focusing on his role in the Department of Government Ef"
+    },
+    {
+      "step": 6,
+      "thought": "Two subjects covered, both History. I need variety across categories. For 'inventors and firsts from South Africa', a rich dramatic candidate is Elon Musk — born in Pretoria, links South Africa to global products. But the Musk articles are enormous and heavily political; the Errol Musk article (r37, 4211 words) is a dramatic family story with palace intrigue. However, to maximize variety and richn",
+      "action": "read",
+      "detail": "r30 \"Elon Musk\"",
+      "observation": "Read r30 \"Elon Musk\": 7 facts verified, 1 failed the verifier, 1 already in the app or this run.\nKEPT (1):\n  + [3/3, Health] Businessman Elon Musk contracted a severe case of malaria while on holiday in South Africa in 2000.\nSTRONG BUT SET ASIDE FOR VARIETY (3):\n  ~ Businessman Elon Musk was thrown down concrete steps and beaten so badly by a fellow pupil that he was hospita  (History is full this run)\n  ~ Businessman Elon Musk made two unsuccessful trips to Moscow to buy intercontinental ballistic missiles before   (History is full this run)\n  ~ Businessman Elon Musk built a large plastic structure around a standard computer to make investors think Zip2   (one fact per document; ranked lower)\nWEAK (2):\n  - [1/3] Businessman Elon Musk sold his first video game, Blastar, to PC and Office Technology magazine for about $500 at age twelve in 1983.\n      why: known: Everyone already knows Elon sold a game as a kid, it's in every bio and it's not even about Africa so why is it in AfriFacts.\n  - [0/3] Businessman Elon Musk hosted large ticketed house parties at university to help pay his tuition.\n      why: flat: It's about Elon Musk, not Africa, and 'rich guy did side hustles at varsity' is not a fact anyone's group chat would reply 'no way' to.\nThis subject is now covered. Move to something unrelated."
+    },
+    {
+      "step": 7,
+      "thought": "Three subjects covered (Shuttleworth, Naki, Musk), all History/Health. I need variety across untouched categories: Business, Culture, Food, Sports, Records. For 'inventors and firsts from South Africa', a rich dramatic candidate is Elon Musk's father Errol Musk (r37) — but Musk family is now covered. Instead, a strong unrelated 'first' is the world's first successful human-to-human heart transplan",
+      "action": "search",
+      "detail": "\"Trevor Noah\"",
+      "observation": "Search \"Trevor Noah\" (Wikipedia):\nr44  Trevor Noah  (wikipedia, 13910 words)\n     Trevor Noah (born 20 February 1984) is a South African comedian, writer, producer, political commentator, actor, and television host. He was the host of The Daily Show, an American\nr45  The Daily Show  (wikipedia, 35724 words)\n     The Daily Show is an American late-night talk and news satire television program. Launched in 1996, the half-hour show airs each Monday through Thursday on Comedy Central in the Un\nr46  Desi Lydic  (wikipedia, 2920 words)\n     Desi Lydic ( DEZ-ee LY-dik, born Lani Desmonet Lydic June 30, 1981) is an American comedian and actress who is a rotating host and senior correspondent on the late-night talk and n\nr47  Josh Johnson (comedian)  (wikipedia, 2384 words)\n     Josh Johnson (born March 16, 1990) is an American stand-up comedian and writer. He is best known for his work on The Daily Show, having first joined as a staff writer in 2017.\nr48  Born a Crime  (wikipedia, 1730 words)\n     Born a Crime: Stories from a South African Childhood is an autobiographical comedy book written by South African comedian Trevor Noah, published in 2016. The book focuses on Noah's\nr49  Into the Uncut Grass  (wikipedia, 626 words)\n     Into The Uncut Grass is a 2024 children's book by South African comedian Trevor Noah and illustrated by Sabina Hahn.\nr50  Jaboukie Young-White  (wikipedia, 5577 words)\n     Jaboukie Young-White (born July 24, 1994) is an American comedian, actor, writer and musician. Young-White first gained recognition at a young age as a comedian, through which he m\nr51  This Is Me... Now: A Love Story  (wikipedia, 4281 words)\n     This Is Me... Now: A Love Story is a 2024 American romantic drama musical film and visual accompaniment to Jennifer Lopez's ninth studio album, This Is Me...\nr52  Hasan Minhaj  (wikipedia, 8605 words)\n     Hasan Minhaj ( HUSS-ən MIN-hahzh, -⁠hahj; born September 23, 1985) is an American comedian and actor. Much of his comedy involves Indian culture and the modern American political l\nr53  68th Annual Grammy Awards  (wikipedia, 18320 words)\n     The 68th Annual Grammy Awards honored the best recordings, compositions, and artists from August 31, 2024, to August 30, 2025, as chosen by the members of the Recording Academy, on\nr54  The Incomer  (wikipedia, 2036 words)\n     The Incomer is a 2026 British comedy film written and directed by Louis Paxton and starring Domhnall Gleeson, Gayle Rankin, Grant O'Rourke, Emun Elliott, Michelle Gomez, and John H\nr55  Maitreyi Ramakrishnan  (wikipedia, 11113 words)\n     Maitreyi Ramakrishnan ( my-TRAY-ee RAH-mə-KRISH-nən; born 28 December 2001) is a Canadian actress. She rose to prominence for her leading role as high school student Devi Vishwakum"
+    },
+    {
+      "step": 8,
+      "thought": "Three subjects covered (Shuttleworth, Naki, Musk), all History/Health. I need untouched categories: Business, Culture, Food, Sports, Records. For 'inventors and firsts from South Africa', a strong rich candidate is Christiaan Barnard — the world's first human-to-human heart transplant, a dramatic story. But that's Health, which is already covered by Musk. Instead, let me aim for a different catego",
+      "action": "",
+      "detail": "",
+      "observation": "'' is not an action. Use search, read or finish."
+    },
+    {
+      "step": 9,
+      "thought": "Three subjects covered (Shuttleworth, Naki, Musk), all History/Health. I need untouched categories: Business, Culture, Food, Sports, Records. For 'inventors and firsts from South Africa', a strong rich candidate is Christiaan Barnard — the world's first human-to-human heart transplant, a dramatic story. But that's Health, already covered by Musk. Instead, let me aim for a different category: the w",
+      "action": "search",
+      "detail": "\"Sasol\"",
+      "observation": "Search \"Sasol\" (Wikipedia):\nr57  Sasol  (wikipedia, 7781 words)\n     Sasol Limited, commonly referred to as Sasol, is an integrated energy and chemical company based in Sandton, South Africa. The company was formed in 1950 in Sasolburg, South Africa\nr58  Secunda CTL  (wikipedia, 895 words)\n     Secunda CTL is a synthetic fuel plant owned by Sasol at Secunda, Mpumalanga in South Africa. It uses coal liquefaction to produce petroleum-like synthetic crude oil from coal.\nr59  Ezemvelo  (wikipedia, 800 words)\n     Ezemvelo Women's Football Club is a South African women's soccer club based in Isipingo (eThekwini Metropolitan Municipality), KwaZulu-Natal. The team competes in the SAFA Women's \nr60  Sasolburg  (wikipedia, 1879 words)\n     Sasolburg is a city in the Free State province of South Africa. The city is located in the northern part of the province and is the seat of the Metsimaholo Local Municipality.\nr61  University of Cape Town Women's F.C.  (wikipedia, 549 words)\n     The University of Cape Town Women's Football Club, also known as UCT Ladies F.C., is the football club representing the University of Cape Town based in Cape Town, Western Cape. Th\nr62  Fischer–Tropsch process  (wikipedia, 10412 words)\n     The Fischer–Tropsch process (FT) is a collection of chemical reactions that converts a mixture of carbon monoxide and hydrogen, known as syngas, into liquid hydrocarbons. These rea\nr63  SAFA Provincial Women's League  (wikipedia, 2440 words)\n     The SAFA Provincial Women's League is the second-tier South African women's association football league. It is semi-professional, and operates as a provincial league, with two \"str\nr64  South African Touring Cars  (wikipedia, 1727 words)\n     South African Touring Cars (formerly the Global Touring Car Championship) is a South African touring car series co-founded by Gary Formato and Vic Maharaj in 2016 and sanctioned by\nr65  Secunda, South Africa  (wikipedia, 2764 words)\n     Secunda (from Latin secundus, meaning \"second\" or \"following\") is a town situated amidst the coalfields of Mpumalanga province, South Africa. It was named Secunda as it was the sit\nr66  Arya Sasol polymer company  (wikipedia, 749 words)\n     The Arya Sasol polymer Company, (Persian: شرکت پلیمر آریا ساسول) is an Iranian petrochemical company located in Asaluyeh, Iran. The establishment contract for this company was sign\nr67  South Africa  (wikipedia, 42565 words)\n     South Africa, officially the Republic of South Africa (RSA), is the southernmost country in Africa. The country consists of nine provinces, and is bounded to the south by 2,798 kil\nr68  2014 Sasol League National Championship  (wikipedia, 2261 words)\n     The 2014 Sasol League National Championship was the 6th edition of the Sasol League National Championship since it was formed in 2009. It was held at Isaac Wolfson Stadium in Port "
+    },
+    {
+      "step": 10,
+      "thought": "Three subjects covered (Shuttleworth, Naki, Musk), all History/Health. I need untouched categories: Business, Culture, Food, Sports, Records. For 'inventors and firsts from South Africa', a rich dramatic candidate is Christiaan Barnard — the world's first human-to-human heart transplant, a genuinely surprising 'first'. Health is already covered by Musk, but Barnard's story is so rich it's worth it",
+      "action": "read",
+      "detail": "r57 \"Sasol\"",
+      "observation": "Read r57 \"Sasol\": 8 facts verified, 0 failed the verifier, 2 already in the app or this run.\nKEPT (1):\n  + [3/3, Business] Sasol's Secunda plant is the world's largest single point source of greenhouse gas, emitting 56.5 Mt of CO2 a year — more than the entire country of Portugal.\nSTRONG BUT SET ASIDE FOR VARIETY (2):\n  ~ Sasol's Natref refinery once piped oil 800 km from Durban via Richards Bay, and by 1979 got 70% of its oil fro  (History is full this run)\n  ~ Sasol paid a €318 million fine to the European Commission in 2008 for a paraffin wax cartel — about R3.7 billi  (one fact per document; ranked lower)\nWEAK (3):\n  - [3/6] Sasol was built on coal liquefaction processes that German chemists and engineers first developed in the early 1900s.\n      why: known: Every South African schoolchild learns Sasol was set up to make oil from coal because of apartheid sanctions, and that the technology came from Germany —\n  - [0/3] Sasol's name comes from its original Afrikaans title: Suid-Afrikaanse Steenkool-, Olie- en Gas Maatskappy.\n      why: flat: It's an acronym expansion, not a surprise — I already assumed Sasol stood for something, and finding out it's just the full Afrikaans name is the least in\n  - [0/3] Sasol's first offices were a farm house called Zevenfontein, which still stands today.\n      why: flat: So a company started in a farmhouse — that's how literally everything started, there's nothing to react to here.\nThis subject is now covered. Move to something unrelated."
+    },
+    {
+      "step": 11,
+      "thought": "Four subjects covered (Shuttleworth, Naki, Musk, Sasol), all History/Health/Business. I need untouched categories: Culture, Food, Sports, Records. For 'inventors and firsts from South Africa', a rich dramatic candidate is Christiaan Barnard — the world's first human-to-human heart transplant, a genuinely surprising 'first' with a dramatic personal story. Health is technically covered by Musk, but ",
+      "action": "search",
+      "detail": "\"Christiaan Barnard\"",
+      "observation": "Search \"Christiaan Barnard\" (Wikipedia):\nr16  Christiaan Barnard  (wikipedia, 8840 words)\n     Christiaan Neethling Barnard (8 November 1922 – 2 September 2001) was a South African cardiac surgeon who performed the world's first human-to-human heart transplant operation. On \nr17  Marius Barnard (surgeon)  (wikipedia, 1333 words)\n     Marius Stephanus Barnard (3 November 1927 – 14 November 2014) was a South African cardiac surgeon and inventor of critical illness insurance. Barnard was a member of the team heade\nr18  Boyd Rush  (wikipedia, 2033 words)\n     Boyd Rusia Rush (July 4, 1895 – January 24, 1964) was an American upholsterer who was the recipient of the world's first heart transplant on January 24, 1964, at University of Miss\nr19  Denise Darvall  (wikipedia, 1156 words)\n     Denise Darvall (27 February 1942 – 3 December 1967) was the donor in the world's first successful human heart transplant, performed at Groote Schuur Hospital, South Africa, by a te\nr20  Hamilton Naki  (wikipedia, 5618 words, already read this run)\n     Hamilton Naki (26 June 1926 – 29 May 2005) was a South African laboratory assistant known for his contributions to surgical research and medical training despite having no formal m\nr21  Philip Blaiberg  (wikipedia, 1597 words)\n     Philip Blaiberg (24 May 1909 – 17 August 1969) was a South African dentist and the third person to receive a heart transplant. On 2 January 1968, in Cape Town, Dr.\nr23  Christiaan  (wikipedia, 1083 words)\n     Christiaan is a Dutch, Flemish, and Afrikaans male given name. An archaic spelling of the name was Christiaen with \"ae\" to indicate the long sound \"a\".\nr24  Great South Africans  (wikipedia, 2665 words)\n     Great South Africans is a South African television series that aired on SABC3. It was hosted by Noeleen Maholwana-Sangqu and Denis Beckett.\nr22  Heart of Cape Town Museum  (wikipedia, 982 words)\n     The Heart of Cape Town Museum is a museum complex in the Observatory suburb of Cape Town, South Africa. It is in the Groote Schuur Hospital on Main Road.\nr25  Barnard  (wikipedia, 1125 words)\n     Barnard is a surname of Old English origin, derived from the Anglo-Saxon given name \"Beornheard\". It is composed of two elements: \"Beorn,\" meaning \"young warrior\" or \"bear,\" and \"h\nr26  Rupert Graves  (wikipedia, 3299 words)\n     Rupert Graves is an English film, television, and theatre actor. He is known for his roles in A Room with a View, Maurice, The Madness of King George, and The Forsyte Saga.\nr27  Johan Naude  (wikipedia, 421 words)\n     Johan Naude is a South African surgeon and urologist. Naude was former president of the South African Urological Association and a pioneering transplant surgeon who worked closely "
+    },
+    {
+      "step": 12,
+      "thought": "Four subjects covered (Shuttleworth, Naki, Musk, Sasol) across History/Health/Business. I need untouched categories: Culture, Food, Sports, Records. For 'inventors and firsts from South Africa', a rich dramatic candidate is Christiaan Barnard — the world's first human-to-human heart transplant, a genuinely surprising 'first' with a dramatic personal story. Health is technically covered by Musk, bu",
+      "action": "read",
+      "detail": "r16 \"Christiaan Barnard\"",
+      "observation": "Not read: \"Christiaan Barnard\" is the same subject as a fact this run already has (\"Cardiac surgeon Christiaan Barnard said of his lab assistant Hamilton Naki: \"technically, he is a be\"). One fact per subject. Choose something unrelated."
+    },
+    {
+      "step": 13,
+      "thought": "Four subjects covered (Shuttleworth, Naki, Musk, Sasol) across History/Health/Business. Barnard is blocked as same subject as Naki fact. I need untouched categories: Culture, Food, Sports, Records. For 'inventors and firsts from South Africa', a strong rich candidate is a South African inventor of a globally-known product. Let me search for the inventor of the CAT scan or a famous South African fi",
+      "action": "search",
+      "detail": "\"Penny Heyns\"",
+      "observation": "Search \"Penny Heyns\" (Wikipedia):\nr73  Penelope Heyns  (wikipedia, 1682 words)\n     Penelope (\"Penny\") Heyns OIS (born 8 November 1974) is a South African former swimmer, who is best known for being the only woman in the history of the Olympic Games to have won bo\nr74  Swimming at the 2000 Summer Olympics – Women's 100 metre breaststroke  (wikipedia, 2434 words)\n     The women's 100 metre breaststroke event at the 2000 Summer Olympics took place on 17–18 September at the Sydney International Aquatic Centre in Sydney, Australia. At only 16 years\nr75  Swimming at the 2000 Summer Olympics – Women's 200 metre breaststroke  (wikipedia, 2524 words)\n     The women's 200 metre breaststroke event at the 2000 Summer Olympics took place on 20–21 September at the Sydney International Aquatic Centre in Sydney, Australia. Charging back fr\nr76  Qi Hui  (wikipedia, 1748 words)\n     Qi Hui (齐晖, born 13 January 1985 in Fuzhou, Fujian) is an Olympic and former world record holding breaststroke swimmer from China. She held the world record in the long course wome\nr77  Tatjana Smith  (wikipedia, 8183 words)\n     Tatjana Smith (née Schoenmaker; born 9 July 1997) is a South African retired swimmer who specialised in breaststroke events. She is a two-time Olympic champion and the most decorat\nr78  Springs, South Africa  (wikipedia, 6141 words)\n     Springs is a former independent city that is now part of the City of Ekurhuleni, based in the east of Johannesburg (East Rand), in Gauteng Province, South Africa. It lies 50 km (31\nr79  1998 Goodwill Games  (wikipedia, 2771 words)\n     The 1998 Goodwill Games was the fourth edition of the international sports competition the Goodwill Games, which were created by Ted Turner in reaction to the political troubles su\nr80  1999 All-Africa Games  (wikipedia, 1675 words)\n     The 7th All-Africa Games (Zulu: imiDlalo yesi-7 yase-Afrika; Afrikaans: 7de Afrika-Spele), also known as Johannesburg 1999 (Zulu: eGoli 1999), was a sport event held from 10 to 19 \nr81  Swimming at the 1996 Summer Olympics – Women's 100 metre breaststroke  (wikipedia, 1896 words)\n     The women's 100 metre breaststroke event at the 1996 Summer Olympics took place on 21 July at the Georgia Tech Aquatic Center in Atlanta, United States.\nr82  Swimming at the 1996 Summer Olympics  (wikipedia, 4137 words)\n     The swimming competition at the 1996 Summer Olympics was held at the Georgia Tech Aquatic Center in Atlanta, United States. There were 762 competitors from 117 countries.\nr83  1996 Summer Olympics  (wikipedia, 21125 words)\n     The 1996 Summer Olympics (officially the Games of the XXVI Olympiad, also known as Atlanta 1996 and commonly referred to as the Centennial Olympic Games) were an international mult\nr84  Swimming at the 1996 Summer Olympics – Women's 200 metre breaststroke  (wikipedia, 1889 words)\n     The women's 200 metre breaststroke event at the 1996 Summer Olympics took place on 21 July at the Georgia Tech Aquatic Center in Atlanta, United States."
+    },
+    {
+      "step": 14,
+      "thought": "Four subjects covered (Shuttleworth, Naki, Musk, Sasol) across History/Health/Business. I need untouched categories: Culture, Food, Sports, Records. Penny Heyns is a strong 'firsts' candidate — the only woman in Olympic history to win both breaststroke golds at one Games (Atlanta 1996). Her article (r73) is a rich personal story of a South African first. Sports is an untouched category.",
+      "action": "read",
+      "detail": "r73 \"Penelope Heyns\"",
+      "observation": "Read r73 \"Penelope Heyns\": 2 facts verified, 2 failed the verifier, 0 already in the app or this run.\nKEPT (1):\n  + [5/6, Sports] Penny Heyns is the only woman in Olympic history to win both the 100 m and 200 m breaststroke, at Atlanta in 1996 — South Africa's first post-apartheid Olympic gold medallist.\nSTRONG BUT SET ASIDE FOR VARIETY (1):\n  ~ South African former swimmer Penny Heyns set eleven world records in three months in 1999, holding five of the  (one fact per document; ranked lower)\nWEAK (0):\nThis subject is now covered. Move to something unrelated."
+    },
+    {
+      "step": 15,
+      "thought": "Five subjects covered (Shuttleworth, Naki, Musk, Sasol, Heyns) across History/Health/Business/Sports. I need untouched categories: Culture, Food, Records. For 'inventors and firsts from South Africa', a rich dramatic candidate is the world's first successful penis transplant performed at Tygerberg Hospital, or the invention of the Kreepy Krauly pool cleaner. But a stronger rich-person story: Elon ",
+      "action": "search",
+      "detail": "\"Allan Cormack\"",
+      "observation": "Search \"Allan Cormack\" (Wikipedia):\nr86  Allan MacLeod Cormack  (wikipedia, 1096 words)\n     Allan MacLeod Cormack (February 23, 1924 – May 7, 1998) was a South African and American physicist, academic, and Nobel Laureate. He was Professor of Physics at Tufts University an\nr87  History of computed tomography  (wikipedia, 8157 words)\n     The history of X-ray computed tomography (CT) traces back to Wilhelm Conrad Röntgen's discovery of X-ray radiation in 1895 and its rapid adoption in medical diagnostics. While X-ra\nr88  Doris Lessing  (wikipedia, 8708 words)\n     Doris May Lessing (née Tayler; 22 October 1919 – 17 November 2013) was a British novelist – sometimes identified as Rhodesian early in her career – and winner of the Nobel Prize in\nr89  Imagining the Elephant  (wikipedia, 758 words)\n     Imagining the Elephant: A Biography of Allan MacLeod Cormack is a 2008 biography of physicist and Nobel laureate Allan MacLeod Cormack written by biomedical engineer and author Chr\nr90  Winchester, Massachusetts  (wikipedia, 8057 words)\n     Winchester is a town in Middlesex County, Massachusetts, United States, located 8.2 miles (13.2 km) north of downtown Boston as part of the Greater Boston metropolitan area. It is \nr91  Karl Landsteiner  (wikipedia, 2715 words)\n     Karl Landsteiner (German: [kaʁl ˈlantˌʃtaɪnɐ]; 14 June 1868 – 26 June 1943) was an Austrian-American biologist, physician, and immunologist. He emigrated with his family to New Yor\nr92  Nelson Mandela  (wikipedia, 34718 words)\n     Nelson Rolihlahla Mandela (18 July 1918 – 5 December 2013) was a South African anti-apartheid revolutionary, politician, and philanthropist, who served as President of South Africa\nr93  Shinya Yamanaka  (wikipedia, 6509 words)\n     Shinya Yamanaka (山中 伸弥, Yamanaka Shin'ya; born September 4, 1962) is a Japanese stem cell researcher and a Nobel Prize laureate. He is a professor and the director emeritus of the \nr94  Tim Noakes  (wikipedia, 3323 words)\n     Timothy David Noakes (born 1949) is a South African scientist and an emeritus professor in the Division of Exercise Science and Sports Medicine at the University of Cape Town. He h\nr95  Sydney Brenner  (wikipedia, 7909 words)\n     Sydney Brenner (13 January 1927 – 5 April 2019) was a South African biologist. In 2002, he shared the Nobel Prize in Physiology or Medicine with H. Robert Horvitz and Sir John E. S\nr96  Cormack (surname)  (wikipedia, 352 words)\n     Cormack is a Scottish and Irish surname derived from the Gaelic \"Mac Cormaic\" and the Irish given name \"Cormac\".\nr97  F. W. de Klerk  (wikipedia, 13971 words)\n     Frederik Willem de Klerk (18 March 1936 – 11 November 2021) was a South African politician who served as the final state president of South Africa from 1989 to 1994 and as deputy p"
+    },
+    {
+      "step": 16,
+      "thought": "Five subjects covered across History/Health/Business/Sports. I need untouched categories: Culture, Food, Records. For 'inventors and firsts from South Africa', a rich dramatic candidate is the world's first successful penis transplant at Tygerberg Hospital, or the invention of the Kreepy Krauly pool cleaner. But a stronger rich-person story: Elon Musk's father Errol Musk (r37) was mentioned earlie",
+      "action": "read",
+      "detail": "r95 \"Sydney Brenner\"",
+      "observation": "Read r95 \"Sydney Brenner\": 4 facts verified, 4 failed the verifier, 2 already in the app or this run.\nKEPT (0):\nSTRONG BUT SET ASIDE FOR VARIETY (0):\nWEAK (2):\n  - [0/3] Nobel Prize-winning biologist Sydney Brenner's father, a cobbler, migrated to South Africa from Lithuania in 1910, and his mother came from \n      why: obscure: So his parents were Lithuanian and Latvian immigrants to South Africa — that's a genealogy detail, not a fact that makes me react, and I still don't kn\n  - [0/3] Sydney Brenner, a South African biologist who shared the 2002 Nobel Prize in Physiology or Medicine, was born in Germiston in the old Transv\n      why: flat: So a South African won a Nobel in 2002 — cool, but there's nothing here that makes me go 'no way', it's just a birth certificate.\nThis subject is now covered. Move to something unrelated."
+    },
+    {
+      "step": 17,
+      "thought": "Five subjects covered across History/Health/Business/Sports. I need untouched categories: Culture, Food, Records. For 'inventors and firsts from South Africa', a rich dramatic candidate is the world's first successful penis transplant at Tygerberg Hospital, or the invention of the Kreepy Krauly pool cleaner. But a stronger rich-person story: Elon Musk's father Errol Musk (r37) was mentioned earlie",
+      "action": "",
+      "detail": "",
+      "observation": "'' is not an action. Use search, read or finish."
+    },
+    {
+      "step": 18,
+      "thought": "Five subjects covered across History/Health/Business/Sports; I need untouched categories Culture, Food, Records. A rich, dramatic South African 'first' is the world's first successful penis transplant at Tygerberg Hospital, but a stronger rich-person story is the invention of the CAT scan by Allan Cormack — a Nobel laureate born in Johannesburg. However, r87 'History of computed tomography' is a l",
+      "action": "read",
+      "detail": "r87 \"History of computed tomography\"",
+      "observation": "Read r87 \"History of computed tomography\": 4 facts verified, 4 failed the verifier, 0 already in the app or this run.\nKEPT (0):\nSTRONG BUT SET ASIDE FOR VARIETY (0):\nWEAK (4):\n  - [0/3] CT pioneer Hounsfield's early measurements took up to nine days to acquire 28,000 data points, then over two hours to process on a high-spee\n      why: flat: It's about a guy I've never heard of and a machine I don't care about, and it never even says what CT is or why Hounsfield matters.\n  - [0/3] The first patient scanned by CT, on October 1, 1971, was a woman with a suspected brain tumour, examined at Atkinson Morley Hospital in Lond\n      why: obscure: It's a first-ever trivia fact about a machine, but there's no name, no twist, no number that lands — I'd scroll straight past it.\n  - [1/3] In 1975, customers at the RSNA conference placed $50,000 deposits just to reserve a spot in the delivery queue for Ohio Nuclear's Delta Scan\n      why: obscure: It's a real detail about the early CT boom, but it's an American medical-equipment anecdote with no African hook and nothing in it that turns — I'd nev\n  - [0/3] Siemens introduced the first photon-counting CT scanner, the NAEOTOM Alpha, in 2021, with a gantry rotation time down to 0.25 seconds.\n      why: obscure: This is just a product spec sheet — I have no idea what photon-counting means or why 0.25 seconds matters, so there's nothing here to react to.\nThis subject is now covered. Move to something unrelated."
+    },
+    {
+      "step": 19,
+      "thought": "Five subjects covered across History/Health/Business/Sports; I need untouched categories Culture, Food, Records. A rich, dramatic South African 'first' is the world's first successful penis transplant at Tygerberg Hospital (a genuine medical first with a striking human story), which fits Records/Health. Let me search for it.",
+      "action": "search",
+      "detail": "\"penis transplant\"",
+      "observation": "Search \"penis transplant\" (Wikipedia):\nr100  Penis transplantation  (wikipedia, 2375 words)\n     Penis transplantation is a surgical transplant procedure in which a penis is transplanted to a patient. The penis may be an allograft from a human donor, or it may be grown artific\nr101  Penis removal  (wikipedia, 2745 words)\n     Penis removal is the act of removing the human penis. It is not to be confused with the related practice of castration, in which the testicles are removed or deactivated; or emascu\nr102  Human penis  (wikipedia, 11323 words)\n     In human anatomy, the penis (; pl.: penises or penes; from the Latin pēnis, initially 'tail') is an external sex organ (intromittent organ) through which males ejaculate and urinat\nr103  André van der Merwe  (wikipedia, 1270 words)\n     André van der Merwe is a South African urologist. He is currently head of urology at the University of Stellenbosch and an associate professor at Tygerberg Hospital.\nr104  Transplantation (medicine)  (wikipedia, 27480 words)\n     Transplantation is a medical procedure in which an organ, tissue, or cells are removed from one organism and placed in a recipient organism, often to replace a damaged or missing f\nr105  Ulwaluko  (wikipedia, 6431 words)\n     Ulwaluko is a traditional initiation and rite of passage practised (though not exclusively) by the Xhosa people, and is commonly practised throughout South Africa. The ritual is tr\nr106  Penile implant  (wikipedia, 5199 words)\n     A penile implant is an implanted device intended for the treatment of erectile dysfunction, Peyronie's disease, ischemic priapism, deformity and any traumatic injury of the penis, \nr107  John and Lorena Bobbitt  (wikipedia, 5237 words)\n     John Wayne Bobbitt (born 1967) and Lorena Gallo (formerly Bobbitt; born May 15, 1969) are an American former couple whose marriage received international press coverage in 1993 whe\nr108  Percy (novel)  (wikipedia, 283 words)\n     Percy is a 1969 comedy novel by the British writer Raymond Hitchcock. It recounts the story of a British man who has the world's first penis transplant, following an accident.\nr109  The Amazing Transplant  (wikipedia, 658 words)\n     The Amazing Transplant is an American 1970 sexploitation film, written, produced and directed by Doris Wishman. The film stars Juan Fernandez, Linda Southern, and Larry Hunter.\nr110  Transplant surgeon  (wikipedia, 389 words)\n     A transplant surgeon is a surgeon who performs organ transplants. Among the many organs that can be transplanted are: kidneys, livers, hearts, lungs, the pancreas, the intestine (e\nr111  History of surgery  (wikipedia, 13501 words)\n     Surgery is the branch of medicine that deals with the physical manipulation of a bodily structure to diagnose, prevent, or cure an ailment. Ambroise Paré, a 16th-century French sur"
+    },
+    {
+      "step": 20,
+      "thought": "I need untouched categories: Culture, Food, Records. The penis transplant search surfaced r105 'Ulwaluko' (Xhosa initiation rite, 6431 words) — a rich cultural document about a South African tradition, fitting Culture. That's a fresh, unrelated subject with a dramatic human story.",
+      "action": "read",
+      "detail": "r105 \"Ulwaluko\"",
+      "observation": "Read r105 \"Ulwaluko\": 7 facts verified, 1 failed the verifier, 1 already in the app or this run.\nKEPT (1):\n  + [3/3, Health] At least 969 initiates have died from complications of Ulwaluko, the Xhosa initiation rite, since 1995 — and penile amputations are estimated at roughly twice that number.\nSTRONG BUT SET ASIDE FOR VARIETY (2):\n  ~ The Mpondo stopped practising initiation circumcision in the 1820s, when King Faku banned it after losing seve  (History is full this run)\n  ~ A Dutch doctor's website of over 150 photographs of penises injured by botched ritual circumcisions was ruled   (one fact per document; ranked lower)\nWEAK (3):\n  - [3/6] In 2019, 21 boys died in separate South African initiation schools, mostly from dehydration due to restricted water, prompting the health mi\n      why: known: I teach this every year — the deaths, the dehydration, the health minister's pleas — it's in the news every June and July, so there's nothing here I didn\n  - [0/3] The film The Wound, about homosexual men during Ulwaluko, premiered at Sundance in 2017 and was condemned by Xhosa traditional leaders as di\n      why: obscure: I vaguely remember the controversy but there's no turn here, it's just a film that offended traditional leaders, which happens all the time and doesn't\n  - [0/3] The Customary Initiation Act of 2021 legally mandates compliance with initiation regulations, legislating the rite while enforcing health st\n      why: flat: It's a dry summary of a law with no person, no number, no turn, and nothing I'd repeat to anyone.\nThis subject is now covered. Move to something unrelated."
+    }
+  ],
+  "decidedAt": "2026-09-30T06:13:36.505Z",
+  "developed": [
+    "nf_1196",
+    "nf_1197",
+    "nf_1198"
+  ]
+}

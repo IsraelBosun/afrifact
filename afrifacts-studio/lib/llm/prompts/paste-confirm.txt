@@ -1,0 +1,54 @@
+Someone saw this claim online and wants it in AfriFacts, an app of
+surprising, verified facts about Africa. Check it against the document
+below, which is the only evidence that counts. What you know yourself
+does not count.
+
+## The claim
+
+{{claim}}
+
+## Decide
+
+- "supported": the document states the claim. Small differences of
+  wording are fine; the facts must match.
+- "different": the document covers the same thing but says something
+  different: another number, year, person or relationship. The document
+  wins. This is a normal outcome, not a failure.
+- "absent": the document does not say it either way.
+
+## If supported or different
+
+- "passage": the sentences from the document that state it, copied
+  CHARACTER FOR CHARACTER. One to three complete sentences. It is checked
+  by exact string match; if it does not match, the claim is thrown away.
+- "fact": the fact as it will appear on a phone card, written ONLY from
+  the passage. For "different", write what the DOCUMENT says, not the
+  claim, and write it as a fact in its own right: never mention the
+  claim or what it got wrong ("not 1995"). The difference goes in "note".
+    * AT MOST 180 CHARACTERS. One sentence, plain language.
+    * Every number, date, name and place must appear in the passage.
+    * Lead with the surprising part and end on the most interesting word.
+    * If it names a person who is not a household name, say who they are
+      in one to four words the passage supports ("footballer Samuel
+      Okwaraji").
+    * No "did you know".
+    * No em dashes (—). Use a comma, a colon or parentheses, or split the thought.
+- "category": exactly one of History, Business, Culture, Food, Sports,
+  Records, Health.
+- "surprise": 1 to 5 for priorProbability (5 = almost nobody in
+  {{country}} knows it), specificity (5 = concrete and checkable) and
+  explicability (5 = opens onto something larger).
+- "note": for "different", one sentence on how the document differs from
+  the claim. Otherwise empty.
+
+## The document
+
+Title: {{title}}
+
+--- BEGIN DOCUMENT ---
+{{document}}
+--- END DOCUMENT ---
+
+Return JSON only:
+
+{"status": "supported" | "different" | "absent", "passage": "...", "fact": "...", "category": "...", "surprise": {"priorProbability": 4, "specificity": 4, "explicability": 3}, "note": ""}

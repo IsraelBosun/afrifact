@@ -1,0 +1,507 @@
+{
+  "runId": "agent-2026-09-29T05-46-58",
+  "status": "done",
+  "brief": "",
+  "target": 8,
+  "createdAt": "2026-09-29T05:51:44.812Z",
+  "stopReason": "The agent model failed: terminated",
+  "docsRead": 4,
+  "webQueriesSpent": 0,
+  "shortlist": [
+    {
+      "key": "s1",
+      "fact": "Serial entrepreneur Jason Njoku's iROKOtv was his 11th attempt at starting a business, launched after he moved back in with his mother in Deptford at 30.",
+      "category": "Business",
+      "votes": "3/3",
+      "why": "I know iROKOtv but I never knew the man failed ten times and moved back to his mum's at 30 before it worked — that's the part that makes you stop scrolling.",
+      "title": "Jason Njoku",
+      "url": "https://en.wikipedia.org/wiki/Jason_Njoku",
+      "candidate": {
+        "fact": "Serial entrepreneur Jason Njoku's iROKOtv was his 11th attempt at starting a business, launched after he moved back in with his mother in Deptford at 30.",
+        "passage": "A self-proclaimed serial entrepreneur, iROKOtv was Njoku's 11th attempt at starting a business. He came up with the idea of launching a new distribution platform for Nollywood whilst living at home with his mum, aged 30, after a number of failed enterprises.",
+        "category": "Business",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "Most Nigerians know iROKOtv but not that it was the eleventh venture of a man who had moved back into his mother's house.",
+        "volatile": false,
+        "slug": "jason-njoku",
+        "country": "NG",
+        "source": {
+          "title": "Jason Njoku",
+          "url": "https://en.wikipedia.org/wiki/Jason_Njoku",
+          "revisionId": "1356939640",
+          "contentHash": "dbbe6a3e598510a0",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "s2",
+      "fact": "A 1986 investigative report by Nigerian journalist Dele Olojede on the imprisonment of the popular Nigerian musician Fela Kuti led to Kuti's release and the dismissal of the judge who imprisoned him.",
+      "category": "History",
+      "votes": "3/3",
+      "why": "I know Fela got locked up and I know the name Dele Olojede, but I never knew one article by him is what actually freed Fela and ended that judge's career.",
+      "title": "Dele Olojede",
+      "url": "https://en.wikipedia.org/wiki/Dele_Olojede",
+      "candidate": {
+        "fact": "A 1986 investigative report by Nigerian journalist Dele Olojede on the imprisonment of the popular Nigerian musician Fela Kuti led to Kuti's release and the dismissal of the judge who imprisoned him.",
+        "passage": "A 1986 investigative report by Olojede on the imprisonment of the popular Nigerian musician Fela Kuti led to Kuti's release and the dismissal of the judge who imprisoned him.",
+        "category": "History",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "Fela is a household name, but few know a journalist's report freed him and got the judge sacked.",
+        "volatile": false,
+        "slug": "dele-olojede",
+        "country": "NG",
+        "source": {
+          "title": "Dele Olojede",
+          "url": "https://en.wikipedia.org/wiki/Dele_Olojede",
+          "revisionId": "1371386128",
+          "contentHash": "9485206a3877b498",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "s3",
+      "fact": "Physician and neuropathologist Omalu found tau protein in former NFL player Terry Long's brain consistent with 'a 90-year-old brain with advanced Alzheimer's' — Long died by suicide at 45.",
+      "category": "Health",
+      "votes": "4/6",
+      "why": "The 45 vs 90 comparison is the whole thing — a man my dad's age walking around with a brain older than my grandfather, and it's the reason he's dead.",
+      "title": "Bennet Omalu",
+      "url": "https://en.wikipedia.org/wiki/Bennet_Omalu",
+      "candidate": {
+        "fact": "Physician and neuropathologist Omalu found tau protein in former NFL player Terry Long's brain consistent with 'a 90-year-old brain with advanced Alzheimer's' — Long died by suicide at 45.",
+        "passage": "In November 2006, Omalu published a second Neurosurgery paper based on his findings in the brain of former NFL player Terry Long, who suffered from depression, and died by suicide in 2005. Though Long died at 45, Omalu found tau protein concentrations more consistent with \"a 90-year-old brain with advanced Alzheimer's.\"",
+        "category": "Health",
+        "surprise": {
+          "priorProbability": 5,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "The 45-versus-90 comparison is a striking, quotable figure that most readers have never seen, and it names the player and the cause of death.",
+        "volatile": false,
+        "slug": "bennet-omalu",
+        "country": "NG",
+        "source": {
+          "title": "Bennet Omalu",
+          "url": "https://en.wikipedia.org/wiki/Bennet_Omalu",
+          "revisionId": "1376979439",
+          "contentHash": "5601d3f3b32afb0d",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "s4",
+      "fact": "Chicken Republic's first restaurant opened in Apapa, Lagos, in 2004, originally under a franchise deal with South Africa's Chicken Licken.",
+      "category": "Business",
+      "votes": "4/6",
+      "why": "I eat there and never once wondered where it came from, and the South African franchise origin is a genuine turn I would not have guessed.",
+      "title": "Chicken Republic",
+      "url": "https://en.wikipedia.org/wiki/Chicken_Republic",
+      "candidate": {
+        "fact": "Chicken Republic's first restaurant opened in Apapa, Lagos, in 2004, originally under a franchise deal with South Africa's Chicken Licken.",
+        "passage": "The first Chicken Republic restaurant opened in Apapa, Lagos, in 2004, initially drawing on a franchise relationship with the South African chain Chicken Licken before Akinyanju established Chicken Republic as an independent, wholly Nigerian-owned brand.",
+        "category": "Business",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 3
+        },
+        "reasoning": "The brand reads as wholly Nigerian, so its origin as a South African franchise is a genuine turn.",
+        "volatile": false,
+        "slug": "chicken-republic",
+        "country": "NG",
+        "source": {
+          "title": "Chicken Republic",
+          "url": "https://en.wikipedia.org/wiki/Chicken_Republic",
+          "revisionId": "1375367287",
+          "contentHash": "1c79c79200d0cc7d",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    }
+  ],
+  "alternates": [
+    {
+      "key": "a1",
+      "fact": "Dele Olojede was the first African-born winner of the Pulitzer Prize in International Journalism, for covering the aftermath of the Rwandan genocide.",
+      "category": "History",
+      "votes": "3/3",
+      "why": "A Nigerian holding a first that big, and I had no idea — that's going straight to the group chat.",
+      "title": "Dele Olojede",
+      "url": "https://en.wikipedia.org/wiki/Dele_Olojede",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "Dele Olojede was the first African-born winner of the Pulitzer Prize in International Journalism, for covering the aftermath of the Rwandan genocide.",
+        "passage": "He is the first African-born winner of the Pulitzer Prize in International Journalism for his work covering the aftermath of the Rwandan genocide.",
+        "category": "History",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 4,
+          "explicability": 4
+        },
+        "reasoning": "Most Nigerians know the Pulitzer exists but not that an African-born journalist won it, let alone a Nigerian.",
+        "volatile": false,
+        "slug": "dele-olojede",
+        "country": "NG",
+        "source": {
+          "title": "Dele Olojede",
+          "url": "https://en.wikipedia.org/wiki/Dele_Olojede",
+          "revisionId": "1371386128",
+          "contentHash": "9485206a3877b498",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a2",
+      "fact": "Pulitzer Prize-winning journalist Dele Olojede was the 12th of 28 children, born in Modakeke, Nigeria, in January 1961.",
+      "category": "History",
+      "votes": "3/3",
+      "why": "The Pulitzer is the hook but 28 children is the thing I'd actually screenshot and send.",
+      "title": "Dele Olojede",
+      "url": "https://en.wikipedia.org/wiki/Dele_Olojede",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "Pulitzer Prize-winning journalist Dele Olojede was the 12th of 28 children, born in Modakeke, Nigeria, in January 1961.",
+        "passage": "Olojede was born in January 1961 in Modakeke, Nigeria. He was the 12th of 28 children.",
+        "category": "History",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 3
+        },
+        "reasoning": "The number 28 children is startling and specific, and almost nobody knows this about a Pulitzer winner.",
+        "volatile": false,
+        "slug": "dele-olojede",
+        "country": "NG",
+        "source": {
+          "title": "Dele Olojede",
+          "url": "https://en.wikipedia.org/wiki/Dele_Olojede",
+          "revisionId": "1371386128",
+          "contentHash": "9485206a3877b498",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a3",
+      "fact": "NEXT published the story that President Umaru Yar'Adua was brain dead, not 'returning soon from a Saudi hospital' as promised.",
+      "category": "History",
+      "votes": "4/6",
+      "why": "I knew he was sick and there was that whole cover-up drama, but I never knew a paper actually put 'brain dead' in print while they were still promising he was coming back — that's the detail that makes it land.",
+      "title": "Dele Olojede",
+      "url": "https://en.wikipedia.org/wiki/Dele_Olojede",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "NEXT published the story that President Umaru Yar'Adua was brain dead, not 'returning soon from a Saudi hospital' as promised.",
+        "passage": "Most famously, NEXT published the story that the president Umaru Yar'Adua was brain dead and not \"returning soon from a Saudi hospital\" as promised.",
+        "category": "History",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "The Yar'Adua health saga is remembered, but that a Nigerian paper broke the brain-dead story is a striking, specific link.",
+        "volatile": false,
+        "slug": "dele-olojede",
+        "country": "NG",
+        "source": {
+          "title": "Dele Olojede",
+          "url": "https://en.wikipedia.org/wiki/Dele_Olojede",
+          "revisionId": "1371386128",
+          "contentHash": "9485206a3877b498",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a4",
+      "fact": "Nigerian journalist and Pulitzer winner Dele Olojede won the 2011 John P. McNulty Prize for creating NEXT, which collapsed the same year owing staff more than five months' wages.",
+      "category": "Business",
+      "votes": "3/3",
+      "why": "The prize and the collapse landing in the same year is the kind of detail that makes the group chat go 'no way'.",
+      "title": "Dele Olojede",
+      "url": "https://en.wikipedia.org/wiki/Dele_Olojede",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "Nigerian journalist and Pulitzer winner Dele Olojede won the 2011 John P. McNulty Prize for creating NEXT, which collapsed the same year owing staff more than five months' wages.",
+        "passage": "In 2011, Dele Olojede won the John P. McNulty Prize, which was established by Fellows of the Aspen Institute to reward the most innovative projects driving social change. The prize was awarded for Olojede's vision and efforts in creating NEXT in Nigeria.",
+        "category": "Business",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 4,
+          "explicability": 4
+        },
+        "reasoning": "The prize and the collapse in the same year is a turn most readers would not expect.",
+        "volatile": false,
+        "slug": "dele-olojede",
+        "country": "NG",
+        "source": {
+          "title": "Dele Olojede",
+          "url": "https://en.wikipedia.org/wiki/Dele_Olojede",
+          "revisionId": "1371386128",
+          "contentHash": "9485206a3877b498",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a5",
+      "fact": "Physician and forensic pathologist Omalu's family name is a shortened form of Onyemalukwube, which translates to 'one who knows should speak.'",
+      "category": "Culture",
+      "votes": "5/6",
+      "why": "The name meaning lands perfectly on the man who exposed the NFL's concussion cover-up — that's a turn I'd screenshot.",
+      "title": "Bennet Omalu",
+      "url": "https://en.wikipedia.org/wiki/Bennet_Omalu",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "Physician and forensic pathologist Omalu's family name is a shortened form of Onyemalukwube, which translates to 'one who knows should speak.'",
+        "passage": "The family name, Omalu, is a shortened form of the surname, Onyemalukwube, which translates to \"one who knows should speak.\"",
+        "category": "Culture",
+        "surprise": {
+          "priorProbability": 5,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "The Igbo meaning behind the surname is a hidden origin story that fits the pattern of place and name origins in the collection.",
+        "volatile": false,
+        "slug": "bennet-omalu",
+        "country": "NG",
+        "source": {
+          "title": "Bennet Omalu",
+          "url": "https://en.wikipedia.org/wiki/Bennet_Omalu",
+          "revisionId": "1376979439",
+          "contentHash": "5601d3f3b32afb0d",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a6",
+      "fact": "Bennet Omalu, the Nigerian pathologist who found CTE in NFL players' brains, was born during the Nigerian Civil War, which forced his family to flee their home in Enugwu-Ukwu.",
+      "category": "History",
+      "votes": "4/6",
+      "why": "I knew Omalu was Nigerian and I knew the war scattered families, but I never once put the two together — the man who took on the NFL was a war refugee, and that link is the whole fact.",
+      "title": "Bennet Omalu",
+      "url": "https://en.wikipedia.org/wiki/Bennet_Omalu",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "Bennet Omalu, the Nigerian pathologist who found CTE in NFL players' brains, was born during the Nigerian Civil War, which forced his family to flee their home in Enugwu-Ukwu.",
+        "passage": "He was born during the Nigerian Civil War, which caused his family to flee from their home in the predominant Igbo village of Enugwu-Ukwu in southeastern Nigeria. They returned two years after Omalu's birth.",
+        "category": "History",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 4,
+          "explicability": 4
+        },
+        "reasoning": "Most Nigerians know Omalu from the film Concussion but not that he was a war-displaced infant who fled Enugwu-Ukwu and returned two years later.",
+        "volatile": false,
+        "slug": "bennet-omalu",
+        "country": "NG",
+        "source": {
+          "title": "Bennet Omalu",
+          "url": "https://en.wikipedia.org/wiki/Bennet_Omalu",
+          "revisionId": "1376979439",
+          "contentHash": "5601d3f3b32afb0d",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    }
+  ],
+  "trace": [
+    {
+      "step": 1,
+      "thought": "Starting fresh. Aim for thin categories: Food, Health, Sports, Business. A rich personal/scandal/institution story is best. Let me search for a Nigerian business figure with a dramatic life not yet covered — Michael Ibru is mined, Dangote mined. Try 'Emeka Okafor' (NBA) or a food figure. Better: search 'Tara Fela-Durotoye' (beauty business) or 'Jason Njoku' (Nollywood/iROKO founder, links two worl",
+      "action": "search",
+      "detail": "\"Jason Njoku\"",
+      "observation": "Search \"Jason Njoku\" (Wikipedia):\nr1  Jason Njoku  (wikipedia, 2438 words)\n     Jason Chukwuma Njoku (born 11 December 1980) is a British businessman and a producer. He is the co-founder and CEO of iROKOtv, a video-on-demand service for Nigerian movies.\nr2  Njoku  (wikipedia, 214 words)\n     Njoku is a surname of Igbo origin. The name is associated with true born sons of wealthy yam farmers in pre-colonial Igbo society.\nr3  David Njoku  (wikipedia, 4841 words)\n     David Njoku ( nuh-JOH-koo; born July 10, 1996) is an American professional football tight end for the Los Angeles Chargers of the National Football League (NFL). He played college \nr4  Mary Njoku  (wikipedia, 2139 words)\n     Mary Remmy Njoku (born 20 March 1985) is a Nigerian actress, producer, content creator and founder of the ROK TV Channels and CEO of ROK Studios, which she founded in 2013. With a \nr5  Irokotv  (wikipedia, 2625 words)\n     irokotv is a web platform that provides paid-for Nigerian films on-demand. It is one of Africa's first mainstream online movie streaming websites, providing access to over 5,000 No\nr6  IROKO Partners  (wikipedia, 1297 words)\n     iROKO Partners is an online media distribution company focused on the Nigerian entertainment industry. The company was established in September 2010 and is headquartered in Lagos, \nr7  British Nigerians  (wikipedia, 6838 words)\n     British Nigerians (here meaning British people of Nigerian descent) have formed long-established communities in London, Liverpool and other industrial cities. A large number of Bri\nr8  Mark Essien  (wikipedia, 1502 words)\n     Mark Anthony Essien (born 18 December 1980 in Ikot Ekpene, Akwa Ibom State) is a Nigerian entrepreneur, software developer and startup investor. He is the founder and CEO of Hotels\nr9  Michael Ugwu  (wikipedia, 1774 words)\n     Michael Ugwu is a British music industry executive, investor and entrepreneur in Nigeria's music and entertainment industry. He was formerly the General Manager of Sony Music Enter\nr10  Dobox  (wikipedia, 849 words)\n     Dobox is an entertainment on-demand (EOD) video and music streaming service. Dobox started as an indigenous, Nigerian-only, video streaming company, and began streaming other categ\nr11  Dele Bakare  (wikipedia, 1529 words)\n     Dele Bakare (born Oladele Ibukun Bakare 8 February 1989) is a Nigerian software developer and entrepreneur from Ibadan, Oyo State in Nigeria. He is the founder and CEO of Findworka\nr12  Sophia Bekele  (wikipedia, 9017 words)\n     Sophia Bekele Eshete (Amharic: ሶፍያ በቀለ; Addis Ababa, Ethiopia) is an entrepreneur, corporate executive, governance and risk management specialist, policy advisor on ICT, Internet a"
+    },
+    {
+      "step": 2,
+      "thought": "Jason Njoku's article is a rich personal story (British-Nigerian, iROKOtv founder, links two worlds) and fits the thin Business category. Read it first.",
+      "action": "read",
+      "detail": "r1 \"Jason Njoku\"",
+      "observation": "Read r1 \"Jason Njoku\": 3 facts verified, 3 failed the verifier, 0 already in the app or this run.\nKEPT (1):\n  + [3/3, Business] Serial entrepreneur Jason Njoku's iROKOtv was his 11th attempt at starting a business, launched after he moved back in with his mother in Deptford at 30.\nSTRONG BUT SET ASIDE FOR VARIETY (0):\nWEAK (2):\n  - [0/3] NollywoodLove, the YouTube channel of iROKOtv co-founder and CEO Jason Njoku, turned a profit within two months of its 2010 launch.\n      why: obscure: It's a business milestone about a company I don't care about, with no twist, no number that stings, and no reason given for why two months matters.\n  - [0/3] iROKOtv launched on 1 December 2011 and drew viewers from 178 countries.\n      why: obscure: 178 countries is a number but there's no turn, no name, no reason to care — it's just a stat about a company I already know exists.\nThis subject is now covered. Move to something unrelated."
+    },
+    {
+      "step": 3,
+      "thought": "Business is covered by Jason Njoku, so I need an unrelated subject in a thin category. Food (1 fact) and Health (2) are thinnest. Let me search for a Nigerian food figure or a dramatic food story — 'Hilda Baci' is already mined, so try a specific name like 'Nigerian cuisine' is mined too. Try a food business person or a health figure with a dramatic life. Search 'Stella Adadevoh' is mined. Try 'Bu",
+      "action": "search",
+      "detail": "\"Tara Fela-Durotoye\"",
+      "observation": "Search \"Tara Fela-Durotoye\" (Wikipedia):\nr15  Tara Fela-Durotoye  (wikipedia, 1052 words)\n     Tara Fela-Durotoye (born 6 March 1977) is a Nigerian beauty entrepreneur and lawyer. A pioneer in the bridal makeup profession in Nigeria, she launched the first bridal directory i\nr16  Fela Durotoye  (wikipedia, 2704 words)\n     Adetokunbo Olufela Durotoye (born in Ibadan, Oyo State on 12 May 1971) is a business consultant, leadership expert, politician, and motivational speaker. He was the Nigerian presid\nr17  Durotoye  (wikipedia, 135 words)\n     Durotoye () is a Nigerian male given name and surname of Yoruba origin. It means \"Wait with royalty.\nr18  Tara (given name)  (wikipedia, 2479 words)\n     Tara is a given name with multiple meanings in different cultures. In Ireland, it is derived from the Hill of Tara, an archaeological site located near the River Boyne in County Me\nr19  Tayo Oviosu  (wikipedia, 1205 words)\n     Tayo Oviosu is a Nigerian-American businessman who is the founder and group CEO of Paga, a mobile payments company that is focused on digitizing cash in emerging economies. Nigeria\nr20  TY Bello  (wikipedia, 3515 words)\n     Toyin Sokefun-Bello (; born 14 January 1978), who is better known as TY Bello, is a Nigerian singer, songwriter, photographer and philanthropist. Prior to pursuing a solo career, s\nr21  Lagos State University  (wikipedia, 5605 words)\n     Lagos State University (LASU) is a state-owned university established by the Lagos State government in 1983. Its main campus is situated at Alasia, Lagos, Ojo, with sub-campuses at\nr22  Nkiru Balonwu  (wikipedia, 3488 words)\n     Nkiru Balonwu is an entrepreneur and activist based in Lagos, Nigeria. She is known for her views of women as the solution to Africa's problems and is the founder and chairperson o\nr23  Funke Bucknor-Obruthe  (wikipedia, 1319 words)\n     Funke Bucknor-Obruthe (born 27 June 1976) is a Nigerian entrepreneur and lawyer. She is the founder and CEO of Zapphaire Events and is regarded as one of Nigeria's pioneering event\nr24  YouWin!  (wikipedia, 940 words)\n     YouWin! is a youth development scheme established in Nigeria by the administration of President Goodluck Jonathan.\nr25  Chika Oduah  (wikipedia, 2704 words)\n     Chikaodinaka Sandra Oduah (born March 14, 1986) is a Nigerian-American journalist, poet and cultural entrepreneur who has worked as a television news producer, correspondent, write\nr26  Uche Pedro  (wikipedia, 4052 words)\n     Uche Pedro (born by Uche Eze ; 26 July 1984) is a Nigerian entrepreneur. She is the founder and CEO of BellaNaija, a media tech brand known for entertainment and lifestyle content."
+    },
+    {
+      "step": 4,
+      "thought": "Business is covered by Jason Njoku, so I need an unrelated subject in a thin category. Food (1 fact) is thinnest — let me search for a specific Nigerian food figure with a rich story, like the founder of a famous food brand.",
+      "action": "search",
+      "detail": "\"Tastee Fried Chicken\"",
+      "observation": "Search \"Tastee Fried Chicken\" (Wikipedia):\nr29  Fried chicken restaurant  (wikipedia, 1226 words)\n     A fried chicken restaurant is a fast food restaurant that serves (mainly) Southern fried chicken—usually chunks of chicken, battered or breaded and deep-fried.\nr30  Dave's Hot Chicken  (wikipedia, 3909 words)\n     Dave's Hot Chicken is an American fast casual restaurant chain headquartered in Pasadena, California, specializing in Nashville-style hot chicken. Founded in 2017, the company oper\nr31  KFC  (wikipedia, 18059 words)\n     KFC Corporation, trading as Kentucky Fried Chicken (KFC), is an American multinational fast food restaurant chain specializing in Southern fried chicken and chicken sandwiches. Hea\nr32  Popeyes  (wikipedia, 8745 words)\n     Popeyes Louisiana Kitchen, Inc. is an American multinational chain of Southern fried chicken restaurants founded in 1972 in New Orleans and headquartered in Miami.\nr33  Pioneer Chicken  (wikipedia, 1545 words)\n     The Pioneer Chicken Take Out Corporation, doing business as Pioneer Chicken, is an American fried chicken restaurant chain which was founded in Echo Park, Los Angeles in 1961 by H.\nr34  Church's Texas Chicken  (wikipedia, 5093 words)\n     Church's Texas Chicken is an American fast food restaurant chain that specializes in Southern fried chicken and is headquartered in Atlanta, Georgia. The chain was founded as Churc\nr35  Raising Cane's Chicken Fingers  (wikipedia, 3455 words)\n     Raising Cane's Restaurants, LLC, doing business as Raising Cane's Chicken Fingers (commonly referred to as Raising Cane's or Cane's), is an American fast-food chain specializing in\nr36  Chicken Express  (wikipedia, 668 words)\n     Chicken Express is a regional chain of fast food restaurants concentrated mainly in Texas and other states in the Southern United States.\nr37  Tastee-Freez  (wikipedia, 888 words)\n     Tastee-Freez is an American franchised fast-food restaurant specializing in soft serve ice cream. The first Tastee-Freez was established in Keithsburg, Illinois and is now part of \nr38  Gino's Hamburgers  (wikipedia, 1933 words)\n     Gino's Hamburgers was a fast-food restaurant chain founded in Baltimore, Maryland, by Baltimore Colts defensive end Gino Marchetti and running back Alan Ameche, along with their cl\nr39  Wendy's  (wikipedia, 17005 words)\n     Wendy's International, LLC, is an American international fast food restaurant chain founded by Dave Thomas on November 15, 1969, in Columbus, Ohio. Its headquarters moved to Dublin\nr40  Brown's Chicken & Pasta  (wikipedia, 657 words)\n     Brown's Chicken & Pasta, also known simply as Brown's Chicken, is an American chain of fast food restaurants specializing in fried chicken. It is based in the Chicago metropolitan "
+    },
+    {
+      "step": 5,
+      "thought": "The Tastee Fried Chicken search returned only American chains — a dead line. Food is the thinnest category (1 fact). Let me try a specific Nigerian food figure with a rich story: Hilda Baci is mined, so try 'Nigerian cuisine' is mined too. A better bet is a dramatic food-related Nigerian person or institution. Let me search for 'Bukar' no — try the founder of a famous Nigerian food brand with a pe",
+      "action": "search",
+      "detail": "\"Dele Olojede\"",
+      "observation": "Search \"Dele Olojede\" (Wikipedia):\nr41  Dele Olojede  (wikipedia, 2145 words)\n     Dele Olojede (born 1961) is a Nigerian journalist and former foreign editor for Newsday. He is the first African-born winner of the Pulitzer Prize in International Journalism for h\nr42  Dele (name)  (wikipedia, 373 words)\n     Dele also Délé is a Nigerian given name and surname of Yoruba origin meaning \"arrive home\" It is also a diminutive of names such as Ayọ̀délé (joy arrived home), Akindélé (warrior a\nr43  Next (Nigeria)  (wikipedia, 749 words)\n     Next is a newspaper in Nigeria that was founded by Pulitzer Prize–winning writer Dele Olojede in 2004, covering news, opinion, arts & culture, business and entertainment. Next is p\nr44  2005 Pulitzer Prize  (wikipedia, 847 words)\n     The Pulitzer Prizes for 2005 were announced on April 4, 2005:\nr45  Margaret Busby  (wikipedia, 22857 words)\n     Margaret Yvonne Busby, , Hon. FRSL (born 1944), also known as Nana Akua Ackon, is a Ghanaian-born publisher, editor, writer and broadcaster, resident in the UK. She was Britain's y\nr46  Aspen Institute  (wikipedia, 5787 words)\n     The Aspen Institute is an international nonprofit organization founded in 1949 as the Aspen Institute for Humanistic Studies. It is headquartered in Washington, D.C., but also has \nr47  Zakes Mda  (wikipedia, 2937 words)\n     Zanemvula Kizito Gatyeni \"Zakes\" Mda () (born 6 October 1948) is a South African novelist, poet and playwright. He has won major South African and British literary awards for his n\nr48  Adaobi Tricia Nwaubani  (wikipedia, 2227 words)\n     Adaobi Tricia Obinne Nwaubani (born 1976) is a Nigerian novelist, humorist, essayist and journalist. Her debut novel, I Do Not Come To You By Chance, won the 2010 Commonwealth Writ\nr49  Ama Ata Aidoo  (wikipedia, 8721 words)\n     Ama Ata Aidoo (23 March 1942 – 31 May 2023) was a Ghanaian author, poet, playwright, politician, and academician. She was the Secretary for Education in Ghana from 1982 to 1983 und\nr50  Jack Abramoff  (wikipedia, 15842 words)\n     Jack Allan Abramoff (; born February 28, 1959) is an American lobbyist, businessman, film producer, writer, and convicted felon. He was at the center of an extensive federal corrup\nr51  Brown envelope journalism  (wikipedia, 2041 words)\n     In media ethics, brown envelope journalism (BEJ), or simply envelope journalism, is the practice of journalists accepting monetary or other incentives in exchange for favourable ne\nr52  Newsday  (wikipedia, 4632 words)\n     Newsday is a daily newspaper in the United States primarily serving Nassau and Suffolk counties on Long Island, New York, although it is also sold throughout the New York metropoli"
+    },
+    {
+      "step": 6,
+      "thought": "Dele Olojede is a rich personal story (Pulitzer winner, links Nigeria and global journalism) and fits the thin Business/Records space. Read his article.",
+      "action": "read",
+      "detail": "r41 \"Dele Olojede\"",
+      "observation": "Read r41 \"Dele Olojede\": 7 facts verified, 1 failed the verifier, 2 already in the app or this run.\nKEPT (1):\n  + [3/3, History] A 1986 investigative report by Nigerian journalist Dele Olojede on the imprisonment of the popular Nigerian musician Fela Kuti led to Kuti's release and the dismissal of the judge who imprisoned him.\nSTRONG BUT SET ASIDE FOR VARIETY (4):\n  ~ Dele Olojede was the first African-born winner of the Pulitzer Prize in International Journalism, for covering  (one fact per document; ranked lower)\n  ~ Pulitzer Prize-winning journalist Dele Olojede was the 12th of 28 children, born in Modakeke, Nigeria, in Janu  (one fact per document; ranked lower)\n  ~ NEXT published the story that President Umaru Yar'Adua was brain dead, not 'returning soon from a Saudi hospit  (one fact per document; ranked lower)\n  ~ Nigerian journalist and Pulitzer winner Dele Olojede won the 2011 John P. McNulty Prize for creating NEXT, whi  (one fact per document; ranked lower)\nWEAK (0):\nThis subject is now covered. Move to something unrelated."
+    },
+    {
+      "step": 7,
+      "thought": "Business and History are covered. Food (1 fact) is the thinnest category and my last food attempt failed on American chains. Let me target a specific Nigerian food figure with a rich story — the founder of a famous Nigerian food brand. 'Hilda Baci' is mined, but a specific brand founder like 'Tara Fela-Durotoye' (beauty) or a food entrepreneur could work. Try a specific Nigerian food/business name",
+      "action": "search",
+      "detail": "\"Tunde Folawiyo\"",
+      "observation": "Search \"Tunde Folawiyo\" (Wikipedia):\nr56  Tunde Folawiyo  (wikipedia, 795 words)\n     Tijani Babatunde Folawiyo (born 12 April 1960) is a Nigerian businessman. He is the managing director of the Folawiyo Group, and the chairman of Coronation Merchant Bank.\nr57  Reni Folawiyo  (wikipedia, 777 words)\n     Reni Folawiyo is a Nigerian lawyer, fashion entrepreneur and businesswoman. She's the founder of Alara, West Africa’s first fashion luxury and lifestyle concept store which was des\nr58  Wahab Iyanda Folawiyo  (wikipedia, 1752 words)\n     Chief Abdulwahab Iyanda \"Wahab\" Folawiyo, CON (16 June 1928 – 6 June 2008) was a Nigerian businessman and philanthropist. In 1957, he founded Yinka Folawiyo & Sons, which has becom\nr59  Basketball Africa League  (wikipedia, 6970 words)\n     The Basketball Africa League (BAL) is the premier men's basketball league in Africa. Founded in 2019, the league was established and is co-organized by NBA Africa and the Internati"
+    },
+    {
+      "step": 8,
+      "thought": "Business and History are covered. Food (1 fact) is the thinnest category and my food attempts failed on American chains. Let me target a specific Nigerian food figure with a rich story — the founder of a famous Nigerian food brand like Sweet Sensation or a dramatic food personality. Try 'Tara Fela-Durotoye' failed; try a specific food entrepreneur name.",
+      "action": "search",
+      "detail": "\"Kelechi Anyanwu Sweet Sensation\"",
+      "observation": "Search \"Kelechi Anyanwu Sweet Sensation\" found nothing usable."
+    },
+    {
+      "step": 9,
+      "thought": "Business and History are covered. Food (1 fact) is the thinnest category. The Folawiyo search returned a rich 1752-word article on Wahab Iyanda Folawiyo, a businessman/philanthropist — but that's Business again. Better to target Food: a specific Nigerian food brand founder with a rich story. Try 'Sweet Sensation' founder by name, or a food figure. Let me search a specific Nigerian food entrepreneu",
+      "action": "search",
+      "detail": "\"Kelechi Anyanwu\"",
+      "observation": "Search \"Kelechi Anyanwu\" (Wikipedia):\nr60  California Golden Bears  (wikipedia, 24324 words)\n     The California Golden Bears are the athletic teams that represent the University of California, Berkeley. Referred to in athletic competition as California or Cal, the university f\nr61  Sport in Nigeria  (wikipedia, 1571 words)\n     Football is largely considered Nigeria's national sport, and the country has its own professional football league. Basketball is the second sport of Nigeria.\nr62  Discus throw at the NCAA Division I Outdoor Track and Field Championships  (wikipedia, 2336 words)\n     This is a list of the NCAA outdoor champions in the discus throw. Measurement was conducted in imperial distances (feet and inches) until 1975.\nr63  California Golden Bears track and field  (wikipedia, 22716 words)\n     The California Golden Bears track and field team is the track and field program that represents University of California, Berkeley. The Golden Bears compete in NCAA Division I as a\nr64  2023 Imo State gubernatorial election  (wikipedia, 6658 words)\n     The 2023 Imo State gubernatorial election was held on 11 November 2023 due to the belated inauguration of incumbent Governor Hope Uzodinma, to elect the Governor of Imo State. Incu\nr65  Imo State  (wikipedia, 13302 words)\n     Imo (Igbo: Alaọha Imo) is a state in the South-East geopolitical zone of Nigeria, bordered to the north by Anambra State, Rivers State to the west and south, and Abia State to the \nr66  Jennifer Joyce  (wikipedia, 932 words)\n     Jennifer Joyce (born September 25, 1980) is a Canadian hammer thrower. While growing up outside of Vancouver, Joyce excelled in multiple sports as a child.\nr67  2024 Africa Magic Viewers' Choice Awards  (wikipedia, 2030 words)\n     The 2024 Africa Magic Viewers' Choice Awards was held on 11 May 2024, at Eko Hotels and Suites, Lagos State. The nominees were revealed on 24 March 2024, and the most nominations w\nr68  2023 Nigerian Senate elections in Imo State  (wikipedia, 6328 words)\n     The 2023 Nigerian Senate elections in Imo State will be held on 25 February 2023, to elect the 3 federal Senators from Imo State, one from each of the state's three senatorial dist\nr69  2023 Abia State House of Assembly election  (wikipedia, 4006 words)\n     The 2023 Abia State House of Assembly election was take place on 18 March 2023, to elect members of the Abia State House of Assembly. The election was held concurrent with the stat\nr70  Uche Chukwumerije  (wikipedia, 1354 words)\n     Uche Chukwumerije (11 January 1939 – 19 April 2015), popularly referred to as \"Comrade Chukwumerije\" because of his lifelong socialist beliefs, was elected a senator of the Federal\nr71  Heartland F.C.  (wikipedia, 5697 words)\n     Heartland Football Club, founded as Spartans F.C., later known as Iwuanyanwu Nationale from 1985 to 2006, is a Nigerian football club based in Owerri. The team play their home game"
+    },
+    {
+      "step": 10,
+      "thought": "Food is the thinnest category (1 fact) and my food-brand searches keep failing. The Folawiyo search returned a rich 1752-word article on Wahab Iyanda Folawiyo, a businessman/philanthropist — but that's Business, already covered. Let me pivot to a rich Food story: a Nigerian food figure with a dramatic life. Try 'Nigerian cuisine' is mined. Try a specific food personality — 'Hilda Baci' is mined. L",
+      "action": "search",
+      "detail": "\"Bennet Omalu\"",
+      "observation": "Search \"Bennet Omalu\" (Wikipedia):\nr72  Bennet Omalu  (wikipedia, 4929 words)\n     Bennet Ifeakandu Omalu (; born September 30, 1968) is a Nigerian and American physician, forensic pathologist, and neuropathologist who was the first to discover and publish findin\nr73  Concussion (2015 film)  (wikipedia, 6944 words)\n     Concussion is a 2015 American biographical sports drama film written and directed by Peter Landesman, based on the exposé \"Game Brain\" by Jeanne Marie Laskas, published in 2009 by \nr74  Will Smith filmography  (wikipedia, 8846 words)\n     Will Smith is an American actor, rapper, and film producer. His breakthrough came when he played a fictionalized version of himself in the 1990s television sitcom The Fresh Prince \nr75  Chronic traumatic encephalopathy  (wikipedia, 16576 words)\n     Chronic traumatic encephalopathy (CTE) is a neurodegenerative disease linked to repeated trauma to the head. The encephalopathy symptoms can include behavioral problems, mood probl\nr76  Will Smith  (wikipedia, 22392 words)\n     Willard Carroll Smith II (born September 25, 1968) is an American actor, rapper, and film producer. Known for his work in both the screen and music industries, his accolades includ\nr77  Joseph Maroon  (wikipedia, 5375 words)\n     Joseph Maroon (born May 26, 1940) is an American neurosurgeon, author, and triathlon athlete. He is a professor of and the vice chairman of the Department of Neurological Surgery a\nr78  Mike Webster  (wikipedia, 4032 words)\n     Michael Lewis Webster (March 18, 1952 – September 24, 2002) was an American professional football center in the National Football League (NFL) from 1974 to 1990 with the Pittsburgh\nr79  League of Denial  (wikipedia, 2331 words)\n     League of Denial is a 2013 book, initially broadcast as a documentary film, about traumatic brain injury in the National Football League (NFL), particularly concussions and chronic\nr80  O. J. Simpson  (wikipedia, 40931 words)\n     Orenthal James Simpson (July 9, 1947 – April 10, 2024), nicknamed \"the Juice\", was an American football player, actor, and media personality. He played in the National Football Lea\nr81  Chris Benoit double-murder and suicide  (wikipedia, 18561 words)\n     Over a three-day period from June 22–24, 2007, Chris Benoit, a 40-year-old Canadian professional wrestler employed by World Wrestling Entertainment (WWE), murdered his wife Nancy a\nr82  Brain Injury Research Institute  (wikipedia, 456 words)\n     The Brain Injury Research Institute (BIRI) is a center for the study of traumatic brain injuries and their prevention that was founded in 2002. Its founding members include: Julian\nr83  Power Slap  (wikipedia, 4545 words)\n     Power Slap is an American slap fighting promotion company co-owned by Zuffa, LLC founder Lorenzo Fertitta and Dana White, the chief executive officer of the Ultimate Fighting Champ"
+    },
+    {
+      "step": 11,
+      "thought": "Bennet Omalu is a rich personal story (Nigerian physician who discovered CTE, links Nigeria and global medicine) and fits the thin Health category (only 2 facts). The article is 4,929 words — long and likely rich. Read it.",
+      "action": "read",
+      "detail": "r72 \"Bennet Omalu\"",
+      "observation": "Read r72 \"Bennet Omalu\": 5 facts verified, 3 failed the verifier, 0 already in the app or this run.\nKEPT (1):\n  + [4/6, Health] Physician and neuropathologist Omalu found tau protein in former NFL player Terry Long's brain consistent with 'a 90-year-old brain with advanced Alzheimer's' — Long died by suicide at 45.\nSTRONG BUT SET ASIDE FOR VARIETY (2):\n  ~ Physician and forensic pathologist Omalu's family name is a shortened form of Onyemalukwube, which translates   (one fact per document; ranked lower)\n  ~ Bennet Omalu, the Nigerian pathologist who found CTE in NFL players' brains, was born during the Nigerian Civi  (one fact per document; ranked lower)\nWEAK (2):\n  - [0/3] Omalu resigned as San Joaquin County's chief medical examiner in 2017 after accusing sheriff Steve Moore of interfering with death investiga\n      why: flat: Who is Omalu? The fact never says why he matters, so it's just a stranger quitting a job I have no reason to care about.\n  - [0/3] Physician and neuropathologist Omalu became disillusioned with Nigeria after Moshood Abiola failed to win the presidency in the inconclusive\n      why: flat: It never tells me who Omalu is or why he matters, so it's just a stranger's travel plans with a history lesson attached.\nThis subject is now covered. Move to something unrelated."
+    },
+    {
+      "step": 12,
+      "thought": "Business, History, and Health are now covered. Food (1 fact) is the thinnest category and my food-brand searches failed. Let me target a specific Nigerian food figure with a rich story — a famous chef or food entrepreneur. Try 'Ngozi Okonjo-Iweala' is not food. Better: search a specific Nigerian food personality like 'Sisi Yemmie' or a food brand founder. Actually, a rich angle: 'Chinua Achebe' is",
+      "action": "search",
+      "detail": "\"Olusola Ade-Ojo\"",
+      "observation": "Search \"Olusola Ade-Ojo\" (Wikipedia):\nr87  Iretiola Doyle  (wikipedia, 2122 words)\n     Iretiola Olusola Doyle () (born 5 May 1967) is a Nigerian actress, entertainer, TV presenter, writer, and public speaker.\nr88  Lagos State  (wikipedia, 13933 words)\n     Lagos State (Yoruba: Ìpínlẹ̀ Èkó, Gun: Ayìmátẹ̀n Awọnlìn tọ̀n) is a state in southwestern Nigeria. Of the 36 states, Lagos is the first or second most populous state (depending on \nr89  Bola Tinubu  (wikipedia, 17283 words)\n     Asiwaju Bola Ahmed Adekunle Tinubu (born 29 March 1952) is a Nigerian politician serving as the 16th and current president of Nigeria since 2023. He previously served as the govern\nr90  Bantu (band)  (wikipedia, 2173 words)\n     Bantu (stylised in all caps) is a 13-piece band based in Lagos, Nigeria. Their music is a fusion of Afrofunk, Afrobeat, highlife and Yoruba music.\nr91  Government of Ogun State  (wikipedia, 2621 words)\n     The Government of Ogun State consists of elected representatives and appointed officials responsible for the government of Ogun State, Nigeria. Ogun State has a population of about\nr92  Osun State  (wikipedia, 6938 words)\n     Osun ( OH-shoon; Yoruba: Ìpínlẹ̀ Ọ̀ṣun [ìk͡pĩ́lɛ̀ ɔ̀ʃũ̄] ), is a state in southwestern Nigeria; bounded to the east by Ekiti and Ondo states for 84 km and for 78 km respectively, t\nr93  2012 Ondo State gubernatorial election  (wikipedia, 3813 words)\n     The 2012 Ondo State gubernatorial election occurred on October 20, 2012. Incumbent governor, LP's Olusegun Mimiko won election for a second term, defeating other party candidates.\nr53  University of Lagos  (wikipedia, 7060 words)\n     The University of Lagos (UNILAG) is a public research university located in Lagos, Nigeria, which was founded in 1962. UNILAG is one of the first generation universities in Nigeria\nr94  Lagos State Judiciary  (wikipedia, 2583 words)\n     The Lagos State Judiciary is one of the three co-equal branches of the Lagos State Government organized under the Constitution of Nigeria and laws of Lagos State. The Chief Judges \nr95  Lagos  (wikipedia, 40151 words, mined before; its best facts are in the app)\n     Lagos (; LAY-goss; Yoruba: Èkó [èkó]), or Lagos City, is a large metropolitan port city in southwestern Nigeria. As of November 2025, the size of the city's population has been est\nr96  Ilara-Mokin  (wikipedia, 5378 words)\n     Ilara-Mokin (; Yoruba: Ìlárá-Mọ̀kín) is located in a central part of Ifedore local government of Ondo State, Nigeria. Ilara-Mokin is about 12 km from Ondo state capital, and has Ip"
+    },
+    {
+      "step": 13,
+      "thought": "Food (1 fact) is the thinnest category and my food-brand searches keep failing. Let me target a specific, well-documented Nigerian food figure with a rich story — the founder of a famous food brand. 'Hilda Baci' is mined, but a specific brand founder like 'Tara Fela-Durotoye' (beauty) failed. Try a specific Nigerian food entrepreneur name like 'Kelechi Anyanwu' failed. Let me try 'Ngozi Okonjo-Iwe",
+      "action": "search",
+      "detail": "\"Tara Fela-Durotoye\"",
+      "observation": "Search \"Tara Fela-Durotoye\" (Wikipedia):\nr15  Tara Fela-Durotoye  (wikipedia, 1052 words)\n     Tara Fela-Durotoye (born 6 March 1977) is a Nigerian beauty entrepreneur and lawyer. A pioneer in the bridal makeup profession in Nigeria, she launched the first bridal directory i\nr16  Fela Durotoye  (wikipedia, 2704 words)\n     Adetokunbo Olufela Durotoye (born in Ibadan, Oyo State on 12 May 1971) is a business consultant, leadership expert, politician, and motivational speaker. He was the Nigerian presid\nr17  Durotoye  (wikipedia, 135 words)\n     Durotoye () is a Nigerian male given name and surname of Yoruba origin. It means \"Wait with royalty.\nr18  Tara (given name)  (wikipedia, 2479 words)\n     Tara is a given name with multiple meanings in different cultures. In Ireland, it is derived from the Hill of Tara, an archaeological site located near the River Boyne in County Me\nr19  Tayo Oviosu  (wikipedia, 1205 words)\n     Tayo Oviosu is a Nigerian-American businessman who is the founder and group CEO of Paga, a mobile payments company that is focused on digitizing cash in emerging economies. Nigeria\nr20  TY Bello  (wikipedia, 3515 words)\n     Toyin Sokefun-Bello (; born 14 January 1978), who is better known as TY Bello, is a Nigerian singer, songwriter, photographer and philanthropist. Prior to pursuing a solo career, s\nr21  Lagos State University  (wikipedia, 5605 words)\n     Lagos State University (LASU) is a state-owned university established by the Lagos State government in 1983. Its main campus is situated at Alasia, Lagos, Ojo, with sub-campuses at\nr22  Nkiru Balonwu  (wikipedia, 3488 words)\n     Nkiru Balonwu is an entrepreneur and activist based in Lagos, Nigeria. She is known for her views of women as the solution to Africa's problems and is the founder and chairperson o\nr24  YouWin!  (wikipedia, 940 words)\n     YouWin! is a youth development scheme established in Nigeria by the administration of President Goodluck Jonathan.\nr23  Funke Bucknor-Obruthe  (wikipedia, 1319 words)\n     Funke Bucknor-Obruthe (born 27 June 1976) is a Nigerian entrepreneur and lawyer. She is the founder and CEO of Zapphaire Events and is regarded as one of Nigeria's pioneering event\nr25  Chika Oduah  (wikipedia, 2704 words)\n     Chikaodinaka Sandra Oduah (born March 14, 1986) is a Nigerian-American journalist, poet and cultural entrepreneur who has worked as a television news producer, correspondent, write\nr26  Uche Pedro  (wikipedia, 4052 words)\n     Uche Pedro (born by Uche Eze ; 26 July 1984) is a Nigerian entrepreneur. She is the founder and CEO of BellaNaija, a media tech brand known for entertainment and lifestyle content."
+    },
+    {
+      "step": 14,
+      "thought": "Food (1 fact) is the thinnest category and my food-brand searches keep failing. But the Tara Fela-Durotoye search returned a rich 3,515-word article on TY Bello — a Nigerian singer/photographer with an unusual life story (links music, photography, philanthropy). However, that's Culture, already well-covered. Better to target Food directly with a specific, well-documented Nigerian food figure. Let ",
+      "action": "",
+      "detail": "",
+      "observation": "'' is not an action. Use search, read or finish."
+    },
+    {
+      "step": 15,
+      "thought": "Food is the thinnest category (1 fact) and my food-brand searches keep failing. Let me target a specific, well-documented Nigerian food figure with a rich story — a famous chef. 'Hilda Baci' is mined, but a specific chef like 'Ngozi Okonjo-Iweala' isn't food. Try a specific Nigerian food personality: 'Sisi Yemmie' or a food brand founder. Actually, a rich angle: search for the founder of a famous ",
+      "action": "search",
+      "detail": "\"Chicken Republic\"",
+      "observation": "Search \"Chicken Republic\" (Wikipedia):\nr97  Chicken Republic  (wikipedia, 1956 words)\n     Chicken Republic is a Nigerian quick-service restaurant (QSR) chain specializing in chicken-based meals and other fast-food products. Founded in 2004, the chain is a subsidiary and\nr98  General Tso's chicken  (wikipedia, 2354 words)\n     General Tso's chicken (Mandarin: [tswò]; simplified Chinese: 左宗棠鸡; traditional Chinese: 左宗棠雞; pinyin: Zuǒ Zōngtáng jī) is a Chinese-American sweet and spicy deep-fried chicken dish\nr99  Moambe chicken  (wikipedia, 1060 words)\n     Moambe chicken (French: poulet à la moambe or simply poulet moambe, Portuguese: moamba de galinha) is a savory chicken dish popular in Central Africa and considered the national di\nr100  Chicken Salad Chick  (wikipedia, 1525 words)\n     Chicken Salad Chick is a fast casual restaurant chain and franchise of chicken salad restaurants currently based in Atlanta, Georgia. To date, the chain consists of over 340 franch\nr101  Arroz con pollo  (wikipedia, 835 words)\n     Arroz con pollo (Spanish for rice with chicken) is a traditional dish of Latin America. It typically consists of chicken cooked with rice, onions, saffron, and a plethora of other \nr30  Dave's Hot Chicken  (wikipedia, 3909 words)\n     Dave's Hot Chicken is an American fast casual restaurant chain headquartered in Pasadena, California, specializing in Nashville-style hot chicken. Founded in 2017, the company oper\nr31  KFC  (wikipedia, 18059 words)\n     KFC Corporation, trading as Kentucky Fried Chicken (KFC), is an American multinational fast food restaurant chain specializing in Southern fried chicken and chicken sandwiches. Hea\nr102  Hot chicken  (wikipedia, 3173 words)\n     Hot chicken (or Nashville hot chicken) is a type of fried chicken that is a local specialty of Nashville, Tennessee, in the United States. In its typical preparation, it is a porti\nr103  Morley's  (wikipedia, 868 words)\n     Morley's is a fast food chain based in the United Kingdom, selling fried chicken, burgers and spare ribs. Morley's was founded in 1985, by Sri Lankan Tamil immigrant Kannalingam \"I\nr104  Dong'an chicken  (wikipedia, 397 words)\n     Dong'an chicken (simplified Chinese: 东安鸡; traditional Chinese: 東安雞; pinyin: Dōng'ānjī) is a Chinese cold parboiled chicken dish, flavoured with chili peppers, ground Sichuan pepper\nr105  Old School Musical  (wikipedia, 1817 words)\n     Old School Musical is a rhythm adventure game developed by La Moutarde and published by Playdius. It has pixel art visuals and a chiptune soundtrack, taking inspiration from classi\nr106  Galito's  (wikipedia, 498 words)\n     Galito's is a South African multinational fast casual chain that specialises in Portuguese style flame-grilled peri-peri chicken. Founded in Nelspruit, South Africa in 1996, Galito"
+    },
+    {
+      "step": 16,
+      "thought": "Food is the thinnest category (1 fact) and my food-brand searches keep failing. The Chicken Republic search returned a rich 1,956-word article on Chicken Republic, a Nigerian QSR chain — a specific Nigerian food institution with a strange/franchise history. Read it.",
+      "action": "read",
+      "detail": "r97 \"Chicken Republic\"",
+      "observation": "Read r97 \"Chicken Republic\": 8 facts verified, 0 failed the verifier, 2 already in the app or this run.\nKEPT (1):\n  + [4/6, Business] Chicken Republic's first restaurant opened in Apapa, Lagos, in 2004, originally under a franchise deal with South Africa's Chicken Licken.\nSTRONG BUT SET ASIDE FOR VARIETY (0):\nWEAK (5):\n  - [0/3] Chicken Republic's parent company started in December 1999 as Food Concepts & Entertainment Limited, running franchises for South African fa\n      why: obscure: So what, a company ran some franchises before starting its own brand — that's just how businesses work, there's no turn here.\n  - [0/3] Chicken Republic's early growth was funded by about $2 million raised from family and friends, then $30 million in 2008.\n      why: obscure: So what, a restaurant raised money — there's no turn here, no name, no number that makes me react, it's just a business fact.\n  - [0/3] In 2021 private equity firm DPI sold a 31% stake in Chicken Republic's parent to Africa Capital Alliance while keeping majority ownership.\n      why: obscure: This is just corporate finance news about a stake sale, there's no twist, no number that startles, nothing I'd repeat to anyone.\n  - [0/3] Chicken Republic's CEO Kofi Abunu previously managed at McDonald's UK, Nando's and Steers Ghana, and joined the company as a General Manager\n      why: obscure: So the CEO of Chicken Republic worked at McDonald's and Nando's — cool for him, but there's no turn here, it's just a CV, and nobody's sending that to \n  - [1/3] By 2023 Chicken Republic reported roughly 299 stores across 25 Nigerian states, plus Ghana.\n      why: obscure: It's a real number but it's just a company's store count — no twist, no link, nothing to make the group chat reply 'no way'.\nThis subject is now covered. Move to something unrelated."
+    },
+    {
+      "step": 17,
+      "thought": "Chicken Republic gave one weak Business fact and the subject is covered. Food is still the thinnest category (1 fact) and my food-brand searches keep failing on Wikipedia. Let me try a specific, well-documented Nigerian food figure with a rich personal story — a celebrity chef or food entrepreneur. 'Hilda Baci' is mined. Try 'Ngozi Okonjo-Iweala' is not food. A better bet: a Nigerian food personal",
+      "action": "search",
+      "detail": "\"Sisi Yemmie\"",
+      "observation": "Search \"Sisi Yemmie\" (Wikipedia):\nr107  Sisi Yemmie  (wikipedia, 1269 words)\n     Yemisi Sophie Odusanya (born 1984), also known as Sisi Yemmie, is a Nigerian food and lifestyle blogger.\nr108  Ofe Oha  (wikipedia, 1428 words)\n     Ofe Ọha (also known as Ọha soup), is a traditional Igbo soup from south eastern part of Nigeria, known for its rich flavour and the use of fresh ọha leaves. Ofe Ọha is a Nigerian d\nr109  Emmanuella  (wikipedia, 1769 words)\n     Emmanuella Samuel (born 22 July 2010), known mononymously as Emmanuella, is a Nigerian comedian and actress on Mark Angel's YouTube channel.\nr110  Igbinedion University  (wikipedia, 2098 words)\n     Igbinedion University (IUO) is a private university in Okada, Edo State, Nigeria. It was founded on 10 May 1999 by Gabriel Igbinedion.\nr111  Anti-Igbo sentiment  (wikipedia, 9553 words)\n     Anti-Igbo sentiment (also known as Igbophobia) is a term used by scholars, journalists, and commentators to describe historical and contemporary negative attitudes, discrimination,\nr112  Tiwa Savage  (wikipedia, 15558 words)\n     Tiwatope Omolara Savage (born 5 February 1980), known professionally as Tiwa Savage (), is a Nigerian singer, songwriter and actress. Savage sings in English, Nigerian Pidgin and Y\nr113  Ini Dima-Okojie  (wikipedia, 4766 words)\n     Ini Dima-Okojie (born 24 June 1990) is a Nigerian actress from Edo State, Nigeria. She resigned from her job in investment banking to enroll at the New York Film Academy.\nr114  Odusanya  (wikipedia, 108 words)\n     Odusanya () is a Nigerian surname of Yoruba origin meaning \"Ifá repaid my suffering,\".\nr115  Ekene Som Mekwunye  (wikipedia, 2600 words)\n     Ekene Som Mekwunye (born 22 April 1978) is a Nigerian film director, producer, screenwriter and educator. He is known for directing and producing films like Light In The Dark, One \nr116  Mr Macaroni  (wikipedia, 12179 words)\n     Adebowale Babatunde \"Debo\" Adedayo () (born 3 May 1993), popularly known by his stage name Mr Macaroni, is a Nigerian actor, comedian, and activist. He was the second highest-gross\nr117  Banga rice  (wikipedia, 744 words)\n     Banga rice is a traditional Nigerian food prepared with palm fruit like in palm nut soup. The dish is common among the Urhobo people of southern Nigeria.\nr118  ELOY Awards  (wikipedia, 2558 words)\n     ELOY Awards (Exquisite Lady of the Year Awards) is an annual event held in Nigeria to recognize and celebrate outstanding women in various fields. Organized by Exquisite Magazine, "
+    }
+  ],
+  "decidedAt": "2026-09-29T05:55:59.547Z",
+  "developed": [
+    "nf_1174",
+    "nf_1175",
+    "nf_1176"
+  ]
+}

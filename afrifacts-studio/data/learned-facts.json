@@ -1,0 +1,517 @@
+{
+  "judgedAt": "2026-09-28T18:16:34.694Z",
+  "model": "deepseek-chat",
+  "facts": [
+    {
+      "id": "nf_0101",
+      "category": "Records",
+      "text": "Samson Ajao holds the world record for the longest marathon reading aloud, 215 hours, and he never once used his rest breaks to sleep.",
+      "votes": 3,
+      "why": "The 215 hours is mad enough, but the detail that he didn't even use his breaks to sleep is the part that makes you stop scrolling."
+    },
+    {
+      "id": "nf_0102",
+      "category": "Records",
+      "text": "Tunde Onakoya and Shawn Martinez hold the record for the longest chess marathon, 64 hours and 473 games, played in the middle of Times Square.",
+      "votes": 3,
+      "why": "It's Tunde, it's Times Square, and 64 hours nonstop is the kind of number that makes the group chat type 'no way'."
+    },
+    {
+      "id": "nf_0103",
+      "category": "Records",
+      "text": "The largest art canvas ever painted measures 12,381.02 m², and it is the work of Kanyeyachukwu Tagbo-Okeke, a 14-year-old Nigerian boy living with autism.",
+      "votes": 3,
+      "why": "A world record I'd never heard of, and the person behind it is a Nigerian teenager with autism, that's a group chat 'no way' for sure."
+    },
+    {
+      "id": "nf_0104",
+      "category": "Records",
+      "text": "Munachimso Brian Nwana holds the record for the most fast food restaurants visited in 24 hours, 150 of them across Abuja, and the rules ban private transport so he walked over 25 km.",
+      "votes": 3,
+      "why": "The 150 and the 25km on foot together are mad, I can't even do 5 restaurants in a day, and the fact that it happened in Abuja and not abroad is what makes me send it."
+    },
+    {
+      "id": "nf_0106",
+      "category": "Records",
+      "text": "The longest magic show ever performed by one person ran for 50 hours in Lagos, and Ibitoye Kingfahd took it on to prove that Nigeria misunderstands magic.",
+      "votes": 3,
+      "why": "A world record I've never heard of happening in Lagos, plus the reason he did it is so random it's funny."
+    },
+    {
+      "id": "nf_0107",
+      "category": "Records",
+      "text": "Favour Ogechi Ani holds the record for the highest number counted out loud, 1,070,000, and it took her 70 days of live YouTube broadcasts to say every one.",
+      "votes": 3,
+      "why": "70 days of live YouTube to say one number is so absurd I have to send it."
+    },
+    {
+      "id": "nf_0108",
+      "category": "Records",
+      "text": "The longest handmade wig in the world runs 351.28 m, built on a bicycle helmet with 6,250 hair clips holding it together.",
+      "votes": 3,
+      "why": "351 metres is longer than my street, and the bicycle helmet plus 6,250 clips is the detail that makes the group chat lose it."
+    },
+    {
+      "id": "nf_0113",
+      "category": "Culture",
+      "text": "About one in every six Africans is Nigerian, because the country holds roughly 17% of the whole continent's population.",
+      "votes": 3,
+      "why": "I've heard 'Nigeria is big' my whole life but never seen it as a fraction of the continent, and one in six is a number I'd argue with before believing it."
+    },
+    {
+      "id": "nf_0114",
+      "category": "Health",
+      "text": "Sickle cell disease is common in sub-Saharan Africa because a single allele protects against malaria, while two alleles cause the disease.",
+      "votes": 3,
+      "why": "It's the one biology fact from school that actually explains itself and makes you go ohhh, and I'd genuinely send it because most people just know sickle cell is 'a Black people thing' without knowing the malaria trade-off behind it."
+    },
+    {
+      "id": "nf_0116",
+      "category": "History",
+      "text": "Port Harcourt is named after a British colonial secretary because, as the governor wrote in 1913, there was no convenient local name.",
+      "votes": 3,
+      "why": "I say Port Harcourt all the time and never once wondered where the name came from, and the reason being 'no convenient local name' is such a lazy colonial move it's actually funny."
+    },
+    {
+      "id": "nf_1001",
+      "category": "Culture",
+      "text": "Moshood Abiola was his father's 23rd child, but the first of them to survive infancy, hence the name 'Kashimawo'.",
+      "votes": 3,
+      "why": "I know the name Kashimawo and I know Abiola, but I never knew the name was basically a survival note, and 23rd child with none surviving before him is a whole story in one line."
+    },
+    {
+      "id": "nf_1004",
+      "category": "History",
+      "text": "Abiola was detained for four years, largely in solitary confinement with a Bible, Qur'an, and fourteen guards as companions.",
+      "votes": 3,
+      "why": "I knew he was detained but not that it was four years of near-total isolation, and the detail of fourteen guards as his only 'companions' is the part that makes you stop scrolling."
+    },
+    {
+      "id": "nf_1006",
+      "category": "History",
+      "text": "In 2024, Modupe Onitiri-Abiola, one of Abiola's wives, organized a failed coup attempt in Oyo State.",
+      "votes": 3,
+      "why": "The name Abiola plus 'coup' in 2024 is a combination I never expected to read in one sentence, and I'd send it before I even finished reading."
+    },
+    {
+      "id": "nf_1007",
+      "category": "Culture",
+      "text": "Adichie's first children's book, Mama's Sleeping Scarf, was published under the pseudonym Nwa Grace James.",
+      "votes": 3,
+      "why": "I know Adichie's whole catalogue and I never knew she had a children's book, talk less of a pseudonym, that's a genuine gap in what I thought I knew."
+    },
+    {
+      "id": "nf_1010",
+      "category": "Culture",
+      "text": "Adichie rejected a national honour from President Muhammadu Buhari in 2022.",
+      "votes": 3,
+      "why": "I know she's outspoken but I never knew she actually turned down a national honour, and the fact that it was Buhari makes it hit harder."
+    },
+    {
+      "id": "nf_1015",
+      "category": "Culture",
+      "text": "Wizkid was entered into the Guinness Book of Records 2018 for featuring on the most streamed Spotify single of all time, 'One Dance'.",
+      "votes": 3,
+      "why": "I knew Wizkid was on One Dance but I never clocked it as the most streamed Spotify single ever, let alone a Guinness record, that reframes a song I've heard a thousand times."
+    },
+    {
+      "id": "nf_1017",
+      "category": "Culture",
+      "text": "The 2023 NBA All-Star Game halftime show was headlined by Afrobeats artists Burna Boy, Tems and Rema, the first African artists to headline a major U.S. sports halftime show.",
+      "votes": 3,
+      "why": "I knew Afrobeats was going global but I did not know it had reached the point of headlining an American All-Star halftime, that's a real flex and I'd send it immediately."
+    },
+    {
+      "id": "nf_1022",
+      "category": "Culture",
+      "text": "The National Theatre in Lagos was designed based on the Palace of Culture and Sports in Varna, Bulgaria, and was constructed by the Bulgarian state firm Technoexportstroy.",
+      "votes": 3,
+      "why": "I've passed that building my whole life and never once wondered who actually designed it, and the answer being Bulgaria of all places is the kind of thing that makes the group chat go 'no way'."
+    },
+    {
+      "id": "nf_1025",
+      "category": "History",
+      "text": "Awolowo is credited with naming the Nigerian currency, the naira.",
+      "votes": 3,
+      "why": "I say naira every single day and never once wondered who named it, and Awolowo is a name I only know from history class, so this link hits."
+    },
+    {
+      "id": "nf_1029",
+      "category": "History",
+      "text": "The first-ever public execution in Nigeria took place at Bar Beach in 1971, of Babatunde Folorunsho, for armed robbery.",
+      "votes": 3,
+      "why": "Bar Beach is a place I've actually been to, and 1971 feels way too recent for a 'first ever' public execution."
+    },
+    {
+      "id": "nf_1030",
+      "category": "History",
+      "text": "Bar Beach was the venue for the execution of the convicted plotters of the 1976 coup that killed General Murtala Mohammed, including Major-General I D Bisalla and Col. Buka Suka Dimka.",
+      "votes": 3,
+      "why": "I know Bar Beach as a hangout spot, so finding out it was an execution ground for the 1976 coup plotters flips the whole place in my head."
+    },
+    {
+      "id": "nf_1032",
+      "category": "History",
+      "text": "The rural earthworks around Benin City extend for some 16,000 km, are four times longer than the Great Wall of China, and consumed a hundred times more material than the Great Pyramid of Cheops.",
+      "votes": 3,
+      "why": "I've heard about the Benin bronzes my whole life but nobody ever told me the earthworks were bigger than the Great Wall, that comparison is what makes me send it."
+    },
+    {
+      "id": "nf_1033",
+      "category": "History",
+      "text": "The Benin Bronzes were cast from manilla bracelets brought by Portuguese merchants from the Rhineland, not from local copper.",
+      "votes": 3,
+      "why": "I've seen the Bronzes referenced my whole life and always assumed the metal was ours, so finding out it travelled from Germany through Portuguese traders completely flips the story."
+    },
+    {
+      "id": "nf_1034",
+      "category": "History",
+      "text": "After a new Oba was installed, his mother was given the title Iyoba and moved to a palace outside the city, but was never allowed to meet her son again.",
+      "votes": 3,
+      "why": "The title sounds like a promotion and turns out to be a permanent exile from your own child, that flip is what makes me send it."
+    },
+    {
+      "id": "nf_1035",
+      "category": "History",
+      "text": "The Benin ivory mask, now a symbol of FESTAC, was worn around the waist of kings, not on the face.",
+      "votes": 3,
+      "why": "I've seen that mask my whole life as the FESTAC logo and never once questioned where it actually sat on the king."
+    },
+    {
+      "id": "nf_1036",
+      "category": "Culture",
+      "text": "John Lennon returned his MBE in 1969 in protest against Britain's support for Nigeria in the Biafran war.",
+      "votes": 3,
+      "why": "I knew he returned the MBE but had no idea it was about us, a Beatle taking a stand on Biafra is a link I never would have guessed."
+    },
+    {
+      "id": "nf_1038",
+      "category": "History",
+      "text": "In 1966, pogroms in Northern Nigeria killed an estimated 10,000 to 30,000 Igbo, half of them children.",
+      "votes": 3,
+      "why": "I knew the violence happened but never had a number for it, and 'half of them children' is the part that stops the scroll."
+    },
+    {
+      "id": "nf_1040",
+      "category": "Culture",
+      "text": "Burna Boy's grandfather Benson Idonije once managed Fela Kuti.",
+      "votes": 3,
+      "why": "Two names I actually care about turn out to be one family, and I've been hearing Benson Idonije's name on radio my whole life without knowing he's Burna's grandfather."
+    },
+    {
+      "id": "nf_1043",
+      "category": "Culture",
+      "text": "Burna Boy became the first African artist to headline and sell out a stadium show in the United States, at Citi Field in New York.",
+      "votes": 3,
+      "why": "I knew Burna was big but I did not know an African artist had sold out an entire US stadium, and the fact that it's Citi Field makes it hit."
+    },
+    {
+      "id": "nf_1047",
+      "category": "History",
+      "text": "Calabar was the first Nigerian city to have a secondary school, a hospital, a post office, a barracks, a network of paved roads, a botanical garden, and a monorail.",
+      "votes": 3,
+      "why": "I knew Calabar was old but I would never have guessed it had a monorail before anywhere else in Nigeria, that one detail alone makes me want to send it."
+    },
+    {
+      "id": "nf_1048",
+      "category": "History",
+      "text": "The National Museum of Calabar was flat packed, shipped from Britain and built in 1884, and is made of old Scandinavian pine.",
+      "votes": 3,
+      "why": "A whole building shipped like furniture in 1884 is not something I'd ever guess, and the Scandinavian pine detail is the part that makes people go 'no way'."
+    },
+    {
+      "id": "nf_1054",
+      "category": "History",
+      "text": "The Women's War was sparked when a man counting people for a census grabbed a woman by the throat after she asked 'Was your widowed mother counted?'",
+      "votes": 3,
+      "why": "I knew the name 'Women's War' but I never knew it started from something so small and so petty, a man putting hands on a woman over a census question, and that one moment lighting the whole thing."
+    },
+    {
+      "id": "nf_1057",
+      "category": "Culture",
+      "text": "A crater on Mercury and an exoplanet are both named after Equiano.",
+      "votes": 3,
+      "why": "I knew Equiano as the slavery memoir guy and nothing else, so finding out his name is literally on another planet is the kind of thing that makes the group chat go quiet for a second."
+    },
+    {
+      "id": "nf_1059",
+      "category": "Culture",
+      "text": "Fela Kuti's song 'Beasts of No Nation' referred to Muhammadu Buhari as 'an animal in a madman's body'.",
+      "votes": 3,
+      "why": "Fela dissing Buhari by name in a song is something I'd never heard, and the insult itself is too cold not to send."
+    },
+    {
+      "id": "nf_1063",
+      "category": "Culture",
+      "text": "The story of Igbo Landing inspired the death scene of Killmonger in the 2018 Marvel film Black Panther.",
+      "votes": 3,
+      "why": "It links a real historical event I vaguely knew about to a movie scene I've seen, and that connection is something I never would have guessed."
+    },
+    {
+      "id": "nf_1064",
+      "category": "Culture",
+      "text": "A research study at the University of Lagos Teaching Hospital suggested that a chemical found in Igbo-Ora women and the peelings of yams, a widely consumed tuber, could be responsible for the high rate of twin births.",
+      "votes": 3,
+      "why": "I already knew Igbo-Ora has too many twins but I never heard anyone say it might be the yam peelings, and now I'm looking at the yam on my plate different."
+    },
+    {
+      "id": "nf_1085",
+      "category": "Business",
+      "text": "Nollywood loses around $10–$15 billion annually to piracy, with Telegram groups being major contributing factors.",
+      "votes": 3,
+      "why": "The number is so much bigger than I'd ever have guessed, and the Telegram detail makes it feel like it's happening right now in chats I'm already in."
+    },
+    {
+      "id": "nf_1088",
+      "category": "History",
+      "text": "In 1988, the Nigerian Railway Corporation declared bankruptcy and all rail traffic stopped for six months.",
+      "votes": 3,
+      "why": "I had no idea the whole rail network just died for six months in living memory, that's a wild thing to picture."
+    },
+    {
+      "id": "nf_1104",
+      "category": "History",
+      "text": "The Oyo Empire amassed a cavalry force exceeding 100,000 horsemen.",
+      "votes": 3,
+      "why": "I've never once pictured Oyo as a cavalry empire, let alone 100k strong, and that number is the whole shock."
+    },
+    {
+      "id": "nf_1108",
+      "category": "Culture",
+      "text": "Port Harcourt was named World Book Capital for 2014, the first city in Black Africa to receive the title.",
+      "votes": 3,
+      "why": "I know PH as rough and oil-boom, so hearing it was the first Black African city to be UNESCO World Book Capital genuinely flips the picture and I'd send it."
+    },
+    {
+      "id": "nf_1111",
+      "category": "History",
+      "text": "Funmilayo Ransome-Kuti led protests of up to 10,000 women, forcing the Alake of Egbaland to temporarily abdicate in 1949.",
+      "votes": 3,
+      "why": "I know her face and I know she's Fela's mother, but I never knew she actually forced a king to abdicate, that's a whole different level."
+    },
+    {
+      "id": "nf_1112",
+      "category": "History",
+      "text": "Funmilayo Ransome-Kuti was denied a US visa in 1958 because authorities felt she had too many Communist connections.",
+      "votes": 3,
+      "why": "I knew her as the Abeokuta women's leader, not as someone Cold War America was scared of, the visa denial is the part nobody ever told me."
+    },
+    {
+      "id": "nf_1114",
+      "category": "History",
+      "text": "By 1837, the Sokoto Caliphate had a population of 10–20 million people, becoming the most populous empire in West Africa.",
+      "votes": 3,
+      "why": "I never thought of the Sokoto Caliphate as having that many people, it makes it sound like a real empire, not just a historical footnote."
+    },
+    {
+      "id": "nf_1115",
+      "category": "History",
+      "text": "By 1900, Sokoto had at least 1 million and perhaps as many as 2.5 million slaves, second only to the American South among all modern slave societies.",
+      "votes": 3,
+      "why": "I know Sokoto as the Caliphate, not as one of the biggest slave societies in modern history, and the American South comparison is the part that makes my group chat go quiet."
+    },
+    {
+      "id": "nf_1121",
+      "category": "History",
+      "text": "In 1994, Soyinka fled Nigeria on a motorcycle via the border with Benin to escape the Abacha regime.",
+      "votes": 3,
+      "why": "I knew he ran from Abacha but not that it was a motorcycle across the border, that image is what makes me send it."
+    },
+    {
+      "id": "nf_1127",
+      "category": "Sports",
+      "text": "Nigeria withdrew from the 1996 Africa Cup of Nations under pressure from military dictator Sani Abacha, due to criticism from South Africa and Nelson Mandela over the execution of Ken Saro-Wiwa.",
+      "votes": 3,
+      "why": "I knew Abacha was a dictator and I knew about Ken Saro-Wiwa, but nobody ever told me it cost us a whole AFCON, that link is the part that makes you sit up."
+    },
+    {
+      "id": "nf_1132",
+      "category": "History",
+      "text": "Northern Nigeria did not outlaw slavery until 1936, while in other parts of Nigeria slavery was abolished soon after colonialism.",
+      "votes": 3,
+      "why": "1936 is basically yesterday, and nobody ever told me the North held on that long while the South had already dropped it."
+    },
+    {
+      "id": "nf_1133",
+      "category": "History",
+      "text": "In 2005, Nigeria had the highest rate of deforestation in the world, according to the Food and Agriculture Organization of the United Nations.",
+      "votes": 3,
+      "why": "I had no idea we were number one in the world at anything like this, and it's a number I've never seen anyone say out loud."
+    },
+    {
+      "id": "nf_1142",
+      "category": "History",
+      "text": "The name Nigeria was coined on 8 January 1897 by British journalist and Lord Lugard's wife Flora Shaw.",
+      "votes": 3,
+      "why": "I say 'Nigeria' every single day and never once thought a person sat down and made the word up, and it being Lugard's wife is the part that will wreck my group chat."
+    },
+    {
+      "id": "nf_1147",
+      "category": "History",
+      "text": "The first human-to-human heart transplant was performed by South African cardiac surgeon Christiaan Barnard at Groote Schuur Hospital in December 1967.",
+      "votes": 3,
+      "why": "I assumed the first heart transplant was an American or European thing, so finding out it was a South African in Cape Town in 1967 actually flips that."
+    },
+    {
+      "id": "nf_1148",
+      "category": "History",
+      "text": "In 1987, the Dufuna canoe, the oldest in Africa and third oldest in the world, was discovered in Nigeria, dating to approximately 8000 years ago.",
+      "votes": 3,
+      "why": "It flips the whole 'our history starts with colonial contact' thing and I've literally never heard it once."
+    },
+    {
+      "id": "nf_1149",
+      "category": "History",
+      "text": "The female literacy rate in the Sokoto Caliphate in 1812 was higher than women in the United Kingdom and the United States.",
+      "votes": 3,
+      "why": "It flips the one thing every Nigerian thinks they know about the North, and the year 1812 makes it hit harder."
+    },
+    {
+      "id": "nf_1150",
+      "category": "Culture",
+      "text": "Yemi Osinbajo, Nigeria's former vice president, is a first cousin once removed of British Conservative Party leader Kemi Badenoch.",
+      "votes": 3,
+      "why": "Two names I actually know from completely different worlds turning out to be family is exactly the kind of thing that gets a 'no way' in the group chat."
+    },
+    {
+      "id": "nf_1151",
+      "category": "Culture",
+      "text": "Osinbajo's wife Dolapo is a granddaughter of Obafemi Awolowo, the iconic Yoruba leader.",
+      "votes": 3,
+      "why": "Two names I've known my whole life and I never once heard they were in-laws, that's the kind of link that makes the group chat go quiet."
+    },
+    {
+      "id": "nf_1153",
+      "category": "History",
+      "text": "Osinbajo survived a helicopter crash in Kabba, Kogi State, and delivered a campaign speech afterwards.",
+      "votes": 3,
+      "why": "A VP surviving a crash and then casually delivering a speech right after is the kind of thing that makes you stop scrolling."
+    },
+    {
+      "id": "nf_1154",
+      "category": "Culture",
+      "text": "Laolu Akande is regarded as the only Nigerian journalist to have interviewed a sitting American president in the White House, when he interviewed George W. Bush.",
+      "votes": 3,
+      "why": "The 'only one ever' is what gets me, out of all Nigerian journalists in history, just one, and it's a name I actually know from TV."
+    },
+    {
+      "id": "nf_0110",
+      "category": "Records",
+      "text": "Abidemi Praise Omopariola holds the record for the longest marathon drawing portraits, 90 hours, and she set it in Sunderland rather than anywhere in Nigeria.",
+      "votes": 2,
+      "why": "The 90 hours is a real number and the Sunderland twist is the part that makes you stop, a Nigerian chasing a record abroad rather than at home is not the story you expect."
+    },
+    {
+      "id": "nf_0115",
+      "category": "Health",
+      "text": "In Nigeria 24% of people carry the sickle cell gene, and about 150,000 babies are born with the disease every year.",
+      "votes": 2,
+      "why": "I knew sickle cell was a thing here but I had no idea it was a quarter of the country carrying the gene, that number is mad."
+    },
+    {
+      "id": "nf_1002",
+      "category": "Culture",
+      "text": "Abiola was the editor of the school magazine The Trumpeter, and Olusegun Obasanjo was deputy editor.",
+      "votes": 2,
+      "why": "Two names every Nigerian knows, and the fact that one was the other's deputy on a school magazine is a link I never would have guessed."
+    },
+    {
+      "id": "nf_1011",
+      "category": "Culture",
+      "text": "Adichie's novel Half of a Yellow Sun sold 500,000 copies in the UK alone by October 2009.",
+      "votes": 2,
+      "why": "I knew the book was respected but I never pictured half a million Brits actually buying it, and 'UK alone' is the part that makes me want to send it."
+    },
+    {
+      "id": "nf_1016",
+      "category": "Culture",
+      "text": "Rema's 'Calm Down' remix with Selena Gomez reached number three on the Billboard Hot 100 and was called 'Afrobeats biggest cross over hit' by Billboard.",
+      "votes": 2,
+      "why": "I knew the song was everywhere but I never knew it actually hit number 3 on Billboard, that number is mad."
+    },
+    {
+      "id": "nf_1021",
+      "category": "History",
+      "text": "Lawrence Anini, a Nigerian bandit who terrorised Benin City in the 1980s, was executed in 1987 after his leg was amputated following his capture.",
+      "votes": 2,
+      "why": "I knew the name Anini but not that they amputated his leg before killing him, that detail is insane and I'm sending it to the group chat immediately."
+    },
+    {
+      "id": "nf_1027",
+      "category": "Sports",
+      "text": "Celestine Babayaro was sent off in a UEFA Champions League match aged 16 years and 86 days, making him the youngest player to receive a red card in the competition.",
+      "votes": 2,
+      "why": "I knew the name and the young-debut story, but not that the record attached to him is a red card at 16, the age makes it land."
+    },
+    {
+      "id": "nf_1037",
+      "category": "History",
+      "text": "The Biafran war inspired the formation of Doctors Without Borders.",
+      "votes": 2,
+      "why": "I've seen the MSF logo my whole life and never once heard it started because of Biafra, that's a link I'd actually send to the group chat."
+    },
+    {
+      "id": "nf_1046",
+      "category": "History",
+      "text": "From 1772 to 1775, more than 62,000 enslaved Africans were sold from Calabar to European slave traders.",
+      "votes": 2,
+      "why": "I teach the slave trade every year and I have never once put a number and a three-year window on Calabar like that, the concentration is what gets me."
+    },
+    {
+      "id": "nf_1049",
+      "category": "Culture",
+      "text": "The Drill Rehabilitation Centre in Calabar is the world's most successful captive breeding programme for an endangered primate, with over 250 births.",
+      "votes": 2,
+      "why": "I knew of the centre but had no idea it was the best in the world at what it does, that a Nigerian facility holds a global record for an endangered primate is not something I would have guessed."
+    },
+    {
+      "id": "nf_1068",
+      "category": "Culture",
+      "text": "The Senegalese version of jollof rice, thieboudienne, has been recognized by UNESCO as an intangible cultural heritage dish.",
+      "votes": 2,
+      "why": "It turns the jollof banter into an actual international recognition thing, and I did not know Senegal had already taken that step."
+    },
+    {
+      "id": "nf_1078",
+      "category": "Business",
+      "text": "Approximately 5% of Nigerian Internet users are registered on Nairaland, compared to Facebook's 11 million Nigerian users, about 20% of the local Internet population.",
+      "votes": 2,
+      "why": "I would have bet my life Nairaland was bigger than Facebook in Nigeria, and the numbers say it is not even close."
+    },
+    {
+      "id": "nf_1084",
+      "category": "History",
+      "text": "More than 90% of known Nok Culture sites have been illegally looted, and over 1,000 Nok terracotta sculptures have been smuggled abroad.",
+      "votes": 2,
+      "why": "I teach Nok culture as a settled textbook topic and never once told a class that the sites have been stripped and the pieces are sitting in foreign museums, that number is the part that stings."
+    },
+    {
+      "id": "nf_1086",
+      "category": "Business",
+      "text": "One of the first blockbusters from Nigeria came from the Yoruba language industry: Mosebolatan (1985) by Moses Olaiya grossed ₦107,000 (approx. 2015 ₦44.2 million) in five days of its release.",
+      "votes": 2,
+      "why": "I'd have bet money the first Nigerian blockbuster was an English-language Nollywood film, not a Yoruba one from 1985, and the ₦44 million conversion is what makes it land."
+    },
+    {
+      "id": "nf_1096",
+      "category": "History",
+      "text": "Excavations at Igbo-Ukwu, near Nri, revealed sophisticated cast copper-alloy vessels, ironwork, pottery, beads, ivory, and textiles, showing long-distance connections by the end of the first millennium CE.",
+      "votes": 2,
+      "why": "I knew the name Igbo-Ukwu from school but never that it pushed southeast Nigeria's metalwork back that far and showed long-distance trade that early, that actually changes the timeline I teach."
+    },
+    {
+      "id": "nf_1128",
+      "category": "Sports",
+      "text": "In 2010, Nigeria was banned from international football by FIFA due to government interference, but the ban was provisionally lifted four days later.",
+      "votes": 2,
+      "why": "The four days is the whole thing, a ban that short sounds like FIFA blinked, and I never knew we got banned at all."
+    },
+    {
+      "id": "nf_1159",
+      "category": "Culture",
+      "text": "Vice President Yemi Osinbajo does not wear a wedding ring because he believes the Bible itself is the symbol of holy marriage.",
+      "votes": 2,
+      "why": "I've seen this man's hands in a thousand photos and never clocked it, and the reason is a whole argument about what actually counts as the symbol."
+    }
+  ]
+}

@@ -377,6 +377,510 @@
       "candidates": 3,
       "rejected": 0,
       "at": "2026-09-05T10:41:53.720Z"
+    },
+    "aliko-dangote": {
+      "revisionId": "1377205193",
+      "model": "deepseek-chat",
+      "candidates": 7,
+      "rejected": 1,
+      "at": "2026-09-28T18:38:30.138Z"
+    },
+    "alhassan-dantata": {
+      "revisionId": "1360639764",
+      "model": "deepseek-chat",
+      "candidates": 5,
+      "rejected": 1,
+      "at": "2026-09-28T18:38:42.922Z"
+    },
+    "hushpuppi": {
+      "revisionId": "1376489969",
+      "model": "deepseek-chat",
+      "candidates": 5,
+      "rejected": 1,
+      "at": "2026-09-28T18:55:20.638Z"
+    },
+    "hilda-baci": {
+      "revisionId": "1370537664",
+      "model": "deepseek-chat",
+      "candidates": 2,
+      "rejected": 2,
+      "at": "2026-09-28T18:55:34.901Z"
+    },
+    "samuel-okwaraji": {
+      "revisionId": "1372411092",
+      "model": "deepseek-chat",
+      "candidates": 6,
+      "rejected": 0,
+      "at": "2026-09-28T18:55:53.898Z"
+    },
+    "ameyo-adadevoh": {
+      "revisionId": "1369880212",
+      "model": "deepseek-chat",
+      "candidates": 6,
+      "rejected": 2,
+      "at": "2026-09-28T18:56:09.323Z"
+    },
+    "james-pinson-labulo-davies": {
+      "revisionId": "1363282100",
+      "model": "deepseek-chat",
+      "candidates": 6,
+      "rejected": 1,
+      "at": "2026-09-28T18:56:21.787Z"
+    },
+    "chioma-ajunwa": {
+      "revisionId": "1374408768",
+      "model": "deepseek-chat",
+      "candidates": 6,
+      "rejected": 2,
+      "at": "2026-09-28T18:56:40.401Z"
+    },
+    "nigerian-cuisine": {
+      "revisionId": "1373723842",
+      "model": "deepseek-chat",
+      "candidates": 8,
+      "rejected": 0,
+      "at": "2026-09-28T18:56:57.930Z"
+    },
+    "michael-ibru": {
+      "revisionId": "1377257680",
+      "model": "deepseek-chat",
+      "candidates": 7,
+      "rejected": 1,
+      "at": "2026-09-28T21:50:50.356Z"
+    },
+    "sarah-forbes-bonetta": {
+      "revisionId": "1367132197",
+      "model": "deepseek-chat",
+      "candidates": 6,
+      "rejected": 1,
+      "at": "2026-09-28T21:52:22.904Z"
+    },
+    "ernest-madu": {
+      "revisionId": "1358532710",
+      "model": "deepseek-chat",
+      "candidates": 0,
+      "rejected": 0,
+      "at": "2026-09-28T21:52:30.480Z"
+    },
+    "cute-abiola": {
+      "revisionId": "1376664255",
+      "model": "deepseek-chat",
+      "candidates": 4,
+      "rejected": 0,
+      "at": "2026-09-28T21:52:41.712Z"
+    },
+    "stella-obasanjo": {
+      "revisionId": "1376648429",
+      "model": "deepseek-chat",
+      "candidates": 4,
+      "rejected": 1,
+      "at": "2026-09-28T21:52:55.110Z"
+    },
+    "olusegun-mimiko": {
+      "revisionId": "1370251989",
+      "model": "deepseek-chat",
+      "candidates": 4,
+      "rejected": 4,
+      "at": "2026-09-28T21:53:11.266Z"
+    },
+    "ndidi-okonkwo-nwuneli": {
+      "revisionId": "1370177103",
+      "model": "deepseek-chat",
+      "candidates": 3,
+      "rejected": 5,
+      "at": "2026-09-28T21:53:24.872Z"
+    },
+    "patrick-sawyer": {
+      "revisionId": "1373670994",
+      "model": "deepseek-chat",
+      "candidates": 3,
+      "rejected": 1,
+      "at": "2026-09-28T21:53:36.967Z"
+    },
+    "jason-njoku": {
+      "revisionId": "1356939640",
+      "model": "deepseek-chat",
+      "candidates": 3,
+      "rejected": 3,
+      "at": "2026-09-29T05:47:32.441Z"
+    },
+    "dele-olojede": {
+      "revisionId": "1371386128",
+      "model": "deepseek-chat",
+      "candidates": 7,
+      "rejected": 1,
+      "at": "2026-09-29T05:48:24.391Z"
+    },
+    "bennet-omalu": {
+      "revisionId": "1376979439",
+      "model": "deepseek-chat",
+      "candidates": 5,
+      "rejected": 3,
+      "at": "2026-09-29T05:49:14.667Z"
+    },
+    "chicken-republic": {
+      "revisionId": "1375367287",
+      "model": "deepseek-chat",
+      "candidates": 8,
+      "rejected": 0,
+      "at": "2026-09-29T05:50:07.631Z"
+    },
+    "kevin-olusola": {
+      "revisionId": "1372546845",
+      "model": "deepseek-chat",
+      "candidates": 5,
+      "rejected": 3,
+      "at": "2026-09-29T06:06:46.150Z"
+    },
+    "adejoke-bakare": {
+      "revisionId": "1363392937",
+      "model": "deepseek-chat",
+      "candidates": 6,
+      "rejected": 0,
+      "at": "2026-09-29T06:07:25.546Z"
+    },
+    "chikwe-ihekweazu": {
+      "revisionId": "1372569965",
+      "model": "deepseek-chat",
+      "candidates": 6,
+      "rejected": 2,
+      "at": "2026-09-29T06:08:00.808Z"
+    },
+    "damson-idris": {
+      "revisionId": "1372399047",
+      "model": "deepseek-chat",
+      "candidates": 5,
+      "rejected": 1,
+      "at": "2026-09-29T06:08:36.632Z"
+    },
+    "demola-aladekomo": {
+      "revisionId": "1373800661",
+      "model": "deepseek-chat",
+      "candidates": 5,
+      "rejected": 3,
+      "at": "2026-09-29T17:17:02.735Z"
+    },
+    "ayodele-awojobi": {
+      "revisionId": "1377330950",
+      "model": "deepseek-chat",
+      "candidates": 4,
+      "rejected": 4,
+      "at": "2026-09-29T17:17:42.123Z"
+    },
+    "bisi-ezerioha": {
+      "revisionId": "1372328204",
+      "model": "deepseek-chat",
+      "candidates": 6,
+      "rejected": 2,
+      "at": "2026-09-29T17:18:13.393Z"
+    },
+    "pot-in-pot-refrigerator": {
+      "revisionId": "1374642684",
+      "model": "deepseek-chat",
+      "candidates": 6,
+      "rejected": 0,
+      "at": "2026-09-29T17:18:40.449Z"
+    },
+    "ben-enwonwu": {
+      "revisionId": "1373343586",
+      "model": "deepseek-chat",
+      "candidates": 7,
+      "rejected": 1,
+      "at": "2026-09-29T17:19:22.089Z"
+    },
+    "olufunmilayo-olopade": {
+      "revisionId": "1372546528",
+      "model": "deepseek-chat",
+      "candidates": 5,
+      "rejected": 1,
+      "at": "2026-09-29T17:19:41.410Z"
+    },
+    "chinyere-kalu": {
+      "revisionId": "1376651612",
+      "model": "deepseek-chat",
+      "candidates": 1,
+      "rejected": 1,
+      "at": "2026-09-29T17:19:52.064Z"
+    },
+    "autotransfusion": {
+      "revisionId": "1375656233",
+      "model": "deepseek-chat",
+      "candidates": 7,
+      "rejected": 1,
+      "at": "2026-09-29T17:20:18.961Z"
+    },
+    "diezani-alison-madueke": {
+      "revisionId": "1374161985",
+      "model": "deepseek-chat",
+      "candidates": 5,
+      "rejected": 3,
+      "at": "2026-09-29T18:43:50.052Z"
+    },
+    "hugo-weaving": {
+      "revisionId": "1376338574",
+      "model": "deepseek-chat",
+      "candidates": 8,
+      "rejected": 0,
+      "at": "2026-09-29T18:46:11.321Z"
+    },
+    "nwankwo-kanu": {
+      "revisionId": "1375815303",
+      "model": "deepseek-chat",
+      "candidates": 4,
+      "rejected": 4,
+      "at": "2026-09-29T18:46:35.862Z"
+    },
+    "adetokunbo-lucas": {
+      "revisionId": "1372724183",
+      "model": "deepseek-chat",
+      "candidates": 0,
+      "rejected": 0,
+      "at": "2026-09-29T18:47:00.072Z"
+    },
+    "kwame-onwuachi": {
+      "revisionId": "1375888502",
+      "model": "deepseek-chat",
+      "candidates": 7,
+      "rejected": 0,
+      "at": "2026-09-29T18:47:36.483Z"
+    },
+    "freddie-mercury": {
+      "revisionId": "1375669390",
+      "model": "deepseek-chat",
+      "candidates": 5,
+      "rejected": 3,
+      "at": "2026-09-29T18:58:59.032Z"
+    },
+    "mohammed-dewji": {
+      "revisionId": "1377428697",
+      "model": "deepseek-chat",
+      "candidates": 7,
+      "rejected": 1,
+      "at": "2026-09-29T18:59:36.009Z"
+    },
+    "hasheem-thabeet": {
+      "revisionId": "1368784140",
+      "model": "deepseek-chat",
+      "candidates": 4,
+      "rejected": 4,
+      "at": "2026-09-29T19:00:02.383Z"
+    },
+    "siti-binti-saad": {
+      "revisionId": "1372457953",
+      "model": "deepseek-chat",
+      "candidates": 6,
+      "rejected": 0,
+      "at": "2026-09-29T19:06:53.391Z"
+    },
+    "george-lilanga": {
+      "revisionId": "1370641620",
+      "model": "deepseek-chat",
+      "candidates": 7,
+      "rejected": 1,
+      "at": "2026-09-29T19:07:37.394Z"
+    },
+    "bi-kidude": {
+      "revisionId": "1370302705",
+      "model": "deepseek-chat",
+      "candidates": 5,
+      "rejected": 1,
+      "at": "2026-09-29T19:08:07.707Z"
+    },
+    "leslie-scott-game-designer": {
+      "revisionId": "1354693698",
+      "model": "deepseek-chat",
+      "candidates": 6,
+      "rejected": 1,
+      "at": "2026-09-29T19:10:16.089Z"
+    },
+    "salim-kara": {
+      "revisionId": "1375880637",
+      "model": "deepseek-chat",
+      "candidates": 3,
+      "rejected": 5,
+      "at": "2026-09-29T19:10:41.509Z"
+    },
+    "mbwana-samatta": {
+      "revisionId": "1376415493",
+      "model": "deepseek-chat",
+      "candidates": 8,
+      "rejected": 0,
+      "at": "2026-09-29T19:16:00.615Z"
+    },
+    "filbert-bayi": {
+      "revisionId": "1364241427",
+      "model": "deepseek-chat",
+      "candidates": 3,
+      "rejected": 4,
+      "at": "2026-09-29T19:16:29.076Z"
+    },
+    "bruno-tarimo": {
+      "revisionId": "1362915882",
+      "model": "deepseek-chat",
+      "candidates": 2,
+      "rejected": 2,
+      "at": "2026-09-29T19:17:05.169Z"
+    },
+    "tanzania-national-cricket-team": {
+      "revisionId": "1369828471",
+      "model": "deepseek-chat",
+      "candidates": 4,
+      "rejected": 4,
+      "at": "2026-09-29T19:17:28.409Z"
+    },
+    "nzinga-of-ndongo-and": {
+      "revisionId": "1376015570",
+      "model": "deepseek-chat",
+      "candidates": 3,
+      "rejected": 5,
+      "at": "2026-09-29T19:42:08.587Z"
+    },
+    "jonas-savimbi": {
+      "revisionId": "1371019765",
+      "model": "deepseek-chat",
+      "candidates": 6,
+      "rejected": 2,
+      "at": "2026-09-29T19:43:08.045Z"
+    },
+    "joseph-cinque": {
+      "revisionId": "1368865979",
+      "model": "deepseek-chat",
+      "candidates": 7,
+      "rejected": 1,
+      "at": "2026-09-29T19:43:38.321Z"
+    },
+    "agostinho-neto": {
+      "revisionId": "1375711528",
+      "model": "deepseek-chat",
+      "candidates": 4,
+      "rejected": 4,
+      "at": "2026-09-29T19:44:12.427Z"
+    },
+    "holden-roberto": {
+      "revisionId": "1374721246",
+      "model": "deepseek-chat",
+      "candidates": 6,
+      "rejected": 2,
+      "at": "2026-09-29T19:44:54.496Z"
+    },
+    "eusebio": {
+      "revisionId": "1375785087",
+      "model": "deepseek-chat",
+      "candidates": 6,
+      "rejected": 2,
+      "at": "2026-09-29T19:45:42.583Z"
+    },
+    "nijel-amos": {
+      "revisionId": "1372040576",
+      "model": "deepseek-chat",
+      "candidates": 1,
+      "rejected": 3,
+      "at": "2026-09-29T20:07:50.345Z"
+    },
+    "seretse-khama": {
+      "revisionId": "1376046602",
+      "model": "deepseek-chat",
+      "candidates": 7,
+      "rejected": 1,
+      "at": "2026-09-29T20:08:27.191Z"
+    },
+    "letsile-tebogo": {
+      "revisionId": "1375693120",
+      "model": "deepseek-chat",
+      "candidates": 7,
+      "rejected": 0,
+      "at": "2026-09-29T20:09:03.320Z"
+    },
+    "unity-dow": {
+      "revisionId": "1376195531",
+      "model": "deepseek-chat",
+      "candidates": 7,
+      "rejected": 0,
+      "at": "2026-09-29T20:09:55.476Z"
+    },
+    "linah-mohohlo": {
+      "revisionId": "1280796253",
+      "model": "deepseek-chat",
+      "candidates": 4,
+      "rejected": 1,
+      "at": "2026-09-29T20:10:39.391Z"
+    },
+    "mavis-nduchwa": {
+      "revisionId": "1375988573",
+      "model": "deepseek-chat",
+      "candidates": 5,
+      "rejected": 0,
+      "at": "2026-09-29T20:11:07.764Z"
+    },
+    "zeus-musician": {
+      "revisionId": "1365467047",
+      "model": "deepseek-chat",
+      "candidates": 2,
+      "rejected": 6,
+      "at": "2026-09-29T20:11:39.328Z"
+    },
+    "mariette-bosch": {
+      "revisionId": "1376462149",
+      "model": "deepseek-chat",
+      "candidates": 4,
+      "rejected": 4,
+      "at": "2026-09-29T20:12:39.299Z"
+    },
+    "mark-shuttleworth": {
+      "revisionId": "1376217482",
+      "model": "deepseek-chat",
+      "candidates": 6,
+      "rejected": 2,
+      "at": "2026-09-29T21:21:54.543Z"
+    },
+    "hamilton-naki": {
+      "revisionId": "1368924255",
+      "model": "deepseek-chat",
+      "candidates": 7,
+      "rejected": 1,
+      "at": "2026-09-29T21:22:57.964Z"
+    },
+    "elon-musk": {
+      "revisionId": "1377339214",
+      "model": "deepseek-chat",
+      "candidates": 7,
+      "rejected": 1,
+      "at": "2026-09-29T21:23:41.745Z"
+    },
+    "sasol": {
+      "revisionId": "1374833277",
+      "model": "deepseek-chat",
+      "candidates": 8,
+      "rejected": 0,
+      "at": "2026-09-29T21:24:21.974Z"
+    },
+    "penelope-heyns": {
+      "revisionId": "1363251294",
+      "model": "deepseek-chat",
+      "candidates": 2,
+      "rejected": 2,
+      "at": "2026-09-29T21:24:55.916Z"
+    },
+    "sydney-brenner": {
+      "revisionId": "1371999460",
+      "model": "deepseek-chat",
+      "candidates": 4,
+      "rejected": 4,
+      "at": "2026-09-29T21:25:41.798Z"
+    },
+    "history-of-computed-tomography": {
+      "revisionId": "1369639024",
+      "model": "deepseek-chat",
+      "candidates": 4,
+      "rejected": 4,
+      "at": "2026-09-29T21:26:11.495Z"
+    },
+    "ulwaluko": {
+      "revisionId": "1368626017",
+      "model": "deepseek-chat",
+      "candidates": 7,
+      "rejected": 1,
+      "at": "2026-09-29T21:26:48.278Z"
     }
   }
 }

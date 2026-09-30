@@ -184,55 +184,6 @@ export function factGroundedInPassage(fact, passage) {
 }
 
 /**
- * Check the enrichment did not invent a figure.
- *
- * The deep dive is prose a model wrote, and the extraction verifier never
- * sees it. Measured on the first real run: 7 of 131 deep dives contained
- * a number that appears nowhere in the source document — an Academy
- * founded in 1780, an excavation dated 1959, a visit in 2016. All
- * plausible, all probably true, none of them extracted. That is precisely
- * the failure the standard exists to stop, so it is checked rather than
- * trusted.
- *
- * Only numbers are checked, not words. Prose legitimately rephrases and
- * connects; a figure is either in the source or it was supplied from
- * somewhere else. Numbers are also what a reader screenshots and what a
- * challenger checks first.
- *
- * @param {string} prose
- * @param {string} document
- * @returns {VerifyResult}
- */
-export function proseGroundedInDocument(prose, document) {
-  const docNumbers = new Set(
-    (normalise(document).match(/\d[\d,.]*/g) ?? []).map((n) =>
-      n.replace(/[,.]+$/, '').replace(/,/g, ''),
-    ),
-  );
-
-  const stray = (normalise(prose).match(/\d[\d,.]*/g) ?? [])
-    .map((n) => n.replace(/[,.]+$/, ''))
-    .filter((n) => {
-      const bare = n.replace(/,/g, '');
-      if (docNumbers.has(bare)) return false;
-      // Ordinals and small counts are usually the model doing arithmetic
-      // the reader can follow ("the 23rd child" implies 22 before it),
-      // not a claim of its own.
-      return Number(bare) > 100;
-    });
-
-  if (stray.length === 0) return { ok: true, reasons: [], offset: -1 };
-
-  return {
-    ok: false,
-    reasons: [
-      `Deep dive states ${stray.map((n) => `'${n}'`).join(', ')}, which appears nowhere in the source document.`,
-    ],
-    offset: -1,
-  };
-}
-
-/**
  * Both checks, for one candidate.
  *
  * @param {string} fact
@@ -240,6 +191,57 @@ export function proseGroundedInDocument(prose, document) {
  * @param {string} document
  * @returns {VerifyResult}
  */
+/**
+ * The document's opening, as the one extra passage a fact may lean on.
+ *
+ * Agreed with the owner as a deliberate, narrow change to the rule that
+ * a fact comes from one passage. The reason is introductions: a fact
+ * about someone who is not a household name has to say who they are, and
+ * that sentence is almost always the article's first ("Michael Ibru was
+ * a Nigerian industrialist who founded the Ibru Organisation..."), far
+ * from the passage with the surprising detail. Without it the fact either
+ * assumes the reader knows the person or cannot be written honestly.
+ *
+ * It is only ever the OPENING of the SAME document, verbatim, and it is
+ * stored as a second passage in the fact's provenance, so a reviewer
+ * sees exactly what the claim leans on.
+ *
+ * @param {string} document
+ */
+export function leadOf(document) {
+  const para = String(document ?? '').split(/\n+/).find((p) => p.trim().length > 0) ?? '';
+  // Two sentences, split at a full stop that is not an abbreviation like
+  // "c." or "St." ("born Aina or Ina; c. 1843" must not end a sentence).
+  const ends = [];
+  const re = /[.!?](?=\s+[A-Z(]|$)/g;
+  let m;
+  while ((m = re.exec(para)) !== null && ends.length < 2) {
+    if (!/\b(c|ca|b|d|st|dr|mr|mrs|jr|sr|no|gen|col|capt|lt)$/i.test(para.slice(0, m.index))) {
+      ends.push(m.index + 1);
+    }
+  }
+  return (ends.length > 0 ? para.slice(0, ends[ends.length - 1]) : para).trim();
+}
+
+/**
+ * Is the fact grounded in its passage, or in its passage plus the lead?
+ *
+ * The passage alone is tried first, so a fact that needs no introduction
+ * is held to exactly the old standard. Only a fact that fails alone is
+ * checked against the two together, and the numbers rule is unchanged:
+ * every figure must appear verbatim in one of them.
+ *
+ * @param {string} fact
+ * @param {string} passage
+ * @param {string} [lead]
+ */
+export function groundedWithLead(fact, passage, lead) {
+  const alone = factGroundedInPassage(fact, passage);
+  if (alone.ok || !lead) return { ...alone, usedLead: false };
+  const both = factGroundedInPassage(fact, `${passage} ${lead}`);
+  return both.ok ? { ...both, usedLead: true } : { ...alone, usedLead: false };
+}
+
 export function verify(fact, passage, document) {
   const inDoc = passageInDocument(passage, document);
   const grounded = factGroundedInPassage(fact, passage);

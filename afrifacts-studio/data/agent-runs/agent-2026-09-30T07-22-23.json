@@ -1,0 +1,16 @@
+{
+  "runId": "agent-2026-09-30T07-22-23",
+  "kind": "paste",
+  "status": "empty",
+  "brief": "0 pasted facts",
+  "country": "ZA",
+  "target": 0,
+  "createdAt": "2026-09-30T07:22:23.340Z",
+  "stopReason": "0 checked: 0 verified, 0 corrected, 0 not usable.",
+  "docsRead": 0,
+  "webQueriesSpent": 0,
+  "shortlist": [],
+  "alternates": [],
+  "unverified": [],
+  "trace": []
+}

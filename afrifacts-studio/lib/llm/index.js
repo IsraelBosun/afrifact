@@ -39,6 +39,19 @@ export const MODELS = {
    * it is the one place latency is part of the choice, not just cost.
    */
   findSources: 'deepseek-chat',
+  /**
+   * Deciding what is interesting. The one call where the model's opinion
+   * IS the output rather than a hint beside it, so it is the first
+   * candidate for a stronger model. `npm run judge:eval` measures it, so
+   * a swap here can be tested rather than hoped about.
+   */
+  judge: 'deepseek-chat',
+  /**
+   * The research agent's next move. Few calls per run, each one steering
+   * everything after it, so this is where a stronger model would pay off
+   * soonest. DeepSeek by the owner's choice for now.
+   */
+  agent: 'deepseek-chat',
 };
 
 /**

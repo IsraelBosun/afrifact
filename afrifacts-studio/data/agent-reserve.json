@@ -1,0 +1,2996 @@
+[
+  {
+    "factId": "nf_1160",
+    "fact": "Aliko Dangote's maternal great-grandfather, Alhassan Abdullahi Dantata, was the richest person in West Africa until his death in 1955.",
+    "category": "History",
+    "why": "same subject as nf_1161 (Dangote/Dantata family)",
+    "runId": "agent-2026-09-28T18-38-11"
+  },
+  {
+    "factId": "nf_1162",
+    "fact": "In 1929, when the Bank of British West Africa opened a branch in Kano, Alhassan Dantata deposited twenty camel-loads of silver coins, becoming the first Kano businessman to use a bank.",
+    "category": "Business",
+    "why": "same subject as nf_1161 (Dangote/Dantata family)",
+    "runId": "agent-2026-09-28T18-38-11"
+  },
+  {
+    "factId": "nf_1163",
+    "fact": "Alhassan Dantata's nickname 'ɗan Tata', meaning 'Tata's son', came from the old slave woman named Tata who raised him after his mother moved to Accra.",
+    "category": "History",
+    "why": "same subject as nf_1161 (Dangote/Dantata family)",
+    "runId": "agent-2026-09-28T18-38-11"
+  },
+  {
+    "factId": "nf_1164",
+    "fact": "Alhassan Dantata's two sons, Aminu and Mahmudu, were members of the socialist NEPU opposition, and Dantata pressured them to join the NPC instead, saying 'My father would not take it kindly to see his son fighting the system.'",
+    "category": "History",
+    "why": "same subject as nf_1161 (Dangote/Dantata family)",
+    "runId": "agent-2026-09-28T18-38-11"
+  },
+  {
+    "factId": "nf_1165",
+    "fact": "In 1927, Alhassan Dantata sponsored 16 people for the pilgrimage to Mecca, including the Mallam he had lived under as an almajiri in Accra in the early 1890s.",
+    "category": "Culture",
+    "why": "same subject as nf_1161 (Dangote/Dantata family)",
+    "runId": "agent-2026-09-28T18-38-11"
+  },
+  {
+    "fact": "Hushpuppi is the subject of the 2017 song 'Telli Person' by Nigerian singer Timaya featuring Olamide and Phyno, which accused him of being a swindler and warned he would soon be caught by authorities — a warning many viewed as prophetic after his arrest.",
+    "category": "Culture",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-28T18-55-07",
+    "candidate": {
+      "fact": "Hushpuppi is the subject of the 2017 song 'Telli Person' by Nigerian singer Timaya featuring Olamide and Phyno, which accused him of being a swindler and warned he would soon be caught by authorities — a warning many viewed as prophetic after his arrest.",
+      "passage": "He is the subject of the 2017 song \"Telli Person\" by Nigerian singer Timaya featuring Olamide and Phyno, with whom he had a long-running feud. The song contained lyrics directed toward Abbas, indirectly accusing him of being a swindler and lavishing his money on designer clothes instead of investing in profitable ventures and warning him that he would soon be caught by authorities. Many viewed the song as a prophetic warning that was fulfilled with his arrest.",
+      "category": "Culture",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 4,
+        "explicability": 4
+      },
+      "reasoning": "The connection between a popular Nigerian song and Hushpuppi's eventual arrest is a surprising link most people do not know.",
+      "volatile": false,
+      "slug": "hushpuppi",
+      "country": "NG",
+      "source": {
+        "title": "Hushpuppi",
+        "url": "https://en.wikipedia.org/wiki/Hushpuppi",
+        "revisionId": "1376489969",
+        "contentHash": "86b5a76ea52c626c",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-28",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "On 28 July 2021, Hushpuppi pleaded guilty to money laundering and identified a Deputy Commissioner of Police in Nigeria, Abba Kyari, as an accomplice in his $1.1 million scam deal, leading a US Court to grant an FBI warrant to arrest Kyari the following day.",
+    "category": "Business",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-28T18-55-07",
+    "candidate": {
+      "fact": "On 28 July 2021, Hushpuppi pleaded guilty to money laundering and identified a Deputy Commissioner of Police in Nigeria, Abba Kyari, as an accomplice in his $1.1 million scam deal, leading a US Court to grant an FBI warrant to arrest Kyari the following day.",
+      "passage": "On 28 July 2021, Abbas pleaded guilty to money laundering and also identified a Deputy Commissioner of Police in Nigeria, Abba Kyari, as an accomplice in his $1.1 million scam deal. The following day, a US Court granted an FBI warrant to arrest Kyari. The Police chief was further implicated after his conversation with Abbas was released.",
+      "category": "Business",
+      "surprise": {
+        "priorProbability": 3,
+        "specificity": 5,
+        "explicability": 4
+      },
+      "reasoning": "The direct implication of a senior Nigerian police officer by Hushpuppi, with a specific sum and a US warrant, is a striking and specific detail.",
+      "volatile": false,
+      "slug": "hushpuppi",
+      "country": "NG",
+      "source": {
+        "title": "Hushpuppi",
+        "url": "https://en.wikipedia.org/wiki/Hushpuppi",
+        "revisionId": "1376489969",
+        "contentHash": "86b5a76ea52c626c",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-28",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Hushpuppi holds a passport from St Kitts and Nevis that was fraudulently obtained through a sham marriage to a St. Kitts and Nevis citizen.",
+    "category": "Business",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-28T18-55-07",
+    "candidate": {
+      "fact": "Hushpuppi holds a passport from St Kitts and Nevis that was fraudulently obtained through a sham marriage to a St. Kitts and Nevis citizen.",
+      "passage": "He also holds a passport from St Kitts and Nevis, which was fraudulently obtained through a sham marriage to a St. Kitts and Nevis citizen.",
+      "category": "Business",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 4,
+        "explicability": 3
+      },
+      "reasoning": "The detail that he acquired a Caribbean passport through a fake marriage is a specific, little-known fact about his methods.",
+      "volatile": false,
+      "slug": "hushpuppi",
+      "country": "NG",
+      "source": {
+        "title": "Hushpuppi",
+        "url": "https://en.wikipedia.org/wiki/Hushpuppi",
+        "revisionId": "1376489969",
+        "contentHash": "86b5a76ea52c626c",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-28",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "When Okwaraji's club SSV-ULM demanded $45,000 to release him for national duty, he told them: 'You cannot stop me playing for my country... I am going to represent my country in the World Cup in Italy whether you like it or not'.",
+    "category": "Sports",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-28T18-55-07",
+    "candidate": {
+      "fact": "When Okwaraji's club SSV-ULM demanded $45,000 to release him for national duty, he told them: 'You cannot stop me playing for my country... I am going to represent my country in the World Cup in Italy whether you like it or not'.",
+      "passage": "When Okwaraji started playing for the national team, the Nigerian Football Association asked permission from SSV-ULM 1846, which his club was only willing to accept after having been paid a sum of $45,000. After negotiations the amount came down to $15,000. Okwaraji, a master's degree holder in law, was very upset when hearing this and made it very clear to his club with the following words:\n\"You cannot stop me playing for my country and let me tell you, I am going to represent my country in the World Cup in Italy whether you like it or not\".",
+      "category": "Sports",
+      "surprise": {
+        "priorProbability": 5,
+        "specificity": 5,
+        "explicability": 4
+      },
+      "reasoning": "The $45,000 demand and Okwaraji's defiant quote are little-known details that reveal his commitment to Nigeria over club interests.",
+      "volatile": false,
+      "slug": "samuel-okwaraji",
+      "country": "NG",
+      "source": {
+        "title": "Samuel Okwaraji",
+        "url": "https://en.wikipedia.org/wiki/Samuel_Okwaraji",
+        "revisionId": "1372411092",
+        "contentHash": "1721c7baf60e294e",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-28",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Chioma Ajunwa was banned from athletics for four years after failing a drug test in 1992, a ban she maintained her innocence over.",
+    "category": "Sports",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-28T18-55-07",
+    "candidate": {
+      "fact": "Chioma Ajunwa was banned from athletics for four years after failing a drug test in 1992, a ban she maintained her innocence over.",
+      "passage": "Ajunwa was banned from the sport for four years after failing a drug test in 1992 despite maintaining her innocence.",
+      "category": "Sports",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 4,
+        "explicability": 4
+      },
+      "reasoning": "Ajunwa's doping ban is largely forgotten, and the fact she won Olympic gold after serving it makes the story sharper.",
+      "volatile": false,
+      "slug": "chioma-ajunwa",
+      "country": "NG",
+      "source": {
+        "title": "Chioma Ajunwa",
+        "url": "https://en.wikipedia.org/wiki/Chioma_Ajunwa",
+        "revisionId": "1374408768",
+        "contentHash": "086b45a1c2295156",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-28",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "After winning Olympic gold, Chioma Ajunwa complained she was given the MON award without the 'E-Y' and was amazed at the difference between her reward and what the Super Eagles got for winning the Nations Cup.",
+    "category": "Sports",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-28T18-55-07",
+    "candidate": {
+      "fact": "After winning Olympic gold, Chioma Ajunwa complained she was given the MON award without the 'E-Y' and was amazed at the difference between her reward and what the Super Eagles got for winning the Nations Cup.",
+      "passage": "Following her Olympic gold medal at Atlanta '96, Ajunwa was given a national award – Member of the Order of Niger (MON) – by the then Head of State of Nigeria Sani Abacha, but complained that she was overlooked compared to the Nigerian football team claiming \"I was given the MON award, right, but without 'E-Y.' When I heard of what was given to my brothers in the Super Eagles for winning the Nations Cup, I was amazed because you can see the difference...I'm not envious of anybody but this is the time to express my feelings that I deserve more.\"",
+      "category": "Sports",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 4,
+        "explicability": 4
+      },
+      "reasoning": "The detail that her national honour was downgraded relative to the Super Eagles' reward is a specific grievance few have heard.",
+      "volatile": false,
+      "slug": "chioma-ajunwa",
+      "country": "NG",
+      "source": {
+        "title": "Chioma Ajunwa",
+        "url": "https://en.wikipedia.org/wiki/Chioma_Ajunwa",
+        "revisionId": "1374408768",
+        "contentHash": "086b45a1c2295156",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-28",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Chioma Ajunwa was benched throughout the 1991 Women's World Cup and left the Falcons' camp because a coach kept her on the bench despite knowing she was the best player in the team.",
+    "category": "Sports",
+    "votes": "4/6",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-28T18-55-07",
+    "candidate": {
+      "fact": "Chioma Ajunwa was benched throughout the 1991 Women's World Cup and left the Falcons' camp because a coach kept her on the bench despite knowing she was the best player in the team.",
+      "passage": "As a professional sportswoman, Ajunwa originally played football for the Nigerian women's team and was a member of The Falcons during the Women's World Cup in 1991, but as she was constantly benched, her skill was seldom used.",
+      "category": "Sports",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 3,
+        "explicability": 4
+      },
+      "reasoning": "That Nigeria's only individual Olympic gold medallist was once an unused squad player at a World Cup is a hidden link between two careers.",
+      "volatile": false,
+      "slug": "chioma-ajunwa",
+      "country": "NG",
+      "source": {
+        "title": "Chioma Ajunwa",
+        "url": "https://en.wikipedia.org/wiki/Chioma_Ajunwa",
+        "revisionId": "1374408768",
+        "contentHash": "086b45a1c2295156",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-28",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "In April 2023, Michael Ibru was honoured with a blue heritage plaque in Kensington, where he lived for 33 years — joining Fela Kuti, Malcolm X and Bob Marley.",
+    "category": "History",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-28T21-50-30",
+    "candidate": {
+      "fact": "In April 2023, Michael Ibru was honoured with a blue heritage plaque in Kensington, where he lived for 33 years — joining Fela Kuti, Malcolm X and Bob Marley.",
+      "passage": "In April 2023, Ibru was honoured with a blue heritage plaque by the Nubian Jak Community Trust and the Royal Borough of Kensington and Chelsea at his Kensington Park Gardens home, where he lived for 33 years. Honorees have included his compatriot Fela Kuti, Malcolm X, and Bob Marley.",
+      "category": "History",
+      "surprise": {
+        "priorProbability": 5,
+        "specificity": 5,
+        "explicability": 4
+      },
+      "reasoning": "A Nigerian industrialist sharing a London plaque scheme with Malcolm X and Bob Marley is a striking, recent connection.",
+      "volatile": true,
+      "slug": "michael-ibru",
+      "country": "NG",
+      "source": {
+        "title": "Michael Ibru",
+        "url": "https://en.wikipedia.org/wiki/Michael_Ibru",
+        "revisionId": "1377257680",
+        "contentHash": "0866ca8e094b1084",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-28",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Michael Ibru built a private port complex at Ibafon, west of Tin Can Island, for ₦100 million — about $1.14 billion in 2026 dollars.",
+    "category": "Business",
+    "votes": "4/6",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-28T21-50-30",
+    "candidate": {
+      "fact": "Michael Ibru built a private port complex at Ibafon, west of Tin Can Island, for ₦100 million — about $1.14 billion in 2026 dollars.",
+      "passage": "In the same year, a private port complex was developed at Ibafon, west of Tin Can Island, at a cost of ₦100 million (approximately US$152 million), equivalent to $1.14 billion in 2026 dollars.",
+      "category": "Business",
+      "surprise": {
+        "priorProbability": 5,
+        "specificity": 5,
+        "explicability": 3
+      },
+      "reasoning": "A private individual building a port next to Tin Can Island is a startling, little-known detail.",
+      "volatile": false,
+      "slug": "michael-ibru",
+      "country": "NG",
+      "source": {
+        "title": "Michael Ibru",
+        "url": "https://en.wikipedia.org/wiki/Michael_Ibru",
+        "revisionId": "1377257680",
+        "contentHash": "0866ca8e094b1084",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-28",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Sarah Forbes Bonetta's descendant through her daughter Stella was Ameyo Adadevoh, the doctor who contained Ebola in Lagos.",
+    "category": "Health",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-28T21-50-30",
+    "candidate": {
+      "fact": "Sarah Forbes Bonetta's descendant through her daughter Stella was Ameyo Adadevoh, the doctor who contained Ebola in Lagos.",
+      "passage": "Bonetta's second daughter Stella Davies and Herbert Macaulay, the grandson of Samuel Ajayi Crowther, had a daughter together: Sarah Abigail Idowu Macaulay Adadevoh, named after her maternal grandmother Sarah and her paternal grandmother Abigail. A descendant of Sarah's through her line was the Ebola heroine Ameyo Adadevoh.",
+      "category": "Health",
+      "surprise": {
+        "priorProbability": 5,
+        "specificity": 5,
+        "explicability": 4
+      },
+      "reasoning": "The link between Queen Victoria's goddaughter and Nigeria's Ebola heroine is a hidden connection between two known stories.",
+      "volatile": false,
+      "slug": "sarah-forbes-bonetta",
+      "country": "NG",
+      "source": {
+        "title": "Sarah Forbes Bonetta",
+        "url": "https://en.wikipedia.org/wiki/Sarah_Forbes_Bonetta",
+        "revisionId": "1367132197",
+        "contentHash": "92d733d046158813",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-28",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "King Ghezo of Dahomey told the British: 'The slave trade has been the ruling principle of my people. It is the source of their glory and wealth.'",
+    "category": "History",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-28T21-50-30",
+    "candidate": {
+      "fact": "King Ghezo of Dahomey told the British: 'The slave trade has been the ruling principle of my people. It is the source of their glory and wealth.'",
+      "passage": "Biographer and historian of Africa Martin Meredith quotes Ghezo telling the British:\n\nThe slave trade has been the ruling principle of my people. It is the source of their glory and wealth.  Their songs celebrate their victories and the mother lulls the child to sleep with notes of triumph over an enemy reduced to slavery.",
+      "category": "History",
+      "surprise": {
+        "priorProbability": 5,
+        "specificity": 5,
+        "explicability": 4
+      },
+      "reasoning": "A direct quote from an African king defending the slave trade as his people's glory is rarely encountered.",
+      "volatile": false,
+      "slug": "sarah-forbes-bonetta",
+      "country": "NG",
+      "source": {
+        "title": "Sarah Forbes Bonetta",
+        "url": "https://en.wikipedia.org/wiki/Sarah_Forbes_Bonetta",
+        "revisionId": "1367132197",
+        "contentHash": "92d733d046158813",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-28",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Stella Obasanjo declared 6 February 2003 the International Day of Zero Tolerance to Female Genital Mutilation.",
+    "category": "Health",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-28T21-50-30",
+    "candidate": {
+      "fact": "Stella Obasanjo declared 6 February 2003 the International Day of Zero Tolerance to Female Genital Mutilation.",
+      "passage": "As First Lady of Nigeria, Obasanjo joined the Campaign Against Female Genital Mutilation and on 6 February 2003, she declared the day the International Day of Zero Tolerance to Female Genital Mutilation.",
+      "category": "Health",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 5,
+        "explicability": 3
+      },
+      "reasoning": "The specific date and her role in declaring the international day are not widely known.",
+      "volatile": false,
+      "slug": "stella-obasanjo",
+      "country": "NG",
+      "source": {
+        "title": "Stella Obasanjo",
+        "url": "https://en.wikipedia.org/wiki/Stella_Obasanjo",
+        "revisionId": "1376648429",
+        "contentHash": "c599121af98dc3fa",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-28",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Pulitzer Prize-winning journalist Dele Olojede was the 12th of 28 children, born in Modakeke, Nigeria, in January 1961.",
+    "category": "History",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T05-46-58",
+    "candidate": {
+      "fact": "Pulitzer Prize-winning journalist Dele Olojede was the 12th of 28 children, born in Modakeke, Nigeria, in January 1961.",
+      "passage": "Olojede was born in January 1961 in Modakeke, Nigeria. He was the 12th of 28 children.",
+      "category": "History",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 5,
+        "explicability": 3
+      },
+      "reasoning": "The number 28 children is startling and specific, and almost nobody knows this about a Pulitzer winner.",
+      "volatile": false,
+      "slug": "dele-olojede",
+      "country": "NG",
+      "source": {
+        "title": "Dele Olojede",
+        "url": "https://en.wikipedia.org/wiki/Dele_Olojede",
+        "revisionId": "1371386128",
+        "contentHash": "9485206a3877b498",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "NEXT published the story that President Umaru Yar'Adua was brain dead, not 'returning soon from a Saudi hospital' as promised.",
+    "category": "History",
+    "votes": "4/6",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T05-46-58",
+    "candidate": {
+      "fact": "NEXT published the story that President Umaru Yar'Adua was brain dead, not 'returning soon from a Saudi hospital' as promised.",
+      "passage": "Most famously, NEXT published the story that the president Umaru Yar'Adua was brain dead and not \"returning soon from a Saudi hospital\" as promised.",
+      "category": "History",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 5,
+        "explicability": 4
+      },
+      "reasoning": "The Yar'Adua health saga is remembered, but that a Nigerian paper broke the brain-dead story is a striking, specific link.",
+      "volatile": false,
+      "slug": "dele-olojede",
+      "country": "NG",
+      "source": {
+        "title": "Dele Olojede",
+        "url": "https://en.wikipedia.org/wiki/Dele_Olojede",
+        "revisionId": "1371386128",
+        "contentHash": "9485206a3877b498",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Nigerian journalist and Pulitzer winner Dele Olojede won the 2011 John P. McNulty Prize for creating NEXT, which collapsed the same year owing staff more than five months' wages.",
+    "category": "Business",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T05-46-58",
+    "candidate": {
+      "fact": "Nigerian journalist and Pulitzer winner Dele Olojede won the 2011 John P. McNulty Prize for creating NEXT, which collapsed the same year owing staff more than five months' wages.",
+      "passage": "In 2011, Dele Olojede won the John P. McNulty Prize, which was established by Fellows of the Aspen Institute to reward the most innovative projects driving social change. The prize was awarded for Olojede's vision and efforts in creating NEXT in Nigeria.",
+      "category": "Business",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 4,
+        "explicability": 4
+      },
+      "reasoning": "The prize and the collapse in the same year is a turn most readers would not expect.",
+      "volatile": false,
+      "slug": "dele-olojede",
+      "country": "NG",
+      "source": {
+        "title": "Dele Olojede",
+        "url": "https://en.wikipedia.org/wiki/Dele_Olojede",
+        "revisionId": "1371386128",
+        "contentHash": "9485206a3877b498",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Physician and forensic pathologist Omalu's family name is a shortened form of Onyemalukwube, which translates to 'one who knows should speak.'",
+    "category": "Culture",
+    "votes": "5/6",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T05-46-58",
+    "candidate": {
+      "fact": "Physician and forensic pathologist Omalu's family name is a shortened form of Onyemalukwube, which translates to 'one who knows should speak.'",
+      "passage": "The family name, Omalu, is a shortened form of the surname, Onyemalukwube, which translates to \"one who knows should speak.\"",
+      "category": "Culture",
+      "surprise": {
+        "priorProbability": 5,
+        "specificity": 5,
+        "explicability": 4
+      },
+      "reasoning": "The Igbo meaning behind the surname is a hidden origin story that fits the pattern of place and name origins in the collection.",
+      "volatile": false,
+      "slug": "bennet-omalu",
+      "country": "NG",
+      "source": {
+        "title": "Bennet Omalu",
+        "url": "https://en.wikipedia.org/wiki/Bennet_Omalu",
+        "revisionId": "1376979439",
+        "contentHash": "5601d3f3b32afb0d",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Bennet Omalu, the Nigerian pathologist who found CTE in NFL players' brains, was born during the Nigerian Civil War, which forced his family to flee their home in Enugwu-Ukwu.",
+    "category": "History",
+    "votes": "4/6",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T05-46-58",
+    "candidate": {
+      "fact": "Bennet Omalu, the Nigerian pathologist who found CTE in NFL players' brains, was born during the Nigerian Civil War, which forced his family to flee their home in Enugwu-Ukwu.",
+      "passage": "He was born during the Nigerian Civil War, which caused his family to flee from their home in the predominant Igbo village of Enugwu-Ukwu in southeastern Nigeria. They returned two years after Omalu's birth.",
+      "category": "History",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 4,
+        "explicability": 4
+      },
+      "reasoning": "Most Nigerians know Omalu from the film Concussion but not that he was a war-displaced infant who fled Enugwu-Ukwu and returned two years later.",
+      "volatile": false,
+      "slug": "bennet-omalu",
+      "country": "NG",
+      "source": {
+        "title": "Bennet Omalu",
+        "url": "https://en.wikipedia.org/wiki/Bennet_Omalu",
+        "revisionId": "1376979439",
+        "contentHash": "5601d3f3b32afb0d",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Engineer and engine builder Bisi Ezerioha's 2015 Bisimoto Hyundai Sonata was the most powerful Sonata sedan in history with a record 888 hp, much greater than the Dodge Challenger Hellcat.",
+    "category": "Records",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T17-16-34",
+    "candidate": {
+      "fact": "Engineer and engine builder Bisi Ezerioha's 2015 Bisimoto Hyundai Sonata was the most powerful Sonata sedan in history with a record 888 hp, much greater than the Dodge Challenger Hellcat.",
+      "passage": "In 2015, the Bisimoto Hyundai Sonata was recognized as the most powerful Sonata sedan in history with a record 888 hp, much greater than the Dodge Challenger Hellcat.",
+      "category": "Records",
+      "surprise": {
+        "priorProbability": 5,
+        "specificity": 5,
+        "explicability": 4
+      },
+      "reasoning": "The comparison to the Hellcat makes the record concrete and surprising.",
+      "volatile": false,
+      "slug": "bisi-ezerioha",
+      "country": "NG",
+      "source": {
+        "title": "Bisi Ezerioha",
+        "url": "https://en.wikipedia.org/wiki/Bisi_Ezerioha",
+        "revisionId": "1372328204",
+        "contentHash": "77d635c14e90db06",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Engineer and race car driver Bisi Ezerioha built the 935 K3V, a 1984 Porsche 911 chassis with a custom 935 body and a Tesla Model S electric motor producing 636 hp.",
+    "category": "Records",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T17-16-34",
+    "candidate": {
+      "fact": "Engineer and race car driver Bisi Ezerioha built the 935 K3V, a 1984 Porsche 911 chassis with a custom 935 body and a Tesla Model S electric motor producing 636 hp.",
+      "passage": "In 2019, Ezerioha built the \"935 K3V\", the company's first electric conversion project. The project is based on a 1984 911 chassis, with a custom Porsche 935 style body built using original Kremer 935 molds, and is powered by the electric motor from a Tesla Model S, producing 636 hp.",
+      "category": "Records",
+      "surprise": {
+        "priorProbability": 5,
+        "specificity": 5,
+        "explicability": 4
+      },
+      "reasoning": "A classic Porsche converted to electric with a Tesla motor is a striking, specific build.",
+      "volatile": false,
+      "slug": "bisi-ezerioha",
+      "country": "NG",
+      "source": {
+        "title": "Bisi Ezerioha",
+        "url": "https://en.wikipedia.org/wiki/Bisi_Ezerioha",
+        "revisionId": "1372328204",
+        "contentHash": "77d635c14e90db06",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Engineer and race car driver Bisi Ezerioha hosted Motor MythBusters alongside mechanic Faye Hadley and MythBusters veteran Tory Belleci.",
+    "category": "Culture",
+    "votes": "4/6",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T17-16-34",
+    "candidate": {
+      "fact": "Engineer and race car driver Bisi Ezerioha hosted Motor MythBusters alongside mechanic Faye Hadley and MythBusters veteran Tory Belleci.",
+      "passage": "Ezerioha was later chosen to host Motortrend's automobile-themed spinoff of MythBusters, titled Motor MythBusters. He was also joined by Faye Hadley and MythBusters veteran Tory Belleci in testing tall tales and stories related to automobiles.",
+      "category": "Culture",
+      "surprise": {
+        "priorProbability": 5,
+        "specificity": 4,
+        "explicability": 3
+      },
+      "reasoning": "A Nigerian-American engineer hosting a MythBusters spinoff is an unexpected link.",
+      "volatile": false,
+      "slug": "bisi-ezerioha",
+      "country": "NG",
+      "source": {
+        "title": "Bisi Ezerioha",
+        "url": "https://en.wikipedia.org/wiki/Bisi_Ezerioha",
+        "revisionId": "1372328204",
+        "contentHash": "77d635c14e90db06",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "In rural northern Nigeria in the 1990s, potmaker Mohamed Bah Abba developed the Pot-in-Pot Preservation Cooling System, hiring skilled potmakers to mass-produce the first batch of 5,000.",
+    "category": "History",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T17-16-34",
+    "candidate": {
+      "fact": "In rural northern Nigeria in the 1990s, potmaker Mohamed Bah Abba developed the Pot-in-Pot Preservation Cooling System, hiring skilled potmakers to mass-produce the first batch of 5,000.",
+      "passage": "In rural northern Nigeria in the 1990s, Mohamed Bah Abba developed the Pot-in-Pot Preservation Cooling System, consisting of a small clay pot placed inside a larger one, with the space between the two filled with moist sand. The inner pot is filled with fruit, vegetables or soft drinks and covered with a wet cloth. Abba, who hails from a family of potmakers, tapped into the large unemployed local workforce and hired skilled potmakers to mass-produce the first batch of 5,000 Pot-in-Pots.",
+      "category": "History",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 5,
+        "explicability": 4
+      },
+      "reasoning": "Most educated Nigerians know the pot-in-pot cooler exists but not that a named Nigerian, Mohamed Bah Abba, invented this specific system in the 1990s and produced a first batch of 5,000.",
+      "volatile": false,
+      "slug": "pot-in-pot-refrigerator",
+      "country": "NG",
+      "source": {
+        "title": "Pot-in-pot refrigerator",
+        "url": "https://en.wikipedia.org/wiki/Pot-in-pot_refrigerator",
+        "revisionId": "1374642684",
+        "contentHash": "b334f786216a4c30",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Queen Elizabeth II commissioned and sat for a portrait sculpture by Nigerian sculptor Ben Enwonwu during her 1956 visit to Nigeria.",
+    "category": "History",
+    "votes": "3/3",
+    "why": "History is full this run",
+    "runId": "agent-2026-09-29T17-16-34",
+    "candidate": {
+      "fact": "Queen Elizabeth II commissioned and sat for a portrait sculpture by Nigerian sculptor Ben Enwonwu during her 1956 visit to Nigeria.",
+      "passage": "In the course of her 1956 visit to Nigeria, Queen Elizabeth II commissioned and sat for a portrait sculpture by Enwonwu.",
+      "category": "History",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 5,
+        "explicability": 4
+      },
+      "reasoning": "The Queen sitting for a Nigerian sculptor is a striking reversal of the usual colonial relationship, and few know it happened.",
+      "volatile": false,
+      "slug": "ben-enwonwu",
+      "country": "NG",
+      "source": {
+        "title": "Ben Enwonwu",
+        "url": "https://en.wikipedia.org/wiki/Ben_Enwonwu",
+        "revisionId": "1373343586",
+        "contentHash": "19c2c914f2a66e5a",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Wooden sculptures by Nigerian sculptor Ben Enwonwu for the Daily Mirror's London headquarters were found in 2013 in the garage of Bethnal Green Academy, the old school of the infamous Kray Twins.",
+    "category": "Culture",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T17-16-34",
+    "candidate": {
+      "fact": "Wooden sculptures by Nigerian sculptor Ben Enwonwu for the Daily Mirror's London headquarters were found in 2013 in the garage of Bethnal Green Academy, the old school of the infamous Kray Twins.",
+      "passage": "A series of wooden sculptures created by Enwonwu for the London headquarters of the Daily Mirror in 1961 was discovered in the garage of the Bethnal Green Academy, the old school of the infamous Kray Twins in 2013, leading some to speculate that they were the ones who stole them.",
+      "category": "Culture",
+      "surprise": {
+        "priorProbability": 5,
+        "specificity": 5,
+        "explicability": 4
+      },
+      "reasoning": "The link between a Nigerian sculptor's lost works and the Kray Twins is a connection almost nobody would guess.",
+      "volatile": false,
+      "slug": "ben-enwonwu",
+      "country": "NG",
+      "source": {
+        "title": "Ben Enwonwu",
+        "url": "https://en.wikipedia.org/wiki/Ben_Enwonwu",
+        "revisionId": "1373343586",
+        "contentHash": "19c2c914f2a66e5a",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Diezani Alison-Madueke was the first woman ever appointed by Shell as an executive director in Nigeria, in 2006.",
+    "category": "Business",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T18-43-03",
+    "candidate": {
+      "fact": "Diezani Alison-Madueke was the first woman ever appointed by Shell as an executive director in Nigeria, in 2006.",
+      "passage": "Alison-Madueke was appointed as an executive director of Shell in 2006. She was the first woman ever to be appointed by Shell as an executive director in Nigeria.",
+      "category": "Business",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 5,
+        "explicability": 3
+      },
+      "reasoning": "Her Shell career is overshadowed by the corruption allegations, so the first-female-executive detail is rarely mentioned.",
+      "volatile": false,
+      "slug": "diezani-alison-madueke",
+      "country": "NG",
+      "source": {
+        "title": "Diezani Alison-Madueke",
+        "url": "https://en.wikipedia.org/wiki/Diezani_Alison-Madueke",
+        "revisionId": "1374161985",
+        "contentHash": "960236c9aa1f74d6",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "On 17 June 2026 a London jury at Southwark Crown Court acquitted Nigerian politician Alison-Madueke, the first female president of OPEC, of all six UK bribery-related charges.",
+    "category": "History",
+    "votes": "4/6",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T18-43-03",
+    "candidate": {
+      "fact": "On 17 June 2026 a London jury at Southwark Crown Court acquitted Nigerian politician Alison-Madueke, the first female president of OPEC, of all six UK bribery-related charges.",
+      "passage": "On 17 June 2026, a London jury at Southwark Crown Court acquitted Alison-Madueke of all six UK bribery-related charges after a corruption trial that lasted several weeks.",
+      "category": "History",
+      "surprise": {
+        "priorProbability": 5,
+        "specificity": 5,
+        "explicability": 3
+      },
+      "reasoning": "The acquittal is recent and reverses the assumption most Nigerians hold about her guilt.",
+      "volatile": true,
+      "slug": "diezani-alison-madueke",
+      "country": "NG",
+      "source": {
+        "title": "Diezani Alison-Madueke",
+        "url": "https://en.wikipedia.org/wiki/Diezani_Alison-Madueke",
+        "revisionId": "1374161985",
+        "contentHash": "960236c9aa1f74d6",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Actor James Purefoy was fired six weeks into filming V for Vendetta, so actor Hugo Weaving reshot most of his scenes as V, even though his face is never seen.",
+    "category": "Culture",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T18-45-35",
+    "candidate": {
+      "fact": "Actor James Purefoy was fired six weeks into filming V for Vendetta, so actor Hugo Weaving reshot most of his scenes as V, even though his face is never seen.",
+      "passage": "Actor James Purefoy was originally signed to play the role, but was fired six weeks into filming over creative differences. Weaving reshot most of Purefoy's scenes as V (even though his face is never seen) apart from a couple of minor dialogue-free scenes early in the film while stuntman David Leitch performed all of V's stunts.",
+      "category": "Culture",
+      "surprise": {
+        "priorProbability": 5,
+        "specificity": 5,
+        "explicability": 4
+      },
+      "reasoning": "The recasting of a masked character whose face is never shown, and the six-week firing, is a production detail almost nobody knows.",
+      "volatile": false,
+      "slug": "hugo-weaving",
+      "country": "NG",
+      "source": {
+        "title": "Hugo Weaving",
+        "url": "https://en.wikipedia.org/wiki/Hugo_Weaving",
+        "revisionId": "1376338574",
+        "contentHash": "5574409b12e5e885",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Stage, screen, and voice actor Hugo Weaving was cast as Megatron in Transformers without ever having seen the film, and said he had no knowledge of or care for the role.",
+    "category": "Culture",
+    "votes": "5/6",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T18-45-35",
+    "candidate": {
+      "fact": "Stage, screen, and voice actor Hugo Weaving was cast as Megatron in Transformers without ever having seen the film, and said he had no knowledge of or care for the role.",
+      "passage": "Weaving himself was unaware of the controversy, having accepted the role based on Michael Bay's personal request; in a November 2008 Sun Herald interview, he said he had never seen Transformers.",
+      "category": "Culture",
+      "surprise": {
+        "priorProbability": 5,
+        "specificity": 4,
+        "explicability": 4
+      },
+      "reasoning": "A major blockbuster voice role taken on with total indifference, and admitted publicly, is an unusual and little-known detail.",
+      "volatile": false,
+      "lead": "Hugo Wallace Weaving (born 4 April 1960) is a stage, screen, and voice actor. Born in Colonial Nigeria to English parents, Weaving has lived in Australia since 1976, although he retains British citizenship.",
+      "slug": "hugo-weaving",
+      "country": "NG",
+      "source": {
+        "title": "Hugo Weaving",
+        "url": "https://en.wikipedia.org/wiki/Hugo_Weaving",
+        "revisionId": "1376338574",
+        "contentHash": "5574409b12e5e885",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Kanu scored a hat-trick in fifteen minutes against Chelsea in October 1999, turning a 2–0 deficit into a 3–2 Arsenal win.",
+    "category": "Sports",
+    "votes": "4/6",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T18-45-35",
+    "candidate": {
+      "fact": "Kanu scored a hat-trick in fifteen minutes against Chelsea in October 1999, turning a 2–0 deficit into a 3–2 Arsenal win.",
+      "passage": "In the 1999–2000 season, he scored 17 times in 50 matches for the Gunners, including a hat-trick in fifteen minutes against Chelsea in October 1999 to turn a 2–0 deficit into a 3–2 victory.",
+      "category": "Sports",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 5,
+        "explicability": 3
+      },
+      "reasoning": "The fifteen-minute hat-trick from 2–0 down is a precise detail most fans cannot recall.",
+      "volatile": false,
+      "slug": "nwankwo-kanu",
+      "country": "NG",
+      "source": {
+        "title": "Nwankwo Kanu",
+        "url": "https://en.wikipedia.org/wiki/Nwankwo_Kanu",
+        "revisionId": "1375815303",
+        "contentHash": "a3f180da7739e5b9",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Nwankwo Kanu was born with a congenital heart defect that stopped his aortic valve closing properly; it was found and operated on in 1996.",
+    "category": "Health",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T18-45-35",
+    "candidate": {
+      "fact": "Nwankwo Kanu was born with a congenital heart defect that stopped his aortic valve closing properly; it was found and operated on in 1996.",
+      "passage": "Kanu was born with a congenital heart defect, which impeded his aortic valve from closing properly; it was discovered and operated on in 1996.",
+      "category": "Health",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 4,
+        "explicability": 4
+      },
+      "reasoning": "Most Nigerians know Kanu had heart surgery but not that the defect was congenital and affected his aortic valve.",
+      "volatile": false,
+      "slug": "nwankwo-kanu",
+      "country": "NG",
+      "source": {
+        "title": "Nwankwo Kanu",
+        "url": "https://en.wikipedia.org/wiki/Nwankwo_Kanu",
+        "revisionId": "1375815303",
+        "contentHash": "a3f180da7739e5b9",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Freddie Mercury, the British singer and lead vocalist of Queen, was born Farrokh Bulsara in Stone Town, Zanzibar — now part of Tanzania — in 1946.",
+    "category": "History",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T18-58-18",
+    "candidate": {
+      "fact": "Freddie Mercury, the British singer and lead vocalist of Queen, was born Farrokh Bulsara in Stone Town, Zanzibar — now part of Tanzania — in 1946.",
+      "passage": "Mercury was born Farrokh Bulsara in Stone Town in the British protectorate of Zanzibar (now part of Tanzania), in East Africa on 5 September 1946.",
+      "category": "History",
+      "surprise": {
+        "priorProbability": 3,
+        "specificity": 5,
+        "explicability": 3
+      },
+      "reasoning": "Many know Mercury was born in Zanzibar but not that it is now part of Tanzania, nor his birth name.",
+      "volatile": false,
+      "slug": "freddie-mercury",
+      "country": "TZ",
+      "source": {
+        "title": "Freddie Mercury",
+        "url": "https://en.wikipedia.org/wiki/Freddie_Mercury",
+        "revisionId": "1375669390",
+        "contentHash": "73f2c3509e7833e8",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Freddie Mercury, the lead vocalist of Queen, died about 24 hours after publicly announcing he had AIDS, at 45, from bronchial pneumonia.",
+    "category": "Health",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T18-58-18",
+    "candidate": {
+      "fact": "Freddie Mercury, the lead vocalist of Queen, died about 24 hours after publicly announcing he had AIDS, at 45, from bronchial pneumonia.",
+      "passage": "On the evening of 24 November 1991, about 24 hours after issuing the statement, Mercury died at the age of 45 at his home in Kensington. The cause of death was bronchial pneumonia resulting from AIDS.",
+      "category": "Health",
+      "surprise": {
+        "priorProbability": 3,
+        "specificity": 5,
+        "explicability": 4
+      },
+      "reasoning": "The 24-hour gap between announcement and death is a precise, striking detail.",
+      "volatile": false,
+      "slug": "freddie-mercury",
+      "country": "TZ",
+      "source": {
+        "title": "Freddie Mercury",
+        "url": "https://en.wikipedia.org/wiki/Freddie_Mercury",
+        "revisionId": "1375669390",
+        "contentHash": "73f2c3509e7833e8",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "British singer and Queen's lead vocalist Freddie Mercury's stage prop was a broken microphone stand — he snapped it off its heavy base by accident and kept using it.",
+    "category": "Culture",
+    "votes": "5/6",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T18-58-18",
+    "candidate": {
+      "fact": "British singer and Queen's lead vocalist Freddie Mercury's stage prop was a broken microphone stand — he snapped it off its heavy base by accident and kept using it.",
+      "passage": "Mercury's main prop on stage was a broken microphone stand; after accidentally snapping it off the heavy base during an early performance, he realised it could be used in endless ways.",
+      "category": "Culture",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 4,
+        "explicability": 3
+      },
+      "reasoning": "The iconic half-stand was an accident, a detail most fans never hear.",
+      "volatile": false,
+      "slug": "freddie-mercury",
+      "country": "TZ",
+      "source": {
+        "title": "Freddie Mercury",
+        "url": "https://en.wikipedia.org/wiki/Freddie_Mercury",
+        "revisionId": "1375669390",
+        "contentHash": "73f2c3509e7833e8",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "In 2000 Tanzanian billionaire businessman Dewji won his party's primary for Singida Urban at 25, but was deemed too young to take the parliamentary seat.",
+    "category": "History",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T18-58-18",
+    "candidate": {
+      "fact": "In 2000 Tanzanian billionaire businessman Dewji won his party's primary for Singida Urban at 25, but was deemed too young to take the parliamentary seat.",
+      "passage": "In 2000, Tanzania hosted its second multiparty elections where Dewji, at the age of 25 competed to become the Member of Parliament (MP) for Singida Urban. Despite winning the preliminary votes for the ruling party, Chama Cha Mapinduzi (CCM) with an overwhelming majority, Dewji was deemed too young to hold the parliamentary seat.",
+      "category": "History",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 5,
+        "explicability": 4
+      },
+      "reasoning": "Winning a primary outright and then being barred for being too young is a strange, specific turn most readers would not know.",
+      "volatile": false,
+      "slug": "mohammed-dewji",
+      "country": "TZ",
+      "source": {
+        "title": "Mohammed Dewji",
+        "url": "https://en.wikipedia.org/wiki/Mohammed_Dewji",
+        "revisionId": "1377428697",
+        "contentHash": "d7182e9a87e98eb1",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Tanzanian billionaire businessman Dewji grew MeTL's revenues from $30 million to over $1.5 billion between 1999 and 2018, and the group now contributes about 3.5% of Tanzania's GDP.",
+    "category": "Business",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T18-58-18",
+    "candidate": {
+      "fact": "Tanzanian billionaire businessman Dewji grew MeTL's revenues from $30 million to over $1.5 billion between 1999 and 2018, and the group now contributes about 3.5% of Tanzania's GDP.",
+      "passage": "Dewji is responsible for increasing MeTL's revenues from $30 million to over $1.5 billion between 1999 and 2018. MeTL Group has investments in manufacturing, agriculture, trading, finance, mobile telephony, insurance, real estate, transport and logistics, and food and beverages. The group conducts business in 11 countries and employs over 28,000 people with the aim to target over 100,000 people by 2021. MeTL's operations contribute ~3.5% of Tanzania's GDP.",
+      "category": "Business",
+      "surprise": {
+        "priorProbability": 3,
+        "specificity": 5,
+        "explicability": 4
+      },
+      "reasoning": "The 50-fold revenue growth and the 3.5% of national GDP figure are concrete and rarely cited.",
+      "volatile": true,
+      "slug": "mohammed-dewji",
+      "country": "TZ",
+      "source": {
+        "title": "Mohammed Dewji",
+        "url": "https://en.wikipedia.org/wiki/Mohammed_Dewji",
+        "revisionId": "1377428697",
+        "contentHash": "d7182e9a87e98eb1",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Tanzanian professional basketball player Hasheem Thabeet didn't start playing until he was 15, after watching pick-up games in Tanzania.",
+    "category": "Sports",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T18-58-18",
+    "candidate": {
+      "fact": "Tanzanian professional basketball player Hasheem Thabeet didn't start playing until he was 15, after watching pick-up games in Tanzania.",
+      "passage": "Thabeet did not begin to play basketball until the age of 15, when he began to watch pick-up games in Tanzania.",
+      "category": "Sports",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 4,
+        "explicability": 3
+      },
+      "reasoning": "A late start for a second overall NBA pick is counterintuitive and not widely known.",
+      "volatile": false,
+      "slug": "hasheem-thabeet",
+      "country": "TZ",
+      "source": {
+        "title": "Hasheem Thabeet",
+        "url": "https://en.wikipedia.org/wiki/Hasheem_Thabeet",
+        "revisionId": "1368784140",
+        "contentHash": "c641969d0652432a",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Siti binti Saad, born into slavery in Zanzibar around 1880, became the first East African vocalist to release commercial recordings, in the 1920s and 1930s.",
+    "category": "Culture",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T19-06-19",
+    "candidate": {
+      "fact": "Siti binti Saad, born into slavery in Zanzibar around 1880, became the first East African vocalist to release commercial recordings, in the 1920s and 1930s.",
+      "passage": "Siti binti Saad (c.1880– August 1950) was a pioneering Tanzanian musician in the taarab musical style. Through her music she was also an anti-colonial activist, feminist and Swahili cultural icon of 20th century. She produced over 250 phonograph records throughout her lifetime, becoming the first East African vocalist to release commercial recordings in the 1920s and 1930s.",
+      "category": "Culture",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 5,
+        "explicability": 4
+      },
+      "reasoning": "Most educated Tanzanians know Siti binti Saad as a taarab singer, but few know she was born into slavery or that she was the first East African to release commercial recordings.",
+      "volatile": false,
+      "slug": "siti-binti-saad",
+      "country": "TZ",
+      "source": {
+        "title": "Siti binti Saad",
+        "url": "https://en.wikipedia.org/wiki/Siti_binti_Saad",
+        "revisionId": "1372457953",
+        "contentHash": "87d9ba900d54641f",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Pioneering Tanzanian taarab musician Siti binti Saad's first 56 songs sold over 23,000 copies by 1931, and her second tour's 98 songs sold 40,666 copies in two years.",
+    "category": "Records",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T19-06-19",
+    "candidate": {
+      "fact": "Pioneering Tanzanian taarab musician Siti binti Saad's first 56 songs sold over 23,000 copies by 1931, and her second tour's 98 songs sold 40,666 copies in two years.",
+      "passage": "The 56 songs (28 records) from Siti's first session sold over 23,000 copies by 1931. The group recorded 98 more songs during this second tour, which went on to sell 40,666 copies over the following two years.",
+      "category": "Records",
+      "surprise": {
+        "priorProbability": 5,
+        "specificity": 5,
+        "explicability": 3
+      },
+      "reasoning": "The exact sales figures for Siti binti Saad's early recordings are obscure even to many Tanzanians familiar with her music.",
+      "volatile": false,
+      "slug": "siti-binti-saad",
+      "country": "TZ",
+      "source": {
+        "title": "Siti binti Saad",
+        "url": "https://en.wikipedia.org/wiki/Siti_binti_Saad",
+        "revisionId": "1372457953",
+        "contentHash": "87d9ba900d54641f",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Pioneering taarab musician Siti binti Saad's music helped make the Zanzibari dialect of Kiswahili the 'standard' Swahili later promoted by the British across East Africa.",
+    "category": "Culture",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T19-06-19",
+    "candidate": {
+      "fact": "Pioneering taarab musician Siti binti Saad's music helped make the Zanzibari dialect of Kiswahili the 'standard' Swahili later promoted by the British across East Africa.",
+      "passage": "The commercial selling of Siti's voice contributed to the development of the Zanzibari dialect of Kiswahili, which the British later promoted as \"standard\" Swahili throughout East Africa.",
+      "category": "Culture",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 4,
+        "explicability": 5
+      },
+      "reasoning": "The link between a taarab singer's commercial recordings and the standardization of Swahili is a surprising connection that most people would not make.",
+      "volatile": false,
+      "slug": "siti-binti-saad",
+      "country": "TZ",
+      "source": {
+        "title": "Siti binti Saad",
+        "url": "https://en.wikipedia.org/wiki/Siti_binti_Saad",
+        "revisionId": "1372457953",
+        "contentHash": "87d9ba900d54641f",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Pioneering Tanzanian taarab musician Siti binti Saad's song 'The Police has Stopped' sharply criticized a judge who let a rich wife-murderer go free.",
+    "category": "Culture",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T19-06-19",
+    "candidate": {
+      "fact": "Pioneering Tanzanian taarab musician Siti binti Saad's song 'The Police has Stopped' sharply criticized a judge who let a rich wife-murderer go free.",
+      "passage": "She protested against class oppression and men's abuse of women; her song \"The Police has Stopped\" sharply criticized a judge who let a rich wife-murderer go free.",
+      "category": "Culture",
+      "surprise": {
+        "priorProbability": 5,
+        "specificity": 5,
+        "explicability": 4
+      },
+      "reasoning": "The specific target and message of this song are not widely known, even among those familiar with Siti binti Saad's activism.",
+      "volatile": false,
+      "slug": "siti-binti-saad",
+      "country": "TZ",
+      "source": {
+        "title": "Siti binti Saad",
+        "url": "https://en.wikipedia.org/wiki/Siti_binti_Saad",
+        "revisionId": "1372457953",
+        "contentHash": "87d9ba900d54641f",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Tanzanian painter and sculptor George Lilanga started out as a night guard at the House of Art in Dar es Salaam, the cultural centre where he later created its wooden doors.",
+    "category": "Culture",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T19-06-19",
+    "candidate": {
+      "fact": "Tanzanian painter and sculptor George Lilanga started out as a night guard at the House of Art in Dar es Salaam, the cultural centre where he later created its wooden doors.",
+      "passage": "He started as a night guard at the House of Art (Nyumba ya Sanaa), a cultural centre for the development of African art and craftsmanship in Dar es Salaam. In 1982, he created wooden doors with colourful bunk shetani figures for this cultural centre.",
+      "category": "Culture",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 4,
+        "explicability": 4
+      },
+      "reasoning": "That Tanzania's most famous modern artist began as a night watchman at the very centre he would later decorate is a turn most readers would not expect.",
+      "volatile": false,
+      "slug": "george-lilanga",
+      "country": "TZ",
+      "source": {
+        "title": "George Lilanga",
+        "url": "https://en.wikipedia.org/wiki/George_Lilanga",
+        "revisionId": "1370641620",
+        "contentHash": "890f79743164a4ec",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Of the 280 works shown at a 1978 collective exhibition of African artists in Washington D.C., about 100 were by Tanzanian painter and sculptor George Lilanga.",
+    "category": "Culture",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T19-06-19",
+    "candidate": {
+      "fact": "Of the 280 works shown at a 1978 collective exhibition of African artists in Washington D.C., about 100 were by Tanzanian painter and sculptor George Lilanga.",
+      "passage": "In 1978, he participated in a collective exhibition of African artists in Washington D.C. Of the 280 works presented, about 100 were by Lilanga.",
+      "category": "Culture",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 5,
+        "explicability": 3
+      },
+      "reasoning": "The proportion of a Washington exhibition given over to one Tanzanian artist is a concrete figure few would have seen.",
+      "volatile": false,
+      "slug": "george-lilanga",
+      "country": "TZ",
+      "source": {
+        "title": "George Lilanga",
+        "url": "https://en.wikipedia.org/wiki/George_Lilanga",
+        "revisionId": "1370641620",
+        "contentHash": "890f79743164a4ec",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Tanzanian taarab singer Bi Kidude took part in Unyago coming-of-age ceremonies where teenage girls receive social and sexual education, and singeli musicians today sample those rhythms.",
+    "category": "Culture",
+    "votes": "3/3",
+    "why": "Culture is full this run",
+    "runId": "agent-2026-09-29T19-06-19",
+    "candidate": {
+      "fact": "Tanzanian taarab singer Bi Kidude took part in Unyago coming-of-age ceremonies where teenage girls receive social and sexual education, and singeli musicians today sample those rhythms.",
+      "passage": "Having no children of her own, she took part in traditional Unyago coming-of-age ceremonies, where teenage girls receive social and sexual education.",
+      "category": "Culture",
+      "surprise": {
+        "priorProbability": 5,
+        "specificity": 4,
+        "explicability": 4
+      },
+      "reasoning": "Unyago is rarely described in mainstream sources, and the link to today's singeli scene is a hidden connection.",
+      "volatile": false,
+      "slug": "bi-kidude",
+      "country": "TZ",
+      "source": {
+        "title": "Bi Kidude",
+        "url": "https://en.wikipedia.org/wiki/Bi_Kidude",
+        "revisionId": "1370302705",
+        "contentHash": "f30f5e88154040d0",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Before it was Jenga, the game was called Takoradi Bricks, made from wooden scraps Jenga inventor Leslie Scott's younger brother found at a sawmill near their house in Ghana.",
+    "category": "Culture",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T19-09-50",
+    "candidate": {
+      "fact": "Before it was Jenga, the game was called Takoradi Bricks, made from wooden scraps Jenga inventor Leslie Scott's younger brother found at a sawmill near their house in Ghana.",
+      "passage": "One of the games that was eventually developed and played by the family while they were living in Ghana was created using wooden blocks that were scraps found by her younger brother from a sawmill near their house in Ghana. They called the game Takoradi Bricks, named after a nearby port.",
+      "category": "Culture",
+      "surprise": {
+        "priorProbability": 5,
+        "specificity": 5,
+        "explicability": 4
+      },
+      "reasoning": "The original name and the sawmill-scrap origin of Jenga are almost entirely unknown even to fans of the game.",
+      "volatile": false,
+      "slug": "leslie-scott-game-designer",
+      "country": "TZ",
+      "source": {
+        "title": "Leslie Scott (game designer)",
+        "url": "https://en.wikipedia.org/wiki/Leslie_Scott_(game_designer)",
+        "revisionId": "1354693698",
+        "contentHash": "1eadf3bb9da7140f",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Leslie Scott, the Tanzanian-born inventor of Jenga, borrowed £15,000 from a bank to launch the game, with her mother putting up her house as collateral.",
+    "category": "Business",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T19-09-50",
+    "candidate": {
+      "fact": "Leslie Scott, the Tanzanian-born inventor of Jenga, borrowed £15,000 from a bank to launch the game, with her mother putting up her house as collateral.",
+      "passage": "With no business plans and no experience in the toy industry, she borrowed £15,000 from the bank with the support of her mother, who placed her house as collateral.",
+      "category": "Business",
+      "surprise": {
+        "priorProbability": 5,
+        "specificity": 5,
+        "explicability": 4
+      },
+      "reasoning": "The specific sum and the mother's house as collateral make the origin story of a globally famous game concrete and unexpected.",
+      "volatile": false,
+      "slug": "leslie-scott-game-designer",
+      "country": "TZ",
+      "source": {
+        "title": "Leslie Scott (game designer)",
+        "url": "https://en.wikipedia.org/wiki/Leslie_Scott_(game_designer)",
+        "revisionId": "1354693698",
+        "contentHash": "1eadf3bb9da7140f",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Leslie Scott, the Tanzanian-born inventor of Jenga, is married to Oxford zoologist Professor Fritz Vollrath, who is famous for his studies on spiders.",
+    "category": "Culture",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T19-09-50",
+    "candidate": {
+      "fact": "Leslie Scott, the Tanzanian-born inventor of Jenga, is married to Oxford zoologist Professor Fritz Vollrath, who is famous for his studies on spiders.",
+      "passage": "Scott is married to the Oxford zoologist Professor Fritz Vollrath, who is famous for his studies on spiders.",
+      "category": "Culture",
+      "surprise": {
+        "priorProbability": 5,
+        "specificity": 5,
+        "explicability": 3
+      },
+      "reasoning": "The marriage linking the inventor of Jenga to a spider-famous zoologist is a connection almost no reader would know.",
+      "volatile": false,
+      "slug": "leslie-scott-game-designer",
+      "country": "TZ",
+      "source": {
+        "title": "Leslie Scott (game designer)",
+        "url": "https://en.wikipedia.org/wiki/Leslie_Scott_(game_designer)",
+        "revisionId": "1354693698",
+        "contentHash": "1eadf3bb9da7140f",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Samatta's £8.5 million move to Aston Villa in January 2020 made him the first Tanzanian to sign for a Premier League club.",
+    "category": "Sports",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T19-15-08",
+    "candidate": {
+      "fact": "Samatta's £8.5 million move to Aston Villa in January 2020 made him the first Tanzanian to sign for a Premier League club.",
+      "passage": "On 20 January 2020, Samatta signed a four-and-a-half-year contract with Premier League club Aston Villa. In doing so, he became the first Tanzanian to sign for a Premier League club. The transfer fee paid to Genk was reported as £8.5 million.",
+      "category": "Sports",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 5,
+        "explicability": 3
+      },
+      "reasoning": "The reported £8.5 million fee and the 'first Tanzanian' tag are concrete details rarely cited together.",
+      "volatile": false,
+      "slug": "mbwana-samatta",
+      "country": "TZ",
+      "source": {
+        "title": "Mbwana Samatta",
+        "url": "https://en.wikipedia.org/wiki/Mbwana_Samatta",
+        "revisionId": "1376415493",
+        "contentHash": "21ccd0a6169bcab6",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Tanzanian striker Samatta's 20 goals made him top scorer of the Belgian league in 2018–19 as Genk won the title, earning him the Ebony Shoe.",
+    "category": "Sports",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T19-15-08",
+    "candidate": {
+      "fact": "Tanzanian striker Samatta's 20 goals made him top scorer of the Belgian league in 2018–19 as Genk won the title, earning him the Ebony Shoe.",
+      "passage": "During the 2018–19 season, he led the Belgian First Division A in scoring with 20 goals, as Genk finished the season as league winners. In May 2019 he was awarded with the Ebony Shoe award for his exploits during the campaign.",
+      "category": "Sports",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 5,
+        "explicability": 3
+      },
+      "reasoning": "The exact 20-goal tally and the Ebony Shoe award are specifics most readers would not recall.",
+      "volatile": false,
+      "slug": "mbwana-samatta",
+      "country": "TZ",
+      "source": {
+        "title": "Mbwana Samatta",
+        "url": "https://en.wikipedia.org/wiki/Mbwana_Samatta",
+        "revisionId": "1376415493",
+        "contentHash": "21ccd0a6169bcab6",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Tanzanian professional footballer Samatta captained Tanzania to their first-ever Africa Cup of Nations round of 16 in 2025, after draws with Uganda and Tunisia.",
+    "category": "Sports",
+    "votes": "4/6",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T19-15-08",
+    "candidate": {
+      "fact": "Tanzanian professional footballer Samatta captained Tanzania to their first-ever Africa Cup of Nations round of 16 in 2025, after draws with Uganda and Tunisia.",
+      "passage": "In December 2025, Samatta was included as captain in Tanzania's final 28-man squad for the 2025 Africa Cup of Nations. Tanzania lost 1–2 to the Nigeria national team in the group stage, before drawing with Uganda and Tunisia, respectively, and advanced to the Africa Cup of Nations round of 16 for the first time in their history. Samatta appeared in four matches during the tournament, before Tanzania were eliminated by hosts Morocco in the round of 16.",
+      "category": "Sports",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 5,
+        "explicability": 4
+      },
+      "reasoning": "Tanzania reaching the AFCON knockout stage for the first time is a historic milestone many would not know.",
+      "volatile": true,
+      "slug": "mbwana-samatta",
+      "country": "TZ",
+      "source": {
+        "title": "Mbwana Samatta",
+        "url": "https://en.wikipedia.org/wiki/Mbwana_Samatta",
+        "revisionId": "1376415493",
+        "contentHash": "21ccd0a6169bcab6",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Tanganyika's first international was not until 1951, when they lost by an innings to Kenya.",
+    "category": "Sports",
+    "votes": "5/6",
+    "why": "Sports is full this run",
+    "runId": "agent-2026-09-29T19-15-08",
+    "candidate": {
+      "fact": "Tanganyika's first international was not until 1951, when they lost by an innings to Kenya.",
+      "passage": "Distance between Tanganyika and other countries in the African Great Lakes meant that the first international was not played until 1951, when Tanganyika lost by an innings to Kenya.",
+      "category": "Sports",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 4,
+        "explicability": 3
+      },
+      "reasoning": "A dated first match and a heavy defeat, with the reason given as distance across the Great Lakes.",
+      "volatile": false,
+      "slug": "tanzania-national-cricket-team",
+      "country": "TZ",
+      "source": {
+        "title": "Tanzania national cricket team",
+        "url": "https://en.wikipedia.org/wiki/Tanzania_national_cricket_team",
+        "revisionId": "1369828471",
+        "contentHash": "7a0503f3463540fa",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Tanzania's national cricket side now contains between 20 and 25% African players, after decades of development work since the 1970s.",
+    "category": "Sports",
+    "votes": "3/3",
+    "why": "Sports is full this run",
+    "runId": "agent-2026-09-29T19-15-08",
+    "candidate": {
+      "fact": "Tanzania's national cricket side now contains between 20 and 25% African players, after decades of development work since the 1970s.",
+      "passage": "Since the 1970s, the Tanzania Cricket Association has concentrated on developing the game amongst the African communities, and the national side now contains between 20 and 25% African players.",
+      "category": "Sports",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 5,
+        "explicability": 4
+      },
+      "reasoning": "A precise demographic figure for the national team that reveals the sport's colonial and South Asian roots.",
+      "volatile": true,
+      "slug": "tanzania-national-cricket-team",
+      "country": "TZ",
+      "source": {
+        "title": "Tanzania national cricket team",
+        "url": "https://en.wikipedia.org/wiki/Tanzania_national_cricket_team",
+        "revisionId": "1369828471",
+        "contentHash": "7a0503f3463540fa",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Queen of the Ambundu Kingdoms of Ndongo, Njinga had her attendant kneel as a human seat and negotiated face to face with the governor when the Portuguese gave her a mat instead of a chair.",
+    "category": "History",
+    "votes": "4/6",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T19-41-28",
+    "candidate": {
+      "fact": "Queen of the Ambundu Kingdoms of Ndongo, Njinga had her attendant kneel as a human seat and negotiated face to face with the governor when the Portuguese gave her a mat instead of a chair.",
+      "passage": "According to a popular story, when Nzinga arrived to meet with the Portuguese, there were chairs for the Portuguese officials but only a mat provided for her. This type of behavior from the Portuguese was common; it was their way of displaying a \"subordinate status, a status reserved for conquered Africans.\" In response to this, Nzinga's attendant formed herself to be her chair while she spoke to the governor face to face.",
+      "category": "History",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 5,
+        "explicability": 4
+      },
+      "reasoning": "The human-chair story is vivid and specific, and most people outside Angola have never heard it.",
+      "volatile": false,
+      "slug": "nzinga-of-ndongo-and",
+      "country": "AO",
+      "source": {
+        "title": "Nzinga of Ndongo and Matamba",
+        "url": "https://en.wikipedia.org/wiki/Nzinga_of_Ndongo_and_Matamba",
+        "revisionId": "1376015570",
+        "contentHash": "6e60838e10a73b6b",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "In the 104 years after the death of Njinga, queen of Ndongo and Matamba, queens ruled Ndongo and Matamba for at least eighty of them.",
+    "category": "History",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T19-41-28",
+    "candidate": {
+      "fact": "In the 104 years after the death of Njinga, queen of Ndongo and Matamba, queens ruled Ndongo and Matamba for at least eighty of them.",
+      "passage": "In the period of 104 years that followed Njinga's death in 1663, queens ruled for at least eighty of them.",
+      "category": "History",
+      "surprise": {
+        "priorProbability": 5,
+        "specificity": 5,
+        "explicability": 4
+      },
+      "reasoning": "The scale of female succession after Njinga is a concrete number almost nobody knows.",
+      "volatile": false,
+      "slug": "nzinga-of-ndongo-and",
+      "country": "AO",
+      "source": {
+        "title": "Nzinga of Ndongo and Matamba",
+        "url": "https://en.wikipedia.org/wiki/Nzinga_of_Ndongo_and_Matamba",
+        "revisionId": "1376015570",
+        "contentHash": "6e60838e10a73b6b",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Angolan rebel military leader Savimbi sustained 15 gunshot wounds to his head, throat, upper body and legs, and died almost instantly.",
+    "category": "History",
+    "votes": "5/6",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T19-41-28",
+    "candidate": {
+      "fact": "Angolan rebel military leader Savimbi sustained 15 gunshot wounds to his head, throat, upper body and legs, and died almost instantly.",
+      "passage": "In the firefight, Savimbi sustained 15 gunshot wounds to his head, throat, upper body and legs. While Savimbi returned fire, his wounds proved fatal, and he died almost instantly.",
+      "category": "History",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 5,
+        "explicability": 3
+      },
+      "reasoning": "The exact number of wounds and the fact he died almost instantly is a visceral detail not commonly known.",
+      "volatile": false,
+      "slug": "jonas-savimbi",
+      "country": "AO",
+      "source": {
+        "title": "Jonas Savimbi",
+        "url": "https://en.wikipedia.org/wiki/Jonas_Savimbi",
+        "revisionId": "1371019765",
+        "contentHash": "9712d6a15637ac9b",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Angolan rebel military leader Savimbi was survived by 'several wives and dozens of children', numbering at least 25.",
+    "category": "History",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T19-41-28",
+    "candidate": {
+      "fact": "Angolan rebel military leader Savimbi was survived by 'several wives and dozens of children', numbering at least 25.",
+      "passage": "He was survived by \"several wives and dozens of children\", the latter numbering at least 25.",
+      "category": "History",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 5,
+        "explicability": 3
+      },
+      "reasoning": "The exact number of children and the phrase 'several wives' is a surprising personal detail.",
+      "volatile": false,
+      "slug": "jonas-savimbi",
+      "country": "AO",
+      "source": {
+        "title": "Jonas Savimbi",
+        "url": "https://en.wikipedia.org/wiki/Jonas_Savimbi",
+        "revisionId": "1371019765",
+        "contentHash": "9712d6a15637ac9b",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Rebel military leader Savimbi's tomb was vandalised in 2008, and four members of the MPLA youth wing were arrested; his body was exhumed and reburied publicly in 2019.",
+    "category": "History",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T19-41-28",
+    "candidate": {
+      "fact": "Rebel military leader Savimbi's tomb was vandalised in 2008, and four members of the MPLA youth wing were arrested; his body was exhumed and reburied publicly in 2019.",
+      "passage": "On 3 January 2008, his tomb was vandalised and four members of the youth wing of the MPLA were charged and arrested. His body was exhumed and reburied publicly in 2019.",
+      "category": "History",
+      "surprise": {
+        "priorProbability": 5,
+        "specificity": 5,
+        "explicability": 3
+      },
+      "reasoning": "The vandalism by MPLA youth and the later public reburial are obscure post-death events.",
+      "volatile": false,
+      "slug": "jonas-savimbi",
+      "country": "AO",
+      "source": {
+        "title": "Jonas Savimbi",
+        "url": "https://en.wikipedia.org/wiki/Jonas_Savimbi",
+        "revisionId": "1371019765",
+        "contentHash": "9712d6a15637ac9b",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Angolan revolutionary Savimbi spoke seven languages fluently, including Portuguese, French, and English, despite never having lived in an English-speaking country.",
+    "category": "History",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T19-41-28",
+    "candidate": {
+      "fact": "Angolan revolutionary Savimbi spoke seven languages fluently, including Portuguese, French, and English, despite never having lived in an English-speaking country.",
+      "passage": "He spoke seven languages fluently including Portuguese, French, and English. In visits to foreign diplomats and in speeches before American audiences, he often cited classical Western political and social philosophy, ultimately becoming one of the most vocal anti-communists of the Third World.",
+      "category": "History",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 5,
+        "explicability": 3
+      },
+      "reasoning": "The specific number of languages and the fact he never lived in an English-speaking country is a surprising personal detail.",
+      "volatile": false,
+      "slug": "jonas-savimbi",
+      "country": "AO",
+      "source": {
+        "title": "Jonas Savimbi",
+        "url": "https://en.wikipedia.org/wiki/Jonas_Savimbi",
+        "revisionId": "1371019765",
+        "contentHash": "9712d6a15637ac9b",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Agostinho Neto, Angola's first president, adopted the war name Manguxi Kilamba, a Kimbundu term meaning 'immortal guide' or 'wisest among men'.",
+    "category": "History",
+    "votes": "3/3",
+    "why": "History is full this run",
+    "runId": "agent-2026-09-29T19-41-28",
+    "candidate": {
+      "fact": "Agostinho Neto, Angola's first president, adopted the war name Manguxi Kilamba, a Kimbundu term meaning 'immortal guide' or 'wisest among men'.",
+      "passage": "During this period, he adopted his war name and pseudonym as a writer, Manguxi Kilamba, a Kimbundu language term meaning \"immortal guide,\" \"conductor of the spirit of the people,\" or \"wisest among men\".",
+      "category": "History",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 5,
+        "explicability": 4
+      },
+      "reasoning": "Most educated Angolans know Neto as the first president, but few know the meaning of his Kimbundu war name.",
+      "volatile": false,
+      "slug": "agostinho-neto",
+      "country": "AO",
+      "source": {
+        "title": "Agostinho Neto",
+        "url": "https://en.wikipedia.org/wiki/Agostinho_Neto",
+        "revisionId": "1375711528",
+        "contentHash": "9d5268c32f441480",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Agostinho Neto, the first president of Angola, died in Moscow a week before his 57th birthday, after travelling to the Soviet Union for surgery for pancreatic cancer and chronic hepatitis.",
+    "category": "Health",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T19-41-28",
+    "candidate": {
+      "fact": "Agostinho Neto, the first president of Angola, died in Moscow a week before his 57th birthday, after travelling to the Soviet Union for surgery for pancreatic cancer and chronic hepatitis.",
+      "passage": "Agostinho Neto died on 10 September 1979 in Moscow after travelling to the Soviet Union to undergo surgery for cancer and hepatitis. He was a week shy of his 57th birthday at the time of his death.",
+      "category": "Health",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 5,
+        "explicability": 4
+      },
+      "reasoning": "The exact cause and timing of his death, including the proximity to his birthday, is not common knowledge.",
+      "volatile": false,
+      "slug": "agostinho-neto",
+      "country": "AO",
+      "source": {
+        "title": "Agostinho Neto",
+        "url": "https://en.wikipedia.org/wiki/Agostinho_Neto",
+        "revisionId": "1375711528",
+        "contentHash": "9d5268c32f441480",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "The CIA began paying Angolan politician Holden Roberto $6,000 a year in the 1950s, raised to $10,000 in 1962, and a 1967 State Department document confirmed the relationship had lasted since 1955.",
+    "category": "History",
+    "votes": "3/3",
+    "why": "History is full this run",
+    "runId": "agent-2026-09-29T19-41-28",
+    "candidate": {
+      "fact": "The CIA began paying Angolan politician Holden Roberto $6,000 a year in the 1950s, raised to $10,000 in 1962, and a 1967 State Department document confirmed the relationship had lasted since 1955.",
+      "passage": "The United States National Security Council began giving Roberto aid in the 1950s, paying him $6,000 annually until 1962 when the NSC increased his salary to $10,000 for intelligence-gathering. A document produced by The State Department's Bureau of Intelligence and Research's (INR) on March 6, 1967, states that the \"CIA has had a relationship with Roberto since 1955\".",
+      "category": "History",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 5,
+        "explicability": 4
+      },
+      "reasoning": "The exact dollar amounts and the documented CIA relationship are not widely known even among Angolans familiar with Roberto's Western backing.",
+      "volatile": false,
+      "slug": "holden-roberto",
+      "country": "AO",
+      "source": {
+        "title": "Holden Roberto",
+        "url": "https://en.wikipedia.org/wiki/Holden_Roberto",
+        "revisionId": "1374721246",
+        "contentHash": "b38e5214c42ef0fd",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Angolan politician Holden Roberto sealed an alliance with Zairian President Mobutu Sese Seko by divorcing his wife and marrying a woman from Mobutu's wife's village.",
+    "category": "History",
+    "votes": "3/3",
+    "why": "History is full this run",
+    "runId": "agent-2026-09-29T19-41-28",
+    "candidate": {
+      "fact": "Angolan politician Holden Roberto sealed an alliance with Zairian President Mobutu Sese Seko by divorcing his wife and marrying a woman from Mobutu's wife's village.",
+      "passage": "Roberto established a political alliance with Zairian President Mobutu Sese Seko by divorcing his wife and marrying a woman from Mobutu's wife's village.",
+      "category": "History",
+      "surprise": {
+        "priorProbability": 5,
+        "specificity": 5,
+        "explicability": 4
+      },
+      "reasoning": "The personal, transactional nature of the alliance is a striking detail that most people would not know.",
+      "volatile": false,
+      "slug": "holden-roberto",
+      "country": "AO",
+      "source": {
+        "title": "Holden Roberto",
+        "url": "https://en.wikipedia.org/wiki/Holden_Roberto",
+        "revisionId": "1374721246",
+        "contentHash": "b38e5214c42ef0fd",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Eusébio, the footballer nicknamed the Black Panther, was born in Lourenço Marques, now Maputo, to a white railroad worker from Malanje, Angola, and a black Mozambican mother.",
+    "category": "History",
+    "votes": "3/3",
+    "why": "History is full this run",
+    "runId": "agent-2026-09-29T19-41-28",
+    "candidate": {
+      "fact": "Eusébio, the footballer nicknamed the Black Panther, was born in Lourenço Marques, now Maputo, to a white railroad worker from Malanje, Angola, and a black Mozambican mother.",
+      "passage": "Eusébio was born in the Mafalala neighbourhood of Lourenço Marques (now Maputo), Portuguese Mozambique on 25 January 1942. His parents were Laurindo António da Silva Ferreira, a white railroad worker from Malanje, Portuguese Angola, and his wife Elisa Anissabeni, a black Mozambican woman.",
+      "category": "History",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 5,
+        "explicability": 4
+      },
+      "reasoning": "Most Angolans know Eusébio as a Portuguese football legend but not that his father was an Angolan from Malanje, making him partly Angolan by descent.",
+      "volatile": false,
+      "slug": "eusebio",
+      "country": "AO",
+      "source": {
+        "title": "Eusébio",
+        "url": "https://en.wikipedia.org/wiki/Eus%C3%A9bio",
+        "revisionId": "1375785087",
+        "contentHash": "f6bd00d95e39ff39",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Portuguese footballer Eusébio scored 77 goals in 42 appearances for Sporting Lourenço Marques between 1957 and 1960, before he ever left Mozambique.",
+    "category": "Sports",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T19-41-28",
+    "candidate": {
+      "fact": "Portuguese footballer Eusébio scored 77 goals in 42 appearances for Sporting Lourenço Marques between 1957 and 1960, before he ever left Mozambique.",
+      "passage": "From 1957 to 1960, Eusébio scored 77 goals in 42 appearances for the main team of Sporting Lourenço Marques.",
+      "category": "Sports",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 5,
+        "explicability": 3
+      },
+      "reasoning": "The sheer scale of his scoring rate in colonial Mozambique before his European fame is rarely known.",
+      "volatile": false,
+      "slug": "eusebio",
+      "country": "AO",
+      "source": {
+        "title": "Eusébio",
+        "url": "https://en.wikipedia.org/wiki/Eus%C3%A9bio",
+        "revisionId": "1375785087",
+        "contentHash": "f6bd00d95e39ff39",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Botswana's first president Seretse Khama married English clerk Ruth Williams in 1948, alarming apartheid South Africa.",
+    "category": "History",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T20-07-06",
+    "candidate": {
+      "fact": "Botswana's first president Seretse Khama married English clerk Ruth Williams in 1948, alarming apartheid South Africa.",
+      "passage": "In June 1947, Khama met Ruth Williams, an English clerk at Lloyd's of London. After a year of courtship, they married in September 1948. The interracial marriage sparked a furore, alarming both the Union of South Africa, which had established legal apartheid (racial segregation), and the tribal elders of the Bamangwato, who were angered he had not chosen one of their women.",
+      "category": "History",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 5,
+        "explicability": 5
+      },
+      "reasoning": "Most readers know Khama as a founding president but not that his marriage to an Englishwoman caused his exile from Bechuanaland.",
+      "volatile": false,
+      "slug": "seretse-khama",
+      "country": "BW",
+      "source": {
+        "title": "Seretse Khama",
+        "url": "https://en.wikipedia.org/wiki/Seretse_Khama",
+        "revisionId": "1376046602",
+        "contentHash": "2a7f8c66b659266e",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Between 1960 and 1980 Botswana had the fastest-growing economy in the world, driven by mining.",
+    "category": "Business",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T20-07-06",
+    "candidate": {
+      "fact": "Between 1960 and 1980 Botswana had the fastest-growing economy in the world, driven by mining.",
+      "passage": "Between 1960 and 1980 Botswana had the fastest-growing economy in the world. This growth was primarily driven by mining, and the government acted to gain a greater percentage of its revenue.",
+      "category": "Business",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 4,
+        "explicability": 4
+      },
+      "reasoning": "The scale of Botswana's growth is often assumed to be modest, not the fastest in the world over two decades.",
+      "volatile": false,
+      "slug": "seretse-khama",
+      "country": "BW",
+      "source": {
+        "title": "Seretse Khama",
+        "url": "https://en.wikipedia.org/wiki/Seretse_Khama",
+        "revisionId": "1376046602",
+        "contentHash": "2a7f8c66b659266e",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "In 1975 Botswana renegotiated its diamond mining agreement to guarantee itself 50% of the revenues, and by the mid-1970s it had a budget surplus.",
+    "category": "Business",
+    "votes": "4/6",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T20-07-06",
+    "candidate": {
+      "fact": "In 1975 Botswana renegotiated its diamond mining agreement to guarantee itself 50% of the revenues, and by the mid-1970s it had a budget surplus.",
+      "passage": "In 1975, after it had become clear how productive these mines were, the government again renegotiated the diamond mining agreement to guarantee itself 50% of the revenues. By the mid-1970s, Botswana had a budget surplus.",
+      "category": "Business",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 5,
+        "explicability": 4
+      },
+      "reasoning": "The specific 50% revenue share and the resulting surplus are concrete details rarely known outside Botswana.",
+      "volatile": false,
+      "slug": "seretse-khama",
+      "country": "BW",
+      "source": {
+        "title": "Seretse Khama",
+        "url": "https://en.wikipedia.org/wiki/Seretse_Khama",
+        "revisionId": "1376046602",
+        "contentHash": "2a7f8c66b659266e",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Seretse Khama, the first President of Botswana, was born in 1921 in Serowe, and his name means 'the clay that binds', given to celebrate his father's reconciliation with his grandfather.",
+    "category": "Culture",
+    "votes": "5/6",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T20-07-06",
+    "candidate": {
+      "fact": "Seretse Khama, the first President of Botswana, was born in 1921 in Serowe, and his name means 'the clay that binds', given to celebrate his father's reconciliation with his grandfather.",
+      "passage": "Seretse Khama was born in 1921 in Serowe, in what was then the Bechuanaland Protectorate. He was the son of Queen Tebogo and Sekgoma Khama II, the paramount chief of the Bamangwato clan of the Tswana, and the grandson of Khama III, their king.  The name Seretse means \"the clay that binds\".  He was named this to celebrate the recent reconciliation of his father and grandfather; this reconciliation assured Seretse's own ascension to the throne with his aged father's death in 1925.",
+      "category": "Culture",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 5,
+        "explicability": 4
+      },
+      "reasoning": "The meaning of Khama's name and its origin in a family reconciliation is a specific cultural detail most readers would not know.",
+      "volatile": false,
+      "slug": "seretse-khama",
+      "country": "BW",
+      "source": {
+        "title": "Seretse Khama",
+        "url": "https://en.wikipedia.org/wiki/Seretse_Khama",
+        "revisionId": "1376046602",
+        "contentHash": "2a7f8c66b659266e",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Botswana sprinter Letsile Tebogo broke the 300 m world best with 30.69 seconds in Pretoria on 17 February 2024.",
+    "category": "Records",
+    "votes": "4/6",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T20-07-06",
+    "candidate": {
+      "fact": "Botswana sprinter Letsile Tebogo broke the 300 m world best with 30.69 seconds in Pretoria on 17 February 2024.",
+      "passage": "He broke the 300 m world best, running a time of 30.69 seconds on 17 February 2024 at altitude in Pretoria, South Africa.",
+      "category": "Records",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 5,
+        "explicability": 3
+      },
+      "reasoning": "The 300 m is rarely run, so even track fans are unlikely to know who holds the world best or the exact time.",
+      "volatile": true,
+      "slug": "letsile-tebogo",
+      "country": "BW",
+      "source": {
+        "title": "Letsile Tebogo",
+        "url": "https://en.wikipedia.org/wiki/Letsile_Tebogo",
+        "revisionId": "1375693120",
+        "contentHash": "71cd3e710ce78818",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Letsile Tebogo was the first man from Botswana to break the 10-second barrier, clocking 9.96 seconds at the Gaborone International Meet.",
+    "category": "Records",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T20-07-06",
+    "candidate": {
+      "fact": "Letsile Tebogo was the first man from Botswana to break the 10-second barrier, clocking 9.96 seconds at the Gaborone International Meet.",
+      "passage": "Two months later, he became the first man from Botswana to break the 10-second barrier at the event as he clocked a time of 9.96 seconds at the Gaborone International Meet, setting a new world under-20 record.",
+      "category": "Records",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 5,
+        "explicability": 3
+      },
+      "reasoning": "The specific meet and time of Botswana's first sub-10-second run is a niche detail most readers have never seen.",
+      "volatile": false,
+      "slug": "letsile-tebogo",
+      "country": "BW",
+      "source": {
+        "title": "Letsile Tebogo",
+        "url": "https://en.wikipedia.org/wiki/Letsile_Tebogo",
+        "revisionId": "1375693120",
+        "contentHash": "71cd3e710ce78818",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Botswana's 4 × 400 m relay team ran 2:54.47 at the 2026 World Athletics Relays in Gaborone — a competition record and the third fastest ever at the time.",
+    "category": "Records",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T20-07-06",
+    "candidate": {
+      "fact": "Botswana's 4 × 400 m relay team ran 2:54.47 at the 2026 World Athletics Relays in Gaborone — a competition record and the third fastest ever at the time.",
+      "passage": "In May 2026, Tebogo ran the second leg of the 4 × 400 m relay at the 2026 World Athletics Relays in Gaborone, Botswana, in front of a home crowd. The team ran a final time of 2:54.47, a competition record and the third fastest performance in the event ever at the time.",
+      "category": "Records",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 5,
+        "explicability": 3
+      },
+      "reasoning": "A home-soil relay record set in Gaborone is recent and specific enough that few outside Botswana would know it.",
+      "volatile": true,
+      "slug": "letsile-tebogo",
+      "country": "BW",
+      "source": {
+        "title": "Letsile Tebogo",
+        "url": "https://en.wikipedia.org/wiki/Letsile_Tebogo",
+        "revisionId": "1375693120",
+        "contentHash": "71cd3e710ce78818",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Lawyer and human rights activist Unity Dow grew up in a rural Botswana village with no paved roads, electricity or running water, and did not see a refrigerator until she was a teenager.",
+    "category": "History",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T20-07-06",
+    "candidate": {
+      "fact": "Lawyer and human rights activist Unity Dow grew up in a rural Botswana village with no paved roads, electricity or running water, and did not see a refrigerator until she was a teenager.",
+      "passage": "The rural village in which she grew up had no paved roads, electricity nor running water. There were no telephones and she had not seen a refrigerator until she was a teenager, nor a television until she was twenty.",
+      "category": "History",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 5,
+        "explicability": 4
+      },
+      "reasoning": "The refrigerator and television ages are concrete, personal details that make a national figure's childhood vivid and unexpected.",
+      "volatile": false,
+      "slug": "unity-dow",
+      "country": "BW",
+      "source": {
+        "title": "Unity Dow",
+        "url": "https://en.wikipedia.org/wiki/Unity_Dow",
+        "revisionId": "1376195531",
+        "contentHash": "e79b90be6ef9d5a0",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Botswana's criminal justice system has no designated last meal for the executed, and no sedatives are given before execution.",
+    "category": "History",
+    "votes": "5/6",
+    "why": "History is full this run",
+    "runId": "agent-2026-09-29T20-07-06",
+    "candidate": {
+      "fact": "Botswana's criminal justice system has no designated last meal for the executed, and no sedatives are given before execution.",
+      "passage": "The Botswana criminal justice system does not have a designated last meal for the executed. No sedatives are given to a prisoner before execution.",
+      "category": "History",
+      "surprise": {
+        "priorProbability": 5,
+        "specificity": 4,
+        "explicability": 3
+      },
+      "reasoning": "Most readers assume the American last-meal ritual is universal; Botswana's absence of it is a quiet correction.",
+      "volatile": false,
+      "slug": "mariette-bosch",
+      "country": "BW",
+      "source": {
+        "title": "Mariette Bosch",
+        "url": "https://en.wikipedia.org/wiki/Mariette_Bosch",
+        "revisionId": "1376462149",
+        "contentHash": "ccb8db3be167b209",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "South African woman executed in Botswana Mariëtte Bosch was to have her death sentence overturned by a petition from President Thabo Mbeki on 2 April 2001, not realising she had already been executed.",
+    "category": "History",
+    "votes": "3/3",
+    "why": "History is full this run",
+    "runId": "agent-2026-09-29T20-07-06",
+    "candidate": {
+      "fact": "South African woman executed in Botswana Mariëtte Bosch was to have her death sentence overturned by a petition from President Thabo Mbeki on 2 April 2001, not realising she had already been executed.",
+      "passage": "On 2 April 2001 South African President Thabo Mbeki had been planning to launch a petition to get Bosch's death sentence overturned, not realizing that she had already been executed.",
+      "category": "History",
+      "surprise": {
+        "priorProbability": 5,
+        "specificity": 5,
+        "explicability": 4
+      },
+      "reasoning": "A head of state acting on news that had not reached him is a specific, checkable and little-known detail.",
+      "volatile": false,
+      "slug": "mariette-bosch",
+      "country": "BW",
+      "source": {
+        "title": "Mariette Bosch",
+        "url": "https://en.wikipedia.org/wiki/Mariette_Bosch",
+        "revisionId": "1376462149",
+        "contentHash": "ccb8db3be167b209",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Botswana prosecutors described the murder as encompassing \"the four Ls of murder — love, loot, lust and loathing.\"",
+    "category": "History",
+    "votes": "3/3",
+    "why": "History is full this run",
+    "runId": "agent-2026-09-29T20-07-06",
+    "candidate": {
+      "fact": "Botswana prosecutors described the murder as encompassing \"the four Ls of murder — love, loot, lust and loathing.\"",
+      "passage": "Botswana prosecutors said that the murder encompassed \"the four Ls of murder — love, loot, lust and loathing.\"",
+      "category": "History",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 4,
+        "explicability": 3
+      },
+      "reasoning": "A quotable prosecutorial formula that most readers have never seen attached to this case.",
+      "volatile": false,
+      "slug": "mariette-bosch",
+      "country": "BW",
+      "source": {
+        "title": "Mariette Bosch",
+        "url": "https://en.wikipedia.org/wiki/Mariette_Bosch",
+        "revisionId": "1376462149",
+        "contentHash": "ccb8db3be167b209",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Entrepreneur and first African in space Shuttleworth took six months of Debian mailing list archives to Antarctica in 2004 to compile a list of potential hires.",
+    "category": "Business",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T21-21-18",
+    "candidate": {
+      "fact": "Entrepreneur and first African in space Shuttleworth took six months of Debian mailing list archives to Antarctica in 2004 to compile a list of potential hires.",
+      "passage": "While travelling to Antarctica aboard the icebreaker Kapitan Khlebnikov in early 2004, Shuttleworth took six months of Debian mailing list archives with him to compile a list of potential hires for the project.",
+      "category": "Business",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 5,
+        "explicability": 4
+      },
+      "reasoning": "Recruiting for a Linux project by reading mailing-list archives on an Antarctic icebreaker is an odd, specific image.",
+      "volatile": false,
+      "slug": "mark-shuttleworth",
+      "country": "ZA",
+      "source": {
+        "title": "Mark Shuttleworth",
+        "url": "https://en.wikipedia.org/wiki/Mark_Shuttleworth",
+        "revisionId": "1376217482",
+        "contentHash": "db2b9a2e4ae82df8",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "In 2002 Mark Shuttleworth became the first African to travel to space, flying as a self-funded space tourist.",
+    "category": "Records",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T21-21-18",
+    "candidate": {
+      "fact": "In 2002 Mark Shuttleworth became the first African to travel to space, flying as a self-funded space tourist.",
+      "passage": "In 2002, Shuttleworth became the first African to travel to space, doing so as a space tourist.",
+      "category": "Records",
+      "surprise": {
+        "priorProbability": 3,
+        "specificity": 5,
+        "explicability": 4
+      },
+      "reasoning": "Most South Africans know Shuttleworth as a rich tech entrepreneur, not as the continent's first space traveller.",
+      "volatile": false,
+      "slug": "mark-shuttleworth",
+      "country": "ZA",
+      "source": {
+        "title": "Mark Shuttleworth",
+        "url": "https://en.wikipedia.org/wiki/Mark_Shuttleworth",
+        "revisionId": "1376217482",
+        "contentHash": "db2b9a2e4ae82df8",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Entrepreneur and founder and CEO of Canonical Mark Shuttleworth sold his digital certificate company Thawte to VeriSign in December 1999 for R3.5 billion.",
+    "category": "Business",
+    "votes": "4/6",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T21-21-18",
+    "candidate": {
+      "fact": "Entrepreneur and founder and CEO of Canonical Mark Shuttleworth sold his digital certificate company Thawte to VeriSign in December 1999 for R3.5 billion.",
+      "passage": "Shuttleworth sold Thawte to VeriSign in December 1999, earning him R3.5 billion (US$575 million, equivalent to $1015 million in 2024).",
+      "category": "Business",
+      "surprise": {
+        "priorProbability": 3,
+        "specificity": 5,
+        "explicability": 4
+      },
+      "reasoning": "The size of the Thawte sale, and that a South African built the world's number two certificate authority, is not widely known.",
+      "volatile": false,
+      "slug": "mark-shuttleworth",
+      "country": "ZA",
+      "source": {
+        "title": "Mark Shuttleworth",
+        "url": "https://en.wikipedia.org/wiki/Mark_Shuttleworth",
+        "revisionId": "1376217482",
+        "contentHash": "db2b9a2e4ae82df8",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Hamilton Naki, a gardener who became a surgical assistant, was asked to operate on a giraffe to work out why giraffes don't faint when bending to drink.",
+    "category": "History",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T21-21-18",
+    "candidate": {
+      "fact": "Hamilton Naki, a gardener who became a surgical assistant, was asked to operate on a giraffe to work out why giraffes don't faint when bending to drink.",
+      "passage": "Most of Naki's work under Goetz involved anaesthetising dogs, but Naki also assisted in operating on a giraffe \"to dissect the jugular venous valves to determine why giraffes do not faint when bending to drink.\"",
+      "category": "History",
+      "surprise": {
+        "priorProbability": 5,
+        "specificity": 5,
+        "explicability": 4
+      },
+      "reasoning": "A giraffe dissection to solve the fainting-on-bending puzzle is an unusual, concrete detail almost nobody knows.",
+      "volatile": false,
+      "slug": "hamilton-naki",
+      "country": "ZA",
+      "source": {
+        "title": "Hamilton Naki",
+        "url": "https://en.wikipedia.org/wiki/Hamilton_Naki",
+        "revisionId": "1368924255",
+        "contentHash": "d44607a82cfe1f4e",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Obituaries wrongly claimed South African laboratory assistant Hamilton Naki helped remove the donor heart in the world's first heart transplant.",
+    "category": "History",
+    "votes": "5/6",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T21-21-18",
+    "candidate": {
+      "fact": "Obituaries wrongly claimed South African laboratory assistant Hamilton Naki helped remove the donor heart in the world's first heart transplant.",
+      "passage": "After Naki's death, obituaries published 9 June 2005 to 2 July 2005 in at least two medical journals (The BMJ and The Lancet), one magazine (The Economist), two newspapers (The Independent and The New York Times), and an unknown number of newspapers publishing Associated Press stories, printed obituaries that made the following claims about Naki's participation in the world's first human-to-human heart transplantation:",
+      "category": "History",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 5,
+        "explicability": 4
+      },
+      "reasoning": "The list of major outlets that published and later retracted the false claim is a specific, little-known media failure.",
+      "volatile": false,
+      "slug": "hamilton-naki",
+      "country": "ZA",
+      "source": {
+        "title": "Hamilton Naki",
+        "url": "https://en.wikipedia.org/wiki/Hamilton_Naki",
+        "revisionId": "1368924255",
+        "contentHash": "d44607a82cfe1f4e",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Hamilton Naki, a South African lab assistant with no medical degree, was paid a gardener's pension of 760 rand a month — about $275 — after retiring in 1991.",
+    "category": "History",
+    "votes": "5/6",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T21-21-18",
+    "candidate": {
+      "fact": "Hamilton Naki, a South African lab assistant with no medical degree, was paid a gardener's pension of 760 rand a month — about $275 — after retiring in 1991.",
+      "passage": "Naki assisted Hickman until his retirement in 1991, after which he received \"a gardener's pension: 760 rand, or about $275, a month.\"",
+      "category": "History",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 5,
+        "explicability": 4
+      },
+      "reasoning": "The exact rand figure and the fact that a man who taught surgeons was pensioned as a gardener is a concrete, little-known detail.",
+      "volatile": false,
+      "slug": "hamilton-naki",
+      "country": "ZA",
+      "source": {
+        "title": "Hamilton Naki",
+        "url": "https://en.wikipedia.org/wiki/Hamilton_Naki",
+        "revisionId": "1368924255",
+        "contentHash": "d44607a82cfe1f4e",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Businessman Elon Musk was thrown down concrete steps and beaten so badly by a fellow pupil that he was hospitalised.",
+    "category": "History",
+    "votes": "3/3",
+    "why": "History is full this run",
+    "runId": "agent-2026-09-29T21-21-18",
+    "candidate": {
+      "fact": "Businessman Elon Musk was thrown down concrete steps and beaten so badly by a fellow pupil that he was hospitalised.",
+      "passage": "In one incident, after an altercation with a fellow pupil, Musk was thrown down concrete steps and beaten severely, leading to him being hospitalized for his injuries.",
+      "category": "History",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 4,
+        "explicability": 4
+      },
+      "reasoning": "The scale of the school violence Musk endured in Pretoria is not widely known.",
+      "volatile": false,
+      "slug": "elon-musk",
+      "country": "ZA",
+      "source": {
+        "title": "Elon Musk",
+        "url": "https://en.wikipedia.org/wiki/Elon_Musk",
+        "revisionId": "1377339214",
+        "contentHash": "0caf2a2a70a7d504",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Businessman Elon Musk made two unsuccessful trips to Moscow to buy intercontinental ballistic missiles before founding SpaceX.",
+    "category": "History",
+    "votes": "3/3",
+    "why": "History is full this run",
+    "runId": "agent-2026-09-29T21-21-18",
+    "candidate": {
+      "fact": "Businessman Elon Musk made two unsuccessful trips to Moscow to buy intercontinental ballistic missiles before founding SpaceX.",
+      "passage": "Seeking a way to launch the greenhouse payloads into space, Musk made two unsuccessful trips to Moscow to purchase intercontinental ballistic missiles (ICBMs) from Russian companies NPO Lavochkin and Kosmotras.",
+      "category": "History",
+      "surprise": {
+        "priorProbability": 5,
+        "specificity": 4,
+        "explicability": 4
+      },
+      "reasoning": "That SpaceX began with Musk trying to buy Russian ICBMs is an absurd, rarely told origin story.",
+      "volatile": false,
+      "slug": "elon-musk",
+      "country": "ZA",
+      "source": {
+        "title": "Elon Musk",
+        "url": "https://en.wikipedia.org/wiki/Elon_Musk",
+        "revisionId": "1377339214",
+        "contentHash": "0caf2a2a70a7d504",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Businessman Elon Musk built a large plastic structure around a standard computer to make investors think Zip2 ran on a supercomputer.",
+    "category": "Business",
+    "votes": "4/6",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T21-21-18",
+    "candidate": {
+      "fact": "Businessman Elon Musk built a large plastic structure around a standard computer to make investors think Zip2 ran on a supercomputer.",
+      "passage": "To impress investors, Musk built a large plastic structure around a standard computer to create the impression that Zip2 was powered by a small supercomputer.",
+      "category": "Business",
+      "surprise": {
+        "priorProbability": 5,
+        "specificity": 4,
+        "explicability": 4
+      },
+      "reasoning": "The theatrical deception behind Zip2's early fundraising is a striking, little-known detail.",
+      "volatile": false,
+      "slug": "elon-musk",
+      "country": "ZA",
+      "source": {
+        "title": "Elon Musk",
+        "url": "https://en.wikipedia.org/wiki/Elon_Musk",
+        "revisionId": "1377339214",
+        "contentHash": "0caf2a2a70a7d504",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Sasol's Natref refinery once piped oil 800 km from Durban via Richards Bay, and by 1979 got 70% of its oil from Iran.",
+    "category": "History",
+    "votes": "3/3",
+    "why": "History is full this run",
+    "runId": "agent-2026-09-29T21-21-18",
+    "candidate": {
+      "fact": "Sasol's Natref refinery once piped oil 800 km from Durban via Richards Bay, and by 1979 got 70% of its oil from Iran.",
+      "passage": "By 1979, prior to the Iranian Revolution, the refinery was receiving 70% of its oil from Iran, with the National Iranian Oil Company owning 17.5% of the facility. Oil was piped 800 km from Durban via Richards Bay to the refinery.",
+      "category": "History",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 5,
+        "explicability": 4
+      },
+      "reasoning": "The Iranian ownership and 800 km pipeline are concrete details most readers would not know.",
+      "volatile": false,
+      "slug": "sasol",
+      "country": "ZA",
+      "source": {
+        "title": "Sasol",
+        "url": "https://en.wikipedia.org/wiki/Sasol",
+        "revisionId": "1374833277",
+        "contentHash": "f8bc66b96f8cfe9b",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "Sasol paid a €318 million fine to the European Commission in 2008 for a paraffin wax cartel — about R3.7 billion.",
+    "category": "Business",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T21-21-18",
+    "candidate": {
+      "fact": "Sasol paid a €318 million fine to the European Commission in 2008 for a paraffin wax cartel — about R3.7 billion.",
+      "passage": "Sasol also had to pay a €318 million fine to the European Commission (EC) in 2008, which is about R3.7 billion, for participating in a paraffin wax cartel.",
+      "category": "Business",
+      "surprise": {
+        "priorProbability": 4,
+        "specificity": 5,
+        "explicability": 4
+      },
+      "reasoning": "The size and cause of the EU fine are specific and not commonly remembered.",
+      "volatile": false,
+      "slug": "sasol",
+      "country": "ZA",
+      "source": {
+        "title": "Sasol",
+        "url": "https://en.wikipedia.org/wiki/Sasol",
+        "revisionId": "1374833277",
+        "contentHash": "f8bc66b96f8cfe9b",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "South African former swimmer Penny Heyns set eleven world records in three months in 1999, holding five of the six possible breaststroke world records at once.",
+    "category": "Records",
+    "votes": "3/3",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T21-21-18",
+    "candidate": {
+      "fact": "South African former swimmer Penny Heyns set eleven world records in three months in 1999, holding five of the six possible breaststroke world records at once.",
+      "passage": "In 1999, Heyns set a spate of eleven world records in three months, swimming at events on three different continents. This made her the simultaneous holder of five out of the possible six breaststroke world records, a feat that had never been achieved before in the history of swimming.",
+      "category": "Records",
+      "surprise": {
+        "priorProbability": 5,
+        "specificity": 5,
+        "explicability": 3
+      },
+      "reasoning": "The sheer scale — eleven records in three months across three continents, and five of six breaststroke records at once — is a number almost nobody carries around.",
+      "volatile": false,
+      "slug": "penelope-heyns",
+      "country": "ZA",
+      "source": {
+        "title": "Penelope Heyns",
+        "url": "https://en.wikipedia.org/wiki/Penelope_Heyns",
+        "revisionId": "1363251294",
+        "contentHash": "f616d76256d87ee5",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "The Mpondo stopped practising initiation circumcision in the 1820s, when King Faku banned it after losing several of his own sons to complications.",
+    "category": "History",
+    "votes": "3/3",
+    "why": "History is full this run",
+    "runId": "agent-2026-09-29T21-21-18",
+    "candidate": {
+      "fact": "The Mpondo stopped practising initiation circumcision in the 1820s, when King Faku banned it after losing several of his own sons to complications.",
+      "passage": "The Mpondo practised the ritual until King Faku prohibited it in the 1820s after he had lost several of his sons from complications.",
+      "category": "History",
+      "surprise": {
+        "priorProbability": 5,
+        "specificity": 5,
+        "explicability": 4
+      },
+      "reasoning": "A king banning his own people's rite because it killed his sons is a specific, named, dated event that almost no South African has heard.",
+      "volatile": false,
+      "slug": "ulwaluko",
+      "country": "ZA",
+      "source": {
+        "title": "Ulwaluko",
+        "url": "https://en.wikipedia.org/wiki/Ulwaluko",
+        "revisionId": "1368626017",
+        "contentHash": "0cc21b3b4e646b4d",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  },
+  {
+    "fact": "A Dutch doctor's website of over 150 photographs of penises injured by botched ritual circumcisions was ruled by the Film and Publication Board \"scientific with great educative value.\"",
+    "category": "Culture",
+    "votes": "5/6",
+    "why": "one fact per document; ranked lower",
+    "runId": "agent-2026-09-29T21-21-18",
+    "candidate": {
+      "fact": "A Dutch doctor's website of over 150 photographs of penises injured by botched ritual circumcisions was ruled by the Film and Publication Board \"scientific with great educative value.\"",
+      "passage": "It also features a gallery of over 150 photographs of penises injured through botched ritual circumcisions, with complications including infection, gangrene, and autoamputation. The photos, taken by Dr. Rijken and other medical providers, were published with patient consent. The publication of these photographs sparked outrage among many traditional leaders in the Eastern Cape. They demanded that the South African Film and Publication Board (FSB) shut down the website, even though the FSB was not the responsible authority. The Board however ruled that the website was \"scientific with great educative value,\" addressing a \"societal problem needing urgent intervention.\"",
+      "category": "Culture",
+      "surprise": {
+        "priorProbability": 5,
+        "specificity": 5,
+        "explicability": 4
+      },
+      "reasoning": "The specific number of photographs, the regulator's refusal to act, and the ruling's wording are all details a reader would never guess.",
+      "volatile": false,
+      "slug": "ulwaluko",
+      "country": "ZA",
+      "source": {
+        "title": "Ulwaluko",
+        "url": "https://en.wikipedia.org/wiki/Ulwaluko",
+        "revisionId": "1368626017",
+        "contentHash": "0cc21b3b4e646b4d",
+        "kind": "wikipedia",
+        "tier": "reference",
+        "fetchedAt": "2026-09-29",
+        "siteName": "",
+        "doi": "",
+        "publishedAt": "",
+        "wayback": ""
+      }
+    }
+  }
+]

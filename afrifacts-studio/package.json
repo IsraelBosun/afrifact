@@ -17,12 +17,19 @@
     "images": "node scripts/images.js",
     "quizzes": "node scripts/quizzes.js",
     "push": "node scripts/push.js",
-    "backfill": "node scripts/backfill.js"
+    "judge:eval": "node scripts/judge-eval.js",
+    "judge:corpus": "node scripts/judge-corpus.js",
+    "judge:learn": "node scripts/judge-learn.js",
+    "extract:eval": "node scripts/extract-eval.js",
+    "agent": "node scripts/agent.js",
+    "reading": "node scripts/reading.js",
+    "shorten": "node scripts/shorten.js"
   },
   "dependencies": {
     "next": "16.3.4",
     "react": "19.2.8",
-    "react-dom": "19.2.8"
+    "react-dom": "19.2.8",
+    "tesseract.js": "^7.0.0"
   },
   "devDependencies": {
     "eslint": "^9",

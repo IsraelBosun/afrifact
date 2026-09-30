@@ -1,0 +1,110 @@
+{
+  "runId": "agent-2026-09-29T19-36-58",
+  "kind": "paste",
+  "status": "done",
+  "brief": "4 pasted facts",
+  "country": "TZ",
+  "target": 4,
+  "createdAt": "2026-09-29T19:36:58.977Z",
+  "stopReason": "4 checked: 1 verified, 1 corrected, 2 not usable.",
+  "docsRead": 4,
+  "webQueriesSpent": 12,
+  "shortlist": [
+    {
+      "key": "s1",
+      "fact": "The Anglo-Zanzibar War of 27 August 1896, between the United Kingdom and the Sultanate of Zanzibar, lasted 38 to 45 minutes, the shortest recorded war in history.",
+      "category": "History",
+      "votes": "3/3",
+      "why": "It's about Zanzibar, it's a war that lasted less time than my lunch break, and I've literally never heard anyone say this.",
+      "title": "Anglo-Zanzibar War",
+      "url": "https://en.wikipedia.org/wiki/Anglo-Zanzibar_War",
+      "claim": "Tanzania hosted the shortest war in recorded history, the Anglo-Zanzibar War between the British Empire and the Sultanate of Zanzibar, which lasted only 38 to 45 minutes in 1896.",
+      "candidate": {
+        "fact": "The Anglo-Zanzibar War of 27 August 1896, between the United Kingdom and the Sultanate of Zanzibar, lasted 38 to 45 minutes, the shortest recorded war in history.",
+        "passage": "The Anglo-Zanzibar War was a military conflict fought between the United Kingdom and the Sultanate of Zanzibar on 27 August 1896. The conflict lasted between 38 and 45 minutes, marking it as the shortest recorded war in history.",
+        "category": "History",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "Pasted by the owner: \"Tanzania hosted the shortest war in recorded history, the Anglo-Zanzibar War between the British Empire and the Sultanate of Zanzibar, which lasted only 38 to 45 minutes in 1896.\"",
+        "volatile": false,
+        "slug": "anglo-zanzibar-war",
+        "country": "TZ",
+        "source": {
+          "title": "Anglo-Zanzibar War",
+          "url": "https://en.wikipedia.org/wiki/Anglo-Zanzibar_War",
+          "revisionId": "1374406907",
+          "contentHash": "69eaf70fc75cf1c5",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    }
+  ],
+  "alternates": [
+    {
+      "key": "a1",
+      "fact": "In 1967 a Masai tribesman found intense violet-to-blue crystals in Merelani, northern Tanzania, sparking the tanzanite mining boom.",
+      "category": "History",
+      "votes": "3/6",
+      "why": "I know tanzanite is ours and that it comes from Mererani, but I could never have said who actually found the first crystals or when — a Masai tribesman in 1967 is not the story I was taught.",
+      "title": "Tanzanite History and Lore",
+      "url": "https://www.gia.edu/tanzanite-history-lore",
+      "claim": "Tanzanite is a striking blue-violet gemstone found exclusively in the Merelani Hills of northern Tanzania, making it roughly 1,000 times rarer than a diamond.",
+      "candidate": {
+        "fact": "In 1967 a Masai tribesman found intense violet-to-blue crystals in Merelani, northern Tanzania, sparking the tanzanite mining boom.",
+        "passage": "As the most common story of the tanzanite mining boom goes, in 1967 a Masai tribesman stumbled upon a cluster of highly transparent, intense violet-to-blue crystals weathering out of the earth in Merelani, an area of northern Tanzania.",
+        "category": "History",
+        "surprise": {
+          "priorProbability": 3,
+          "specificity": 4,
+          "explicability": 3
+        },
+        "reasoning": "Pasted by the owner: \"Tanzanite is a striking blue-violet gemstone found exclusively in the Merelani Hills of northern Tanzania, making it roughly 1,000 times rarer than a diamond.\"",
+        "volatile": false,
+        "slug": "tanzanite-history-lore",
+        "country": "TZ",
+        "source": {
+          "title": "Tanzanite History and Lore",
+          "url": "https://www.gia.edu/tanzanite-history-lore",
+          "revisionId": "",
+          "contentHash": "acce0c81eae3253b",
+          "kind": "web",
+          "tier": "peer-reviewed",
+          "fetchedAt": "2026-09-29",
+          "siteName": "gia",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": "http://web.archive.org/web/20260317052948/https://www.gia.edu/tanzanite-history-lore"
+        }
+      },
+      "aside": "Corrected. You pasted: \"Tanzanite is a striking blue-violet gemstone found exclusively in the Merelani Hills of northern Tanzania, making it roughly 1,000 times rarer than a diamond\". The document says tanzanite was found in Merelani, northern Tanzania, but never claims it is found exclusively there or that it is 1,000 times rarer than a diamond."
+    }
+  ],
+  "unverified": [
+    {
+      "n": 1,
+      "claim": "Unlike lions elsewhere in Africa, the lions in Tarangire National Park and Lake Manyara regularly climb trees to rest and escape daytime heat or biting flies.",
+      "status": "unconfirmed",
+      "why": "\"observations on lions in the lake manyara national park, ...\" could not be opened. \"Resource Use and Conservation: Comparing the Effects of ...\" could not be opened."
+    },
+    {
+      "n": 4,
+      "claim": "Tanzania is home to the largest lion population in the world.",
+      "status": "unconfirmed",
+      "why": "\"Abstract - The Society for Conservation Biology - Wiley\" could not be opened. \"Serengeti National Park - UNESCO World Heritage Centre\" could not be opened."
+    }
+  ],
+  "trace": [],
+  "decidedAt": "2026-09-29T19:39:18.664Z",
+  "developed": [
+    "nf_1187"
+  ]
+}

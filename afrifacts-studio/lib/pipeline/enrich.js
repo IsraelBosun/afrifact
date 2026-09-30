@@ -1,5 +1,5 @@
 /**
- * Stage 4: turn a kept candidate into a real, reviewable fact.
+ * Stage 4: turn a verified candidate into a real, reviewable fact.
  *
  * A candidate is one sentence and a passage. The app needs a deep dive,
  * a why-it-matters, a suggested question and three quiz questions, and
@@ -10,8 +10,8 @@
  *
  * What this stage does NOT do:
  *
- *   - It does not decide anything. It only enriches candidates a human
- *     kept in triage. The keep list comes in as a file.
+ *   - It does not decide anything. The judging happens once, on /review,
+ *     on the finished fact.
  *   - It does not write into `corpus/*.js`. Those are hand-authored files
  *     with reasoning in the comments, and a script must not rewrite them.
  *     Output goes to `_generated/enriched.json`.
@@ -256,6 +256,25 @@ export async function enrichOne(candidate, factNumber, onProgress, signal) {
           locator: locatorFor(candidate),
           passage: candidate.passage,
         },
+        /*
+          The article's opening, when the fact leans on it to say who its
+          people are (see leadOf in verify.js). Same document, same
+          citation, stored as its own passage so a reviewer sees exactly
+          which words introduced the person and reverify() can check the
+          claim against the two together.
+        */
+        ...(candidate.lead
+          ? [
+              {
+                citation: citationFor(candidate),
+                shortName: candidate.source.siteName || candidate.source.title,
+                tier: SOURCE_TIERS.includes(candidate.source.tier) ? candidate.source.tier : 'reference',
+                locator: locatorFor(candidate),
+                passage: candidate.lead,
+                note: 'Opening of the same document, introducing the people named.',
+              },
+            ]
+          : []),
       ],
       surprise: {
         priorProbability: clampScore(candidate.surprise.priorProbability),
@@ -283,56 +302,32 @@ export async function enrichOne(candidate, factNumber, onProgress, signal) {
 }
 
 /**
- * There is no keep list any more.
- *
- * Triage is gone: every verified candidate is enriched. What stops this
- * stage redoing work is lineage, not a hand-picked list — `promotedKeys`
- * already knows which candidates became facts, and the survivors are
- * exactly the ones nothing has been spent on yet.
- *
- * The filtering triage did has not disappeared, it moved downstream. A
- * fact you do not want is queued on the review page, where you are
- * judging the finished article rather than a one-line candidate.
- *
- * @returns {Promise<null>}
- */
-export async function loadKeeps() {
-  return null;
-}
-
-// Re-exported so existing callers keep working. The definition moved to
-// candidate-key.js, which imports nothing, so the triage client component
-// can share it instead of keeping a third hand-written copy.
-export { keyOf };
-
-/**
  * @typedef {object} EnrichSummary
  * @property {number} enriched
  * @property {number} quiz
  * @property {number} failed
- * @property {number} skipped Kept candidates that are already facts.
+ * @property {number} skipped Candidates that are already facts.
  * @property {boolean} wrote
  * @property {boolean} stopped True when a cancel ended the run early.
- * @property {boolean} usedKeeps
  */
 
 /**
- * Enrich the candidates triage kept, minus the ones already enriched.
+ * Enrich every candidate, minus the ones already enriched.
  *
  * That second half is not an optimisation. Enrichment assigns a NEW id
  * from the store's high-water mark, so re-enriching a candidate that has
  * already been promoted does not update the existing fact — it creates a
  * second fact, with a second id and a second factNumber, saying exactly
- * the same thing. The keep list is durable and the candidates file is now
+ * the same thing. The candidates file is now
  * merged rather than replaced, so that collision is the normal case on a
  * second run, not an edge one.
  *
  * The lineage recorded at promotion is what makes it detectable: a stored
  * fact knows which candidate it came from.
  *
- * @param {{ all?: boolean, force?: boolean, signal?: AbortSignal }} [options]
- *   `all` ignores the keep list; `force` re-enriches even what is already
- *   promoted, which is how a deliberate regeneration is asked for.
+ * @param {{ force?: boolean, slugs?: string[], signal?: AbortSignal }} [options]
+ *   `force` re-enriches even what is already promoted, which is how a
+ *   deliberate regeneration is asked for.
  * @param {(line: string) => void} [onProgress]
  * @returns {Promise<EnrichSummary>}
  */
@@ -349,13 +344,9 @@ export async function runEnrich(options = {}, onProgress) {
   const slugs = options.slugs ?? [];
   const candidates = slugs.length ? everything.filter((c) => slugs.includes(c.slug)) : everything;
 
-  const keeps = options.all ? null : await loadKeeps();
-
-  const wanted = keeps ? candidates.filter((c) => keeps.has(keyOf(c))) : candidates;
-
   const alreadyDone = options.force ? new Set() : await promotedKeys();
-  const chosen = wanted.filter((c) => !alreadyDone.has(keyOf(c)));
-  const skipped = wanted.length - chosen.length;
+  const chosen = candidates.filter((c) => !alreadyDone.has(keyOf(c)));
+  const skipped = candidates.length - chosen.length;
 
   if (skipped > 0) {
     const s = skipped === 1 ? '' : 's';
@@ -364,9 +355,9 @@ export async function runEnrich(options = {}, onProgress) {
 
   if (chosen.length === 0) {
     say(
-      wanted.length > 0
-        ? 'Everything you kept is already a fact in the store. Nothing to do.'
-        : 'Nothing to enrich. Keep some candidates on the triage page, or run extract first.',
+      candidates.length > 0
+        ? 'Every candidate is already a fact in the store. Nothing to do.'
+        : 'Nothing to enrich. Run extract first.',
     );
     return {
       enriched: 0,
@@ -375,7 +366,6 @@ export async function runEnrich(options = {}, onProgress) {
       skipped,
       wrote: false,
       stopped: false,
-      usedKeeps: Boolean(keeps),
     };
   }
 
@@ -438,7 +428,6 @@ export async function runEnrich(options = {}, onProgress) {
       skipped,
       wrote: false,
       stopped,
-      usedKeeps: Boolean(keeps),
     };
   }
 
@@ -494,6 +483,5 @@ export async function runEnrich(options = {}, onProgress) {
     skipped,
     wrote: true,
     stopped,
-    usedKeeps: Boolean(keeps),
   };
 }

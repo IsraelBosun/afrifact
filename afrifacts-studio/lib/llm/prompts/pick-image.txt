@@ -33,7 +33,7 @@ Each line is: factId | the fact
 {{facts}}
 
 IMAGES
-Each line is: file | name — description
+Each line is: file | name: description
 
 {{images}}
 

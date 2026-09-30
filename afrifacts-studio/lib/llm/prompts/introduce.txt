@@ -1,0 +1,36 @@
+This fact names people without saying who they are, so a reader who has
+never heard of them cannot see why it matters. Rewrite it so each of
+these people is introduced by what they did or are known for:
+
+{{missing}}
+
+## The fact
+
+{{fact}}
+
+## Where it came from
+
+{{passage}}
+
+## How the article introduces its subject
+
+{{lead}}
+
+## Rules
+
+- Keep each introduction BRIEF: one to four words is the aim.
+  "footballer Samuel Okwaraji", "industrialist Michael Ibru", "Queen
+  Victoria's goddaughter". The introduction is there so a stranger can
+  follow the fact, not to tell their life story.
+- Take each introduction from the two texts above, in their own words.
+  Your version is checked word for word against them, so add nothing
+  they do not say.
+- An introduction is what the person did or is, or a link to someone
+  famous ("Fela's mother"). Never a link to someone unknown.
+- Keep the surprising part of the fact. If there is not room for both,
+  keep the introduction and the single most surprising detail.
+- At most {{limit}} characters. One sentence. End on the most
+  interesting part.
+- No em dashes (—). Use a comma, a colon or parentheses, or split the thought.
+
+Return JSON only: {"fact": "..."}

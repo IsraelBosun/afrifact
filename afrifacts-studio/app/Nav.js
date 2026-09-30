@@ -5,18 +5,11 @@ import { usePathname } from 'next/navigation';
 import { useEffect, useRef } from 'react';
 
 /**
- * The three places there are.
- *
- * Ordered by where they sit in the pipeline: the board, the seed list
- * that starts every run, and the one gate at the end. Triage and Images
- * used to sit between them — two queues that had to be emptied before a
- * run produced anything a reader could see. The pipeline runs through
- * now, and the judging happens once, on the finished fact.
+ * The two places there are: the agent, which finds and checks facts, and
+ * the review page, where a live fact is corrected, held back or pulled.
  */
 const LINKS = [
-  { href: '/', label: 'Pipeline' },
-  { href: '/sources', label: 'Sources' },
-  { href: '/rejects', label: 'Rejects' },
+  { href: '/agent', label: 'Agent' },
   { href: '/review', label: 'Review' },
 ];
 

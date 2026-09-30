@@ -1,0 +1,613 @@
+{
+  "runId": "agent-2026-09-29T17-16-34",
+  "status": "done",
+  "brief": "Nigerian inventors and firsts",
+  "target": 8,
+  "createdAt": "2026-09-29T17:20:18.974Z",
+  "stopReason": "Document budget used up.",
+  "docsRead": 8,
+  "webQueriesSpent": 0,
+  "shortlist": [
+    {
+      "key": "s1",
+      "fact": "Mechanical engineer Ayodele Awojobi sued the Federal Government of Nigeria over the presidential election that returned incumbent Shehu Shagari, and all his court cases were thrown out.",
+      "category": "History",
+      "votes": "4/6",
+      "why": "I know Awojobi as an engineer, not as a man who took Shagari's election to court and lost every round — that link between a textbook engineering name and a political fight is the surprise.",
+      "title": "Ayodele Awojobi",
+      "url": "https://en.wikipedia.org/wiki/Ayodele_Awojobi",
+      "candidate": {
+        "fact": "Mechanical engineer Ayodele Awojobi sued the Federal Government of Nigeria over the presidential election that returned incumbent Shehu Shagari, and all his court cases were thrown out.",
+        "passage": "Ayodele Awojobi, in the wake of the presidential election results that returned the incumbent, Shehu Shagari as president in the Second Nigerian Republic, became very vocal in the national newspapers and magazines, going as far as suing the Federal Government of Nigeria for what he strongly believed was a widespread election rigging.\nWith all his court cases against the Nigerian government thrown out of court, he delved into the law books, himself being only a mechanical engineer, claiming that he would earn his law degrees in record time, to enable him better argue with the opposition at the federal courts.",
+        "category": "History",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "A named legal challenge to a specific election, with the outcome, which is not widely remembered.",
+        "volatile": false,
+        "slug": "ayodele-awojobi",
+        "country": "NG",
+        "source": {
+          "title": "Ayodele Awojobi",
+          "url": "https://en.wikipedia.org/wiki/Ayodele_Awojobi",
+          "revisionId": "1377330950",
+          "contentHash": "abb91c54fc4c0a43",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "s2",
+      "fact": "Engineer and engine builder Bisi Ezerioha entered Anambra State University of Technology at 15 to study petrochemical engineering, then built the world's fastest carbureted front wheel drive vehicle.",
+      "category": "Records",
+      "votes": "3/3",
+      "why": "The 15-year-old uni entry sets it up and 'world's fastest carbureted front wheel drive vehicle' is such a specific, absurd flex that I'd send it before I even finished reading.",
+      "title": "Bisi Ezerioha",
+      "url": "https://en.wikipedia.org/wiki/Bisi_Ezerioha",
+      "candidate": {
+        "fact": "Engineer and engine builder Bisi Ezerioha entered Anambra State University of Technology at 15 to study petrochemical engineering, then built the world's fastest carbureted front wheel drive vehicle.",
+        "passage": "His curiosity about what powered automobiles and factory machinery led to his enrolment into Anambra State University of Technology, Anambra, Nigeria at the age of 15 to study petrochemical engineering.",
+        "category": "Records",
+        "surprise": {
+          "priorProbability": 5,
+          "specificity": 4,
+          "explicability": 4
+        },
+        "reasoning": "A Nigerian starting university at 15 is striking, and the document names the exact institution and course.",
+        "volatile": false,
+        "slug": "bisi-ezerioha",
+        "country": "NG",
+        "source": {
+          "title": "Bisi Ezerioha",
+          "url": "https://en.wikipedia.org/wiki/Bisi_Ezerioha",
+          "revisionId": "1372328204",
+          "contentHash": "77d635c14e90db06",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "s3",
+      "fact": "Pot-in-pot refrigerator inventor Mohamed Bah Abba won the Rolex Award for Enterprise in 2001 and used his $75,000 prize to make his invention available throughout Nigeria.",
+      "category": "History",
+      "votes": "3/3",
+      "why": "I knew the pot-in-pot thing existed but had no idea there was a Rolex prize and $75k behind it, and the fact that he poured the money back into spreading it is the part that makes me want to tell someone.",
+      "title": "Pot-in-pot refrigerator",
+      "url": "https://en.wikipedia.org/wiki/Pot-in-pot_refrigerator",
+      "candidate": {
+        "fact": "Pot-in-pot refrigerator inventor Mohamed Bah Abba won the Rolex Award for Enterprise in 2001 and used his $75,000 prize to make his invention available throughout Nigeria.",
+        "passage": "He received the Rolex Award for Enterprise in 2001 and used his $75,000 award to make the invention available throughout Nigeria.",
+        "category": "History",
+        "surprise": {
+          "priorProbability": 5,
+          "specificity": 5,
+          "explicability": 3
+        },
+        "reasoning": "The Rolex Award and the exact $75,000 figure are obscure details almost no Nigerian would know.",
+        "volatile": false,
+        "slug": "pot-in-pot-refrigerator",
+        "country": "NG",
+        "source": {
+          "title": "Pot-in-pot refrigerator",
+          "url": "https://en.wikipedia.org/wiki/Pot-in-pot_refrigerator",
+          "revisionId": "1374642684",
+          "contentHash": "b334f786216a4c30",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "s4",
+      "fact": "Nigerian painter and sculptor Ben Enwonwu's 1973 portrait of Ife princess Adetutu Ademiluyi, missing since 1975, was found in a London flat in 2017 and sold for £1,205,000.",
+      "category": "Culture",
+      "votes": "3/3",
+      "why": "A missing Nigerian painting turning up in a random London flat and going for over a million pounds is the kind of thing my group chat would actually argue about.",
+      "title": "Ben Enwonwu",
+      "url": "https://en.wikipedia.org/wiki/Ben_Enwonwu",
+      "candidate": {
+        "fact": "Nigerian painter and sculptor Ben Enwonwu's 1973 portrait of Ife princess Adetutu Ademiluyi, missing since 1975, was found in a London flat in 2017 and sold for £1,205,000.",
+        "passage": "Tutu, a series of three portraits of the Ife princess Adetutu Ademiluyi ('Tutu'), were painted by Enwonwu in 1973 and have been missing since 1975. One of the three paintings was rediscovered in 2017 in a London flat. It was sold for £1,205,000 in an auction held by Bonhams.",
+        "category": "Culture",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "A missing Nigerian national icon turning up in a London flat and fetching over a million pounds is a story most have never heard.",
+        "volatile": false,
+        "slug": "ben-enwonwu",
+        "country": "NG",
+        "source": {
+          "title": "Ben Enwonwu",
+          "url": "https://en.wikipedia.org/wiki/Ben_Enwonwu",
+          "revisionId": "1373343586",
+          "contentHash": "19c2c914f2a66e5a",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "s5",
+      "fact": "Olufunmilayo Olopade, a Nigerian oncologist, found that 80% of tumours in African women did not need estrogen to grow, compared to 20% in Caucasian women.",
+      "category": "Health",
+      "votes": "3/3",
+      "why": "The 80 vs 20 flip is the whole thing — it says the cancer itself is different in our bodies, and that's not something I've ever seen anyone say.",
+      "title": "Olufunmilayo Olopade",
+      "url": "https://en.wikipedia.org/wiki/Olufunmilayo_Olopade",
+      "candidate": {
+        "fact": "Olufunmilayo Olopade, a Nigerian oncologist, found that 80% of tumours in African women did not need estrogen to grow, compared to 20% in Caucasian women.",
+        "passage": "By 2005, she found that 80% of tumors in African women did not need estrogen to grow compared to 20% of tumors in the Caucasian women.",
+        "category": "Health",
+        "surprise": {
+          "priorProbability": 5,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "A precise fourfold disparity in tumour biology between African and Caucasian women that most Nigerians have never seen stated.",
+        "volatile": false,
+        "slug": "olufunmilayo-olopade",
+        "country": "NG",
+        "source": {
+          "title": "Olufunmilayo Olopade",
+          "url": "https://en.wikipedia.org/wiki/Olufunmilayo_Olopade",
+          "revisionId": "1372546528",
+          "contentHash": "4c65af7f9bced706",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "s6",
+      "fact": "Nigerian Oviemo Ovadje invented the EAT-SET in 1989, a blood auto-transfusion system that needs no electricity and recovers blood from internal bleeding.",
+      "category": "Health",
+      "votes": "3/3",
+      "why": "A no-electricity blood recycling machine is genuinely wild, and the fact that a Nigerian built it in 1989 and I'm only hearing it now is the part that stings.",
+      "title": "Autotransfusion",
+      "url": "https://en.wikipedia.org/wiki/Autotransfusion",
+      "candidate": {
+        "fact": "Nigerian Oviemo Ovadje invented the EAT-SET in 1989, a blood auto-transfusion system that needs no electricity and recovers blood from internal bleeding.",
+        "passage": "Dr. Ovadje's Emergency Auto-Transfusion Set (EAT-SET) is a system that recovers blood from internal bleeding in patients. Oviemo Ovadje invented the system in 1989 as an affordable blood auto-transfusion mechanism requiring no electricity, which previously required very expensive equipment that only developed countries could afford.",
+        "category": "Health",
+        "surprise": {
+          "priorProbability": 5,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "A named Nigerian inventor and a dated, electricity-free medical device are absent from general knowledge, and the fact answers the 'Nigerian inventors and firsts' search directly.",
+        "volatile": false,
+        "slug": "autotransfusion",
+        "country": "NG",
+        "source": {
+          "title": "Autotransfusion",
+          "url": "https://en.wikipedia.org/wiki/Autotransfusion",
+          "revisionId": "1375656233",
+          "contentHash": "35c6931472ec9365",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    }
+  ],
+  "alternates": [
+    {
+      "key": "a1",
+      "fact": "Engineer and engine builder Bisi Ezerioha's 2015 Bisimoto Hyundai Sonata was the most powerful Sonata sedan in history with a record 888 hp, much greater than the Dodge Challenger Hellcat.",
+      "category": "Records",
+      "votes": "3/3",
+      "why": "A boring family car with Hellcat-killing power built by a Nigerian name I've never heard, that's going straight to the group chat.",
+      "title": "Bisi Ezerioha",
+      "url": "https://en.wikipedia.org/wiki/Bisi_Ezerioha",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "Engineer and engine builder Bisi Ezerioha's 2015 Bisimoto Hyundai Sonata was the most powerful Sonata sedan in history with a record 888 hp, much greater than the Dodge Challenger Hellcat.",
+        "passage": "In 2015, the Bisimoto Hyundai Sonata was recognized as the most powerful Sonata sedan in history with a record 888 hp, much greater than the Dodge Challenger Hellcat.",
+        "category": "Records",
+        "surprise": {
+          "priorProbability": 5,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "The comparison to the Hellcat makes the record concrete and surprising.",
+        "volatile": false,
+        "slug": "bisi-ezerioha",
+        "country": "NG",
+        "source": {
+          "title": "Bisi Ezerioha",
+          "url": "https://en.wikipedia.org/wiki/Bisi_Ezerioha",
+          "revisionId": "1372328204",
+          "contentHash": "77d635c14e90db06",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a2",
+      "fact": "Engineer and race car driver Bisi Ezerioha built the 935 K3V, a 1984 Porsche 911 chassis with a custom 935 body and a Tesla Model S electric motor producing 636 hp.",
+      "category": "Records",
+      "votes": "3/3",
+      "why": "Two things I already rate — Porsche and Tesla — mashed together by a Nigerian name I'd never heard, and the 636hp is the flex that makes me send it.",
+      "title": "Bisi Ezerioha",
+      "url": "https://en.wikipedia.org/wiki/Bisi_Ezerioha",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "Engineer and race car driver Bisi Ezerioha built the 935 K3V, a 1984 Porsche 911 chassis with a custom 935 body and a Tesla Model S electric motor producing 636 hp.",
+        "passage": "In 2019, Ezerioha built the \"935 K3V\", the company's first electric conversion project. The project is based on a 1984 911 chassis, with a custom Porsche 935 style body built using original Kremer 935 molds, and is powered by the electric motor from a Tesla Model S, producing 636 hp.",
+        "category": "Records",
+        "surprise": {
+          "priorProbability": 5,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "A classic Porsche converted to electric with a Tesla motor is a striking, specific build.",
+        "volatile": false,
+        "slug": "bisi-ezerioha",
+        "country": "NG",
+        "source": {
+          "title": "Bisi Ezerioha",
+          "url": "https://en.wikipedia.org/wiki/Bisi_Ezerioha",
+          "revisionId": "1372328204",
+          "contentHash": "77d635c14e90db06",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a3",
+      "fact": "Engineer and race car driver Bisi Ezerioha hosted Motor MythBusters alongside mechanic Faye Hadley and MythBusters veteran Tory Belleci.",
+      "category": "Culture",
+      "votes": "4/6",
+      "why": "A Nigerian I have never heard of standing next to a MythBusters name I grew up watching — that link is the whole thing, and I would send it.",
+      "title": "Bisi Ezerioha",
+      "url": "https://en.wikipedia.org/wiki/Bisi_Ezerioha",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "Engineer and race car driver Bisi Ezerioha hosted Motor MythBusters alongside mechanic Faye Hadley and MythBusters veteran Tory Belleci.",
+        "passage": "Ezerioha was later chosen to host Motortrend's automobile-themed spinoff of MythBusters, titled Motor MythBusters. He was also joined by Faye Hadley and MythBusters veteran Tory Belleci in testing tall tales and stories related to automobiles.",
+        "category": "Culture",
+        "surprise": {
+          "priorProbability": 5,
+          "specificity": 4,
+          "explicability": 3
+        },
+        "reasoning": "A Nigerian-American engineer hosting a MythBusters spinoff is an unexpected link.",
+        "volatile": false,
+        "slug": "bisi-ezerioha",
+        "country": "NG",
+        "source": {
+          "title": "Bisi Ezerioha",
+          "url": "https://en.wikipedia.org/wiki/Bisi_Ezerioha",
+          "revisionId": "1372328204",
+          "contentHash": "77d635c14e90db06",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a4",
+      "fact": "In rural northern Nigeria in the 1990s, potmaker Mohamed Bah Abba developed the Pot-in-Pot Preservation Cooling System, hiring skilled potmakers to mass-produce the first batch of 5,000.",
+      "category": "History",
+      "votes": "3/3",
+      "why": "A named person, a real invention with a mechanism I can picture, and 5,000 units means it actually happened, not just a village trick.",
+      "title": "Pot-in-pot refrigerator",
+      "url": "https://en.wikipedia.org/wiki/Pot-in-pot_refrigerator",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "In rural northern Nigeria in the 1990s, potmaker Mohamed Bah Abba developed the Pot-in-Pot Preservation Cooling System, hiring skilled potmakers to mass-produce the first batch of 5,000.",
+        "passage": "In rural northern Nigeria in the 1990s, Mohamed Bah Abba developed the Pot-in-Pot Preservation Cooling System, consisting of a small clay pot placed inside a larger one, with the space between the two filled with moist sand. The inner pot is filled with fruit, vegetables or soft drinks and covered with a wet cloth. Abba, who hails from a family of potmakers, tapped into the large unemployed local workforce and hired skilled potmakers to mass-produce the first batch of 5,000 Pot-in-Pots.",
+        "category": "History",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "Most educated Nigerians know the pot-in-pot cooler exists but not that a named Nigerian, Mohamed Bah Abba, invented this specific system in the 1990s and produced a first batch of 5,000.",
+        "volatile": false,
+        "slug": "pot-in-pot-refrigerator",
+        "country": "NG",
+        "source": {
+          "title": "Pot-in-pot refrigerator",
+          "url": "https://en.wikipedia.org/wiki/Pot-in-pot_refrigerator",
+          "revisionId": "1374642684",
+          "contentHash": "b334f786216a4c30",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a5",
+      "fact": "Queen Elizabeth II commissioned and sat for a portrait sculpture by Nigerian sculptor Ben Enwonwu during her 1956 visit to Nigeria.",
+      "category": "History",
+      "votes": "3/3",
+      "why": "The Queen personally commissioning a Nigerian to sculpt her, in 1956, is a link I never would have guessed and it makes Enwonwu instantly worth knowing.",
+      "title": "Ben Enwonwu",
+      "url": "https://en.wikipedia.org/wiki/Ben_Enwonwu",
+      "aside": "History is full this run",
+      "candidate": {
+        "fact": "Queen Elizabeth II commissioned and sat for a portrait sculpture by Nigerian sculptor Ben Enwonwu during her 1956 visit to Nigeria.",
+        "passage": "In the course of her 1956 visit to Nigeria, Queen Elizabeth II commissioned and sat for a portrait sculpture by Enwonwu.",
+        "category": "History",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "The Queen sitting for a Nigerian sculptor is a striking reversal of the usual colonial relationship, and few know it happened.",
+        "volatile": false,
+        "slug": "ben-enwonwu",
+        "country": "NG",
+        "source": {
+          "title": "Ben Enwonwu",
+          "url": "https://en.wikipedia.org/wiki/Ben_Enwonwu",
+          "revisionId": "1373343586",
+          "contentHash": "19c2c914f2a66e5a",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a6",
+      "fact": "Wooden sculptures by Nigerian sculptor Ben Enwonwu for the Daily Mirror's London headquarters were found in 2013 in the garage of Bethnal Green Academy, the old school of the infamous Kray Twins.",
+      "category": "Culture",
+      "votes": "3/3",
+      "why": "Two worlds I'd never put in the same sentence — a Nigerian sculptor's work and the Kray Twins' old school — and the garage is the detail that makes it stick.",
+      "title": "Ben Enwonwu",
+      "url": "https://en.wikipedia.org/wiki/Ben_Enwonwu",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "Wooden sculptures by Nigerian sculptor Ben Enwonwu for the Daily Mirror's London headquarters were found in 2013 in the garage of Bethnal Green Academy, the old school of the infamous Kray Twins.",
+        "passage": "A series of wooden sculptures created by Enwonwu for the London headquarters of the Daily Mirror in 1961 was discovered in the garage of the Bethnal Green Academy, the old school of the infamous Kray Twins in 2013, leading some to speculate that they were the ones who stole them.",
+        "category": "Culture",
+        "surprise": {
+          "priorProbability": 5,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "The link between a Nigerian sculptor's lost works and the Kray Twins is a connection almost nobody would guess.",
+        "volatile": false,
+        "slug": "ben-enwonwu",
+        "country": "NG",
+        "source": {
+          "title": "Ben Enwonwu",
+          "url": "https://en.wikipedia.org/wiki/Ben_Enwonwu",
+          "revisionId": "1373343586",
+          "contentHash": "19c2c914f2a66e5a",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    }
+  ],
+  "trace": [
+    {
+      "step": 1,
+      "thought": "Starting fresh on 'Nigerian inventors and firsts'. I'll search Wikipedia for a specific notable Nigerian inventor to find a rich biographical article.",
+      "action": "search",
+      "detail": "\"Jelani Aliyu\"",
+      "observation": "Search \"Jelani Aliyu\" (Wikipedia):\nr1  Jelani Aliyu  (wikipedia, 1496 words, mined before; its best facts are in the app)\n     Jelani Aliyu (born September 8, 1966) is a Nigerian automotive designer who worked for the American car company General Motors. He was a senior creative designer at GM until his ap\nr2  Buick Rendezvous  (wikipedia, 2559 words)\n     The Buick Rendezvous is a mid-size crossover SUV that was marketed by Buick for the 2002–2007 model years. It debuted at the Chicago Auto Show in February 2000, and sales commenced\nr3  Chevrolet Volt  (wikipedia, 8214 words)\n     The Chevrolet Volt is a plug-in hybrid electric vehicle car that was manufactured across two generations by General Motors, and also marketed in rebadged variants as the Holden Vol\nr4  Pontiac G6  (wikipedia, 3788 words)\n     The Pontiac G6 is a mid-size car that was produced by General Motors under the Pontiac brand. It was introduced in 2004 for the 2005 model year to replace the Grand Am.\nr5  College for Creative Studies  (wikipedia, 1166 words)\n     The College for Creative Studies (CCS) is a private art school in Detroit, Michigan. It enrolls more than 1,400 students and focuses on arts education.\nr6  Chevrolet Volt (first generation)  (wikipedia, 24294 words)\n     The Chevrolet Volt is an electric car with a gasoline range extender generator that was produced by General Motors and marketed by Chevrolet. The first generation of the Chevrolet \nr7  Abdussamad Dasuki  (wikipedia, 2817 words)\n     Abdussamad Dasuki (born 30 June 1978) is a Nigerian politician, economist and businessman. He served as the Commissioner of Finance in Sokoto State Government from 2019 to 2023 and\nr8  2023 Nigerian House of Representatives election  (wikipedia, 66004 words)\n     The 2023 Nigerian House of Representatives elections were held on 25 February 2023 where voters elected members of the House of Representatives using first-past-the-post voting in \nr9  HIV and pregnancy  (wikipedia, 14958 words)\n     HIV in pregnancy is the presence of an HIV/AIDS infection in a woman while she is pregnant. There is a risk of HIV transmission from mother to child in three primary situations: pr"
+    },
+    {
+      "step": 2,
+      "thought": "The Jelani Aliyu search returned mostly American car articles, not Nigerian inventors. I should pivot to a different specific Nigerian inventor/first name. Searching for 'Philip Emeagwali' — a Nigerian computer scientist with a dramatic, controversial life (claimed internet invention, disputes) — likely yields a rich biographical article.",
+      "action": "search",
+      "detail": "\"Philip Emeagwali\"",
+      "observation": "Search \"Philip Emeagwali\" (Wikipedia):\nr10  Philip Emeagwali  (wikipedia, 2480 words)\n     Philip Emeagwali (born 23 August 1954) is a Nigerian computer scientist. He is known for making controversial statements about his achievements, such as inventing the Internet and \nr11  Anambra State  (wikipedia, 17371 words)\n     Anambra ( Igbo: Alaọha Anambra) is a state in the Southeastern region of Nigeria bordered by Delta to the west, Imo and Rivers to the south, Abia to the southeast, Enugu to the eas\nr12  West Africa  (wikipedia, 17406 words)\n     West Africa, also known as Western Africa, is the westernmost region of Africa. The United Nations defines Western Africa as the 16 countries of Benin, Burkina Faso, Cape Verde, Th\nr13  Igbo yam festivals  (wikipedia, 2290 words)\n     Igbo Yam Festivals (Igbo: Iri ji, Iwa ji, Iri ji Ọhụrụ, Ike ji, or Otute) refers to the multiple annual cultural festival by the Igbo people, held at the end of the rainy season in\nr14  Joseph Arthur Ankrah  (wikipedia, 2501 words)\n     Joseph Arthur Ankrah (18 August 1915 – 25 November 1992) was a Ghanaian army general who was the second head of state of Ghana from 1966 to 1969 as chairman of the National Liberat\nr15  Akure  (wikipedia, 4535 words)\n     Akure is a city in south-western Nigeria. It is the capital and largest city of Ondo State.\nr16  Igbo Americans  (wikipedia, 2768 words)\n     Igbo Americans, (Igbo: Ṇ́dị́ Ígbò n'Emerịkà) are residents of the United States who identify as having Igbo ancestry from modern day Bight of Biafra, which includes Cameroon, Gabon\nr17  Demola Aladekomo  (wikipedia, 2200 words)\n     Demola Aladekomo KJW HOA (born 31 December 1957) is a Nigerian computer engineer and businessman. He is the chairman of SmartCity Resorts Plc, Card Centre Nigeria Limited, Treasure\nr18  Nerds 2.0.1  (wikipedia, 1409 words)\n     Nerds 2.0.1: A Brief History of the Internet – also known as Glory of the Geeks – is a 1998 American PBS television documentary that explores the development of the ARPANET, the In"
+    },
+    {
+      "step": 3,
+      "thought": "The Jelani Aliyu and Philip Emeagwali searches returned mostly non-Nigerian or already-mined articles. I should pivot to a different Nigerian inventor/first with a rich, dramatic biography. 'Demola Aladekomo' (r17) is a Nigerian computer engineer who founded Chams and pioneered smart card technology in Nigeria — a rich first/inventor story. I'll read that.",
+      "action": "read",
+      "detail": "r17 \"Demola Aladekomo\"",
+      "observation": "Read r17 \"Demola Aladekomo\": 5 facts verified, 3 failed the verifier, 0 already in the app or this run.\nKEPT (0):\nSTRONG BUT SET ASIDE FOR VARIETY (0):\nWEAK (5):\n  - [0/3] Nigerian computer engineer and businessman Demola Aladekomo founded Chams Limited in September 1985 as Nigeria's first indigenous computer m\n      why: obscure: I've never heard of Demola Aladekomo or Chams, and 'first indigenous computer maintenance company' doesn't give me a number, a twist, or a reason to ca\n  - [0/3] Chams' Abuja card factory set a world record for the largest card personalisation centre, with a capacity of 1.75 million cards per day.\n      why: obscure: A company I've barely heard of holds a record I never wondered about, and '1.75 million cards a day' doesn't land because I have no idea what a normal \n  - [1/3] In 2008 Nigerian computer engineer and businessman Chams opened ChamsCities in Lagos and Abuja, recognised by Guinness World Records as the \n      why: obscure: I've never heard of ChamsCities and 'largest cyber centre' in 2008 doesn't hit — it's just a company fact, no turn, nothing to send.\n  - [1/3] In 2007 Chams produced a refined database of 54.3 million Nigerians and delivered voter cards for INEC.\n      why: obscure: I don't know what Chams is, the fact never tells me why it matters, and 'produced a refined database' is corporate-speak with no turn in it.\n  - [0/3] Nigerian computer engineer and businessman Aladekomo oversaw the 2013–2014 implementation of the Bank Verification Number project for the Ce\n      why: flat: It's just a CV line — a name I don't know, doing a job I already know exists, with no twist, no number, no reason to care.\nThis subject is now covered. Move to something unrelated."
+    },
+    {
+      "step": 4,
+      "thought": "Demola Aladekomo was thin — corporate CV facts with no surprise. I need a dramatic, rich biographical subject. 'Yekini' or a Nigerian first in a surprising field. Let me try a specific name with a dramatic life: Nigerian inventor 'Ayodele Awojobi' — an engineering professor famous for a controversial car invention and a dramatic academic fight. Wikipedia likely has a rich article.",
+      "action": "search",
+      "detail": "\"Ayodele Awojobi\"",
+      "observation": "Search \"Ayodele Awojobi\" (Wikipedia):\nr19  Ayodele Awojobi  (wikipedia, 4285 words)\n     Ayodele Oluwatumininu Awojobi (12 March 1937 – 23 September 1984), also known by the nicknames \"Dead Easy\", \"The Akoka Giant\", and \"Macbeth\", was a Nigerian academic, author, inven\nr20  Awojobi  (wikipedia, 86 words)\n     Awojobi is a surname of Yoruba origin.\nr21  Ayodele  (wikipedia, 373 words)\n     Ayodele or Ayodelé is a Yoruba name meaning \"joy arrived home\"\nr22  Babatunde Fashola  (wikipedia, 6045 words)\n     Babatunde Raji Fashola SAN (Yoruba: Bàbátúndé Rájí Fáṣọlá (); born 28 June 1963) is a Nigerian lawyer and politician who served as the federal minister of Works and Housing of Nige\nr23  Oluyombo Awojobi  (wikipedia, 2477 words)\n     Dr. Oluyombo Adetilewa Awojobi (March 1, 1951 – April 17, 2015) was a Nigerian Rural Surgeon, Researcher, Inventor and Humanitarian.\nr24  CMS Grammar School, Lagos  (wikipedia, 1731 words)\n     The CMS Grammar School in Bariga, a suburb of Lagos in Lagos State, is the oldest secondary school in Nigeria, founded on 6 June 1859 by the Church Missionary Society. For decades \nr25  Tai Solarin  (wikipedia, 1696 words)\n     Augustus Taiwo \"Tai\" Solarin (20 August 1916 – 27 July 1994) was a Nigerian educator and author. He established the famous Mayflower School, Ikenne, Ogun State in 1956.\nr26  Gbenga Daniel  (wikipedia, 6799 words)\n     Gbenga Daniel (born 6 April 1956) is a Nigerian politician who has served as Senator for Ogun East since 2023. He previously served as governor of Ogun State from 2003 to 2011.\nr27  Ahmadu Bello University  (wikipedia, 7370 words)\n     The Ahmadu Bello University (ABU) is a public research university located in Zaria, Kaduna State, Nigeria. It was opened in 1962 as the University of Northern Nigeria.\nr28  Second Nigerian Republic  (wikipedia, 2045 words)\n     The Second Nigerian Republic was a brief formation of the Nigerian state which succeeded the military governments formed after the overthrow of the first republic.\nr29  Lagos State  (wikipedia, 13933 words)\n     Lagos State (Yoruba: Ìpínlẹ̀ Èkó, Gun: Ayìmátẹ̀n Awọnlìn tọ̀n) is a state in southwestern Nigeria. Of the 36 states, Lagos is the first or second most populous state (depending on \nr30  Bolanle Awe  (wikipedia, 2094 words)\n     Bolanle Awe (Yoruba: Bọ́láńlé (Fájẹ́m̄bọ́là) Awẹ́ born 28 January 1933) is a Nigerian and Yoruba history professor. She became the Pro-Chancellor of the University of Nigeria in Ns"
+    },
+    {
+      "step": 5,
+      "thought": "Demola Aladekomo was thin (corporate CV facts). Ayodele Awojobi (r19, 4285 words) is a rich biographical subject — a Nigerian academic, author, inventor with dramatic nicknames ('Dead Easy', 'The Akoka Giant', 'Macbeth') and a controversial car invention — exactly the kind of dramatic life that yields strong facts.",
+      "action": "read",
+      "detail": "r19 \"Ayodele Awojobi\"",
+      "observation": "Read r19 \"Ayodele Awojobi\": 4 facts verified, 4 failed the verifier, 0 already in the app or this run.\nKEPT (1):\n  + [4/6, History] Mechanical engineer Ayodele Awojobi sued the Federal Government of Nigeria over the presidential election that returned incumbent Shehu Shagari, and all his court cases were thrown out.\nSTRONG BUT SET ASIDE FOR VARIETY (0):\nWEAK (3):\n  - [0/3] Ayodele Awojobi, the first African awarded a Doctor of Science degree in mechanical engineering, earned it at Imperial College London.\n      why: obscure: It's a first, but a Doctor of Science in mechanical engineering is not something I can picture or repeat to anybody — no story, no turn, just a credent\n  - [1/3] Mechanical engineer Awojobi was promoted from associate professor to full professor within a week at the University of Lagos, after the Sena\n      why: obscure: Who is Awojobi? The fact never tells me why this man matters, so it's just a stranger getting a promotion faster than usual — nothing to send anyone.\n  - [0/3] Ayodele Awojobi, known as \"Dead Easy\", said he would enter proper politics at 65, but died at 47 in 1984 before that ambition was realised.\n      why: flat: Who is Ayodele Awojobi? The fact never tells me why he matters, so 'Dead Easy' and the age 65 vs 47 mean nothing to me — it's a stranger's sad story, not \nThis subject is now covered. Move to something unrelated."
+    },
+    {
+      "step": 6,
+      "thought": "Demola Aladekomo and Ayodele Awojobi were thin/obscure. I need a rich biographical subject in a different field. Nigerian firsts in medicine or science with dramatic lives: 'Oluyombo Awojobi' (r23, 2477 words) is a rural surgeon, inventor and humanitarian — a rich, dramatic life linking medicine and invention. But to avoid the Awojobi family, let me search a fresh unrelated name: Nigerian cardiolo",
+      "action": "search",
+      "detail": "\"Bisi Ezerioha\"",
+      "observation": "Search \"Bisi Ezerioha\" (Wikipedia):\nr31  Bisi Ezerioha  (wikipedia, 3003 words)\n     Ndubisi \"Bisi\" Ezerioha (born January 6, 1972) is a Nigerian-American engineer, professional race car driver, entrepreneur and engine builder. He is the current CEO and Chief Engin\nr32  MythBusters  (wikipedia, 15352 words)\n     MythBusters is a science entertainment television series created by Peter Rees, and produced by Beyond International, in Australia. The series premiered on the Discovery Channel in\nr33  Tory Belleci  (wikipedia, 2426 words)\n     Salvatore Paul Belleci ( bə-LAY-chee; born October 30, 1970) is an American television personality and model maker, best known for his work on the Discovery Channel television prog\nr34  African immigration to the United States  (wikipedia, 12741 words)\n     African immigration to the United States refers to immigrants to the United States who are or were nationals of modern African countries. The term African in the scope of this arti\nr35  Paweł Kalinowski  (wikipedia, 929 words)\n     Paweł Kalinowski (born 1981) is a graphic designer and artist from Łódź, Poland."
+    },
+    {
+      "step": 7,
+      "thought": "Bisi Ezerioha (r31, 3003 words) is a rich biographical subject — a Nigerian-American engineer, race car driver and engine builder who links Nigeria to the global automotive world, exactly the kind of 'person who links two worlds' the brief favors. Reading it now.",
+      "action": "read",
+      "detail": "r31 \"Bisi Ezerioha\"",
+      "observation": "Read r31 \"Bisi Ezerioha\": 6 facts verified, 2 failed the verifier, 1 already in the app or this run.\nKEPT (1):\n  + [3/3, Records] Engineer and engine builder Bisi Ezerioha entered Anambra State University of Technology at 15 to study petrochemical engineering, then built the world's fastest carbureted front wheel drive vehicle.\nSTRONG BUT SET ASIDE FOR VARIETY (3):\n  ~ Engineer and engine builder Bisi Ezerioha's 2015 Bisimoto Hyundai Sonata was the most powerful Sonata sedan in  (one fact per document; ranked lower)\n  ~ Engineer and race car driver Bisi Ezerioha built the 935 K3V, a 1984 Porsche 911 chassis with a custom 935 bod  (one fact per document; ranked lower)\n  ~ Engineer and race car driver Bisi Ezerioha hosted Motor MythBusters alongside mechanic Faye Hadley and MythBus  (one fact per document; ranked lower)\nWEAK (1):\n  - [1/3] Engineer and race car driver Bisi Ezerioha set the world record in 2009 as the first naturally aspirated FWD to run 150 mph in a quarter mil\n      why: obscure: I've never heard of Bisi Ezerioha and the fact never tells me why a 150 mph quarter mile in a front-wheel-drive car should mean anything to me — it's j\nThis subject is now covered. Move to something unrelated."
+    },
+    {
+      "step": 8,
+      "thought": "Two subjects covered so far are both engineers/inventors; I need an unrelated field with a rich, dramatic life. Nigerian firsts in medicine or science with a surprising story: I'll search for a specific name — Nigerian neurosurgeon 'Olusola Adeyemi' or better, 'Emmanuel Ameh'... Actually a strong candidate is Nigerian-born surgeon 'Olutoyin Falusi' — but let me pick a well-documented dramatic figu",
+      "action": "",
+      "detail": "",
+      "observation": "'' is not an action. Use search, read or finish."
+    },
+    {
+      "step": 9,
+      "thought": "Two subjects covered are both engineers/inventors. I need an unrelated field with a rich, dramatic life. A strong candidate is Nigerian-born surgeon and inventor in medicine — but to avoid engineers, let me search for a Nigerian first in a different domain: 'Oluyombo Awojobi' is a rural surgeon/inventor but shares the Awojobi name. Instead, a rich dramatic Nigerian medical first is 'Ameyo Adadevoh",
+      "action": "search",
+      "detail": "\"Mohammed Bah Abba\"",
+      "observation": "Search \"Mohammed Bah Abba\" (Wikipedia):\nr36  Mohammed Bah Abba  (wikipedia, 520 words)\n     Mohammed Bah Abba (1964–2010) was a teacher from northern Nigeria who developed the pot-in-pot refrigerator in the 1990s. This refrigerator is extremely simple and does not require\nr37  Ba (surname)  (wikipedia, 984 words)\n     Ba, Bâ, and Bah are potentially related West African surnames, usually of Fula origin. In the Fula culture of Guinea, Mali, and Senegal, the surname Diakité is considered equivalen\nr38  Pot-in-pot refrigerator  (wikipedia, 2358 words)\n     A pot-in-pot refrigerator, clay pot cooler or zeer (Arabic: زير) is a non-electric evaporative cooling refrigeration device. It uses a porous outer clay pot (lined with wet sand) c\nr39  Rolex Awards for Enterprise  (wikipedia, 3796 words)\n     The Rolex Awards for Enterprise is an award from Rolex since 1976 to support exceptional individuals who take on major challenges, and projects to improve the world. Each winner re\nr40  Muhammad (name)  (wikipedia, 8777 words)\n     Muhammad (Arabic: مُحَمَّد, romanized: Muḥammad) is an Arabic given male name meaning \"praiseworthy\". The name comes from the passive participle of the Arabic verb ḥammada (حَمَّدَ\nr41  Tessema Nadew  (wikipedia, 1854 words)\n     Ras Bitwoded Tessema Nadew (died 10 April 1911; horse name Abba Qamaw) was an Ethiopian military officer and politician who on 28 October 1909 was proclaimed as Ethiopia's future B\nr42  Al-Hazem FC  (wikipedia, 2224 words)\n     Al-Hazem Saudi Club (Arabic: نادي الحزم السعودي, romanized: nādī al-ḥazm as-suʿūdiyy, lit. 'Determination') is a Saudi Arabian professional football club based in Ar Rass, that com\nr43  Sullubawa  (wikipedia, 1564 words)\n     The Sullubawa, Sisilɓe or Sullubanko'en are a Fulani clan that historically featured prominently in the Jihad of Usman dan Fodio which founded the Sokoto Caliphate. The ruling dyna\nr44  Mohammed Abdullah (Sayyid)  (wikipedia, 7054 words)\n     Sayyid Moḥammad Abdallah Hassan (Somali: Maxamed Cabdulle Xasan; Arabic: امحمد بن عبد الله حسن; 7 April 1856 – 21 December 1920) was a Somali scholar, poet, military leader and rel\nr45  General debate of the seventy-ninth session of the United Nations General Assembly  (wikipedia, 3187 words)\n     The General debate of the seventy-ninth session of the United Nations General Assembly (UNGA) opened on 24 September 2024 and continued until 28 September, returning for a last day\nr46  Red Sea crisis  (wikipedia, 34894 words)\n     The Red Sea crisis is an ongoing armed conflict and maritime crisis instigated by the Houthis, an armed group in Yemen. The Houthis began launching missiles and armed drones at Isr\nr47  Darod  (wikipedia, 8652 words)\n     The Darod (Somali: Daarood) is a Somali clan. The semi-legendary forefather of this clan is Abdirahman bin Isma'il al-Jabarti, more commonly known as Darod."
+    },
+    {
+      "step": 10,
+      "thought": "The Mohammed Bah Abba search returned a thin stub (520 words) for the inventor himself, but the pot-in-pot refrigerator article (r38, 2358 words) is a rich document about a Nigerian invention with global reach — exactly the kind of 'Nigerian first/inventor' story that yields strong facts. Reading it now.",
+      "action": "read",
+      "detail": "r38 \"Pot-in-pot refrigerator\"",
+      "observation": "Read r38 \"Pot-in-pot refrigerator\": 6 facts verified, 0 failed the verifier, 0 already in the app or this run.\nKEPT (1):\n  + [3/3, History] Pot-in-pot refrigerator inventor Mohamed Bah Abba won the Rolex Award for Enterprise in 2001 and used his $75,000 prize to make his invention available throughout Nigeria.\nSTRONG BUT SET ASIDE FOR VARIETY (1):\n  ~ In rural northern Nigeria in the 1990s, potmaker Mohamed Bah Abba developed the Pot-in-Pot Preservation Coolin  (one fact per document; ranked lower)\nWEAK (4):\n  - [0/3] A zeer costs about 150 naira to make in Nigeria and sells for 180-200 naira, roughly US$1.20 to US$1.30 in 2011.\n      why: obscure: I don't even know what a zeer is, so a price tag on it means nothing to me — this reads like a line from a business report, not a fact.\n  - [0/3] Evaporative cooling may have been used in North Africa as early as Egypt's Old Kingdom, circa 2500 BC, with frescoes showing slaves fanning \n      why: obscure: It's a maybe ('may have been') about slaves fanning jars — no name, no number that lands, nothing I'd repeat, and 'zeer' sounds like a typo.\n  - [0/3] Clay pots from around 3000 BC discovered in the Indus Valley civilization are considered to have been used for cooling as well as storing wa\n      why: obscure: It's a dry archaeology note about pots in the Indus Valley — no person, no number that lands, no link to anything I know, and 'considered to have been \n  - [0/3] In the 1890s, gold miners in Australia developed the Coolgardie safe, based on the same evaporative cooling principles as the pot-in-pot.\n      why: obscure: It's a random Australian history fact that only mentions the pot-in-pot as a comparison, so there's nothing Nigerian or shocking in it for me to send.\nThis subject is now covered. Move to something unrelated."
+    },
+    {
+      "step": 11,
+      "thought": "Three subjects covered are all inventors/engineers (Awojobi, Ezerioha, Bah Abba). I need an unrelated field with a rich, dramatic life. Nigerian firsts in medicine: a strong candidate is 'Oluyombo Awojobi' — but shares the Awojobi name. Instead, a rich dramatic Nigerian medical first is 'Ameyo Adadevoh' (already mined). Let me try a Nigerian first in aviation or a dramatic inventor story: 'Olusegu",
+      "action": "",
+      "detail": "",
+      "observation": "'' is not an action. Use search, read or finish."
+    },
+    {
+      "step": 12,
+      "thought": "Three subjects covered are all inventors/engineers; I need an unrelated field. A rich, dramatic Nigerian 'first' is in aviation or exploration. Let me search for a specific Nigerian aviation pioneer with a dramatic life — 'Olusegun Kuku' is obscure, but 'Adeola Odeku' or better, the first Nigerian pilot. Actually a strong candidate linking two worlds is Nigerian-born surgeon/explorer. Let me try '",
+      "action": "search",
+      "detail": "\"Olusegun Kuku\"",
+      "observation": "Search \"Olusegun Kuku\" (Wikipedia):\nr49  Eko Boys' High School  (wikipedia, 1885 words)\n     Eko Boys' High School (EBHS) is a boys' secondary school in Mushin, Lagos State, Nigeria. It was founded on 13 January 1913 by the Reverend William Benjamin Euba, a Methodist minis\nr50  Death and the King's Horseman  (wikipedia, 2691 words)\n     Death and the King's Horseman is a play by Wole Soyinka based on a real incident that took place in Nigeria during the colonial era: the horseman of a Yoruba King was prevented fro\nr51  Executive Council of Oyo State  (wikipedia, 849 words)\n     The Oyo State Executive Council (informally, the Cabinet of Oyo State) is the highest formal governmental body that plays important roles in the Oyo State Government headed by the \nr52  Ijebu Ode  (wikipedia, 3981 words)\n     Ijebu-Ode () is a city and Local government area in Ogun State, South West Nigeria, close to the A121 highway. The city is located 110 km by road northeast of Lagos; it is within 1\nr53  Executive Council of Ogun State  (wikipedia, 1478 words)\n     The Ogun State Executive Council (also known as the Cabinet of Ogun State) is the highest formal governmental body that plays important roles in the Government of Ogun State headed\nr54  2025–26 DPMM FC season  (wikipedia, 10351 words)\n     The 2025–26 season was DPMM FC's 21st season overall in the history of the club. They were competing in the Malaysia Super League for the first time since the 2007–08 season, leavi\nr55  African Academy of Sciences  (wikipedia, 3094 words)\n     The African Academy of Sciences (AAS) is a non-aligned, non-political, not-for-profit, pan-African learned society formed in 1985. The AAS elects fellows (FAAS) and affiliates.\nr56  Botnet  (wikipedia, 10302 words)\n     A botnet is a group of Internet-connected devices, each of which runs one or more bots. Botnets can be used to perform distributed denial-of-service (DDoS) attacks, steal data, sen"
+    },
+    {
+      "step": 13,
+      "thought": "Three subjects covered are all inventors/engineers. I need an unrelated field with a rich, dramatic life. A strong candidate is a Nigerian first in medicine or aviation. Let me search for a specific Nigerian aviation pioneer with a dramatic biography — 'Adeola Odeku' was a banker, not right. Better: search for the first Nigerian pilot, 'Olusegun Kuku' returned nothing useful. Let me try a rich med",
+      "action": "search",
+      "detail": "\"Ben Enwonwu\"",
+      "observation": "Search \"Ben Enwonwu\" (Wikipedia):\nr57  Ben Enwonwu  (wikipedia, 3745 words)\n     Odinigwe Benedict Chukwukadibia Enwonwu MBE (14 July 1917 – 5 February 1994), better known as Ben Enwonwu, was a Nigerian painter and sculptor. Arguably the most influential Africa\nr58  Enwonwu (crater)  (wikipedia, 327 words)\n     Enwonwu is an impact crater on the planet Mercury. It is named in honor of Ben Enwonwu, the modernist Nigerian sculptor and painter.\nr59  Oliver Enwonwu  (wikipedia, 1448 words)\n     Oliver Enwonwu is a Nigerian artist, curator, art administrator, writer and publisher, who comes from a long line of artists; his grandfather was a reputable traditional sculptor, \nr60  Statue of Elizabeth II, Lagos  (wikipedia, 1510 words)\n     A bronze sculpture of Elizabeth II by the Nigerian sculptor Ben Enwonwu was commissioned by the Queen on her visit to Nigeria in 1956, and she sat for Enwonwu in London in 1957. It\nr61  Ben Enwonwu's Daily Mirror sculptures  (wikipedia, 836 words)\n     The Nigerian artist Ben Enwonwu created a series of wooden sculptures for the London headquarters of the Daily Mirror in 1961. The sculptures subsequently disappeared from the news\nr62  Anyanwu (sculpture)  (wikipedia, 1843 words)\n     Anyanwu (English: The Awakening) is a bronze sculpture created by the Nigerian artist Ben Enwonwu between 1954 and 1955. It is a representation of the Igbo mythological figure and \nr63  Tutu (painting)  (wikipedia, 895 words)\n     Tutu is a series of three portraits painted by the Nigerian artist Ben Enwonwu of the Ifẹ princess Adetutu Ademiluyi ('Tutu') in 1973. The three paintings have been missing since 1\nr64  Government College Umuahia  (wikipedia, 3266 words)\n     Government College Umuahia (GCU) is a boys' boarding secondary school at Umudike, near Umuahia in Abia State, southeastern Nigeria. It opened in 1929 as a colonial government teach\nr65  Lagos  (wikipedia, 40151 words, mined before; its best facts are in the app)\n     Lagos (; LAY-goss; Yoruba: Èkó [èkó]), or Lagos City, is a large metropolitan port city in southwestern Nigeria. As of November 2025, the size of the city's population has been est\nr66  Es'kia Mphahlele  (wikipedia, 5458 words)\n     Es'kia Mphahlele (17 December 1919 – 27 October 2008) was a South African writer, educationist, artist and activist celebrated as the Father of African Humanism and one of the foun\nr67  Amos Tutuola  (wikipedia, 4261 words)\n     Amos Tutuola (Yoruba: Ámósì Tutùọlá; 20 June 1920 – 8 June 1997) was a Nigerian writer who wrote books based in part on Yoruba folk-tales.\nr68  Ademiluyi Ajagun  (wikipedia, 1222 words)\n     Ademiluyi Ajagun () was the 48th Ooni of Ife, a paramount traditional king of Ile-Ife, the ancestral home of the Yorubas. He was one of the most feared kings and was highly respect"
+    },
+    {
+      "step": 14,
+      "thought": "Three subjects so far are all inventors/engineers. I need an unrelated field. Ben Enwonwu (r57, 3745 words) is a rich, dramatic biographical subject — Nigeria's most influential modern artist who links Nigeria to the global art world, with a Mercury crater named after him. This is a strong 'first' story in a different category (Culture/Art).",
+      "action": "read",
+      "detail": "r57 \"Ben Enwonwu\"",
+      "observation": "Read r57 \"Ben Enwonwu\": 7 facts verified, 1 failed the verifier, 1 already in the app or this run.\nKEPT (1):\n  + [3/3, Culture] Nigerian painter and sculptor Ben Enwonwu's 1973 portrait of Ife princess Adetutu Ademiluyi, missing since 1975, was found in a London flat in 2017 and sold for £1,205,000.\nSTRONG BUT SET ASIDE FOR VARIETY (2):\n  ~ Queen Elizabeth II commissioned and sat for a portrait sculpture by Nigerian sculptor Ben Enwonwu during her 1  (History is full this run)\n  ~ Wooden sculptures by Nigerian sculptor Ben Enwonwu for the Daily Mirror's London headquarters were found in 20  (one fact per document; ranked lower)\nWEAK (3):\n  - [0/3] Ben Enwonwu was appointed the first professor of Fine Arts at the University of Ife, Ile-Ife, from 1971 to 1975.\n      why: obscure: It's just a job title and a date range — no turn, no number that lands, nothing that makes me want to send it to anybody.\n  - [0/3] Ben Enwonwu, Nigerian painter and sculptor, saw his Risen Christ torched at the University of Ibadan amid political-religious tensions.\n      why: obscure: I know Enwonwu is a big name in Nigerian art but this just tells me one of his pieces got burned somewhere, with no reason why it matters or what happe\n  - [1/3] Ben Enwonwu, born a twin in Onitsha in 1917, inherited his sculptor father's tools at age four and went on to be called 'Africa's Greatest A\n      why: obscure: Inheriting tools at four is a nice detail but I still don't know a single thing he made, so there's nothing to react to or send.\nThis subject is now covered. Move to something unrelated."
+    },
+    {
+      "step": 15,
+      "thought": "Four subjects covered are all inventors/engineers/artists. I need an unrelated field with a rich, dramatic life. Nigerian firsts in medicine or science: a strong candidate is a Nigerian-born doctor with a dramatic story. Let me search for 'Oluyombo Awojobi' — a rural surgeon/inventor with a rich life — but to avoid the Awojobi name, I'll try Nigerian neurosurgeon 'Olutoyin Falusi'... Actually a we",
+      "action": "search",
+      "detail": "\"Olufunmilayo Olopade\"",
+      "observation": "Search \"Olufunmilayo Olopade\" (Wikipedia):\nr70  Olufunmilayo Olopade  (wikipedia, 2916 words)\n     Olufunmilayo I. Olopade born in the year 1957, is a Nigerian hematology oncologist, Associate Dean for Global Health and Walter L. Palmer, Distinguished Service Professor in Medici\nr71  Dayo Olopade  (wikipedia, 1095 words)\n     Dayo Olopade is a Nigerian-American writer and lawyer and the author of The Bright Continent: Breaking Rules and Making Change in Modern Africa.\nr72  Funmi  (wikipedia, 416 words)\n     Funmi is a feminine given name meaning \"for me\" or \"give me\" in Yoruba. It is a diminutive version of names such as: \"Olufunmilola/Oluwafunmilola\" (God has given me wealth) or \"Fun\nr73  University of Ibadan  (wikipedia, 7808 words)\n     The University of Ibadan (UI) is a federal university located in Ibadan, Oyo State, Nigeria. Initially founded as the University College, Ibadan in 1948, it maintained its affiliat\nr74  MacArthur Fellows Program  (wikipedia, 14611 words)\n     The MacArthur Fellows Program, also known as the MacArthur Fellowship and colloquially called the \"Genius Grant\", is a prize awarded annually by the John D. and Catherine T. MacArt\nr75  Yoruba Americans  (wikipedia, 2528 words)\n     Yoruba Americans (Yoruba: Àwọn ọmọ Yorùbá Amẹrika) are Americans of Yoruba descent. The Yoruba people are a West African ethnic group that predominantly inhabits southwestern Niger\nr76  St Anne's School, Ibadan  (wikipedia, 2198 words)\n     St Anne's School, Ibadan is a secondary school for girls in Ibadan, Nigeria. The school took its current name in 1950, after a merger between Kudeti Girls School, founded in 1899, \nr77  Adeyinka Gladys Falusi  (wikipedia, 2644 words)\n     Adeyinka Gladys Falusi, FAS NPOM, is a Nigerian Professor of haematology and former Director of the Institute for Advanced Medical Research and Training, College of Medicine, Unive\nr78  Four Freedoms Award  (wikipedia, 3023 words)\n     The Four Freedoms Award is an annual award presented to \"those men and women whose achievements have demonstrated a commitment to those principles which US President Franklin D. Ro"
+    },
+    {
+      "step": 16,
+      "thought": "Four subjects covered are all inventors/engineers/artists; I need an unrelated field. Olufunmilayo Olopade (r70, 2916 words) is a rich biographical subject — a Nigerian oncologist who discovered the genetic basis of breast cancer risk in Black women, linking Nigeria to global medicine. This is a strong 'first' story in the Health category, which is thin in the app.",
+      "action": "read",
+      "detail": "r70 \"Olufunmilayo Olopade\"",
+      "observation": "Read r70 \"Olufunmilayo Olopade\": 5 facts verified, 1 failed the verifier, 0 already in the app or this run.\nKEPT (1):\n  + [3/3, Health] Olufunmilayo Olopade, a Nigerian oncologist, found that 80% of tumours in African women did not need estrogen to grow, compared to 20% in Caucasian women.\nSTRONG BUT SET ASIDE FOR VARIETY (0):\nWEAK (4):\n  - [0/3] Olufunmilayo Olopade, a Nigerian oncologist, was one of three African-Americans to receive the MacArthur Foundation's $500,000 \"genius grant\n      why: obscure: It's a Nigerian doctor winning a grant — no twist, no number that stings, nothing to send; I'd scroll past it.\n  - [0/3] Olufunmilayo Olopade, a Nigerian oncologist, was granted the Order of Lincoln in 2019, the highest honour bestowed by the State of Illinois.\n      why: obscure: I've never heard of her and the fact never tells me what she actually did to deserve it, so it's just a name and a plaque I can't react to.\n  - [0/3] Olufunmilayo Olopade, a Nigerian oncologist, started her career in 1980 as a medical officer in the Nigerian Navy Hospital.\n      why: flat: It never tells me why this woman matters — no first, no discovery, no number — so it's just a stranger's CV opening line, and starting out in the Navy Hos\n  - [0/3] Olufunmilayo Olopade, a Nigerian oncologist, found a gene that helped suppress tumour growth at the University of Chicago in 1987.\n      why: obscure: I don't know what gene, what tumour, or why 1987 at Chicago matters — it's a CV line, not a fact, and there's nothing in it to react to.\nThis subject is now covered. Move to something unrelated."
+    },
+    {
+      "step": 17,
+      "thought": "Five subjects covered are inventors/engineers/artists/oncologist. I need an unrelated field with a rich, dramatic life. Nigerian 'firsts' in aviation or exploration would be a fresh category. Let me search for a specific Nigerian aviation pioneer with a dramatic biography — 'Adeola Odeku' was a banker, not right. A strong candidate is the first Nigerian pilot or a Nigerian-born astronaut. Let me t",
+      "action": "search",
+      "detail": "\"Chinyere Kalu\"",
+      "observation": "Search \"Chinyere Kalu\" (Wikipedia):\nr79  Chinyere Kalu  (wikipedia, 1214 words)\n     Chinyere Kalu, MFR (née Onyenucheya) is the first Nigerian female commercial pilot and the first woman to fly an aircraft in Nigeria. She served as the Rector/Chief Executive of th\nr80  Chinyere  (wikipedia, 125 words)\n     Chinyere is a common Igbo given name that means “God provides”. It can be an element in longer names, such as Nkechinyere (\"what\" - that is, a child - \"God has provided\").\nr81  FC Badalona Women  (wikipedia, 2953 words)\n     Futbol Club Badalona Women, also officially shortened to ONA (Catalan for \"wave\") – and previously known as Levante Las Planas (Llevant Les Planes) and Levante Badalona – is a Span\nr82  Lugard (film)  (wikipedia, 719 words)\n     Lugard is a 2021 Nigerian action movie written by Laduba Quadri Qidad and Segun Akejeje. The movie was directed by Tunde Olaoye, produced by Hakeem Olageshin and released under the\nr83  Diiche  (wikipedia, 2719 words)\n     Diiche is a 2022 Nigerian Showmax thriller television series directed by James Omokwe, and co-directed by Tolu Ajayi, Fiyin Gambo, and Ifeoma Chukwuogo. Regarded as the first Niger\nr84  Nini (2025 film)  (wikipedia, 2731 words)\n     Nini is a 2025 Nigerian action drama film written, produced, and directed by Sam Idiagbonya (DGN). Originally titled Albeit, it is a contemporary African family adventure story cen\nr85  Ike Nwosu  (wikipedia, 974 words)\n     Chinyere Ike Nwosu (born 21 November 1946) was a Nigerian Military Administrator of Abia State (December 1993 – September 1994) and then of Oyo State (September 1994 – August 1996)\nr86  Football at the 2023 African Games  (wikipedia, 2424 words)\n     Football at the 2023 African Games was held in Ghana between 7 and 22 March 2024. In addition to the African Games host city of Accra, matches were also played in Cape Coast.\nr87  Nigerian College of Aviation Technology  (wikipedia, 2084 words)\n     The Nigerian College of Aviation Technology is a higher education institute in Zaria, Kaduna State, Nigeria. It is funded by the Civil Aviation Department in the Nigerian Federal M\nr88  Kingsley Abasili  (wikipedia, 1357 words)\n     Kingsley Nkemjika Abasili is a Nigerian actor and lecturer at Nnamdi Azikiwe University, Anambra State, Nigeria. He is known for his striking resemblance to veteran actor Pete Edoc\nr89  2022 FIFA U-20 Women's World Cup squads  (wikipedia, 13441 words)\n     Each country's final squad has to comprise 21 players. The final squads were confirmed by FIFA on 3 August 2022.\nr90  Women in aviation  (wikipedia, 31211 words)\n     Women have been involved in aviation from the beginnings of both lighter-than air travel and as airplanes, helicopters and space travel were developed. Women pilots were also forme"
+    },
+    {
+      "step": 18,
+      "thought": "Five subjects covered are all inventors/engineers/artists/oncologist. I need an unrelated field with a rich, dramatic life. Chinyere Kalu (r79, 1214 words) is the first Nigerian female commercial pilot — a strong 'first' in aviation, a fresh category, though the article is a bit short. Let me read it since aviation is a genuinely new domain.",
+      "action": "read",
+      "detail": "r79 \"Chinyere Kalu\"",
+      "observation": "Read r79 \"Chinyere Kalu\": 1 facts verified, 1 failed the verifier, 0 already in the app or this run.\nKEPT (0):\nSTRONG BUT SET ASIDE FOR VARIETY (0):\nWEAK (1):\n  - [0/3] Chinyere Kalu, Nigeria's first female commercial pilot, was appointed Rector of the Nigerian College of Aviation Technology, Zaria in Octobe\n      why: obscure: Cool for her, but it's just a job title and a date — there's no turn, no number, no link, nothing that makes me want to tell anybody.\nThis subject is now covered. Move to something unrelated."
+    },
+    {
+      "step": 19,
+      "thought": "Chinyere Kalu was thin (job title only). I need a rich, dramatic Nigerian 'first' in a fresh category. Nigerian aviation pioneer with a dramatic life: the first Nigerian pilot to fly — 'Olusegun Kuku' returned nothing. A strong candidate is a Nigerian-born astronaut or a record-setting aviator. Let me try 'Adeola Odeku' — no, a banker. Better: search for the first Nigerian woman to fly solo or a N",
+      "action": "search",
+      "detail": "\"Cyprian Emeka Uzoh\"",
+      "observation": "Search \"Cyprian Emeka Uzoh\" found nothing usable."
+    },
+    {
+      "step": 20,
+      "thought": "Five subjects so far are inventors/engineers/artists/oncologist/aviator. I need a rich, dramatic Nigerian 'first' in a genuinely fresh category. Cyprian Emeka Uzoh is a Nigerian-American engineer who holds hundreds of patents in semiconductor technology — a strong 'first/inventor' linking Nigeria to global computing, but I should verify a rich article exists. Let me search his name.",
+      "action": "search",
+      "detail": "\"Cyprian Emeka Uzoh\"",
+      "observation": "Search \"Cyprian Emeka Uzoh\" found nothing usable."
+    },
+    {
+      "step": 21,
+      "thought": "Five subjects covered are inventors/engineers/artists/oncologist/aviator. I need a rich, dramatic Nigerian 'first' in a genuinely fresh category. A strong candidate is a Nigerian-born surgeon or medical pioneer with a dramatic life — 'Oluyombo Awojobi' is a rural surgeon/inventor but shares the Awojobi name. Instead, let me try a fresh, unrelated domain: Nigerian first in architecture or a dramati",
+      "action": "search",
+      "detail": "\"Oviemo Ovadje\"",
+      "observation": "Search \"Oviemo Ovadje\" (Wikipedia):\nr92  Autotransfusion  (wikipedia, 4794 words)\n     Autotransfusion is a process wherein a person receives their own blood for a transfusion, instead of banked allogeneic (separate-donor) blood. There are two main kinds of autotrans"
+    },
+    {
+      "step": 22,
+      "thought": "Oviemo Ovadje's search surfaced the Autotransfusion article (r92, 4794 words) — a rich, long document about a medical technique that Ovadje, a Nigerian surgeon, pioneered a device for. This is a fresh category (Health/medicine) and a strong Nigerian-first story. Reading it now.",
+      "action": "read",
+      "detail": "r92 \"Autotransfusion\"",
+      "observation": "Read r92 \"Autotransfusion\": 7 facts verified, 1 failed the verifier, 1 already in the app or this run.\nKEPT (1):\n  + [3/3, Health] Nigerian Oviemo Ovadje invented the EAT-SET in 1989, a blood auto-transfusion system that needs no electricity and recovers blood from internal bleeding.\nSTRONG BUT SET ASIDE FOR VARIETY (0):\nWEAK (5):\n  - [0/3] The first documented use of self-donated blood was in 1818, when Englishman Rey Paul Blundell salvaged vaginal blood from women with postpar\n      why: obscure: It's a random 1818 medical trivia fact about an Englishman I've never heard of, with no link to anything I know or care about — I'd scroll past it with\n  - [0/3] The Bentley Autotransfusion System, the first commercially available autotransfusion unit, was developed in 1968 and caused renal failure fr\n      why: obscure: It's a niche medical device I've never heard of and the fact never tells me why it matters or who it hurt, so there's nothing to react to.\n  - [0/3] The 'Cell Saver', a discontinuous flow centrifuge that washes red cells with saline, was introduced by Haemonetics Corp. in 1976.\n      why: obscure: This is a product spec sheet, not a fact — no person, no place, no turn, nothing to send anyone.\n  - [0/3] In 1914 a German, M. J. Theis, reported the first successful intraoperative autotransfusion, on a ruptured ectopic pregnancy.\n      why: obscure: I don't know what intraoperative autotransfusion is, I don't know who Theis is, and there's no turn — it's just a date and a procedure name, so there's\n  - [1/3] In 1886 J. Duncan, who used autotransfusion during limb amputation, removed blood from the amputated limb and returned it to the patient by \n      why: obscure: It's a genuinely wild 1886 medical first, but there's no name I know, no place, no number that lands, and nothing I'd repeat in a group chat — it reads\nThis subject is now covered. Move to something unrelated."
+    }
+  ],
+  "decidedAt": "2026-09-29T17:25:19.466Z",
+  "developed": [
+    "nf_1178",
+    "nf_1179"
+  ]
+}

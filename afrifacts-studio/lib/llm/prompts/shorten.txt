@@ -1,0 +1,24 @@
+This fact is too long to fit on a phone card. Rewrite it in at most
+{{limit}} characters.
+
+## The fact
+
+{{fact}}
+
+## The passage it was taken from
+
+{{passage}}
+
+## Rules
+
+- Keep the most surprising part and cut the rest. A list of items is
+  never the point: keep the one or two that land hardest.
+- Keep who the person is, if the fact is about a person.
+- Every number, name and claim in your version must appear in the
+  passage. Use the passage's own words where you can: your version is
+  checked word for word against it.
+- Add nothing the passage does not say.
+- One sentence. End on the most interesting word.
+- No em dashes (—). Use a comma, a colon or parentheses, or split the thought.
+
+Return JSON only: {"fact": "..."}

@@ -54,16 +54,6 @@ export async function supabaseConfig() {
   return { url, key, schema };
 }
 
-/** True if a push is even possible, without throwing. For UI. */
-export async function hasSupabase() {
-  try {
-    await supabaseConfig();
-    return true;
-  } catch {
-    return false;
-  }
-}
-
 /**
  * @param {SupabaseConfig} config
  * @param {Record<string, string>} extra

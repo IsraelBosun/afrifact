@@ -16,6 +16,12 @@
 import { readFile, readdir, writeFile } from 'node:fs/promises';
 
 import { exemplarsForPrompt } from '../calibration/exemplars.js';
+import { learnedSection } from '../calibration/learned.js';
+import { countryName } from '../judge/index.js';
+import { MAX_FACT_CHARS } from '../validate.js';
+import { shorten } from './shorten.js';
+import { checkIntroductions, introduce } from './introductions.js';
+import { leadOf } from './verify.js';
 import { MODELS, completeJson, loadPrompt } from '../llm/index.js';
 import { CACHE_DIR, CANDIDATES_PATH, CULLED_PATH, REJECTS_PATH, ensureDirs } from '../paths.js';
 import { CATEGORIES } from '../types/fact.js';
@@ -43,6 +49,7 @@ import { verify } from './verify.js';
  *   carries the whole locator, not just the URL: enrich builds the
  *   citation from this and never reopens the cached document to do it.
  * @property {string} country
+ * @property {string} [lead] The document's opening, when the fact leans on it to introduce its people.
  */
 
 /**
@@ -171,12 +178,15 @@ Look for that FIRST. It is the reason this document is here.
  * @param {(line: string) => void} [onProgress]
  * @param {AbortSignal} [signal]
  * @param {string} [wanted] What was searched for when this document was chosen.
+ * @param {{ learned?: boolean }} [options] `learned: false` leaves out the
+ *   judged examples, so `npm run extract:eval` can measure what they add.
  * @returns {Promise<{ kept: Candidate[], rejected: Reject[] }>}
  */
-export async function extractFrom(doc, onProgress, signal, wanted = '') {
+export async function extractFrom(doc, onProgress, signal, wanted = '', options = {}) {
   const kind = doc.kind ?? 'wikipedia';
   const prompt = await loadPrompt('extract', {
     title: doc.title,
+    country: countryName(doc.country),
     // Said accurately rather than always "Wikipedia". The model is told
     // what it is reading, and a newspaper is not an encyclopedia — it
     // reports what was claimed as much as what happened, and knowing
@@ -189,6 +199,7 @@ export async function extractFrom(doc, onProgress, signal, wanted = '') {
         : `Wikipedia, revision ${doc.revisionId}, fetched ${doc.fetchedAt}`,
     document: doc.text,
     exemplars: exemplarsForPrompt(),
+    learned: options.learned === false ? '' : await learnedSection(),
     wanted: wantedSection(wanted),
   });
 
@@ -216,11 +227,50 @@ export async function extractFrom(doc, onProgress, signal, wanted = '') {
     }
 
     const c = parsed.value;
+
+    // Too long for the card: one attempt at a shorter version from the
+    // same passage, which still goes through verify below. If it cannot
+    // be cut down honestly, it is rejected for length.
+    if (c.fact.length > MAX_FACT_CHARS) {
+      const short = await shorten(c.fact, c.passage, { signal, onProgress });
+      if (!short) {
+        rejected.push({
+          slug: doc.slug,
+          fact: c.fact,
+          passage: c.passage,
+          reasons: [`${c.fact.length} characters, over the card's ${MAX_FACT_CHARS}, and no grounded shorter version was found.`],
+        });
+        continue;
+      }
+      c.fact = short;
+    }
+
     const reasons = [...verify(c.fact, c.passage, doc.text).reasons, ...belowBar(c.surprise)];
 
     if (reasons.length > 0) {
       rejected.push({ slug: doc.slug, fact: c.fact, passage: c.passage, reasons });
       continue;
+    }
+
+    // Does it say who its people are? Decided in introductions.js: the
+    // model lists names, code decides. A fact that assumes the reader
+    // knows someone gets one rewrite that introduces them, grounded in
+    // the passage plus the article's opening; if that fails, it goes.
+    const intro = await checkIntroductions(c.fact, { signal, onProgress });
+    if (!intro.ok) {
+      const lead = leadOf(doc.text);
+      const fixed = await introduce(c.fact, c.passage, lead, intro.missing, { signal, onProgress });
+      if (!fixed) {
+        rejected.push({
+          slug: doc.slug,
+          fact: c.fact,
+          passage: c.passage,
+          reasons: [`Assumes the reader knows ${intro.missing.join(', ')}, and no grounded introduction could be written.`],
+        });
+        continue;
+      }
+      c.fact = fixed.fact;
+      if (fixed.usedLead) c.lead = lead;
     }
 
     kept.push({

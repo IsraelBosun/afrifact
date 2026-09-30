@@ -1132,5 +1132,295 @@
     "decidedAt": "2026-09-12T10:26:22.810Z",
     "at": "2026-09-12T10:26:22.810Z",
     "refused": []
+  },
+  "nf_1161": {
+    "status": "accepted",
+    "file": "File:Alhassan Dantata.png",
+    "reasoning": "The image is a portrait of Alhassan Dantata, the person the fact is about.",
+    "decidedBy": "pipeline",
+    "decidedAt": "2026-09-28",
+    "at": "2026-09-28T19:19:51.838Z",
+    "refused": []
+  },
+  "nf_1169": {
+    "status": "accepted",
+    "file": "web:60dbb808c89b",
+    "reasoning": "The image shows Chioma Ajunwa, the subject of the fact, competing in the women's long jump.",
+    "decidedBy": "pipeline",
+    "decidedAt": "2026-09-28",
+    "at": "2026-09-28T19:20:31.739Z",
+    "refused": []
+  },
+  "nf_1166": {
+    "status": "accepted",
+    "file": "web:b4edd382edaf",
+    "reasoning": "Top web image result for \"Palazzo Versace Dubai\". Licence not checked.",
+    "decidedBy": "pipeline",
+    "decidedAt": "2026-09-28",
+    "at": "2026-09-28T19:20:36.827Z",
+    "refused": []
+  },
+  "nf_1167": {
+    "status": "accepted",
+    "file": "web:d884147c24f6",
+    "reasoning": "Top web image result for \"Samuel Okwaraji Lagos National Stadium\". Licence not checked.",
+    "decidedBy": "pipeline",
+    "decidedAt": "2026-09-28",
+    "at": "2026-09-28T19:20:42.624Z",
+    "refused": []
+  },
+  "nf_1168": {
+    "status": "accepted",
+    "file": "web:db0732541ed3",
+    "reasoning": "Top web image result for \"Ameyo Adadevoh\". Licence not checked.",
+    "decidedBy": "pipeline",
+    "decidedAt": "2026-09-28",
+    "at": "2026-09-28T19:21:06.881Z",
+    "refused": []
+  },
+  "nf_1172": {
+    "status": "accepted",
+    "file": "File:ThecuteAbiola on curiosity made me ask.png",
+    "reasoning": "The image shows Cute Abiola, the comedian who is the subject of this fact.",
+    "decidedBy": "pipeline",
+    "decidedAt": "2026-09-29",
+    "at": "2026-09-29T05:44:44.365Z",
+    "refused": []
+  },
+  "nf_1171": {
+    "status": "accepted",
+    "file": "web:65ab59be0608",
+    "reasoning": "Top web image result for \"Michael Ibru Nigeria industrialist\". Licence not checked.",
+    "decidedBy": "pipeline",
+    "decidedAt": "2026-09-29",
+    "at": "2026-09-29T05:45:05.225Z",
+    "refused": []
+  },
+  "nf_1173": {
+    "status": "accepted",
+    "file": "web:44ffe622d99d",
+    "reasoning": "Top web image result for \"Stella Obasanjo Nigeria First Lady\". Licence not checked.",
+    "decidedBy": "pipeline",
+    "decidedAt": "2026-09-29",
+    "at": "2026-09-29T05:45:40.109Z",
+    "refused": []
+  },
+  "nf_1174": {
+    "status": "accepted",
+    "file": "File:Jason Njoku 01.jpg",
+    "reasoning": "The image shows Jason Njoku, the businessman who is the subject of this fact.",
+    "decidedBy": "pipeline",
+    "decidedAt": "2026-09-29",
+    "at": "2026-09-29T05:56:19.142Z",
+    "refused": []
+  },
+  "nf_1176": {
+    "status": "accepted",
+    "file": "File:Guest of Honor - Dele Olojede.jpg",
+    "reasoning": "The image shows Dele Olojede, the subject of the fact about his Pulitzer Prize win.",
+    "decidedBy": "pipeline",
+    "decidedAt": "2026-09-29",
+    "at": "2026-09-29T05:56:29.697Z",
+    "refused": []
+  },
+  "nf_1175": {
+    "status": "accepted",
+    "file": "web:0cb117004d44",
+    "reasoning": "Top web image result for \"Chicken Republic Apapa Lagos\". Licence not checked.",
+    "decidedBy": "pipeline",
+    "decidedAt": "2026-09-29",
+    "at": "2026-09-29T05:56:36.578Z",
+    "refused": []
+  },
+  "nf_1177": {
+    "status": "accepted",
+    "file": "File:Kevin Olusola (42077235010).jpg",
+    "reasoning": "The image shows Kevin Olusola, the person the fact is about.",
+    "decidedBy": "pipeline",
+    "decidedAt": "2026-09-29",
+    "at": "2026-09-29T06:13:29.900Z",
+    "refused": []
+  },
+  "nf_1178": {
+    "status": "accepted",
+    "file": "web:4b2eabbd4897",
+    "reasoning": "Top web image result for \"Tutu Ben Enwonwu painting\". Licence not checked.",
+    "decidedBy": "pipeline",
+    "decidedAt": "2026-09-29",
+    "at": "2026-09-29T17:26:01.144Z",
+    "refused": []
+  },
+  "nf_1179": {
+    "status": "accepted",
+    "file": "web:07c4ba38ad13",
+    "reasoning": "Found by web search.",
+    "decidedBy": "Israel",
+    "decidedAt": "2026-09-29",
+    "at": "2026-09-29T17:28:25.459Z",
+    "refused": []
+  },
+  "nf_1181": {
+    "status": "accepted",
+    "file": "File:Hugo Weaving 2014.jpg",
+    "reasoning": "The image shows Hugo Weaving, the person the fact is about.",
+    "decidedBy": "pipeline",
+    "decidedAt": "2026-09-29",
+    "at": "2026-09-29T18:48:45.542Z",
+    "refused": []
+  },
+  "nf_1182": {
+    "status": "accepted",
+    "file": "web:839adbed1533",
+    "reasoning": "Top web image result for \"Massimo Moratti Inter Milan\". Licence not checked.",
+    "decidedBy": "pipeline",
+    "decidedAt": "2026-09-29",
+    "at": "2026-09-29T18:49:15.788Z",
+    "refused": []
+  },
+  "nf_1183": {
+    "status": "accepted",
+    "file": "web:467efdb757b5",
+    "reasoning": "Top web image result for \"Freddie Mercury Zanzibar house\". Licence not checked.",
+    "decidedBy": "pipeline",
+    "decidedAt": "2026-09-29",
+    "at": "2026-09-29T19:02:40.417Z",
+    "refused": []
+  },
+  "nf_1184": {
+    "status": "accepted",
+    "file": "web:81d1a09b43ae",
+    "reasoning": "Top web image result for \"Mohammed Dewji MeTL Group\". Licence not checked.",
+    "decidedBy": "pipeline",
+    "decidedAt": "2026-09-29",
+    "at": "2026-09-29T19:02:46.195Z",
+    "refused": []
+  },
+  "nf_1185": {
+    "status": "accepted",
+    "file": "web:8ae1d2a76c8e",
+    "reasoning": "The image depicts Leslie Scott, the inventor of Jenga named in the fact.",
+    "decidedBy": "pipeline",
+    "decidedAt": "2026-09-29",
+    "at": "2026-09-29T19:13:59.644Z",
+    "refused": []
+  },
+  "nf_1186": {
+    "status": "accepted",
+    "file": "web:aadcbcad0598",
+    "reasoning": "Top web image result for \"Mbwana Samatta Tanzania striker\". Licence not checked.",
+    "decidedBy": "pipeline",
+    "decidedAt": "2026-09-29",
+    "at": "2026-09-29T19:22:19.508Z",
+    "refused": []
+  },
+  "nf_1187": {
+    "status": "accepted",
+    "file": "File:The Crisis at Zanzibar, British War-Ships engaged in the Bombardment of the Sultan's Palace - ILN 1896.jpg",
+    "reasoning": "The illustration depicts the British warships bombarding the Sultan's palace during the Anglo-Zanzibar War of 1896, the exact event the fact describes.",
+    "decidedBy": "pipeline",
+    "decidedAt": "2026-09-29",
+    "at": "2026-09-29T19:39:26.959Z",
+    "refused": []
+  },
+  "nf_1188": {
+    "status": "accepted",
+    "file": "web:cf30b27eb03d",
+    "reasoning": "Top web image result for \"Hospital Agostinho Neto Praia\". Licence not checked.",
+    "decidedBy": "pipeline",
+    "decidedAt": "2026-09-29",
+    "at": "2026-09-29T19:47:27.609Z",
+    "refused": []
+  },
+  "nf_1189": {
+    "status": "accepted",
+    "file": "web:8bc3c3fd3221",
+    "reasoning": "Top web image result for \"Meia Praia beach Lagos Algarve\". Licence not checked.",
+    "decidedBy": "pipeline",
+    "decidedAt": "2026-09-29",
+    "at": "2026-09-29T19:47:31.276Z",
+    "refused": []
+  },
+  "nf_1190": {
+    "status": "accepted",
+    "file": "web:5dbda1fa3e43",
+    "reasoning": "Top web image result for \"Kwame Nkrumah Lincoln University\". Licence not checked.",
+    "decidedBy": "pipeline",
+    "decidedAt": "2026-09-29",
+    "at": "2026-09-29T19:52:47.995Z",
+    "refused": []
+  },
+  "nf_1191": {
+    "status": "accepted",
+    "file": "web:5c69bf1345d7",
+    "reasoning": "Top web image result for \"Fela Kuti Movement of the People\". Licence not checked.",
+    "decidedBy": "pipeline",
+    "decidedAt": "2026-09-29",
+    "at": "2026-09-29T19:52:53.355Z",
+    "refused": []
+  },
+  "nf_1193": {
+    "status": "accepted",
+    "file": "web:917b0eb22fd7",
+    "reasoning": "Found by web search.",
+    "decidedBy": "Israel",
+    "decidedAt": "2026-09-29",
+    "at": "2026-09-29T20:17:08.989Z",
+    "refused": [
+      "web:917b0eb22fd7"
+    ]
+  },
+  "nf_1195": {
+    "status": "accepted",
+    "file": "File:Bislett Games 2026 - Letsile Tebogo (cropped).jpg",
+    "reasoning": "The image shows Letsile Tebogo, the sprinter who is the subject of this fact about his Olympic gold medal.",
+    "decidedBy": "pipeline",
+    "decidedAt": "2026-09-29",
+    "at": "2026-09-29T20:13:15.159Z",
+    "refused": []
+  },
+  "nf_1194": {
+    "status": "accepted",
+    "file": "web:9be0c50d0e7d",
+    "reasoning": "Top web image result for \"Botswana independence 1966 Gaborone\". Licence not checked.",
+    "decidedBy": "pipeline",
+    "decidedAt": "2026-09-29",
+    "at": "2026-09-29T20:13:25.386Z",
+    "refused": []
+  },
+  "nf_1196": {
+    "status": "accepted",
+    "file": "File:Mark Shuttleworth NASA.jpg",
+    "reasoning": "The image shows Mark Shuttleworth, the subject of the fact, aboard the ISS during his spaceflight.",
+    "decidedBy": "pipeline",
+    "decidedAt": "2026-09-30",
+    "at": "2026-09-30T06:13:54.152Z",
+    "refused": []
+  },
+  "nf_1197": {
+    "status": "accepted",
+    "file": "web:72302771ddd6",
+    "reasoning": "Top web image result for \"Elon Musk\". Licence not checked.",
+    "decidedBy": "pipeline",
+    "decidedAt": "2026-09-30",
+    "at": "2026-09-30T06:14:06.248Z",
+    "refused": []
+  },
+  "nf_1198": {
+    "status": "accepted",
+    "file": "web:ae75b78467bd",
+    "reasoning": "Top web image result for \"Sasol Secunda plant\". Licence not checked.",
+    "decidedBy": "pipeline",
+    "decidedAt": "2026-09-30",
+    "at": "2026-09-30T06:14:09.282Z",
+    "refused": []
+  },
+  "nf_1199": {
+    "status": "accepted",
+    "file": "web:d1dc9e4d886d",
+    "reasoning": "Top web image result for \"African lion Serengeti Tanzania\". Licence not checked.",
+    "decidedBy": "pipeline",
+    "decidedAt": "2026-09-30",
+    "at": "2026-09-30T07:11:47.212Z",
+    "refused": []
   }
 }

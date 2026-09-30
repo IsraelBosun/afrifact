@@ -1,0 +1,698 @@
+{
+  "runId": "agent-2026-09-29T20-07-06",
+  "status": "done",
+  "brief": "Inventors and firsts from Botswana",
+  "country": "BW",
+  "target": 5,
+  "createdAt": "2026-09-29T20:12:39.342Z",
+  "stopReason": "Document budget used up.",
+  "docsRead": 8,
+  "webQueriesSpent": 0,
+  "shortlist": [
+    {
+      "key": "s1",
+      "fact": "At Botswana's independence in 1966 it was the world's third-poorest country, with just 12 kilometres of paved roads and only 22 university graduates.",
+      "category": "History",
+      "votes": "3/3",
+      "why": "I've heard 'Botswana was poor' my whole life but never with numbers, and 22 graduates is the one that actually stops you.",
+      "title": "Seretse Khama",
+      "url": "https://en.wikipedia.org/wiki/Seretse_Khama",
+      "candidate": {
+        "fact": "At Botswana's independence in 1966 it was the world's third-poorest country, with just 12 kilometres of paved roads and only 22 university graduates.",
+        "passage": "At the time of its independence in 1966, Botswana was the world's third-poorest country, poorer than most other African countries. Its infrastructure was minimal, with only 12 kilometres (7.5 miles) of paved roads; and few of its people had formal education, with only 22 university graduates and 100 secondary school graduates.",
+        "category": "History",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "Botswana is now seen as an African success story, so its starting point of 12 km of paved roads and 22 graduates is rarely known.",
+        "volatile": false,
+        "slug": "seretse-khama",
+        "country": "BW",
+        "source": {
+          "title": "Seretse Khama",
+          "url": "https://en.wikipedia.org/wiki/Seretse_Khama",
+          "revisionId": "1376046602",
+          "contentHash": "2a7f8c66b659266e",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "s2",
+      "fact": "Botswana sprinter Letsile Tebogo's 200 m win at Paris 2024 was Botswana's first-ever Olympic gold medal, and the country declared a holiday that afternoon to celebrate.",
+      "category": "Sports",
+      "votes": "3/3",
+      "why": "I watched that race live and still didn't know it was our first gold ever, and the same-day holiday is the detail that makes the group chat lose it.",
+      "title": "Letsile Tebogo",
+      "url": "https://en.wikipedia.org/wiki/Letsile_Tebogo",
+      "candidate": {
+        "fact": "Botswana sprinter Letsile Tebogo's 200 m win at Paris 2024 was Botswana's first-ever Olympic gold medal, and the country declared a holiday that afternoon to celebrate.",
+        "passage": "On 8 August 2024, Tebogo won the 200 m final at the Paris Olympics, earning the first-ever gold medal for Botswana with a time of 19.46s. His victory led to a holiday being declared in Botswana to celebrate his feat on the afternoon of 9 August.",
+        "category": "Sports",
+        "surprise": {
+          "priorProbability": 3,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "Most readers know Tebogo won Olympic gold, but few know Botswana declared a national holiday the next afternoon because of it.",
+        "volatile": false,
+        "slug": "letsile-tebogo",
+        "country": "BW",
+        "source": {
+          "title": "Letsile Tebogo",
+          "url": "https://en.wikipedia.org/wiki/Letsile_Tebogo",
+          "revisionId": "1375693120",
+          "contentHash": "71cd3e710ce78818",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "s3",
+      "fact": "In 1992 Unity Dow, a human rights activist and lawyer, sued Botswana's attorney-general over nationality laws, sparking a wave of changes across Africa.",
+      "category": "History",
+      "votes": "3/3",
+      "why": "It's our own country, a named woman, and the ending is way bigger than I'd ever have guessed — that's a group chat 'no way'.",
+      "title": "Unity Dow",
+      "url": "https://en.wikipedia.org/wiki/Unity_Dow",
+      "candidate": {
+        "fact": "In 1992 Unity Dow, a human rights activist and lawyer, sued Botswana's attorney-general over nationality laws, sparking a wave of changes across Africa.",
+        "passage": "In 1992, she was the plaintiff in the landmark legal case, Unity Dow v Attorney-General, which ended the gender discrimination in the nation's nationality laws that had previously not allowed children to derive nationality from their married mothers. The case gained Dow international attention and sparked a wave of changes eliminating gender disparity in nationality laws across Africa.",
+        "category": "History",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 5
+        },
+        "reasoning": "A single Botswana lawsuit credited with changing nationality law across nearly half of Africa is a scale most readers would never guess.",
+        "volatile": false,
+        "slug": "unity-dow",
+        "country": "BW",
+        "source": {
+          "title": "Unity Dow",
+          "url": "https://en.wikipedia.org/wiki/Unity_Dow",
+          "revisionId": "1376195531",
+          "contentHash": "e79b90be6ef9d5a0",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    }
+  ],
+  "alternates": [
+    {
+      "key": "a1",
+      "fact": "Botswana's first president Seretse Khama married English clerk Ruth Williams in 1948, alarming apartheid South Africa.",
+      "category": "History",
+      "votes": "3/3",
+      "why": "I know his name from school and the pula notes but nobody ever told me he married a white woman in 1948 and that it scared apartheid South Africa — that's a whole drama hiding behind a boring founding-father portrait.",
+      "title": "Seretse Khama",
+      "url": "https://en.wikipedia.org/wiki/Seretse_Khama",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "Botswana's first president Seretse Khama married English clerk Ruth Williams in 1948, alarming apartheid South Africa.",
+        "passage": "In June 1947, Khama met Ruth Williams, an English clerk at Lloyd's of London. After a year of courtship, they married in September 1948. The interracial marriage sparked a furore, alarming both the Union of South Africa, which had established legal apartheid (racial segregation), and the tribal elders of the Bamangwato, who were angered he had not chosen one of their women.",
+        "category": "History",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 5
+        },
+        "reasoning": "Most readers know Khama as a founding president but not that his marriage to an Englishwoman caused his exile from Bechuanaland.",
+        "volatile": false,
+        "slug": "seretse-khama",
+        "country": "BW",
+        "source": {
+          "title": "Seretse Khama",
+          "url": "https://en.wikipedia.org/wiki/Seretse_Khama",
+          "revisionId": "1376046602",
+          "contentHash": "2a7f8c66b659266e",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a2",
+      "fact": "Between 1960 and 1980 Botswana had the fastest-growing economy in the world, driven by mining.",
+      "category": "Business",
+      "votes": "3/3",
+      "why": "I knew diamonds made us money but I never heard we were literally number one on earth for growth, that's a flex I'm sending to the group chat right now.",
+      "title": "Seretse Khama",
+      "url": "https://en.wikipedia.org/wiki/Seretse_Khama",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "Between 1960 and 1980 Botswana had the fastest-growing economy in the world, driven by mining.",
+        "passage": "Between 1960 and 1980 Botswana had the fastest-growing economy in the world. This growth was primarily driven by mining, and the government acted to gain a greater percentage of its revenue.",
+        "category": "Business",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 4,
+          "explicability": 4
+        },
+        "reasoning": "The scale of Botswana's growth is often assumed to be modest, not the fastest in the world over two decades.",
+        "volatile": false,
+        "slug": "seretse-khama",
+        "country": "BW",
+        "source": {
+          "title": "Seretse Khama",
+          "url": "https://en.wikipedia.org/wiki/Seretse_Khama",
+          "revisionId": "1376046602",
+          "contentHash": "2a7f8c66b659266e",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a3",
+      "fact": "In 1975 Botswana renegotiated its diamond mining agreement to guarantee itself 50% of the revenues, and by the mid-1970s it had a budget surplus.",
+      "category": "Business",
+      "votes": "4/6",
+      "why": "I knew diamonds made us money but I always assumed we got the short end of the deal, so hearing we actually negotiated half the revenue that early is a flex I did not know we had.",
+      "title": "Seretse Khama",
+      "url": "https://en.wikipedia.org/wiki/Seretse_Khama",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "In 1975 Botswana renegotiated its diamond mining agreement to guarantee itself 50% of the revenues, and by the mid-1970s it had a budget surplus.",
+        "passage": "In 1975, after it had become clear how productive these mines were, the government again renegotiated the diamond mining agreement to guarantee itself 50% of the revenues. By the mid-1970s, Botswana had a budget surplus.",
+        "category": "Business",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "The specific 50% revenue share and the resulting surplus are concrete details rarely known outside Botswana.",
+        "volatile": false,
+        "slug": "seretse-khama",
+        "country": "BW",
+        "source": {
+          "title": "Seretse Khama",
+          "url": "https://en.wikipedia.org/wiki/Seretse_Khama",
+          "revisionId": "1376046602",
+          "contentHash": "2a7f8c66b659266e",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a4",
+      "fact": "Seretse Khama, the first President of Botswana, was born in 1921 in Serowe, and his name means 'the clay that binds', given to celebrate his father's reconciliation with his grandfather.",
+      "category": "Culture",
+      "votes": "5/6",
+      "why": "I have taught this man's name for years and never once knew what it actually meant or why he was given it — that is the one thing the textbook left out.",
+      "title": "Seretse Khama",
+      "url": "https://en.wikipedia.org/wiki/Seretse_Khama",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "Seretse Khama, the first President of Botswana, was born in 1921 in Serowe, and his name means 'the clay that binds', given to celebrate his father's reconciliation with his grandfather.",
+        "passage": "Seretse Khama was born in 1921 in Serowe, in what was then the Bechuanaland Protectorate. He was the son of Queen Tebogo and Sekgoma Khama II, the paramount chief of the Bamangwato clan of the Tswana, and the grandson of Khama III, their king.  The name Seretse means \"the clay that binds\".  He was named this to celebrate the recent reconciliation of his father and grandfather; this reconciliation assured Seretse's own ascension to the throne with his aged father's death in 1925.",
+        "category": "Culture",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "The meaning of Khama's name and its origin in a family reconciliation is a specific cultural detail most readers would not know.",
+        "volatile": false,
+        "slug": "seretse-khama",
+        "country": "BW",
+        "source": {
+          "title": "Seretse Khama",
+          "url": "https://en.wikipedia.org/wiki/Seretse_Khama",
+          "revisionId": "1376046602",
+          "contentHash": "2a7f8c66b659266e",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a5",
+      "fact": "Botswana sprinter Letsile Tebogo broke the 300 m world best with 30.69 seconds in Pretoria on 17 February 2024.",
+      "category": "Records",
+      "votes": "4/6",
+      "why": "It's our guy and the distance is the twist — nobody races 300m, so the fact that he holds a world best in it is the thing I'd send to the group chat.",
+      "title": "Letsile Tebogo",
+      "url": "https://en.wikipedia.org/wiki/Letsile_Tebogo",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "Botswana sprinter Letsile Tebogo broke the 300 m world best with 30.69 seconds in Pretoria on 17 February 2024.",
+        "passage": "He broke the 300 m world best, running a time of 30.69 seconds on 17 February 2024 at altitude in Pretoria, South Africa.",
+        "category": "Records",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 3
+        },
+        "reasoning": "The 300 m is rarely run, so even track fans are unlikely to know who holds the world best or the exact time.",
+        "volatile": true,
+        "slug": "letsile-tebogo",
+        "country": "BW",
+        "source": {
+          "title": "Letsile Tebogo",
+          "url": "https://en.wikipedia.org/wiki/Letsile_Tebogo",
+          "revisionId": "1375693120",
+          "contentHash": "71cd3e710ce78818",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a6",
+      "fact": "Letsile Tebogo was the first man from Botswana to break the 10-second barrier, clocking 9.96 seconds at the Gaborone International Meet.",
+      "category": "Records",
+      "votes": "3/3",
+      "why": "I know Tebogo as the 200m guy, so finding out he was also the first from Botswana under 10 seconds — and that he did it in Gaborone — is something I'd actually send to the group chat.",
+      "title": "Letsile Tebogo",
+      "url": "https://en.wikipedia.org/wiki/Letsile_Tebogo",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "Letsile Tebogo was the first man from Botswana to break the 10-second barrier, clocking 9.96 seconds at the Gaborone International Meet.",
+        "passage": "Two months later, he became the first man from Botswana to break the 10-second barrier at the event as he clocked a time of 9.96 seconds at the Gaborone International Meet, setting a new world under-20 record.",
+        "category": "Records",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 3
+        },
+        "reasoning": "The specific meet and time of Botswana's first sub-10-second run is a niche detail most readers have never seen.",
+        "volatile": false,
+        "slug": "letsile-tebogo",
+        "country": "BW",
+        "source": {
+          "title": "Letsile Tebogo",
+          "url": "https://en.wikipedia.org/wiki/Letsile_Tebogo",
+          "revisionId": "1375693120",
+          "contentHash": "71cd3e710ce78818",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a7",
+      "fact": "Botswana's 4 × 400 m relay team ran 2:54.47 at the 2026 World Athletics Relays in Gaborone — a competition record and the third fastest ever at the time.",
+      "category": "Records",
+      "votes": "3/3",
+      "why": "I knew we were good at the 400 but I did not know we were third-fastest-in-history good, and it happened in Gaborone which makes it hit different.",
+      "title": "Letsile Tebogo",
+      "url": "https://en.wikipedia.org/wiki/Letsile_Tebogo",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "Botswana's 4 × 400 m relay team ran 2:54.47 at the 2026 World Athletics Relays in Gaborone — a competition record and the third fastest ever at the time.",
+        "passage": "In May 2026, Tebogo ran the second leg of the 4 × 400 m relay at the 2026 World Athletics Relays in Gaborone, Botswana, in front of a home crowd. The team ran a final time of 2:54.47, a competition record and the third fastest performance in the event ever at the time.",
+        "category": "Records",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 3
+        },
+        "reasoning": "A home-soil relay record set in Gaborone is recent and specific enough that few outside Botswana would know it.",
+        "volatile": true,
+        "slug": "letsile-tebogo",
+        "country": "BW",
+        "source": {
+          "title": "Letsile Tebogo",
+          "url": "https://en.wikipedia.org/wiki/Letsile_Tebogo",
+          "revisionId": "1375693120",
+          "contentHash": "71cd3e710ce78818",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a8",
+      "fact": "Lawyer and human rights activist Unity Dow grew up in a rural Botswana village with no paved roads, electricity or running water, and did not see a refrigerator until she was a teenager.",
+      "category": "History",
+      "votes": "3/3",
+      "why": "I know her name from the citizenship case but I never pictured her coming from a village with no electricity, and the fridge detail is the one that makes it real.",
+      "title": "Unity Dow",
+      "url": "https://en.wikipedia.org/wiki/Unity_Dow",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "Lawyer and human rights activist Unity Dow grew up in a rural Botswana village with no paved roads, electricity or running water, and did not see a refrigerator until she was a teenager.",
+        "passage": "The rural village in which she grew up had no paved roads, electricity nor running water. There were no telephones and she had not seen a refrigerator until she was a teenager, nor a television until she was twenty.",
+        "category": "History",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "The refrigerator and television ages are concrete, personal details that make a national figure's childhood vivid and unexpected.",
+        "volatile": false,
+        "slug": "unity-dow",
+        "country": "BW",
+        "source": {
+          "title": "Unity Dow",
+          "url": "https://en.wikipedia.org/wiki/Unity_Dow",
+          "revisionId": "1376195531",
+          "contentHash": "e79b90be6ef9d5a0",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a9",
+      "fact": "Botswana's criminal justice system has no designated last meal for the executed, and no sedatives are given before execution.",
+      "category": "History",
+      "votes": "5/6",
+      "why": "It's about my own country and I genuinely had no idea we do it like that — that's the kind of thing that makes the group chat go quiet.",
+      "title": "Mariette Bosch",
+      "url": "https://en.wikipedia.org/wiki/Mariette_Bosch",
+      "aside": "History is full this run",
+      "candidate": {
+        "fact": "Botswana's criminal justice system has no designated last meal for the executed, and no sedatives are given before execution.",
+        "passage": "The Botswana criminal justice system does not have a designated last meal for the executed. No sedatives are given to a prisoner before execution.",
+        "category": "History",
+        "surprise": {
+          "priorProbability": 5,
+          "specificity": 4,
+          "explicability": 3
+        },
+        "reasoning": "Most readers assume the American last-meal ritual is universal; Botswana's absence of it is a quiet correction.",
+        "volatile": false,
+        "slug": "mariette-bosch",
+        "country": "BW",
+        "source": {
+          "title": "Mariette Bosch",
+          "url": "https://en.wikipedia.org/wiki/Mariette_Bosch",
+          "revisionId": "1376462149",
+          "contentHash": "ccb8db3be167b209",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a10",
+      "fact": "South African woman executed in Botswana Mariëtte Bosch was to have her death sentence overturned by a petition from President Thabo Mbeki on 2 April 2001, not realising she had already been executed.",
+      "category": "History",
+      "votes": "3/3",
+      "why": "A president pleading for someone already buried is the kind of detail that makes the group chat go quiet for a second.",
+      "title": "Mariette Bosch",
+      "url": "https://en.wikipedia.org/wiki/Mariette_Bosch",
+      "aside": "History is full this run",
+      "candidate": {
+        "fact": "South African woman executed in Botswana Mariëtte Bosch was to have her death sentence overturned by a petition from President Thabo Mbeki on 2 April 2001, not realising she had already been executed.",
+        "passage": "On 2 April 2001 South African President Thabo Mbeki had been planning to launch a petition to get Bosch's death sentence overturned, not realizing that she had already been executed.",
+        "category": "History",
+        "surprise": {
+          "priorProbability": 5,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "A head of state acting on news that had not reached him is a specific, checkable and little-known detail.",
+        "volatile": false,
+        "slug": "mariette-bosch",
+        "country": "BW",
+        "source": {
+          "title": "Mariette Bosch",
+          "url": "https://en.wikipedia.org/wiki/Mariette_Bosch",
+          "revisionId": "1376462149",
+          "contentHash": "ccb8db3be167b209",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a11",
+      "fact": "Botswana prosecutors described the murder as encompassing \"the four Ls of murder — love, loot, lust and loathing.\"",
+      "category": "History",
+      "votes": "3/3",
+      "why": "It's my own country's courts sounding like a true crime podcast, and I've never heard a prosecutor phrase anything like that.",
+      "title": "Mariette Bosch",
+      "url": "https://en.wikipedia.org/wiki/Mariette_Bosch",
+      "aside": "History is full this run",
+      "candidate": {
+        "fact": "Botswana prosecutors described the murder as encompassing \"the four Ls of murder — love, loot, lust and loathing.\"",
+        "passage": "Botswana prosecutors said that the murder encompassed \"the four Ls of murder — love, loot, lust and loathing.\"",
+        "category": "History",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 4,
+          "explicability": 3
+        },
+        "reasoning": "A quotable prosecutorial formula that most readers have never seen attached to this case.",
+        "volatile": false,
+        "slug": "mariette-bosch",
+        "country": "BW",
+        "source": {
+          "title": "Mariette Bosch",
+          "url": "https://en.wikipedia.org/wiki/Mariette_Bosch",
+          "revisionId": "1376462149",
+          "contentHash": "ccb8db3be167b209",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    }
+  ],
+  "trace": [
+    {
+      "step": 1,
+      "thought": "Starting fresh on 'Inventors and firsts from Botswana'. I need a specific named person likely to have a rich Wikipedia article. Let me search for a well-known Botswana inventor or notable first, starting with a specific name.",
+      "action": "search",
+      "detail": "\"Botswana inventor\"",
+      "observation": "Search \"Botswana inventor\" (Wikipedia):\nr1  Thato Rantao Mwosa  (wikipedia, 424 words)\n     Thato Rantao Mwosa is a Botswana-American writer-director, illustrator, playwright, educator, and game inventor.\nr2  Dorcas (given name)  (wikipedia, 340 words)\n     Dorcas is a female given name. It derives from Dorcas (Ancient Greek: Δορκάς, romanized: Dorkás; Imperial Aramaic: טביתא, romanized: Ṭabītā; literally 'gazelle'), a figure from Act\nr3  PAL  (wikipedia, 11663 words)\n     PAL (an acronym for Phase Alternating Line) is a colour encoding system for analogue television. It was one of the three major analogue colour television standards, the others bein\nr4  Why Nations Fail  (wikipedia, 10195 words)\n     Why Nations Fail: The Origins of Power, Prosperity, and Poverty, first published in 2012, is a book by Turkish-American economist Daron Acemoglu and British-American economist Jame\nr5  45th Chess Olympiad  (wikipedia, 19756 words)\n     The 45th Chess Olympiad was an international team chess event organised by the International Chess Federation (FIDE) in Budapest, Hungary, from 10 to 22 September 2024. It consiste\nr6  Music genre  (wikipedia, 6864 words)\n     A music genre is a conventional category that identifies some pieces of music as belonging to a shared tradition or set of conventions. Genre is to be distinguished from musical fo\nr7  Browning Hi-Power  (wikipedia, 11094 words)\n     The Browning Hi-Power or 1935 Browning 9mm GP or Grand Puissance pistol is a single-action, semi-automatic pistol available in the 9×19mm Parabellum and .40 S&W calibers. It was ba\nr8  AK-47  (wikipedia, 26778 words)\n     The AK-47, full name Avtomat Kalashnikova 1947, officially known as the Avtomat Kalashnikova (Russian: Автомат Калашникова, lit. 'Kalashnikov's automatic'; also known as the Kalash\nr9  Uzi  (wikipedia, 11890 words)\n     The Uzi ( ; Hebrew: עוּזִי, romanized: ʿûzî; officially cased as UZI) is a family of Israeli open-bolt, blowback-operated submachine guns and machine pistols first designed by Majo\nr10  Amy B. Smith  (wikipedia, 2884 words)\n     Amy Smith (born November 4, 1962) is an American inventor, educator, and founder of the MIT D-Lab and senior lecturer of mechanical engineering at MIT.\nr11  Airship  (wikipedia, 22843 words)\n     An airship, dirigible balloon or dirigible is a type of aerostat (lighter-than-air) aircraft that can navigate through the air flying under its own power. Aerostats use buoyancy fr\nr12  Bosch (surname)  (wikipedia, 1109 words)\n     Bosch (Catalan: [ˈbɔsk] ; Dutch: [ˈbɔs] ) is a popular surname in Catalan and Dutch. In both languages, it is an archaic spelling of a word (modern Catalan bosc, modern Dutch bos) "
+    },
+    {
+      "step": 2,
+      "thought": "The search for 'Botswana inventor' returned mostly irrelevant results. The only Botswana-related hit is Thato Rantao Mwosa, but it's a short stub (424 words) and likely thin. I need a specific named person with a rich article. Let me search for a well-known Botswana figure, perhaps a notable first like the first Botswana Olympic medalist or a famous scientist.",
+      "action": "search",
+      "detail": "\"Botswana scientist\"",
+      "observation": "Search \"Botswana scientist\" (Wikipedia):\nr14  Botswana  (wikipedia, 22682 words)\n     Botswana, officially the Republic of Botswana, is a landlocked country in Southern Africa. Botswana is topographically flat, with approximately 70% of its territory being a part of\nr15  Economy of Botswana  (wikipedia, 9292 words)\n     Botswana has a developing economy considered upper-middle income. Growth in private sector employment averaged about 10% per annum during the first 30 years of the country's indepe\nr16  Botswana–Harvard AIDS Institute Partnership  (wikipedia, 502 words)\n     The Botswana–Harvard AIDS Institute Partnership (BHP) is an HIV/AIDS research and training organization. It was established in 1996.\nr17  Geography of Botswana  (wikipedia, 3701 words)\n     Botswana is a landlocked country located in Southern Africa, north of South Africa. Botswana occupies an area of 581,730 square kilometres (224,610 mi2).\nr18  National Assembly of Botswana  (wikipedia, 6887 words)\n     The National Assembly is the sole legislative body of Botswana's unicameral Parliament, of which consists of the President and the National Assembly. The House passes laws, provide\nr19  Science and technology in Botswana  (wikipedia, 5882 words)\n     Science, innovation and technology in Botswana covers the historical development of science policy, telecommunications, digital infrastructure, space technology, financial technolo\nr20  Kenneth Good (political scientist)  (wikipedia, 1280 words)\n     Kenneth Alfred Francis Good (12 December 1933 – 3 November 2020) was an Australian academic and formerly Professor of Political Science at the University of Botswana. He specialize\nr21  Alec Campbell (archaeologist)  (wikipedia, 550 words)\n     Alexander Colin Campbell (16 April 1932 – 24 November 2012) was an archaeologist and museum curator in Botswana. He was Emeritus Director of Botswana's Department of Wildlife and N\nr22  Opha Pauline Dube  (wikipedia, 2235 words)\n     Opha Pauline Dube (born 1960) is a Motswana environmental scientist and Associate Professor in the Department of Environmental Science at the University of Botswana. She co-authore\nr23  Murder of Segametsi Mogomotsi  (wikipedia, 1946 words)\n     Segametsi Mogomotsi was a 14-year-old schoolgirl who was found murdered on 6 November 1994 in Mochudi, Botswana. She went missing sometime on 5 November, and her body was found nak\nr24  Sheila Tlou  (wikipedia, 2691 words)\n     Professor Sheila Dinotshe Tlou is a Botswana nurse and nursing educator, specializing in HIV/AIDS and women's health. She served as Minister of Health of Botswana from 2004 to 2008\nr25  Mating (novel)  (wikipedia, 1856 words)\n     Mating (1991) is a novel by American author Norman Rush. It is a first-person narrative by an unnamed American anthropology graduate student in Botswana around 1980."
+    },
+    {
+      "step": 3,
+      "thought": "The searches so far returned mostly irrelevant results. I need a specific named Motswana person with a rich article. Let me think of notable Botswana firsts: the first Botswana Olympic medalist is Nijel Amos (silver 2012), a strong candidate. Also 'first Motswana' figures. Let me search for a specific person likely to have a rich Wikipedia article.",
+      "action": "search",
+      "detail": "\"Nijel Amos\"",
+      "observation": "Search \"Nijel Amos\" (Wikipedia):\nr29  Nijel Amos  (wikipedia, 3692 words)\n     Nijel Carlos Amilfitano Amos (born 15 March 1994) is a Botswana middle-distance runner who competes in the 800 metres. He won the silver medal at the 2012 London Olympics, which wa\nr30  David Rudisha  (wikipedia, 8490 words)\n     David Lekuta Rudisha, MBS (born 17 December 1988) is a retired Kenyan middle-distance runner who is the world and Olympic record holder in the 800 metres. Rudisha won gold medals i\nr31  Athletics at the 2012 Summer Olympics – Men's 800 metres  (wikipedia, 4044 words)\n     The men's 800 metres competition at the 2012 Summer Olympics in London, United Kingdom, was held at the Olympic Stadium on 6–9 August. Fifty-five athletes from 43 nations competed.\nr32  800 metres  (wikipedia, 12361 words)\n     The 800 metres is a common track running event. It is the shortest commonly run middle-distance running event, run over two laps of an outdoor (400-metre) track and has been an Oly\nr33  Botswana at the Olympics  (wikipedia, 2458 words)\n     Botswana has competed in 12 Summer Olympic Games since its debut in 1980. The nation has never participated in the Winter Olympic Games.\nr34  Emmanuel Wanyonyi  (wikipedia, 3112 words)\n     Emmanuel Wanyonyi (born 1 August 2004) is a Kenyan middle-distance runner who specialises in the 800 metres. He won the gold medal in this event at the 2024 Summer Olympics and the\nr35  Sebastian Coe  (wikipedia, 11841 words)\n     Sebastian Newbold Coe, Baron Coe (born 29 September 1956), often referred to as Seb Coe, is a British sports administrator, former politician and retired track and field athlete. A\nr36  Athletics at the 2020 Summer Olympics – Men's 800 metres  (wikipedia, 4631 words)\n     The men's 800 metres event at the 2020 Summer Olympics took place from 31 July to 4 August 2021 at the Japan National Stadium. In total 48 athletes were to start, but only 47 (from\nr37  Timothy Kitum  (wikipedia, 629 words)\n     Timothy Kitum (born 20 November 1994) is a Kenyan middle distance runner. He won a silver medal in the 800 m at the 2012 World Junior Championships in Athletics in Barcelona, finis\nr38  GW501516  (wikipedia, 3689 words)\n     GW501516 (also known as GW-501,516, GW1516, GSK-516, cardarine, and amongst performance enhancing drug communities as endurobol) is a PPARδ receptor agonist that was invented in a \nr39  Dave Wottle  (wikipedia, 2620 words)\n     David James Wottle (born August 7, 1950) is an American retired middle-distance track athlete. He was the gold medalist in the 800 meter run at the 1972 Summer Olympics in Munich a\nr40  Cooper Lutkenhaus  (wikipedia, 4524 words)\n     Cooper Lutkenhaus (born December 19, 2008) is an American track and field athlete who specializes in the 800 meters. The 2026 world indoor champion in this event, he holds the worl"
+    },
+    {
+      "step": 4,
+      "thought": "Nijel Amos is a strong candidate: Botswana's first Olympic medalist, a dramatic story. But the brief is 'inventors and firsts' — Amos is a first (first Olympic medal). His article is 3692 words, rich. Let me read it.",
+      "action": "read",
+      "detail": "r29 \"Nijel Amos\"",
+      "observation": "Read r29 \"Nijel Amos\": 1 facts verified, 3 failed the verifier, 0 already in the app or this run.\nKEPT (0):\nSTRONG BUT SET ASIDE FOR VARIETY (0):\nWEAK (1):\n  - [0/3] Nijel Amos, a Botswana middle-distance runner who won silver at the 2012 London Olympics, was banned for three years after testing positive \n      why: known: Everyone here knows about the doping ban, it was all over the news, so there's nothing to send.\nThis subject is now covered. Move to something unrelated."
+    },
+    {
+      "step": 5,
+      "thought": "Nijel Amos was thin (doping ban already known). I need a rich document about a Botswana person who links two worlds or an institution with a strange history. Let me try 'Seretse Khama' — the founding president who married a white Englishwoman, a famous scandal and dynasty with palace intrigue — a very rich article likely.",
+      "action": "search",
+      "detail": "\"Seretse Khama\"",
+      "observation": "Search \"Seretse Khama\" (Wikipedia):\nr43  Seretse Khama  (wikipedia, 5845 words)\n     Sir Seretse Goitsebeng Maphiri Khama, GCB, KBE (1 July 1921 – 13 July 1980) was a Motswana politician who served as the first President of Botswana, a post he held from 1966 to his\nr44  Ian Khama  (wikipedia, 6384 words)\n     Seretse Khama Ian Khama (; born 27 February 1953) is a Botswana politician and former military officer who served as the fourth President of Botswana from 1 April 2008 to 1 April 2\nr45  Sir Seretse Khama International Airport  (wikipedia, 2585 words)\n     Sir Seretse Khama International Airport (IATA: GBE, ICAO: FBSK), located 15 kilometres (9 mi) north of downtown Gaborone, is the main international airport of the capital city of B\nr46  Ruth Williams Khama  (wikipedia, 3866 words)\n     Ruth Williams Khama, Lady Khama (née Williams; 9 December 1923 – 22 May 2002) was the wife of Botswana's first president Sir Seretse Khama, the Paramount Chief of its Bamangwato tr\nr47  Khama III  (wikipedia, 3549 words)\n     Khama III (c. 1837 – 21 February, 1923), referred to by missionaries as Khama the Good also called Khama the Great, was the Kgosi (meaning king) of the Bangwato people.\nr48  Tshekedi Khama  (wikipedia, 1453 words)\n     Tshekedi Khama (17 September 1905 – 10 June 1959) was the regent-king of the Bamangwato tribe in 1926 after the death of Sekgoma II.\nr49  President of Botswana  (wikipedia, 3084 words)\n     The president of the Republic of Botswana is the head of state and the head of government of Botswana, as well as the commander-in-chief of the Botswana Defence Force, according to\nr50  A United Kingdom  (wikipedia, 3436 words)\n     A United Kingdom is a 2016 biographical romantic drama film directed by Amma Asante and written by Guy Hibbert, based on the true-life romance of Seretse Khama, heir to the throne \nr51  Tshekedi Khama II  (wikipedia, 1262 words)\n     Tshekedi Stanford Khama (born 9 June 1958) is a Motswana politician. He was MP for Serowe West from 2008 to 21 April 2023.\nr52  Botswana Democratic Party  (wikipedia, 10906 words)\n     The Botswana Democratic Party (abbr. BDP, colloquially known as Domkrag) is a centre-right political party in Botswana.\nr53  Evelyn Baring, 1st Baron Howick of Glendale  (wikipedia, 1932 words)\n     Evelyn Baring, 1st Baron Howick of Glendale (29 September 1903 – 10 March 1973), was Governor of Southern Rhodesia from 1942 to 1944, High Commissioner for Southern Africa from 194\nr14  Botswana  (wikipedia, 22682 words)\n     Botswana, officially the Republic of Botswana, is a landlocked country in Southern Africa. Botswana is topographically flat, with approximately 70% of its territory being a part of"
+    },
+    {
+      "step": 6,
+      "thought": "Nijel Amos was thin (doping ban already known). Seretse Khama is a rich candidate — founding president who married a white Englishwoman, a famous scandal and dynasty. But the brief is 'inventors and firsts'. Seretse Khama is a 'first' (first President) with a dramatic life. Let me read his article.",
+      "action": "read",
+      "detail": "r43 \"Seretse Khama\"",
+      "observation": "Read r43 \"Seretse Khama\": 7 facts verified, 1 failed the verifier, 1 already in the app or this run.\nKEPT (1):\n  + [3/3, History] At Botswana's independence in 1966 it was the world's third-poorest country, with just 12 kilometres of paved roads and only 22 university graduates.\nSTRONG BUT SET ASIDE FOR VARIETY (4):\n  ~ Botswana's first president Seretse Khama married English clerk Ruth Williams in 1948, alarming apartheid South  (one fact per document; ranked lower)\n  ~ Between 1960 and 1980 Botswana had the fastest-growing economy in the world, driven by mining.  (one fact per document; ranked lower)\n  ~ In 1975 Botswana renegotiated its diamond mining agreement to guarantee itself 50% of the revenues, and by the  (one fact per document; ranked lower)\n  ~ Seretse Khama, the first President of Botswana, was born in 1921 in Serowe, and his name means 'the clay that   (one fact per document; ranked lower)\nWEAK (1):\n  - [1/3] First President of Botswana Seretse Khama was paid respects by forty thousand people as his body lay in state in Gaborone after his death in\n      why: known: This is textbook material I teach — Sir Seretse Khama's death and the national mourning in 1980 is standard Botswana history, and forty thousand people f\nThis subject is now covered. Move to something unrelated."
+    },
+    {
+      "step": 7,
+      "thought": "Seretse Khama is covered. The brief is 'inventors and firsts from Botswana' and the app is thin in Business, Culture, Food, Sports, Records, Health. I need a specific named Motswana person with a rich article. Let me think of a Botswana 'first' or inventor — perhaps a notable business figure or a record-holder. A strong candidate: the first Motswana to win an Olympic medal is covered (Amos). Let m",
+      "action": "search",
+      "detail": "\"Letsile Tebogo\"",
+      "observation": "Search \"Letsile Tebogo\" (Wikipedia):\nr57  Letsile Tebogo  (wikipedia, 4655 words)\n     Letsile Tebogo (Tswana pronunciation: [lɪt͡silɛ tɛbʊχo]; born 7 June 2003) is a Botswana sprinter. He won the gold medal at the 2024 Summer Olympics in the 200 metres event, with h\nr58  Athletics at the 2024 Summer Olympics – Men's 100 metres  (wikipedia, 8065 words)\n     The men's 100 metres event at the 2024 Summer Olympics took place on 3 August and 4 August at the Stade de France in Paris. Noah Lyles won the gold medal, setting a new personal be\nr59  Noah Lyles  (wikipedia, 13251 words)\n     Noah Lyles (born July 18, 1997) is an American track and field sprinter who competes in various sprint race events. His personal best of 14.67 seconds in the 150 m reportedly set t\nr14  Botswana  (wikipedia, 22682 words)\n     Botswana, officially the Republic of Botswana, is a landlocked country in Southern Africa. Botswana is topographically flat, with approximately 70% of its territory being a part of\nr60  Tebogo  (wikipedia, 235 words)\n     Tebogo (also spelled Teboho/Thebukgo) is a given name or surname of Tswana and Sotho origin popular in southern African countries.\nr61  Usain Bolt  (wikipedia, 43401 words)\n     Usain St. Leo Bolt ( YOO-sayn; born 21 August 1986) is a Jamaican retired sprinter.\nr62  200 metres  (wikipedia, 14568 words)\n     The 200 metres, or 200-meter dash, is a sprint running event. On an outdoor 400-metre racetrack, the race begins on the curve and ends on the home straight, so a combination of tec\nr63  2026 World Athletics Ultimate Championship  (wikipedia, 5411 words)\n     The 2026 World Athletics Ultimate Championship was held at the National Athletics Centre in Budapest, Hungary, from 11 to 13 September 2026. Organised by World Athletics, it was an\nr64  Athletics at the 2024 Summer Olympics – Men's 200 metres  (wikipedia, 5613 words)\n     The men's 200 metres at the 2024 Summer Olympics was held in four rounds at the Stade de France in Paris, France, between 5 and 8 August 2024. This was the 29th time that the men's\nr65  2025 World Athletics Championships – Men's 100 metres  (wikipedia, 4637 words)\n     The men's 100 metres at the 2025 World Athletics Championships was held at the National Stadium in Tokyo on 13 and 14 September 2025.\nr66  Athletics at the 2024 Summer Olympics – Men's 4 × 400 metres relay  (wikipedia, 3348 words)\n     The men's 4 × 400 metres relay at the 2024 Summer Olympics was held in two rounds at the Stade de France in Paris, France, on 9 and 10 August 2024. This was the 26th time that the \nr33  Botswana at the Olympics  (wikipedia, 2458 words)\n     Botswana has competed in 12 Summer Olympic Games since its debut in 1980. The nation has never participated in the Winter Olympic Games."
+    },
+    {
+      "step": 8,
+      "thought": "Seretse Khama is covered and the brief is 'inventors and firsts'. Letsile Tebogo is a strong candidate — Botswana's first Olympic gold medalist, a dramatic story — but the search results show his article is rich (4655 words). However, I should aim for variety and the app is thin in Business, Culture, Food, Records, Health. Let me read the Tebogo article since it's a rich 'first' story and sports i",
+      "action": "read",
+      "detail": "r57 \"Letsile Tebogo\"",
+      "observation": "Read r57 \"Letsile Tebogo\": 7 facts verified, 0 failed the verifier, 1 already in the app or this run.\nKEPT (1):\n  + [3/3, Sports] Botswana sprinter Letsile Tebogo's 200 m win at Paris 2024 was Botswana's first-ever Olympic gold medal, and the country declared a holiday that afternoon to celebrate.\nSTRONG BUT SET ASIDE FOR VARIETY (3):\n  ~ Botswana sprinter Letsile Tebogo broke the 300 m world best with 30.69 seconds in Pretoria on 17 February 2024  (one fact per document; ranked lower)\n  ~ Letsile Tebogo was the first man from Botswana to break the 10-second barrier, clocking 9.96 seconds at the Ga  (one fact per document; ranked lower)\n  ~ Botswana's 4 × 400 m relay team ran 2:54.47 at the 2026 World Athletics Relays in Gaborone — a competition rec  (one fact per document; ranked lower)\nWEAK (2):\n  - [3/6] In 2021 Letsile Tebogo became the first Botswana athlete to win a 100 m title at any World Championships level.\n      why: known: Everyone here knows Tebogo is Botswana's sprint star, so him being the first to win a 100m world title is not news to me.\n  - [0/3] Letsile Tebogo was the first male winner of the Jesse Owens Rising Star Award, at the 2024 Diamond League Final in Brussels.\n      why: obscure: I know Tebogo, but an award name at a Diamond League final is just a line from a results page — there's no turn, no number, no link, nothing to send an\nThis subject is now covered. Move to something unrelated."
+    },
+    {
+      "step": 9,
+      "thought": "Two subjects covered (History, Sports). The app is thin in Business, Culture, Food, Records, Health. The brief is 'inventors and firsts from Botswana'. I need a specific named Motswana with a rich article in an unrelated field. A strong candidate: a Botswana business figure or a 'first' in a different domain. Let me think of a specific name — perhaps a notable Botswana musician or a business first",
+      "action": "search",
+      "detail": "\"Unity Dow\"",
+      "observation": "Search \"Unity Dow\" (Wikipedia):\nr69  Unity Dow  (wikipedia, 12291 words)\n     Unity Dow (née Diswai; born 23 April 1959) is a Motswana lawyer, author, human rights activist, Vice President of Botswana Congress Party and Member of Parliament for Kgatleng West\nr70  Attorney General of Botswana v. Unity Dow  (wikipedia, 2334 words)\n     Attorney General of Botswana v. Unity Dow (sometimes abbreviated Attorney General v.\nr71  Culture of Botswana  (wikipedia, 2271 words)\n     Besides referring to the language of the dominant people groups in Botswana, Setswana is the adjective used to describe the rich cultural traditions of the Batswana - whether const\nr72  Unity (given name)  (wikipedia, 116 words)\n     Unity is a rare female given name in English-speaking countries. Unity Croshaw (about 1636 – fl.\nr73  Kgatleng West  (wikipedia, 2138 words)\n     Kgatleng West is a constituency in the Kgatleng District represented by Unity Dow, a BCP MP in the National Assembly of Botswana since 2024.\nr74  1990s in Botswana  (wikipedia, 1048 words)\n     The following lists events that happened during the 1990s in Botswana.\nr75  Spinifex Press  (wikipedia, 1041 words)\n     Spinifex Press is an independent feminist book publisher based in Australia. It was established in March 1991 by Renate Klein and Susan Hawthorne, initially operating out of their \nr76  Literature of Botswana  (wikipedia, 5437 words)\n     Most literature in Botswana is written in English, though many works are published in Setswana and a small minority are published in other native languages. Economic challenges lim\nr77  Botswana Congress Party  (wikipedia, 1310 words)\n     The Botswana Congress Party (BCP) is a social democratic political party in Botswana. Founded in 1998 as a result of a split from the Botswana National Front (BNF), the party attra\nr23  Murder of Segametsi Mogomotsi  (wikipedia, 1946 words)\n     Segametsi Mogomotsi was a 14-year-old schoolgirl who was found murdered on 6 November 1994 in Mochudi, Botswana. She went missing sometime on 5 November, and her body was found nak\nr78  International Fact-Finding Mission on Israeli Settlements  (wikipedia, 1092 words)\n     The International Fact-Finding Mission on Israeli Settlements was a United Nations fact-finding mission created in March 2012 by the Human Rights Council, an agency of the United N\nr79  Tswana people  (wikipedia, 8353 words)\n     The Batswana (Tswana: Batswana, singular Motswana) are a Bantu ethnic group native to Southern Africa. Ethnic Tswana made up approximately 85% of the population of Botswana in 2011"
+    },
+    {
+      "step": 10,
+      "thought": "Two subjects covered (History, Sports). The app is thin in Business, Culture, Food, Records, Health. Unity Dow is a rich 12,291-word article about a Motswana lawyer and human rights activist — a 'first' figure (first woman High Court judge) with a dramatic life, in an unrelated field (law/culture). Let me read it.",
+      "action": "read",
+      "detail": "r69 \"Unity Dow\"",
+      "observation": "Read r69 \"Unity Dow\": 7 facts verified, 0 failed the verifier, 1 already in the app or this run.\nKEPT (1):\n  + [3/3, History] In 1992 Unity Dow, a human rights activist and lawyer, sued Botswana's attorney-general over nationality laws, sparking a wave of changes across Africa.\nSTRONG BUT SET ASIDE FOR VARIETY (1):\n  ~ Lawyer and human rights activist Unity Dow grew up in a rural Botswana village with no paved roads, electricit  (one fact per document; ranked lower)\nWEAK (4):\n  - [1/3] Lawyer and human rights activist Unity Dow opened the first all-woman law firm in Botswana, and in 1997 became the first woman appointed as \n      why: known: Everyone here knows Unity Dow, and the first woman High Court judge part is basically the standard line in every school textbook — nothing in this makes \n  - [1/3] As presiding judge in 2006, Unity Dow ruled that Botswana's removal of the Basarwa from the Central Kalahari Game Reserve violated their rig\n      why: known: Every Motswana who was paying attention in 2006 knows this — the Basarwa case was on the front page for months, and Unity Dow's name is attached to it in\n  - [2/6] Unity Dow, a Motswana lawyer and human rights activist, had a father who won a scholarship to the University of Fort Hare, but it was given \n      why: obscure: It's a sad story about her dad that I've never heard and wouldn't repeat — the fact is about him, not her, and it doesn't tell me anything about why Un\n  - [0/3] Botswana has the third highest HIV rate in the world, and human rights activist Unity Dow co-wrote Saturday Is for Funerals about it with Ha\n      why: flat: It tells me a book exists about something I already live with, and nothing in the sentence makes me feel anything new — no turn, no number I didn't know, \nThis subject is now covered. Move to something unrelated."
+    },
+    {
+      "step": 11,
+      "thought": "Three subjects covered (History, Sports, History). The app is thin in Business, Culture, Food, Records, Health. The brief is 'inventors and firsts from Botswana'. I need a specific named Motswana with a rich article in an unrelated field. A strong candidate: a Botswana business figure or a 'first' in a different domain. Let me think of a specific name — perhaps a notable Botswana musician or a bus",
+      "action": "search",
+      "detail": "\"Botswana musician\"",
+      "observation": "Search \"Botswana musician\" (Wikipedia):\nr80  Music of Botswana  (wikipedia, 5642 words)\n     Music of Botswana covers a broad spectrum of traditions, from the oldest surviving instruments in the archaeological record to contemporary artists whose work has reached internati\nr14  Botswana  (wikipedia, 22682 words)\n     Botswana, officially the Republic of Botswana, is a landlocked country in Southern Africa. Botswana is topographically flat, with approximately 70% of its territory being a part of\nr81  Samantha Mogwe  (wikipedia, 1049 words)\n     Samantha Mogwe is a Botswana musician. Her music is a fusion of R&B, Jazz and African.\nr82  Zeus (musician)  (wikipedia, 3187 words)\n     Game Goabaone Bantsi (born 22 July 1986), better known by his stage name Zeus, is a Motswana hip-hop artist, MC and businessman. He released a debut album, Freshly Baked, in 2008 w\nr79  Tswana people  (wikipedia, 8353 words)\n     The Batswana (Tswana: Batswana, singular Motswana) are a Bantu ethnic group native to Southern Africa. Ethnic Tswana made up approximately 85% of the population of Botswana in 2011\nr83  Banjo Mosele  (wikipedia, 604 words)\n     Banjo Timothy Mosele (born 1 April 1960) is a guitarist, singer and composer born in Kanye, Botswana.\nr84  Katlego Kai Kolanyane-Kesupile  (wikipedia, 1436 words)\n     Katlego Kai Kolanyane-Kesupile (born January 1988, also known as Kat Kai Kol-Kes) is a performance artist, musician, writer and LGBT activist from Botswana. She is known for being \nr85  Joe Morris (songwriter)  (wikipedia, 483 words)\n     Joseph Morris was born in Palapye, Botswana in 1966. His interest in music started early, playing the drums by the age of 8, later on guitar at 12, subsequently keyboards and piano\nr86  Gaborone  (wikipedia, 16136 words)\n     Gaborone (UK: GAB-ə-ROH-nee, HAB-, US: GAH-bə-ROH-nee, -⁠nay, Tswana: [χabʊˈrʊnɛ]) is the capital and largest city of Botswana. It was formerly spelled as Gaberones during the colo\nr87  Dr Vom  (wikipedia, 1201 words)\n     Dr Vom, real name Kangangwani Mogocha (born 1977), is a Motswana singer and songwriter from Tati Siding in the North East District of Botswana. He is widely regarded as the country\nr88  Samantha  (wikipedia, 6700 words)\n     Samantha is an English feminine given name in use since the 17th century that is of uncertain derivation. It is now in popular use worldwide due to various popular culture influenc\nr89  Musician  (wikipedia, 1281 words)\n     A musician is someone who composes, conducts, or performs music, especially instrumental music. According to the United States Employment Service, \"musician\" is a general term used"
+    },
+    {
+      "step": 12,
+      "thought": "Three subjects covered (History, Sports, History). The app is thin in Business, Culture, Food, Records, Health. The brief is 'inventors and firsts from Botswana'. I need a specific named Motswana with a rich article in an unrelated field. A strong candidate: a Botswana business figure or a 'first' in a different domain. Let me think of a specific name — perhaps a notable Botswana business figure l",
+      "action": "search",
+      "detail": "\"Linah Mohohlo\"",
+      "observation": "Search \"Linah Mohohlo\" (Wikipedia):\nr91  Linah Mohohlo  (wikipedia, 2143 words)\n     Linah Kelebogile Mohohlo (13 February 1952 – 2 June 2021) was a Botswana banker and university chancellor. She was the first female Governor of the Bank of Botswana from 1999 to 20\nr92  Bank of Botswana  (wikipedia, 911 words)\n     The Bank of Botswana (BoB; Tswana: Polokelo ya Madi ya Botswana) is the central bank of Botswana. When Botswana gained independence from Britain in 1966, the country was part of th\nr93  Margaret Elizabeth Kruk  (wikipedia, 3592 words)\n     Margaret Elizabeth Kruk is an American public health expert, physician and health systems researcher who is serving as Distinguished Professor of Health Systems and Medicine at Was\nr94  Deaths in June 2021  (wikipedia, 40563 words)\n     \nr95  Commission for Africa  (wikipedia, 1387 words)\n     The Commission for Africa, also known as the Blair Commission for Africa, was an initiative established by the British government to examine and provide impetus for development in \nr96  Caroline Kende-Robb  (wikipedia, 1831 words)\n     Caroline Kende-Robb (born 23 May 1963, Fleetwood, England) is a Senior Adviser at the African Center for Economic Transformation, a Pan-African think tank influencing policy across\nr97  Grand Bargain (humanitarian reform)  (wikipedia, 6071 words)\n     The Grand Bargain: Agenda for Humanity, usually called the Grand Bargain, is an agreement to reform the delivery of humanitarian aid, that was struck at the World Humanitarian Summ\nr98  Africa Progress Panel  (wikipedia, 1469 words)\n     The Africa Progress Panel (APP) was a Swiss-based foundation that was aimed at changing the policy through analysis, advocacy and diplomacy.\nr99  2021 in Botswana  (wikipedia, 4704 words)\n     Botswana continued to address the COVID-19 pandemic in 2021, beginning its vaccination process through the importation of vaccines. On November 11, Botswana was the location of the"
+    },
+    {
+      "step": 13,
+      "thought": "Three subjects covered (History, Sports, History). The app is thin in Business, Culture, Food, Records, Health. Linah Mohohlo is a strong candidate — first female Governor of the Bank of Botswana, a 'first' in Business, with a 2143-word article. Let me read it.",
+      "action": "read",
+      "detail": "r91 \"Linah Mohohlo\"",
+      "observation": "Read r91 \"Linah Mohohlo\": 4 facts verified, 1 failed the verifier, 3 already in the app or this run.\nKEPT (0):\nSTRONG BUT SET ASIDE FOR VARIETY (0):\nWEAK (1):\n  - [0/3] Linah Kelebogile Mohohlo, the first female Governor of the Bank of Botswana, died from COVID-19 complications at 69 on 2 June 2021, in Gabor\n      why: known: This was everywhere in Botswana in 2021 — the COVID death of the first female Bank of Botswana governor is not news to anyone here, it's a fact we all li\nThis subject is now covered. Move to something unrelated."
+    },
+    {
+      "step": 14,
+      "thought": "Linah Mohohlo was thin (COVID death already known). The app is thin in Business, Culture, Food, Records, Health. The brief is 'inventors and firsts'. Let me try a specific named Motswana business figure or a 'first' — perhaps a notable Botswana entrepreneur. I'll search for a specific name likely to have a rich article.",
+      "action": "search",
+      "detail": "\"Botswana entrepreneur\"",
+      "observation": "Search \"Botswana entrepreneur\" (Wikipedia):\nr100  Randall Newman  (wikipedia, 725 words)\n     Randall Newman is a Botswana entrepreneur, and the founder and chief executive officer of Verbosec.\nr101  Henry Newman (businessman)  (wikipedia, 586 words)\n     Henry Newman is a Botswana entrepreneur, and the founder and chief technical officer of Verbosec.\nr102  Maun, Botswana  (wikipedia, 2341 words)\n     Maun is the second-largest village in Botswana. As of 2022, it had a population of 85,293.\nr103  Mavis Nduchwa  (wikipedia, 1233 words)\n     Mavis Nduchwa, also known as Rewana Nduchwa (28 August 1982 – 13 August 2021), was the founder and CEO of the agribusiness Chabana Farms, which also trades as Kalahari Honey. She w\nr104  Botswana Accountancy College  (wikipedia, 1275 words)\n     The Botswana Accountancy College, also known as BAC, is a business school which is headquartered in the city of Gaborone, Botswana. Initially funded and established through a joint\nr105  Motor Company of Botswana  (wikipedia, 562 words)\n     The Motor Company of Botswana (Pty.) Ltd. was joint venture of the Hyundai Motor Company with its local dealership Hyundai Motor Distributors (Pty.).\nr106  Thapelo Letsholo (politician)  (wikipedia, 972 words)\n     Thapelo Letsholo is a Motswana politician and entrepreneur. He was Member of Parliament for Kanye North constituency from 2019 to 2024.\nr107  Cinema of Botswana  (wikipedia, 3786 words)\n     Film in Botswana covers the history of cinema and screen production in Botswana, from the earliest surviving footage of the Bechuanaland territory in the early twentieth century to\nr108  Thapelo Tsheole  (wikipedia, 1897 words)\n     Thapelo Tsheole is a Botswana executive and entrepreneur. He is the chief executive officer of the Botswana Stock Exchange, chairman of Committee of SADC Stock Exchanges and presid\nr79  Tswana people  (wikipedia, 8353 words)\n     The Batswana (Tswana: Batswana, singular Motswana) are a Bantu ethnic group native to Southern Africa. Ethnic Tswana made up approximately 85% of the population of Botswana in 2011\nr109  Mboko Basiami  (wikipedia, 443 words)\n     Mboko Basiami is a Motswana fashion designer and entrepreneur. She is the founder of the Botswana-based fashion brand Glotto, known for contemporary designs that draw on themes of \nr110  Kgalagadi Breweries Limited  (wikipedia, 1474 words)\n     Kgalagadi Breweries (Pty) Limited are brewers based in Gaborone, Botswana. They produce lager beers, traditional beers, bottled water and soft drinks under license."
+    },
+    {
+      "step": 15,
+      "thought": "Three subjects covered (History, Sports, History); app thin in Business, Culture, Food, Records, Health. The brief is 'inventors and firsts'. Cinema of Botswana (r107, 3786 words) is a rich long article about a national film industry with a strange history — likely to yield 'firsts' in Culture, an uncovered category. Let me read it.",
+      "action": "read",
+      "detail": "r107 \"Cinema of Botswana\"",
+      "observation": "Not read: \"Cinema of Botswana\" is the same subject as a fact this run already has (\"At Botswana's independence in 1966 it was the world's third-poorest country, with just 12 kilometres\"). One fact per subject. Choose something unrelated."
+    },
+    {
+      "step": 16,
+      "thought": "Three subjects covered (History, Sports, History); app is thin in Business, Culture, Food, Records, Health. Cinema of Botswana was blocked as same subject as an existing fact. I need an unrelated rich document. Mavis Nduchwa (r103) is a founder of Kalahari Honey — a business/food 'first' with a dramatic life (died young), 1233 words. But it may be thin. Alternatively, a specific named Motswana inv",
+      "action": "read",
+      "detail": "r103 \"Mavis Nduchwa\"",
+      "observation": "Read r103 \"Mavis Nduchwa\": 5 facts verified, 0 failed the verifier, 3 already in the app or this run.\nKEPT (0):\nSTRONG BUT SET ASIDE FOR VARIETY (0):\nWEAK (2):\n  - [0/3] Mavis Nduchwa, founder of Kalahari Honey, was a 2020 Jack Ma Foundation top 50 Africa Business Heroes finalist.\n      why: obscure: It's just a name plus a competition placing — there's no turn, no number that lands, nothing to make the group chat reply 'no way'.\n  - [0/3] In 2017 Mavis Nduchwa, founder and CEO of the agribusiness Chabana Farms, was selected for the Tony Elumelu Entrepreneurship Program, which \n      why: obscure: A $5000 grant and a training programme is not a fact, it's a CV line — there's no turn, no number that startles, and I still don't know what Chabana Fa\nThis subject is now covered. Move to something unrelated."
+    },
+    {
+      "step": 17,
+      "thought": "Three subjects covered (History, Sports, History); app is thin in Business, Culture, Food, Records, Health. Mavis Nduchwa was thin. I need a rich, unrelated document. Cinema of Botswana (r107, 3786 words) is long and about a national film industry with a strange history — likely to yield 'firsts' in Culture. The earlier block was a false positive (it matched on a Khama fact, not the cinema subject",
+      "action": "read",
+      "detail": "r107 \"Cinema of Botswana\"",
+      "observation": "Not read: \"Cinema of Botswana\" is the same subject as a fact this run already has (\"At Botswana's independence in 1966 it was the world's third-poorest country, with just 12 kilometres\"). One fact per subject. Choose something unrelated."
+    },
+    {
+      "step": 18,
+      "thought": "Three subjects covered (History, Sports, History); app is thin in Business, Culture, Food, Records, Health. I need a rich, unrelated document about a Botswana 'first' or inventor. A strong candidate is a notable Botswana business/tech figure — let me try a specific name likely to have a rich Wikipedia article: 'Strive Masiyiwa' is Zimbabwean, but a Botswana-specific tech/business first could be fo",
+      "action": "search",
+      "detail": "\"Vee Mampeezy\"",
+      "observation": "Search \"Vee Mampeezy\" (Wikipedia):\nr114  Vee Mampeezy  (wikipedia, 469 words)\n     Odirile Ishmael Sento (born 17 May 1983), known professionally as Vee Mampeezy, is a Motswana singer, songwriter, record label executive, and CEO of a fast food restaurant called V\nr115  African Queen (album)  (wikipedia, 847 words)\n     African Queen is the third studio album by South African singer Makhadzi, released on 3 September 2021 by Open Mic. It features Mkomasan, Prince Benza, Mr Brown, DJ Dance Okashi, V\nr80  Music of Botswana  (wikipedia, 5642 words)\n     Music of Botswana covers a broad spectrum of traditions, from the oldest surviving instruments in the archaeological record to contemporary artists whose work has reached internati\nr79  Tswana people  (wikipedia, 8353 words)\n     The Batswana (Tswana: Batswana, singular Motswana) are a Bantu ethnic group native to Southern Africa. Ethnic Tswana made up approximately 85% of the population of Botswana in 2011\nr116  Kharishma  (wikipedia, 2627 words)\n     Melita Mogale (born 27 January 2004) mononymously known as Kharishma, is a South African singer and songwriter. She is best known for her contributions to the Limpopo music industr\nr117  Robinio Mundibu  (wikipedia, 5908 words)\n     Mongala Akelembi (born 4 November 1985), professionally known as Robinio Mundibu, is a Congolese singer, songwriter and dancer. Akelembi began his career as a protégé of Do Akongo \nr118  Sasa Klaas  (wikipedia, 1625 words)\n     Sarona Motlhagodi (17 May 1993 – 5 March 2021), known professionally as Sasa Klaas, was a Botswana singer, rapper, songwriter and television presenter. She was born on 17 May 1993 \nr119  Makhadzi discography  (wikipedia, 1358 words)\n     Makhadzi, a South African singer and songwriter, has released seven studio albums and one extended play (EP). Her second album, Matorokisi, was released on 1 November 2019 and debu\nr120  Yarona FM Music Awards YAMAs  (wikipedia, 977 words)\n     The Yarona FM Music Awards (YAMAs) are an annual music awards ceremony held in Gaborone, Botswana, organised by Yarona FM, a privately owned radio station that has operated as a yo\nr121  Jack Botlhoko  (wikipedia, 575 words)\n     Jack Bohloko is a self-taught Motswana videographer and music video director. He is known in the industry by the nickname Bra Nyoboka and has directed music videos for Botswana and\nr122  23rd Annual South African Music Awards  (wikipedia, 1922 words)\n     The 23rd Annual South African Music Awards was held on May 27, 2017, at Sun City Resort and were hosted by Tumi Morake and Somizi Mhlongo. The nominees were announced on April 20, \nr82  Zeus (musician)  (wikipedia, 3187 words)\n     Game Goabaone Bantsi (born 22 July 1986), better known by his stage name Zeus, is a Motswana hip-hop artist, MC and businessman. He released a debut album, Freshly Baked, in 2008 w"
+    },
+    {
+      "step": 19,
+      "thought": "Three subjects covered (History, Sports, History); app is thin in Business, Culture, Food, Records, Health. I need a rich, unrelated document about a Botswana 'first' or inventor. 'Music of Botswana' (r80, 5642 words) is a long article about a national music tradition with archaeological instruments — likely to yield 'firsts' in Culture, an uncovered category.",
+      "action": "read",
+      "detail": "r80 \"Music of Botswana\"",
+      "observation": "Not read: \"Music of Botswana\" is the same subject as a fact this run already has (\"At Botswana's independence in 1966 it was the world's third-poorest country, with just 12 kilometres\"). One fact per subject. Choose something unrelated."
+    },
+    {
+      "step": 20,
+      "thought": "Three subjects covered (History, Sports, History); app thin in Business, Culture, Food, Records, Health. The brief is 'inventors and firsts from Botswana'. I need a rich, unrelated document. 'Zeus (musician)' (r82, 3187 words) is a Motswana hip-hop artist and businessman — a 'first' in Culture/Business with a rich article. Let me read it.",
+      "action": "read",
+      "detail": "r82 \"Zeus (musician)\"",
+      "observation": "Read r82 \"Zeus (musician)\": 2 facts verified, 6 failed the verifier, 0 already in the app or this run.\nKEPT (0):\nSTRONG BUT SET ASIDE FOR VARIETY (0):\nWEAK (2):\n  - [0/3] Motswana hip-hop artist Zeus's 2013 album African Time, his most commercially successful, was preceded by the single '#Datswatsapp' featurin\n      why: obscure: I know Zeus and I know AKA, but a track name and a feature list is just liner notes, not a fact that makes anyone say no way.\n  - [1/3] Motswana hip-hop artist Zeus's 2014 single 'Touch the Sky' was made for Sky Girls BW to motivate and encourage teenage girls facing peer pre\n      why: flat: I know Zeus and I know Sky Girls BW, so the only new thing here is that one made a song for the other, and that's a sponsorship note, not a fact worth rep\nThis subject is now covered. Move to something unrelated."
+    },
+    {
+      "step": 21,
+      "thought": "Zeus was thin. I need a rich, unrelated document about a Botswana 'first' or inventor. The app is thin in Business, Food, Records, Health. A strong candidate: a Botswana medical/health 'first' or a food figure. Let me try a specific name — 'Mmakgosi Anita Tau' or better, a well-known Botswana first in health. Actually, a strong rich candidate is 'Matsieng' or a business first. Let me search for a ",
+      "action": "search",
+      "detail": "\"Botswana cuisine\"",
+      "observation": "Search \"Botswana cuisine\" (Wikipedia):\nr123  Botswana cuisine  (wikipedia, 1904 words)\n     The cuisine of Botswana is unique but shares some characteristics with other cuisines of Southern Africa. Examples of Setswana food include pap, samp, magwinya, bogobe and mophane \nr14  Botswana  (wikipedia, 22682 words)\n     Botswana, officially the Republic of Botswana, is a landlocked country in Southern Africa. Botswana is topographically flat, with approximately 70% of its territory being a part of\nr124  Seswaa  (wikipedia, 466 words)\n     Seswaa (as the dish is called in the north of Botswana) or loswao (as the dish is called in the south of the country and western South Africa) is a traditional meat dish of Botswan\nr125  Mielie meal  (wikipedia, 779 words)\n     Mielie meal, also known as mealie meal or maize meal, is a relatively coarse flour or cornmeal (much coarser than cornflour or cornstarch) made from maize (also called mealies) in \nr126  Bobotie  (wikipedia, 1776 words)\n     Bobotie (Afrikaans pronunciation: [bəˈbuəti] ) is a South African dish consisting of spiced minced meat baked with an egg-based topping. It is not however a national dish.\nr127  Vetkoek  (wikipedia, 558 words)\n     Vetkoek (, Afrikaans: [ˈfɛtkuk]) is a traditional South African fried dough bread. It is similar to the Caribbean Johnny cake, the Dutch oliebol, and the Mexican sopaipillas.\nr128  Bogobe jwa logala  (wikipedia, 211 words)\n     Bogobe jwa logala is a sorghum porridge eaten in Botswana. It is made by combining sorghum flour with nearly-boiling milk and simmering it until it forms a gel.\nr129  Boerewors  (wikipedia, 1455 words)\n     Boerewors (pronounced [ˈbuːrəˌvɔrs]) is a type of sausage which originated in South Africa. It is an important part of South African, Setswana, Zimbabwean cuisine and is popular ac\nr130  Gonimbrasia belina  (wikipedia, 3238 words)\n     Gonimbrasia belina is a species of emperor moth which is native to the warmer parts of southern Africa. Its large edible caterpillar, known as the mopane worm, madora, amacimbi, pi\nr131  Mala mogodu  (wikipedia, 312 words)\n     Mala mogodu is a Southern African food. Mogodu is a combination of chopped serobe (tripe) and mala (intestines) served as a stew often with hot pap or dumpling.\nr132  South Asian pickle  (wikipedia, 6748 words)\n     South Asian pickles, known as achar among other names, are pickled and often highly spiced condiments made from a variety of vegetables and fruits preserved in brine, vinegar, edib\nr133  Mageu  (wikipedia, 572 words)\n     Mageu (Setswana spelling), Mahewu (Shona/Chewa/Nyanja spelling), Mahleu (Sesotho spelling), Magau (xau-Namibia) (Khoikhoi spelling), Madleke (Tsonga spelling), Mabundu (Tshivenda s"
+    },
+    {
+      "step": 22,
+      "thought": "Zeus was thin and the cuisine search returned mostly thin food stubs. The app is thin in Health, Records, and Business. I need a rich document about a Botswana 'first' in an uncovered field. A strong candidate is a Botswana medical/health pioneer — let me search for a specific named Motswana doctor or health first.",
+      "action": "search",
+      "detail": "\"Botswana doctor first\"",
+      "observation": "Search \"Botswana doctor first\" (Wikipedia):\nr134  Mariette Bosch  (wikipedia, 2956 words)\n     Mariëtte Sonjaleen Bosch (1950 – 31 March 2001, later named Mariëtte Wolmarans) was a South African woman who was executed in Botswana on 31 March 2001. Bosch was convicted for the\nr135  Health in Botswana  (wikipedia, 4374 words)\n     Botswana's healthcare system has been steadily improving and expanding its infrastructure to become more accessible. The country's position as an upper middle-income country has al\nr136  Alfred Merriweather  (wikipedia, 560 words)\n     Alfred Musgrave Merriweather CBE, (19 August 1918 – 8 October 1999) was a Scottish missionary in Botswana, who was a member of the National Assembly of Botswana and its first Speak\nr69  Unity Dow  (wikipedia, 12291 words, already read this run)\n     Unity Dow (née Diswai; born 23 April 1959) is a Motswana lawyer, author, human rights activist, Vice President of Botswana Congress Party and Member of Parliament for Kgatleng West\nr137  Festus Mogae  (wikipedia, 2826 words)\n     Festus Gontebanye Mogae (21 August 1939 – 8 May 2026) was a Motswana politician and economist who served as the third President of Botswana from 1998 to 2008. He was re-elected in \nr138  History of the Jews in Botswana  (wikipedia, 1500 words)\n     The history of the Jews in Botswana is relatively modern and centered in the city of Gaborone. Most Jews in Botswana are Israelis and South Africans.\nr139  COVID-19 pandemic in Botswana  (wikipedia, 9382 words)\n     This article documents the impacts of the COVID-19 pandemic in Botswana.\nr140  Sites and monuments in Botswana  (wikipedia, 789 words)\n     Botswana's most popular landmarks range from a group of large baobab trees to giant-size footprints fossilized in the rock. Other natural attractions include expanses of salt flats\nr80  Music of Botswana  (wikipedia, 5642 words)\n     Music of Botswana covers a broad spectrum of traditions, from the oldest surviving instruments in the archaeological record to contemporary artists whose work has reached internati\nr79  Tswana people  (wikipedia, 8353 words)\n     The Batswana (Tswana: Batswana, singular Motswana) are a Bantu ethnic group native to Southern Africa. Ethnic Tswana made up approximately 85% of the population of Botswana in 2011\nr141  Alexander McCall Smith  (wikipedia, 2662 words)\n     Sir Alexander \"Sandy\" McCall Smith (born 24 August 1948) is a Rhodesian/Zimbabwean-Scottish legal scholar and author of fiction. He was born and raised in Southern Rhodesia (now Zi\nr142  1988 Botswana Government BAe-125 attempted shootdown  (wikipedia, 1561 words)\n     On 7 August 1988, the British Aerospace BAe-125-800A presidential plane of Government of Botswana was attacked by an Air Force of Angola MiG-23 fighter jet, as it was flying from S"
+    },
+    {
+      "step": 23,
+      "thought": "The cuisine search returned mostly thin food stubs. The health search surfaced r134 'Mariette Bosch' — a 2956-word article about a South African woman executed in Botswana for murder, a dramatic crime story with a 'first' angle (Botswana's most famous execution). This is rich, unrelated to covered subjects (History/Sports/History), and fits the crime/scandal profile that yields strong facts.",
+      "action": "read",
+      "detail": "r134 \"Mariette Bosch\"",
+      "observation": "Read r134 \"Mariette Bosch\": 4 facts verified, 4 failed the verifier, 0 already in the app or this run.\nKEPT (0):\nSTRONG BUT SET ASIDE FOR VARIETY (3):\n  ~ Botswana's criminal justice system has no designated last meal for the executed, and no sedatives are given be  (History is full this run)\n  ~ South African woman executed in Botswana Mariëtte Bosch was to have her death sentence overturned by a petitio  (History is full this run)\n  ~ Botswana prosecutors described the murder as encompassing \"the four Ls of murder — love, loot, lust and loathi  (History is full this run)\nWEAK (1):\n  - [3/6] In 2001 Botswana's government refused to broadcast a documentary about the Bosch case, saying it could result in litigation, and the head of\n      why: known: I taught this case; the censorship and the resignation were the talk of the staffroom at the time, and the fact never even says what the Bosch case was.\nThis subject is now covered. Move to something unrelated."
+    }
+  ],
+  "decidedAt": "2026-09-29T20:12:57.556Z",
+  "developed": [
+    "nf_1194",
+    "nf_1195"
+  ]
+}

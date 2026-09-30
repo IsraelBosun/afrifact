@@ -1,0 +1,57 @@
+{
+  "runId": "agent-2026-09-29T19-40-07",
+  "kind": "paste",
+  "status": "done",
+  "brief": "1 pasted fact",
+  "country": "TZ",
+  "target": 1,
+  "createdAt": "2026-09-29T19:40:07.273Z",
+  "stopReason": "1 checked: 0 verified, 1 corrected, 0 not usable.",
+  "docsRead": 3,
+  "webQueriesSpent": 0,
+  "shortlist": [],
+  "alternates": [
+    {
+      "key": "a1",
+      "fact": "In 1983, Fela Kuti nominated himself for president in Nigeria's first elections in decades, but his candidature was refused.",
+      "category": "History",
+      "votes": "3/3",
+      "why": "I know Fela as the guy who sang 'Zombie' at the army, not as a man who tried to put his own name on the ballot — that flip is what makes me send it.",
+      "title": "Fela Kuti",
+      "url": "https://en.wikipedia.org/wiki/Fela_Kuti",
+      "claim": "Fela Kuti once ran for president of Nigeria.",
+      "candidate": {
+        "fact": "In 1983, Fela Kuti nominated himself for president in Nigeria's first elections in decades, but his candidature was refused.",
+        "passage": "In 1983, Kuti nominated himself for president in Nigeria's first elections in decades, but his candidature was refused.",
+        "category": "History",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "Pasted by the owner: \"Fela Kuti once ran for president of Nigeria.\"",
+        "volatile": false,
+        "slug": "fela",
+        "country": "NG",
+        "source": {
+          "title": "Fela Kuti",
+          "url": "https://en.wikipedia.org/wiki/Fela_Kuti",
+          "revisionId": "1371857977",
+          "contentHash": "",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-08-30",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      },
+      "aside": "Corrected. You pasted: \"Fela Kuti once ran for president of Nigeria\". The document says Kuti nominated himself for president in 1983 but his candidature was refused, not that he ran for president."
+    }
+  ],
+  "unverified": [],
+  "trace": [],
+  "decidedAt": "2026-09-29T19:40:29.431Z",
+  "developed": []
+}

@@ -2,7 +2,7 @@ You are writing image-search queries for facts about {{country}}.
 
 Each fact below needs a photograph. Your job is to write the search terms
 someone would type into Google Images to find a picture of what the fact
-is ABOUT — not a picture that illustrates the idea of it.
+is ABOUT, not a picture that illustrates the idea of it.
 
 Rules:
 
@@ -21,7 +21,7 @@ Rules:
    photography, which is the one thing that is never right here.
 
 5. If a fact genuinely has no photographable subject, still give your best
-   query — the most concrete noun in it. Something is returned for every
+   query: the most concrete noun in it. Something is returned for every
    fact.
 
 FACTS

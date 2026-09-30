@@ -17,7 +17,7 @@ Rules:
 - A query is what someone types into Google, not a sentence. Keep each
   under about eight words.
 - Make the queries DIFFERENT FROM EACH OTHER. One plain and direct; the
-  others aimed at where the good documents actually live — add words like
+  others aimed at where the good documents actually live: add words like
   "history", "archive", "study", "report", "interview", "1970s", a place
   name, an institution name. Four rewordings of the same query waste the
   search.
@@ -27,7 +27,7 @@ Rules:
 - Never add "wikipedia" to a query. Wikipedia is searched separately and
   for free.
 - Never invent a fact, a date or a figure to put in a query. If the
-  description is vague, stay vague — a wrong specific is worse than a
+  description is vague, stay vague. A wrong specific is worse than a
   general query, because it returns confident results about the wrong
   thing.
 - Do not write queries as questions.

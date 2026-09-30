@@ -507,7 +507,8 @@ async function proposeForBatch(entries, candidates, country, onProgress, signal)
 /**
  * Harvest image candidates and propose matches.
  *
- * @param {{ force?: boolean }} [options] `force` refetches every pool.
+ * @param {{ force?: boolean, ids?: string[], webBudget?: number, signal?: AbortSignal }} [options]
+ *   `force` refetches every pool. `ids` limits the run to those facts.
  * @param {(line: string) => void} [onProgress]
  * @returns {Promise<ImagesSummary>}
  */
@@ -516,7 +517,11 @@ export async function runImages(options = {}, onProgress) {
   const { force = false, signal } = options;
   const today = new Date().toISOString().slice(0, 10);
 
-  const corpus = await loadCorpus();
+  // `ids` narrows the run to named facts. The agent passes the facts it
+  // just wrote: without it, a five-fact run would walk the whole corpus
+  // and spend a web search on every old fact that has no picture.
+  const ids = Array.isArray(options.ids) && options.ids.length > 0 ? new Set(options.ids) : null;
+  const corpus = (await loadCorpus()).filter((e) => !ids || ids.has(e.fact.id));
   const decisions = await loadImages();
   const pool = force ? {} : await loadPool();
 

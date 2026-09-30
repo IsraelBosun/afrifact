@@ -110,6 +110,25 @@ export default function ReviewPage() {
     void load();
   }, [load]);
 
+  /*
+    Push by hand. Every decision already pushes behind itself; this is
+    for the push that failed because the network was down.
+  */
+  const [pushing, setPushing] = useState(false);
+  const pushNow = useCallback(async () => {
+    setError('');
+    setFlash('');
+    setPushing(true);
+    try {
+      const res = await fetch('/api/push', { method: 'POST' });
+      const body = await res.json().catch(() => ({}));
+      if (!res.ok) setError(body.error ?? 'The push did not go through.');
+      else setFlash(`Pushed. ${body.published} of ${body.facts} facts are live in the app.`);
+    } finally {
+      setPushing(false);
+    }
+  }, []);
+
   /** What the export did, said in one line, so a save is visibly a publish. */
   const exportNote = useCallback((body) => {
     const done = body?.exported;
@@ -366,6 +385,12 @@ export default function ReviewPage() {
         where its picture is chosen. A fact with a blocking error cannot ship whatever you click:
         fix the fact, not the button. Every edit is exported to the app as you make it. Newest
         first: whatever you last edited, held back or gave a picture to is at the top.
+      </p>
+      <p className="tiny faint" style={{ marginTop: -8 }}>
+        If a push ever fails (the network was down), send everything again:{' '}
+        <button className="tiny" disabled={pushing} onClick={() => void pushNow()}>
+          {pushing ? 'Pushing…' : 'Push to app'}
+        </button>
       </p>
 
       {/*

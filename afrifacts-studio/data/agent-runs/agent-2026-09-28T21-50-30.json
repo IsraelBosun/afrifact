@@ -1,0 +1,526 @@
+{
+  "runId": "agent-2026-09-28T21-50-30",
+  "status": "done",
+  "brief": "",
+  "target": 5,
+  "createdAt": "2026-09-28T21:53:36.977Z",
+  "stopReason": "Document budget used up.",
+  "docsRead": 8,
+  "webQueriesSpent": 0,
+  "shortlist": [
+    {
+      "key": "s1",
+      "fact": "Michael Ibru, the industrialist who founded the Ibru Organisation, controlled about 60% of Nigeria's frozen fish market by the 1970s.",
+      "category": "Business",
+      "votes": "3/3",
+      "why": "I knew the Ibru name but I would never in a million years have guessed the money came from frozen fish, and the 60% plus the billion-dollar conversion is what makes me send it.",
+      "title": "Michael Ibru",
+      "url": "https://en.wikipedia.org/wiki/Michael_Ibru",
+      "candidate": {
+        "fact": "Michael Ibru, the industrialist who founded the Ibru Organisation, controlled about 60% of Nigeria's frozen fish market by the 1970s.",
+        "passage": "By the mid-1960s, Ibru had become a millionaire from fish trading, and controlled about 60% of the frozen fish market by the 1970s, with turnover hitting over ₦90 million (approximately US$136 million), equivalent to $1.023 billion in 2026 dollars.",
+        "category": "Business",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 3
+        },
+        "reasoning": "The scale of one man's grip on a national food market, and the inflation-adjusted figure, are not commonly known.",
+        "volatile": false,
+        "slug": "michael-ibru",
+        "country": "NG",
+        "source": {
+          "title": "Michael Ibru",
+          "url": "https://en.wikipedia.org/wiki/Michael_Ibru",
+          "revisionId": "1377257680",
+          "contentHash": "0866ca8e094b1084",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-28",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "s2",
+      "fact": "A British captain saved Sarah Forbes Bonetta from human sacrifice by telling King Ghezo that Queen Victoria would not honour a king who would kill a child. She became Victoria's goddaughter.",
+      "category": "History",
+      "votes": "4/6",
+      "why": "A Yoruba girl from a small town I've driven past, marked for sacrifice in Dahomey, and the fact stops right there — I need the rest immediately.",
+      "title": "Sarah Forbes Bonetta",
+      "url": "https://en.wikipedia.org/wiki/Sarah_Forbes_Bonetta",
+      "candidate": {
+        "fact": "A British captain saved Sarah Forbes Bonetta from human sacrifice by telling King Ghezo that Queen Victoria would not honour a king who would kill a child. She became Victoria's goddaughter.",
+        "passage": "Among the captives was Aina, who had been designated for sacrifice. Forbes intervened on her behalf, assuring Ghezo that Queen Victoria would not honour a king who would kill a child.",
+        "category": "History",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "Most Nigerians know the name Sarah Forbes Bonetta but not that she was a captive marked for ritual sacrifice in Dahomey before becoming Queen Victoria's goddaughter.",
+        "volatile": false,
+        "slug": "sarah-forbes-bonetta",
+        "country": "NG",
+        "source": {
+          "title": "Sarah Forbes Bonetta",
+          "url": "https://en.wikipedia.org/wiki/Sarah_Forbes_Bonetta",
+          "revisionId": "1367132197",
+          "contentHash": "92d733d046158813",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-28",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        },
+        "lead": "Sarah Forbes Bonetta or Sally Forbes Bonetta (born Aina or Ina; c. 1843 – 15 August 1880) was ward and goddaughter of Queen Victoria. She was believed to have been a titled member of the Yewa subgroup of the Yoruba people in West Africa who was orphaned during a war with the nearby Kingdom of Dahomey as a child, and was later enslaved by King Ghezo of Dahomey."
+      }
+    },
+    {
+      "key": "s3",
+      "fact": "Cute Abiola, the Nigerian comedian known for playing Lawyer Kunle, served as a Sub-Lieutenant in the Nigerian Navy before going into entertainment full time.",
+      "category": "Culture",
+      "votes": "3/3",
+      "why": "I've watched his skits for years and never once heard he was actually a naval officer — that's a real double life.",
+      "title": "Cute Abiola",
+      "url": "https://en.wikipedia.org/wiki/Cute_Abiola",
+      "candidate": {
+        "fact": "Cute Abiola, the Nigerian comedian known for playing Lawyer Kunle, served as a Sub-Lieutenant in the Nigerian Navy before going into entertainment full time.",
+        "passage": "Before pursuing a full-time career in entertainment, Oluwatoyin served as a Sub-Lieutenant in the Nigerian Navy.",
+        "category": "Culture",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 4,
+          "explicability": 4
+        },
+        "reasoning": "Most fans of his skits have no idea the comedian held a naval officer's rank.",
+        "volatile": false,
+        "slug": "cute-abiola",
+        "country": "NG",
+        "source": {
+          "title": "Cute Abiola",
+          "url": "https://en.wikipedia.org/wiki/Cute_Abiola",
+          "revisionId": "1376664255",
+          "contentHash": "4486cb1eac729897",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-28",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "s4",
+      "fact": "Stella Obasanjo, Nigeria's First Lady from 1999 until her death, had the Nigerian Midwest Herald's publisher arrested in 2005 and taken to Akure prison over an article headlined \"Greedy Stella\".",
+      "category": "History",
+      "votes": "3/3",
+      "why": "A First Lady jailing a journalist over a two-word headline is wild, and I never heard this one before.",
+      "title": "Stella Obasanjo",
+      "url": "https://en.wikipedia.org/wiki/Stella_Obasanjo",
+      "candidate": {
+        "fact": "Stella Obasanjo, Nigeria's First Lady from 1999 until her death, had the Nigerian Midwest Herald's publisher arrested in 2005 and taken to Akure prison over an article headlined \"Greedy Stella\".",
+        "passage": "Reporters Without Borders reported that Orobosa Omo-Ojo, the publisher of the Lagos-based Nigerian Midwest Herald, was arrested on Stella Obasanjo's orders on 2 May 2005 and taken to Akure prison. His arrest was prompted by an article the previous week about her, headlined \"Greedy Stella\".",
+        "category": "History",
+        "surprise": {
+          "priorProbability": 5,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "A First Lady jailing a publisher over a headline is a striking abuse-of-power detail almost nobody remembers.",
+        "volatile": false,
+        "slug": "stella-obasanjo",
+        "country": "NG",
+        "source": {
+          "title": "Stella Obasanjo",
+          "url": "https://en.wikipedia.org/wiki/Stella_Obasanjo",
+          "revisionId": "1376648429",
+          "contentHash": "c599121af98dc3fa",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-28",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        },
+        "lead": "Stella Obasanjo  (née Abebe; 14 November 1945 – 23 October 2005) was the First Lady of Nigeria from 1999 until her death. She was the wife of former President Olusegun Obasanjo, although she was not the First Lady in 1976, when Obasanjo was military head of state."
+      }
+    },
+    {
+      "key": "s5",
+      "fact": "Patrick Sawyer, the Liberian-American lawyer who was the index case for Ebola in Nigeria, caused 19 confirmed cases and eight deaths, and Nigeria was declared Ebola-free by the WHO on 20 October 2014.",
+      "category": "Health",
+      "votes": "5/6",
+      "why": "I knew Sawyer brought Ebola and I knew we beat it, but I never knew the actual numbers were that small or the exact date we were declared free — 19 cases and 8 deaths sounds fake for something that had Lagos panicking.",
+      "title": "Patrick Sawyer",
+      "url": "https://en.wikipedia.org/wiki/Patrick_Sawyer",
+      "candidate": {
+        "fact": "Patrick Sawyer, the Liberian-American lawyer who was the index case for Ebola in Nigeria, caused 19 confirmed cases and eight deaths, and Nigeria was declared Ebola-free by the WHO on 20 October 2014.",
+        "passage": "The infection brought into the country by Sawyer resulted in 19 confirmed cases of Ebola infection and eight deaths.\nAs of October 2014, the Nigerian Ebola outbreak was regarded as having been contained. On October 20, 2014, Nigeria was announced as Ebola-free by the WHO, following two incubation periods without any further reports of infection.",
+        "category": "Health",
+        "surprise": {
+          "priorProbability": 3,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "The exact case and death numbers and the WHO declaration date are concrete details many Nigerians have not seen written down.",
+        "volatile": false,
+        "slug": "patrick-sawyer",
+        "country": "NG",
+        "source": {
+          "title": "Patrick Sawyer",
+          "url": "https://en.wikipedia.org/wiki/Patrick_Sawyer",
+          "revisionId": "1373670994",
+          "contentHash": "ff2214914533e9de",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-28",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    }
+  ],
+  "alternates": [
+    {
+      "key": "a2",
+      "fact": "The industrialist who founded the Ibru Organisation, Michael Ibru, built a private port complex at Ibafon, west of Tin Can Island, for ₦100 million.",
+      "category": "Business",
+      "votes": "4/6",
+      "why": "I know the Ibru name the way I know the textbook names, but a private port complex at that scale, at that cost, is something nobody ever told me and I would repeat it.",
+      "title": "Michael Ibru",
+      "url": "https://en.wikipedia.org/wiki/Michael_Ibru",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "The industrialist who founded the Ibru Organisation, Michael Ibru, built a private port complex at Ibafon, west of Tin Can Island, for ₦100 million.",
+        "passage": "In the same year, a private port complex was developed at Ibafon, west of Tin Can Island, at a cost of ₦100 million (approximately US$152 million), equivalent to $1.14 billion in 2026 dollars.",
+        "category": "Business",
+        "surprise": {
+          "priorProbability": 5,
+          "specificity": 5,
+          "explicability": 3
+        },
+        "reasoning": "A private individual building a port next to Tin Can Island is a startling, little-known detail.",
+        "volatile": false,
+        "slug": "michael-ibru",
+        "country": "NG",
+        "source": {
+          "title": "Michael Ibru",
+          "url": "https://en.wikipedia.org/wiki/Michael_Ibru",
+          "revisionId": "1377257680",
+          "contentHash": "0866ca8e094b1084",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-28",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a4",
+      "fact": "King Ghezo of Dahomey told the British: 'The slave trade has been the ruling principle of my people. It is the source of their glory and wealth.'",
+      "category": "History",
+      "votes": "3/3",
+      "why": "A king admitting the whole thing out loud to the people who came to end it is a level of boldness I did not expect from a history lesson.",
+      "title": "Sarah Forbes Bonetta",
+      "url": "https://en.wikipedia.org/wiki/Sarah_Forbes_Bonetta",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "King Ghezo of Dahomey told the British: 'The slave trade has been the ruling principle of my people. It is the source of their glory and wealth.'",
+        "passage": "Biographer and historian of Africa Martin Meredith quotes Ghezo telling the British:\n\nThe slave trade has been the ruling principle of my people. It is the source of their glory and wealth.  Their songs celebrate their victories and the mother lulls the child to sleep with notes of triumph over an enemy reduced to slavery.",
+        "category": "History",
+        "surprise": {
+          "priorProbability": 5,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "A direct quote from an African king defending the slave trade as his people's glory is rarely encountered.",
+        "volatile": false,
+        "slug": "sarah-forbes-bonetta",
+        "country": "NG",
+        "source": {
+          "title": "Sarah Forbes Bonetta",
+          "url": "https://en.wikipedia.org/wiki/Sarah_Forbes_Bonetta",
+          "revisionId": "1367132197",
+          "contentHash": "92d733d046158813",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-28",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a5",
+      "fact": "As First Lady of Nigeria, Stella Obasanjo declared 6 February 2003 the International Day of Zero Tolerance to Female Genital Mutilation.",
+      "category": "Health",
+      "votes": "3/3",
+      "why": "I knew her name but had no idea she was behind a day the entire world observes, that's a real link I never made.",
+      "title": "Stella Obasanjo",
+      "url": "https://en.wikipedia.org/wiki/Stella_Obasanjo",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "As First Lady of Nigeria, Stella Obasanjo declared 6 February 2003 the International Day of Zero Tolerance to Female Genital Mutilation.",
+        "passage": "As First Lady of Nigeria, Obasanjo joined the Campaign Against Female Genital Mutilation and on 6 February 2003, she declared the day the International Day of Zero Tolerance to Female Genital Mutilation.",
+        "category": "Health",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 3
+        },
+        "reasoning": "The specific date and her role in declaring the international day are not widely known.",
+        "volatile": false,
+        "slug": "stella-obasanjo",
+        "country": "NG",
+        "source": {
+          "title": "Stella Obasanjo",
+          "url": "https://en.wikipedia.org/wiki/Stella_Obasanjo",
+          "revisionId": "1376648429",
+          "contentHash": "c599121af98dc3fa",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-28",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    }
+  ],
+  "trace": [
+    {
+      "step": 1,
+      "thought": "Starting fresh with no reads yet. The app is thinnest in Food, Health, Business, and Sports. I'll aim for a rich biographical or scandal document. A strong candidate is a Nigerian business figure with a dramatic story — let me search for a specific name likely to have a long Wikipedia article.",
+      "action": "search",
+      "detail": "\"Emeka Okafor\"",
+      "observation": "Search \"Emeka Okafor\" (Wikipedia):\nr1  Emeka Okafor  (wikipedia, 7179 words)\n     Chukwuemeka Ndubuisi \"Emeka\" Okafor (; born September 28, 1982) is an American former professional basketball player. Okafor attended Bellaire High School in Bellaire, Texas and th\nr2  Jahlil Okafor  (wikipedia, 25792 words)\n     Jahlil Obika Okafor (; born December 15, 1995) is a Nigerian-American professional basketball player for Levanga Hokkaido of the B.League. He played his freshman season of college \nr3  Okafor  (wikipedia, 310 words)\n     Okafor is a Nigerian surname of Igbo origin.\nr4  Emeka  (wikipedia, 537 words)\n     Emeka is a male given name and surname of Igbo origin. As a given name it is typically derived from either Chukwuemeka (God has done great) or Nnaemeka (the father has done great).\nr5  2004 NBA draft  (wikipedia, 9598 words)\n     The 2004 NBA draft was held on June 24, 2004, at The Theater at Madison Square Garden in New York City, and was broadcast live on ESPN at 7:00 pm (EDT). In this draft, National Bas\nr6  Charlotte Hornets  (wikipedia, 27391 words)\n     The Charlotte Hornets are an American professional basketball team based in Charlotte, North Carolina. The Hornets compete in the National Basketball Association (NBA) as a member \nr7  UConn Huskies men's basketball  (wikipedia, 38826 words)\n     The UConn Huskies men's basketball program is the NCAA Division I men's college basketball team of the University of Connecticut in Storrs, Connecticut. They play in the Big East C\nr8  2004 NCAA Division I men's basketball championship game  (wikipedia, 2352 words)\n     The 2004 NCAA Division I men's basketball championship game was the finals of the 2004 NCAA Division I men's basketball tournament and it determined the national champion for the 2\nr9  2004–05 NBA season  (wikipedia, 3810 words)\n     The 2004–05 NBA season was the 59th season of the National Basketball Association (NBA). It began on November 2, 2004, and ended on June 23, 2005.\nr10  John Okafor  (wikipedia, 2172 words)\n     John Ikechukwu Okafor -Chinwoke 01-John Ikechukwu; 17th October 1961 – 2nd March 2024), popularly known as Mr. Ibu, was a Nigerian actor and comedian.\nr11  2004 United States men's Olympic basketball team  (wikipedia, 2402 words)\n     The men's national basketball team of the United States competed at the 2004 Summer Olympics in Athens, Greece. The team was led by future Basketball Hall of Fame head coach Larry \nr12  Maker Faire Africa  (wikipedia, 790 words)\n     Presently curated and organized by Emeka Okafor, Henry Barnor and Jennifer Wolfe, Maker Faire Africa is an international organization co-founded by Mark Grimes (Felonious Nun) Emek"
+    },
+    {
+      "step": 2,
+      "thought": "The Emeka Okafor search returned mostly American basketball figures, not rich Nigerian stories. I should pivot to a specific Nigerian name likely to have a dramatic, long Wikipedia article. The app is thin in Food and Health — a Nigerian food pioneer or health figure could yield strong facts. Let me try a specific person with a dramatic life story.",
+      "action": "search",
+      "detail": "\"Tara Fela-Durotoye\"",
+      "observation": "Search \"Tara Fela-Durotoye\" (Wikipedia):\nr16  Tara Fela-Durotoye  (wikipedia, 1052 words)\n     Tara Fela-Durotoye (born 6 March 1977) is a Nigerian beauty entrepreneur and lawyer. A pioneer in the bridal makeup profession in Nigeria, she launched the first bridal directory i\nr17  Fela Durotoye  (wikipedia, 2704 words)\n     Adetokunbo Olufela Durotoye (born in Ibadan, Oyo State on 12 May 1971) is a business consultant, leadership expert, politician, and motivational speaker. He was the Nigerian presid\nr18  Durotoye  (wikipedia, 135 words)\n     Durotoye () is a Nigerian male given name and surname of Yoruba origin. It means \"Wait with royalty.\nr19  Tara (given name)  (wikipedia, 2479 words)\n     Tara is a given name with multiple meanings in different cultures. In Ireland, it is derived from the Hill of Tara, an archaeological site located near the River Boyne in County Me\nr20  Tayo Oviosu  (wikipedia, 1205 words)\n     Tayo Oviosu is a Nigerian-American businessman who is the founder and group CEO of Paga, a mobile payments company that is focused on digitizing cash in emerging economies. Nigeria\nr21  TY Bello  (wikipedia, 3515 words)\n     Toyin Sokefun-Bello (; born 14 January 1978), who is better known as TY Bello, is a Nigerian singer, songwriter, photographer and philanthropist. Prior to pursuing a solo career, s\nr22  Lagos State University  (wikipedia, 5605 words)\n     Lagos State University (LASU) is a state-owned university established by the Lagos State government in 1983. Its main campus is situated at Alasia, Lagos, Ojo, with sub-campuses at\nr23  Nkiru Balonwu  (wikipedia, 3488 words)\n     Nkiru Balonwu is an entrepreneur and activist based in Lagos, Nigeria. She is known for her views of women as the solution to Africa's problems and is the founder and chairperson o\nr24  Funke Bucknor-Obruthe  (wikipedia, 1319 words)\n     Funke Bucknor-Obruthe (born 27 June 1976) is a Nigerian entrepreneur and lawyer. She is the founder and CEO of Zapphaire Events and is regarded as one of Nigeria's pioneering event\nr25  YouWin!  (wikipedia, 940 words)\n     YouWin! is a youth development scheme established in Nigeria by the administration of President Goodluck Jonathan.\nr26  Chika Oduah  (wikipedia, 2704 words)\n     Chikaodinaka Sandra Oduah (born March 14, 1986) is a Nigerian-American journalist, poet and cultural entrepreneur who has worked as a television news producer, correspondent, write\nr27  Uche Pedro  (wikipedia, 4052 words)\n     Uche Pedro (born by Uche Eze ; 26 July 1984) is a Nigerian entrepreneur. She is the founder and CEO of BellaNaija, a media tech brand known for entertainment and lifestyle content."
+    },
+    {
+      "step": 3,
+      "thought": "The Emeka Okafor search was a dead end (American basketball). Tara Fela-Durotoye was thin. I need a rich, dramatic Nigerian biography. The app is thinnest in Food and Health. A strong candidate: a Nigerian food figure with a dramatic story. Let me try 'Hilda Baci' — but she's already mined. Instead, let me search for a rich Nigerian health/scandal figure. 'Ameyo Adadevoh' is already mined. Let me ",
+      "action": "search",
+      "detail": "\"Cecilia Ibru\"",
+      "observation": "Search \"Cecilia Ibru\" (Wikipedia):\nr30  Cecilia Ibru  (wikipedia, 1393 words)\n     Cecilia Emuakpo Ibru (born 22 March 1946) is a Nigerian banker who was chief executive officer of Oceanic Bank until she was convicted in 2010 of authorising loans beyond her credi\nr31  Michael Ibru  (wikipedia, 6753 words)\n     Chief Michael Onajirevbe Ibru (25 December 1930 – 6 September 2016) was a pioneering Nigerian industrialist and patriarch of the Ibru dynasty who founded the Ibru Organisation, one\nr32  Michael and Cecilia Ibru University  (wikipedia, 880 words)\n     Michael and Cecilia Ibru University is a private university located in Agbara-Otor in Delta State. The university was founded in 2015 by industrialist Michael Ibru and his wife, Ce\nr33  Ibru Organisation  (wikipedia, 2039 words)\n     The Ibru Organisation is a Nigerian conglomerate with diversified interests in shipping, media, agriculture, port management, hospitality, aviation, and oil & gas, amongst others. \nr34  Ibru family  (wikipedia, 1271 words)\n     The Ibru family is a Nigerian business dynasty whose collective fortune is derived from the Ibru Organisation, one of the largest family-run conglomerates in Africa. The family ros\nr35  Ibru  (wikipedia, 104 words)\n     Ibru is a surname.\nr36  Agbara-Otor  (wikipedia, 1138 words)\n     Agbarha Otor (Agbarha-Otor) is a town and one of the Urhobo kingdoms in Ughelli North Local Government Area of Delta State. The town is home to the wealthy and renowned Ibru Family\nr37  Delta State  (wikipedia, 13077 words)\n     Delta is a state in the South-South geopolitical zone of Nigeria. Named after the Niger Delta—a large part of which is in the state—the state was formed from the former Bendel Stat\nr38  Oceanic Bank  (wikipedia, 1156 words)\n     Oceanic Bank International, commonly referred to as Oceanic Bank, was a bank in Nigeria that provided individual, commercial and corporate banking services. It was one of the top 5\nr39  Sanusi Lamido Sanusi  (wikipedia, 18845 words)\n     Muhammadu Sanusi II, (Ajami: محمد السنوسي, Muhammadu Sanusi na biyu (); born 31 July 1961), known by the religious title Khalifa Sanusi II (Ajami: خليفة السنوسي), is the spiritual \nr40  Onigu Otite  (wikipedia, 2705 words)\n     Onigu Otite (January 21, 1939 – March 14, 2019) was a Nigerian sociologist. He was among the first set of students to attend the first indigenous Nigerian university - University o\nr41  Ibiyinka A. Fuwape  (wikipedia, 1464 words)\n     Ibiyinka A. Fuwape (born 18 December 1962) is a Nigerian academic, professor in physics and the 2nd substantive Vice-Chancellor of the Michael and Cecilia Ibru University, a privat"
+    },
+    {
+      "step": 4,
+      "thought": "The Ibru search surfaced a rich dynasty story. Michael Ibru (r31, 6753 words) is a pioneering industrialist and patriarch with a dramatic life — exactly the kind of rich biographical document that yields strong facts. The app is thin in Business, and this is a new subject unrelated to anything mined.",
+      "action": "read",
+      "detail": "r31 \"Michael Ibru\"",
+      "observation": "Read r31 \"Michael Ibru\": 7 facts verified, 1 failed the verifier, 1 already in the app or this run.\nKEPT (1):\n  + [3/3, Business] Michael Ibru controlled about 60% of Nigeria's frozen fish market by the 1970s, with turnover over ₦90 million — roughly $1.023 billion in 2026 dollars.\nSTRONG BUT SET ASIDE FOR VARIETY (2):\n  ~ In April 2023, Michael Ibru was honoured with a blue heritage plaque in Kensington, where he lived for 33 year  (one fact per document; ranked lower)\n  ~ Michael Ibru built a private port complex at Ibafon, west of Tin Can Island, for ₦100 million — about $1.14 bi  (one fact per document; ranked lower)\nWEAK (3):\n  - [0/3] Michael Ibru chartered his first fishing vessel from Japan in 1963, then founded the Osadjere Fishing Company with the Japanese conglomerate\n      why: obscure: It's just a company history detail — a man chartered a boat and started a fishing business, and nothing in the sentence tells me why I should care abou\n  - [1/3] Michael Ibru's Mitchell Farm grew into the largest supplier of day-old chicks and processed poultry in West Africa.\n      why: obscure: So what, a rich family also did chickens — there's no turn, no number, no link I'd repeat to anybody.\n  - [0/3] Michael Ibru was an eminent Freemason, a member of Lagos Lodge No. 1171, the oldest masonic lodge in the District Grand Lodge of Nigeria.\n      why: obscure: So what, a rich man was in a lodge — there's no turn, no number, no link I'd repeat, and I still don't know why Michael Ibru matters from this sentence\nThis subject is now covered. Move to something unrelated."
+    },
+    {
+      "step": 5,
+      "thought": "Michael Ibru is covered, so I'll move to an unrelated subject. The app is thinnest in Food and Health. A rich, dramatic Nigerian food story: the 'Nigerian cuisine' article is already mined, but a specific dish or food figure could work. Let me try a person with a dramatic life in a different field — a Nigerian health/medical pioneer with a striking story. I'll search for a specific name likely to ",
+      "action": "search",
+      "detail": "\"Stella Adadevoh\"",
+      "observation": "Search \"Stella Adadevoh\" (Wikipedia):\nr44  Ameyo Adadevoh  (wikipedia, 3578 words, mined before; its best facts are in the app)\n     Ameyo Stella Adadevoh, OON (27 October 1956 – 19 August 2014) was a Nigerian physician. She is credited with having curbed a wider spread of the Western African Ebola virus epidemi\nr45  Babatunde Kwaku Adadevoh  (wikipedia, 1348 words)\n     Babatunde Kwaku Adadevoh (4 October 1933 – 5 October 1997) was a Nigerian physician, educational administrator and former Vice-chancellor of the University of Lagos, Nigeria. He wa\nr46  Yemi Cardoso  (wikipedia, 1937 words)\n     Olayemi Michael \"Yemi\" Cardoso (born 10 July 1957) is a Nigerian banker who is the governor of the Central Bank of Nigeria. He previously served as the Commissioner for Economic Pl\nr47  Lagos  (wikipedia, 36714 words, mined before; its best facts are in the app)\n     Lagos (; LAY-goss; Yoruba: Èkó [èkó]), or Lagos City, is a large metropolitan port city in southwestern Nigeria. As of November 2025, the size of the city's population has been est\nr48  Queen's School, Ibadan  (wikipedia, 1635 words)\n     Queen's School, Ibadan is an all-girls secondary school located in Ibadan, the capital of Oyo State, South-Western Nigeria.\nr49  NBR Hall of Fame  (wikipedia, 1379 words)\n     NBR Hall of Fame also known as Nigerian Books of Record (NBR) Hall of Fame is an award to honor and preserving the extraordinary achievements of Nigerians who have made significant\nr50  Federal Neuro-Psychiatric Hospital, Aro  (wikipedia, 380 words)\n     Federal Neuro-Psychiatric Hospital, Aro is a federal government of Nigeria speciality hospital with 735 bed located in Abeokuta, Ogun State, Nigeria. As of June 2022, the chief med\nr51  Sarah Forbes Bonetta  (wikipedia, 4319 words)\n     Sarah Forbes Bonetta or Sally Forbes Bonetta (born Aina or Ina; c. 1843 – 15 August 1880) was ward and goddaughter of Queen Victoria. She was believed to have been a titled member \nr52  Ernest Madu  (wikipedia, 1181 words)\n     Ernest Chijioke Madu (born February 18, 1960) is a nuclear cardiologist whose work focuses on providing affordable public healthcare in low-resource nations. He is the founder, cha\nr53  James Pinson Labulo Davies  (wikipedia, 2152 words, mined before; its best facts are in the app)\n     James Pinson Labulo Davies (14 August 1828 – 29 April 1906) was a Nigerian businessman, merchant-sailor, naval officer, farmer, pioneer industrialist, statesman, and philanthropist\nr54  National Centre for Women Development  (wikipedia, 998 words)\n     The National Centre for Women Development (NCWD) is a Nigerian state-owned enterprise based in Abuja. It was established in 1997.\nr55  Herbert Macaulay  (wikipedia, 5752 words)\n     Olayinka Herbert Samuel Heelas Badmus Macaulay (14 November 1864 – 7 May 1946) was a Nigerian nationalist, politician, surveyor, engineer, architect, journalist, and musician. Maca"
+    },
+    {
+      "step": 6,
+      "thought": "Michael Ibru is covered, so I need an unrelated subject. The app is thinnest in Food and Health. Sarah Forbes Bonetta (r51, 4319 words) is a rich, dramatic biography — a Nigerian girl who became Queen Victoria's goddaughter — exactly the kind of 'person who links two worlds' document that yields strong facts, and it's unrelated to anything mined.",
+      "action": "read",
+      "detail": "r51 \"Sarah Forbes Bonetta\"",
+      "observation": "Read r51 \"Sarah Forbes Bonetta\": 6 facts verified, 1 failed the verifier, 0 already in the app or this run.\nKEPT (1):\n  + [4/6, History] Sarah Forbes Bonetta, born Aina in Oke-Odan, was a Yoruba girl orphaned by a Dahomey attack in 1848 and enslaved in King Ghezo's court, where she was designated for human sacrifice.\nSTRONG BUT SET ASIDE FOR VARIETY (2):\n  ~ Sarah Forbes Bonetta's descendant through her daughter Stella was Ameyo Adadevoh, the doctor who contained Ebo  (one fact per document; ranked lower)\n  ~ King Ghezo of Dahomey told the British: 'The slave trade has been the ruling principle of my people. It is the  (one fact per document; ranked lower)\nWEAK (3):\n  - [1/3] Captain Forbes saved Aina from being sacrificed at Dahomey's Annual Customs by telling King Ghezo that Queen Victoria would not honour a kin\n      why: obscure: I don't know who Aina is, who Captain Forbes is, or why this matters — it's a story about strangers with no payoff, and 'Aina' never gets explained.\n  - [0/3] Sarah Forbes Bonetta and Bishop Samuel Ajayi Crowther were the only Lagos indigènes the Royal Navy had standing orders to evacuate in the ev\n      why: obscure: I don't know who either of these people are or why the Royal Navy cared, so there's nothing for me to grab onto — it reads like a line from a history t\n  - [0/3] Sarah Forbes Bonetta's husband erected an over-eight-foot granite obelisk at Ijon in Western Lagos, where he had started a cocoa farm, in he\n      why: obscure: Who is Sarah Forbes Bonetta and why does her husband's obelisk matter to me? It's a stranger's grave with no reason given to care.\nThis subject is now covered. Move to something unrelated."
+    },
+    {
+      "step": 7,
+      "thought": "Two subjects covered (Business, History). App is thinnest in Food and Health. I need an unrelated rich biography. Ernest Madu (r52) is a nuclear cardiologist providing affordable healthcare — a person linking two worlds, in the Health category which is nearly empty. But 1181 words is borderline thin. Herbert Macaulay (r55, 5752 words) is a rich dramatic biography but History is already covered thi",
+      "action": "read",
+      "detail": "r52 \"Ernest Madu\"",
+      "observation": "Read r52 \"Ernest Madu\": 0 facts verified, 0 failed the verifier, 0 already in the app or this run.\nKEPT (0):\nSTRONG BUT SET ASIDE FOR VARIETY (0):\nWEAK (0):\nThis subject is now covered. Move to something unrelated."
+    },
+    {
+      "step": 8,
+      "thought": "Two subjects covered (Business, History). App is thinnest in Food and Health. Ernest Madu was thin (1181 words, 0 facts). I need a rich, unrelated biography in Food or Health. A Nigerian food figure with a dramatic story — try a specific name likely to have a long Wikipedia article. 'Nigerian cuisine' is mined, but a specific dish's history or a food entrepreneur could work. Let me try a rich Heal",
+      "action": "search",
+      "detail": "\"Olufemi Olaleye\"",
+      "observation": "Search \"Olufemi Olaleye\" (Wikipedia):\nr57  Olufemi David Olaleye  (wikipedia, 771 words)\n     Olufemi David Olaleye was a Nigerian professor of virology at the University of Ibadan. He was the head of the Clinical Virology Laboratory, that was used to carry out COVID-19 tes\nr58  Kayode  (wikipedia, 472 words)\n     Kayode is both a surname and a masculine given name of Yoruba origin.\nr59  Taiwo  (wikipedia, 498 words)\n     Taiwo (variant forms: Taiye, Taye, Taiyewo) is a name of Yoruba origin meaning \"the first twin to taste the world\" or the one who comes before Kehinde. Although Taiwo is the firstb\nr60  Whitfield Moseley  (wikipedia, 402 words)\n     Olufemi Moseley (born 6 April 1940) is a Nigerian boxer. He competed in the men's welterweight event at the 1960 Summer Olympics.\nr61  Teacher Don't Teach Me Nonsense  (wikipedia, 1166 words)\n     Teacher Don't Teach Me Nonsense is a 1986 studio album by Fela Kuti and the Egypt 80.\nr62  Cute Abiola  (wikipedia, 4123 words)\n     Abdulgafar Ahmad Oluwatoyin (born 28 April 1996), better known by his stage name Cute Abiola, or The Cute Abiola is a Nigerian actor, comedian, social media personality, and conten\nr63  Eti-Osa  (wikipedia, 2250 words)\n     Eti-Osa is a Local Government Area of Lagos State in Nigeria. Lagos State Government administers the council area as Ikoyi-Obalende LCDA, Eti-Osa East, and Iru Victoria Island LCDA\nr64  Comprehensive High School, Aiyetoro  (wikipedia, 1870 words)\n     Comprehensive High School is a secondary school in Ayetoro, a district in the Egbado Division of Ogun State, South Western Nigeria.\nr65  Yoruba people  (wikipedia, 29083 words)\n     The Yoruba people ( YORR-uub-ə; Yoruba: Ìran Yorùbá, Ọmọ Odùduwà, Ọmọ Káàárọ̀-oòjíire) are a West African ethnic group who inhabit parts of Nigeria, Benin, and Togo, a region colle\nr66  Nigerian Air Force  (wikipedia, 7846 words)\n     The Nigerian Air Force (NAF) is the air branch of the Nigerian Armed Forces. It is the youngest branch of the Nigerian military, established four years after the nation became inde\nr67  Nigerian government response to the COVID-19 pandemic  (wikipedia, 11792 words)\n     The federal government of Nigeria has initially responded to the COVID-19 pandemic in the country with preventive measures to curb the spread of the coronavirus disease 2019 in the\nr68  Odo Ere  (wikipedia, 20905 words)\n     Odo Ere, popularly called Ere Gajo, is the headquarters of Yagba West Local Government Area, Kogi State, Nigeria. The town is located in the old Kabba Province about 140 kilometres"
+    },
+    {
+      "step": 9,
+      "thought": "Two subjects covered (Business, History). App is thinnest in Food and Health. I need a rich, unrelated biography. Cute Abiola (r62, 4123 words) is a long, dramatic Nigerian comedian/actor story — a person with a striking life, in a fresh subject area, and long enough to yield strong facts.",
+      "action": "read",
+      "detail": "r62 \"Cute Abiola\"",
+      "observation": "Read r62 \"Cute Abiola\": 4 facts verified, 0 failed the verifier, 0 already in the app or this run.\nKEPT (1):\n  + [3/3, Culture] Cute Abiola, the Nigerian comedian known for playing Lawyer Kunle, served as a Sub-Lieutenant in the Nigerian Navy before going into entertainment full time.\nSTRONG BUT SET ASIDE FOR VARIETY (0):\nWEAK (3):\n  - [0/3] In November 2021 the Nigerian Navy detained Cute Abiola for breaching rules on military uniforms and social media, then gave him one month o\n      why: flat: It never says who Cute Abiola is or why a comedian being detained by the Navy matters, and 'extra duty' as a punishment is just a shrug — no turn, no numb\n  - [0/3] Cute Abiola apologised to former First Lady Patience Jonathan in 2026 for mocking her emotional reaction to the 2014 Chibok abduction, sayin\n      why: flat: It's a 2026 apology about a 2014 joke I never saw, and nothing in the sentence tells me why Cute Abiola matters or what he actually said, so there's nothi\n  - [1/3] Cute Abiola was appointed Senior Special Assistant on Creative Industries to Kwara State Governor Abdulrahman Abdulrazaq in November 2022.\n      why: obscure: So a skit maker got a governor's aide job — that's just normal Nigerian politics, not a fact I'd send anybody.\nThis subject is now covered. Move to something unrelated."
+    },
+    {
+      "step": 10,
+      "thought": "Three subjects covered (Business, History, Culture). App is thinnest in Food and Health. I need a rich, unrelated biography in Health. A Nigerian medical pioneer with a dramatic story — let me try a specific name likely to have a long Wikipedia article. 'Olufemi Olaleye' returned only a thin virologist stub. Let me search for a richer health figure: a Nigerian doctor/surgeon with a striking life s",
+      "action": "search",
+      "detail": "\"Olusegun Ogbonnewo\"",
+      "observation": "Search \"Olusegun Ogbonnewo\" found nothing usable."
+    },
+    {
+      "step": 11,
+      "thought": "Three subjects covered (Business, History, Culture). App is thinnest in Food and Health. I need a rich, unrelated biography in Health or Food. Let me try a specific Nigerian health figure with a dramatic life story — a medical pioneer. I'll search for a name likely to have a long Wikipedia article.",
+      "action": "search",
+      "detail": "\"Olusegun Obasanjo\"",
+      "observation": "Search \"Olusegun Obasanjo\" (Wikipedia):\nr70  Olusegun Obasanjo  (wikipedia, 22197 words)\n     Chief Olusegun Matthew Okikiola Ogunboye Aremu Obasanjo ( ; Yoruba: Olúṣẹ́gun Ọbásanjọ́ [ōlúʃɛ́ɡũ̄ ɔ̄básã̄d͡ʒɔ́] ; born c. 5 March 1937) is a Nigerian politician, statesman, agricu\nr71  Stella Obasanjo  (wikipedia, 2209 words)\n     Stella Obasanjo (née Abebe; 14 November 1945 – 23 October 2005) was the First Lady of Nigeria from 1999 until her death. She was the wife of former President Olusegun Obasanjo, alt\nr72  Esther Oluremi Obasanjo  (wikipedia, 742 words)\n     Esther Oluremi Obasanjo also known as Mama Iyabo is a former Nigerian First Lady. She was previously married to President Olusegun Obasanjo.\nr73  Iyabo Obasanjo  (wikipedia, 2530 words)\n     Iyabo Obasanjo (born 27 April 1967) is a Nigerian academic, epidemiologist, and former senator. She is the daughter of former president of Nigeria Olusegun Obasanjo and his wife Ol\nr74  Mojisola Adekunle-Obasanjo  (wikipedia, 724 words)\n     Mojisola Adekunle-Obasanjo (10 August 1944 – 4 June 2009) was a Nigerian military officer and politician. She founded the Masses Movement of Nigeria (MMN) party in 1998, which she \nr75  Cabinet of President Olusegun Obasanjo  (wikipedia, 704 words)\n     The Cabinet of President Olusegun Obasanjo was formed after President Olusegun Obasanjo took office in May 1999 after the return to democracy with the Nigerian Fourth Republic. Oba\nr76  Olusegun Obasanjo Presidential Library  (wikipedia, 1821 words)\n     The Olusegun Obasanjo Presidential Library is a library owned by Chief Olusegun Obasanjo, a former President of Nigeria. It is a historic, tourist and academic centre established a\nr77  Olusegun Mimiko  (wikipedia, 11845 words)\n     Olusegun Rahman Mimiko (Yoruba: Olúṣẹ́gun Mímikò (); born 3 October 1954) is a Nigerian medical doctor and politician who served as governor of Ondo State from 2009 to 2017. He was\nr78  History of Nigeria  (wikipedia, 41077 words)\n     The history of Nigeria can be traced to the earliest inhabitants from at least 9000 BC through to early civilizations such as the Nok culture which began around 1500 BC. Numerous a\nr79  Olusegun  (wikipedia, 449 words)\n     Olusegun (sometimes spelled as Oluwasegun or its diminutive form, Segun) is a name of Yoruba origin for males, meaning \"God is victorious\".\nr80  Military governors in Nigeria  (wikipedia, 1233 words)\n     A military governor was the head of a state during Nigeria's military era, appointed by the head of the federal military government to administer states, as established by Decree N\nr81  Atiku Abubakar  (wikipedia, 10018 words)\n     Atiku Abubakar (; born 25 November 1946) is a Nigerian politician and businessman who served as the vice president of Nigeria from 1999 to 2007 during the presidency of Olusegun Ob"
+    },
+    {
+      "step": 12,
+      "thought": "Three subjects covered (Business, History, Culture). App is thinnest in Food and Health. I need a rich, unrelated biography. Stella Obasanjo (r71, 2209 words) is a dramatic story — First Lady whose death involved a controversial cosmetic surgery in Spain — a person linking two worlds, in a fresh subject area, and long enough to yield strong facts.",
+      "action": "read",
+      "detail": "r71 \"Stella Obasanjo\"",
+      "observation": "Read r71 \"Stella Obasanjo\": 4 facts verified, 1 failed the verifier, 0 already in the app or this run.\nKEPT (1):\n  + [3/3, History] On Stella Obasanjo's orders, the publisher of the Nigerian Midwest Herald was arrested in 2005 and taken to Akure prison over an article headlined \"Greedy Stella\".\nSTRONG BUT SET ASIDE FOR VARIETY (1):\n  ~ Stella Obasanjo declared 6 February 2003 the International Day of Zero Tolerance to Female Genital Mutilation.  (one fact per document; ranked lower)\nWEAK (2):\n  - [1/3] Stella Obasanjo's surgeon was sentenced to one year in prison in 2009 for causing homicide through negligence, and ordered to pay €120,000 t\n      why: flat: It never says who Stella Obasanjo is or that she was Nigeria's First Lady who died on the operating table, so it's just a stranger's surgeon getting a lig\n  - [1/3] Stella Obasanjo's father, Dr. Christopher Abebe, became the first indigenous chairman of the United Africa Company (UAC) Nigeria.\n      why: obscure: It's a dry corporate appointment fact about a father-in-law of a former First Lady, no turn, no number, nothing that would make my group chat react.\nThis subject is now covered. Move to something unrelated."
+    },
+    {
+      "step": 13,
+      "thought": "Four subjects covered (Business, History, Culture, History). App is thinnest in Food and Health. I need a rich, unrelated biography in Food or Health. A Nigerian food figure with a dramatic story — let me try a specific name likely to have a long Wikipedia article. 'Nigerian cuisine' is mined, but a food entrepreneur or a specific dish's history could work. Let me search for a rich Health figure: ",
+      "action": "search",
+      "detail": "\"Herbert Macaulay\"",
+      "observation": "Search \"Herbert Macaulay\" (Wikipedia):\nr55  Herbert Macaulay  (wikipedia, 5752 words)\n     Olayinka Herbert Samuel Heelas Badmus Macaulay (14 November 1864 – 7 May 1946) was a Nigerian nationalist, politician, surveyor, engineer, architect, journalist, and musician. Maca\nr84  Thomas Babington Macaulay (Nigeria)  (wikipedia, 910 words)\n     Thomas Babington Macaulay (17 January 1826 – 17 January 1878) was a Nigerian priest and educator. He was the first principal and founder of CMS Grammar School, Lagos, and father of\nr85  Oliver Ogedengbe Macaulay  (wikipedia, 699 words)\n     Oliver Ogedengbe Macaulay (15 December 1918 – 14 September 1972), alias Oged Macaulay was a Nigerian politician, archivist, journalist, public relations consultant, and private sec\nr86  Henry Rawlingson Carr  (wikipedia, 2031 words)\n     Henry Carr (15 August 1863 – 1945) was a Nigerian educator and administrator. He was one of the most prominent West Africans in the late nineteenth and early twentieth century and \nr87  The Herbert Macaulay Affair  (wikipedia, 1065 words)\n     The Herbert Macaulay Affair is a 2019 Nigerian film based on the life of Herbert Macaulay, a Nigerian nationalist and proponent of Nigerian independence. It was directed by Imoh Um\nr45  Babatunde Kwaku Adadevoh  (wikipedia, 1348 words)\n     Babatunde Kwaku Adadevoh (4 October 1933 – 5 October 1997) was a Nigerian physician, educational administrator and former Vice-chancellor of the University of Lagos, Nigeria. He wa\nr88  Nigerian nationalism  (wikipedia, 4294 words)\n     Nigerian nationalism asserts that Nigerians as a nation should promote the cultural unity of Nigerians. Nigerian nationalism is territorial nationalism and emphasizes a cultural co\nr89  National Council of Nigeria and the Cameroons  (wikipedia, 1671 words)\n     The National Council of Nigeria and the Cameroons (NCNC) (later changed to the National Convention of Nigerian Citizens), was a Nigerian nationalist political party from 1944 to 19\nr90  Thomas Babington Macaulay  (wikipedia, 10175 words)\n     Thomas Babington Macaulay, 1st Baron Macaulay (; 25 October 1800 – 28 December 1859) was a British historian, poet and Whig politician who served as the Secretary at War between 18\nr91  Nigerian National Democratic Party  (wikipedia, 485 words)\n     The Nigerian National Democratic Party (NNDP) was the first political party in Nigeria. The party was active in Lagos and was supported by the Lagos Daily Newspaper.\nr92  Alimotu Pelewura  (wikipedia, 1315 words)\n     Chief Alimotu Pelewura, (c. 1865–1951) was a Nigerian trader who was leader of the Lagos Market Women's Association, a Lagos-based market women advocacy group.\nr93  The Thin Man  (wikipedia, 1951 words)\n     The Thin Man is a 1934 detective novel by Dashiell Hammett, originally published in a condensed version in the December 1933 issue of Redbook. It appeared in book form the followin"
+    },
+    {
+      "step": 14,
+      "thought": "Four subjects covered (Business, History, Culture, History). App is thinnest in Food and Health. I need a rich, unrelated biography in Food or Health. Herbert Macaulay search surfaced several candidates, but the richest fresh one is Olusegun Mimiko (r77, 11845 words) — a medical doctor and two-term governor with a dramatic life, in the Health category which is nearly empty, and unrelated to anythi",
+      "action": "read",
+      "detail": "r77 \"Olusegun Mimiko\"",
+      "observation": "Read r77 \"Olusegun Mimiko\": 4 facts verified, 4 failed the verifier, 0 already in the app or this run.\nKEPT (0):\nSTRONG BUT SET ASIDE FOR VARIETY (0):\nWEAK (4):\n  - [0/3] Mimiko's Labour Party was only four months and 14 days old when it contested and won the 14 April 2007 Ondo election.\n      why: obscure: I don't know who Mimiko is from this, and a party being four months old before winning an election isn't a turn I'd repeat to anybody.\n  - [0/3] Mimiko's administration demolished 500 buildings in its first year and relocated street traders into 'Caring Heart Neighbourhood Markets'.\n      why: flat: Who is Mimiko? Which state? Which year? It reads like a line cut out of a newspaper, and 'Caring Heart Neighbourhood Markets' is the only thing that even \n  - [0/3] Mimiko's Cocoa Revolution Project produced the beans for the first Nigerian chocolate bar, which won a Silver award at London's Academy of C\n      why: obscure: It never tells me who Mimiko is or why a state cocoa project matters, and a silver award at a chocolate awards ceremony is not a turn — it's just a sma\n  - [0/3] Mimiko established Nigeria's first prison High Court, which began sitting inside Olokuta Medium Security Prison in Akure on 2 April 2012.\n      why: flat: Who is Mimiko? The fact never says, and a court sitting inside a prison is mildly odd but there's no turn, no number, nothing I'd repeat to anybody.\nThis subject is now covered. Move to something unrelated."
+    },
+    {
+      "step": 15,
+      "thought": "Four subjects covered (Business, History, Culture, History). App is thinnest in Food and Health. I need a rich, unrelated biography. The Herbert Macaulay search surfaced r92 Alimotu Pelewura — a market women's leader, a fresh subject (a woman trader, not a politician dynasty), but only 1315 words (thin). Better: r86 Henry Rawlingson Carr (2031 words) is a prominent educator/administrator, but Hist",
+      "action": "search",
+      "detail": "\"Bola Kuforiji-Olubi\"",
+      "observation": "Search \"Bola Kuforiji-Olubi\" (Wikipedia):\nr96  Bola Kuforiji-Olubi  (wikipedia, 1175 words)\n     Chief Bola Kuforiji-Olubi (28 September 1936 – 3 December 2016) was a Nigerian traditional aristocrat, accountant, banker and politician. She was minister of commerce and industry \nr97  Bola (name)  (wikipedia, 316 words)\n     Bola has been used as both a surname and a given name.\nr98  Deaths in December 2016  (wikipedia, 35881 words)\n     \nr99  Abeokuta  (wikipedia, 6376 words)\n     Abeokuta () is the capital city of Ogun State, which is located in southwestern Nigeria. It is situated on both banks of the Ogun River, near a group of rocky outcrops in a wooded \nr100  Ogun State  (wikipedia, 7312 words)\n     Ogun State (Yoruba: Ìpínlẹ̀ Ògùn [ìk͡pĩ́lɛ̀ ògũ̀]) is a state in southwestern Nigeria. It is bordered to the south by Lagos State and the Bight of Benin, to the east by Ondo State,\nr101  Interim National Government  (wikipedia, 1543 words)\n     The Interim National Government was the short-lived civilian administration that governed Nigeria, following the crisis of the Third Republic. The largely powerless and illegitimat"
+    },
+    {
+      "step": 16,
+      "thought": "Four subjects covered (Business, History, Culture, History). App is thinnest in Food and Health. I need a rich, unrelated biography in Food or Health. Bola Kuforiji-Olubi (r96) is only 1175 words — thin. Better: a rich Nigerian food figure. Let me search for a specific name likely to have a long Wikipedia article in the Food category.",
+      "action": "search",
+      "detail": "\"Nigerian food entrepreneur\"",
+      "observation": "Search \"Nigerian food entrepreneur\" (Wikipedia):\nr102  Nigeria  (wikipedia, 47194 words, mined before; its best facts are in the app)\n     Nigeria, officially the Federal Republic of Nigeria, is a country in West Africa between the Sahel to the north and the Gulf of Guinea in the Atlantic Ocean to the south. It covers\nr103  Olasunkanmi Owoyemi  (wikipedia, 772 words)\n     Olasunkanmi Owoyemi is a Nigerian agribusiness executive, commodities trader, and entrepreneur. He is the founder and managing director of Sunbeth Global Concepts Limited, a Nigeri\nr104  Economy of Nigeria  (wikipedia, 30031 words)\n     Nigeria has a lower-middle-income, mixed economy and emerging market, with expanding manufacturing, financial, service, communications, technology, and entertainment sectors. It is\nr105  Ndidi Okonkwo Nwuneli  (wikipedia, 3851 words)\n     Dr. Ndidi Okonkwo Nwuneli ( ; born 22 March 1975) is a Nigerian entrepreneur, an expert on African agriculture and nutrition, philanthropy, and social innovation.\nr106  Ada Osakwe  (wikipedia, 1052 words)\n     Ada Osakwe (born 2 September 1981) is a Nigerian economist, entrepreneur, and corporate executive, who is the founder and chief executive officer of Agrolay Ventures, an agribusine\nr107  Aliko Dangote  (wikipedia, 5937 words, mined before; its best facts are in the app)\n     Aliko Dangote (; born 10 April 1957) is a Nigerian billionaire businessman known for his key roles in Dangote Group. In 2011, he was appointed as member of the economic management \nr108  Chicken Republic  (wikipedia, 1956 words)\n     Chicken Republic is a Nigerian quick-service restaurant (QSR) chain specializing in chicken-based meals and other fast-food products. Founded in 2004, the chain is a subsidiary and\nr109  Jerry Uwangue  (wikipedia, 927 words)\n     Jerry Uwangue is a Nigerian businessman and politician. Since 2025, he has served as Commissioner for Agriculture and Food Security in Edo State.\nr110  Yewande  (wikipedia, 171 words)\n     Yewande (Yéwándé) is a Nigerian name of Yoruba origins which means \"mother sought me out to this place\". Yéwándé is a name given to baby girls born after the loss of a mother or gr\nr111  Food  (wikipedia, 9196 words)\n     Food is any substance that is consumed by an organism for nutritional support. Food usually consists of plant, animal, or fungal origin and contains essential nutrients such as car\nr112  Honeywell Group  (wikipedia, 2217 words)\n     Honeywell Group is a conglomerate based in Nigeria. It operates in diversified businesses such as foods and agriculture, telecommunication and infrastructure, real estate and finan\nr113  Nonye Soludo  (wikipedia, 1295 words)\n     Nonye Frances Soludo (born 31 July 1970) is a Nigerian computer scientist, entrepreneur and environmentalist who is the fifth First Lady of Anambra State since March 2022. She was "
+    },
+    {
+      "step": 17,
+      "thought": "Four subjects covered (Business, History, Culture, History). App is thinnest in Food and Health. I need a rich, unrelated biography in Food. Ndidi Okonkwo Nwuneli (r105, 3851 words) is a Nigerian food/agriculture entrepreneur — a person linking two worlds (African nutrition and global philanthropy), long enough to yield strong facts, and in the Food category which is nearly empty.",
+      "action": "read",
+      "detail": "r105 \"Ndidi Okonkwo Nwuneli\"",
+      "observation": "Read r105 \"Ndidi Okonkwo Nwuneli\": 3 facts verified, 5 failed the verifier, 0 already in the app or this run.\nKEPT (0):\nSTRONG BUT SET ASIDE FOR VARIETY (0):\nWEAK (3):\n  - [0/3] Ndidi Nwuneli was born in 1975 in Enugu to a Nigerian professor of pharmacology and an American professor of history, who met at Cornell Uni\n      why: flat: It tells me who her parents are and where they met, but never says who Ndidi Nwuneli is or why I should care — that's a family tree, not a fact.\n  - [0/3] In 1997, Ndidi Nwuneli's McKinsey work led to the management and training of police officers across 25 South African Police Service stations\n      why: obscure: Who is Ndidi Nwuneli and why should I care that a McKinsey project touched police stations? It reads like a LinkedIn bio line, not a fact I'd repeat.\n  - [0/3] Ndidi Nwuneli founded LEAP Africa and Ndu Ike Akunuba in 2002; NIA is Igbo for life, strength, and wealth.\n      why: flat: It never tells me who Ndidi Nwuneli is or why she matters, and the Igbo translation is just a name meaning — nothing in it makes me react.\nThis subject is now covered. Move to something unrelated."
+    },
+    {
+      "step": 18,
+      "thought": "Four subjects covered (Business, History, Culture, History). App is thinnest in Food and Health. Ndidi Nwuneli was thin (0 strong). I need a rich, unrelated biography in Food or Health. A Nigerian food figure with a dramatic story — let me try a specific name likely to have a long Wikipedia article. 'Chicken Republic' (r108, 1956 words) is a food business with a strange history, but borderline. Be",
+      "action": "search",
+      "detail": "\"Ameyo Adadevoh\"",
+      "observation": "Search \"Ameyo Adadevoh\" (Wikipedia):\nr44  Ameyo Adadevoh  (wikipedia, 3578 words, mined before; its best facts are in the app)\n     Ameyo Stella Adadevoh, OON (27 October 1956 – 19 August 2014) was a Nigerian physician. She is credited with having curbed a wider spread of the Western African Ebola virus epidemi\nr45  Babatunde Kwaku Adadevoh  (wikipedia, 1348 words)\n     Babatunde Kwaku Adadevoh (4 October 1933 – 5 October 1997) was a Nigerian physician, educational administrator and former Vice-chancellor of the University of Lagos, Nigeria. He wa\nr116  93 Days  (wikipedia, 1057 words)\n     93 Days is a 2016 Nigerian drama thriller film directed and co-produced by Steve Gukas. The film recounts the 2014 Ebola outbreak in Nigeria and its successful containment by healt\nr117  Outbreak (1995 film)  (wikipedia, 4398 words)\n     Outbreak is a 1995 American medical disaster film directed by Wolfgang Petersen and written by Laurence Dworet and Robert Roy Pool. The film stars Dustin Hoffman, Rene Russo and Mo\nr118  Marburg virus  (wikipedia, 9961 words)\n     Marburg virus (MARV) is a hemorrhagic fever virus of the Filoviridae family of viruses and a member of the species Marburg marburgvirus, genus Marburgvirus. It causes Marburg virus\nr119  Richard Preston  (wikipedia, 1565 words)\n     Richard Preston (born August 5, 1954) is a writer for The New Yorker and bestselling author who has written books about infectious disease, bioterrorism, redwoods and other subject\nr120  Executive Orders  (wikipedia, 3055 words)\n     Executive Orders is a techno-thriller novel, written by Tom Clancy and released on July 1, 1996. It picks up immediately where the final events of Debt of Honor (1994) left off, an\nr121  Victoria Davies Randle  (wikipedia, 1036 words)\n     Victoria Matilda Davies Randle (née Davies; 1863 – 1920) was a socialite in Victorian Lagos Colony.\nr122  Patrick Sawyer  (wikipedia, 2410 words)\n     Patrick Oliver Sawyer (c. 1974 – 24 July 2014) was a Liberian-American lawyer who was notable for being the index case for the introduction of Ebola virus disease into Nigeria duri\nr123  1976 Zaire Ebola virus outbreak  (wikipedia, 2851 words)\n     In August–November 1976, an outbreak of Ebola virus disease occurred in Zaire (now the Democratic Republic of the Congo). The first recorded case was from Yambuku, a small village \nr124  William Close  (wikipedia, 1811 words)\n     William Taliaferro Close (June 7, 1924 – January 15, 2009) was an American surgeon who played a major role in stemming a 1976 outbreak of the Ebola virus in Zaire, the first major \nr125  Ebola  (wikipedia, 34173 words)\n     Ebola, also known as Ebola virus disease (EVD) and Ebola hemorrhagic fever (EHF), is a zoonotic viral hemorrhagic fever in humans and other primates, caused by four of the six know"
+    },
+    {
+      "step": 19,
+      "thought": "Four subjects covered (Business, History, Culture, History). App is thinnest in Food and Health. I need a rich, unrelated biography. Patrick Sawyer (r122, 2410 words) is the Liberian-American lawyer who brought Ebola into Nigeria — a dramatic scandal/crime-adjacent story, a person linking two worlds, in the Health category which is nearly empty, and unrelated to anything covered. It's the index ca",
+      "action": "read",
+      "detail": "r122 \"Patrick Sawyer\"",
+      "observation": "Read r122 \"Patrick Sawyer\": 3 facts verified, 1 failed the verifier, 0 already in the app or this run.\nKEPT (1):\n  + [5/6, Health] Patrick Sawyer's Ebola infection led to 19 confirmed cases and eight deaths in Nigeria, and the country was declared Ebola-free by the WHO on 20 October 2014.\nSTRONG BUT SET ASIDE FOR VARIETY (0):\nWEAK (2):\n  - [1/3] Patrick Sawyer, a Liberian-American lawyer, collapsed at Murtala Muhammed International Airport in Lagos on 20 July 2014 and died of Ebola a\n      why: known: Every Nigerian who lived through 2014 knows Sawyer brought Ebola to Lagos and died at First Consultant — the fact gives me the dates and the airport, but\n  - [0/3] Patrick Sawyer's case and Nigeria's containment of the outbreak form the basis of the 2016 Nigerian drama thriller film 93 Days.\n      why: flat: It never says who Patrick Sawyer is or what the outbreak was, so it's just a film title with no turn in it.\nThis subject is now covered. Move to something unrelated."
+    }
+  ],
+  "removed": [
+    {
+      "key": "a1",
+      "fact": "In April 2023, Michael Ibru was honoured with a blue heritage plaque in Kensington, where he lived for 33 years — joining Fela Kuti, Malcolm X and Bob Marley.",
+      "category": "History",
+      "votes": "3/3",
+      "why": "I know the Ibru name but I never knew a Nigerian businessman was honoured in London alongside Fela and Malcolm X — that link is what makes me want to send it.",
+      "title": "Michael Ibru",
+      "url": "https://en.wikipedia.org/wiki/Michael_Ibru",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "In April 2023, Michael Ibru was honoured with a blue heritage plaque in Kensington, where he lived for 33 years — joining Fela Kuti, Malcolm X and Bob Marley.",
+        "passage": "In April 2023, Ibru was honoured with a blue heritage plaque by the Nubian Jak Community Trust and the Royal Borough of Kensington and Chelsea at his Kensington Park Gardens home, where he lived for 33 years. Honorees have included his compatriot Fela Kuti, Malcolm X, and Bob Marley.",
+        "category": "History",
+        "surprise": {
+          "priorProbability": 5,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "A Nigerian industrialist sharing a London plaque scheme with Malcolm X and Bob Marley is a striking, recent connection.",
+        "volatile": true,
+        "slug": "michael-ibru",
+        "country": "NG",
+        "source": {
+          "title": "Michael Ibru",
+          "url": "https://en.wikipedia.org/wiki/Michael_Ibru",
+          "revisionId": "1377257680",
+          "contentHash": "0866ca8e094b1084",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-28",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      },
+      "removedBecause": "assumes the reader knows Michael Ibru, Malcolm X, Bob Marley"
+    },
+    {
+      "key": "a3",
+      "fact": "Sarah Forbes Bonetta's descendant through her daughter Stella was Ameyo Adadevoh, the doctor who contained Ebola in Lagos.",
+      "category": "Health",
+      "votes": "3/3",
+      "why": "Two things I actually know — the Ebola doctor and the girl gifted to Queen Victoria — turn out to be the same bloodline, and I never would have guessed it.",
+      "title": "Sarah Forbes Bonetta",
+      "url": "https://en.wikipedia.org/wiki/Sarah_Forbes_Bonetta",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "Sarah Forbes Bonetta's descendant through her daughter Stella was Ameyo Adadevoh, the doctor who contained Ebola in Lagos.",
+        "passage": "Bonetta's second daughter Stella Davies and Herbert Macaulay, the grandson of Samuel Ajayi Crowther, had a daughter together: Sarah Abigail Idowu Macaulay Adadevoh, named after her maternal grandmother Sarah and her paternal grandmother Abigail. A descendant of Sarah's through her line was the Ebola heroine Ameyo Adadevoh.",
+        "category": "Health",
+        "surprise": {
+          "priorProbability": 5,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "The link between Queen Victoria's goddaughter and Nigeria's Ebola heroine is a hidden connection between two known stories.",
+        "volatile": false,
+        "slug": "sarah-forbes-bonetta",
+        "country": "NG",
+        "source": {
+          "title": "Sarah Forbes Bonetta",
+          "url": "https://en.wikipedia.org/wiki/Sarah_Forbes_Bonetta",
+          "revisionId": "1367132197",
+          "contentHash": "92d733d046158813",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-28",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      },
+      "removedBecause": "assumes the reader knows Sarah Forbes Bonetta, Stella"
+    }
+  ],
+  "decidedAt": "2026-09-29T05:44:24.842Z",
+  "developed": [
+    "nf_1171",
+    "nf_1172",
+    "nf_1173"
+  ]
+}

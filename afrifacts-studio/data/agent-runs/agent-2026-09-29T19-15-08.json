@@ -1,0 +1,397 @@
+{
+  "runId": "agent-2026-09-29T19-15-08",
+  "status": "done",
+  "brief": "Surprising stories from sport in Tanzania",
+  "country": "TZ",
+  "target": 5,
+  "createdAt": "2026-09-29T19:18:57.402Z",
+  "stopReason": "The agent model failed: deepseek-chat returned unparseable JSON: {\"thought\": \"Sports has been exhausted via football, athletics, boxing, cricket, Olympics and Paralympics — all thin or covered. The brief is sport, but the app is also empty in Food, Records, Health ",
+  "docsRead": 5,
+  "webQueriesSpent": 0,
+  "shortlist": [
+    {
+      "key": "s1",
+      "fact": "Tanzanian striker Samatta became the first East African crowned CAF African Player of the Year, taking 127 points to TP Mazembe goalkeeper Robert Kidiaba's 88 in Abuja in 2016.",
+      "category": "Sports",
+      "votes": "3/3",
+      "why": "I know Samatta's name but I had no idea he was the first East African to win it, and the 127-88 scoreline makes it feel real.",
+      "title": "Mbwana Samatta",
+      "url": "https://en.wikipedia.org/wiki/Mbwana_Samatta",
+      "candidate": {
+        "fact": "Tanzanian striker Samatta became the first East African crowned CAF African Player of the Year, taking 127 points to TP Mazembe goalkeeper Robert Kidiaba's 88 in Abuja in 2016.",
+        "passage": "At the Glo-CAF Awards on 7 January 2016 at the International Conference Centre in Abuja, Nigeria, he became the first player from East Africa to be crowned the CAF African Player of the Year. Mbwana garnered a total of 127 points, ahead of his TP Mazembe teammate and DR Congo goalkeeper Robert Kidiaba, who amassed 88 points, and Algerian Baghdad Bounedjah trailed in third place with 63 points.",
+        "category": "Sports",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "The 'first from East Africa' framing and the exact 127-point margin are details few Tanzanians would recall.",
+        "volatile": false,
+        "slug": "mbwana-samatta",
+        "country": "TZ",
+        "source": {
+          "title": "Mbwana Samatta",
+          "url": "https://en.wikipedia.org/wiki/Mbwana_Samatta",
+          "revisionId": "1376415493",
+          "contentHash": "21ccd0a6169bcab6",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "s2",
+      "fact": "Tanzanian former middle-distance runner Filbert Bayi broke American mile record holder Jim Ryun's eight-year-old mile record with 3:51.0 in Kingston, Jamaica on 17 May 1975.",
+      "category": "Sports",
+      "votes": "5/6",
+      "why": "I know the name from school but nobody ever told me he took down the American record holder's eight-year-old mile record, and the 3:51.0 makes it real.",
+      "title": "Filbert Bayi",
+      "url": "https://en.wikipedia.org/wiki/Filbert_Bayi",
+      "candidate": {
+        "fact": "Tanzanian former middle-distance runner Filbert Bayi broke American mile record holder Jim Ryun's eight-year-old mile record with 3:51.0 in Kingston, Jamaica on 17 May 1975.",
+        "passage": "In 1975, Bayi broke Ryun's eight-year-old mile record by clocking 3:51.0 in Kingston, Jamaica on 17 May.",
+        "category": "Sports",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 3
+        },
+        "reasoning": "The exact time and the fact that Ryun's record had stood eight years are details most readers have never seen.",
+        "volatile": false,
+        "slug": "filbert-bayi",
+        "country": "TZ",
+        "source": {
+          "title": "Filbert Bayi",
+          "url": "https://en.wikipedia.org/wiki/Filbert_Bayi",
+          "revisionId": "1364241427",
+          "contentHash": "366cd730c4e0b02d",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    }
+  ],
+  "alternates": [
+    {
+      "key": "a1",
+      "fact": "Samatta's £8.5 million move to Aston Villa in January 2020 made him the first Tanzanian to sign for a Premier League club.",
+      "category": "Sports",
+      "votes": "3/3",
+      "why": "It's a fact about us, not about some far-off place, and I watched that transfer happen without ever knowing it was a first for the whole country.",
+      "title": "Mbwana Samatta",
+      "url": "https://en.wikipedia.org/wiki/Mbwana_Samatta",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "Samatta's £8.5 million move to Aston Villa in January 2020 made him the first Tanzanian to sign for a Premier League club.",
+        "passage": "On 20 January 2020, Samatta signed a four-and-a-half-year contract with Premier League club Aston Villa. In doing so, he became the first Tanzanian to sign for a Premier League club. The transfer fee paid to Genk was reported as £8.5 million.",
+        "category": "Sports",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 3
+        },
+        "reasoning": "The reported £8.5 million fee and the 'first Tanzanian' tag are concrete details rarely cited together.",
+        "volatile": false,
+        "slug": "mbwana-samatta",
+        "country": "TZ",
+        "source": {
+          "title": "Mbwana Samatta",
+          "url": "https://en.wikipedia.org/wiki/Mbwana_Samatta",
+          "revisionId": "1376415493",
+          "contentHash": "21ccd0a6169bcab6",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a2",
+      "fact": "Tanzanian striker Samatta's 20 goals made him top scorer of the Belgian league in 2018–19 as Genk won the title, earning him the Ebony Shoe.",
+      "category": "Sports",
+      "votes": "3/3",
+      "why": "He's our captain and I've watched him for years but I had no idea he actually topped the Belgian league and took the Ebony Shoe, that's a flex I'm sending to the group chat right now.",
+      "title": "Mbwana Samatta",
+      "url": "https://en.wikipedia.org/wiki/Mbwana_Samatta",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "Tanzanian striker Samatta's 20 goals made him top scorer of the Belgian league in 2018–19 as Genk won the title, earning him the Ebony Shoe.",
+        "passage": "During the 2018–19 season, he led the Belgian First Division A in scoring with 20 goals, as Genk finished the season as league winners. In May 2019 he was awarded with the Ebony Shoe award for his exploits during the campaign.",
+        "category": "Sports",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 3
+        },
+        "reasoning": "The exact 20-goal tally and the Ebony Shoe award are specifics most readers would not recall.",
+        "volatile": false,
+        "slug": "mbwana-samatta",
+        "country": "TZ",
+        "source": {
+          "title": "Mbwana Samatta",
+          "url": "https://en.wikipedia.org/wiki/Mbwana_Samatta",
+          "revisionId": "1376415493",
+          "contentHash": "21ccd0a6169bcab6",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a3",
+      "fact": "Tanzanian professional footballer Samatta captained Tanzania to their first-ever Africa Cup of Nations round of 16 in 2025, after draws with Uganda and Tunisia.",
+      "category": "Sports",
+      "votes": "4/6",
+      "why": "I lived through the years of group-stage exits, so 'first-ever round of 16' is a real turn, though the draws are a thin way to get there.",
+      "title": "Mbwana Samatta",
+      "url": "https://en.wikipedia.org/wiki/Mbwana_Samatta",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "Tanzanian professional footballer Samatta captained Tanzania to their first-ever Africa Cup of Nations round of 16 in 2025, after draws with Uganda and Tunisia.",
+        "passage": "In December 2025, Samatta was included as captain in Tanzania's final 28-man squad for the 2025 Africa Cup of Nations. Tanzania lost 1–2 to the Nigeria national team in the group stage, before drawing with Uganda and Tunisia, respectively, and advanced to the Africa Cup of Nations round of 16 for the first time in their history. Samatta appeared in four matches during the tournament, before Tanzania were eliminated by hosts Morocco in the round of 16.",
+        "category": "Sports",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "Tanzania reaching the AFCON knockout stage for the first time is a historic milestone many would not know.",
+        "volatile": true,
+        "slug": "mbwana-samatta",
+        "country": "TZ",
+        "source": {
+          "title": "Mbwana Samatta",
+          "url": "https://en.wikipedia.org/wiki/Mbwana_Samatta",
+          "revisionId": "1376415493",
+          "contentHash": "21ccd0a6169bcab6",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a4",
+      "fact": "Tanganyika's first international was not until 1951, when they lost by an innings to Kenya.",
+      "category": "Sports",
+      "votes": "5/6",
+      "why": "I teach this country's history and I never knew we waited until 1951 to play anyone, and then got humiliated by Kenya of all people.",
+      "title": "Tanzania national cricket team",
+      "url": "https://en.wikipedia.org/wiki/Tanzania_national_cricket_team",
+      "aside": "Sports is full this run",
+      "candidate": {
+        "fact": "Tanganyika's first international was not until 1951, when they lost by an innings to Kenya.",
+        "passage": "Distance between Tanganyika and other countries in the African Great Lakes meant that the first international was not played until 1951, when Tanganyika lost by an innings to Kenya.",
+        "category": "Sports",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 4,
+          "explicability": 3
+        },
+        "reasoning": "A dated first match and a heavy defeat, with the reason given as distance across the Great Lakes.",
+        "volatile": false,
+        "slug": "tanzania-national-cricket-team",
+        "country": "TZ",
+        "source": {
+          "title": "Tanzania national cricket team",
+          "url": "https://en.wikipedia.org/wiki/Tanzania_national_cricket_team",
+          "revisionId": "1369828471",
+          "contentHash": "7a0503f3463540fa",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a5",
+      "fact": "Tanzania's national cricket side now contains between 20 and 25% African players, after decades of development work since the 1970s.",
+      "category": "Sports",
+      "votes": "3/3",
+      "why": "I genuinely thought cricket here was just an Asian thing, so hearing a quarter of the national side is African actually made me stop scrolling.",
+      "title": "Tanzania national cricket team",
+      "url": "https://en.wikipedia.org/wiki/Tanzania_national_cricket_team",
+      "aside": "Sports is full this run",
+      "candidate": {
+        "fact": "Tanzania's national cricket side now contains between 20 and 25% African players, after decades of development work since the 1970s.",
+        "passage": "Since the 1970s, the Tanzania Cricket Association has concentrated on developing the game amongst the African communities, and the national side now contains between 20 and 25% African players.",
+        "category": "Sports",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "A precise demographic figure for the national team that reveals the sport's colonial and South Asian roots.",
+        "volatile": true,
+        "slug": "tanzania-national-cricket-team",
+        "country": "TZ",
+        "source": {
+          "title": "Tanzania national cricket team",
+          "url": "https://en.wikipedia.org/wiki/Tanzania_national_cricket_team",
+          "revisionId": "1369828471",
+          "contentHash": "7a0503f3463540fa",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    }
+  ],
+  "trace": [
+    {
+      "step": 1,
+      "thought": "Sports is a completely empty category in the app, so I should aim there. Tanzanian football has dramatic figures; the national team's history or a famous player could yield rich facts. Let me start with a specific name: the Tanzania national football team article, or better, a famous Tanzanian footballer. I'll search for the Tanzania national football team first as it likely has a long, rich histo",
+      "action": "search",
+      "detail": "\"Tanzania national football team\"",
+      "observation": "Search \"Tanzania national football team\" (Wikipedia):\nr1  Tanzania national football team  (wikipedia, 7169 words)\n     The Tanzania national football team (Swahili: Timu ya Taifa ya Mpira wa Miguu ya Tanzania) represents Tanzania in men's international football and is controlled by the Tanzania Foo\nr2  Tanzania women's national football team  (wikipedia, 4997 words)\n     The Tanzania national women's football team is the national team of Tanzania and is controlled by the Tanzania Football Federation. They are nicknamed the Twiga Stars.\nr3  Tanzania national under-20 football team  (wikipedia, 1485 words)\n     The Tanzania national under-20 football team, nicknamed the Ngorongoro Boys, represents Tanzania in international youth football competitions. Its primary role is the development o\nr4  Tanzania national football team results  (wikipedia, 17072 words)\n     The following are the matches played by the Tanzania national football team since its debut in 1945.\nr5  Tanzania national under-17 football team  (wikipedia, 2628 words)\n     The Tanzania national under-17 football team (Swahili: Timu ya Taifa ya Mpira wa Miguu ya Tanzania) represents Tanzania in youth men's international football and is controlled by t\nr6  Tanzania Football Federation  (wikipedia, 985 words)\n     The Tanzania Football Federation (TFF; Swahili: Shirikisho la Mpira wa Miguu Tanzania) previously the Football Association of Tanzania, is the governing body of football in the Uni\nr7  Tanzania national under-15 football team  (wikipedia, 637 words)\n     The Tanzania national under-15 football team is a youth football team, which represents Tanzania and is controlled by the Tanzania Football Federation, the governing body for footb\nr8  Tanzania women's national under-20 football team  (wikipedia, 1808 words)\n     The Tanzania women's national under-20 football team represents Tanzania in international youth women's football competitions. The team finished in 3rd place in the first edition o\nr9  Eritrea national football team  (wikipedia, 10894 words)\n     The Eritrea national football team (Tigrinya: ሃገራዊት ጋንታ ኩዕሶ እግሪ ኤርትራ) represents Eritrea in men's international football and it is controlled by the Eritrean National Football Fede\nr10  Benjamin Mkapa Stadium  (wikipedia, 2235 words)\n     Benjamin Mkapa Stadium, also known as Tanzania National Stadium, is a multi-purpose stadium located in Miburani ward of Temeke District in Dar es Salaam, Tanzania. It opened in 200\nr11  Football in Tanzania  (wikipedia, 1217 words)\n     The Tanzania Football Federation is the governing body mandated to run the sport of football in Tanzania. It oversees the national football team, Premier League, the Championship, \nr12  Ethiopia national football team  (wikipedia, 13973 words)\n     The Ethiopia national football team (Amharic: የአትዮጵያ ብሔራዊ እግር ኳስ ቡድን), nicknamed Walia, after the Walia ibex, represents Ethiopia in men's international football and is controlled "
+    },
+    {
+      "step": 2,
+      "thought": "Sports is empty and the brief is sport in Tanzania. The national team article is likely administrative/results-heavy, but a famous Tanzanian footballer's biography would be richer. Let me search for a specific name: Mbwana Samatta, Tanzania's most famous footballer who played in the Premier League.",
+      "action": "search",
+      "detail": "\"Mbwana Samatta\"",
+      "observation": "Search \"Mbwana Samatta\" (Wikipedia):\nr16  Mbwana Samatta  (wikipedia, 6226 words)\n     Mbwana Ally Samatta (born 23 December 1992) is a Tanzanian professional footballer who plays as a striker for Ligue 1 club Le Havre. Samatta began his career as a youth player for \nr17  2020 EFL Cup final  (wikipedia, 4364 words)\n     The 2020 EFL Cup final was the final of the 2019–20 EFL Cup. It was played at Wembley Stadium in London, England, on 1 March 2020, and contested by Aston Villa and Manchester City.\nr18  Samatta  (wikipedia, 34 words)\n     Samatta is a surname.\nr1  Tanzania national football team  (wikipedia, 7169 words)\n     The Tanzania national football team (Swahili: Timu ya Taifa ya Mpira wa Miguu ya Tanzania) represents Tanzania in men's international football and is controlled by the Tanzania Foo\nr19  KRC Genk  (wikipedia, 6108 words)\n     Koninklijke Racing Club Genk (Dutch pronunciation: [ˈkoːnɪŋkləkə ˈreːsɪŋ ˌklʏp ˈxɛŋk]), commonly known as KRC Genk or Racing Genk, is a Belgian professional football club based in \nr20  Ebony Shoe  (wikipedia, 3156 words)\n     The Ebony Shoe award (Dutch: Ebbenhouten schoen, French: Soulier d'ébène) is a football award in Belgium given annually to the best African or African origin player in the Belgian \nr21  Linafoot  (wikipedia, 4054 words)\n     The Linafoot is the top division of the Congolese Association Football Federation (FECOFA), the governing body of football in the Democratic Republic of the Congo. It was created i\nr22  Dar es Salaam  (wikipedia, 13450 words)\n     Dar es Salaam (English: , Swahili: [ɗɑr‿ɛs‿sɑˈlɑːm] ; from Arabic: دَار السَّلَام, romanised: Dār as-Salām, lit. 'Abode of Peace') is the largest city and financial hub of Tanzania\nr23  Samuel Mbappé Léppé  (wikipedia, 998 words)\n     Samuel Mbappé Léppé (28 February 1936 – 25 December 1985), also known as Mbappé Moumi Samuel, nicknamed Maréchal was a Cameroonian professional footballer who played as a midfielde\nr24  Mesut Özil  (wikipedia, 33814 words)\n     Mesut Özil (German pronunciation: [ˈmeːzut ˈøːzil], Turkish: [meˈsut œˈzil]; born 15 October 1988) is a German former professional footballer who played as an attacking midfielder.\nr25  Le Havre AC  (wikipedia, 2537 words)\n     Le Havre Athletic Club (French pronunciation: [lə ɑvʁ]) is a French professional association football club based in Le Havre, Normandy. The football club was founded in 1894 as a s\nr26  2019 Africa Cup of Nations Group C  (wikipedia, 4643 words)\n     Group C of the 2019 Africa Cup of Nations took place from 23 June to 1 July 2019. The group consisted of Algeria, Kenya, Senegal and Tanzania."
+    },
+    {
+      "step": 3,
+      "thought": "Sports is empty and the brief is sport in Tanzania. Mbwana Samatta's 6,226-word biography is a rich person-focused article about Tanzania's most famous footballer, likely to yield strong facts. Let me read it.",
+      "action": "read",
+      "detail": "r16 \"Mbwana Samatta\"",
+      "observation": "Read r16 \"Mbwana Samatta\": 8 facts verified, 0 failed the verifier, 2 already in the app or this run.\nKEPT (1):\n  + [3/3, Sports] Tanzanian striker Samatta became the first East African crowned CAF African Player of the Year, taking 127 points to TP Mazembe goalkeeper Robert Kidiaba's 88 in Abuja in 2016.\nSTRONG BUT SET ASIDE FOR VARIETY (3):\n  ~ Samatta's £8.5 million move to Aston Villa in January 2020 made him the first Tanzanian to sign for a Premier   (one fact per document; ranked lower)\n  ~ Tanzanian striker Samatta's 20 goals made him top scorer of the Belgian league in 2018–19 as Genk won the titl  (one fact per document; ranked lower)\n  ~ Tanzanian professional footballer Samatta captained Tanzania to their first-ever Africa Cup of Nations round o  (one fact per document; ranked lower)\nWEAK (2):\n  - [0/3] Tanzanian professional footballer Samatta scored a hat-trick against Brøndby in the Europa League in 2018, part of a 5–2 win for Genk.\n      why: flat: It's just a match report — a hat-trick in a group game I never watched, with no turn, no number that startles, nothing to make the group chat reply 'no wa\n  - [3/6] Tanzanian striker Samatta scored seven goals to finish top scorer of the 2015 CAF Champions League, then scored in both legs of the final as\n      why: known: Every Tanzanian football fan knows Samatta won the Champions League with Mazembe and was top scorer — this is just the Wikipedia version of something we \nThis subject is now covered. Move to something unrelated."
+    },
+    {
+      "step": 4,
+      "thought": "Sports is empty and Samatta is now covered. Tanzanian athletics has dramatic figures — Filbert Bayi's 1974 world record in the 1500m is a famous, surprising story. Let me search for him as a rich person-focused article.",
+      "action": "search",
+      "detail": "\"Filbert Bayi\"",
+      "observation": "Search \"Filbert Bayi\" (Wikipedia):\nr30  Filbert Bayi  (wikipedia, 1879 words)\n     Filbert Bayi Sanka (born June 23, 1953) is a Tanzanian former middle-distance runner who competed throughout the 1970s. He set the world records for 1500 metres in 1974 and the mil\nr31  John Walker (runner)  (wikipedia, 2631 words)\n     Sir John George Walker (born 12 January 1952) is a former middle-distance runner from New Zealand who won the gold medal in the men's 1500 m event at the 1976 Olympics. He was also\nr32  Sebastian Coe  (wikipedia, 11841 words)\n     Sebastian Newbold Coe, Baron Coe (born 29 September 1956), often referred to as Seb Coe, is a British sports administrator, former politician and retired track and field athlete. A\nr33  Athletics at the 1976 Summer Olympics – Men's 1500 metres  (wikipedia, 3037 words)\n     The men's 1,500m metres was an event at the 1976 Summer Olympics in Montreal, Quebec, Canada. The final was held on Saturday 31 July 1976 and was contested by 9 athletes.\nr34  1500 metres  (wikipedia, 13863 words)\n     The 1500 metres or 1500-metre run is the foremost middle-distance track event in athletics. The distance has been contested at the Summer Olympics since 1896 and the World Champion\nr35  Marty Liquori  (wikipedia, 1307 words)\n     Martin William Liquori (born September 11, 1949) is a retired American middle distance athlete. Liquori rose to fame when he became the third American high schooler to break the fo\nr36  Josh Kerr  (wikipedia, 9122 words)\n     Josh Kerr (born 8 October 1997) is a Scottish middle-distance runner who has held the world record in the mile since 2026, with a time of 3:42.66. In the 1500 metres, Kerr won gold\nr37  Nathan Green (runner)  (wikipedia, 1622 words)\n     Nathan Green (born April 10, 2003) is an American middle-distance runner who specializes in the 1500 metres. He competed for the Washington Huskies.\nr38  Athletics at the 1974 British Commonwealth Games – Men's 1500 metres  (wikipedia, 1411 words)\n     The men's 1500 metres event at the 1974 British Commonwealth Games was held on 31 January and 2 February at the Queen Elizabeth II Park in Christchurch, New Zealand.\nr39  Jakob Ingebrigtsen  (wikipedia, 26163 words)\n     Jakob Asserson Ingebrigtsen (born 19 September 2000) is a Norwegian middle- and long-distance runner, a two-time Olympic champion, and the winner of seven senior global titles. He \nr40  Ben Blankenship  (wikipedia, 1481 words)\n     Ben Blankenship (born December 15, 1988) is an American middle distance runner. He is a world record holder as a member of the 2015 USA Distance medley relay team, of which he ran \nr41  Roger Bannister  (wikipedia, 10308 words)\n     Sir Roger Gilbert Bannister (23 March 1929 – 3 March 2018) was an English neurologist and middle-distance athlete who ran the first sub-4-minute mile. At the 1952 Olympics in Helsi"
+    },
+    {
+      "step": 5,
+      "thought": "Sports is the target category and Samatta is covered. Filbert Bayi's 1,879-word article is a bit short but he's a legendary Tanzanian runner with a dramatic 1974 world record story — worth reading to see if it yields strong facts.",
+      "action": "read",
+      "detail": "r30 \"Filbert Bayi\"",
+      "observation": "Read r30 \"Filbert Bayi\": 3 facts verified, 4 failed the verifier, 0 already in the app or this run.\nKEPT (1):\n  + [5/6, Sports] Tanzanian former middle-distance runner Filbert Bayi broke American mile record holder Jim Ryun's eight-year-old mile record with 3:51.0 in Kingston, Jamaica on 17 May 1975.\nSTRONG BUT SET ASIDE FOR VARIETY (0):\nWEAK (2):\n  - [0/3] As a boy, middle-distance runner Filbert Bayi ran eight miles every day to and from school in Karatu near Arusha.\n      why: flat: Running to school is just what every kid in Karatu does, so a future athlete doing it is not a surprise, it's the obvious part.\n  - [0/3] Former middle-distance runner Filbert Bayi's foundation, started in 2003 and based in Mkuza about 50 km from Dar es Salaam, teaches young Ta\n      why: flat: I know Bayi as the guy who broke the 1500m world record in 1974, but a foundation teaching HIV and poverty stuff is just normal charity work — nothing her\nThis subject is now covered. Move to something unrelated."
+    },
+    {
+      "step": 6,
+      "thought": "Sports is the target and two football/athletics figures are covered. Tanzanian sport has other rich veins — boxing, cricket, or a dramatic individual story. A specific name likely to have a long, rich Wikipedia article is 'Hasheem Thabeet' (already mined) — avoid. Better: Tanzania's most famous boxer or a surprising sport figure. Let me try 'Bruno Akrapović'? No. A strong candidate: 'Ally Mwinyi'?",
+      "action": "search",
+      "detail": "\"Juma Ikangaa\"",
+      "observation": "Search \"Juma Ikangaa\" (Wikipedia):\nr42  Juma Ikangaa  (wikipedia, 1109 words)\n     Juma Ikangaa (born 19 July 1957 in Dodoma) is a former marathon runner from Tanzania, who won the 1989 New York City Marathon in a course-record time of 2:08:01. Ikangaa was also a\nr43  Juma (name)  (wikipedia, 668 words)\n     Juma is a masculine given name and surname of Arabic origin.\nr44  Abebe Bikila  (wikipedia, 9516 words)\n     Shambel Abebe Bikila (Amharic: ሻምበል አበበ ቢቂላ; August 7, 1932 – October 25, 1973) was an Ethiopian marathon runner who was a back-to-back Olympic marathon champion. He was the first \nr45  Athletics at the 1988 Summer Olympics – Men's marathon  (wikipedia, 3093 words)\n     The men's marathon at the 1988 Summer Olympics in Seoul, South Korea was held on Sunday October 2, 1988. The race started at 14:30h local time.\nr46  Robert de Castella  (wikipedia, 3692 words)\n     Francois Robert de Castella (born 27 February 1957) is an Australian former world champion marathon runner. De Castella is widely known as \"Deek\" or \"Deeks\" to the Australian publi\nr47  Tanzania at the 1984 Summer Olympics  (wikipedia, 1097 words)\n     Tanzania competed at the 1984 Summer Olympics in Los Angeles.\nr48  Ibrahim Hussein (runner)  (wikipedia, 1263 words)\n     Ibrahim Kipkemboi Hussein (born 3 June 1958 in Kapsabet, Rift Valley) is a retired long-distance runner from Kenya, who was a three-time winner of the Boston Marathon in 1988, 1991\nr49  Albert Korir  (wikipedia, 1510 words)\n     Albert Korir (born 2 March 1994) is a Kenyan long-distance runner. Korir was the 2021 New York City Marathon champion.\nr50  1990 New York City Marathon  (wikipedia, 885 words)\n     The 1990 New York City Marathon was the 21st running of the annual marathon race in New York City, New York, which took place on Sunday, November 4. The men's elite race was won by\nr51  Abdi Nageeye  (wikipedia, 2121 words)\n     Abdi Nageeye (born 2 March 1989) is a Somali-Dutch long-distance runner from the Netherlands. He won the silver medal in the marathon at the 2020 Tokyo Olympics.\nr52  Paul Tergat  (wikipedia, 3880 words)\n     Paul Kibii Tergat (born 17 June 1969) is a Kenyan former professional long-distance runner. He became the first Kenyan man to set the world record in the marathon in 2003, with a t\nr53  Geoffrey Kamworor  (wikipedia, 4433 words)\n     Geoffrey Kipsang Kamworor (born 22 November 1992) is a Kenyan professional long-distance runner. He won the silver medal in the 10,000 metres at the 2015 World Championships in Ath"
+    },
+    {
+      "step": 7,
+      "thought": "Sports is the target and two football/athletics figures are covered. Juma Ikangaa's article is short (1,109 words) and likely thin. Tanzanian sport has richer veins — boxing is a strong candidate: Tanzania has produced world-class boxers. Let me search for a specific famous Tanzanian boxer with a dramatic life story.",
+      "action": "search",
+      "detail": "\"Bruno Tarimo\"",
+      "observation": "Search \"Bruno Tarimo\" (Wikipedia):\nr56  Bruno Tarimo  (wikipedia, 2493 words)\n     Bruno Tarimo (born 16 June 1995) is a Tanzanian professional boxer and current Champion of International Boxing Federation International Super Feather title and Interim World Boxin\nr57  Tarimo  (wikipedia, 64 words)\n     Tarimo is a Tanzanian surname. Notable people with the surname include: Andrew Tarimo, Tanzanian academic professor and researcher.\nr58  Zelfa Barrett  (wikipedia, 3651 words)\n     Zelfa Barrett (born 9 July 1993) is an English professional boxer. He challenged for the IBF super-featherweight title in 2022.\nr59  Bruno (name)  (wikipedia, 11370 words)\n     Bruno is a given name and surname of Old Irish, French, Italian, Latin and Germanic origin. In the Latin languages, it comes from Brunus, An Bru’, Brun, and Brugh; Bruno is a Latin\nr60  Kilimanjaro Region  (wikipedia, 2810 words)\n     Kilimanjaro Region (Swahili: Mkoa wa Kilimanjaro) is one of Tanzania's 31 administrative regions. The regional capital and largest city is the municipality of Moshi.\nr61  Yoshiki Takei  (wikipedia, 9427 words)\n     Yoshiki Takei (武居由樹; born 12 July 1996) is a Japanese professional boxer and former kickboxer, who held the WBO bantamweight title from 2024 to 2025. As a professional kickboxer, h\nr62  Michael Magnesi  (wikipedia, 2422 words)\n     Michael Magnesi (born 18 November 1994) is an Italian professional boxer. He held the IBO super-featherweight title from November 2020 to September 2022.\nr63  Francis Cheka  (wikipedia, 2064 words)\n     Francis Cheka (born Francis Boniface Cheka on April 15, 1982 in Dar es Salaam, Tanzania) is a Tanzanian professional boxer and Cheka resides in Morogoro, Tanzania.\nr64  Chaga people  (wikipedia, 12919 words)\n     The Chaga or Chagga (Swahili: Wachagga) are a Bantu ethnic group from Kilimanjaro Region of Tanzania. They are the third-largest ethnic group in Tanzania.\nr65  Joseph Parker vs. Derek Chisora II  (wikipedia, 1946 words)\n     Joseph Parker vs. Derek Chisora II, was a professional boxing match contested between former heavyweight champion and WBO Inter-Continental heavyweight champion, Joseph Parker, and\nr66  Naoya Inoue vs. Paul Butler  (wikipedia, 2199 words)\n     Naoya Inoue vs. Paul Butler, billed as Undisputed, was a bantamweight unification professional boxing match contested between WBA (Super), WBC, IBF, and The Ring champion, Naoya In\nr67  Paul Fleming (boxer)  (wikipedia, 1733 words)\n     Paul Fleming (born 3 April 1988) is an Australian professional boxer from Tully, Queensland who fought at the 2008 Olympics at featherweight. He was an Australian Institute of Spor"
+    },
+    {
+      "step": 8,
+      "thought": "Sports is the target and two football/athletics figures are covered. Bruno Tarimo's 2,493-word boxing biography is the richest Tanzanian sport article in these results and boxing is a fresh, unrelated subject. Let me read it.",
+      "action": "read",
+      "detail": "r56 \"Bruno Tarimo\"",
+      "observation": "Read r56 \"Bruno Tarimo\": 2 facts verified, 2 failed the verifier, 0 already in the app or this run.\nKEPT (0):\nSTRONG BUT SET ASIDE FOR VARIETY (0):\nWEAK (2):\n  - [0/3] Tanzanian boxer Bruno Tarimo won the vacant IBF International super featherweight title in Novi Pazar, Serbia in 2019 — his first fight outs\n      why: obscure: A Tanzanian winning a fight in Serbia is mildly cool but there's no turn, no number that stings, and I still don't know who Bruno Tarimo is or why this\n  - [0/3] Tanzanian professional boxer Bruno Tarimo dropped to super bantamweight in 2022, saying he had made 130 too easily for a long time and wante\n      why: flat: It's just a boxer changing weight class, there's no turn, no number that lands, nothing to send anyone — I'd scroll straight past.\nThis subject is now covered. Move to something unrelated."
+    },
+    {
+      "step": 9,
+      "thought": "Boxing gave nothing strong. Sports is the target but I've covered football, athletics and boxing. Tanzanian cricket has a surprising story — Tanzania was a strong cricket nation in the 1970s-80s, and there's a rich vein in the history of Tanzanian cricket or a notable player. Let me search for a specific name: the Tanzania national cricket team, which has a strange history of once being a top asso",
+      "action": "search",
+      "detail": "\"Tanzania national cricket team\"",
+      "observation": "Search \"Tanzania national cricket team\" (Wikipedia):\nr71  Tanzania national cricket team  (wikipedia, 4757 words)\n     The Tanzania national cricket team is the men's team that represents Tanzania in international cricket. Cricket has been played in what is now Tanzania since 1890, and the national\nr72  Tanzania women's national cricket team  (wikipedia, 3653 words)\n     The Tanzanian women's cricket team represents Tanzania in international women's cricket. Tanzania won the inaugural African women's championships in 2004 and has been one of the be\nr73  Tanzania national under-19 cricket team  (wikipedia, 1338 words)\n     The Tanzania under-19 cricket team represents Tanzania in international under-19 cricket. The team is administered by the Tanzania Cricket Association (TCA).\nr74  East Africa cricket team  (wikipedia, 2549 words)\n     The East Africa cricket team was a multi-national cricket team representing the countries of Uganda, Kenya, Tanzania and Zambia. Their first game was against Rhodesia in 1951.\nr75  Nigeria national cricket team  (wikipedia, 5715 words)\n     The Nigeria national cricket team is the men's team that represents the country of Nigeria in international cricket. Cricket has been played in Nigeria since the late 19th century,\nr76  Malaysia national cricket team  (wikipedia, 6470 words)\n     The Malaysia national cricket team represents Malaysia in international cricket matches. The team is organised by the Malaysian Cricket Association which has been an associate memb\nr77  Uganda national cricket team  (wikipedia, 8813 words)\n     The Uganda national cricket team, nicknamed the Cricket Cranes, represents Uganda in men's international cricket. The team is organised by Cricket Uganda, which has been an associa\nr78  Jimmy Kamande  (wikipedia, 1048 words)\n     James Kabatha Kamande (born 12 December 1978) is a former Kenyan cricketer and former limited over captain. He is a right-handed batsman and an off break bowler.\nr79  Botswana national cricket team  (wikipedia, 4314 words)\n     The Botswana national cricket team is the men's team that represents Botswana in international cricket. They have been an associate member of the International Cricket Council (ICC\nr80  Namibia national cricket team  (wikipedia, 10889 words)\n     The Namibia men's national cricket team represents Namibia in international cricket. It is administered by Cricket Namibia, the governing body of cricket in Namibia, which has been\nr81  Nepal national cricket team  (wikipedia, 25504 words)\n     The Nepal men's national cricket team (Nepali: नेपाल पुरुष राष्ट्रिय क्रिकेट टोली) represents Nepal in men's International cricket and is governed by the Cricket Association of Nep\nr82  Steve Tikolo  (wikipedia, 2259 words)\n     Stephen Ogonji Tikolo (born 25 June 1971) is a former Kenya international cricketer, and a former One Day International captain. Widely regarded as the greatest Kenyan cricketer ev"
+    },
+    {
+      "step": 10,
+      "thought": "Boxing gave nothing strong. The Tanzania national cricket team article (4,757 words) has a strange history — Tanzania was once a top associate cricket nation and the article likely contains surprising stories about the country's cricketing past. Cricket is a fresh, unrelated subject.",
+      "action": "read",
+      "detail": "r71 \"Tanzania national cricket team\"",
+      "observation": "Read r71 \"Tanzania national cricket team\": 4 facts verified, 4 failed the verifier, 1 already in the app or this run.\nKEPT (0):\nSTRONG BUT SET ASIDE FOR VARIETY (2):\n  ~ Tanganyika's first international was not until 1951, when they lost by an innings to Kenya.  (Sports is full this run)\n  ~ Tanzania's national cricket side now contains between 20 and 25% African players, after decades of development  (Sports is full this run)\nWEAK (1):\n  - [0/3] Cricket was first played in what is now Tanzania on Zanzibar, by the British Navy as recreation for its officers and crew.\n      why: flat: It's just 'the British brought their sport to their colony' — I already assumed that, so there's nothing to react to and nothing I'd send anyone.\nThis subject is now covered. Move to something unrelated."
+    },
+    {
+      "step": 11,
+      "thought": "Sports is the target and I've covered football, athletics, boxing and cricket. A fresh, unrelated vein: Tanzanian basketball — Hasheem Thabeet is already mined, so let me try a different famous Tanzanian athlete with a dramatic life. Actually, a richer angle is a Tanzanian who links two worlds in sport. Let me search for a specific name likely to have a long article: 'Ally Mwinyi'? Better: Tanzani",
+      "action": "search",
+      "detail": "\"Rashid Matumla\"",
+      "observation": "Search \"Rashid Matumla\" (Wikipedia):\nr69  Rashid Matumla  (wikipedia, 374 words)\n     Rashid Ali Hadj Matumla (born June 26, 1968, in Tanga) is a retired male boxer from Tanzania, who represented his native East African country in three consecutive Summer Olympics, \nr86  Rashid (name)  (wikipedia, 3439 words)\n     Rashid, Rashed, Rasheed, Rashied, or Rasyid is the transliteration of two masculine given names and surnames of Arabic origin: Arabic: راشد Rāshid and Arabic: رشيد Rashīd, both mea\nr87  Boxing at the 1992 Summer Olympics – Lightweight  (wikipedia, 1155 words)\n     The men's lightweight event was part of the boxing programme at the 1992 Summer Olympics. The weight class allowed boxers of up to 60 kilograms to compete.\nr63  Francis Cheka  (wikipedia, 2064 words)\n     Francis Cheka (born Francis Boniface Cheka on April 15, 1982 in Dar es Salaam, Tanzania) is a Tanzanian professional boxer and Cheka resides in Morogoro, Tanzania.\nr88  Namjilyn Bayarsaikhan  (wikipedia, 493 words)\n     Namjilyn Bayarsaikhan (Намжилын Баярсайхан; born 10 August 1965) is a retired Mongolian boxer. At the 1992 Summer Olympics, he won the bronze medal in the men's Lightweight categor\nr89  Tanga Region  (wikipedia, 3173 words)\n     Tanga Region (Swahili: Mkoa wa Tanga) is one of Tanzania's 31 administrative regions. The region covers an area of 26,667 km2 (10,296 sq mi).\nr90  Verno Phillips  (wikipedia, 2827 words)\n     Verno Jeremias Phillips (born November 29, 1969) is a Belizean former professional boxer who competed from 1988 to 2008. He is a three-time junior middleweight world champion, havi\nr91  Paul Smith (boxer)  (wikipedia, 4502 words)\n     Paul James Smith Jr. (born 6 October 1982) is a British former professional boxer who competed from 2003 to 2017, and has since worked as a commentator.\nr92  Mkasi  (wikipedia, 1825 words)\n     Mkasi (Swahili for scissors) is a Tanzanian television talk show.\nr93  Harry Simon (boxer)  (wikipedia, 2446 words)\n     Harry Simon (born 21 October 1971) is a Namibian former professional boxer. He is a world champion in two weight classes, having held the World Boxing Organization (WBO) junior mid\nr94  Vyacheslav Yanovskiy  (wikipedia, 665 words)\n     Vyacheslav Evgenevich Yanovskiy (Russian: Вячеслав Евгеньевич Яновский sometimes spelt Viatcheslav Ianovski, born 24 August 1957, in Vitebsk, Belarusian SSR, Soviet Union) is a Bel\nr95  András Gálfi  (wikipedia, 2002 words)\n     András Gálfi (born January 15, 1973) is a Hungarian middleweight boxer. He is a former Hungarian, WBC International and WBO Inter-Continental middleweight champion."
+    },
+    {
+      "step": 12,
+      "thought": "Sports is the target category and I've covered football, athletics, boxing and cricket. Tanzania's Paralympic and Special Olympics athletes are a fresh, unrelated vein with dramatic personal stories — a specific name likely to have a rich Wikipedia article is 'Special Olympics' or a Tanzanian Paralympian. Let me try a specific name: Tanzanian sprinter who competed at the Paralympics.",
+      "action": "search",
+      "detail": "\"Tanzania at the Paralympics\"",
+      "observation": "Search \"Tanzania at the Paralympics\" (Wikipedia):\nr98  Tanzania at the Paralympics  (wikipedia, 302 words)\n     Tanzania made its Paralympic Games début at the 1992 Summer Paralympics in Barcelona. It was represented by a single competitor, male tennis player Noorelain sharrif.\nr99  Tanzania at the 2024 Summer Paralympics  (wikipedia, 363 words)\n     Tanzania competed at the 2024 Summer Paralympics in Paris, France, from 28 August to 8 September 2024. This was the nation's seventh time competing at the Summer Paralympic Games a\nr100  Tanzania at the 2020 Summer Paralympics  (wikipedia, 625 words)\n     Tanzania competed at the 2020 Summer Paralympics in Tokyo, Japan, from 23 July to 8 August 2021. This was the country's sixth appearance in the Summer Paralympics since debuting at\nr101  Tanzania at the 2016 Summer Paralympics  (wikipedia, 582 words)\n     Tanzania competed at the 2016 Summer Paralympics in Rio de Janeiro, Brazil, from 7 September to 18 September 2016.\nr102  Tanzania at the 2012 Summer Paralympics  (wikipedia, 297 words)\n     Tanzania competed at the 2012 Summer Paralympics in London, United Kingdom from August 29 to September 9, 2012.\nr103  Tanzania at the 2008 Summer Paralympics  (wikipedia, 354 words)\n     Tanzania competed in the 2008 Summer Paralympics in Beijing, China. The country's delegation consisted of a single athlete, Ernest Nyabalale.\nr104  Tanzania at the 2004 Summer Paralympics  (wikipedia, 442 words)\n     Tanzania competed at the 2004 Summer Paralympics in Athens, Greece. The team included two athletes, one man and one woman, neither of whom won a medal.\nr105  Tanzania at the 1992 Summer Paralympics  (wikipedia, 314 words)\n     Tanzania competed at the 1992 Summer Paralympics in Barcelona, Spain from September 3 to September 14, 1992.\nr106  Tanzania at the African Games  (wikipedia, 797 words)\n     Tanzania (TAN) has competed at every occurrence of the African Games since its inauguration in 1965. Tanzanian athletes have won a total of 24 medals.\nr107  Noorel Shariff  (wikipedia, 171 words)\n     Noorelain Shariff was a table tennis player for Tanzania at the 1992 Paralympic Games in Barcelona. Prior to this Tanzania had never participated in the Paralympic Games, and Shari\nr108  Austria at the Paralympics  (wikipedia, 1825 words)\n     Austria made its Paralympic Games début at the inaugural Paralympic Games in Rome in 1960, and has participated in every edition of both the Summer and Winter Paralympics. Austria \nr109  Athletics at the 2024 Summer Paralympics  (wikipedia, 8606 words)\n     Athletics at the 2024 Summer Paralympics was held at the Stade de France and Les Invalides in Paris. There were 164 events: 90 for men, 73 for women and one mixed event, three fewe"
+    },
+    {
+      "step": 13,
+      "thought": "Sports is the target and I've covered football, athletics, boxing and cricket. Paralympic articles are all short stubs (thin by definition). A fresh, unrelated vein: Tanzanian sport administration or a surprising figure who links two worlds. Let me try a specific name likely to have a rich biography — Tanzania's famous marathoner Juma Ikangaa was short, but 'Suleiman Nyambui' (Olympic silver medal",
+      "action": "search",
+      "detail": "\"Suleiman Nyambui\"",
+      "observation": "Search \"Suleiman Nyambui\" (Wikipedia):\nr113  Suleiman Nyambui  (wikipedia, 1011 words)\n     Suleiman Nyambui (born February 13, 1953) is a former track athlete from Tanzania who specialized in various long-distance disciplines. Nyambui won the bronze medal at the 1978 All\nr114  Harry Smith (runner)  (wikipedia, 3382 words)\n     Harry James Smith (Irish: Éibhear Séamas Mac Gabhann; July 30, 1888 – November 20, 1962) was an Irish-American long-distance runner. He was most notable for competing in the 1912 O\nr115  Drew Hunter  (wikipedia, 2771 words)\n     Andrew James Hunter (born September 5, 1997) is an American middle-distance runner from Purcellville, Virginia, who competes professionally for Asics. He set the national indoor mi\nr116  Jesse Owens  (wikipedia, 27484 words)\n     James Cleveland \"Jesse\" Owens (September 12, 1913 – March 31, 1980) was an American track and field athlete. He made history at the 1936 Olympic Games by winning four gold medals, \nr117  Frank Shorter  (wikipedia, 2969 words)\n     Frank Charles Shorter (born October 31, 1947) is an American former long-distance runner who won the gold medal in the marathon at the 1972 Summer Olympics and the silver medal at \nr118  10,000 meters at the NCAA Division I Outdoor Track and Field Championships  (wikipedia, 1511 words)\n     This is a list of the NCAA outdoor champions in the 10,000 meters and its imperial equivalent 6 mile run. The imperial distance was contested until 1975, except for during Olympic \nr119  Billy Mills  (wikipedia, 3380 words)\n     William Mervin Mills (born June 30, 1938), also known by his Oglala Lakota name Tamakhóčhe Theȟíla, is an American Oglala Lakota former track and field athlete who won a gold medal\nr120  Carl Lewis  (wikipedia, 14686 words)\n     Frederick Carlton Lewis (born July 1, 1961) is an American former track and field athlete who won nine Olympic gold medals, one Olympic silver medal, and 10 World Championships med\nr121  Steve Prefontaine  (wikipedia, 9491 words)\n     Steve Roland Prefontaine (January 25, 1951 – May 30, 1975) was an American long-distance runner who set American records at every distance from 2,000 to 10,000 meters from a period\nr122  UTEP Miners track and field  (wikipedia, 26236 words)\n     The UTEP Miners track and field team is the track and field program that represents University of Texas at El Paso. The Miners compete in NCAA Division I as a member of the Mountai\nr123  Bill Dellinger  (wikipedia, 1400 words)\n     William Solon Dellinger (March 23, 1934 – June 27, 2025) was an American middle-distance runner and coach. He competed in the 5,000 m at the 1956, 1960 and 1964 Olympics and won a \nr124  NCAA Division I men's cross country championships  (wikipedia, 7884 words)\n     The NCAA Division I men's cross country championships (formerly known as the NCAA University Division cross country championships) are contested at an annual meet hosted by the Nat"
+    },
+    {
+      "step": 14,
+      "thought": "Sports is the target and I've covered football, athletics, boxing, cricket and Paralympics. A fresh, unrelated vein with a dramatic personal story: Tanzanian basketball. Hasheem Thabeet is already mined, so let me try another angle — a Tanzanian who links two worlds in sport, or a surprising figure. A strong candidate with a rich biography is the Tanzanian-born NBA player or a notable figure. Let ",
+      "action": "search",
+      "detail": "\"Tanzania at the Olympics\"",
+      "observation": "Search \"Tanzania at the Olympics\" (Wikipedia):\nr126  Tanzania at the Olympics  (wikipedia, 1118 words)\n     Tanzania first participated at the Olympic Games in 1964, and has sent athletes to compete in every Summer Olympic Games since then, except for the boycotted 1976 Games. The nation\nr127  Tanzania Olympic Committee  (wikipedia, 368 words)\n     The Tanzania Olympic Committee (Swahili: Kamati ya Olimpiki Tanzania; IOC code: TAN) is the National Olympic Committee representing Tanzania. It was created and recognised by the I\nr128  Tanzania at the 1980 Summer Olympics  (wikipedia, 2052 words)\n     Tanzania competed at the 1980 Summer Olympics in Moscow, USSR. The nation won its first ever Olympic medals at these Games.\nr129  Tanzania at the 2016 Summer Olympics  (wikipedia, 3180 words)\n     Tanzania competed at the 2016 Summer Olympics in Rio de Janeiro, Brazil, from 5 to 21 August 2016. Seven athletes, five men and two women, competed in five events across three spor\nr130  Tanzania at the 2024 Summer Olympics  (wikipedia, 962 words)\n     Tanzania competed at the 2024 Summer Olympics in Paris from 26 July to 11 August 2024. Since the nation's official debut in 1964 under the name Tanganyika, Tanzanian athletes have \nr131  Tanzania at the 1968 Summer Olympics  (wikipedia, 460 words)\n     Tanzania competed at the 1968 Summer Olympics in Mexico City, Mexico. Previously, the nation had competed as Tanganyika.\nr132  Tanzania at the 2004 Summer Olympics  (wikipedia, 1155 words)\n     Tanzania was represented at the 2004 Summer Olympics in Athens, Greece by the Tanzania Olympic Committee. In total, eight athletes including six men and two women represented Tanza\nr133  Tanzania at the 2012 Summer Olympics  (wikipedia, 894 words)\n     Tanzania competed at the 2012 Summer Olympics in London, United Kingdom from 27 July to 12 August, 2012. This was the nation's twelfth appearance at the Olympics.\nr47  Tanzania at the 1984 Summer Olympics  (wikipedia, 1097 words)\n     Tanzania competed at the 1984 Summer Olympics in Los Angeles.\nr134  Tanzania at the 1972 Summer Olympics  (wikipedia, 847 words)\n     Tanzania competed at the 1972 Summer Olympics in Munich, West Germany.\nr135  Tanzania at the 1992 Summer Olympics  (wikipedia, 761 words)\n     Tanzania competed at the 1992 Summer Olympics in Barcelona, Spain.\nr98  Tanzania at the Paralympics  (wikipedia, 302 words)\n     Tanzania made its Paralympic Games début at the 1992 Summer Paralympics in Barcelona. It was represented by a single competitor, male tennis player Noorelain sharrif."
+    },
+    {
+      "step": 15,
+      "thought": "Sports is the target but I've exhausted football, athletics, boxing, cricket, Paralympics and Olympics overview articles, all thin or already covered. A fresh, unrelated vein with a dramatic personal story: Tanzanian basketball — but Hasheem Thabeet is already mined. Let me try a specific Tanzanian sportsperson with a rich biography who links two worlds: the Tanzanian-born footballer who played fo",
+      "action": "search",
+      "detail": "\"Francis Cheka\"",
+      "observation": "Search \"Francis Cheka\" (Wikipedia):\nr63  Francis Cheka  (wikipedia, 2064 words)\n     Francis Cheka (born Francis Boniface Cheka on April 15, 1982 in Dar es Salaam, Tanzania) is a Tanzanian professional boxer and Cheka resides in Morogoro, Tanzania.\nr138  Cheka (surname)  (wikipedia, 37 words)\n     Cheka is the surname of the following notable people:\nr139  Matthew Macklin  (wikipedia, 3902 words)\n     Matthew Macklin (born 14 May 1982) is a British-Irish former professional boxer who competed from 2001 to 2016, and has since worked as a boxing manager and commentator. He challen\nr140  Vijender Singh  (wikipedia, 11733 words)\n     Vijender Singh Beniwal (born 29 October 1985) is an Indian professional boxer and politician of Bharatiya Janata Party. As an amateur, he won a bronze medal at the 2008 Beijing Oly\nr141  Martin Murray (boxer)  (wikipedia, 4534 words)\n     Martin Murray (born 27 September 1982) is a British former professional boxer who competed 2007 to 2020. He held the WBA interim middleweight title from 2011 to 2014, the British a\nr91  Paul Smith (boxer)  (wikipedia, 4502 words)\n     Paul James Smith Jr. (born 6 October 1982) is a British former professional boxer who competed from 2003 to 2017, and has since worked as a commentator.\nr142  Dar es Salaam Region  (wikipedia, 8290 words)\n     Dar es Salaam Region (Swahili: Mkoa wa Dar es Salaam) is one of Tanzania's 31 administrative regions and is located on the east coast of the country. The region covers an area of 1\nr143  Fedor Chudinov  (wikipedia, 3097 words)\n     Fedor Alexandrovich Chudinov (born 15 September 1987) is a Russian professional boxer. He held the WBA (Super) super-middleweight title in 2016, having previously held the regular \nr144  Sajjad Mehrabi  (wikipedia, 365 words)\n     Sajjad Mehrabi (born March 21, 1986) is an Iranian professional boxer. He started his career in 2014 and currently competes in the Super Middleweight division.\nr145  Geard Ajetović  (wikipedia, 2527 words)\n     Geard Ajetović (born 28 February 1981) is a Serbian boxer. He represented Serbia and Montenegro at the 2000 Summer Olympics in Sydney, Australia, where he lost in the first round o\nr146  Robert Stieglitz  (wikipedia, 4087 words)\n     Sergey Shtikhlits (born 20 June 1981), best known as Robert Stieglitz, is a German former professional boxer who competed from 2001 to 2017. He held the WBO super-middleweight titl\nr147  Francis Cromie  (wikipedia, 4057 words)\n     Acting Captain Francis Newton Allen Cromie, CB, DSO (30 January 1882 – 31 August 1918, Petrograd) was a distinguished British Royal Navy officer, military diplomat, and the de fact"
+    },
+    {
+      "step": 16,
+      "thought": "Sports is the target but I've exhausted football, athletics, boxing, cricket, Olympics and Paralympics — all thin or covered. A fresh, unrelated vein with a dramatic personal story: Tanzanian basketball beyond Thabeet, or a surprising figure. Let me try a specific name likely to have a rich biography: Hasheem Thabeet is mined, so try the Tanzanian-born NBA/G-League player or a notable Tanzanian at",
+      "action": "",
+      "detail": "",
+      "observation": "'' is not an action. Use search, read or finish."
+    },
+    {
+      "step": 17,
+      "thought": "Sports has been exhausted via football, athletics, boxing, cricket, Olympics and Paralympics — all thin or covered. The brief is sport, but the app is also empty in Food, Records, Health and History. A rich, surprising vein: a Tanzanian sportsperson who links two worlds, or a famous Tanzanian with a dramatic life. Let me try a specific name likely to have a long, rich Wikipedia article — the Tanza",
+      "action": "read",
+      "detail": "r63 \"Francis Cheka\"",
+      "observation": "r63 \"Francis Cheka\" could not be fetched: 'Francis Cheka' came back with almost no text (198 chars)."
+    }
+  ],
+  "decidedAt": "2026-09-29T19:22:00.970Z",
+  "developed": [
+    "nf_1186"
+  ]
+}

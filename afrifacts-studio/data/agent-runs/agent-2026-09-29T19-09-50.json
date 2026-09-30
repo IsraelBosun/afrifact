@@ -1,0 +1,239 @@
+{
+  "runId": "agent-2026-09-29T19-09-50",
+  "status": "done",
+  "brief": "Inventors and firsts from Tanzania",
+  "country": "TZ",
+  "target": 5,
+  "createdAt": "2026-09-29T19:11:17.782Z",
+  "stopReason": "The agent model failed: deepseek-chat returned unparseable JSON: {\"thought\": \"The last searches returned mostly irrelevant surname/list pages and political figures. I need a specific Tanzanian inventor/first name likely to have a rich Wikipedia article. A strong ca",
+  "docsRead": 2,
+  "webQueriesSpent": 0,
+  "shortlist": [
+    {
+      "key": "s1",
+      "fact": "Jenga was invented by Leslie Scott, a Tanzanian-born British designer who grew up speaking Swahili and named the game after \"kujenga\", meaning \"to build\".",
+      "category": "Culture",
+      "votes": "3/3",
+      "why": "It's a game in every house here and the name turns out to be our own word — that's an instant group chat 'no way'.",
+      "title": "Leslie Scott (game designer)",
+      "url": "https://en.wikipedia.org/wiki/Leslie_Scott_(game_designer)",
+      "candidate": {
+        "fact": "Jenga was invented by Leslie Scott, a Tanzanian-born British designer who grew up speaking Swahili and named the game after \"kujenga\", meaning \"to build\".",
+        "passage": "Having grown up speaking Swahili, Scott decided to derive the game's name from the word \"kujenga\", meaning \"to build\", with the desire to have people exclusively associate the word with the game.",
+        "category": "Culture",
+        "surprise": {
+          "priorProbability": 5,
+          "specificity": 4,
+          "explicability": 4
+        },
+        "reasoning": "Jenga is a household name worldwide, but almost nobody knows it was invented by a Tanzanian-born designer or that its name comes from Swahili.",
+        "volatile": false,
+        "slug": "leslie-scott-game-designer",
+        "country": "TZ",
+        "source": {
+          "title": "Leslie Scott (game designer)",
+          "url": "https://en.wikipedia.org/wiki/Leslie_Scott_(game_designer)",
+          "revisionId": "1354693698",
+          "contentHash": "1eadf3bb9da7140f",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "s2",
+      "fact": "Salim Kara, a Tanzanian-born inventor, is credited with creating digital postage and holds over 90 patents, 44 of them issued in the United States.",
+      "category": "Records",
+      "votes": "3/3",
+      "why": "A Tanzanian holding 90+ patents and inventing digital postage is something I have genuinely never heard once, and it makes me want to send it to the group chat immediately.",
+      "title": "Salim Kara",
+      "url": "https://en.wikipedia.org/wiki/Salim_Kara",
+      "candidate": {
+        "fact": "Salim Kara, a Tanzanian-born inventor, is credited with creating digital postage and holds over 90 patents, 44 of them issued in the United States.",
+        "passage": "Salim G. Kara (born June 1, 1949) is an Indian-origin Tanzanian-born Canadian inventor, and Founder-CEO of Kara Technology, Inc., E-Stamp Corporation and iMobile Payment. As well as the co-founder of myiStamp Inc. and Kara Vault, Inc. He is credited with creating digital postage and is known as its inventor. He holds over 90 patents, 44 of which were issued in the United States.",
+        "category": "Records",
+        "surprise": {
+          "priorProbability": 5,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "A Tanzanian-born inventor credited with creating digital postage is not common knowledge, and the 90-patent figure is concrete.",
+        "volatile": false,
+        "slug": "salim-kara",
+        "country": "TZ",
+        "source": {
+          "title": "Salim Kara",
+          "url": "https://en.wikipedia.org/wiki/Salim_Kara",
+          "revisionId": "1375880637",
+          "contentHash": "b0a0d74588f7cd27",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    }
+  ],
+  "alternates": [
+    {
+      "key": "a1",
+      "fact": "Before it was Jenga, the game was called Takoradi Bricks, made from wooden scraps Jenga inventor Leslie Scott's younger brother found at a sawmill near their house in Ghana.",
+      "category": "Culture",
+      "votes": "3/3",
+      "why": "Jenga is a game I've actually played, and finding out it started as Takoradi Bricks in Ghana is the kind of link I'd send straight to the group chat.",
+      "title": "Leslie Scott (game designer)",
+      "url": "https://en.wikipedia.org/wiki/Leslie_Scott_(game_designer)",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "Before it was Jenga, the game was called Takoradi Bricks, made from wooden scraps Jenga inventor Leslie Scott's younger brother found at a sawmill near their house in Ghana.",
+        "passage": "One of the games that was eventually developed and played by the family while they were living in Ghana was created using wooden blocks that were scraps found by her younger brother from a sawmill near their house in Ghana. They called the game Takoradi Bricks, named after a nearby port.",
+        "category": "Culture",
+        "surprise": {
+          "priorProbability": 5,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "The original name and the sawmill-scrap origin of Jenga are almost entirely unknown even to fans of the game.",
+        "volatile": false,
+        "slug": "leslie-scott-game-designer",
+        "country": "TZ",
+        "source": {
+          "title": "Leslie Scott (game designer)",
+          "url": "https://en.wikipedia.org/wiki/Leslie_Scott_(game_designer)",
+          "revisionId": "1354693698",
+          "contentHash": "1eadf3bb9da7140f",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a2",
+      "fact": "Leslie Scott, the Tanzanian-born inventor of Jenga, borrowed £15,000 from a bank to launch the game, with her mother putting up her house as collateral.",
+      "category": "Business",
+      "votes": "3/3",
+      "why": "A game I've played my whole life turns out to be ours, and the mum risking her house is the part that makes the group chat scream.",
+      "title": "Leslie Scott (game designer)",
+      "url": "https://en.wikipedia.org/wiki/Leslie_Scott_(game_designer)",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "Leslie Scott, the Tanzanian-born inventor of Jenga, borrowed £15,000 from a bank to launch the game, with her mother putting up her house as collateral.",
+        "passage": "With no business plans and no experience in the toy industry, she borrowed £15,000 from the bank with the support of her mother, who placed her house as collateral.",
+        "category": "Business",
+        "surprise": {
+          "priorProbability": 5,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "The specific sum and the mother's house as collateral make the origin story of a globally famous game concrete and unexpected.",
+        "volatile": false,
+        "slug": "leslie-scott-game-designer",
+        "country": "TZ",
+        "source": {
+          "title": "Leslie Scott (game designer)",
+          "url": "https://en.wikipedia.org/wiki/Leslie_Scott_(game_designer)",
+          "revisionId": "1354693698",
+          "contentHash": "1eadf3bb9da7140f",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a3",
+      "fact": "Leslie Scott, the Tanzanian-born inventor of Jenga, is married to Oxford zoologist Professor Fritz Vollrath, who is famous for his studies on spiders.",
+      "category": "Culture",
+      "votes": "3/3",
+      "why": "Jenga is in every bar and house here and nobody knows it came from a Tanzanian, plus the spider husband is a wild bonus.",
+      "title": "Leslie Scott (game designer)",
+      "url": "https://en.wikipedia.org/wiki/Leslie_Scott_(game_designer)",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "Leslie Scott, the Tanzanian-born inventor of Jenga, is married to Oxford zoologist Professor Fritz Vollrath, who is famous for his studies on spiders.",
+        "passage": "Scott is married to the Oxford zoologist Professor Fritz Vollrath, who is famous for his studies on spiders.",
+        "category": "Culture",
+        "surprise": {
+          "priorProbability": 5,
+          "specificity": 5,
+          "explicability": 3
+        },
+        "reasoning": "The marriage linking the inventor of Jenga to a spider-famous zoologist is a connection almost no reader would know.",
+        "volatile": false,
+        "slug": "leslie-scott-game-designer",
+        "country": "TZ",
+        "source": {
+          "title": "Leslie Scott (game designer)",
+          "url": "https://en.wikipedia.org/wiki/Leslie_Scott_(game_designer)",
+          "revisionId": "1354693698",
+          "contentHash": "1eadf3bb9da7140f",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    }
+  ],
+  "trace": [
+    {
+      "step": 1,
+      "thought": "Starting fresh on 'Inventors and firsts from Tanzania'. I need specific Tanzanian names likely to have rich Wikipedia articles. Let me search for a few notable Tanzanian inventors/scientists/pioneers.",
+      "action": "search",
+      "detail": "\"Tanzanian inventor\"",
+      "observation": "Search \"Tanzanian inventor\" (Wikipedia):\nr1  Leslie Scott (game designer)  (wikipedia, 1705 words)\n     Leslie Scott (born 18 December 1955) is a Tanzanian-born British board game designer, author, and businesswoman, best known as the inventor of the game Jenga. Despite initial chall\nr2  Benjamin (name)  (wikipedia, 3532 words)\n     Benjamin is a common given name for males, derived from Hebrew בִּנְיָמִין, Binyāmīn, translating as 'son of the right [hand]' in both Hebrew and Arabic languages, although in the \nr3  Salim Kara  (wikipedia, 2071 words)\n     Salim G. Kara (born June 1, 1949) is an Indian-origin Tanzanian-born Canadian inventor, and Founder-CEO of Kara Technology, Inc., E-Stamp Corporation and iMobile Payment. As well a\nr4  Grammy Awards  (wikipedia, 20042 words)\n     The Grammy Awards, stylized as GRAMMY, and often referred to as the Grammys, are awards presented by the Recording Academy of the United States to recognize outstanding achievement\nr5  Karaoke  (wikipedia, 11617 words)\n     Karaoke (カラオケ) is a type of interactive entertainment system usually offered in nightclubs and bars, where people sing along to pre-recorded accompaniment using a microphone. Its m\nr6  Kawe, Kinondoni  (wikipedia, 1508 words)\n     Kawe (Kata ya Kawe, in Swahili) is an administrative ward in Kinondoni District of the Dar es Salaam Region in Tanzania. THE ORIGIN OF THE NAME KAWE: A HISTORICAL RECORD OF DAR ES \nr7  Tartan  (wikipedia, 92812 words)\n     Tartan (Scottish Gaelic: breacan [ˈpɾʲɛxkən]), also known, especially in American English, as plaid (), is a patterned cloth consisting of crossing horizontal and vertical bands in\nr8  Jessica O. Matthews  (wikipedia, 3822 words)\n     Jessica O. Matthews is a Nigerian-American inventor, founder, CEO and venture capitalist. She is the co-founder of Uncharted, which made Soccket, a soccer ball that can be used as \nr9  Color television  (wikipedia, 15034 words)\n     Color television (American English) or colour television (British English) is a television transmission technology that also includes color information for the picture, so the vide\nr10  Barnabas (name)  (wikipedia, 633 words)\n     Barnabas is both a masculine given name and a surname. As a given name, it is a New Testament name which means \"son of the prophet\".\nr11  Ancient Egyptian religion  (wikipedia, 15241 words)\n     Ancient Egyptian religion was a complex system of polytheistic beliefs and rituals that formed an integral part of ancient Egyptian culture. It centered on the Egyptians' interacti\nr12  History of rail transport  (wikipedia, 19417 words)\n     The history of rail transport began before the common era. It can be divided into several discrete periods, defined by the principal track material and power used."
+    },
+    {
+      "step": 2,
+      "thought": "Leslie Scott, inventor of Jenga, is a Tanzanian-born designer — a strong 'first/inventor' fact with a dramatic personal story. Salim Kara is also a Tanzanian-born inventor. I'll read Leslie Scott first as it's a famous global product with a Tanzania link.",
+      "action": "read",
+      "detail": "r1 \"Leslie Scott (game designer)\"",
+      "observation": "Read r1 \"Leslie Scott (game designer)\": 6 facts verified, 1 failed the verifier, 0 already in the app or this run.\nKEPT (1):\n  + [3/3, Culture] Jenga was invented by Leslie Scott, a Tanzanian-born British designer who grew up speaking Swahili and named the game after \"kujenga\", meaning \"to build\".\nSTRONG BUT SET ASIDE FOR VARIETY (3):\n  ~ Before it was Jenga, the game was called Takoradi Bricks, made from wooden scraps Jenga inventor Leslie Scott'  (one fact per document; ranked lower)\n  ~ Leslie Scott, the Tanzanian-born inventor of Jenga, borrowed £15,000 from a bank to launch the game, with her   (one fact per document; ranked lower)\n  ~ Leslie Scott, the Tanzanian-born inventor of Jenga, is married to Oxford zoologist Professor Fritz Vollrath, w  (one fact per document; ranked lower)\nWEAK (2):\n  - [1/3] Jenga's 64 blocks were each made slightly different with a handmade feel, and no two sets were the same, after a carpenter suggested using a\n      why: obscure: It's a random production detail about a game I've played but never once wondered about, and there's no person, place or number here that makes me want \n  - [0/3] Irwin Toy, which advertised Jenga on television as \"the great game with the strange name,\" hated the original title, Jenga The Perpetual Cha\n      why: obscure: It's about a Canadian toy company's marketing decision for a game I've played, but there's no person, no number, no twist — just trivia about a name ch\nThis subject is now covered. Move to something unrelated."
+    },
+    {
+      "step": 3,
+      "thought": "Leslie Scott is done. Salim Kara is a Tanzanian-born inventor (E-Stamp, iMobile Payment) — a different person and field (business/technology), likely a rich biography. I'll read that article.",
+      "action": "read",
+      "detail": "r3 \"Salim Kara\"",
+      "observation": "Read r3 \"Salim Kara\": 3 facts verified, 5 failed the verifier, 0 already in the app or this run.\nKEPT (1):\n  + [3/3, Records] Salim Kara, a Tanzanian-born inventor, is credited with creating digital postage and holds over 90 patents, 44 of them issued in the United States.\nSTRONG BUT SET ASIDE FOR VARIETY (0):\nWEAK (2):\n  - [0/3] Inventor and Founder-CEO Salim Kara left E-Stamp in 1998, paving the way for it to publicly trade with a market capitalization exceeding US$\n      why: obscure: It's a stranger leaving a company I've never heard of, and nothing in the sentence tells me why either name should matter to me.\n  - [0/3] In 2001, E-Stamp's technology, intellectual property and trade names were sold to Stamps.com, which Thoma Bravo later acquired at a valuatio\n      why: flat: This is a corporate transaction with no person, no place, no twist, and nothing I could repeat to anyone.\nThis subject is now covered. Move to something unrelated."
+    },
+    {
+      "step": 4,
+      "thought": "Two subjects covered (Leslie Scott, Salim Kara). I need unrelated Tanzanian inventors/firsts. Let me search for specific notable Tanzanian names in science, medicine, or technology — e.g., a Tanzanian who made a global first. I'll try a couple of specific names likely to have rich Wikipedia articles.",
+      "action": "search",
+      "detail": "\"Tanzanian scientist inventor first\"",
+      "observation": "Search \"Tanzanian scientist inventor first\" (Wikipedia):\nr13  Deaths in 2026  (wikipedia, 35123 words)\n     The following notable deaths occurred in 2026. Names are reported under the date of death, in alphabetical order.\nr14  Science and technology in Russia  (wikipedia, 6512 words)\n     Science and technology in Russia have developed rapidly since the Age of Enlightenment, when Peter the Great founded the Russian Academy of Sciences and Saint Petersburg State Univ\nr15  Paul (surname)  (wikipedia, 1520 words)\n     Paul is an English, French, German, and Hindu surname. This surname has two distinct and separate origins: Amongst Christians, it is a surname based on naming traditions mainly rel\nr16  Bacon (surname)  (wikipedia, 3819 words)\n     Bacon is an English surname originally from Normandy and England.\nr17  Lists of Italian Americans  (wikipedia, 12865 words)\n     This is a list of notable Italian Americans.\nr18  Patricia Bath  (wikipedia, 6847 words)\n     Patricia Era Bath (November 4, 1942 – May 30, 2019) was an African American ophthalmologist and humanitarian, known for championing a community-focused approach to eye care and for\nr8  Jessica O. Matthews  (wikipedia, 3822 words)\n     Jessica O. Matthews is a Nigerian-American inventor, founder, CEO and venture capitalist. She is the co-founder of Uncharted, which made Soccket, a soccer ball that can be used as "
+    },
+    {
+      "step": 5,
+      "thought": "The last search returned mostly irrelevant surname/list pages. I need specific Tanzanian names for inventors/firsts. A strong candidate is a Tanzanian who made a global first — let me try 'Hasheem Thabeet' (already mined) — no. Better: search for a specific Tanzanian scientist/inventor name likely to have a rich article, e.g. 'Frederick Sumaye' is political. Let me try 'Tanzanian first' specific n",
+      "action": "search",
+      "detail": "\"Tanzanian doctor first\"",
+      "observation": "Search \"Tanzanian doctor first\" (Wikipedia):\nr19  Samia Suluhu Hassan  (wikipedia, 8195 words)\n     Samia Suluhu Hassan ( SAH-mee-ah soo-LOO-hoo HA-san; born 27 January 1960) is a Tanzanian politician and the sixth president of Tanzania, serving since 19 March 2021. She is the fi\nr20  Tanzania  (wikipedia, 33193 words)\n     Tanzania, officially the United Republic of Tanzania, is a country in East Africa within the African Great Lakes region. It is bordered by Uganda to the northwest, Kenya to the nor\nr21  Esther Mwaikambo  (wikipedia, 571 words)\n     Esther Daniel Mwaikambo (born 1940) is a Tanzanian medical doctor. She is a senior paedriatician and Professor of Paediatrics and Child Health at the Hubert Kairuki Memorial Univer\nr22  Leader Stirling  (wikipedia, 6204 words)\n     Leader Dominic Stirling (19 January 1906 – 7 February 2003) was an English missionary surgeon and former Health Minister in Tanzania. Born in Finchley, England and raised in Sussex\nr23  Hussein Mwinyi  (wikipedia, 2779 words)\n     Hussein Ali Mwinyi (born 23 December 1966) is a Tanzanian politician who is the 8th and current President of Zanzibar since 2020. The son of former Tanzanian president Ali Hasan Mw\nr24  Rajni Kanabar  (wikipedia, 1551 words)\n     Rajni Kanabar (9 November 1940 – 25 June 2019) was an M.B.B.S. doctor and philanthropist belonging to the third generation of an Indian-origin family in Tanzania. He was the founde\nr25  Jakaya Kikwete  (wikipedia, 5000 words)\n     Jakaya Mrisho Kikwete (born 7 October 1950) is a Tanzanian politician who was the fourth president of Tanzania, in office from 2005 to 2015. Prior to his election as president, he \nr26  Albinism in Tanzania  (wikipedia, 1735 words)\n     Albinism in Tanzania is an expression of the genetic condition of albinism among citizens of the United Republic of Tanzania, characterized by a lack of melanin in the skin, hair a\nr27  Hamisi Kigwangalla  (wikipedia, 2204 words)\n     Hamisi Andrea Kigwangalla Hamisi Andrea Kigwangalla (born 7 August 1975) is a Tanzanian physician, statesman, and businessman. He served as a Member of Parliament representing Nzeg\nr28  Ali Hassan Mwinyi  (wikipedia, 3863 words)\n     Ali Hassan Mwinyi (8 May 1925 – 29 February 2024) was a Tanzanian politician who served as the second president of the United Republic of Tanzania from 1985 to 1995. Previous posts\nr29  Salim Ahmed Salim  (wikipedia, 3778 words)\n     Salim Ahmed Salim (Arabic: سليم احمد سليم, Swahili: Salim Ahmad Salim, born 23 January 1942) is a Tanzanian politician and diplomat who has worked in the international diplomatic a\nr30  Anna Mkapa  (wikipedia, 729 words)\n     Anna Mkapa (born Anna Joseph Maro) served as the third First Lady of Tanzania from 1995 to 2005. She is the widow of former President Benjamin Mkapa."
+    }
+  ],
+  "decidedAt": "2026-09-29T19:13:34.436Z",
+  "developed": [
+    "nf_1185"
+  ]
+}

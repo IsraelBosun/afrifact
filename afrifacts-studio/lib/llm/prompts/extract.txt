@@ -1,5 +1,5 @@
-You are reading a source document to find facts for AfriFacts, an app that
-serves surprising, verified facts about Africa.
+You are reading a source document to find facts about {{country}} for
+AfriFacts, an app that serves surprising, verified facts about Africa.
 
 Your job is EXTRACTION, not recall. Every fact you return must come from
 words that are physically present in the document below. You are not
@@ -11,18 +11,18 @@ this document says.
 A fact must clear all three of these. Score each 1-5 honestly. Facts
 scoring below 3 on any axis are worthless to us, so do not return them.
 
-1. priorProbability — would an educated Nigerian already know this?
+1. priorProbability: would an educated reader from {{country}} already know this?
    1 = everybody knows it. 5 = almost nobody does.
    This is the harshest filter and most candidates die here. "Nigeria has
    over 500 languages" is a 1. "Lagos was called Eko" is a 1.
    Be ruthless. A fact people already know is why facts apps fail.
 
-2. specificity — is there a number, a name, a date, a place?
+2. specificity: is there a number, a name, a date, a place?
    1 = vague generality. 5 = concrete and checkable.
    "The kingdom was wealthy" is a 1. "The walls enclosed 6,500 square
    kilometres" is a 5.
 
-3. explicability — can you say WHY in two sentences?
+3. explicability: can you say WHY in two sentences?
    1 = bare trivia. 5 = opens onto something larger.
 
 ## The rules you must not break
@@ -34,19 +34,19 @@ scoring below 3 on any axis are worthless to us, so do not return them.
   exact string match against the document. If it does not match, the fact
   is thrown away. Copy, do not retype.
 
-- `passage` must be long enough to stand alone as evidence — usually one
-  to three complete sentences — but must not be a whole paragraph of
+- `passage` must be long enough to stand alone as evidence (usually one
+  to three complete sentences) but must not be a whole paragraph of
   which only a clause is relevant.
 
 - Choose the passage that carries the STRIKING detail, not the passage
   that summarises the topic. If one sentence gives the comparison, the
   figure or the twist and the sentence beside it gives the background,
-  take both — the fact you write from them can then lead with the twist
+  take both: the fact you write from them can then lead with the twist
   and still be fully grounded. A passage with no number, no name and no
   turn in it will only ever produce a dull fact.
 
 - Every CLAIM in `fact` must come from `passage`. The wording is yours;
-  the facts are not. Rewrite freely — compress three sentences into one,
+  the facts are not. Rewrite freely: compress three sentences into one,
   change the order, cut the padding, pick sharper words. That is the job.
   What you may not do is add information:
 
@@ -58,7 +58,7 @@ scoring below 3 on any axis are worthless to us, so do not return them.
       in `passage`.
     * No comparison, ranking or significance the passage does not state.
       If the passage does not say it was the oldest in Africa, or four
-      times longer than the Great Wall, you may not say so — however true
+      times longer than the Great Wall, you may not say so, however true
       it is. If the passage DOES say it, lead with it: that comparison is
       usually the most interesting thing on the page.
 
@@ -66,7 +66,7 @@ scoring below 3 on any axis are worthless to us, so do not return them.
   would send to a friend. Nothing enters the sentence that was not in the
   quote, and nothing about the quote's phrasing is sacred.
 
-## What we are looking for — read these first
+## What we are looking for: read these first
 
 These are real facts from the AfriFacts collection, written by the
 founder. They are the target. Before you return anything, ask whether it
@@ -74,13 +74,16 @@ would sit comfortably in this list.
 
 {{exemplars}}
 
-Notice what they have in common:
+Most of them are about Nigeria, where the collection started. You are
+finding the same KIND of fact about {{country}}.
+
+{{learned}}Notice what they have in common:
 
 - A PERSON is usually at the centre, doing something startling.
 - The surprise is often a CONNECTION between two things the reader
   already knows separately. Neither half is a fact on its own; the link
   is the fact.
-- They touch life the reader recognises — a district they drive through,
+- They touch life the reader recognises: a district they drive through,
   a band they have heard, a company in the news.
 - Two or three sentences is fine. Setup, then the turn. The twist lands
   last.
@@ -99,8 +102,16 @@ Ten mediocre facts are worth less than one that belongs in the list above.
 This is the sentence a person reads on their phone and decides whether to
 send to a friend. It is not a museum caption and not an abstract.
 
+- AT MOST 180 CHARACTERS. It is printed on a phone card, and a longer
+  fact pushes the card's buttons off the screen. Anything over 200 is
+  rejected. If the passage has more than fits, keep the most surprising
+  part and drop the rest.
+
 - ONE sentence. Plain language. No "did you know", no "notably", no
   "it is significant that".
+
+- No em dashes (—). Use a comma, a colon or parentheses, or split the thought.
+  This holds even when the passage uses them.
 
 - Lead with the startling part. The surprising thing goes at the FRONT of
   the sentence, not after a clause of setup. Compare:
@@ -112,6 +123,17 @@ send to a friend. It is not a museum caption and not an abstract.
 
   Same source, same passage, same facts. The second one leads with the
   number and ends on the twist.
+
+- If the fact is about a person who is not a household name, say who
+  they are, in a few words the passage supports: "the first Nigerian to
+  win Olympic gold", "Africa's richest man". Keep it brief: one to four
+  words is usually enough ("footballer Samuel Okwaraji", "activist
+  Funmilayo Ransome-Kuti"). Introduce them by what THEY did or are known
+  for, or by a link to someone famous ("Fela's mother"). A link to
+  someone unknown is not an introduction. A reader who has never
+  heard the name must still see why the fact matters. If the passage
+  you are quoting does not say who they are, choose a longer passage
+  that does.
 
 - Prefer ONE sharp detail over a list. A list of nine object types is a
   catalogue and nobody finishes reading it. Pick the single most striking
@@ -174,7 +196,7 @@ Return JSON only, matching this shape exactly:
       "passage": "The verbatim words from the document, copied exactly.",
       "category": "History | Business | Culture | Food | Sports | Records | Health",
       "surprise": { "priorProbability": 4, "specificity": 5, "explicability": 4 },
-      "reasoning": "One line: why an educated Nigerian would not already know this.",
+      "reasoning": "One line: why an educated reader from {{country}} would not already know this.",
       "volatile": false
     }
   ]

@@ -41,6 +41,16 @@ import {
  */
 const PLACEHOLDER = /^\s*(todo|tbd|fixme|xxx|placeholder|\.\.\.|-)\b/i;
 
+/**
+ * The longest fact a card can hold.
+ *
+ * The photo card grows its text panel to fit and shrinks the photo to
+ * make room; past this there is no room left and the buttons are pushed
+ * off the card (seen on a 350-character fact). An error, not a warning,
+ * so it blocks publishing: a card with no buttons is a broken card.
+ */
+export const MAX_FACT_CHARS = 200;
+
 /** @param {unknown} value */
 function isFilledIn(value) {
   if (typeof value !== 'string' || value.length === 0) return false;
@@ -85,6 +95,17 @@ function checkShape(fact, problems) {
 
   if (!isFilledIn(fact.id)) {
     problems.push(problem(id, 'error', 'id', 'Fact has no id.'));
+  }
+
+  if (typeof fact.fact === 'string' && fact.fact.length > MAX_FACT_CHARS) {
+    problems.push(
+      problem(
+        id,
+        'error',
+        'fact',
+        `Fact is ${fact.fact.length} characters; the card holds ${MAX_FACT_CHARS}. Shorten it (npm run shorten).`,
+      ),
+    );
   }
 
   if (!CATEGORIES.includes(fact.category)) {

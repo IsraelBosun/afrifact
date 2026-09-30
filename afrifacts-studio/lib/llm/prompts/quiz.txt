@@ -24,11 +24,12 @@ Exactly three. Each has exactly four options, one correct.
 
 - The answer must be findable in the article or the fact above it. Never
   test something the reader was not told.
-- Wrong options must be plausible — same kind of thing, same order of
+- Wrong options must be plausible: same kind of thing, same order of
   magnitude. A question with three silly options is not a question.
 - `explanation` teaches something in one sentence. Right or wrong, the
   reader should come away knowing more.
 - Vary which index is correct across the three questions.
+- No em dashes (—). Use a comma, a colon or parentheses, or split the thought.
 - Ask about three different things. Three questions on the same number,
   worded differently, is one question.
 

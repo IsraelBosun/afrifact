@@ -1,0 +1,33 @@
+{
+  "_about": "People any AfriFacts reader knows without being told. A fact may name these without saying who they are; everyone else must be introduced by what they did. Edit freely. Matching is on the exact name or an alias, so 'Olusegun Obasanjo' does not cover 'Stella Obasanjo'.",
+  "names": [
+    { "name": "Fela Kuti", "aliases": ["Fela", "Fela Anikulapo-Kuti", "Fela Anikulapo Kuti"] },
+    { "name": "Burna Boy", "aliases": [] },
+    { "name": "Wizkid", "aliases": [] },
+    { "name": "Davido", "aliases": [] },
+    { "name": "Aliko Dangote", "aliases": ["Dangote"] },
+    { "name": "Wole Soyinka", "aliases": ["Soyinka"] },
+    { "name": "Chinua Achebe", "aliases": ["Achebe"] },
+    { "name": "Chimamanda Ngozi Adichie", "aliases": ["Chimamanda Adichie", "Adichie"] },
+    { "name": "Olusegun Obasanjo", "aliases": [] },
+    { "name": "Muhammadu Buhari", "aliases": [] },
+    { "name": "Bola Tinubu", "aliases": ["Bola Ahmed Tinubu"] },
+    { "name": "Goodluck Jonathan", "aliases": [] },
+    { "name": "Nnamdi Azikiwe", "aliases": ["Azikiwe"] },
+    { "name": "Obafemi Awolowo", "aliases": ["Awolowo"] },
+    { "name": "Ahmadu Bello", "aliases": [] },
+    { "name": "Nelson Mandela", "aliases": ["Mandela"] },
+    { "name": "Queen Victoria", "aliases": [] },
+    { "name": "Jay-Jay Okocha", "aliases": ["Okocha", "Austin Okocha"] },
+    { "name": "Nwankwo Kanu", "aliases": ["Kanu"] },
+    { "name": "Moshood Abiola", "aliases": ["MKO Abiola", "M.K.O. Abiola", "Abiola"] },
+    { "name": "Yemi Osinbajo", "aliases": ["Osinbajo"] },
+    { "name": "Ken Saro-Wiwa", "aliases": ["Saro-Wiwa"] },
+    { "name": "Umaru Dikko", "aliases": ["Dikko"] },
+    { "name": "Hushpuppi", "aliases": ["Ramon Abbas", "Ray Hushpuppi"] },
+    { "name": "Rema", "aliases": [] },
+    { "name": "Shakira", "aliases": [] },
+    { "name": "Selena Gomez", "aliases": [] },
+    { "name": "John Lennon", "aliases": [] }
+  ]
+}

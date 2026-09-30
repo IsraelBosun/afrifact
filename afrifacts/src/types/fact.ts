@@ -40,6 +40,22 @@ export interface DeepDive {
   readTime: number;
   /** Seeds the placeholder in the "Ask about this" box. */
   suggestedQuestion: string;
+  /**
+   * Where to go after the deep dive. Optional: facts pushed before this
+   * existed have none, and an empty list means the studio looked and
+   * found nothing that fits.
+   */
+  furtherReading?: FurtherReadingLink[];
+}
+
+/** One "keep reading" link under a deep dive. */
+export interface FurtherReadingLink {
+  title: string;
+  url: string;
+  /** Where the link goes, e.g. "Wikipedia". */
+  site: string;
+  /** The article's own first sentence. */
+  summary: string;
 }
 
 export interface Source {

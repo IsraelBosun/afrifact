@@ -1,0 +1,49 @@
+List every PERSON named in this sentence, and for each one, copy the
+words in the sentence that tell a stranger WHY THIS PERSON IS KNOWN.
+
+## The sentence
+
+{{fact}}
+
+## What counts as an introduction
+
+An introduction says who the person is in the world, independent of
+the event the sentence describes: their role, job, title or claim to
+fame.
+
+- Counts: "the comedian known for playing Lawyer Kunle", "Nigeria's
+  first president", "the industrialist who founded the Ibru
+  Organisation", "Queen Victoria's goddaughter", "a British naval
+  captain", "King Ghezo of Dahomey", "President Buhari".
+- It can be very short. One or two words are enough: "footballer Samuel
+  Okwaraji", "activist Funmilayo Ransome-Kuti", "chef Hilda Baci".
+- A title that says what they were counts: King, Queen, President,
+  Governor, Emir, Oba, General, Captain, Prime Minister.
+- A link to someone FAMOUS counts, because the fame carries it:
+  "Dangote's great-grandfather", "Fela's mother", "the son of Nigeria's
+  finance minister". Report it as kind "role".
+- An honorific alone does NOT count: Chief, Dr, Mr, Mrs, Alhaji, Sir.
+  "Chief Michael Ibru" is not introduced.
+- What happens to them IN THIS SENTENCE does not count. "Sarah Forbes
+  Bonetta, orphaned in 1848 and marked for sacrifice" tells you the
+  event, not why anyone knows her name. Kind "none".
+- Being the relative of someone NOT famous does not count: "the daughter
+  of a trader", "his uncle Musa". Kind "relation".
+- A job that is not why they are known does not count: calling a famous
+  footballer "a qualified lawyer" does not tell a stranger he is a
+  footballer. Kind "none".
+- Use only the words in the sentence, never what you know yourself.
+
+One person under two names ("Sarah Forbes Bonetta, born Aina") is ONE
+person: list them once.
+
+Only NAMED people. Leave out:
+- places, buildings and things named after people ("Port Harcourt",
+  "the Great Pyramid of Cheops"): the name there is a place, not a
+  person the reader has to know;
+- unnamed people ("a woman", "his mother", "a census officer");
+- companies, countries and peoples.
+
+Return JSON only:
+
+{"people": [{"name": "...", "introduction": "exact words from the sentence, or empty", "kind": "role" | "relation" | "none"}]}

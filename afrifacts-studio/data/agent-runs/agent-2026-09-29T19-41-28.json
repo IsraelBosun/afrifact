@@ -1,0 +1,751 @@
+{
+  "runId": "agent-2026-09-29T19-41-28",
+  "status": "done",
+  "brief": "History facts about Angola",
+  "country": "AO",
+  "target": 5,
+  "createdAt": "2026-09-29T19:45:44.792Z",
+  "stopReason": "Target met: 5 strong facts.",
+  "docsRead": 6,
+  "webQueriesSpent": 0,
+  "shortlist": [
+    {
+      "key": "s1",
+      "fact": "Njinga, a southwest African paramount ruler, kept an all-female bodyguard, ordered her male concubines to wear women's clothing and call her king, and enforced chastity on her male councilors.",
+      "category": "History",
+      "votes": "3/3",
+      "why": "I've heard the name Njinga but nobody ever told me she was running her court like that — the 'call her king' part is what I'd send to the group chat.",
+      "title": "Nzinga of Ndongo and Matamba",
+      "url": "https://en.wikipedia.org/wiki/Nzinga_of_Ndongo_and_Matamba",
+      "candidate": {
+        "fact": "Njinga, a southwest African paramount ruler, kept an all-female bodyguard, ordered her male concubines to wear women's clothing and call her king, and enforced chastity on her male councilors.",
+        "passage": "During this decade, Nzinga took on more masculine traits, adopting male titles and clothing. She established an all-female bodyguard for herself, and ordered that her male concubines wear women's clothing and address her as king. She also instituted communal sleeping quarters at her court, and enforced strict chastity rules for her male councilors and female bodyguards.",
+        "category": "History",
+        "surprise": {
+          "priorProbability": 5,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "The gender-bending court rules are a striking, concrete detail most readers have never encountered.",
+        "volatile": false,
+        "slug": "nzinga-of-ndongo-and",
+        "country": "AO",
+        "source": {
+          "title": "Nzinga of Ndongo and Matamba",
+          "url": "https://en.wikipedia.org/wiki/Nzinga_of_Ndongo_and_Matamba",
+          "revisionId": "1376015570",
+          "contentHash": "6e60838e10a73b6b",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "s2",
+      "fact": "Jonas Savimbi, the Angolan rebel leader who founded UNITA, was reported dead at least 17 times before he was actually killed in 2002.",
+      "category": "History",
+      "votes": "3/3",
+      "why": "I grew up hearing his name in every war story and nobody ever told me he 'died' seventeen times first — that number is the whole thing.",
+      "title": "Jonas Savimbi",
+      "url": "https://en.wikipedia.org/wiki/Jonas_Savimbi",
+      "candidate": {
+        "fact": "Jonas Savimbi, the Angolan rebel leader who founded UNITA, was reported dead at least 17 times before he was actually killed in 2002.",
+        "passage": "After surviving more than six assassination attempts, and having been reported dead at least 17 times, Savimbi was killed on 22 February 2002, in a battle with Angolan government troops along riverbanks in the province of Moxico, his provincial birthplace.",
+        "category": "History",
+        "surprise": {
+          "priorProbability": 5,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "The specific count of 17 false death reports is a striking, little-known detail about a figure whose death is otherwise well known.",
+        "volatile": false,
+        "slug": "jonas-savimbi",
+        "country": "AO",
+        "source": {
+          "title": "Jonas Savimbi",
+          "url": "https://en.wikipedia.org/wiki/Jonas_Savimbi",
+          "revisionId": "1371019765",
+          "contentHash": "9712d6a15637ac9b",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "s3",
+      "fact": "The main hospital of Cape Verde in Praia is named Hospital Agostinho Neto because of the work the Angolan revolutionary and first president of Angola did there as a doctor.",
+      "category": "Health",
+      "votes": "3/3",
+      "why": "I know his name from money and statues but had no idea he was a doctor in Cape Verde, so the link between our president and their hospital is a genuine 'no way' for me.",
+      "title": "Agostinho Neto",
+      "url": "https://en.wikipedia.org/wiki/Agostinho_Neto",
+      "candidate": {
+        "fact": "The main hospital of Cape Verde in Praia is named Hospital Agostinho Neto because of the work the Angolan revolutionary and first president of Angola did there as a doctor.",
+        "passage": "For the same reason, the main hospital of Cape Verde in the capital Praia is named \"Hospital Agostinho Neto\" (HAN).",
+        "category": "Health",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 4,
+          "explicability": 3
+        },
+        "reasoning": "The connection between Neto and Cape Verde's main hospital is a specific detail not widely known.",
+        "volatile": false,
+        "slug": "agostinho-neto",
+        "country": "AO",
+        "source": {
+          "title": "Agostinho Neto",
+          "url": "https://en.wikipedia.org/wiki/Agostinho_Neto",
+          "revisionId": "1375711528",
+          "contentHash": "9d5268c32f441480",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "s4",
+      "fact": "Angolan politician Holden Roberto played football for Daring Club Motema Pembe alongside Cyrille Adoula, who later became Prime Minister of the Congo.",
+      "category": "Sports",
+      "votes": "3/3",
+      "why": "I know Holden Roberto as the FNLA guy from history class and Motema Pembe is a real club I actually watch, so him being a baller there with a future Congolese PM is a link I never would have guessed.",
+      "title": "Holden Roberto",
+      "url": "https://en.wikipedia.org/wiki/Holden_Roberto",
+      "candidate": {
+        "fact": "Angolan politician Holden Roberto played football for Daring Club Motema Pembe alongside Cyrille Adoula, who later became Prime Minister of the Congo.",
+        "passage": "Roberto went on to play for Daring Club Motema Pembe, alongside the later Congolese Prime Minister, Cyrille Adoula.",
+        "category": "Sports",
+        "surprise": {
+          "priorProbability": 5,
+          "specificity": 4,
+          "explicability": 3
+        },
+        "reasoning": "A future rebel leader and a future prime minister as football teammates is an unexpected connection.",
+        "volatile": false,
+        "slug": "holden-roberto",
+        "country": "AO",
+        "source": {
+          "title": "Holden Roberto",
+          "url": "https://en.wikipedia.org/wiki/Holden_Roberto",
+          "revisionId": "1374721246",
+          "contentHash": "b38e5214c42ef0fd",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "s5",
+      "fact": "Fearing Sporting CP would kidnap Portuguese footballer Eusébio, Benfica hid him for twelve days in a holiday home near Meia Praia beach in Lagos, Algarve, where he was awarded his 4th grade diploma.",
+      "category": "Sports",
+      "votes": "3/3",
+      "why": "A football legend being stashed like a hostage in a beach town called Lagos, and the random school diploma detail makes it feel unreal.",
+      "title": "Eusébio",
+      "url": "https://en.wikipedia.org/wiki/Eus%C3%A9bio",
+      "candidate": {
+        "fact": "Fearing Sporting CP would kidnap Portuguese footballer Eusébio, Benfica hid him for twelve days in a holiday home near Meia Praia beach in Lagos, Algarve, where he was awarded his 4th grade diploma.",
+        "passage": "Moreover, fearing a \"kidnapping\" attempt by Sporting CP, Benfica moved Eusébio on 8 April 1961 to a holiday home owned by Domingos Claudino, former president of Benfica, and a hotel near the Meia Praia beach, in Lagos, Algarve region, where he would remain for twelve days until the transfer upheaval calmed down (Eusébio was awarded his 4th grade diploma while he was hidden in the Algarve).",
+        "category": "Sports",
+        "surprise": {
+          "priorProbability": 5,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "The detail that a football club hid a teenage player for twelve days and that he finished primary school while in hiding is startling and little known.",
+        "volatile": false,
+        "slug": "eusebio",
+        "country": "AO",
+        "source": {
+          "title": "Eusébio",
+          "url": "https://en.wikipedia.org/wiki/Eus%C3%A9bio",
+          "revisionId": "1375785087",
+          "contentHash": "f6bd00d95e39ff39",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    }
+  ],
+  "alternates": [
+    {
+      "key": "a1",
+      "fact": "Queen of the Ambundu Kingdoms of Ndongo, Njinga had her attendant kneel as a human seat and negotiated face to face with the governor when the Portuguese gave her a mat instead of a chair.",
+      "category": "History",
+      "votes": "4/6",
+      "why": "The mat-to-human-chair swap is a whole power move and I've never heard this version of her before.",
+      "title": "Nzinga of Ndongo and Matamba",
+      "url": "https://en.wikipedia.org/wiki/Nzinga_of_Ndongo_and_Matamba",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "Queen of the Ambundu Kingdoms of Ndongo, Njinga had her attendant kneel as a human seat and negotiated face to face with the governor when the Portuguese gave her a mat instead of a chair.",
+        "passage": "According to a popular story, when Nzinga arrived to meet with the Portuguese, there were chairs for the Portuguese officials but only a mat provided for her. This type of behavior from the Portuguese was common; it was their way of displaying a \"subordinate status, a status reserved for conquered Africans.\" In response to this, Nzinga's attendant formed herself to be her chair while she spoke to the governor face to face.",
+        "category": "History",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "The human-chair story is vivid and specific, and most people outside Angola have never heard it.",
+        "volatile": false,
+        "slug": "nzinga-of-ndongo-and",
+        "country": "AO",
+        "source": {
+          "title": "Nzinga of Ndongo and Matamba",
+          "url": "https://en.wikipedia.org/wiki/Nzinga_of_Ndongo_and_Matamba",
+          "revisionId": "1376015570",
+          "contentHash": "6e60838e10a73b6b",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a2",
+      "fact": "In the 104 years after the death of Njinga, queen of Ndongo and Matamba, queens ruled Ndongo and Matamba for at least eighty of them.",
+      "category": "History",
+      "votes": "3/3",
+      "why": "I know Njinga's name but I always pictured her as the exception, and this flips it into a whole century of queens — that's a screenshot for the group chat.",
+      "title": "Nzinga of Ndongo and Matamba",
+      "url": "https://en.wikipedia.org/wiki/Nzinga_of_Ndongo_and_Matamba",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "In the 104 years after the death of Njinga, queen of Ndongo and Matamba, queens ruled Ndongo and Matamba for at least eighty of them.",
+        "passage": "In the period of 104 years that followed Njinga's death in 1663, queens ruled for at least eighty of them.",
+        "category": "History",
+        "surprise": {
+          "priorProbability": 5,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "The scale of female succession after Njinga is a concrete number almost nobody knows.",
+        "volatile": false,
+        "slug": "nzinga-of-ndongo-and",
+        "country": "AO",
+        "source": {
+          "title": "Nzinga of Ndongo and Matamba",
+          "url": "https://en.wikipedia.org/wiki/Nzinga_of_Ndongo_and_Matamba",
+          "revisionId": "1376015570",
+          "contentHash": "6e60838e10a73b6b",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a3",
+      "fact": "Angolan rebel military leader Savimbi sustained 15 gunshot wounds to his head, throat, upper body and legs, and died almost instantly.",
+      "category": "History",
+      "votes": "5/6",
+      "why": "I knew he was killed in the war but nobody ever told me it was 15 shots, and the 'almost instantly' after all that is what makes you stop scrolling.",
+      "title": "Jonas Savimbi",
+      "url": "https://en.wikipedia.org/wiki/Jonas_Savimbi",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "Angolan rebel military leader Savimbi sustained 15 gunshot wounds to his head, throat, upper body and legs, and died almost instantly.",
+        "passage": "In the firefight, Savimbi sustained 15 gunshot wounds to his head, throat, upper body and legs. While Savimbi returned fire, his wounds proved fatal, and he died almost instantly.",
+        "category": "History",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 3
+        },
+        "reasoning": "The exact number of wounds and the fact he died almost instantly is a visceral detail not commonly known.",
+        "volatile": false,
+        "slug": "jonas-savimbi",
+        "country": "AO",
+        "source": {
+          "title": "Jonas Savimbi",
+          "url": "https://en.wikipedia.org/wiki/Jonas_Savimbi",
+          "revisionId": "1371019765",
+          "contentHash": "9712d6a15637ac9b",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a4",
+      "fact": "Angolan rebel military leader Savimbi was survived by 'several wives and dozens of children', numbering at least 25.",
+      "category": "History",
+      "votes": "3/3",
+      "why": "I grew up hearing his name everywhere but nobody ever told me he had a whole secret football team of children, that's the part I'm sending to the group chat.",
+      "title": "Jonas Savimbi",
+      "url": "https://en.wikipedia.org/wiki/Jonas_Savimbi",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "Angolan rebel military leader Savimbi was survived by 'several wives and dozens of children', numbering at least 25.",
+        "passage": "He was survived by \"several wives and dozens of children\", the latter numbering at least 25.",
+        "category": "History",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 3
+        },
+        "reasoning": "The exact number of children and the phrase 'several wives' is a surprising personal detail.",
+        "volatile": false,
+        "slug": "jonas-savimbi",
+        "country": "AO",
+        "source": {
+          "title": "Jonas Savimbi",
+          "url": "https://en.wikipedia.org/wiki/Jonas_Savimbi",
+          "revisionId": "1371019765",
+          "contentHash": "9712d6a15637ac9b",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a5",
+      "fact": "Rebel military leader Savimbi's tomb was vandalised in 2008, and four members of the MPLA youth wing were arrested; his body was exhumed and reburied publicly in 2019.",
+      "category": "History",
+      "votes": "3/3",
+      "why": "I knew Savimbi died but I had no idea his grave got vandalised and then his body was dug up and reburied in public, that's wild.",
+      "title": "Jonas Savimbi",
+      "url": "https://en.wikipedia.org/wiki/Jonas_Savimbi",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "Rebel military leader Savimbi's tomb was vandalised in 2008, and four members of the MPLA youth wing were arrested; his body was exhumed and reburied publicly in 2019.",
+        "passage": "On 3 January 2008, his tomb was vandalised and four members of the youth wing of the MPLA were charged and arrested. His body was exhumed and reburied publicly in 2019.",
+        "category": "History",
+        "surprise": {
+          "priorProbability": 5,
+          "specificity": 5,
+          "explicability": 3
+        },
+        "reasoning": "The vandalism by MPLA youth and the later public reburial are obscure post-death events.",
+        "volatile": false,
+        "slug": "jonas-savimbi",
+        "country": "AO",
+        "source": {
+          "title": "Jonas Savimbi",
+          "url": "https://en.wikipedia.org/wiki/Jonas_Savimbi",
+          "revisionId": "1371019765",
+          "contentHash": "9712d6a15637ac9b",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a6",
+      "fact": "Angolan revolutionary Savimbi spoke seven languages fluently, including Portuguese, French, and English, despite never having lived in an English-speaking country.",
+      "category": "History",
+      "votes": "3/3",
+      "why": "I grew up hearing his name in every political argument in this country and nobody ever told me he was out here speaking seven languages — that's the part I'm sending to the group chat.",
+      "title": "Jonas Savimbi",
+      "url": "https://en.wikipedia.org/wiki/Jonas_Savimbi",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "Angolan revolutionary Savimbi spoke seven languages fluently, including Portuguese, French, and English, despite never having lived in an English-speaking country.",
+        "passage": "He spoke seven languages fluently including Portuguese, French, and English. In visits to foreign diplomats and in speeches before American audiences, he often cited classical Western political and social philosophy, ultimately becoming one of the most vocal anti-communists of the Third World.",
+        "category": "History",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 3
+        },
+        "reasoning": "The specific number of languages and the fact he never lived in an English-speaking country is a surprising personal detail.",
+        "volatile": false,
+        "slug": "jonas-savimbi",
+        "country": "AO",
+        "source": {
+          "title": "Jonas Savimbi",
+          "url": "https://en.wikipedia.org/wiki/Jonas_Savimbi",
+          "revisionId": "1371019765",
+          "contentHash": "9712d6a15637ac9b",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a7",
+      "fact": "Agostinho Neto, Angola's first president, adopted the war name Manguxi Kilamba, a Kimbundu term meaning 'immortal guide' or 'wisest among men'.",
+      "category": "History",
+      "votes": "3/3",
+      "why": "I've seen his face my whole life and never once heard he carried a name like that — that's a group chat 'no way' right there.",
+      "title": "Agostinho Neto",
+      "url": "https://en.wikipedia.org/wiki/Agostinho_Neto",
+      "aside": "History is full this run",
+      "candidate": {
+        "fact": "Agostinho Neto, Angola's first president, adopted the war name Manguxi Kilamba, a Kimbundu term meaning 'immortal guide' or 'wisest among men'.",
+        "passage": "During this period, he adopted his war name and pseudonym as a writer, Manguxi Kilamba, a Kimbundu language term meaning \"immortal guide,\" \"conductor of the spirit of the people,\" or \"wisest among men\".",
+        "category": "History",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "Most educated Angolans know Neto as the first president, but few know the meaning of his Kimbundu war name.",
+        "volatile": false,
+        "slug": "agostinho-neto",
+        "country": "AO",
+        "source": {
+          "title": "Agostinho Neto",
+          "url": "https://en.wikipedia.org/wiki/Agostinho_Neto",
+          "revisionId": "1375711528",
+          "contentHash": "9d5268c32f441480",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a8",
+      "fact": "Agostinho Neto, the first president of Angola, died in Moscow a week before his 57th birthday, after travelling to the Soviet Union for surgery for pancreatic cancer and chronic hepatitis.",
+      "category": "Health",
+      "votes": "3/3",
+      "why": "I knew he died young but I never knew he died in Moscow in a hospital bed, not here — that changes the whole picture of the man on our money.",
+      "title": "Agostinho Neto",
+      "url": "https://en.wikipedia.org/wiki/Agostinho_Neto",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "Agostinho Neto, the first president of Angola, died in Moscow a week before his 57th birthday, after travelling to the Soviet Union for surgery for pancreatic cancer and chronic hepatitis.",
+        "passage": "Agostinho Neto died on 10 September 1979 in Moscow after travelling to the Soviet Union to undergo surgery for cancer and hepatitis. He was a week shy of his 57th birthday at the time of his death.",
+        "category": "Health",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "The exact cause and timing of his death, including the proximity to his birthday, is not common knowledge.",
+        "volatile": false,
+        "slug": "agostinho-neto",
+        "country": "AO",
+        "source": {
+          "title": "Agostinho Neto",
+          "url": "https://en.wikipedia.org/wiki/Agostinho_Neto",
+          "revisionId": "1375711528",
+          "contentHash": "9d5268c32f441480",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a9",
+      "fact": "The CIA began paying Angolan politician Holden Roberto $6,000 a year in the 1950s, raised to $10,000 in 1962, and a 1967 State Department document confirmed the relationship had lasted since 1955.",
+      "category": "History",
+      "votes": "3/3",
+      "why": "It puts a dollar figure and a date on something we only ever heard as a rumour, and it's about our own history, not some foreign trivia.",
+      "title": "Holden Roberto",
+      "url": "https://en.wikipedia.org/wiki/Holden_Roberto",
+      "aside": "History is full this run",
+      "candidate": {
+        "fact": "The CIA began paying Angolan politician Holden Roberto $6,000 a year in the 1950s, raised to $10,000 in 1962, and a 1967 State Department document confirmed the relationship had lasted since 1955.",
+        "passage": "The United States National Security Council began giving Roberto aid in the 1950s, paying him $6,000 annually until 1962 when the NSC increased his salary to $10,000 for intelligence-gathering. A document produced by The State Department's Bureau of Intelligence and Research's (INR) on March 6, 1967, states that the \"CIA has had a relationship with Roberto since 1955\".",
+        "category": "History",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "The exact dollar amounts and the documented CIA relationship are not widely known even among Angolans familiar with Roberto's Western backing.",
+        "volatile": false,
+        "slug": "holden-roberto",
+        "country": "AO",
+        "source": {
+          "title": "Holden Roberto",
+          "url": "https://en.wikipedia.org/wiki/Holden_Roberto",
+          "revisionId": "1374721246",
+          "contentHash": "b38e5214c42ef0fd",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a10",
+      "fact": "Angolan politician Holden Roberto sealed an alliance with Zairian President Mobutu Sese Seko by divorcing his wife and marrying a woman from Mobutu's wife's village.",
+      "category": "History",
+      "votes": "3/3",
+      "why": "I know Holden Roberto's name from school but nobody ever told me he ended a marriage to sign a deal, and that is the kind of thing my group chat will not believe.",
+      "title": "Holden Roberto",
+      "url": "https://en.wikipedia.org/wiki/Holden_Roberto",
+      "aside": "History is full this run",
+      "candidate": {
+        "fact": "Angolan politician Holden Roberto sealed an alliance with Zairian President Mobutu Sese Seko by divorcing his wife and marrying a woman from Mobutu's wife's village.",
+        "passage": "Roberto established a political alliance with Zairian President Mobutu Sese Seko by divorcing his wife and marrying a woman from Mobutu's wife's village.",
+        "category": "History",
+        "surprise": {
+          "priorProbability": 5,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "The personal, transactional nature of the alliance is a striking detail that most people would not know.",
+        "volatile": false,
+        "slug": "holden-roberto",
+        "country": "AO",
+        "source": {
+          "title": "Holden Roberto",
+          "url": "https://en.wikipedia.org/wiki/Holden_Roberto",
+          "revisionId": "1374721246",
+          "contentHash": "b38e5214c42ef0fd",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a11",
+      "fact": "Eusébio, the footballer nicknamed the Black Panther, was born in Lourenço Marques, now Maputo, to a white railroad worker from Malanje, Angola, and a black Mozambican mother.",
+      "category": "History",
+      "votes": "3/3",
+      "why": "I've heard Eusébio's name my whole life and never once heard Angola in the same sentence — Malanje of all places, that's the part I'd screenshot.",
+      "title": "Eusébio",
+      "url": "https://en.wikipedia.org/wiki/Eus%C3%A9bio",
+      "aside": "History is full this run",
+      "candidate": {
+        "fact": "Eusébio, the footballer nicknamed the Black Panther, was born in Lourenço Marques, now Maputo, to a white railroad worker from Malanje, Angola, and a black Mozambican mother.",
+        "passage": "Eusébio was born in the Mafalala neighbourhood of Lourenço Marques (now Maputo), Portuguese Mozambique on 25 January 1942. His parents were Laurindo António da Silva Ferreira, a white railroad worker from Malanje, Portuguese Angola, and his wife Elisa Anissabeni, a black Mozambican woman.",
+        "category": "History",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 4
+        },
+        "reasoning": "Most Angolans know Eusébio as a Portuguese football legend but not that his father was an Angolan from Malanje, making him partly Angolan by descent.",
+        "volatile": false,
+        "slug": "eusebio",
+        "country": "AO",
+        "source": {
+          "title": "Eusébio",
+          "url": "https://en.wikipedia.org/wiki/Eus%C3%A9bio",
+          "revisionId": "1375785087",
+          "contentHash": "f6bd00d95e39ff39",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "a12",
+      "fact": "Portuguese footballer Eusébio scored 77 goals in 42 appearances for Sporting Lourenço Marques between 1957 and 1960, before he ever left Mozambique.",
+      "category": "Sports",
+      "votes": "3/3",
+      "why": "I know Eusébio is ours, but I never knew he was already scoring almost two goals a game in Lourenço Marques before Europe even saw him.",
+      "title": "Eusébio",
+      "url": "https://en.wikipedia.org/wiki/Eus%C3%A9bio",
+      "aside": "one fact per document; ranked lower",
+      "candidate": {
+        "fact": "Portuguese footballer Eusébio scored 77 goals in 42 appearances for Sporting Lourenço Marques between 1957 and 1960, before he ever left Mozambique.",
+        "passage": "From 1957 to 1960, Eusébio scored 77 goals in 42 appearances for the main team of Sporting Lourenço Marques.",
+        "category": "Sports",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 5,
+          "explicability": 3
+        },
+        "reasoning": "The sheer scale of his scoring rate in colonial Mozambique before his European fame is rarely known.",
+        "volatile": false,
+        "slug": "eusebio",
+        "country": "AO",
+        "source": {
+          "title": "Eusébio",
+          "url": "https://en.wikipedia.org/wiki/Eus%C3%A9bio",
+          "revisionId": "1375785087",
+          "contentHash": "f6bd00d95e39ff39",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    }
+  ],
+  "trace": [
+    {
+      "step": 1,
+      "thought": "The app has zero History facts, so I need rich Angolan history documents. A dramatic-person biography is the richest source type; I'll start by searching for a well-known Angolan historical figure with an eventful life, such as Queen Nzinga, then branch to unrelated subjects.",
+      "action": "search",
+      "detail": "\"Nzinga of Ndongo\"",
+      "observation": "Search \"Nzinga of Ndongo\" (Wikipedia):\nr1  Nzinga of Ndongo and Matamba  (wikipedia, 11742 words)\n     Nzinga or Njinga Ana de Sousa Mbande (; c. 1583 – 17 December 1663) was a southwest African paramount ruler who ruled as queen of the Ambundu Kingdoms of Ndongo (1624–1663) and Mat\nr2  Kingdom of Ndongo  (wikipedia, 5316 words)\n     The Kingdom of Ndongo (formerly known as Angola or Dongo, also Kimbundu: Utuminu ua Ndongo, Utuminu ua Ngola) was an early-modern African state located in the highlands between the\nr3  Funji of Ndongo  (wikipedia, 1549 words)\n     Kifunzi of Ndongo (born in the 1500s) also known as Funji or Lady Grace, her sisters, Nzinga of Ndongo and Mukambu of Matamba, were well revered and respected in Kabasa, the capita\nr4  Njinga of Angola: Africa's Warrior Queen  (wikipedia, 1516 words)\n     Njinga of Angola: Africa’s Warrior Queen is a 2017 biography written by Linda M. Heywood and published by Harvard University Press. The book explores the life of Nzinga of Ndongo a\nr5  Kingdom of Matamba  (wikipedia, 2403 words)\n     The Kingdom of Matamba (pre-1550–1744) was an African state located in what is now the Baixa de Cassange region of Malanje Province of modern-day Angola. Joined to the Kingdom of N\nr6  João I of Kongo  (wikipedia, 1169 words)\n     King João I (born Nzinga-a-Nkuwu; c. 1440 – 1509) was the 5th ManiKongo of the Kingdom of Kongo (Kongo: Kongo-dia-Ntotila) between 1470 and 1509. After Portuguese sailors visited h\nr7  Ngola (title)  (wikipedia, 198 words)\n     The Ngola was the title of the king of the Kingdom of Ndongo which existed from the sixteenth to the seventeenth century in what is now north-west Angola. The full title was \"Ngola\nr8  Angolan Wars  (wikipedia, 13224 words)\n     The Angolan Wars (Portuguese: Guerras Angolanas) were a long series of conflicts in modern-day Angola involving Portugal, the Kingdom of Ndongo, the Kingdom of Kongo, the Kingdom o\nr9  Chibados  (wikipedia, 525 words)\n     Chibados (or quimbandas) are third-gender people, born male, who lived most often as women. They were found among the cultures of the Ndongo and other parts of what is today Angola\nr10  Precolonial history of Angola  (wikipedia, 2198 words)\n     The precolonial history of Angola lasted until Portugal annexed the territory as a colony in 1655.\nr11  Mukambu of Matamba  (wikipedia, 794 words)\n     Mukambu Mbandi (also called Kambu, Barbara) (died 1666) was the queen regnant of the Kingdom of Ndongo and Matamba from 1663 to 1666.\nr12  Hemidactylus nzingae  (wikipedia, 167 words)\n     Hemidactylus nzingae, also known as the Queen Nzinga's tropical gecko, is a species of house gecko endemic to Angola. It is named after Queen Nzinga of Ndongo and Matamba."
+    },
+    {
+      "step": 2,
+      "thought": "The Nzinga search returned a rich set of Angolan history documents. The most promising for a dramatic-person biography with palace intrigue and links to multiple worlds is the main Nzinga article (r1, 11,742 words), which should yield several strong facts. I'll read it first.",
+      "action": "read",
+      "detail": "r1 \"Nzinga of Ndongo and Matamba\"",
+      "observation": "Read r1 \"Nzinga of Ndongo and Matamba\": 3 facts verified, 5 failed the verifier, 0 already in the app or this run.\nKEPT (1):\n  + [3/3, History] Njinga, a southwest African paramount ruler, kept an all-female bodyguard, ordered her male concubines to wear women's clothing and call her king, and enforced chastity on her male councilors.\nSTRONG BUT SET ASIDE FOR VARIETY (2):\n  ~ Queen of the Ambundu Kingdoms of Ndongo, Njinga had her attendant kneel as a human seat and negotiated face to  (one fact per document; ranked lower)\n  ~ In the 104 years after the death of Njinga, queen of Ndongo and Matamba, queens ruled Ndongo and Matamba for a  (one fact per document; ranked lower)\nWEAK (0):\nThis subject is now covered. Move to something unrelated."
+    },
+    {
+      "step": 3,
+      "thought": "Nzinga is covered, so I need unrelated Angolan history subjects. The Angolan Wars article (r8, 13,224 words) is long and covers conflict, but it's closely tied to Nzinga's world. Better to branch to a fresh, dramatic subject: the Kingdom of Kongo and its famous Christian king Afonso I, whose letters to Portugal are a rich, surprising source. I'll search for a specific name.",
+      "action": "search",
+      "detail": "\"Afonso I of Kongo\"",
+      "observation": "Search \"Afonso I of Kongo\" (Wikipedia):\nr14  Afonso I of Kongo  (wikipedia, 4208 words)\n     Mvemba a Nzinga, Nzinga Mbemba, Funsu Nzinga Mvemba or Dom Afonso (c. 1456 – 1542 or 1543), also known as King Afonso I, was the sixth ruler of the Kingdom of Kongo from the Lukeni\nr15  Kingdom of Kongo  (wikipedia, 17730 words)\n     The Kingdom of Kongo (Kongo: Kongo Dya Ntotila or Wene wa Kongo; Portuguese: Reino do Congo; Latin: Regnum Congo) was a kingdom in Central Africa. It was located in present-day nor\nr6  João I of Kongo  (wikipedia, 1169 words)\n     King João I (born Nzinga-a-Nkuwu; c. 1440 – 1509) was the 5th ManiKongo of the Kingdom of Kongo (Kongo: Kongo-dia-Ntotila) between 1470 and 1509. After Portuguese sailors visited h\nr16  Manikongo  (wikipedia, 555 words)\n     Manikongo (also called Awenekongo or Mwenekongo) was the title of the ruler of the Kingdom of Kongo, a kingdom that existed from the 14th to the 19th centuries and consisted of lan\nr17  Afonso II of Kongo  (wikipedia, 461 words)\n     Afonso II was a ruler of the Kingdom of Kongo in 1561.\nr18  Diogo I Nkumbi a Mpudi  (wikipedia, 980 words)\n     Nkumbi-a-Mpudi Diogo I (1503 – 4 November 1561) was manikongo in 1545–1561. King Diogo was the grandson of king Afonso I of Kongo and won the throne after overthrowing his uncle Pe\nr19  Afonso III of Kongo  (wikipedia, 274 words)\n     Afonso III Mvemba a Nimi (also spelt Affonso III; died 1674) was a ruler of the kingdom of Kongo during its civil war period. King Afonso III first enters written record as the rul\nr20  Afonso  (wikipedia, 481 words)\n     Afonso is a masculine given name, the Portuguese and Galician form of Alphons.\nr21  Pedro I of Kongo  (wikipedia, 664 words)\n     Pedro I Nkanga a Mvemba (1478–1566) was manikongo of the Kingdom of Kongo from 1543 until being deposed in 1545.\nr22  Bernardo I of Kongo  (wikipedia, 462 words)\n     Bernardo I of Kongo (died 1567) was a 16th-century manikongo (ruler) of the Kingdom of Kongo, a region encompassing areas in 21st-century Angola and the Democratic Republic of Cong\nr23  Afonso II of Kongo and Nkondo  (wikipedia, 452 words)\n     Afonso II of Kongo and Nkondo was a ruler of the kingdom of Kongo in the period following the Kongo Civil War. He was a member of the House of Kimpanzu and may have been supported \nr24  Nlaza of Kongo  (wikipedia, 326 words)\n     Nlaza of Kongo was a manikongo from the Lukeni kanda dynasty and the 3rd ruler of the Central African kingdom of Kongo in the early 15th century. Little is known about him or his r"
+    },
+    {
+      "step": 4,
+      "thought": "Nzinga is covered, so I need an unrelated Angolan history subject. The Kingdom of Kongo is a rich, long article (17,730 words) with palace intrigue, Christian conversion, and links to Portugal — a fresh subject distinct from Nzinga. I'll read it.",
+      "action": "read",
+      "detail": "r15 \"Kingdom of Kongo\"",
+      "observation": "Not read: \"Kingdom of Kongo\" is a subject the app already covers (nf_1093: \"The Eze Nri's authority was not based on a standing army or central administration, but on religion,\"). Choose a subject that is not in the app."
+    },
+    {
+      "step": 5,
+      "thought": "Nzinga is covered and the Kingdom of Kongo is already in the app. I need a fresh, unrelated Angolan history subject with a dramatic personal story. The 1839 slave ship Amistad and its Angolan captive Sengbe Pieh (Joseph Cinqué) is a rich, surprising, person-driven story linking Angola to a famous global event.",
+      "action": "search",
+      "detail": "\"Sengbe Pieh\"",
+      "observation": "Search \"Sengbe Pieh\" (Wikipedia):\nr27  Joseph Cinqué  (wikipedia, 2165 words)\n     Sengbe Pieh (c. 1814 – c. 1879), also known as Joseph Cinqué or Cinquez and sometimes referred to mononymously as Cinqué, was a West African man of the Mende people who led a revol\nr28  La Amistad  (wikipedia, 5353 words)\n     La Amistad (Spanish: [la amisˈtað]; Spanish for \"The Friendship\") was a 19th-century two-masted schooner owned by a Spaniard living in Cuba. It became renowned in July 1839 for a s\nr29  Amistad (film)  (wikipedia, 6177 words)\n     Amistad is a 1997 American historical drama film directed by Steven Spielberg and written by David Franzoni, based on the events in 1839 aboard the Spanish slave ship La Amistad, d\nr30  Sierra Leonean leone  (wikipedia, 2581 words)\n     The leone is the currency of Sierra Leone. It is subdivided into 100 cents.\nr31  Mende people  (wikipedia, 7646 words)\n     The Mende are one of the two largest ethnic groups in Sierra Leone; their neighbours, the Temne people, constitute the largest ethnic group at 35.5% of the total population, which \nr32  Satellite Award for Best Actor in a Motion Picture  (wikipedia, 8762 words)\n     The Satellite Award for Best Actor in a Motion Picture is an annual award given by the International Press Academy as one of its Satellite Awards. The category has gone through sev\nr33  Ryūzaburō Ōtomo  (wikipedia, 6601 words)\n     Ryūzaburō Ōtomo (大友 龍三郎, Ōtomo Ryūzaburō) is a freelance Japanese actor and narrator who was formerly affiliated with Aoni Production, 81 Produce and the Tokyo Actor's Consumer's C\nr34  Montauk Point State Park  (wikipedia, 1139 words)\n     Montauk Point State Park is a 3.49-square-kilometre (1.35 sq mi) state park located in the hamlet of Montauk, at the eastern tip of Long Island in the Town of East Hampton, Suffolk\nr35  United States v. The Amistad  (wikipedia, 9393 words)\n     United States v. Schooner Amistad, 40 U.S. (15 Pet.) 518 (1841), was a United States Supreme Court case resulting from the rebellion of Africans on board the Spanish schooner La Am\nr36  Amistad Memorial (New Haven)  (wikipedia, 1853 words)\n     The Amistad Memorial in New Haven, Connecticut, is a bronze sculpture created by Ed Hamilton to recognize the events of the 1839 Amistad Affair. The affair was a kidnapping of 53 A\nr37  Art in Sierra Leone  (wikipedia, 1935 words)\n     Art in Sierra Leone has a long and significant tradition of carving and ceremonial works like masks and cloth for initiation and protection. Although art styles are oftentimes ascr\nr38  Cinque Gallery  (wikipedia, 1860 words)\n     The Cinque Gallery (1969–2004) was an art gallery in New York City co-founded by artists Romare Bearden, Ernest Crichlow, and Norman Lewis as an outgrowth of the Black power moveme"
+    },
+    {
+      "step": 6,
+      "thought": "Nzinga is covered and Kingdom of Kongo is already in the app. The Amistad results are mostly Sierra Leone/US-focused, not Angola-specific. I need a fresh, unrelated Angolan history subject with a dramatic personal story. The 1975 Angolan independence and the CIA-backed FNLA leader Holden Roberto, or the famous 'Rooster of Angola' — better yet, the dramatic story of the Angolan civil war figure Jon",
+      "action": "search",
+      "detail": "\"Jonas Savimbi\"",
+      "observation": "Search \"Jonas Savimbi\" (Wikipedia):\nr39  Jonas Savimbi  (wikipedia, 7080 words)\n     Jonas Malheiro Sidónio Sakaita Savimbi (Portuguese: [ˈʒɔnɐʃ ˈsavĩbi]; 3 August 1934 – 22 February 2002) was an Angolan revolutionary, politician, and rebel military leader who foun\nr40  UNITA  (wikipedia, 6911 words)\n     The National Union for the Total Independence of Angola (Portuguese: União Nacional para a Independência Total de Angola, abbr. UNITA) is the second-largest political party in Ango\nr41  Jamba, Cuando  (wikipedia, 1585 words)\n     Jamba is a town in Angola, located in the municipality of Luiana in the southeastern province of Cuando, just north of the Namibian border along the Caprivi Strip. The town is best\nr42  Paul Manafort  (wikipedia, 34905 words)\n     Paul John Manafort Jr. (; born April 1, 1949) is an American former lobbyist, political consultant, and attorney.\nr43  Bié Province  (wikipedia, 1811 words)\n     Bié is a province of Angola located on the Bié Plateau in central part of country. Its capital is Kuito, which was called Silva Porto until independence from Portugal in 1975.\nr44  José Eduardo dos Santos  (wikipedia, 8523 words)\n     José Eduardo Van-Dúnem dos Santos (Portuguese pronunciation: [ʒuˈzɛ eˈðwaɾðu ðuʃ ˈsɐ̃tuʃ]; 28 August 1942 – 8 July 2022) was an Angolan politician and military officer who served a\nr45  Angolan Civil War  (wikipedia, 29818 words)\n     The Angolan Civil War (Portuguese: Guerra Civil Angolana) was a civil war in Angola, beginning in 1975 and continuing, with interludes, until 2002. The war began immediately after \nr46  Angolan War of Independence  (wikipedia, 18348 words)\n     The Angolan War of Independence (Portuguese: Guerra de Independência de Angola; 1961–1974), known as the Armed Struggle of National Liberation (Portuguese: Luta Armada de Libertaçã\nr47  1992 Angolan general election  (wikipedia, 2946 words)\n     General elections were held in Angola on 29 and 30 September 1992 to elect a President and National Assembly, the first time free and multi-party elections had been held in the cou\nr48  Angola  (wikipedia, 30779 words)\n     Angola, officially the Republic of Angola, is a country on the western coast of Southern Africa. It is the second-largest Portuguese-speaking (Lusophone) country after Brazil in bo\nr49  António Dembo  (wikipedia, 691 words)\n     António Nabuco Sebastião Dembo (1944 – February 25, 2002) was an Angolan engineer, politician, diplomat and military commander. He served as vice president (1992–2002) and later pr\nr50  Jonas (name)  (wikipedia, 3690 words)\n     Jonas is a common male name in many countries in the Western world and Northeast Africa. It is primarily used as a first name, but also occurs as a surname."
+    },
+    {
+      "step": 7,
+      "thought": "Nzinga is covered and Kingdom of Kongo is already in the app. Jonas Savimbi (r39, 7,080 words) is a dramatic-person biography with a rebel leader's life, links to global Cold War powers, and is a fresh Angolan history subject unrelated to Nzinga.",
+      "action": "read",
+      "detail": "r39 \"Jonas Savimbi\"",
+      "observation": "Read r39 \"Jonas Savimbi\": 6 facts verified, 2 failed the verifier, 0 already in the app or this run.\nKEPT (1):\n  + [3/3, History] Jonas Savimbi, the Angolan rebel leader who founded UNITA, was reported dead at least 17 times before he was actually killed in 2002.\nSTRONG BUT SET ASIDE FOR VARIETY (4):\n  ~ Angolan rebel military leader Savimbi sustained 15 gunshot wounds to his head, throat, upper body and legs, an  (one fact per document; ranked lower)\n  ~ Angolan rebel military leader Savimbi was survived by 'several wives and dozens of children', numbering at lea  (one fact per document; ranked lower)\n  ~ Rebel military leader Savimbi's tomb was vandalised in 2008, and four members of the MPLA youth wing were arre  (one fact per document; ranked lower)\n  ~ Angolan revolutionary Savimbi spoke seven languages fluently, including Portuguese, French, and English, despi  (one fact per document; ranked lower)\nWEAK (1):\n  - [1/3] In 1985, rebel military leader Savimbi's lobbying firm was paid $600,000 annually, and political consultant Paul Manafort helped organize th\n      why: obscure: I know Savimbi and I know Americans were involved in our war, but 'Democratic International in Jamba' and some lobbying fee means nothing to me — it re\nThis subject is now covered. Move to something unrelated."
+    },
+    {
+      "step": 8,
+      "thought": "Nzinga and Savimbi are covered. I need a fresh, unrelated Angolan history subject with a dramatic personal story. The 1839 Amistad rebellion led by Sengbe Pieh (Joseph Cinqué) is a rich, surprising person-driven story linking Angola to a famous global event — and the search already returned r27 'Joseph Cinqué' (2,165 words), a dramatic-life biography. I'll read it.",
+      "action": "read",
+      "detail": "r27 \"Joseph Cinqué\"",
+      "observation": "Read r27 \"Joseph Cinqué\": 7 facts verified, 1 failed the verifier, 1 already in the app or this run.\nKEPT (0):\nSTRONG BUT SET ASIDE FOR VARIETY (0):\nWEAK (6):\n  - [1/3] Sengbe Pieh, known as Joseph Cinqué, was a rice farmer with three children when he was sold into slavery to redeem a debt.\n      why: obscure: It's just a sad bio of a stranger — nothing tells me why this guy matters, no ship, no revolt, no court case, so there's nothing to react to.\n  - [0/3] Cinqué, a West African man of the Mende people who led a revolt on the Spanish slave ship La Amistad, was sold to the Vai king Siaka, then i\n      why: obscure: It's just a chain of sales and names with no turn, no number, and no reason to care — I'd scroll past it.\n  - [0/3] Cinqué, who led a revolt of Africans on the Spanish slave ship La Amistad, was imprisoned on the Portuguese slave ship Tecora, in violation \n      why: obscure: I know the Amistad name but this just adds a second ship and a treaty detail, no turn, nothing I'd repeat to anyone.\n  - [0/3] The Spaniards directed the navigator in the opposite direction, toward the Americas, hoping to attract the attention of fellow Spaniards who\n      why: flat: Who is 'the navigator'? What ship, what year, what Spaniards? It reads like the middle of a paragraph I scrolled past, and there's nothing in it for me to\n  - [0/3] The Supreme Court ruled in March 1841 that the Africans mutinied to regain their freedom after being kidnapped and sold illegally.\n      why: flat: It never says which case, which court, or who the Africans were — 'the Africans' and 'the Supreme Court' with no country named reads like a fragment torn \n  - [0/3] The court ordered the Africans freed and returned to Africa, against the protests of President Martin Van Buren, who worried about relations\n      why: flat: It never says who 'the Africans' are or which court, so it reads like a paragraph ripped out of a history textbook — no name, no number, nothing to send.\nThis subject is now covered. Move to something unrelated."
+    },
+    {
+      "step": 9,
+      "thought": "Nzinga, Savimbi, and Cinqué are all covered or exhausted. I need a fresh, unrelated Angolan history subject with a dramatic personal story. The 20th-century Angolan poet and nationalist leader Agostinho Neto (first President) is a rich person-driven subject linking literature, medicine, and revolution — distinct from the rebel/military figures already covered.",
+      "action": "search",
+      "detail": "\"Agostinho Neto\"",
+      "observation": "Search \"Agostinho Neto\" (Wikipedia):\nr54  Agostinho Neto  (wikipedia, 3477 words)\n     António Agostinho Neto Kilamba (17 September 1922 – 10 September 1979) was an Angolan communist revolutionary, politician and poet. He served as the first president of Angola from \nr55  Dr. António Agostinho Neto International Airport  (wikipedia, 3223 words)\n     Dr. António Agostinho Neto International Airport (Portuguese: Aeroporto Internacional Dr.\nr56  Agostinho Neto University  (wikipedia, 1571 words)\n     The Agostinho Neto University (Portuguese: Universidade Agostinho Neto) is the largest public university of Angola, based in Luanda and in the nearby city of Talatona, in Angola. I\nr57  Mausoleum of António Agostinho Neto  (wikipedia, 1457 words)\n     The Mausoleum of António Agostinho Neto (Memorial António Agostinho Neto), known by the acronym MAAN, is a monument in Luanda, Angola, dedicated to and housing the remains of Agost\nr58  Agostinho Neto Airport  (wikipedia, 590 words)\n     The Agostinho Neto Airport (Portuguese Aeroporto Agostinho Neto) (IATA: NTO, ICAO: GVAN) was an airport located near the town of Ponta do Sol on the northern tip of the island of S\nr59  Maria Eugénia Neto  (wikipedia, 8568 words)\n     Maria Eugénia \"Jenny\" da Silva Neto (born 8 March 1934) is a Portuguese Angolan writer. She was the inaugural First Lady of Angola from 1975 to 1979.\nr60  Order of Agostinho Neto  (wikipedia, 1111 words)\n     The Order of Agostinho Neto (Portuguese: Ordem de Agostinho Neto), also known as the Dr António Agostinho Neto Order, is a state award of Angola, established on 12 May 1990. From i\nr61  Agostinho-Neto International Airport  (wikipedia, 1852 words)\n     Antonio-Agostinho-Neto International Airport (IATA: PNR, ICAO: FCPP) is an airport serving Pointe-Noire, a coastal city in the Republic of the Congo. The runway is surrounded by th\nr62  Agostinho Neto Pioneer Organization  (wikipedia, 687 words)\n     Agostinho Neto Pioneer Organization (Portuguese: Organização de Pioneiros Agostinho Neto, OPA) is a pioneer movement in Angola. It is part of the People's Movement for the Liberati\nr63  Lúcio Lara  (wikipedia, 3048 words)\n     Lúcio Rodrigo Leite Barreto de Lara (9 April 1929 – 27 February 2016), also known by the pseudonym Tchiweka, was an Angolan revolutionary, physicist-mathematician, politician, anti\nr64  Agostinho Neto, São Tomé and Príncipe  (wikipedia, 723 words)\n     Agostinho Neto is a settlement in Lobata District on São Tomé Island in São Tomé and Príncipe. Its population is 992 (2012 census).\nr44  José Eduardo dos Santos  (wikipedia, 8523 words)\n     José Eduardo Van-Dúnem dos Santos (Portuguese pronunciation: [ʒuˈzɛ eˈðwaɾðu ðuʃ ˈsɐ̃tuʃ]; 28 August 1942 – 8 July 2022) was an Angolan politician and military officer who served a"
+    },
+    {
+      "step": 10,
+      "thought": "Nzinga, Savimbi, and Cinqué are covered or exhausted. Agostinho Neto is a fresh, dramatic person-driven subject (poet, doctor, revolutionary, first president) distinct from the military figures already covered. His main biography (r54, 3,477 words) is the richest option; I'll read it.",
+      "action": "read",
+      "detail": "r54 \"Agostinho Neto\"",
+      "observation": "Read r54 \"Agostinho Neto\": 4 facts verified, 4 failed the verifier, 0 already in the app or this run.\nKEPT (1):\n  + [3/3, Health] The main hospital of Cape Verde in Praia is named Hospital Agostinho Neto because of the work the Angolan revolutionary and first president of Angola did there as a doctor.\nSTRONG BUT SET ASIDE FOR VARIETY (2):\n  ~ Agostinho Neto, Angola's first president, adopted the war name Manguxi Kilamba, a Kimbundu term meaning 'immor  (History is full this run)\n  ~ Agostinho Neto, the first president of Angola, died in Moscow a week before his 57th birthday, after travellin  (one fact per document; ranked lower)\nWEAK (1):\n  - [0/3] Angolan revolutionary and first president Agostinho Neto was awarded the Lenin Peace Prize for 1975–76 by the Soviet Union.\n      why: obscure: It's just a Cold War medal on a man I already respect — no turn, no number that stings, nothing I'd repeat to the group chat.\nThis subject is now covered. Move to something unrelated."
+    },
+    {
+      "step": 11,
+      "thought": "Nzinga, Savimbi, Cinqué, and Neto are all covered. I need a fresh, unrelated Angolan history subject with a dramatic personal story. The 20th-century Angolan nationalist Holden Roberto, founder of the FNLA and a CIA-backed figure with a surprising family link (related to Mobutu), is a rich person-driven subject distinct from the military/poet figures already covered. I'll search for his name.",
+      "action": "search",
+      "detail": "\"Holden Roberto\"",
+      "observation": "Search \"Holden Roberto\" (Wikipedia):\nr67  Holden Roberto  (wikipedia, 2522 words)\n     Álvaro Holden Necaca Roberto Diasiwa (Angolan Portuguese pronunciation: [ˈal.va.ɾu ˈolden ɾoˈbeʁtu]; 12 January 1923 – 2 August 2007) was an Angolan politician who founded and led \nr68  National Liberation Front of Angola  (wikipedia, 4747 words)\n     The National Front for the Liberation of Angola (Portuguese: Frente Nacional de Libertação de Angola; abbreviated FNLA) is a political party and former militant organisation that f\nr46  Angolan War of Independence  (wikipedia, 18348 words)\n     The Angolan War of Independence (Portuguese: Guerra de Independência de Angola; 1961–1974), known as the Armed Struggle of National Liberation (Portuguese: Luta Armada de Libertaçã\nr69  Portuguese Colonial War  (wikipedia, 24382 words)\n     The Portuguese Colonial War (Portuguese: Guerra Colonial Portuguesa), also known in Portugal as the Overseas War (Guerra do Ultramar) or in the former colonies as the War of Libera\nr70  Portuguese Angola  (wikipedia, 11781 words)\n     Portuguese Angola (Portuguese: Angola Portuguesa) was a historical colony of the Portuguese Empire (1575–1951), the overseas province Portuguese West Africa of Estado Novo Portugal\nr39  Jonas Savimbi  (wikipedia, 7080 words, already read this run)\n     Jonas Malheiro Sidónio Sakaita Savimbi (Portuguese: [ˈʒɔnɐʃ ˈsavĩbi]; 3 August 1934 – 22 February 2002) was an Angolan revolutionary, politician, and rebel military leader who foun\nr71  Holden (given name)  (wikipedia, 416 words)\n     Holden is an English given name that comes from a surname meaning \"deep valley\" in Old English. The most well-known use of Holden as a given name is in J. D. Salinger's 1951 novel \nr72  Revolutionary Government of Angola in Exile  (wikipedia, 605 words)\n     The Revolutionary Government of Angola in Exile (Portuguese: Govêrno revolucionário de Angola no exílio, or GRAE) was a self-proclaimed government-in-exile based in Léopoldville (m\nr48  Angola  (wikipedia, 30779 words)\n     Angola, officially the Republic of Angola, is a country on the western coast of Southern Africa. It is the second-largest Portuguese-speaking (Lusophone) country after Brazil in bo\nr73  2nd Summit of the Non-Aligned Movement  (wikipedia, 2897 words)\n     Second Summit Conference of Heads of State or Government of the Non-Aligned Movement on 5–10 October 1964 in Cairo, United Arab Republic (Egypt) was the second conference of the No\nr74  Battle of Quifangondo  (wikipedia, 15993 words)\n     The Battle of Quifangondo (popularly known as Nshila wa Lufu, or Battle of Death Road in Kikongo) was fought on 10 November 1975, near the strategic settlement of Quifangondo, Luan\nr75  Democratic People's Republic of Angola  (wikipedia, 1011 words)\n     The Democratic People's Republic of Angola (Portuguese: República Popular Democrática de Angola, RPDA), also referred to as Free Angola (Angola Livre) or the Free Land of Angola (T"
+    },
+    {
+      "step": 12,
+      "thought": "Nzinga, Savimbi, Cinqué, and Neto are all covered. I need a fresh, unrelated Angolan history subject with a dramatic personal story. Holden Roberto (r67, 2,522 words) is a person-driven biography with a surprising family link (related to Mobutu) and CIA backing — distinct from the military/poet figures already covered.",
+      "action": "read",
+      "detail": "r67 \"Holden Roberto\"",
+      "observation": "Read r67 \"Holden Roberto\": 6 facts verified, 2 failed the verifier, 0 already in the app or this run.\nKEPT (1):\n  + [3/3, Sports] Angolan politician Holden Roberto played football for Daring Club Motema Pembe alongside Cyrille Adoula, who later became Prime Minister of the Congo.\nSTRONG BUT SET ASIDE FOR VARIETY (2):\n  ~ The CIA began paying Angolan politician Holden Roberto $6,000 a year in the 1950s, raised to $10,000 in 1962,   (History is full this run)\n  ~ Angolan politician Holden Roberto sealed an alliance with Zairian President Mobutu Sese Seko by divorcing his   (History is full this run)\nWEAK (3):\n  - [2/6] Holden Roberto, founder of the FNLA, launched an incursion into Angola on 15 March 1961 with 4,000 to 5,000 militants, killing everyone they\n      why: obscure: It's a real name and a real number, but it's just a war event with no turn — nothing here I didn't already vaguely assume about 1961 Angola, so I would\n  - [1/3] Angolan politician Holden Roberto, who founded and led the National Liberation Front of Angola (FNLA), was a descendant of the royal family \n      why: known: We learned this in school — Holden Roberto, FNLA, born in São Salvador, Kongo royal blood — it's textbook stuff here, not a fact you'd send anyone.\n  - [0/3] In 1975, the MPLA defeated the FNLA at the Battle of Quifangondo, forcing the FNLA to retreat to Zaire.\n      why: known: This is literally in the history books here, everyone in Luanda knows the MPLA beat the FNLA at Quifangondo in 1975, it's not a surprising fact it's a sc\nThis subject is now covered. Move to something unrelated."
+    },
+    {
+      "step": 13,
+      "thought": "History is full this run (Nzinga, Savimbi, Neto, Holden Roberto), and I have 4 of 5 strong facts. I need one more strong fact from an unrelated category. The app is empty in Business, Culture, Food, Sports, Records, Health. A rich person-driven Angolan story outside history/military: the Angolan-born footballer Eusébio, one of the greatest players ever, born in Lourenço Marques but of Angolan pare",
+      "action": "search",
+      "detail": "\"Bonga Kuenda\"",
+      "observation": "Search \"Bonga Kuenda\" (Wikipedia):\nr78  Bonga (musician)  (wikipedia, 1597 words)\n     José Adelino Barceló de Carvalho (born 5 September 1942), better known as Bonga, is an Angolan folk and semba singer-songwriter.\nr79  Lusafrica  (wikipedia, 923 words)\n     Lusafrica, full name: Productions Lusafrica (French for Lusafrica Productions) is a multinational record label company based in Paris, France. The company was founded in 1988 by Jo\nr80  Sheng slang  (wikipedia, 3888 words)\n     Sheng is primarily a Swahili and English-based cant, slang, perhaps a mixed language or creole, originating among the urban youth of Nairobi, Kenya, and influenced by many of the l"
+    },
+    {
+      "step": 14,
+      "thought": "History is full this run and I have 4 of 5 strong facts. I need one more from an unrelated category. Bonga (r78) is a thin 1,597-word stub, so not worth reading. A richer Angolan culture subject: the footballer Eusébio, born in Mozambique but of Angolan parentage, one of the greatest players ever — a dramatic person-driven story in the empty Sports/Culture space. Let me search for him.",
+      "action": "search",
+      "detail": "\"Eusébio\"",
+      "observation": "Search \"Eusébio\" (Wikipedia):\nr81  Eusébio  (wikipedia, 14959 words)\n     Eusébio da Silva Ferreira (European Portuguese: [ewˈzɛβju ðɐ ˈsilvɐ fɨˈʁɐjɾɐ]; 25 January 1942 – 5 January 2014), nicknamed the \"Black Panther\", the \"Black Pearl\" or \"o Rei\" (\"the \nr82  Eusébio Cup  (wikipedia, 3152 words)\n     The Eusébio Cup is a pre-season friendly football match hosted by Portuguese club S.L. Benfica since 2008. It has been played mostly at their home stadium, Estádio da Luz, with the\nr83  Fineza Eusébio  (wikipedia, 660 words)\n     Fineza da Silva Eusébio (born 18 July 1990, Luanda) is an Angolan basketball player. At the 2012 Summer Olympics, she competed for the Angola women's national basketball team in th\nr84  Eusébio Leão  (wikipedia, 784 words)\n     Francisco Eusébio Lourenço Leão (2 February 1864 – 21 November 1926) was a Portuguese physician and republican politician.\nr85  João Eusébio  (wikipedia, 2652 words)\n     João Eusébio Ferreira da Costa (born 6 March 1962), known as João Eusébio, is a Portuguese former football player and manager. As manager of Rio Ave from 2006 to 2009, he managed i\nr86  Eusebio (name)  (wikipedia, 2343 words)\n     Eusebio or Eusébio is both a Spanish and Portuguese masculine given name and surname.\nr87  Eusébio Scheid  (wikipedia, 1663 words)\n     Eusébio Oscar Scheid S.C.J. (8 December 1932 – 13 January 2021) was a Brazilian prelate of the Catholic Church who was Archbishop of Rio de Janeiro from 2001 to 2009. He was raised\nr88  1965 Ballon d'Or  (wikipedia, 999 words)\n     The 1965 Ballon d'Or, given to the best football player in Europe as judged by a panel of sports journalists from UEFA member countries, was awarded to Eusébio on 28 December 1965.\nr89  Adriano Eusébio  (wikipedia, 407 words)\n     Adriano Eusébio (born 1 January 1967), sometimes known as Tino, is a Santomean football manager and former player, who managed the São Tomé and Príncipe national team. He was appoi\nr90  Jonathan Eusebio  (wikipedia, 2509 words)\n     Jonathan Raymond Eusebio is an American director, stunt coordinator and an actor. He is considered a prolific figure in Hollywood and the action film genre.\nr91  Eusébio (footballer, born 1966)  (wikipedia, 474 words)\n     Eusébio Amaro Lopes Guimarães, known as Eusébio (born 26 August 1966) is a former Portuguese football player. He played 8 seasons and 232 games in the Primeira Liga for Tirsense, B\nr92  Eusébio Bancessi  (wikipedia, 930 words)\n     Eusébio Armando Gomes Bancessi (born 4 August 1995) is a Bissau-Guinean footballer who plays as a winger. He is currently a free agent."
+    },
+    {
+      "step": 15,
+      "thought": "History is full this run and I have 4 of 5 strong facts. Eusébio (r81, 14,959 words) is a very rich, dramatic person-driven biography — the 'Black Panther' born in Mozambique to Angolan parents, one of football's greatest — a fresh Sports/Culture subject unrelated to the covered figures. I'll read it for the final strong fact.",
+      "action": "read",
+      "detail": "r81 \"Eusébio\"",
+      "observation": "Read r81 \"Eusébio\": 6 facts verified, 2 failed the verifier, 1 already in the app or this run.\nKEPT (1):\n  + [3/3, Sports] Fearing Sporting CP would kidnap Portuguese footballer Eusébio, Benfica hid him for twelve days in a holiday home near Meia Praia beach in Lagos, Algarve, where he was awarded his 4th grade diploma.\nSTRONG BUT SET ASIDE FOR VARIETY (2):\n  ~ Eusébio, the footballer nicknamed the Black Panther, was born in Lourenço Marques, now Maputo, to a white rail  (History is full this run)\n  ~ Portuguese footballer Eusébio scored 77 goals in 42 appearances for Sporting Lourenço Marques between 1957 and  (one fact per document; ranked lower)\nWEAK (2):\n  - [1/3] Eusébio, a Portuguese footballer considered one of the greatest players of all time, was the first footballer to be buried at the National P\n      why: obscure: It's a real honour and all, but there's nothing in it for me — no link to Angola or Africa, no twist, just a burial detail about a Portuguese player I \n  - [0/3] Portuguese footballer Eusébio was the first player ever to win the European Golden Boot, World Cup Golden Boot and UCL Golden Boot.\n      why: obscure: I know Eusébio was a goal machine, so 'he won scoring awards' is exactly what I'd expect — there's no turn, no number, no link, nothing to send.\nThis subject is now covered. Move to something unrelated."
+    }
+  ],
+  "decidedAt": "2026-09-29T19:47:01.648Z",
+  "developed": [
+    "nf_1188",
+    "nf_1189"
+  ]
+}

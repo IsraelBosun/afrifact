@@ -325,55 +325,6 @@ export async function promotedKeys() {
 }
 
 /**
- * Attach lineage to records that were promoted before it was recorded.
- *
- * The first 131 facts were promoted by a migration that had no candidate
- * to hand, so their records carry no `candidateKey` — which would make
- * both the enrich skip and the corpus dedupe blind to exactly the facts
- * they most need to see.
- *
- * Matched on the PASSAGE, not the claim. The passage is copied verbatim
- * from candidate to stored fact and is not touched by enrichment, so an
- * exact match after whitespace normalisation is an identity, not a
- * resemblance. Matching on the claim would be a guess.
- *
- * Never overwrites a key that is already there.
- *
- * @param {{ slug: string, fact: string, passage: string }[]} candidates
- * @param {(candidate: { slug: string, fact: string }) => string} keyOf
- * @returns {Promise<{ matched: string[], unmatched: string[] }>}
- */
-export async function backfillLineage(candidates, keyOf) {
-  const norm = (text) => String(text ?? '').toLowerCase().replace(/\s+/g, ' ').trim();
-
-  /** @type {Map<string, string>} normalised passage -> candidate key */
-  const byPassage = new Map();
-  for (const candidate of candidates) {
-    const key = norm(candidate.passage);
-    if (key.length > 0 && !byPassage.has(key)) byPassage.set(key, keyOf(candidate));
-  }
-
-  const store = await loadFactStore();
-  const matched = [];
-  const unmatched = [];
-
-  for (const [id, entry] of Object.entries(store)) {
-    if (isNonEmptyString(entry.record?.candidateKey)) continue;
-    const passages = (entry.provenance?.sources ?? []).map((s) => norm(s?.passage));
-    const hit = passages.map((p) => byPassage.get(p)).find(isNonEmptyString);
-    if (hit) {
-      entry.record.candidateKey = hit;
-      matched.push(id);
-    } else {
-      unmatched.push(id);
-    }
-  }
-
-  if (matched.length > 0) await saveFactStore(store);
-  return { matched, unmatched };
-}
-
-/**
  * Re-run the verifier over a fact against its own stored passages.
  *
  * Note what this does NOT do: it does not re-fetch the source document.
@@ -409,6 +360,28 @@ export function reverify(entry) {
     const result = factGroundedInPassage(entry.fact.fact, passage);
     if (result.ok) return { ok: true, reason: '' };
     lastReason = (result.reasons ?? []).join(' ');
+  }
+
+  /*
+    Then passages from the same document together.
+
+    A fact about someone who is not a household name may take its
+    introduction from the article's opening and its surprise from a
+    passage further down (leadOf in verify.js, agreed with the owner).
+    Both are stored as passages with the same locator, so they are
+    checked as one here. Passages from DIFFERENT documents are never
+    joined: that would let a claim be assembled from two sources that
+    each say half of it.
+  */
+  const byDocument = new Map();
+  for (const s of sources) {
+    const url = s?.locator?.url;
+    if (!isNonEmptyString(url) || !isNonEmptyString(s?.passage)) continue;
+    byDocument.set(url, [...(byDocument.get(url) ?? []), s.passage]);
+  }
+  for (const group of byDocument.values()) {
+    if (group.length < 2) continue;
+    if (factGroundedInPassage(entry.fact.fact, group.join(' ')).ok) return { ok: true, reason: '' };
   }
 
   return { ok: false, reason: lastReason || 'The claim is not grounded in any stored passage.' };

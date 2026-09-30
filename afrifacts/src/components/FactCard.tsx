@@ -13,6 +13,9 @@ import {
 } from '@/src/theme';
 import { hasImage, type Fact } from '@/src/types';
 
+/** Matches the studio's MAX_FACT_CHARS: the longest fact a photo card holds. */
+const PHOTO_CARD_MAX_CHARS = 200;
+
 /**
  * One fact, filling the feed between the chips and the tab bar.
  *
@@ -46,7 +49,15 @@ export function FactCard({
   const family = familyFor(fact.category);
   const counter = `Fact #${number}`;
 
-  if (hasImage(fact)) {
+  /*
+    The photo card spends most of its height on the photo, so a long fact
+    grows the text panel until the action rail is pushed off the card
+    (seen on a 350-character fact). The studio now refuses facts over 200
+    characters, but data arrives over the network and an old row can
+    still be long, so past this length the card falls back to the
+    typographic layout, which gives the whole card to the text.
+  */
+  if (hasImage(fact) && fact.fact.length <= PHOTO_CARD_MAX_CHARS) {
     const panel = fact.image.panelColor;
     return (
       <Pressable style={[styles.card, { backgroundColor: panel }]} onPress={onAdvance}>

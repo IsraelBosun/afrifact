@@ -55,7 +55,7 @@
 export const EXEMPLARS = [
   {
     n: 1,
-    title: "Lawrence Anini — 'The Law'",
+    title: "Lawrence Anini, 'The Law'",
     text: "Lawrence Anini, a 26-year-old armed robber, terrorised the old Bendel State through the 1980s. His reign of terror became so serious that Nigeria's military government discussed him at its highest security levels.",
     category: 'History',
     works: 'A named person, an age that makes it worse, and an ending that shows the scale.',
@@ -96,7 +96,7 @@ export const EXEMPLARS = [
   {
     n: 6,
     title: 'Hugo Weaving',
-    text: 'Hugo Weaving — Agent Smith in The Matrix, Elrond in The Lord of the Rings — was born in Nigeria, at University College Hospital, Ibadan.',
+    text: 'Hugo Weaving (Agent Smith in The Matrix, Elrond in The Lord of the Rings) was born in Nigeria, at University College Hospital, Ibadan.',
     category: 'Culture',
     works: 'A connection between two known things. Neither half is surprising; the link is.',
     sourcing: 'documented',
@@ -120,7 +120,7 @@ export const EXEMPLARS = [
   {
     n: 9,
     title: 'Emmanuel Nwude',
-    text: 'Emmanuel Nwude sold a Brazilian bank an airport that did not exist, taking $242 million — one of the largest banking frauds in history.',
+    text: 'Emmanuel Nwude sold a Brazilian bank an airport that did not exist, taking $242 million, one of the largest banking frauds in history.',
     category: 'Business',
     works: 'An absurd premise stated flatly. No adjectives needed.',
     sourcing: 'documented',
@@ -152,7 +152,7 @@ export const EXEMPLARS = [
   {
     n: 13,
     title: 'Adebayo Ogunlesi',
-    text: 'Adebayo Ogunlesi, from Sagamu in Ogun State, built the firm that owned Gatwick, London City and Edinburgh airports — then sold it to BlackRock for $12.5 billion.',
+    text: 'Adebayo Ogunlesi, from Sagamu in Ogun State, built the firm that owned Gatwick, London City and Edinburgh airports, then sold it to BlackRock for $12.5 billion.',
     category: 'Business',
     works: 'Named places the reader knows, and a number with real weight.',
     sourcing: 'documented',
@@ -160,7 +160,7 @@ export const EXEMPLARS = [
   {
     n: 14,
     title: 'Eat the King',
-    text: 'In old Oyo, the new Alaafin was said to be served a dish made from the heart of the dead king before taking the throne. The Yoruba phrase "je oba" — eat the king — is said to come from it.',
+    text: 'In old Oyo, the new Alaafin was said to be served a dish made from the heart of the dead king before taking the throne. The Yoruba phrase "je oba" (eat the king) is said to come from it.',
     category: 'Culture',
     works: 'A phrase people still use, with an origin nobody expects.',
     sourcing: 'contested',
@@ -168,7 +168,7 @@ export const EXEMPLARS = [
   {
     n: 15,
     title: 'Olaudah Equiano',
-    text: 'Olaudah Equiano, born in what is now Nigeria, published his autobiography in 1789 — making him arguably the first Nigerian author in print.',
+    text: 'Olaudah Equiano, born in what is now Nigeria, published his autobiography in 1789, making him arguably the first Nigerian author in print.',
     category: 'History',
     works: 'A date far earlier than most readers would guess.',
     sourcing: 'documented',
@@ -200,7 +200,7 @@ export const EXEMPLARS = [
   {
     n: 19,
     title: 'One in Six',
-    text: 'One in every six Africans is Nigerian — out of 54 countries.',
+    text: 'One in every six Africans is Nigerian, out of 54 countries.',
     category: 'Culture',
     works: 'Reframes a known thing (Nigeria is big) into a number that startles.',
     sourcing: 'volatile',

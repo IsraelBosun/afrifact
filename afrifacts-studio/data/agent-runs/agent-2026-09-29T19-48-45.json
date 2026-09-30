@@ -1,0 +1,57 @@
+{
+  "runId": "agent-2026-09-29T19-48-45",
+  "kind": "paste",
+  "status": "done",
+  "brief": "1 pasted fact",
+  "country": "TZ",
+  "target": 1,
+  "createdAt": "2026-09-29T19:48:45.457Z",
+  "stopReason": "1 checked: 0 verified, 1 corrected, 0 not usable.",
+  "docsRead": 4,
+  "webQueriesSpent": 4,
+  "shortlist": [],
+  "alternates": [
+    {
+      "key": "a1",
+      "fact": "Tree-climbing is not typical lion behavior across Africa; the only other population known for it with any regularity lives in Uganda's Ishasha sector of Queen Elizabeth National Park.",
+      "category": "Records",
+      "votes": "3/3",
+      "why": "I've literally seen lions in a tree in Tanzania and never questioned it, so finding out it's basically only us and one spot in Uganda is a proper 'no way' for the group chat.",
+      "title": "Lake Manyara National Park: Tree-Climbing Lions and Flamingos",
+      "url": "https://eastafricagorillasafaris.com/lake-manyara-national-park-tree-climbing-lions-and-flamingos/",
+      "claim": "The tree-climbing lions in Tanzania are the only lions in the world that climb trees.",
+      "candidate": {
+        "fact": "Tree-climbing is not typical lion behavior across Africa; the only other population known for it with any regularity lives in Uganda's Ishasha sector of Queen Elizabeth National Park.",
+        "passage": "Tree-climbing is not typical lion behavior across Africa; the only other population known for it with any regularity lives in Uganda’s Ishasha sector of Queen Elizabeth National Park, and even there the habit is inconsistent.",
+        "category": "Records",
+        "surprise": {
+          "priorProbability": 4,
+          "specificity": 4,
+          "explicability": 4
+        },
+        "reasoning": "Pasted by the owner: \"The tree-climbing lions in Tanzania are the only lions in the world that climb trees.\"",
+        "volatile": false,
+        "slug": "lake-manyara-national-park-eastafricagorillasafaris",
+        "country": "TZ",
+        "source": {
+          "title": "Lake Manyara National Park: Tree-Climbing Lions and Flamingos",
+          "url": "https://eastafricagorillasafaris.com/lake-manyara-national-park-tree-climbing-lions-and-flamingos/",
+          "revisionId": "",
+          "contentHash": "d8b6a12f891b3af9",
+          "kind": "web",
+          "tier": "reference",
+          "fetchedAt": "2026-09-29",
+          "siteName": "East Africa Gorilla Safaris",
+          "doi": "",
+          "publishedAt": "2026-09-21",
+          "wayback": ""
+        }
+      },
+      "aside": "Corrected. You pasted: \"The tree-climbing lions in Tanzania are the only lions in the world that climb trees\". The document says the tree-climbing lions of Lake Manyara are not the only ones in the world: another population in Uganda's Ishasha sector climbs trees with some regularity."
+    }
+  ],
+  "unverified": [],
+  "trace": [],
+  "decidedAt": "2026-09-29T19:50:33.313Z",
+  "developed": []
+}

@@ -267,6 +267,8 @@ a {
 .cat-Business { color: var(--business); }
 .cat-Food { color: var(--food); }
 .cat-Sports { color: var(--sports); }
+.cat-Records { color: var(--records); }
+.cat-Health { color: var(--health); }
 
 /* ---- buttons -------------------------------------------------------- */
 
@@ -367,35 +369,11 @@ select {
   color: var(--warn);
 }
 
-/* ---- pipeline board -------------------------------------------------- */
-
-/* The one button, and what it will do. It leads the page, so the stage
-   cards below it can read as a report rather than a row of choices. */
-.runbar {
-  display: flex;
-  align-items: baseline;
-  gap: 14px;
-  flex-wrap: wrap;
-  margin-bottom: 18px;
-}
-
-.runbar p {
-  flex: 1;
-  min-width: 240px;
-}
+/* ---- stage cards (the agent board) -------------------------------------------------- */
 
 button.big {
   font-size: 14px;
   padding: 10px 20px;
-}
-
-/* What the app is holding. Two stage cards used to say this. */
-.appline {
-  margin-top: 22px;
-  padding-top: 14px;
-  border-top: 1px solid var(--rule);
-  gap: 12px;
-  flex-wrap: wrap;
 }
 
 .board {
@@ -414,15 +392,6 @@ button.big {
   flex-direction: column;
   gap: 8px;
   min-height: 148px;
-}
-
-.stage[data-blocked='true'] {
-  opacity: 0.55;
-}
-
-.stage[data-kind='human'] {
-  border-style: dashed;
-  border-color: var(--rule-firm);
 }
 
 .stage h3 {
@@ -450,13 +419,6 @@ button.big {
   font-size: 12px;
   color: var(--ink-soft);
   flex: 1;
-}
-
-.stage .actions {
-  display: flex;
-  gap: 6px;
-  flex-wrap: wrap;
-  align-items: center;
 }
 
 /* ---- log ------------------------------------------------------------- */
@@ -585,7 +547,7 @@ button.big {
   font-size: 14px;
 }
 
-/* ---- the seed list -------------------------------------------------- */
+/* ---- source fields -------------------------------------------------- */
 
 .sourceFields {
   display: grid;
@@ -597,38 +559,6 @@ button.big {
 .sourceFields input {
   width: 100%;
   margin-top: 4px;
-}
-
-.sourceRow {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-  padding: 14px 18px;
-  margin-bottom: 8px;
-}
-
-/* ---- a stage with nothing left --------------------------------------- */
-
-/* Zero is not a number worth setting in 30px serif. A settled stage says
-   so in words, keeps its totals in small type, and recedes so the one
-   stage that does want something is the thing the eye finds. */
-.stage[data-settled='true'] {
-  opacity: 0.72;
-}
-
-.stage[data-settled='true']:hover {
-  opacity: 1;
-}
-
-.stage .settled {
-  font-size: 13px;
-  color: var(--ink-faint);
-  padding: 6px 0 2px;
-}
-
-.stage .doneLine {
-  margin: -4px 0 0;
 }
 
 /* ---- selecting several rows ------------------------------------------ */
@@ -698,4 +628,286 @@ button.big {
   border: 1px solid var(--rule);
   background: var(--rule);
   flex: 0 0 auto;
+}
+
+/* ---- agent ----------------------------------------------------------- */
+
+.agentBoard .stage {
+  min-height: 0;
+}
+
+.bars {
+  display: grid;
+  gap: 3px;
+}
+
+.bar {
+  display: grid;
+  grid-template-columns: 64px 1fr 26px;
+  align-items: center;
+  gap: 8px;
+}
+
+.bar > span:last-child {
+  text-align: right;
+}
+
+.track {
+  display: block;
+  height: 5px;
+  border-radius: 999px;
+  background: var(--rule);
+  overflow: hidden;
+}
+
+.fill {
+  display: block;
+  height: 100%;
+  border-radius: 999px;
+  background: var(--brand);
+}
+
+.warnText {
+  color: var(--warn);
+  font-weight: 600;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 12px;
+}
+
+button.chip {
+  font-size: 12px;
+  padding: 4px 11px;
+  border-radius: 999px;
+}
+
+.progress .meters {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 16px;
+  margin: 14px 0;
+}
+
+.meter {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.meterValue {
+  font-size: 26px;
+  line-height: 1.1;
+}
+
+.thought {
+  font-family: var(--serif);
+  font-size: 15px;
+  border-left: 2px solid var(--brand);
+  padding: 4px 0 4px 12px;
+  margin: 0 0 14px;
+}
+
+.steps,
+.checklist {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 6px;
+}
+
+.steps li {
+  padding-left: 14px;
+  border-left: 2px solid var(--rule);
+}
+
+.steps li[data-good='true'] {
+  border-left-color: var(--brand);
+}
+
+.checklist {
+  margin-top: 14px;
+}
+
+.checklist li::before {
+  display: inline-block;
+  width: 22px;
+  content: '○';
+  color: var(--ink-faint);
+}
+
+.checklist li[data-state='done']::before {
+  content: '✓';
+  color: var(--ok);
+}
+
+.checklist li[data-state='now'] {
+  font-weight: 600;
+}
+
+.checklist li[data-state='now']::before {
+  content: '●';
+  color: var(--brand);
+}
+
+.checklist li[data-state='todo'] {
+  color: var(--ink-faint);
+}
+
+.pickCard {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.pickCard input[type='checkbox'] {
+  width: 17px;
+  height: 17px;
+  margin-top: 5px;
+  accent-color: var(--brand);
+  cursor: pointer;
+}
+
+.pickCard[data-picked='false'] .factText {
+  color: var(--ink-soft);
+}
+
+.readerWhy {
+  display: block;
+  margin-top: 6px;
+}
+
+.decideBar {
+  position: sticky;
+  bottom: 12px;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding: 12px 16px;
+  margin: 8px 0 24px;
+  border: 1px solid var(--ink-faint);
+  border-radius: 12px;
+  background: var(--card);
+  box-shadow: 0 6px 24px rgb(0 0 0 / 0.08);
+}
+
+.fold > summary {
+  cursor: pointer;
+  list-style: none;
+}
+
+.fold > summary::-webkit-details-marker {
+  display: none;
+}
+
+.pastRun {
+  padding: 12px 16px;
+  margin-bottom: 8px;
+}
+
+.pastRun > summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.foldBody {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--rule);
+}
+
+.miniFact {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px;
+  padding: 8px 0;
+  border-bottom: 1px dashed var(--rule);
+}
+
+.miniFact:last-of-type {
+  border-bottom: 0;
+}
+
+.sectionHead {
+  margin: 28px 0 10px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+.modeTabs {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.modeTabs button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  padding: 10px 16px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.pasteArea {
+  width: 100%;
+  min-height: 220px;
+  resize: vertical;
+  font-family: var(--sans);
+  font-size: 14px;
+  line-height: 1.5;
+  padding: 12px 14px;
+  border: 1px solid var(--rule-firm);
+  border-radius: 10px;
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.composer[data-dragging='true'] {
+  border-color: var(--brand);
+  box-shadow: inset 0 0 0 2px var(--brand);
+}
+
+.imgChip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 8px 3px 3px;
+  border: 1px solid var(--rule-firm);
+  border-radius: 8px;
+  background: var(--paper);
+}
+
+.imgChip img {
+  width: 34px;
+  height: 34px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.imgChip[data-status='failed'] {
+  border-color: var(--error);
+  color: var(--error);
+}
+
+.imgChip[data-status='reading'] img {
+  opacity: 0.5;
 }
