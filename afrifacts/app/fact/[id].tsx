@@ -32,6 +32,7 @@ import {
   showsImage,
   useBrokenImages,
 } from '@/src/data';
+import { factShareMessage } from '@/src/share/message';
 import { useShareCard } from '@/src/share/useShareCard';
 import { familyFor, metrics, radius, spacing, type as typeScale, useTheme } from '@/src/theme';
 
@@ -139,7 +140,7 @@ export default function DeepDiveScreen() {
     const url = fact?.image?.url;
     if (url) await Image.prefetch(url).catch(() => undefined);
     if (!cardReady.current) await prepare();
-    await share({ dialogTitle: 'Share this fact' });
+    await share({ dialogTitle: 'Share this fact', message: factShareMessage() });
   }, [fact?.image?.url, prepare, share]);
 
   if (!fact) {

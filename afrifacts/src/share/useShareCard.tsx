@@ -1,10 +1,12 @@
 import * as Haptics from 'expo-haptics';
 import * as Sharing from 'expo-sharing';
 import { useCallback, useRef, useState, type ReactNode } from 'react';
-import { Platform, StyleSheet, View } from 'react-native';
+import { Platform, Share, StyleSheet, View } from 'react-native';
 import { captureRef, releaseCapture } from 'react-native-view-shot';
 
 import { shareCard } from '@/src/theme';
+
+import { NativeShare } from './native';
 
 /**
  * Renders a share card offscreen, captures it at 1080x1350, and opens the
@@ -87,11 +89,27 @@ export function useShareCard() {
           height: shareCard.height,
         });
 
-        await Sharing.shareAsync(uri, {
-          mimeType: 'image/png',
-          UTI: 'public.png',
-          dialogTitle: dialogTitle ?? message ?? 'Share this fact',
-        });
+        const title = dialogTitle ?? 'Share this fact';
+        if (message && NativeShare) {
+          // Picture and caption together. Only in real builds; see `native.ts`.
+          await NativeShare.open({
+            url: uri,
+            type: 'image/png',
+            message,
+            title,
+            failOnCancel: false,
+          });
+        } else if (message && Platform.OS === 'ios') {
+          // iOS's own sheet takes a file and text together, no library needed.
+          await Share.share({ url: uri, message });
+        } else {
+          // Expo Go on Android: the picture alone, the old behaviour.
+          await Sharing.shareAsync(uri, {
+            mimeType: 'image/png',
+            UTI: 'public.png',
+            dialogTitle: title,
+          });
+        }
       } catch (err) {
         // A cancelled share sheet is a normal outcome, not a failure worth
         // interrupting the user over.

@@ -47,6 +47,7 @@ import {
   setNotificationsEnabled,
   shouldOfferNotifications,
 } from '@/src/notifications';
+import { factShareMessage } from '@/src/share/message';
 import { useShareCard } from '@/src/share/useShareCard';
 import { metrics, spacing, useTheme } from '@/src/theme';
 import type { Fact } from '@/src/types';
@@ -243,7 +244,7 @@ export default function HomeScreen() {
       setShareTarget(fact);
       await ready;
 
-      await share({ dialogTitle: 'Share this fact' });
+      await share({ dialogTitle: 'Share this fact', message: factShareMessage() });
     },
     [share, prepare],
   );
