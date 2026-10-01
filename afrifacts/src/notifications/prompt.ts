@@ -23,7 +23,8 @@
  */
 
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import * as Notifications from 'expo-notifications';
+
+import { Notifications } from './module';
 
 const OPENS_KEY = 'afrifacts.opens.v1';
 
@@ -63,6 +64,8 @@ export async function noteAppOpen(): Promise<void> {
  *  - the counter is unreadable: silence beats guessing
  */
 export async function shouldOfferNotifications(): Promise<boolean> {
+  // A build with no notifications has nothing to offer.
+  if (!Notifications) return false;
   if (opens !== 1 && (opens === 0 || opens % ASK_EVERY !== 0)) return false;
 
   try {

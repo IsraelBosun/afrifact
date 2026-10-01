@@ -8,7 +8,6 @@ import {
   Poppins_700Bold,
 } from '@expo-google-fonts/poppins';
 import { useFonts } from 'expo-font';
-import * as Notifications from 'expo-notifications';
 import {
   DarkTheme,
   DefaultTheme,
@@ -21,12 +20,17 @@ import { StatusBar } from 'expo-status-bar';
 import * as SplashScreen from 'expo-splash-screen';
 import * as SystemUI from 'expo-system-ui';
 import { useCallback, useEffect, useState } from 'react';
-import { Pressable, StyleSheet, Text, View } from 'react-native';
+import { Platform, Pressable, StatusBar as SystemStatusBar, StyleSheet, Text, View } from 'react-native';
 import 'react-native-reanimated';
 
 import { AuthProvider } from '@/src/auth';
 import { getFactPool, loadCorpus, loadProgress, startSync } from '@/src/data';
-import { loadNotificationSetting, noteAppOpen, syncNotifications } from '@/src/notifications';
+import {
+  loadNotificationSetting,
+  noteAppOpen,
+  Notifications,
+  syncNotifications,
+} from '@/src/notifications';
 import { loadQuizLength } from '@/src/quiz/length';
 import {
   AppThemeProvider,
@@ -42,6 +46,21 @@ export const unstable_settings = {
 };
 
 SplashScreen.preventAutoHideAsync();
+
+/*
+  Draw under the status bar on every Android phone.
+
+  The screens are built edge to edge: each one's SafeAreaView paints the
+  strip behind the clock in its own colour. SDK 57 assumes the window
+  already works that way, but Expo Go on some phones still hands over an
+  opaque window, and the strip comes out as a solid black band. Making
+  the bar see-through puts the app back under it. Where the window is
+  already edge to edge this changes nothing.
+*/
+if (Platform.OS === 'android') {
+  SystemStatusBar.setTranslucent(true);
+  SystemStatusBar.setBackgroundColor('transparent');
+}
 
 /** React Navigation's theme, mapped onto our neutrals so the two never disagree. */
 function navTheme(isDark: boolean): Theme {
@@ -209,7 +228,7 @@ function RootLayoutNav() {
     "not available" screen.
   */
   useEffect(() => {
-    if (!corpusLoaded) return;
+    if (!corpusLoaded || !Notifications) return;
     const subscription = Notifications.addNotificationResponseReceivedListener((response) => {
       const factId = response.notification.request.content.data?.factId;
       if (typeof factId === 'string' && factId.length > 0) {

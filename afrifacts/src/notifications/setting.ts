@@ -15,12 +15,12 @@
  */
 
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import * as Notifications from 'expo-notifications';
 import { useSyncExternalStore } from 'react';
 
 import type { Fact } from '@/src/types';
 
 import { cancelDailyFacts, requestPermission, scheduleDailyFacts } from './daily';
+import { Notifications } from './module';
 
 const KEY = 'afrifacts.dailyFacts.v1';
 
@@ -101,7 +101,7 @@ export async function setNotificationsEnabled(next: boolean, pool: Fact[]): Prom
  * was closed — the toggle follows the OS rather than arguing with it.
  */
 export async function syncNotifications(pool: Fact[]): Promise<void> {
-  if (!enabled) return;
+  if (!enabled || !Notifications) return;
 
   const permission = await Notifications.getPermissionsAsync();
   if (!permission.granted) {

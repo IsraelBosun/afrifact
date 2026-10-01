@@ -10,6 +10,7 @@ export {
   scheduleDailyFacts,
   type Booking,
 } from './daily';
+export { Notifications } from './module';
 export { ASK_DELAY_MS, noteAppOpen, shouldOfferNotifications } from './prompt';
 export {
   loadNotificationSetting,

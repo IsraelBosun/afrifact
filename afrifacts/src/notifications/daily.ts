@@ -23,11 +23,12 @@
  * the shoulder.
  */
 
-import * as Notifications from 'expo-notifications';
 import { Platform } from 'react-native';
 
 import { factForDay } from '@/src/data';
 import type { Fact } from '@/src/types';
+
+import { Notifications } from './module';
 
 /** 7am and 6pm, local device time. */
 export const MORNING_HOUR = 7;
@@ -51,7 +52,7 @@ const CHANNEL_ID = 'daily-facts';
  * for the one person who happened to be reading at seven, which looks like
  * the feature failing rather than the feature deciding.
  */
-Notifications.setNotificationHandler({
+Notifications?.setNotificationHandler({
   handleNotification: async () => ({
     shouldShowBanner: true,
     shouldShowList: true,
@@ -70,7 +71,7 @@ Notifications.setNotificationHandler({
  * becomes an annoying one.
  */
 async function ensureChannel(): Promise<void> {
-  if (Platform.OS !== 'android') return;
+  if (Platform.OS !== 'android' || !Notifications) return;
   await Notifications.setNotificationChannelAsync(CHANNEL_ID, {
     name: 'Daily facts',
     importance: Notifications.AndroidImportance.DEFAULT,
@@ -88,6 +89,7 @@ async function ensureChannel(): Promise<void> {
  * precisely that — so the reader asks us, rather than the other way round.
  */
 export async function requestPermission(): Promise<boolean> {
+  if (!Notifications) return false;
   const existing = await Notifications.getPermissionsAsync();
   if (existing.granted) return true;
   // Android gives one prompt and a denial is permanent short of a trip to
@@ -142,6 +144,9 @@ function pickFacts(pool: Fact[], count: number): Fact[] {
  * booked, and the reader would get two facts a slot, then three.
  */
 export async function scheduleDailyFacts(pool: Fact[]): Promise<number> {
+  // Bound locally: the null check does not survive into the callbacks.
+  const api = Notifications;
+  if (!api) return 0;
   /*
     The empty pool is checked BEFORE anything is cancelled.
 
@@ -154,7 +159,7 @@ export async function scheduleDailyFacts(pool: Fact[]): Promise<number> {
   */
   if (pool.length === 0) return scheduledCount();
 
-  await Notifications.cancelAllScheduledNotificationsAsync();
+  await api.cancelAllScheduledNotificationsAsync();
   await ensureChannel();
 
   const slots = upcomingSlots(new Date());
@@ -173,7 +178,7 @@ export async function scheduleDailyFacts(pool: Fact[]): Promise<number> {
         is the second fact of the day, not a competing first.
       */
       const fact = (morning ? factForDay(when, pool) : null) ?? drawn[i];
-      return Notifications.scheduleNotificationAsync({
+      return api.scheduleNotificationAsync({
         content: {
           title: morning ? 'Your fact for today' : 'One for this evening',
           // The whole fact, not a trimmed one. Android collapses it to a
@@ -184,7 +189,7 @@ export async function scheduleDailyFacts(pool: Fact[]): Promise<number> {
           data: { factId: fact.id },
         },
         trigger: {
-          type: Notifications.SchedulableTriggerInputTypes.DATE,
+          type: api.SchedulableTriggerInputTypes.DATE,
           date: when,
           channelId: CHANNEL_ID,
         },
@@ -196,11 +201,12 @@ export async function scheduleDailyFacts(pool: Fact[]): Promise<number> {
 }
 
 export async function cancelDailyFacts(): Promise<void> {
-  await Notifications.cancelAllScheduledNotificationsAsync();
+  await Notifications?.cancelAllScheduledNotificationsAsync();
 }
 
 /** How many are actually booked. Used by Settings to tell the truth. */
 export async function scheduledCount(): Promise<number> {
+  if (!Notifications) return 0;
   const scheduled = await Notifications.getAllScheduledNotificationsAsync();
   return scheduled.length;
 }
@@ -221,6 +227,7 @@ export interface Booking {
  * so Settings asks the system what it is actually holding and says so.
  */
 export async function nextBooking(): Promise<Booking> {
+  if (!Notifications) return { count: 0, next: null };
   const scheduled = await Notifications.getAllScheduledNotificationsAsync();
 
   let soonest: number | null = null;
