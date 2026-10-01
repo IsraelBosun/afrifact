@@ -11,7 +11,8 @@ import {
   spacing,
   type as typeScale,
 } from '@/src/theme';
-import { hasImage, type Fact } from '@/src/types';
+import { imageSource, markImageBroken, showsImage, useBrokenImages } from '@/src/data';
+import type { Fact } from '@/src/types';
 
 /** Matches the studio's MAX_FACT_CHARS: the longest fact a photo card holds. */
 const PHOTO_CARD_MAX_CHARS = 200;
@@ -48,6 +49,9 @@ export function FactCard({
 }) {
   const family = familyFor(fact.category);
   const counter = `Fact #${number}`;
+  // Subscribed so a card already on screen drops to the typographic layout
+  // the moment its picture fails, rather than keeping an empty frame.
+  useBrokenImages();
 
   /*
     The photo card spends most of its height on the photo, so a long fact
@@ -57,17 +61,18 @@ export function FactCard({
     still be long, so past this length the card falls back to the
     typographic layout, which gives the whole card to the text.
   */
-  if (hasImage(fact) && fact.fact.length <= PHOTO_CARD_MAX_CHARS) {
+  if (showsImage(fact) && fact.fact.length <= PHOTO_CARD_MAX_CHARS) {
     const panel = fact.image.panelColor;
     return (
       <Pressable style={[styles.card, { backgroundColor: panel }]} onPress={onAdvance}>
         <View style={styles.photoWrap}>
           {/* Top-anchored: a centre crop was cutting the subject's head off. */}
           <Image
-            source={{ uri: fact.image.url }}
+            source={imageSource(fact.image.url)}
             style={styles.photo}
             contentFit="cover"
             contentPosition="top"
+            onError={() => markImageBroken(fact.image.url)}
           />
           <View style={[styles.categoryPill, styles.pillOnPhoto]}>
             <Text style={[typeScale.eyebrow, { color: family.light }]}>

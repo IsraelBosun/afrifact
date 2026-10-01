@@ -1824,5 +1824,38 @@
     "profile": "article",
     "group": "Chosen by the agent (agent-2026-09-30T07-09-41)",
     "wanted": "Tanzania has the largest wild lion population in the world, with recent estimates and national census data putting the number at approximately 14,500 to 17,000 lions."
+  },
+  {
+    "slug": "ubuntu-philosophy",
+    "title": "Ubuntu philosophy",
+    "country": "ZA",
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Ubuntu_philosophy",
+    "tier": "reference",
+    "profile": "article",
+    "group": "Chosen by the agent (agent-2026-09-30T07-53-26)",
+    "wanted": "Ubuntu means a South African concept in South Africa."
+  },
+  {
+    "slug": "ubuntu",
+    "title": "Ubuntu",
+    "country": "ZA",
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Ubuntu",
+    "tier": "reference",
+    "profile": "article",
+    "group": "Chosen by the agent (agent-2026-09-30T07-53-26)",
+    "wanted": "Ubuntu software was founded by a South African."
+  },
+  {
+    "slug": "african-traditional-religions",
+    "title": "African traditional religions",
+    "country": "ZA",
+    "kind": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/African_traditional_religions",
+    "tier": "reference",
+    "profile": "article",
+    "group": "Chosen by the agent (agent-2026-09-30T07-53-26)",
+    "wanted": "Ubuntu means a South African concept in South Africa."
   }
 ]

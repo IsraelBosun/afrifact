@@ -1,0 +1,97 @@
+{
+  "runId": "agent-2026-09-30T07-53-26",
+  "kind": "paste",
+  "status": "done",
+  "brief": "2 pasted facts",
+  "country": "ZA",
+  "target": 2,
+  "createdAt": "2026-09-30T07:53:26.681Z",
+  "stopReason": "2 checked: 2 verified, 0 corrected, 0 not usable.",
+  "docsRead": 5,
+  "webQueriesSpent": 0,
+  "shortlist": [
+    {
+      "key": "s1",
+      "fact": "The Ubuntu operating system's development was led by Mark Shuttleworth, a South African entrepreneur.",
+      "category": "Business",
+      "votes": "3/3",
+      "why": "I use Ubuntu-adjacent stuff and had no clue a local guy was behind it, that's a proper 'no way' for the group chat.",
+      "title": "Ubuntu philosophy",
+      "url": "https://en.wikipedia.org/wiki/Ubuntu_philosophy",
+      "claim": "Ubuntu software was founded by a South African.",
+      "echoes": "Close to nf_1196 in the app; adds ubuntu, operating, system, development, led.",
+      "candidate": {
+        "fact": "The Ubuntu operating system's development was led by Mark Shuttleworth, a South African entrepreneur.",
+        "passage": "First released in October 2004, a prominent computer software package is named the Ubuntu operating system. Its development was led by Mark Shuttleworth, a South African entrepreneur and owner of the UK-based company Canonical Ltd.",
+        "category": "Business",
+        "surprise": {
+          "priorProbability": 3,
+          "specificity": 4,
+          "explicability": 3
+        },
+        "reasoning": "Pasted by the owner: \"Ubuntu software was founded by a South African.\"",
+        "volatile": false,
+        "slug": "ubuntu-philosophy",
+        "country": "ZA",
+        "source": {
+          "title": "Ubuntu philosophy",
+          "url": "https://en.wikipedia.org/wiki/Ubuntu_philosophy",
+          "revisionId": "1372480064",
+          "contentHash": "50fd4a17652a3a77",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-30",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    },
+    {
+      "key": "s2",
+      "fact": "Ubuntu is an Nguni Bantu term meaning \"humanity\", part of a concept translated as \"I am because we are\".",
+      "category": "Culture",
+      "votes": "0/3",
+      "why": "Everyone here knows ubuntu means humanity and 'I am because we are' — it's on posters, in school, in every corporate workshop, so there's nothing to send.",
+      "title": "African traditional religions",
+      "url": "https://en.wikipedia.org/wiki/African_traditional_religions",
+      "claim": "Ubuntu means a South African concept in South Africa.",
+      "candidate": {
+        "fact": "Ubuntu is an Nguni Bantu term meaning \"humanity\", part of a concept translated as \"I am because we are\".",
+        "passage": "Ubuntu is an Nguni Bantu term meaning \"humanity\". It is part of a concept sometimes translated as \"I am because we are\" (also \"I am because you are\"), or \"humanity towards others\" (in Zulu, umuntu ngumuntu ngabantu).",
+        "category": "Culture",
+        "surprise": {
+          "priorProbability": 3,
+          "specificity": 4,
+          "explicability": 4
+        },
+        "reasoning": "Pasted by the owner: \"Ubuntu means a South African concept in South Africa.\"",
+        "volatile": false,
+        "slug": "african-traditional-religions",
+        "country": "ZA",
+        "source": {
+          "title": "African traditional religions",
+          "url": "https://en.wikipedia.org/wiki/African_traditional_religions",
+          "revisionId": "1374391930",
+          "contentHash": "bfafecc989f364bb",
+          "kind": "wikipedia",
+          "tier": "reference",
+          "fetchedAt": "2026-09-30",
+          "siteName": "",
+          "doi": "",
+          "publishedAt": "",
+          "wayback": ""
+        }
+      }
+    }
+  ],
+  "alternates": [],
+  "unverified": [],
+  "trace": [],
+  "decidedAt": "2026-09-30T07:56:22.720Z",
+  "developed": [
+    "nf_1200",
+    "nf_1201"
+  ]
+}

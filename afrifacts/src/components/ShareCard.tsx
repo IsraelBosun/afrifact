@@ -13,7 +13,8 @@ import {
   spacing,
   type as typeScale,
 } from '@/src/theme';
-import { hasImage, type Fact } from '@/src/types';
+import { imageSource, markImageBroken, showsImage, useBrokenImages } from '@/src/data';
+import type { Fact } from '@/src/types';
 
 /**
  * The exported share image, 1080x1350 (4:5), which displays uncropped on
@@ -45,7 +46,8 @@ export function ShareCard({
   onReady?: () => void;
 }) {
   const family = familyFor(fact.category);
-  const withImage = hasImage(fact);
+  useBrokenImages();
+  const withImage = showsImage(fact);
   const panel = withImage ? fact.image.panelColor : family.dark;
 
   // Photo cards carry white text on the dark panel; typographic cards use
@@ -69,7 +71,7 @@ export function ShareCard({
             // holding the previous fact's decoded bitmap.
             key={fact.image.url}
             recyclingKey={fact.image.url}
-            source={{ uri: fact.image.url }}
+            source={imageSource(fact.image.url)}
             style={styles.photo}
             contentFit="cover"
             // Anchored to the top, matching the in-app card. Commons
@@ -77,9 +79,13 @@ export function ShareCard({
             // top of the frame; a centre crop was cutting the heads off
             // statues and the roofs off buildings.
             contentPosition="top"
-            // Fires on success and on failure alike. A card that cannot
-            // load its photo must still be shareable, not hung.
-            onLoadEnd={onReady}
+            // Ready on success only. A failure marks the picture broken, the
+            // card re-renders as typographic, and the effect above fires
+            // `onReady` for that layout instead, so a card that cannot load
+            // its photo is still shareable rather than hung, and the export
+            // never goes out with an empty frame where the photo was.
+            onLoad={onReady}
+            onError={() => markImageBroken(fact.image.url)}
           />
           <View style={[styles.pill, styles.pillOnPhoto]}>
             <Text style={[typeScale.eyebrow, { color: '#FFFFFF' }]}>

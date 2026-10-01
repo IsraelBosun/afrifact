@@ -16,8 +16,12 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 
 import {
   getSavedFacts,
+  imageSource,
+  markImageBroken,
   refreshCorpus,
+  showsImage,
   toggleSaved,
+  useBrokenImages,
   useCorpusVersion,
   useSavedIds,
 } from '@/src/data';
@@ -30,7 +34,7 @@ import {
   type as typeScale,
   useTheme,
 } from '@/src/theme';
-import { hasImage, type Fact } from '@/src/types';
+import type { Fact } from '@/src/types';
 
 /**
  * Bookmarked facts as a two-column grid of small cards.
@@ -165,17 +169,19 @@ function RemoveButton({ factId, scrim }: { factId: string; scrim: string }) {
 
 function SavedTile({ fact }: { fact: Fact }) {
   const family = familyFor(fact.category);
+  useBrokenImages();
 
-  if (hasImage(fact)) {
+  if (showsImage(fact)) {
     return (
       <Pressable
         onPress={() => router.push({ pathname: '/fact/[id]', params: { id: fact.id } })}
         style={[styles.tile, styles.photoTile, { backgroundColor: fact.image.panelColor }]}>
         <Image
-          source={{ uri: fact.image.url }}
+          source={imageSource(fact.image.url)}
           style={styles.tileImage}
           contentFit="cover"
           contentPosition="top"
+          onError={() => markImageBroken(fact.image.url)}
         />
         <View style={styles.tileOverlay}>
           <Text numberOfLines={4} style={[typeScale.caption, styles.tileText, { color: '#FFFFFF' }]}>
@@ -211,13 +217,19 @@ function SavedTile({ fact }: { fact: Fact }) {
 const styles = StyleSheet.create({
   root: { flex: 1 },
   header: { paddingHorizontal: metrics.screenPadding, paddingBottom: spacing.lg },
+  /*
+    Tighter than the screen's usual margin, on purpose. Two columns of
+    tiles have their width set entirely by the space around them, and at
+    the standard 20 each tile was a little too narrow for its fact. The
+    header keeps the standard margin, so only the tiles reach wider.
+  */
   grid: {
     flexDirection: 'row',
-    gap: spacing.md,
-    paddingHorizontal: metrics.screenPadding,
+    gap: spacing.sm,
+    paddingHorizontal: spacing.md,
     paddingBottom: spacing.xl,
   },
-  column: { flex: 1, gap: spacing.md },
+  column: { flex: 1, gap: spacing.sm },
   tile: {
     borderRadius: radius.tile,
     padding: spacing.lg,

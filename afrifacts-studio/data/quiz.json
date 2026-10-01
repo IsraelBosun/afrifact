@@ -8239,5 +8239,87 @@
       "correctIndex": 2,
       "explanation": "Tanzania hosts around 302 black rhinos, which ranks it fifth in Africa, while it ranks first for both lions and buffalo."
     }
+  ],
+  "nf_1200": [
+    {
+      "id": "q_nf_1200_1",
+      "factId": "nf_1200",
+      "question": "Who led the development of the Ubuntu operating system?",
+      "options": [
+        "A South African entrepreneur",
+        "A Kenyan engineer",
+        "A British programmer",
+        "A Nigerian scientist"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mark Shuttleworth, a South African entrepreneur, led the development of Ubuntu."
+    },
+    {
+      "id": "q_nf_1200_2",
+      "factId": "nf_1200",
+      "question": "When was the Ubuntu operating system first released?",
+      "options": [
+        "October 2004",
+        "January 2000",
+        "June 2008",
+        "March 1999"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Ubuntu operating system was first released in October 2004."
+    },
+    {
+      "id": "q_nf_1200_3",
+      "factId": "nf_1200",
+      "question": "What does the word Ubuntu mean in some Bantu languages?",
+      "options": [
+        "Humanity",
+        "Technology",
+        "Freedom",
+        "Community"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ubuntu means 'humanity' in some Bantu languages such as Zulu and Xhosa."
+    }
+  ],
+  "nf_1201": [
+    {
+      "id": "q_nf_1201_1",
+      "factId": "nf_1201",
+      "question": "Which language family does the term ubuntu come from?",
+      "options": [
+        "Nguni Bantu",
+        "Kushite",
+        "Berber",
+        "Nilotic"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ubuntu is described as an Nguni Bantu term, and the Zulu phrase umuntu ngumuntu ngabantu is given as an example."
+    },
+    {
+      "id": "q_nf_1201_2",
+      "factId": "nf_1201",
+      "question": "In Xhosa, the term related to ubuntu is often meant in a more philosophical sense to describe what?",
+      "options": [
+        "A belief in a universal bond of sharing that connects all humanity",
+        "A system of divination using bones and shells",
+        "The veneration of ancestors through shrine cults",
+        "A supreme creator god who acts through lesser deities"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source states that in Xhosa the term is often meant in a more philosophical sense to mean a belief in a universal bond of sharing that connects all humanity."
+    },
+    {
+      "id": "q_nf_1201_3",
+      "factId": "nf_1201",
+      "question": "According to the wider material, virtue in traditional African religion is often connected with what?",
+      "options": [
+        "Carrying out communal obligations",
+        "Mastering the casting of divination objects",
+        "Reciting scriptural texts",
+        "Living apart from one's family lineage"
+      ],
+      "correctIndex": 0,
+      "explanation": "The source says virtue in traditional African religion is often connected with carrying out communal obligations, such as respect for parents and elders and offering hospitality."
+    }
   ]
 }

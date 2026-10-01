@@ -1495,79 +1495,6 @@
       ]
     }
   },
-  "nf_1014": {
-    "fact": {
-      "id": "nf_1014",
-      "country": "NG",
-      "category": "Culture",
-      "fact": "The name 'Afrobeats' was coined by London-based DJ Abrantee, adding an 's' to Afrobeat to package the sound for British dancefloors.",
-      "deepDive": {
-        "body": [
-          "In April 2011, DJ Abrantee launched a new radio show on Choice FM in London, dedicated to the sound coming out of West Africa. He needed a name for it. Taking the existing genre name 'Afrobeat' — coined decades earlier by Fela Kuti — he added an 's' and called it 'Afrobeats'.",
-          "The name was a practical move. It packaged a diverse range of contemporary West African pop music — from hiplife to azonto to Naija beats — into a single label that British listeners could easily grasp. Abrantee himself was careful to credit Fela Kuti with inventing the original Afrobeat sound, saying, 'I cannot say I invented Afrobeats. Afrobeats was invented before I was born.'",
-          "The term caught on. It gave a name to a movement that was already growing, and it helped the music find its way onto British dancefloors and radio playlists. Today, 'Afrobeats' is used worldwide to describe a genre that has become one of Africa's biggest cultural exports."
-        ],
-        "whyItMatters": "The name 'Afrobeats' is so familiar now that it's easy to forget it was a deliberate choice made by one DJ in London. That single letter 's' turned a specific genre into an umbrella term for an entire continent's pop music — and shaped how the world hears it.",
-        "readTime": 2,
-        "suggestedQuestion": "How is Afrobeats different from Afrobeat?"
-      },
-      "source": {
-        "name": "Afrobeats",
-        "url": "https://en.wikipedia.org/wiki/Afrobeats",
-        "verified": true
-      },
-      "image": null,
-      "factNumber": 1014,
-      "relatedIds": []
-    },
-    "provenance": {
-      "factId": "nf_1014",
-      "origin": "pipeline",
-      "sources": [
-        {
-          "citation": "\"Afrobeats\", Wikipedia, revision 1370911181 (retrieved 2026-08-30). https://en.wikipedia.org/wiki/Afrobeats",
-          "shortName": "Afrobeats",
-          "tier": "reference",
-          "locator": {
-            "url": "https://en.wikipedia.org/wiki/Afrobeats",
-            "archiveRef": "enwiki-revision-1370911181"
-          },
-          "passage": "London-based DJ Abrantee was credited by The Guardian for coining the name \"Afrobeats\", adding an \"s\" to Afrobeat, in order to package and present the sound to British dancefloors."
-        }
-      ],
-      "surprise": {
-        "priorProbability": 4,
-        "specificity": 5,
-        "explicability": 4
-      },
-      "review": {
-        "status": "draft",
-        "reviewer": "",
-        "reviewedAt": "2026-08-31",
-        "notes": "Enriched by the pipeline. Not yet read by a human."
-      },
-      "decay": {
-        "kind": "permanent"
-      },
-      "createdAt": "2026-08-31"
-    },
-    "record": {
-      "createdAt": "2026-09-02T16:58:12.702Z",
-      "updatedAt": "2026-09-04T21:44:09.830Z",
-      "updatedBy": "Israel",
-      "revision": 1,
-      "queued": true,
-      "candidateKey": "afrobeats::The name 'Afrobeats' was coined by London-based DJ Abrantee,",
-      "history": [
-        {
-          "at": "2026-09-04T21:44:09.830Z",
-          "by": "Israel",
-          "what": "queued",
-          "note": "could be misinterpreted"
-        }
-      ]
-    }
-  },
   "nf_1015": {
     "fact": {
       "id": "nf_1015",
@@ -10887,10 +10814,10 @@
     },
     "record": {
       "createdAt": "2026-09-28T18:39:06.833Z",
-      "updatedAt": "2026-09-28T18:54:54.354Z",
-      "updatedBy": "Israel",
+      "updatedAt": "2026-10-01T13:39:33.701Z",
+      "updatedBy": "Zod",
       "revision": 1,
-      "queued": true,
+      "queued": false,
       "candidateKey": "aliko-dangote::Aliko Dangote's maternal great-grandfather, Alhassan Abdulla",
       "history": [
         {
@@ -10898,6 +10825,11 @@
           "by": "Israel",
           "what": "queued",
           "note": "Held for variety: same family as nf_1161, kept in the agent reserve."
+        },
+        {
+          "at": "2026-10-01T13:39:33.701Z",
+          "by": "Zod",
+          "what": "released"
         }
       ]
     }
@@ -11002,80 +10934,6 @@
       ]
     }
   },
-  "nf_1162": {
-    "fact": {
-      "id": "nf_1162",
-      "country": "NG",
-      "category": "Business",
-      "fact": "In 1929, when the Bank of British West Africa opened a branch in Kano, Alhassan Dantata deposited twenty camel-loads of silver coins, becoming the first Kano businessman to use a bank.",
-      "deepDive": {
-        "body": [
-          "Alhassan Dantata was born in 1877 in Bebeji, in the Kano Emirate, to parents who were prosperous caravan leaders. His early life was unsettled: after his father's death he lost much of his inheritance, and as a teenager he lived as an almajiri in Accra, begging for food while he studied. He was in Bebeji when the Kano Civil War broke out in 1893, and he was captured and sold into slavery before eventually regaining his freedom.",
-          "He rebuilt his fortune through trade. He carried kolanuts to Lagos and sold them to traders bound for Kano, and by 1918 he had built a large network of agents buying groundnuts for the Niger Company. His frugality and modest lifestyle let him accumulate capital quickly, and by 1922 he was one of the wealthiest men in Kano. From 1926 he used the new railway to expand his cattle trade with Lagos.",
-          "So when the Bank of British West Africa opened a branch in Kano in 1929, Dantata had both the means and the reason to use it. He deposited twenty camel-loads of silver coins, becoming the first Kano businessman to use a bank. The bank itself was new to the city; his deposit announced that a merchant of his scale was willing to trust it.",
-          "He kept using banks only when his transactions required it, and he scarcely kept records. After his death in 1955, his only safe held a checkbook for each of the two Kano banks, with balances totaling less than £30. Estimates of his wealth, identified with his family's help, came to more than a third of a million pounds, mostly in cash."
-        ],
-        "whyItMatters": "Dantata's deposit shows how a caravan trader who had once been enslaved became the kind of merchant a new colonial bank needed to win over. The camel-loads of silver were not just a personal milestone; they marked the moment Kano's long-distance trade began moving through formal banking. His descendants, including Aliko Dangote, carried that commercial position into later generations.",
-        "readTime": 2,
-        "suggestedQuestion": "How much was twenty camel-loads of silver coins worth?"
-      },
-      "source": {
-        "name": "Alhassan Dantata",
-        "url": "https://en.wikipedia.org/wiki/Alhassan_Dantata",
-        "verified": true
-      },
-      "image": null,
-      "factNumber": 1162,
-      "relatedIds": []
-    },
-    "provenance": {
-      "factId": "nf_1162",
-      "origin": "pipeline",
-      "sources": [
-        {
-          "citation": "\"Alhassan Dantata\", Wikipedia, revision 1360639764 (retrieved 2026-09-28). https://en.wikipedia.org/wiki/Alhassan_Dantata",
-          "shortName": "Alhassan Dantata",
-          "tier": "reference",
-          "locator": {
-            "url": "https://en.wikipedia.org/wiki/Alhassan_Dantata",
-            "archiveRef": "enwiki-revision-1360639764"
-          },
-          "passage": "In 1929, when the Bank of British West Africa opened a branch in Kano, he famously deposited twenty camel-loads of silver coins, becoming the first Kano businessman to use a bank."
-        }
-      ],
-      "surprise": {
-        "priorProbability": 5,
-        "specificity": 5,
-        "explicability": 4
-      },
-      "review": {
-        "status": "draft",
-        "reviewer": "",
-        "reviewedAt": "2026-09-28",
-        "notes": "Enriched by the pipeline. Not yet read by a human."
-      },
-      "decay": {
-        "kind": "permanent"
-      },
-      "createdAt": "2026-09-28"
-    },
-    "record": {
-      "createdAt": "2026-09-28T18:39:06.833Z",
-      "updatedAt": "2026-09-28T18:54:54.408Z",
-      "updatedBy": "Israel",
-      "revision": 1,
-      "queued": true,
-      "candidateKey": "alhassan-dantata::In 1929, when the Bank of British West Africa opened a branc",
-      "history": [
-        {
-          "at": "2026-09-28T18:54:54.408Z",
-          "by": "Israel",
-          "what": "queued",
-          "note": "Held for variety: same family as nf_1161, kept in the agent reserve."
-        }
-      ]
-    }
-  },
   "nf_1163": {
     "fact": {
       "id": "nf_1163",
@@ -11143,159 +11001,6 @@
       "history": [
         {
           "at": "2026-09-28T18:54:54.425Z",
-          "by": "Israel",
-          "what": "queued",
-          "note": "Held for variety: same family as nf_1161, kept in the agent reserve."
-        }
-      ]
-    }
-  },
-  "nf_1164": {
-    "fact": {
-      "id": "nf_1164",
-      "country": "NG",
-      "category": "History",
-      "fact": "Dantata pressured his sons Aminu and Mahmudu to quit the socialist NEPU opposition for the NPC, saying his father would not take it kindly to see his son fighting the system.",
-      "deepDive": {
-        "body": [
-          "Alhassan Dantata built his fortune in Kano through groundnut and kolanut trade, becoming one of the wealthiest men in West Africa by the 1920s. In 1950, the Emir of Kano appointed him to the Kano Emirate Council to represent the merchant class, making him the only Hausa member in a historically Fulani-dominated body.",
-          "His household, however, was not politically uniform. Two of his sons, Aminu and Mahmudu, joined the Northern Elements Progressive Union, the socialist opposition party that was the NPC's biggest rival in the North. Dantata, whose family were among the most active supporters of the NPC, pressured them to switch parties. According to Aminu, his father said: \"My father would not take it kindly to see his son fighting the system.\"",
-          "The pressure worked. Aminu joined the NPC and was elected to the Northern House of Assembly. Mahmud followed later in the 1960s and was elected to the Federal Parliament in 1964, defeating NEPU's leader Aminu Kano. Ahmadu, Dantata's oldest son and an NPC member, had already defeated Aminu Kano in the 1956 election for the Northern House of Assembly."
-        ],
-        "whyItMatters": "The Dantata family's switch from NEPU to the NPC shows how merchant wealth and emirate power shaped northern Nigerian politics in the 1950s. The same family that produced Africa's richest man today, Aliko Dangote, was already using its influence to decide which party its sons would fight for.",
-        "readTime": 2,
-        "suggestedQuestion": "Did Aminu Kano ever beat a Dantata?"
-      },
-      "source": {
-        "name": "Alhassan Dantata",
-        "url": "https://en.wikipedia.org/wiki/Alhassan_Dantata",
-        "verified": true
-      },
-      "image": null,
-      "factNumber": 1164,
-      "relatedIds": []
-    },
-    "provenance": {
-      "factId": "nf_1164",
-      "origin": "pipeline",
-      "sources": [
-        {
-          "citation": "\"Alhassan Dantata\", Wikipedia, revision 1360639764 (retrieved 2026-09-28). https://en.wikipedia.org/wiki/Alhassan_Dantata",
-          "shortName": "Alhassan Dantata",
-          "tier": "reference",
-          "locator": {
-            "url": "https://en.wikipedia.org/wiki/Alhassan_Dantata",
-            "archiveRef": "enwiki-revision-1360639764"
-          },
-          "passage": "However, Dantata's two sons, Aminu and Mahmudu, were known members of the Northern Elements Progressive Union (NEPU), a socialist party that was the NPC's biggest opposition in the North. Dantata pressured his sons to join the NPC instead, as, according to Aminu, \"My father would not take it kindly to see his son fighting the system.\""
-        }
-      ],
-      "surprise": {
-        "priorProbability": 5,
-        "specificity": 5,
-        "explicability": 4
-      },
-      "review": {
-        "status": "approved",
-        "reviewer": "pipeline",
-        "reviewedAt": "2026-09-28",
-        "notes": "Approved on arrival from the pipeline."
-      },
-      "decay": {
-        "kind": "permanent"
-      },
-      "createdAt": "2026-09-28"
-    },
-    "record": {
-      "createdAt": "2026-09-28T18:39:06.833Z",
-      "updatedAt": "2026-09-28T20:41:36.157Z",
-      "updatedBy": "pipeline",
-      "revision": 2,
-      "queued": true,
-      "candidateKey": "alhassan-dantata::Alhassan Dantata's two sons, Aminu and Mahmudu, were members",
-      "history": [
-        {
-          "at": "2026-09-28T18:54:54.442Z",
-          "by": "Israel",
-          "what": "queued",
-          "note": "Held for variety: same family as nf_1161, kept in the agent reserve."
-        },
-        {
-          "at": "2026-09-28T20:41:36.157Z",
-          "by": "pipeline",
-          "what": "fact",
-          "reason": "Shortened from 226 to 174 characters to fit the card."
-        }
-      ]
-    }
-  },
-  "nf_1165": {
-    "fact": {
-      "id": "nf_1165",
-      "country": "NG",
-      "category": "Culture",
-      "fact": "In 1927, Alhassan Dantata sponsored 16 people for the pilgrimage to Mecca, including the Mallam he had lived under as an almajiri in Accra in the early 1890s.",
-      "deepDive": {
-        "body": [
-          "Alhassan Dantata's connection to Accra began with his mother. After his father died, she moved to the British Gold Coast's main trading centre, leaving her children in the care of an old slave woman named Tata — the woman whose name gave him the nickname 'ɗan Tata', meaning 'Tata's son'.",
-          "At about fifteen, Dantata travelled with a Gonja-bound caravan to Accra, hoping to live off his mother's wealth. She had other plans. A day after he arrived, she took him to a Mallam and told him to stay until he was ready to return to Kano. There he lived as an almajiri, begging for food to sustain himself and his teacher, and working Thursdays and Fridays for money, a large share of which went to the Mallam.",
-          "Decades later, Dantata had become one of the wealthiest men in West Africa, the Niger Company's largest groundnut supplier and, by 1922, one of the richest men in Kano. In 1927 he sponsored sixteen people for the pilgrimage to Mecca. One of the sixteen was the Mallam he had lived under as a boy in Accra.",
-          "The practice did not end with him. Dantata kept financing pilgrimages throughout his life and urged his children to do the same. His son Aminu, his grandchildren including Mariya Sanusi Dantata, and his great-grandchildren including Aliko Dangote have continued to fund other Muslims' journeys to Mecca every year."
-        ],
-        "whyItMatters": "The boy who begged for food to keep himself and his teacher alive grew into the man who paid for that same teacher's pilgrimage. It is a rare documented case of a patron's giving tracing back to a specific personal debt, and it became a family habit: the Dantata descendants still finance pilgrimages today.",
-        "readTime": 2,
-        "suggestedQuestion": "How did Dantata end up in Accra as a boy?"
-      },
-      "source": {
-        "name": "Alhassan Dantata",
-        "url": "https://en.wikipedia.org/wiki/Alhassan_Dantata",
-        "verified": true
-      },
-      "image": null,
-      "factNumber": 1165,
-      "relatedIds": []
-    },
-    "provenance": {
-      "factId": "nf_1165",
-      "origin": "pipeline",
-      "sources": [
-        {
-          "citation": "\"Alhassan Dantata\", Wikipedia, revision 1360639764 (retrieved 2026-09-28). https://en.wikipedia.org/wiki/Alhassan_Dantata",
-          "shortName": "Alhassan Dantata",
-          "tier": "reference",
-          "locator": {
-            "url": "https://en.wikipedia.org/wiki/Alhassan_Dantata",
-            "archiveRef": "enwiki-revision-1360639764"
-          },
-          "passage": "In 1927, he sponsored 16 persons for pilgrimage to Mecca, including his Mallam from when he lived as an almajiri in Accra in the early 1890s."
-        }
-      ],
-      "surprise": {
-        "priorProbability": 5,
-        "specificity": 5,
-        "explicability": 4
-      },
-      "review": {
-        "status": "draft",
-        "reviewer": "",
-        "reviewedAt": "2026-09-28",
-        "notes": "Enriched by the pipeline. Not yet read by a human."
-      },
-      "decay": {
-        "kind": "permanent"
-      },
-      "createdAt": "2026-09-28"
-    },
-    "record": {
-      "createdAt": "2026-09-28T18:39:06.833Z",
-      "updatedAt": "2026-09-28T18:54:54.461Z",
-      "updatedBy": "Israel",
-      "revision": 1,
-      "queued": true,
-      "candidateKey": "alhassan-dantata::In 1927, Alhassan Dantata sponsored 16 people for the pilgri",
-      "history": [
-        {
-          "at": "2026-09-28T18:54:54.461Z",
           "by": "Israel",
           "what": "queued",
           "note": "Held for variety: same family as nf_1161, kept in the agent reserve."
@@ -14379,6 +14084,198 @@
           "at": "2026-09-30T07:16:40.545Z",
           "by": "Israel",
           "what": "fact, deepDive"
+        }
+      ]
+    }
+  },
+  "nf_1200": {
+    "fact": {
+      "id": "nf_1200",
+      "country": "ZA",
+      "category": "Business",
+      "fact": "Ubuntu operating system was founded in 2004 by South African entrepreneur Mark Shuttleworth.",
+      "deepDive": {
+        "body": [
+          "In October 2004, a new computer operating system called Ubuntu was released. Its development was led by Mark Shuttleworth, a South African entrepreneur who owns the UK-based company Canonical Ltd.",
+          "The name was not chosen at random. Ubuntu is a Bantu philosophy that emphasises the interconnectedness of people, often summed up as \"I am because we are\". By naming the software after this concept, Shuttleworth connected a global technology project to a long-standing African idea about community and shared humanity.",
+          "The operating system went on to become widely used around the world, and the name introduced many outside Africa to the word ubuntu. The philosophy itself has a much deeper history, appearing in South African written sources as early as the mid-19th century and later shaping political transitions in Zimbabwe and South Africa."
+        ],
+        "whyItMatters": "The name Ubuntu carried a specific African philosophy into living rooms and offices far beyond the continent. Every time someone installs or updates the software, they are repeating a word that, in several Bantu languages, means humanity.",
+        "readTime": 1,
+        "suggestedQuestion": "Why did Mark Shuttleworth name it Ubuntu?",
+        "furtherReading": [
+          {
+            "title": "Ubuntu",
+            "url": "https://en.wikipedia.org/wiki/Ubuntu",
+            "site": "Wikipedia",
+            "summary": "Ubuntu ( uu-BUUN-too) is a Linux distribution based on Debian and composed primarily of free and open-source software."
+          },
+          {
+            "title": "Mogobe Ramose",
+            "url": "https://en.wikipedia.org/wiki/Mogobe_Ramose",
+            "site": "Wikipedia",
+            "summary": "Mogobe Bernard Ramose is a South African philosopher, one of the key thinkers to have popularised African philosophy, and specifically Ubuntu philosophy, internationally."
+          },
+          {
+            "title": "Ubuntu theology",
+            "url": "https://en.wikipedia.org/wiki/Ubuntu_theology",
+            "site": "Wikipedia",
+            "summary": "Ubuntu theology is a Southern African Christian perception of the African Ubuntu philosophy which recognizes the humanity of a person through a person's relationship with other persons."
+          }
+        ]
+      },
+      "source": {
+        "name": "Ubuntu philosophy",
+        "url": "https://en.wikipedia.org/wiki/Ubuntu_philosophy",
+        "verified": true
+      },
+      "image": null,
+      "factNumber": 1200,
+      "relatedIds": []
+    },
+    "provenance": {
+      "factId": "nf_1200",
+      "origin": "pipeline",
+      "sources": [
+        {
+          "citation": "\"Ubuntu philosophy\", Wikipedia, revision 1372480064 (retrieved 2026-09-30). https://en.wikipedia.org/wiki/Ubuntu_philosophy",
+          "shortName": "Ubuntu philosophy",
+          "tier": "reference",
+          "locator": {
+            "url": "https://en.wikipedia.org/wiki/Ubuntu_philosophy",
+            "archiveRef": "enwiki-revision-1372480064"
+          },
+          "passage": "First released in October 2004, a prominent computer software package is named the Ubuntu operating system. Its development was led by Mark Shuttleworth, a South African entrepreneur and owner of the UK-based company Canonical Ltd."
+        }
+      ],
+      "surprise": {
+        "priorProbability": 3,
+        "specificity": 4,
+        "explicability": 3
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "Israel",
+        "reviewedAt": "2026-09-30",
+        "notes": "Approved on arrival from the pipeline."
+      },
+      "decay": {
+        "kind": "permanent"
+      },
+      "createdAt": "2026-09-30"
+    },
+    "record": {
+      "createdAt": "2026-09-30T07:56:30.094Z",
+      "updatedAt": "2026-09-30T08:00:04.379Z",
+      "updatedBy": "Israel",
+      "revision": 3,
+      "queued": false,
+      "candidateKey": "ubuntu-philosophy::The Ubuntu operating system's development was led by Mark Sh",
+      "history": [
+        {
+          "at": "2026-09-30T07:57:33.718Z",
+          "by": "pipeline",
+          "what": "deepDive",
+          "reason": "Further reading added."
+        },
+        {
+          "at": "2026-09-30T08:00:04.379Z",
+          "by": "Israel",
+          "what": "fact"
+        }
+      ]
+    }
+  },
+  "nf_1201": {
+    "fact": {
+      "id": "nf_1201",
+      "country": "ZA",
+      "category": "Culture",
+      "fact": "Ubuntu is an Nguni Bantu term meaning \"humanity\", part of a concept translated as \"I am because we are\".",
+      "deepDive": {
+        "body": [
+          "The word ubuntu comes from the Nguni Bantu languages of southern Africa. It means \"humanity\", but it carries more than a dictionary definition. The concept behind it is often rendered in English as \"I am because we are\", or \"I am because you are\".",
+          "In Zulu the idea appears in the phrase umuntu ngumuntu ngabantu, which points to \"humanity towards others\". In Xhosa the same kind of term is used, often with a more philosophical weight: a belief in a universal bond of sharing that connects all humanity.",
+          "Across different ethnic groups the details of these values and practices vary. What they share is a single direction: an authentic human being is understood as part of a larger relational, communal, societal, environmental and spiritual world.",
+          "That framing sits inside a wider pattern in traditional African religions, where the community, the family and the environment all play a role in a person's life. Virtue itself is often tied to carrying out communal obligations, such as respecting parents and elders, raising children well, offering hospitality, and being honest, trustworthy and courageous."
+        ],
+        "whyItMatters": "Ubuntu is often quoted as a proverb, but it belongs to a set of values that treat personhood as something built through relationships rather than held alone. In the wider context of traditional African religions, that same emphasis shows up in how virtue is defined: not as private belief, but as carrying out obligations to family, elders and community.",
+        "readTime": 1,
+        "suggestedQuestion": "How does ubuntu relate to other African ideas about community?",
+        "furtherReading": [
+          {
+            "title": "Ubuntu philosophy",
+            "url": "https://en.wikipedia.org/wiki/Ubuntu_philosophy",
+            "site": "Wikipedia",
+            "summary": "Ubuntu (Zulu pronunciation: [ùɓúntʼù]; meaning 'humanity' in some Bantu languages, such as Zulu and Xhosa) describes a set of closely related Bantu African-origin value systems that emphasize the interconnectedness of individuals with their"
+          },
+          {
+            "title": "Zulu traditional religion",
+            "url": "https://en.wikipedia.org/wiki/Zulu_traditional_religion",
+            "site": "Wikipedia",
+            "summary": "Zulu traditional religion consists of the beliefs and spiritual practices of the Zulu people of southern Africa."
+          },
+          {
+            "title": "African philosophy",
+            "url": "https://en.wikipedia.org/wiki/African_philosophy",
+            "site": "Wikipedia",
+            "summary": "African philosophy is the philosophical discourse produced using indigenous African thought systems."
+          }
+        ]
+      },
+      "source": {
+        "name": "African traditional religions",
+        "url": "https://en.wikipedia.org/wiki/African_traditional_religions",
+        "verified": true
+      },
+      "image": null,
+      "factNumber": 1201,
+      "relatedIds": []
+    },
+    "provenance": {
+      "factId": "nf_1201",
+      "origin": "pipeline",
+      "sources": [
+        {
+          "citation": "\"African traditional religions\", Wikipedia, revision 1374391930 (retrieved 2026-09-30). https://en.wikipedia.org/wiki/African_traditional_religions",
+          "shortName": "African traditional religions",
+          "tier": "reference",
+          "locator": {
+            "url": "https://en.wikipedia.org/wiki/African_traditional_religions",
+            "archiveRef": "enwiki-revision-1374391930"
+          },
+          "passage": "Ubuntu is an Nguni Bantu term meaning \"humanity\". It is part of a concept sometimes translated as \"I am because we are\" (also \"I am because you are\"), or \"humanity towards others\" (in Zulu, umuntu ngumuntu ngabantu)."
+        }
+      ],
+      "surprise": {
+        "priorProbability": 3,
+        "specificity": 4,
+        "explicability": 4
+      },
+      "review": {
+        "status": "draft",
+        "reviewer": "",
+        "reviewedAt": "2026-09-30",
+        "notes": "Enriched by the pipeline. Not yet read by a human."
+      },
+      "decay": {
+        "kind": "permanent"
+      },
+      "createdAt": "2026-09-30"
+    },
+    "record": {
+      "createdAt": "2026-09-30T07:56:30.094Z",
+      "updatedAt": "2026-09-30T07:57:39.220Z",
+      "updatedBy": "pipeline",
+      "revision": 2,
+      "queued": false,
+      "candidateKey": "african-traditional-religions::Ubuntu is an Nguni Bantu term meaning \"humanity\", part of a ",
+      "history": [
+        {
+          "at": "2026-09-30T07:57:39.220Z",
+          "by": "pipeline",
+          "what": "deepDive",
+          "reason": "Further reading added."
         }
       ]
     }

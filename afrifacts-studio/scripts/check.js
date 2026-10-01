@@ -1,5 +1,7 @@
 /**
  * `npm run check`
+ * `npm run check -- --links`  also fetches every accepted picture as a
+ *                             phone would, and warns on the ones that fail
  *
  * Prints what the standard says about the corpus and exits non-zero if
  * anything has an error, so this can gate a publish step without change.
@@ -12,7 +14,7 @@
 
 import { runCheck } from '../lib/check.js';
 
-const result = await runCheck();
+const result = await runCheck({ links: process.argv.includes('--links') });
 
 console.log(`\n  Corpus: ${result.total} fact${result.total === 1 ? '' : 's'}`);
 console.log(`  Publishable: ${result.publishable}`);

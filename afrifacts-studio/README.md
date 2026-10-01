@@ -6,10 +6,11 @@ The studio turns source documents into approved facts. The app reads them. The t
 
 ## What it does
 
-Eight stages, each runnable alone and each stoppable mid-run:
+The agent does most of the work now; the stages underneath it are each runnable alone and each stoppable mid-run:
 
 | Stage | Command | What it does |
 |---|---|---|
+| Agent | `/agent` or `npm run agent` | Researches a country, or checks facts you paste (text or screenshots), and shortlists the ones the judge rates strong |
 | Sources | — | A hand-picked seed list. Never automated; see below. |
 | Fetch | `npm run fetch` | Pulls article text into `_cache/`, keyed by revision |
 | Extract | `npm run extract` | Asks the model for facts with verbatim passages, then verifies them |
@@ -17,7 +18,7 @@ Eight stages, each runnable alone and each stoppable mid-run:
 | Quizzes | `npm run quizzes` | Quiz questions for facts that have none |
 | Images | `npm run images` | Harvests licence-clean images from the fact's own article |
 | Review | `npm run dev` | A human approves every fact |
-| Export | `npm run export` | Writes the approved corpus into the app |
+| Push | `npm run push` | Sends the corpus to Supabase, where the app reads it |
 
 `npm run check` validates the whole corpus and exits non-zero on any error.
 
@@ -44,15 +45,17 @@ These are the reason the project exists in this shape rather than as a prompt an
 Measured on real runs, not assumed:
 
 - **A good extractor.** Given a document and examples, it finds genuinely surprising material.
-- **A bad judge.** It rates almost everything 4–5 on "would an educated Nigerian already know this", including page furniture. It scores *obscure* when the question is *surprising*. Its scores are shown in the triage UI as a hint and never as a gate.
+- **A bad judge on its own.** Asked alone, it rates almost everything 4 to 5 on "would an educated reader already know this", including page furniture. It scores *obscure* when the question is *surprising*. The judge in `lib/judge/` is a three-reader panel calibrated on the owner's own labels instead, and that is what the agent trusts.
 - **Examples beat instructions.** Prose describing "make it interesting" failed twice. A file of 22 hand-written exemplars injected into the extraction prompt changed the output on the next run.
 
-Expect roughly three keepers per document, and let a person do the filtering.
+Expect roughly three keepers per document.
 
 ## Layout
 
 ```
-app/            Next.js routes: the board, review, sources, triage, and the API
+app/            Next.js routes: the board, agent, sources, rejects, review, and the API
+lib/agent/      the agent: research runs, pasted facts, delivery
+lib/judge/      the interestingness panel
 lib/pipeline/   the stages
 lib/llm/        the only files that know which model provider is in use
 lib/studio/     durable stores — facts, reviews, images, quiz

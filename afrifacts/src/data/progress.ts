@@ -19,8 +19,9 @@
  * The date arithmetic lives in `streak.ts`, which is pure and testable;
  * this file is the state and the storage.
  *
- * This is phase 1 storage. It moves to Supabase when accounts exist, and
- * the shape here is what that table has to carry.
+ * The phone stays the source of truth. A signed-in reader's progress is
+ * backed up to their account by `sync.ts`, which merges into this record
+ * rather than replacing it, so nothing here waits on a network.
  */
 
 import AsyncStorage from '@react-native-async-storage/async-storage';
@@ -168,6 +169,46 @@ export function recordQuizRun(correct: number, questionIds: string[]): void {
     quizCorrect: state.quizCorrect + correct,
     answeredQuestions: [...state.answeredQuestions, ...fresh],
   });
+
+  for (const listener of runListeners) listener(correct, questionIds.length);
+}
+
+/*
+  Finished runs, for whoever needs them one at a time.
+
+  The record above only keeps totals, and totals cannot be merged across
+  two phones: each would overwrite the other. The account keeps a log of
+  runs instead, so `sync.ts` listens here and queues each one. A listener
+  rather than an import because sync already imports this file.
+*/
+type RunListener = (correct: number, total: number) => void;
+const runListeners = new Set<RunListener>();
+
+export function onQuizRun(listener: RunListener): () => void {
+  runListeners.add(listener);
+  return () => runListeners.delete(listener);
+}
+
+/**
+ * What an account holds, laid over what the phone holds.
+ *
+ * Only `sync.ts` calls this, with values it has already merged. The quiz
+ * record of which questions were asked stays as it is: it is how this
+ * phone deals the next run, not part of anybody's history.
+ */
+export function adoptAccountProgress(
+  merged: Pick<Progress, 'joinedAt' | 'seen' | 'days' | 'quizAnswered' | 'quizCorrect' | 'name'>,
+): void {
+  commit({ ...state, ...merged });
+}
+
+/**
+ * Hand the phone back empty. Called on sign-out, after the account has
+ * everything, so the next person to pick up the phone does not inherit a
+ * stranger's streak.
+ */
+export function resetProgress(): void {
+  commit(empty());
 }
 
 /** Has this question been put to the reader before? */

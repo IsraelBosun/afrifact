@@ -22,10 +22,19 @@ import { FurtherReading } from '@/src/components/FurtherReading';
 import { SourceLink } from '@/src/components/SourceLink';
 import { VerifiedLine } from '@/src/components/VerifiedLine';
 import { RelatedFacts } from '@/src/components/RelatedFacts';
-import { getFactById, getFactNumber, getRelatedFacts, noteFactSeen } from '@/src/data';
+import {
+  getFactById,
+  getFactNumber,
+  getRelatedFacts,
+  imageSource,
+  markImageBroken,
+  noteFactSeen,
+  showsImage,
+  useBrokenImages,
+} from '@/src/data';
 import { useShareCard } from '@/src/share/useShareCard';
 import { familyFor, metrics, radius, spacing, type as typeScale, useTheme } from '@/src/theme';
-import { hasImage } from '@/src/types';
+
 
 /** The hero image, and the distance the header bar floats over before it lands. */
 const HERO_HEIGHT = 200;
@@ -42,6 +51,8 @@ export default function DeepDiveScreen() {
   const { colors, isDark } = useTheme();
   const insets = useSafeAreaInsets();
   const [question, setQuestion] = useState('');
+  // A hero whose picture fails falls back to the category colour block.
+  useBrokenImages();
 
   /*
     Whether the hero has left the top of the screen.
@@ -142,7 +153,8 @@ export default function DeepDiveScreen() {
   }
 
   const family = familyFor(fact.category);
-  const panelColor = hasImage(fact) ? fact.image.panelColor : family.dark;
+  const withImage = showsImage(fact);
+  const panelColor = withImage ? fact.image.panelColor : family.dark;
 
   return (
     <View style={[styles.root, { backgroundColor: colors.surface }]}>
@@ -155,14 +167,15 @@ export default function DeepDiveScreen() {
         scrollEventThrottle={16}
         onScroll={onScroll}>
         {/* Hero: the image when there is one, otherwise the category colour block. */}
-        <View style={[styles.hero, { backgroundColor: hasImage(fact) ? panelColor : family.mid }]}>
-          {hasImage(fact) && (
+        <View style={[styles.hero, { backgroundColor: withImage ? panelColor : family.mid }]}>
+          {withImage && (
             <>
               <Image
-                source={{ uri: fact.image.url }}
+                source={imageSource(fact.image.url)}
                 style={styles.heroImage}
                 contentFit="cover"
                 contentPosition="top"
+                onError={() => markImageBroken(fact.image.url)}
               />
               {/* A photo credit never leaves the image. It is a licence requirement. */}
               <View style={styles.credit}>

@@ -58,6 +58,7 @@ import {
 import { matchFacts, type SearchHit } from './search';
 
 export { isSaved, toggleSaved, useSavedIds } from './bookmarks';
+export { imageSource, markImageBroken, showsImage, useBrokenImages } from './brokenImages';
 export { getCountry, setCountry, useCountry } from './country';
 export { flagFor, nameFor } from './countries';
 export { dealPosition, setDealPosition, useDeal } from './deal';
@@ -69,6 +70,7 @@ export {
   setDisplayName,
   useProgress,
 } from './progress';
+export { startSync } from './sync';
 export type { RelatedFact } from './related';
 export type { SearchHit } from './search';
 
@@ -608,7 +610,9 @@ export function getUserStats(): UserStats {
   return {
     dayStreak: streakOf(days),
     factsLearned: record.seen.length,
-    savedCount: savedIds().length,
+    // Counted the way the Saved tab shows them, so the two always agree:
+    // a save of a fact the studio has since withdrawn is in neither.
+    savedCount: getSavedFacts().length,
     quizAccuracy: accuracyOf(record),
     quizAnswered: record.quizAnswered,
     week: weekOf(days),

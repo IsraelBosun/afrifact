@@ -36,6 +36,7 @@
 import { loadCorpus } from '../../corpus/index.js';
 import { MODELS, completeJson, loadPrompt } from '../llm/index.js';
 import { FOUND_KEY, loadImages, loadPool, rememberFound, saveImages, savePool } from '../studio/images.js';
+import { checkImageUrl } from './image-reachable.js';
 import { hasSearchKey, searchImages } from './image-search.js';
 
 /** Wikipedia asks for a real User-Agent that identifies the caller. */
@@ -767,9 +768,25 @@ export async function runImages(options = {}, onProgress) {
           const result = await searchImages(query, { want: 12 });
           if (!result.cached) webSearches += 1;
           const refused = refusedFor(decisions[factId]);
-          const pick = result.candidates.find(
-            (c) => (used.get(c.file) ?? 0) < MAX_USES_PER_IMAGE && !refused.includes(c.file),
-          );
+          /*
+            The top result is accepted without a person, so it is asked
+            for the way a phone asks first. A host that refuses it (a 403,
+            or a login page where the picture should be) would ship a
+            photo card that every phone draws as text. No answer at all is
+            not a refusal: from a managed network that is often the proxy,
+            and dropping those would throw away good pictures.
+          */
+          let pick = null;
+          for (const c of result.candidates) {
+            if ((used.get(c.file) ?? 0) >= MAX_USES_PER_IMAGE || refused.includes(c.file)) continue;
+            const { verdict, detail } = await checkImageUrl(c.url);
+            if (verdict === 'refused') {
+              say(`  · ${factId}  skipped ${new URL(c.url).hostname}, it refuses phones (${detail})`);
+              continue;
+            }
+            pick = c;
+            break;
+          }
           if (!pick) {
             say(`  · ${factId}  nothing usable for "${query}"`);
             continue;

@@ -541,11 +541,11 @@
   },
   "nf_1041": {
     "status": "accepted",
-    "file": "web:61c0b9c189ff",
-    "reasoning": "Top web image result for \"Burna Boy Shakira Estadio Azteca\". Licence not checked.",
-    "decidedBy": "pipeline",
-    "decidedAt": "2026-09-05",
-    "at": "2026-09-05T08:52:34.869Z",
+    "file": "web:0ec2a2e9c98b",
+    "reasoning": "Replaced a Facebook/Instagram link that phones cannot load. Checked the picture shows the subject and loads for the app.",
+    "decidedBy": "Claude (for Israel)",
+    "decidedAt": "2026-10-01",
+    "at": "2026-10-01T10:16:11.526Z",
     "refused": []
   },
   "nf_1042": {
@@ -622,11 +622,11 @@
   },
   "nf_1108": {
     "status": "accepted",
-    "file": "web:e80f0e697ac1",
-    "reasoning": "Top web image result for \"Port Harcourt World Book Capital\". Licence not checked.",
-    "decidedBy": "pipeline",
-    "decidedAt": "2026-09-05",
-    "at": "2026-09-05T08:54:50.790Z",
+    "file": "web:328ab8b2bda0",
+    "reasoning": "Replaced a Facebook/Instagram link that phones cannot load. Checked the picture shows the subject and loads for the app.",
+    "decidedBy": "Claude (for Israel)",
+    "decidedAt": "2026-10-01",
+    "at": "2026-10-01T10:16:11.689Z",
     "refused": []
   },
   "nf_1109": {
@@ -676,12 +676,14 @@
   },
   "nf_1115": {
     "status": "accepted",
-    "file": "web:2738da867cd4",
-    "reasoning": "Top web image result for \"Sokoto Caliphate\". Licence not checked.",
+    "file": "web:26a5ab2dfa7c",
+    "reasoning": "Top web image result for \"Sokoto Nigeria city\". Licence not checked.",
     "decidedBy": "pipeline",
-    "decidedAt": "2026-09-05",
-    "at": "2026-09-05T08:55:01.682Z",
-    "refused": []
+    "decidedAt": "2026-10-01",
+    "at": "2026-10-01T13:24:56.232Z",
+    "refused": [
+      "web:2738da867cd4"
+    ]
   },
   "nf_1121": {
     "status": "accepted",
@@ -719,15 +721,6 @@
     "at": "",
     "refused": []
   },
-  "nf_1014": {
-    "status": "accepted",
-    "file": "web:ebe5bd4535df",
-    "reasoning": "Found by searching 'dj abrantee afrobeats'.",
-    "decidedBy": "Israel",
-    "decidedAt": "2026-09-03",
-    "at": "",
-    "refused": []
-  },
   "nf_1016": {
     "status": "accepted",
     "file": "web:01037442bde1",
@@ -748,12 +741,14 @@
   },
   "nf_1021": {
     "status": "accepted",
-    "file": "web:a1de6df3e65d",
-    "reasoning": "The image is a wanted poster or photo of Lawrence Anini, the subject of the fact.",
-    "decidedBy": "pipeline",
-    "decidedAt": "2026-09-04",
-    "at": "",
-    "refused": []
+    "file": "web:8dba9074d833",
+    "reasoning": "Found by web search.",
+    "decidedBy": "Zod",
+    "decidedAt": "2026-10-01",
+    "at": "2026-10-01T13:33:56.508Z",
+    "refused": [
+      "web:a1de6df3e65d"
+    ]
   },
   "nf_1053": {
     "status": "accepted",
@@ -793,12 +788,14 @@
   },
   "nf_1150": {
     "status": "accepted",
-    "file": "web:73b3c7d9b92a",
-    "reasoning": "Found by web search.",
-    "decidedBy": "Israel",
-    "decidedAt": "2026-09-05",
-    "at": "2026-09-05T11:11:15.849Z",
-    "refused": []
+    "file": "web:d0873226086b",
+    "reasoning": "Top web image result for \"Yemi Osinbajo vice president\". Licence not checked.",
+    "decidedBy": "pipeline",
+    "decidedAt": "2026-10-01",
+    "at": "2026-10-01T13:25:09.706Z",
+    "refused": [
+      "web:73b3c7d9b92a"
+    ]
   },
   "nf_1151": {
     "status": "accepted",
@@ -829,11 +826,11 @@
   },
   "nf_1030": {
     "status": "accepted",
-    "file": "web:74eaf86d71c4",
-    "reasoning": "Top web image result for \"Bar Beach Lagos execution 1976\". Licence not checked.",
-    "decidedBy": "pipeline",
-    "decidedAt": "2026-09-05",
-    "at": "2026-09-05T08:52:04.862Z",
+    "file": "web:6e6f79c648e5",
+    "reasoning": "Replaced a Facebook/Instagram link that phones cannot load. Checked the picture shows the subject and loads for the app.",
+    "decidedBy": "Claude (for Israel)",
+    "decidedAt": "2026-10-01",
+    "at": "2026-10-01T10:16:12.169Z",
     "refused": []
   },
   "nf_1031": {
@@ -847,12 +844,14 @@
   },
   "nf_1077": {
     "status": "accepted",
-    "file": "web:33e985ccf75a",
-    "reasoning": "Top web image result for \"Seun Osewa Nairaland founder\". Licence not checked.",
-    "decidedBy": "pipeline",
-    "decidedAt": "2026-09-05",
-    "at": "2026-09-05T08:53:31.179Z",
-    "refused": []
+    "file": "web:8b96e8d7648c",
+    "reasoning": "Found by web search.",
+    "decidedBy": "Zod",
+    "decidedAt": "2026-10-01",
+    "at": "2026-10-01T13:33:36.663Z",
+    "refused": [
+      "web:33e985ccf75a"
+    ]
   },
   "nf_1078": {
     "status": "accepted",
@@ -892,30 +891,34 @@
   },
   "nf_1087": {
     "status": "accepted",
-    "file": "web:9c8e45598306",
-    "reasoning": "Top web image result for \"Sunusi Shehu Tauraruwa Magazine\". Licence not checked.",
-    "decidedBy": "pipeline",
-    "decidedAt": "2026-09-05",
-    "at": "2026-09-05T08:54:10.875Z",
+    "file": "web:5095d3b5e70f",
+    "reasoning": "Replaced a Facebook/Instagram link that phones cannot load. Checked the picture shows the subject and loads for the app.",
+    "decidedBy": "Claude (for Israel)",
+    "decidedAt": "2026-10-01",
+    "at": "2026-10-01T10:16:11.599Z",
     "refused": []
   },
   "nf_1099": {
-    "status": "accepted",
-    "file": "web:87333ee15d05",
-    "reasoning": "Top web image result for \"Emmanuel Nwude\". Licence not checked.",
-    "decidedBy": "pipeline",
-    "decidedAt": "2026-09-05",
-    "at": "2026-09-05T08:54:41.347Z",
-    "refused": []
+    "status": "rejected",
+    "file": "",
+    "reasoning": "Removed a Facebook/Instagram link that phones cannot load. Only options were blurry, captioned or watermarked.",
+    "decidedBy": "Claude (for Israel)",
+    "decidedAt": "2026-10-01",
+    "at": "2026-10-01T10:16:12.379Z",
+    "refused": [
+      "web:87333ee15d05"
+    ]
   },
   "nf_1132": {
     "status": "accepted",
-    "file": "web:1b202846eb84",
-    "reasoning": "Top web image result for \"Northern Nigeria slavery\". Licence not checked.",
+    "file": "web:8714327d527f",
+    "reasoning": "Top web image result for \"Northern Nigeria colonial map\". Licence not checked.",
     "decidedBy": "pipeline",
-    "decidedAt": "2026-09-05",
-    "at": "2026-09-05T08:56:01.789Z",
-    "refused": []
+    "decidedAt": "2026-10-01",
+    "at": "2026-10-01T13:25:00.004Z",
+    "refused": [
+      "web:1b202846eb84"
+    ]
   },
   "nf_1133": {
     "status": "accepted",
@@ -973,20 +976,22 @@
   },
   "nf_1154": {
     "status": "accepted",
-    "file": "web:8e63ef4cd0ba",
-    "reasoning": "Top web image result for \"Laolu Akande George W. Bush interview\". Licence not checked.",
+    "file": "web:5f7d4a27ab73",
+    "reasoning": "Top web image result for \"Laolu Akande journalist\". Licence not checked.",
     "decidedBy": "pipeline",
-    "decidedAt": "2026-09-05",
-    "at": "2026-09-05T09:33:01.060Z",
-    "refused": []
+    "decidedAt": "2026-10-01",
+    "at": "2026-10-01T13:25:13.499Z",
+    "refused": [
+      "web:8e63ef4cd0ba"
+    ]
   },
   "nf_1159": {
     "status": "accepted",
-    "file": "web:ae2076817763",
-    "reasoning": "Top web image result for \"Yemi Osinbajo no wedding ring\". Licence not checked.",
-    "decidedBy": "pipeline",
-    "decidedAt": "2026-09-05",
-    "at": "2026-09-05T10:30:24.852Z",
+    "file": "web:15512feac52f",
+    "reasoning": "Found by web search.",
+    "decidedBy": "Zod",
+    "decidedAt": "2026-10-01",
+    "at": "2026-10-01T13:15:56.726Z",
     "refused": []
   },
   "nf_0105": {
@@ -1189,11 +1194,11 @@
   },
   "nf_1171": {
     "status": "accepted",
-    "file": "web:65ab59be0608",
-    "reasoning": "Top web image result for \"Michael Ibru Nigeria industrialist\". Licence not checked.",
-    "decidedBy": "pipeline",
-    "decidedAt": "2026-09-29",
-    "at": "2026-09-29T05:45:05.225Z",
+    "file": "web:4494fd840926",
+    "reasoning": "Replaced a Facebook/Instagram link that phones cannot load. Checked the picture shows the subject and loads for the app.",
+    "decidedBy": "Claude (for Israel)",
+    "decidedAt": "2026-10-01",
+    "at": "2026-10-01T10:16:11.846Z",
     "refused": []
   },
   "nf_1173": {
@@ -1225,11 +1230,11 @@
   },
   "nf_1175": {
     "status": "accepted",
-    "file": "web:0cb117004d44",
-    "reasoning": "Top web image result for \"Chicken Republic Apapa Lagos\". Licence not checked.",
-    "decidedBy": "pipeline",
-    "decidedAt": "2026-09-29",
-    "at": "2026-09-29T05:56:36.578Z",
+    "file": "web:6b79879eecba",
+    "reasoning": "Replaced a Facebook/Instagram link that phones cannot load. Checked the picture shows the subject and loads for the app.",
+    "decidedBy": "Claude (for Israel)",
+    "decidedAt": "2026-10-01",
+    "at": "2026-10-01T10:16:11.928Z",
     "refused": []
   },
   "nf_1177": {
@@ -1270,20 +1275,20 @@
   },
   "nf_1182": {
     "status": "accepted",
-    "file": "web:839adbed1533",
-    "reasoning": "Top web image result for \"Massimo Moratti Inter Milan\". Licence not checked.",
-    "decidedBy": "pipeline",
-    "decidedAt": "2026-09-29",
-    "at": "2026-09-29T18:49:15.788Z",
+    "file": "web:c4733fa3d763",
+    "reasoning": "Replaced a Facebook/Instagram link that phones cannot load. Checked the picture shows the subject and loads for the app.",
+    "decidedBy": "Claude (for Israel)",
+    "decidedAt": "2026-10-01",
+    "at": "2026-10-01T10:16:12.244Z",
     "refused": []
   },
   "nf_1183": {
     "status": "accepted",
-    "file": "web:467efdb757b5",
-    "reasoning": "Top web image result for \"Freddie Mercury Zanzibar house\". Licence not checked.",
-    "decidedBy": "pipeline",
-    "decidedAt": "2026-09-29",
-    "at": "2026-09-29T19:02:40.417Z",
+    "file": "web:54b30256ab5e",
+    "reasoning": "Replaced a Facebook/Instagram link that phones cannot load. Checked the picture shows the subject and loads for the app.",
+    "decidedBy": "Claude (for Israel)",
+    "decidedAt": "2026-10-01",
+    "at": "2026-10-01T10:16:12.004Z",
     "refused": []
   },
   "nf_1184": {
@@ -1297,11 +1302,11 @@
   },
   "nf_1185": {
     "status": "accepted",
-    "file": "web:8ae1d2a76c8e",
-    "reasoning": "The image depicts Leslie Scott, the inventor of Jenga named in the fact.",
-    "decidedBy": "pipeline",
-    "decidedAt": "2026-09-29",
-    "at": "2026-09-29T19:13:59.644Z",
+    "file": "web:7254df62e457",
+    "reasoning": "Replaced a Facebook/Instagram link that phones cannot load. Checked the picture shows the subject and loads for the app.",
+    "decidedBy": "Claude (for Israel)",
+    "decidedAt": "2026-10-01",
+    "at": "2026-10-01T10:16:12.095Z",
     "refused": []
   },
   "nf_1186": {
@@ -1421,6 +1426,51 @@
     "decidedBy": "pipeline",
     "decidedAt": "2026-09-30",
     "at": "2026-09-30T07:11:47.212Z",
+    "refused": []
+  },
+  "nf_1200": {
+    "status": "accepted",
+    "file": "web:594e34fd1322",
+    "reasoning": "Top web image result for \"Mark Shuttleworth South African entrepreneur\". Licence not checked.",
+    "decidedBy": "pipeline",
+    "decidedAt": "2026-09-30",
+    "at": "2026-09-30T07:57:20.058Z",
+    "refused": []
+  },
+  "nf_1201": {
+    "status": "accepted",
+    "file": "web:3e2c65749cd8",
+    "reasoning": "Replaced a Facebook/Instagram link that phones cannot load. Checked the picture shows the subject and loads for the app.",
+    "decidedBy": "Claude (for Israel)",
+    "decidedAt": "2026-10-01",
+    "at": "2026-10-01T10:16:12.305Z",
+    "refused": []
+  },
+  "nf_1170": {
+    "status": "accepted",
+    "file": "web:56920bf5199d",
+    "reasoning": "Top web image result for \"awara tofu Yoruba food\". Licence not checked.",
+    "decidedBy": "pipeline",
+    "decidedAt": "2026-10-01",
+    "at": "2026-10-01T13:25:22.197Z",
+    "refused": []
+  },
+  "nf_1180": {
+    "status": "accepted",
+    "file": "web:a6d2061099e3",
+    "reasoning": "Top web image result for \"Galactica Star yacht\". Licence not checked.",
+    "decidedBy": "pipeline",
+    "decidedAt": "2026-10-01",
+    "at": "2026-10-01T13:25:34.973Z",
+    "refused": []
+  },
+  "nf_1160": {
+    "status": "accepted",
+    "file": "web:d7bbac1dce9f",
+    "reasoning": "Found by web search.",
+    "decidedBy": "Zod",
+    "decidedAt": "2026-10-01",
+    "at": "2026-10-01T13:38:56.273Z",
     "refused": []
   }
 }

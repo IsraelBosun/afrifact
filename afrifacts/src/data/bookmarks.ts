@@ -93,6 +93,18 @@ export function savedIds(): readonly string[] {
   return snapshot;
 }
 
+/**
+ * Replace the whole list. Newest first, as everywhere else.
+ *
+ * Only `sync.ts` calls this: after merging the account's saves with the
+ * phone's, and with an empty list when someone signs out. Duplicates are
+ * dropped here so a merge that got one wrong cannot show a fact twice.
+ */
+export function replaceSaved(ids: readonly string[]): void {
+  order = [...new Set(ids)];
+  commit();
+}
+
 function subscribe(listener: () => void): () => void {
   listeners.add(listener);
   return () => listeners.delete(listener);

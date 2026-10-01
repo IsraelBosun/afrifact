@@ -4,6 +4,7 @@ import { router } from 'expo-router';
 import * as WebBrowser from 'expo-web-browser';
 import { useCallback, useEffect, useState } from 'react';
 import {
+  Alert,
   Linking,
   Platform,
   Pressable,
@@ -15,6 +16,7 @@ import {
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
+import { useAuth } from '@/src/auth';
 import { getFactPool } from '@/src/data';
 import {
   EVENING_HOUR,
@@ -36,7 +38,7 @@ import {
 } from '@/src/theme';
 
 /**
- * Settings. Appearance, and for now nothing else.
+ * Settings. The account, appearance and daily facts.
  *
  * Deliberately its own screen rather than a block on the profile: the
  * profile is a record of what someone has done — streak, facts, accuracy —
@@ -158,6 +160,8 @@ export default function SettingsScreen() {
       </View>
 
       <ScrollView contentContainerStyle={styles.scroll} showsVerticalScrollIndicator={false}>
+        <AccountSection />
+
         <View style={styles.section}>
           <Text style={[typeScale.eyebrow, { color: colors.textMuted }]}>APPEARANCE</Text>
 
@@ -312,6 +316,102 @@ export default function SettingsScreen() {
         </View>
       </ScrollView>
     </SafeAreaView>
+  );
+}
+
+/**
+ * Signed out: one row that opens the account screen. Signed in: who, and
+ * the way out.
+ *
+ * Hidden entirely in a build with no Supabase configured, rather than
+ * shown and broken.
+ */
+function AccountSection() {
+  const { colors } = useTheme();
+  const auth = useAuth();
+
+  if (!auth.available || auth.loading) return null;
+
+  function confirmSignOut() {
+    Alert.alert(
+      'Sign out?',
+      'Your progress stays in your account. This phone starts fresh until you log in again.',
+      [
+        { text: 'Cancel', style: 'cancel' },
+        { text: 'Sign out', style: 'destructive', onPress: () => void signOut(false) },
+      ],
+    );
+  }
+
+  async function signOut(force: boolean) {
+    const result = await auth.signOut(force);
+    if (result.error === undefined || force) return;
+    // Signing out wipes the phone, so an unsent run would be lost for
+    // good. Say so, and let the reader decide.
+    Alert.alert('Not backed up yet', result.error, [
+      { text: 'Stay signed in', style: 'cancel' },
+      { text: 'Sign out anyway', style: 'destructive', onPress: () => void signOut(true) },
+    ]);
+  }
+
+  return (
+    <View style={styles.section}>
+      <Text style={[typeScale.eyebrow, { color: colors.textMuted }]}>ACCOUNT</Text>
+
+      {auth.signedIn ? (
+        <>
+          <View style={[styles.row, { backgroundColor: colors.surface, borderColor: colors.border }]}>
+            <Ionicons name="person-circle-outline" size={19} color={colors.textMuted} />
+            <View style={styles.rowText}>
+              <Text style={[typeScale.option, { color: colors.text }]} numberOfLines={1}>
+                {auth.email ?? 'Signed in'}
+              </Text>
+              <Text style={[typeScale.caption, { color: colors.textMuted }]}>
+                Your progress is backed up
+              </Text>
+            </View>
+          </View>
+          <Pressable
+            onPress={confirmSignOut}
+            disabled={auth.busy}
+            accessibilityRole="button"
+            style={({ pressed }) => [
+              styles.row,
+              {
+                backgroundColor: colors.surface,
+                borderColor: colors.border,
+                opacity: auth.busy ? 0.5 : pressed ? 0.75 : 1,
+              },
+            ]}>
+            <Ionicons name="log-out-outline" size={19} color={colors.textMuted} />
+            <View style={styles.rowText}>
+              <Text style={[typeScale.option, { color: colors.text }]}>Sign out</Text>
+            </View>
+          </Pressable>
+        </>
+      ) : (
+        <Pressable
+          onPress={() => router.push('/auth/sign-in')}
+          accessibilityRole="button"
+          style={({ pressed }) => [
+            styles.row,
+            {
+              backgroundColor: colors.surface,
+              borderColor: colors.border,
+              opacity: pressed ? 0.75 : 1,
+            },
+          ]}>
+          <Ionicons name="cloud-upload-outline" size={19} color={colors.textMuted} />
+          <View style={styles.rowText}>
+            <Text style={[typeScale.option, { color: colors.text }]}>Save your progress</Text>
+            <Text style={[typeScale.caption, { color: colors.textMuted }]}>
+              Log in or create an account to keep your streak on any phone
+            </Text>
+          </View>
+          <Ionicons name="chevron-forward" size={16} color={colors.textFaint} />
+        </Pressable>
+      )}
+    </View>
   );
 }
 

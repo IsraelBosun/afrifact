@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
+import { useAuth } from '@/src/auth';
 import {
   getUserProfile,
   getUserStats,
@@ -14,6 +15,7 @@ import {
 } from '@/src/data';
 import {
   amber,
+  brandGreen,
   categoryColors,
   metrics,
   radius,
@@ -23,6 +25,13 @@ import {
 } from '@/src/theme';
 
 const DAY_LABELS = ['M', 'T', 'W', 'T', 'F', 'S', 'S'];
+
+/*
+  Facts read before the account card appears. Offering an account on a
+  blank first launch asks a stranger to sign up for nothing; offering it
+  once there is a streak to lose is a real offer.
+*/
+const OFFER_AFTER_FACTS = 5;
 
 function joinedLabel(iso: string): string {
   if (iso.length === 0) return '';
@@ -44,12 +53,14 @@ export default function ProfileScreen() {
     last time it happened to remount.
   */
   useSavedIds();
-  useProgress();
+  const record = useProgress();
+  const auth = useAuth();
   const profile = getUserProfile();
   const stats = getUserStats();
 
-  // There is no account to take a name from, so the profile asks instead
-  // of inventing one. Tapping the name (or the prompt) opens the field.
+  // The profile asks for a name rather than inventing one, signed in or
+  // not. Tapping the name (or the prompt) opens the field; a signed-in
+  // name travels with the account.
   const [editing, setEditing] = useState(false);
   const [draft, setDraft] = useState('');
 
@@ -66,6 +77,8 @@ export default function ProfileScreen() {
   const named = profile.name.length > 0;
   const initials = named ? profile.name.slice(0, 2).toUpperCase() : '';
   const joined = joinedLabel(profile.joinedAt);
+  const offerAccount =
+    auth.available && !auth.loading && !auth.signedIn && record.seen.length >= OFFER_AFTER_FACTS;
 
   return (
     <SafeAreaView style={[styles.root, { backgroundColor: colors.background }]} edges={['top']}>
@@ -182,6 +195,27 @@ export default function ProfileScreen() {
           </View>
         </View>
 
+        {offerAccount && (
+          <Pressable
+            onPress={() => router.push('/auth/sign-in')}
+            accessibilityRole="button"
+            style={({ pressed }) => [
+              styles.save,
+              { borderColor: colors.border, opacity: pressed ? 0.8 : 1 },
+            ]}>
+            <View style={[styles.saveIcon, { backgroundColor: categoryColors.Culture.light }]}>
+              <Ionicons name="cloud-upload-outline" size={18} color={categoryColors.Culture.dark} />
+            </View>
+            <View style={styles.identityText}>
+              <Text style={[typeScale.option, { color: colors.text }]}>Save your progress</Text>
+              <Text style={[typeScale.caption, { color: colors.textMuted }]}>
+                Keep your streak and saves if you change phones
+              </Text>
+            </View>
+            <Ionicons name="chevron-forward" size={16} color={brandGreen} />
+          </Pressable>
+        )}
+
         {/* An invitation, never a wall or an interruption. */}
         <View style={[styles.premium, { backgroundColor: categoryColors.Business.dark }]}>
           <Text style={[typeScale.screenTitle, { color: '#FFFFFF' }]}>AfriFacts Premium</Text>
@@ -238,6 +272,15 @@ const styles = StyleSheet.create({
   weekRow: { flexDirection: 'row', justifyContent: 'space-between' },
   day: { alignItems: 'center', gap: spacing.xs },
   dayDot: { width: 36, height: 36, borderRadius: 18, alignItems: 'center', justifyContent: 'center' },
+  save: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.md,
+    borderWidth: 1,
+    borderRadius: radius.tile,
+    padding: spacing.lg,
+  },
+  saveIcon: { width: 36, height: 36, borderRadius: 18, alignItems: 'center', justifyContent: 'center' },
   premium: { borderRadius: radius.card, padding: spacing.xl, gap: spacing.md },
   premiumBtn: {
     alignSelf: 'flex-start',

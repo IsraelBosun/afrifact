@@ -64,12 +64,6 @@
     "reviewedAt": "2026-09-01",
     "notes": "Bulk approved without individual review."
   },
-  "nf_1014": {
-    "status": "approved",
-    "reviewer": "Israel Bosun",
-    "reviewedAt": "2026-09-01",
-    "notes": "Bulk approved without individual review."
-  },
   "nf_1015": {
     "status": "approved",
     "reviewer": "Israel Bosun",
@@ -359,10 +353,9 @@
     "notes": "Bulk approved without individual review."
   },
   "nf_1076": {
-    "status": "draft",
-    "reviewer": "",
-    "reviewedAt": "",
-    "notes": "Approval cleared on 2026-09-05: the edited fact no longer stands up. Fact states '2016', which the passage does not."
+    "status": "approved",
+    "reviewer": "Zod",
+    "reviewedAt": "2026-10-01"
   },
   "nf_1077": {
     "status": "approved",
@@ -762,25 +755,7 @@
     "reviewedAt": "2026-09-28",
     "notes": "Approved on arrival from the pipeline."
   },
-  "nf_1162": {
-    "status": "approved",
-    "reviewer": "agent",
-    "reviewedAt": "2026-09-28",
-    "notes": "Approved on arrival from the pipeline."
-  },
   "nf_1163": {
-    "status": "approved",
-    "reviewer": "agent",
-    "reviewedAt": "2026-09-28",
-    "notes": "Approved on arrival from the pipeline."
-  },
-  "nf_1164": {
-    "status": "approved",
-    "reviewer": "pipeline",
-    "reviewedAt": "2026-09-28",
-    "notes": "Approved on arrival from the pipeline."
-  },
-  "nf_1165": {
     "status": "approved",
     "reviewer": "agent",
     "reviewedAt": "2026-09-28",
@@ -981,6 +956,18 @@
   "nf_1199": {
     "status": "approved",
     "reviewer": "Israel",
+    "reviewedAt": "2026-09-30",
+    "notes": "Approved on arrival from the pipeline."
+  },
+  "nf_1200": {
+    "status": "approved",
+    "reviewer": "Israel",
+    "reviewedAt": "2026-09-30",
+    "notes": "Approved on arrival from the pipeline."
+  },
+  "nf_1201": {
+    "status": "approved",
+    "reviewer": "agent",
     "reviewedAt": "2026-09-30",
     "notes": "Approved on arrival from the pipeline."
   }

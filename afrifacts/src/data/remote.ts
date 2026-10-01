@@ -1,11 +1,12 @@
 /**
  * The database, over plain HTTP.
  *
- * No `@supabase/supabase-js`. The client library exists to wrap auth,
- * realtime and storage, and this app uses none of them — it reads two
- * tables. It would also drag in URL and stream polyfills that React
- * Native does not ship, to save writing the fetch below. The studio
- * reaches PostgREST the same way for the same reason.
+ * Plain fetch, not `@supabase/supabase-js`, even though the app now has
+ * that client for accounts (`src/auth/client.ts`). The corpus is public
+ * and is read with the anon key whoever is signed in, so it is kept apart
+ * from the session on purpose: an expired token or a half-finished sign-in
+ * must never be able to empty the feed. The studio reaches PostgREST the
+ * same way.
  *
  * WHAT THE KEY HERE IS, AND IS NOT
  *

@@ -107,6 +107,33 @@ function idFor(link) {
 }
 
 /**
+ * Hosts whose image links are not images to anyone but their own crawler.
+ *
+ * Google Images lists Facebook and Instagram pictures by their
+ * `lookaside` address, which serves the picture to Meta's link-preview
+ * crawler and a login page to everyone else, phones included. Fourteen
+ * facts went live with one, and each showed as a photo card with an empty
+ * photo: the request succeeds, so nothing ever says it failed. Their
+ * `fbcdn` and `cdninstagram` addresses are no better, being signed URLs
+ * that expire within days.
+ */
+const NOT_AN_IMAGE_HOST =
+  /(^|\.)(lookaside\.fbsbx\.com|lookaside\.instagram\.com|fbcdn\.net|cdninstagram\.com)$/i;
+
+/**
+ * Will this URL hand a phone a picture?
+ *
+ * @param {string} url
+ */
+export function servesAnImage(url) {
+  try {
+    return !NOT_AN_IMAGE_HOST.test(new URL(url).hostname);
+  } catch {
+    return false;
+  }
+}
+
+/**
  * One provider's row, in the shape the rest of the studio speaks.
  *
  * @param {{ url: string, page?: string, width: number, height: number, title?: string, site?: string, thumb?: string }} raw
@@ -121,6 +148,7 @@ function toCandidate(raw) {
   const bare = (url.split('?')[0] ?? url).toLowerCase();
   if (BAD_EXTENSION.test(bare)) return null;
   if ((raw.width ?? 0) < MIN_SOURCE_WIDTH) return null;
+  if (!servesAnImage(url)) return null;
 
   let site = String(raw.site ?? '').trim();
   if (site.length === 0 && raw.page) {
@@ -344,7 +372,9 @@ export async function searchImages(query, options = {}) {
     const hit = (await loadCache())[cacheKey(term)];
     if (hit) {
       return {
-        candidates: hit.candidates ?? [],
+        // Filtered on the way out too: searches cached before the host
+        // filter existed still hold Facebook and Instagram rows.
+        candidates: (hit.candidates ?? []).filter((c) => servesAnImage(c.url)),
         warnings: [notice],
         provider: hit.provider ?? 'SerpApi',
         cached: true,

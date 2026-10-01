@@ -34,6 +34,7 @@ import {
 import { SLUG_SHAPE, loadSources, saveSources, slugFrom, titleFrom } from '../pipeline/sources.js';
 import { isRecordPage, trustOf } from '../pipeline/source-trust.js';
 import { loadCached } from '../pipeline/fetch.js';
+import { checkImageUrl } from '../pipeline/image-reachable.js';
 import { cachedSlugs } from '../pipeline/extract.js';
 import { keyOf } from '../pipeline/candidate-key.js';
 import { editFact, loadFactStore, saveFactStore, setQueued } from './facts.js';
@@ -144,8 +145,28 @@ export async function recordImageDecision(body) {
     // An accepted image must exist in the pool, because that is the only
     // place a licence-checked record for it lives. Without this, a typed
     // filename would ship a photograph with no licence behind it.
-    if (findCandidate(pool, chosen) === null) {
+    const candidate = findCandidate(pool, chosen);
+    if (candidate === null) {
       return { ok: false, error: 'That file is not in the licence-checked pool.' };
+    }
+
+    /*
+      The review grid shows the picture through a browser, which sends a
+      browser's headers and the studio's page. A phone sends neither, and
+      a host with hotlink protection (TikTok, many news sites) answers it
+      with a 403. Accepting one of those ships a photo card every phone
+      draws as text, while the studio looks fine. Asked here, as the app
+      asks, so the refusal shows up at the click instead of on a phone.
+      No answer at all is let through: from a managed network that is
+      often the proxy, not the host.
+    */
+    const { verdict, detail } = await checkImageUrl(candidate.url);
+    if (verdict === 'refused') {
+      const host = new URL(candidate.url).hostname;
+      return {
+        ok: false,
+        error: `${host} refuses this picture to phones (${detail}), so the app would show a text card. Pick another.`,
+      };
     }
   }
 

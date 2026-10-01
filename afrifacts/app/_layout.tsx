@@ -23,7 +23,8 @@ import { useCallback, useEffect, useState } from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import 'react-native-reanimated';
 
-import { getFactPool, loadCorpus, loadProgress } from '@/src/data';
+import { AuthProvider } from '@/src/auth';
+import { getFactPool, loadCorpus, loadProgress, startSync } from '@/src/data';
 import { loadNotificationSetting, noteAppOpen, syncNotifications } from '@/src/notifications';
 import { loadQuizLength } from '@/src/quiz/length';
 import {
@@ -98,7 +99,9 @@ function CouldNotLoad({ message, onRetry }: { message: string; onRetry: () => vo
 export default function RootLayout() {
   return (
     <AppThemeProvider>
-      <RootLayoutNav />
+      <AuthProvider>
+        <RootLayoutNav />
+      </AuthProvider>
     </AppThemeProvider>
   );
 }
@@ -151,6 +154,9 @@ function RootLayoutNav() {
         loadProgress(),
         loadQuizLength(),
       ]);
+        // After the device's own progress is in memory, never before: a sync
+        // that merged into an empty record would be overwritten by the load.
+        startSync();
         void syncNotifications(getFactPool()).catch(() => {
           // Permission revoked, or the OS refused. `syncNotifications`
           // has already switched the setting off to match.
@@ -245,6 +251,8 @@ function RootLayoutNav() {
         <Stack.Screen name="quiz/play" />
         <Stack.Screen name="quiz/score" />
         <Stack.Screen name="settings" />
+        <Stack.Screen name="auth/sign-in" options={{ presentation: 'modal' }} />
+        <Stack.Screen name="auth/reset-password" />
         {/* Drops from the top over the feed, so the keyboard it opens with
             covers the scrim rather than the results. */}
         <Stack.Screen
