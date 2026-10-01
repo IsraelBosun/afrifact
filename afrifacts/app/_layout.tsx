@@ -7,15 +7,16 @@ import {
   Poppins_500Medium,
   Poppins_700Bold,
 } from '@expo-google-fonts/poppins';
+import { useFonts } from 'expo-font';
+import * as Notifications from 'expo-notifications';
 import {
   DarkTheme,
   DefaultTheme,
+  router,
+  Stack,
   ThemeProvider,
   type Theme,
-} from '@react-navigation/native';
-import { useFonts } from 'expo-font';
-import * as Notifications from 'expo-notifications';
-import { router, Stack } from 'expo-router';
+} from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import * as SplashScreen from 'expo-splash-screen';
 import * as SystemUI from 'expo-system-ui';

@@ -123,7 +123,7 @@ export default function CountryPickerScreen() {
 
 const styles = StyleSheet.create({
   root: { flex: 1, justifyContent: 'flex-end' },
-  scrim: { ...StyleSheet.absoluteFillObject },
+  scrim: { ...StyleSheet.absoluteFill },
   sheet: {
     maxHeight: '82%',
     borderTopLeftRadius: radius.sheet,

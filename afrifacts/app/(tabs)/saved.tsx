@@ -258,7 +258,7 @@ const styles = StyleSheet.create({
   },
   emptyHint: { textAlign: 'center', maxWidth: 240 },
   photoTile: { padding: 0, justifyContent: 'flex-end' },
-  tileImage: { ...StyleSheet.absoluteFillObject },
+  tileImage: { ...StyleSheet.absoluteFill },
   tileOverlay: { padding: spacing.lg, backgroundColor: 'rgba(0,0,0,0.45)' },
   tileText: { lineHeight: 18 },
   // Stops "BUSINESS" running under the remove button on a narrow tile.

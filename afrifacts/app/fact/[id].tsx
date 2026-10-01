@@ -329,7 +329,7 @@ const styles = StyleSheet.create({
   scroll: { paddingBottom: spacing.xl },
   missing: { padding: metrics.screenPadding },
   hero: { height: HERO_HEIGHT },
-  heroImage: { ...StyleSheet.absoluteFillObject },
+  heroImage: { ...StyleSheet.absoluteFill },
   headerBar: { position: 'absolute', top: 0, left: 0, right: 0 },
   headerFill: { borderBottomWidth: StyleSheet.hairlineWidth },
   heroBar: {
