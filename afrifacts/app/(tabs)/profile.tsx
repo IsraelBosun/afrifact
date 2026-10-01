@@ -5,6 +5,8 @@ import { Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { useAuth } from '@/src/auth';
+import { DailyFactsSection } from '@/src/components/DailyFactsSection';
+import { ThemePicker } from '@/src/components/ThemePicker';
 import {
   getUserProfile,
   getUserStats,
@@ -25,6 +27,9 @@ import {
 } from '@/src/theme';
 
 const DAY_LABELS = ['M', 'T', 'W', 'T', 'F', 'S', 'S'];
+
+/** Off until Premium exists: a card whose button does nothing is a broken promise. */
+const SHOW_PREMIUM = false;
 
 /*
   Facts read before the account card appears. Offering an account on a
@@ -216,18 +221,27 @@ export default function ProfileScreen() {
           </Pressable>
         )}
 
+        {/*
+          The two settings people actually change, where they already look.
+          Account and About stay behind the gear.
+        */}
+        <DailyFactsSection />
+        <ThemePicker />
+
         {/* An invitation, never a wall or an interruption. */}
-        <View style={[styles.premium, { backgroundColor: categoryColors.Business.dark }]}>
-          <Text style={[typeScale.screenTitle, { color: '#FFFFFF' }]}>AfriFacts Premium</Text>
-          <Text style={[typeScale.body, { color: categoryColors.Business.light }]}>
-            Unlimited AI questions, no ads, full quiz packs and offline mode.
-          </Text>
-          <Pressable style={styles.premiumBtn}>
-            <Text style={[typeScale.label, { color: categoryColors.Business.dark }]}>
-              Try it free
+        {SHOW_PREMIUM && (
+          <View style={[styles.premium, { backgroundColor: categoryColors.Business.dark }]}>
+            <Text style={[typeScale.screenTitle, { color: '#FFFFFF' }]}>AfriFacts Premium</Text>
+            <Text style={[typeScale.body, { color: categoryColors.Business.light }]}>
+              Unlimited AI questions, no ads, full quiz packs and offline mode.
             </Text>
-          </Pressable>
-        </View>
+            <Pressable style={styles.premiumBtn}>
+              <Text style={[typeScale.label, { color: categoryColors.Business.dark }]}>
+                Try it free
+              </Text>
+            </Pressable>
+          </View>
+        )}
       </ScrollView>
     </SafeAreaView>
   );
